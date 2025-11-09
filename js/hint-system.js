@@ -27,33 +27,44 @@ const HintSystem = {
             MathMagic.showMessage('これ以上ヒントはありません', 'info');
             return;
         }
-        
-        // 確認ダイアログ
-        const confirmed = confirm(
-            `ヒント${this.currentHintLevel + 1}を見ますか？\n` +
-            `（ヒントを使うと、もらえる経験値が少し減ります）`
-        );
-        
-        if (!confirmed) {
-            return;
+
+        // ヒントポーションをチェック
+        let isFree = false;
+        if (window.BattleItems && BattleItems.useFreeHint()) {
+            isFree = true;
+            MathMagic.showMessage('ヒントポーションの効果で無料！', 'success');
+        } else {
+            // 確認ダイアログ
+            const confirmed = confirm(
+                `ヒント${this.currentHintLevel + 1}を見ますか？\n` +
+                `（ヒントを使うと、もらえる経験値が少し減ります）`
+            );
+
+            if (!confirmed) {
+                return;
+            }
         }
-        
+
         // ローディング表示
         this.showLoading();
-        
+
         try {
             // ヒントを取得（AIから生成 or 事前定義）
             const hint = await this.getHint(this.currentHintLevel + 1);
-            
+
             this.currentHintLevel++;
-            this.hintsUsed.push(hint);
-            
+
+            // 無料の場合はカウントしない
+            if (!isFree) {
+                this.hintsUsed.push(hint);
+            }
+
             // ヒント表示
             this.displayHint(hint);
-            
+
             // UI更新
             this.updateUI();
-            
+
         } catch (error) {
             console.error('ヒント取得エラー:', error);
             MathMagic.showMessage('ヒントの取得に失敗しました', 'error');

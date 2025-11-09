@@ -464,6 +464,15 @@ function handleCorrectAnswer(userAnswer) {
         const expModifier = window.HintSystem ? HintSystem.getExpModifier() : 1.0;
         let xpGained = Math.floor(currentProblem.xp * expModifier);
 
+        // アイテムによる経験値ブースト
+        if (window.BattleItems) {
+            const expBoost = BattleItems.getExpBoost();
+            if (expBoost > 1.0) {
+                xpGained = Math.floor(xpGained * expBoost);
+                console.log(`⭐ アイテム効果！経験値${expBoost}倍`);
+            }
+        }
+
         // モンスター撃破ボーナス
         if (window.BattleSystem) {
             const monsterBonus = BattleSystem.defeatMonster();

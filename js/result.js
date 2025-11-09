@@ -91,6 +91,24 @@ function showCorrectResult() {
     console.log('📈 経験値を追加します');
     addExperience(lastResult.xpGained);
 
+    // ゴールドを追加（経験値の10%）
+    if (window.ShopSystem) {
+        const goldGained = Math.floor(lastResult.xpGained * 0.1);
+        ShopSystem.addGold(player, goldGained);
+        console.log(`💰 ゴールド獲得: ${goldGained}G`);
+    }
+
+    // アイテムドロップ判定
+    if (window.ItemDropSystem && lastResult.monsterDefeated) {
+        console.log('🎁 アイテムドロップ判定を実行');
+        setTimeout(() => {
+            const droppedItem = ItemDropSystem.dropItem(player);
+            if (droppedItem) {
+                ItemDropSystem.showDropAnimation(droppedItem.itemId, droppedItem.rarity);
+            }
+        }, 1000); // 1秒後にドロップアニメーション
+    }
+
     // AI解説を表示（正解時のみ）
     if (lastResult.problem) {
         console.log('📝 解説を表示します');

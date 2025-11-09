@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>インベントリ - マスマジ！</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="min-h-screen fantasy-bg">
+    <header class="bg-white/10 backdrop-blur-md shadow-lg">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <h1 class="text-2xl font-bold text-white">
+                    <i class="fas fa-backpack mr-2"></i>インベントリ
+                </h1>
+                <button id="back-btn" class="bg-white/20 hover:bg-white/30 text-white px-4 py-2 rounded-full transition">
+                    <i class="fas fa-arrow-left mr-2"></i>戻る
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+        <div class="max-w-6xl mx-auto">
+            <!-- プレイヤー情報 -->
+            <div class="bg-white/90 backdrop-blur-sm rounded-2xl p-6 shadow-xl mb-6">
+                <div class="flex items-center justify-between">
+                    <div class="flex items-center space-x-4">
+                        <div class="text-6xl" id="player-character">🧙</div>
+                        <div>
+                            <h2 class="text-2xl font-bold text-gray-800" id="player-name">冒険者</h2>
+                            <div class="text-gray-600">
+                                <span id="player-grade">小学3年生</span> |
+                                Lv.<span id="player-level">1</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-right">
+                        <div class="text-sm text-gray-600">所持アイテム</div>
+                        <div class="text-3xl font-bold text-purple-600"><span id="total-items">0</span>個</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- タブメニュー -->
+            <div class="bg-white/90 backdrop-blur-sm rounded-2xl shadow-xl mb-6 p-2">
+                <div class="flex space-x-2">
+                    <button class="tab-btn active flex-1 py-3 rounded-xl font-bold transition" data-tab="equipment">
+                        <i class="fas fa-shield-alt mr-2"></i>装備品
+                    </button>
+                    <button class="tab-btn flex-1 py-3 rounded-xl font-bold transition" data-tab="consumables">
+                        <i class="fas fa-flask mr-2"></i>消費アイテム
+                    </button>
+                    <button class="tab-btn flex-1 py-3 rounded-xl font-bold transition" data-tab="all">
+                        <i class="fas fa-list mr-2"></i>すべて
+                    </button>
+                </div>
+            </div>
+
+            <!-- 装備中アイテム -->
+            <div id="equipped-section" class="bg-white/90 backdrop-blur-sm rounded-2xl p-6 shadow-xl mb-6">
+                <h2 class="text-xl font-bold text-gray-800 mb-4">
+                    <i class="fas fa-user-shield text-green-600 mr-2"></i>装備中
+                </h2>
+                <div id="equipped-items" class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <!-- 装備中アイテムは動的生成 -->
+                </div>
+            </div>
+
+            <!-- アイテムリスト -->
+            <div class="bg-white/90 backdrop-blur-sm rounded-2xl p-6 shadow-xl">
+                <h2 class="text-xl font-bold text-gray-800 mb-4">
+                    <i class="fas fa-box text-purple-600 mr-2"></i>
+                    <span id="tab-title">すべてのアイテム</span>
+                </h2>
+                <div id="item-list" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <!-- アイテムカードは動的生成 -->
+                </div>
+                <div id="no-items" class="hidden text-center py-12">
+                    <div class="text-8xl mb-4">📦</div>
+                    <p class="text-gray-600 font-bold text-xl">アイテムがありません</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/main.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/inventory-system.js"></script>
+    <script src="js/sound-system.js"></script>
+    <script src="js/inventory-ui.js"></script>
+</body>
+</html>

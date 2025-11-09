@@ -76,7 +76,8 @@ const InventorySystem = {
             description: 'ヒントが1回無料になる',
             effect: { freeHint: 1 },
             rarity: 'common',
-            consumable: true
+            consumable: true,
+            usableInBattle: false
         },
         'exp_potion': {
             name: '経験の薬',
@@ -85,7 +86,8 @@ const InventorySystem = {
             description: '経験値を100獲得する',
             effect: { exp: 100 },
             rarity: 'common',
-            consumable: true
+            consumable: true,
+            usableInBattle: false
         },
         'skill_book': {
             name: 'スキルブック',
@@ -94,7 +96,80 @@ const InventorySystem = {
             description: 'ランダムなスキルを習得',
             effect: { skill: 'random' },
             rarity: 'rare',
-            consumable: true
+            consumable: true,
+            usableInBattle: false
+        },
+
+        // バトル用消費アイテム
+        'hp_potion_small': {
+            name: 'HP回復薬（小）',
+            type: 'consumable',
+            icon: '❤️',
+            description: 'HPを30回復する',
+            effect: { healHP: 30 },
+            rarity: 'common',
+            consumable: true,
+            usableInBattle: true
+        },
+        'hp_potion_medium': {
+            name: 'HP回復薬（中）',
+            type: 'consumable',
+            icon: '💖',
+            description: 'HPを50回復する',
+            effect: { healHP: 50 },
+            rarity: 'rare',
+            consumable: true,
+            usableInBattle: true
+        },
+        'hp_potion_large': {
+            name: 'HP回復薬（大）',
+            type: 'consumable',
+            icon: '💗',
+            description: 'HPを全回復する',
+            effect: { healHP: 100 },
+            rarity: 'epic',
+            consumable: true,
+            usableInBattle: true
+        },
+        'hint_potion': {
+            name: 'ヒントポーション',
+            type: 'consumable',
+            icon: '💡',
+            description: 'ヒントを無料で見られる（1回）',
+            effect: { freeHintNow: 1 },
+            rarity: 'common',
+            consumable: true,
+            usableInBattle: true
+        },
+        'exp_booster': {
+            name: '経験値ブースター',
+            type: 'consumable',
+            icon: '⭐',
+            description: '次の問題の経験値が1.5倍（1問のみ）',
+            effect: { expBoostNext: 1.5 },
+            rarity: 'rare',
+            consumable: true,
+            usableInBattle: true
+        },
+        'combo_shield': {
+            name: 'コンボシールド',
+            type: 'consumable',
+            icon: '🛡️',
+            description: '1回不正解でもコンボが途切れない',
+            effect: { comboProtect: 1 },
+            rarity: 'epic',
+            consumable: true,
+            usableInBattle: true
+        },
+        'attack_up': {
+            name: '攻撃力アップ',
+            type: 'consumable',
+            icon: '⚔️',
+            description: '次の攻撃のダメージが2倍（1問のみ）',
+            effect: { damageBoostNext: 2.0 },
+            rarity: 'rare',
+            consumable: true,
+            usableInBattle: true
         }
     },
 

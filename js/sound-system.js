@@ -12,6 +12,25 @@ const SoundSystem = {
     // Web Audio API用のコンテキスト
     audioContext: null,
 
+    // 音声ファイルのパス（オプション）
+    soundFiles: {
+        'correct': null,     // 正解音（未設定の場合はビープ）
+        'wrong': null,       // 不正解音（未設定の場合はビープ）
+        'click': null,       // クリック音（未設定の場合はビープ）
+        'levelup': null,     // レベルアップ音（未設定の場合はビープ）
+        'coin': null,        // コイン音（未設定の場合はビープ）
+        'open': null,        // 開く音（未設定の場合はビープ）
+        'close': null,       // 閉じる音（未設定の場合はビープ）
+        'fanfare': null,     // ファンファーレ（未設定の場合はビープ）
+        'attack': null,      // 攻撃音
+        'damage': null,      // ダメージ音
+        'heal': null,        // 回復音
+        'combo': null        // コンボ音
+    },
+
+    // ロード済み音声ファイルのキャッシュ
+    audioCache: {},
+
     /**
      * 初期化
      */
@@ -34,10 +53,19 @@ const SoundSystem = {
     },
 
     /**
-     * 効果音を再生（ビープ音で代用）
+     * 効果音を再生（音声ファイルまたはビープ音）
      */
     playSound: function(soundType) {
-        if (!this.enabled || !this.audioContext) return;
+        if (!this.enabled) return;
+
+        // 音声ファイルが設定されていれば再生
+        if (this.soundFiles[soundType]) {
+            this.playAudioFile(soundType);
+            return;
+        }
+
+        // 音声ファイルがなければビープ音で代用
+        if (!this.audioContext) return;
 
         const sounds = {
             'correct': { freq: 880, duration: 0.15, type: 'sine' },
@@ -47,7 +75,11 @@ const SoundSystem = {
             'coin': { freq: 1047, duration: 0.1, type: 'triangle' },
             'open': { freq: 659, duration: 0.1, type: 'sine' },
             'close': { freq: 523, duration: 0.1, type: 'sine' },
-            'fanfare': { freq: [523, 659, 784, 1047, 1319], duration: 0.3, type: 'sine' }
+            'fanfare': { freq: [523, 659, 784, 1047, 1319], duration: 0.3, type: 'sine' },
+            'attack': { freq: 330, duration: 0.2, type: 'sawtooth' },
+            'damage': { freq: 165, duration: 0.25, type: 'square' },
+            'heal': { freq: [659, 784, 1047], duration: 0.15, type: 'sine' },
+            'combo': { freq: [523, 659, 784], duration: 0.1, type: 'triangle' }
         };
 
         const sound = sounds[soundType];
@@ -63,6 +95,28 @@ const SoundSystem = {
         } else {
             this.beep(sound.freq, sound.duration, sound.type);
         }
+    },
+
+    /**
+     * 音声ファイルを再生
+     */
+    playAudioFile: function(soundType) {
+        const filePath = this.soundFiles[soundType];
+        if (!filePath) return;
+
+        // キャッシュから取得または新規作成
+        if (!this.audioCache[soundType]) {
+            this.audioCache[soundType] = new Audio(filePath);
+            this.audioCache[soundType].volume = this.volume;
+        }
+
+        const audio = this.audioCache[soundType].cloneNode();
+        audio.volume = this.volume;
+        audio.play().catch(err => {
+            console.warn(`音声再生エラー (${soundType}):`, err);
+            // エラー時はビープ音にフォールバック
+            this.playSound(soundType);
+        });
     },
 
     /**

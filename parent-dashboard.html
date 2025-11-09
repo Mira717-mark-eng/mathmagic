@@ -31,6 +31,15 @@
                     保護者ダッシュボード
                 </h1>
                 <div class="flex space-x-2">
+                    <button id="give-items-btn" class="bg-purple-500 hover:bg-purple-600 text-white px-4 py-2 rounded-full transition">
+                        <i class="fas fa-gift mr-2"></i>テスト用アイテム
+                    </button>
+                    <button id="backup-btn" class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-full transition">
+                        <i class="fas fa-download mr-2"></i>バックアップ
+                    </button>
+                    <button id="restore-btn" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-full transition">
+                        <i class="fas fa-upload mr-2"></i>復元
+                    </button>
                     <button id="back-btn" class="bg-white/20 hover:bg-white/30 text-white px-4 py-2 rounded-full transition">
                         <i class="fas fa-arrow-left mr-2"></i>戻る
                     </button>
@@ -162,11 +171,15 @@
         </div>
     </main>
     
+    <!-- 隠しファイル入力 -->
+    <input type="file" id="restore-file-input" accept=".json" style="display: none;">
+
     <!-- Scripts -->
     <script src="js/main.js"></script>
     <script src="js/sound-system.js"></script>
     <script src="js/player.js"></script>
+    <script src="js/backup-system.js"></script>
     <script src="js/parent-stats.js"></script>
-    
+
 </body>
 </html>

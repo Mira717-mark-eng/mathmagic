@@ -155,6 +155,15 @@ const BattleSystem = {
             console.log('💥 超コンボ！ダメージ2倍');
         }
 
+        // アイテムによるダメージブースト
+        if (window.BattleItems) {
+            const damageBoost = BattleItems.getDamageBoost();
+            if (damageBoost > 1.0) {
+                damage = Math.floor(damage * damageBoost);
+                console.log(`⚔️ アイテム効果！ダメージ${damageBoost}倍`);
+            }
+        }
+
         // モンスターにダメージ
         this.damageMonster(damage);
 
@@ -173,9 +182,15 @@ const BattleSystem = {
     onWrongAnswer: function() {
         console.log('❌ 不正解！モンスターの攻撃');
 
-        // コンボリセット
-        this.comboCount = 0;
-        this.updateComboDisplay();
+        // コンボシールドチェック
+        if (window.BattleItems && BattleItems.useComboProtect()) {
+            // コンボシールドが発動した場合、コンボは維持される
+            console.log('🛡️ コンボシールド発動！コンボ維持');
+        } else {
+            // コンボリセット
+            this.comboCount = 0;
+            this.updateComboDisplay();
+        }
 
         // プレイヤーにダメージ
         this.damagePlayer(this.playerDamageOnWrong);

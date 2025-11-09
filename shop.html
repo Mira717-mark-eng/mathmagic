@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ショップ - マスマジ！</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="min-h-screen fantasy-bg">
+    <header class="bg-white/10 backdrop-blur-md shadow-lg">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <h1 class="text-2xl font-bold text-white">
+                    <i class="fas fa-store mr-2"></i>アイテムショップ
+                </h1>
+                <div class="flex items-center space-x-4">
+                    <div class="bg-yellow-500 rounded-full px-4 py-2 border-2 border-yellow-300">
+                        <i class="fas fa-coins text-white mr-2"></i>
+                        <span class="text-white font-bold"><span id="player-gold">0</span> G</span>
+                    </div>
+                    <button id="back-btn" class="bg-white/20 hover:bg-white/30 text-white px-4 py-2 rounded-full transition">
+                        <i class="fas fa-arrow-left mr-2"></i>戻る
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+        <div class="max-w-6xl mx-auto">
+            <!-- ショップキーパー -->
+            <div class="bg-white/90 backdrop-blur-sm rounded-2xl p-6 shadow-xl mb-6 text-center">
+                <div class="text-8xl mb-2">🧙‍♂️</div>
+                <h2 class="text-xl font-bold text-gray-800">ようこそ、冒険者よ！</h2>
+                <p class="text-gray-600">便利なアイテムを取り揃えておるぞ！</p>
+            </div>
+
+            <!-- 商品リスト -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- 商品カードは動的生成 -->
+                <div id="shop-items"></div>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/main.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/inventory-system.js"></script>
+    <script src="js/sound-system.js"></script>
+    <script src="js/shop-system.js"></script>
+</body>
+</html>

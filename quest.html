@@ -121,6 +121,13 @@
                                 </div>
                             </div>
                         </div>
+
+                        <!-- アイテムボタン（左下） -->
+                        <div class="absolute bottom-3 left-3 z-10">
+                            <button id="item-menu-btn" class="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white font-bold px-4 py-2 rounded-full shadow-lg transition transform hover:scale-105 border-2 border-white/50">
+                                <i class="fas fa-magic mr-2"></i>アイテム
+                            </button>
+                        </div>
                     </div>
 
                     <!-- 結果通知エリア -->
@@ -234,6 +241,29 @@
         </div>
     </main>
     
+    <!-- アイテムメニューモーダル -->
+    <div id="item-modal" class="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-50 hidden">
+        <div class="bg-gradient-to-br from-purple-100 to-pink-100 rounded-2xl p-6 shadow-2xl max-w-md w-full mx-4 border-4 border-purple-300">
+            <div class="flex justify-between items-center mb-4">
+                <h2 class="text-2xl font-bold text-purple-900">
+                    <i class="fas fa-magic mr-2"></i>アイテム
+                </h2>
+                <button id="item-modal-close" class="text-gray-600 hover:text-gray-800 text-2xl">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+
+            <div id="item-list" class="space-y-2 max-h-96 overflow-y-auto">
+                <!-- アイテムリストはJavaScriptで動的生成 -->
+            </div>
+
+            <div id="no-items-message" class="hidden text-center py-8">
+                <div class="text-6xl mb-3">📦</div>
+                <p class="text-gray-600 font-bold">バトルで使えるアイテムがありません</p>
+            </div>
+        </div>
+    </div>
+
     <!-- ローディング -->
     <div id="loading" class="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center z-50 hidden">
         <div class="bg-white rounded-2xl p-8 shadow-2xl text-center">
@@ -302,9 +332,11 @@
     <script src="js/worlds.js"></script>
     <script src="js/monster-database.js"></script>
     <script src="js/battle-system.js"></script>
+    <script src="js/inventory-system.js"></script>
     <script src="js/figure-drawer.js"></script>
     <script src="js/hint-system.js"></script>
     <script src="js/quest.js"></script>
+    <script src="js/battle-items.js"></script>
 
 </body>
 </html>
