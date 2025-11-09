@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>デバッグ - ワールドマップ</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="min-h-screen bg-gradient-to-br from-purple-900 to-blue-900 p-8">
+
+    <div class="max-w-4xl mx-auto">
+        <div class="bg-white rounded-xl shadow-2xl p-8 mb-6">
+            <h1 class="text-3xl font-bold mb-6 text-gray-800">
+                <i class="fas fa-bug mr-2 text-red-500"></i>
+                デバッグツール - ワールドマップ
+            </h1>
+
+            <!-- デバッグコントロール -->
+            <div class="bg-gray-100 rounded-lg p-4 mb-6">
+                <h2 class="text-xl font-bold mb-4">テストプレイヤー作成</h2>
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                    <button onclick="createTestPlayer(1)" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded">小学1年生</button>
+                    <button onclick="createTestPlayer(2)" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded">小学2年生</button>
+                    <button onclick="createTestPlayer(3)" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded">小学3年生</button>
+                    <button onclick="createTestPlayer(4)" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded">小学4年生</button>
+                    <button onclick="createTestPlayer(5)" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded">小学5年生</button>
+                    <button onclick="createTestPlayer(6)" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded">小学6年生</button>
+                    <button onclick="createTestPlayer(7)" class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded">中学1年生</button>
+                    <button onclick="createTestPlayer(8)" class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded">中学2年生</button>
+                    <button onclick="createTestPlayer(9)" class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded">中学3年生</button>
+                </div>
+                <div class="mt-4">
+                    <button onclick="showCurrentPlayer()" class="bg-gray-600 hover:bg-gray-700 text-white px-4 py-2 rounded mr-2">現在のプレイヤー情報表示</button>
+                    <button onclick="clearData()" class="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded">データクリア</button>
+                </div>
+            </div>
+
+            <!-- プレイヤー情報表示 -->
+            <div id="player-info" class="bg-blue-50 rounded-lg p-4 mb-6 hidden">
+                <h3 class="text-lg font-bold mb-2">現在のプレイヤー</h3>
+                <pre id="player-data" class="bg-white p-4 rounded overflow-auto text-sm"></pre>
+            </div>
+
+            <!-- ワールド情報表示 -->
+            <div class="bg-green-50 rounded-lg p-4">
+                <h3 class="text-lg font-bold mb-2">利用可能なワールド</h3>
+                <div id="available-worlds" class="bg-white p-4 rounded">
+                    <p class="text-gray-500">テストプレイヤーを作成してください</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ワールドマップへのリンク -->
+        <div class="text-center">
+            <a href="world-map.html" class="inline-block bg-purple-600 hover:bg-purple-700 text-white px-8 py-4 rounded-lg text-xl font-bold shadow-lg">
+                <i class="fas fa-map mr-2"></i>
+                ワールドマップを開く
+            </a>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/worlds.js"></script>
+
+    <script>
+        // テストプレイヤー作成
+        function createTestPlayer(grade) {
+            const gradeNames = ['', '小1', '小2', '小3', '小4', '小5', '小6', '中1', '中2', '中3'];
+            const testPlayer = {
+                id: 'test-' + Date.now(),
+                name: `テスト${gradeNames[grade]}`,
+                grade: grade,
+                characterType: 'wizard',
+                level: 10,  // レベル10に変更（すべてのワールドにアクセス可能）
+                exp: 0,
+                totalProblems: 0,
+                correctProblems: 0,
+                consecutiveCorrect: 0,
+                consecutiveWrong: 0,
+                currentDifficulty: 'normal',
+                weakAreas: [],
+                inventory: [],
+                equipment: {},
+                completedWorlds: [],
+                createdAt: new Date().toISOString(),
+                lastPlayedAt: new Date().toISOString()
+            };
+
+            MathMagic.setItem('currentPlayer', testPlayer);
+            console.log('テストプレイヤー作成:', testPlayer);
+
+            MathMagic.showMessage(`${gradeNames[grade]}のテストプレイヤーを作成しました`, 'success');
+
+            showCurrentPlayer();
+            showAvailableWorlds();
+        }
+
+        // 現在のプレイヤー情報を表示
+        function showCurrentPlayer() {
+            const player = MathMagic.getCurrentPlayer();
+            const playerInfo = document.getElementById('player-info');
+            const playerData = document.getElementById('player-data');
+
+            if (player) {
+                playerInfo.classList.remove('hidden');
+                playerData.textContent = JSON.stringify(player, null, 2);
+            } else {
+                playerInfo.classList.add('hidden');
+                MathMagic.showMessage('プレイヤーデータがありません', 'warning');
+            }
+        }
+
+        // 利用可能なワールドを表示
+        function showAvailableWorlds() {
+            const player = MathMagic.getCurrentPlayer();
+            const container = document.getElementById('available-worlds');
+
+            if (!player) {
+                container.innerHTML = '<p class="text-gray-500">テストプレイヤーを作成してください</p>';
+                return;
+            }
+
+            // プレイヤーの学年に合ったワールドを取得
+            const availableWorlds = WORLD_DATABASE.filter(world => {
+                // targetGradeが設定されている場合はそれを優先、なければminGrade/maxGradeを使用
+                if (world.targetGrade) {
+                    return player.grade === world.targetGrade;
+                }
+                return player.grade >= world.minGrade && player.grade <= world.maxGrade;
+            });
+
+            console.log(`${player.grade}年生向けワールド:`, availableWorlds.length, '個');
+            console.log('利用可能なワールド:', availableWorlds);
+
+            if (availableWorlds.length === 0) {
+                container.innerHTML = `
+                    <p class="text-red-500 font-bold">⚠️ ${player.grade}年生向けのワールドが見つかりません</p>
+                    <p class="text-sm text-gray-600 mt-2">worlds.jsのデータを確認してください</p>
+                `;
+            } else {
+                let html = `<p class="font-bold mb-2">${availableWorlds.length}個のワールドが利用可能です:</p><ul class="space-y-2">`;
+                availableWorlds.forEach(world => {
+                    const isLocked = player.level < world.requiredLevel;
+                    html += `
+                        <li class="border-b pb-2">
+                            <div class="flex items-center justify-between">
+                                <span>
+                                    <span class="text-2xl mr-2">${world.icon}</span>
+                                    <strong>${world.name}</strong>
+                                    ${isLocked ? '<span class="text-red-500">🔒</span>' : '<span class="text-green-500">✓</span>'}
+                                </span>
+                                <span class="text-sm text-gray-600">
+                                    難易度: ${'⭐'.repeat(world.difficulty)} | 必要Lv: ${world.requiredLevel}
+                                </span>
+                            </div>
+                            <p class="text-sm text-gray-600 ml-10">${world.description}</p>
+                        </li>
+                    `;
+                });
+                html += '</ul>';
+                container.innerHTML = html;
+            }
+        }
+
+        // データクリア
+        function clearData() {
+            if (confirm('すべてのデータをクリアしますか？')) {
+                localStorage.clear();
+                MathMagic.showMessage('データをクリアしました', 'info');
+                document.getElementById('player-info').classList.add('hidden');
+                document.getElementById('available-worlds').innerHTML = '<p class="text-gray-500">テストプレイヤーを作成してください</p>';
+            }
+        }
+
+        // ページ読み込み時
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log('デバッグページ初期化');
+            const player = MathMagic.getCurrentPlayer();
+            if (player) {
+                showCurrentPlayer();
+                showAvailableWorlds();
+            }
+        });
+    </script>
+</body>
+</html>

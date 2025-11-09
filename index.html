@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RPG風教育ゲームで楽しく数学を学ぼう！小学生・中学生向けの算数・数学学習アプリ">
+    <meta name="theme-color" content="#9333ea">
+    <title>マスマジ！～魔法数学冒険記～</title>
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.json">
+    
+    <!-- Apple PWA Support -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="マスマジ！">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Cinzel:wght@400;600;700;900&family=MedievalSharp&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="h-screen overflow-hidden flex items-center justify-center fantasy-start-screen">
+
+    <!-- ファンタジー背景画像 -->
+    <div class="fixed inset-0 z-0">
+        <img src="assets/images/backgrounds/fantasy-landscape.jpg" alt="" class="w-full h-full object-cover">
+        <div class="absolute inset-0 bg-black/20"></div>
+    </div>
+
+    <!-- 魔法のパーティクルエフェクト -->
+    <div class="fixed inset-0 overflow-hidden pointer-events-none z-1">
+        <div class="absolute w-2 h-2 bg-yellow-200/60 rounded-full magic-particle" style="top: 10%; left: 20%; animation-delay: 0s;"></div>
+        <div class="absolute w-3 h-3 bg-cyan-200/50 rounded-full magic-particle" style="top: 20%; left: 80%; animation-delay: 1.5s;"></div>
+        <div class="absolute w-2 h-2 bg-pink-200/60 rounded-full magic-particle" style="top: 35%; left: 10%; animation-delay: 2.5s;"></div>
+        <div class="absolute w-3 h-3 bg-purple-200/50 rounded-full magic-particle" style="top: 50%; left: 90%; animation-delay: 3.5s;"></div>
+        <div class="absolute w-2 h-2 bg-emerald-200/60 rounded-full magic-particle" style="top: 65%; left: 15%; animation-delay: 1s;"></div>
+        <div class="absolute w-3 h-3 bg-amber-200/50 rounded-full magic-particle" style="top: 75%; left: 75%; animation-delay: 2s;"></div>
+    </div>
+
+    <div class="max-w-6xl w-full px-8 relative z-10 h-full flex flex-col justify-center">
+
+        <!-- メインタイトルエリア -->
+        <div class="text-center mb-6 animate-fade-in">
+            <h1 class="fantasy-title text-5xl md:text-6xl mb-4 drop-shadow-2xl">
+                マスマジ！
+            </h1>
+            <p class="fantasy-subtitle-main text-2xl md:text-3xl mb-4 drop-shadow-2xl">
+                ～魔法数学冒険記～
+            </p>
+            <div class="flex items-center justify-center space-x-3">
+                <span class="text-2xl animate-bounce-slow">✨</span>
+                <p class="fantasy-tagline text-lg md:text-xl drop-shadow-lg">
+                    数学の魔法で世界を救おう！
+                </p>
+                <span class="text-2xl animate-bounce-slow" style="animation-delay: 0.5s;">✨</span>
+            </div>
+        </div>
+
+        <!-- メニューカード - ギルドホール風 -->
+        <div class="guild-panel-main p-6 animate-slide-up">
+
+            <!-- ボタンエリア -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-5">
+                <!-- 新しい冒険 -->
+                <button id="new-adventure-btn" class="fantasy-button-primary text-xl font-bold py-4 px-6 group">
+                    <div class="flex items-center justify-center">
+                        <i class="fas fa-dragon mr-2 text-2xl group-hover:animate-bounce"></i>
+                        <span>新しい冒険を始める</span>
+                    </div>
+                </button>
+
+                <!-- 続きから -->
+                <button id="continue-btn" class="fantasy-button-secondary text-xl font-bold py-4 px-6 hidden group">
+                    <div class="flex items-center justify-center">
+                        <i class="fas fa-map-marked-alt mr-2 text-2xl group-hover:animate-pulse"></i>
+                        <span>冒険を再開する</span>
+                    </div>
+                </button>
+            </div>
+
+            <!-- 2カラムレイアウト -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+
+                <!-- 左カラム: 説明 -->
+                <div class="ancient-scroll-panel p-5">
+                    <h2 class="ancient-scroll-title text-lg font-bold mb-3 flex items-center justify-center">
+                        <i class="fas fa-book-open text-amber-700 mr-2"></i>
+                        <span>冒険の手引き</span>
+                    </h2>
+                    <ul class="space-y-2 ancient-scroll-text text-sm">
+                        <li class="flex items-start">
+                            <span class="ancient-bullet mr-2">⚔️</span>
+                            <span>キャラクターを作って冒険開始</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="ancient-bullet mr-2">🗺️</span>
+                            <span>ワールドマップから場所を選択</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="ancient-bullet mr-2">📚</span>
+                            <span>問題を解いてアイテムゲット</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="ancient-bullet mr-2">⭐</span>
+                            <span>レベルアップして強くなろう</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="ancient-bullet mr-2">🔥</span>
+                            <span class="text-amber-600 font-bold">連続正解でコンボボーナス</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- 右カラム: 機能紹介 -->
+                <div>
+                    <h2 class="ancient-scroll-title text-lg font-bold mb-3 text-center text-amber-700">
+                        ✨ ゲーム機能 ✨
+                    </h2>
+                    <div class="grid grid-cols-2 gap-3 mb-4">
+                        <div class="treasure-feature-box">
+                            <div class="text-3xl mb-1">🏆</div>
+                            <div class="text-xs font-bold">称号システム</div>
+                        </div>
+                        <div class="treasure-feature-box">
+                            <div class="text-3xl mb-1">🎒</div>
+                            <div class="text-xs font-bold">アイテム収集</div>
+                        </div>
+                        <div class="treasure-feature-box">
+                            <div class="text-3xl mb-1">🔥</div>
+                            <div class="text-xs font-bold">連続ボーナス</div>
+                        </div>
+                        <div class="treasure-feature-box">
+                            <div class="text-3xl mb-1">⚔️</div>
+                            <div class="text-xs font-bold">装備強化</div>
+                        </div>
+                    </div>
+
+                    <!-- 保護者向けリンク -->
+                    <div class="text-center mt-3">
+                        <a href="parent-dashboard.html" class="fantasy-guardian-link inline-flex items-center text-sm">
+                            <i class="fas fa-shield-alt mr-2"></i>
+                            <span>保護者ダッシュボード</span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- フッター -->
+        <div class="text-center mt-4 fantasy-start-footer">
+            <p class="text-sm drop-shadow-lg">© 2024 マスマジ！～魔法数学冒険記～</p>
+            <p class="text-xs mt-1 drop-shadow-md">✨ 楽しく学んで、数学を好きになろう！ ✨</p>
+        </div>
+        
+    </div>
+    
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/sound-system.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/achievement-system.js"></script>
+    <script src="js/inventory-system.js"></script>
+    <script src="js/streak-system.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log('トップ画面を初期化中...');
+
+            // サウンドシステム初期化
+            SoundSystem.init();
+
+            // セーブデータの確認
+            const player = MathMagic.getCurrentPlayer();
+
+            if (player) {
+                // セーブデータがある場合、「続きから」ボタンを表示
+                document.getElementById('continue-btn').classList.remove('hidden');
+
+                // デイリーストリークを更新
+                StreakSystem.updateDailyStreak(player);
+            }
+
+            // 新しい冒険ボタン
+            document.getElementById('new-adventure-btn').addEventListener('click', () => {
+                SoundSystem.playSound('click');
+                SoundSystem.playSound('open');
+
+                // 複数プレイヤーがいる場合はキャラクター選択画面へ
+                const allPlayers = PlayerManager.getAllPlayers();
+                if (allPlayers.length > 0) {
+                    window.location.href = 'character-select.html';
+                } else {
+                    window.location.href = 'player-create.html';
+                }
+            });
+
+            // 続きからボタン
+            const continueBtn = document.getElementById('continue-btn');
+            if (continueBtn) {
+                continueBtn.addEventListener('click', () => {
+                    SoundSystem.playSound('click');
+                    SoundSystem.playSound('open');
+
+                    // 複数プレイヤーがいる場合はキャラクター選択画面へ
+                    const allPlayers = PlayerManager.getAllPlayers();
+                    if (allPlayers.length > 1) {
+                        window.location.href = 'character-select.html';
+                    } else {
+                        window.location.href = 'world-map.html';
+                    }
+                });
+            }
+
+            console.log('トップ画面の初期化完了');
+        });
+    </script>
+    
+    <!-- PWA Service Worker登録 -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js')
+                    .then((registration) => {
+                        console.log('✅ Service Worker登録成功:', registration.scope);
+                        
+                        // 更新をチェック
+                        registration.addEventListener('updatefound', () => {
+                            const newWorker = registration.installing;
+                            newWorker.addEventListener('statechange', () => {
+                                if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                                    console.log('🔄 新しいバージョンが利用可能です');
+                                    // 更新通知を表示（オプション）
+                                    if (confirm('新しいバージョンが利用可能です。ページを再読み込みしますか？')) {
+                                        newWorker.postMessage({ type: 'SKIP_WAITING' });
+                                        window.location.reload();
+                                    }
+                                }
+                            });
+                        });
+                    })
+                    .catch((error) => {
+                        console.warn('⚠️ Service Worker登録失敗:', error);
+                    });
+            });
+        }
+    </script>
+    
+</body>
+</html>

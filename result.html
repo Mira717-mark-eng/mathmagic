@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>結果 - マスマジ！</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="min-h-screen fantasy-bg">
+    
+    <!-- メインコンテンツ -->
+    <main class="container mx-auto px-4 py-8 flex items-center justify-center min-h-screen">
+        <div class="max-w-2xl w-full">
+            
+            <!-- 結果カード -->
+            <div id="result-card" class="result-card animate-zoom-in">
+                
+                <!-- 正解の場合 -->
+                <div id="correct-result" class="result-success hidden">
+                    <div class="text-center mb-8">
+                        <div class="text-8xl mb-4 animate-bounce">🎉</div>
+                        <h1 class="text-6xl font-bold text-green-600 mb-4">正解！</h1>
+                        <p class="text-2xl text-gray-700">素晴らしい！</p>
+                    </div>
+                    
+                    <!-- 経験値獲得 -->
+                    <div class="bg-gradient-to-r from-yellow-400 to-orange-500 rounded-xl p-6 mb-6 text-center shadow-xl animate-pulse">
+                        <div class="text-white text-xl font-bold mb-2">経験値獲得！</div>
+                        <div class="text-5xl font-bold text-white">
+                            +<span id="exp-gained">50</span> XP
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 不正解の場合 -->
+                <div id="incorrect-result" class="result-fail hidden">
+                    <div class="text-center mb-8">
+                        <div class="text-8xl mb-4">💡</div>
+                        <h1 class="text-5xl font-bold text-orange-600 mb-4">惜しい！</h1>
+                        <p class="text-xl text-gray-700 mb-4">もう一歩だったね！</p>
+                        
+                        <div class="bg-blue-100 rounded-xl p-6 border-2 border-blue-300">
+                            <p class="text-gray-600 mb-2">正しい答えは...</p>
+                            <p class="text-5xl font-bold text-blue-600">
+                                <span id="correct-answer">12</span>
+                                <span id="correct-unit">個</span>
+                            </p>
+                        </div>
+                        
+                        <p class="text-lg text-gray-600 mt-4">次も頑張ろう！✨</p>
+                    </div>
+                </div>
+                
+                <!-- レベルアップ演出 -->
+                <div id="levelup-display" class="hidden mb-6">
+                    <div class="levelup-animation bg-gradient-to-r from-purple-600 to-pink-600 rounded-xl p-8 text-center shadow-2xl">
+                        <div class="text-6xl mb-4 animate-bounce">✨</div>
+                        <h2 class="text-4xl font-bold text-white mb-4">レベルアップ！</h2>
+                        <div class="text-3xl font-bold text-yellow-300">
+                            Lv.<span id="old-level">1</span> → Lv.<span id="new-level">2</span>
+                        </div>
+                        <p class="text-white text-xl mt-4">おめでとう！強くなったよ！</p>
+                    </div>
+                </div>
+                
+                <!-- AI解説エリア（正解時のみ表示） -->
+                <div id="explanation-container" class="mb-6"></div>
+                
+                <!-- 統計情報 -->
+                <div class="bg-white/90 rounded-xl p-6 mb-6">
+                    <h3 class="text-xl font-bold text-gray-800 mb-4 text-center">
+                        <i class="fas fa-chart-line text-purple-600 mr-2"></i>
+                        現在の成績
+                    </h3>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="text-center bg-purple-100 rounded-lg p-4">
+                            <div class="text-3xl font-bold text-purple-600" id="current-level">Lv.1</div>
+                            <div class="text-sm text-gray-600">レベル</div>
+                        </div>
+                        <div class="text-center bg-green-100 rounded-lg p-4">
+                            <div class="text-3xl font-bold text-green-600"><span id="accuracy-rate">100</span>%</div>
+                            <div class="text-sm text-gray-600">正答率</div>
+                        </div>
+                        <div class="text-center bg-blue-100 rounded-lg p-4">
+                            <div class="text-3xl font-bold text-blue-600"><span id="total-problems">1</span>問</div>
+                            <div class="text-sm text-gray-600">解いた数</div>
+                        </div>
+                        <div class="text-center bg-orange-100 rounded-lg p-4">
+                            <div class="text-3xl font-bold text-orange-600"><span id="elapsed-time">0:00</span></div>
+                            <div class="text-sm text-gray-600">所要時間</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- ナビゲーション -->
+                <div class="space-y-4">
+                    <!-- 次の問題へ（10問目以外） -->
+                    <button id="next-problem-btn" class="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white text-2xl font-bold py-4 rounded-xl shadow-xl transition transform hover:scale-105">
+                        <i class="fas fa-arrow-right mr-3"></i>
+                        次の問題へ
+                    </button>
+                    
+                    <!-- 結果を見る（10問目） -->
+                    <button id="finish-btn" class="w-full bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white text-2xl font-bold py-4 rounded-xl shadow-xl transition transform hover:scale-105 hidden">
+                        <i class="fas fa-trophy mr-3"></i>
+                        冒険完了！
+                    </button>
+                    
+                    <!-- ワールドマップに戻る -->
+                    <button id="back-to-map-btn" class="w-full bg-gray-500 hover:bg-gray-600 text-white text-lg font-bold py-3 rounded-xl transition">
+                        <i class="fas fa-map mr-2"></i>
+                        ワールドマップに戻る
+                    </button>
+                </div>
+                
+            </div>
+            
+        </div>
+    </main>
+    
+    <!-- Scripts -->
+    <script>
+        // グローバルエラーハンドラー
+        window.addEventListener('error', function(e) {
+            console.error('==================');
+            console.error('🚨 グローバルエラーが発生しました（result.html）');
+            console.error('エラー:', e.error);
+            console.error('メッセージ:', e.message);
+            console.error('ファイル:', e.filename);
+            console.error('行番号:', e.lineno);
+            console.error('==================');
+
+            // エラーダイアログを表示
+            const errorDiv = document.createElement('div');
+            errorDiv.style.cssText = 'position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);background:white;padding:20px;border:3px solid red;z-index:9999;max-width:80%;';
+            errorDiv.innerHTML = `
+                <h2 style="color:red;margin:0 0 10px 0;">❌ エラーが発生しました</h2>
+                <p><strong>メッセージ:</strong> ${e.message}</p>
+                <p><strong>ファイル:</strong> ${e.filename}</p>
+                <p><strong>行番号:</strong> ${e.lineno}</p>
+                <button onclick="this.parentElement.remove()" style="background:red;color:white;padding:10px 20px;border:none;cursor:pointer;margin-top:10px;">閉じる</button>
+                <button onclick="window.location.href='world-map.html'" style="background:blue;color:white;padding:10px 20px;border:none;cursor:pointer;margin-top:10px;margin-left:10px;">ワールドマップに戻る</button>
+            `;
+            document.body.appendChild(errorDiv);
+
+            // デフォルトの動作を防ぐ
+            e.preventDefault();
+            return false;
+        });
+
+        console.log('==================');
+        console.log('📄 result.html読み込み開始');
+        console.log('==================');
+    </script>
+    <script src="js/main.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/result.js"></script>
+
+</body>
+</html>

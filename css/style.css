@@ -1,0 +1,1485 @@
+/**
+ * マスマジ！- カスタムスタイル
+ * ドラゴンクエスト11風デザイン
+ */
+
+/* フォント - DQ風 */
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Noto+Sans+JP:wght@400;700;900&display=swap');
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+}
+
+/* ===== ファンタジーRPG風背景 ===== */
+.fantasy-bg {
+    position: relative;
+    overflow-x: hidden;  /* 横スクロールのみ無効 */
+    overflow-y: auto;    /* 縦スクロール有効 */
+    background-image: url('../assets/images/backgrounds/fantasy-landscape.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* バトルシーン背景 */
+.battle-bg {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    background: #1a1530;
+}
+
+.battle-bg::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../assets/images/backgrounds/battle-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.9;
+    z-index: -1;
+}
+
+/* ギルドホール背景 */
+.guild-bg {
+    position: relative;
+    overflow: hidden;
+    background-image: url('../assets/images/backgrounds/guild-hall.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* 空のグラデーション - 朝焼けの空 */
+.sky-gradient {
+    background: linear-gradient(180deg,
+        #87CEEB 0%,      /* 明るい青空 */
+        #98D8E8 20%,     /* 薄い青 */
+        #FFB6C1 60%,     /* ピンク（朝焼け） */
+        #FFD700 85%,     /* 金色（地平線） */
+        #FFA500 100%     /* オレンジ */
+    );
+}
+
+/* 山々のシルエット */
+.mountains {
+    height: 300px;
+    background:
+        linear-gradient(135deg, transparent 45%, #3a3a52 45.5%, #3a3a52 55%, transparent 55.5%),
+        linear-gradient(115deg, transparent 42%, #4a4a62 42.5%, #4a4a62 58%, transparent 58.5%),
+        linear-gradient(125deg, transparent 48%, #2a2a42 48.5%, #2a2a42 52%, transparent 52.5%);
+    background-size: 400px 300px, 500px 300px, 300px 300px;
+    background-position: 0% 100%, 30% 100%, 60% 100%;
+    opacity: 0.6;
+}
+
+/* 城のシルエット */
+.castle-silhouette {
+    bottom: 100px;
+    right: 10%;
+    width: 200px;
+    height: 180px;
+    background: linear-gradient(to top, #2a2a42 0%, #3a3a52 100%);
+    clip-path: polygon(
+        20% 100%, 20% 40%, 0% 40%, 0% 30%, 15% 30%, 15% 20%, 25% 20%, 25% 0%, 35% 0%, 35% 20%, 45% 20%, 45% 10%, 55% 10%, 55% 20%, 65% 20%, 65% 0%, 75% 0%, 75% 20%, 85% 20%, 85% 30%, 100% 30%, 100% 40%, 80% 40%, 80% 100%
+    );
+    opacity: 0.5;
+}
+
+/* 草原 */
+.grassland {
+    height: 150px;
+    background: linear-gradient(180deg,
+        #90EE90 0%,      /* 明るい緑 */
+        #7CCD7C 50%,     /* 草の緑 */
+        #6B8E23 100%     /* 濃い緑 */
+    );
+}
+
+/* 魔法のパーティクル */
+.magic-particle {
+    animation: magic-float 4s ease-in-out infinite;
+    filter: blur(1px);
+    box-shadow: 0 0 20px currentColor;
+}
+
+@keyframes magic-float {
+    0%, 100% {
+        transform: translateY(0) scale(1);
+        opacity: 0.6;
+    }
+    50% {
+        transform: translateY(-30px) scale(1.2);
+        opacity: 1;
+    }
+}
+
+/* DQ風テキストシャドウ */
+.dq-text {
+    font-family: 'DotGothic16', 'Noto Sans JP', sans-serif;
+    text-shadow:
+        2px 2px 0 #000,
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        3px 3px 5px rgba(0,0,0,0.5);
+}
+
+/* ===== ファンタジーパネル（木目調） ===== */
+.fantasy-panel {
+    background:
+        linear-gradient(90deg, rgba(101, 67, 33, 0.1) 0%, transparent 10%, transparent 90%, rgba(101, 67, 33, 0.1) 100%),
+        repeating-linear-gradient(90deg, #8B4513 0px, #A0522D 2px, #8B4513 4px),
+        linear-gradient(180deg, #654321 0%, #5d3a1a 100%);
+    border: 6px solid;
+    border-image: linear-gradient(135deg, #D4AF37 0%, #FFD700 25%, #DAA520 50%, #B8860B 75%, #D4AF37 100%) 1;
+    border-radius: 16px;
+    box-shadow:
+        inset 0 2px 4px rgba(255, 215, 0, 0.3),
+        inset 0 -2px 4px rgba(0, 0, 0, 0.5),
+        0 10px 40px rgba(0, 0, 0, 0.8),
+        0 0 0 2px rgba(139, 69, 19, 0.8);
+    position: relative;
+}
+
+.fantasy-panel::before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    border: 3px solid rgba(212, 175, 55, 0.5);
+    border-radius: 10px;
+    pointer-events: none;
+}
+
+/* ギルドホールパネル（石壁風） */
+.guild-panel {
+    background:
+        radial-gradient(circle at 20% 30%, rgba(160, 160, 160, 0.2) 0%, transparent 3%),
+        radial-gradient(circle at 80% 70%, rgba(140, 140, 140, 0.2) 0%, transparent 3%),
+        radial-gradient(circle at 40% 80%, rgba(150, 150, 150, 0.2) 0%, transparent 3%),
+        linear-gradient(135deg, #4a4a4a 0%, #5a5a5a 50%, #4a4a4a 100%);
+    border: 8px solid;
+    border-image: linear-gradient(135deg, #8B7355 0%, #A0826D 25%, #8B7355 50%, #6F5E49 75%, #8B7355 100%) 1;
+    border-radius: 12px;
+    box-shadow:
+        inset 0 4px 8px rgba(0, 0, 0, 0.6),
+        inset 0 -4px 8px rgba(255, 255, 255, 0.1),
+        0 12px 48px rgba(0, 0, 0, 0.9),
+        0 0 0 3px rgba(101, 67, 33, 0.8);
+    position: relative;
+}
+
+.guild-panel::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background:
+        repeating-linear-gradient(0deg, transparent 0px, rgba(0, 0, 0, 0.03) 1px, transparent 2px),
+        repeating-linear-gradient(90deg, transparent 0px, rgba(0, 0, 0, 0.03) 1px, transparent 2px);
+    background-size: 100% 4px, 4px 100%;
+    pointer-events: none;
+    border-radius: 8px;
+}
+
+/* DQ風ウィンドウ */
+.dq-window {
+    background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 50%, #2563eb 100%);
+    border: 4px solid #fbbf24;
+    border-radius: 8px;
+    box-shadow:
+        inset 0 0 20px rgba(251, 191, 36, 0.3),
+        0 8px 32px rgba(0, 0, 0, 0.6),
+        0 0 0 2px #92400e;
+    position: relative;
+}
+
+.dq-window::before {
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    right: 8px;
+    bottom: 8px;
+    border: 2px solid rgba(251, 191, 36, 0.4);
+    border-radius: 4px;
+    pointer-events: none;
+}
+
+/* DQ風金色テキスト */
+.dq-gold-text {
+    color: #fbbf24;
+    text-shadow:
+        1px 1px 0 #92400e,
+        2px 2px 4px rgba(0,0,0,0.8);
+    font-weight: 900;
+}
+
+/* DQ風ボタン */
+.dq-button {
+    background: linear-gradient(180deg, #fbbf24 0%, #f59e0b 50%, #d97706 100%);
+    border: 3px solid #fff;
+    border-radius: 8px;
+    box-shadow:
+        0 6px 0 #92400e,
+        0 8px 16px rgba(0,0,0,0.4),
+        inset 0 2px 0 rgba(255,255,255,0.4);
+    color: #1e293b;
+    font-weight: 900;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+    transition: all 0.1s ease;
+    position: relative;
+    cursor: pointer;
+}
+
+.dq-button:hover {
+    background: linear-gradient(180deg, #fcd34d 0%, #fbbf24 50%, #f59e0b 100%);
+    transform: translateY(-2px);
+    box-shadow:
+        0 8px 0 #92400e,
+        0 12px 20px rgba(0,0,0,0.5),
+        inset 0 2px 0 rgba(255,255,255,0.5);
+}
+
+.dq-button:active {
+    transform: translateY(4px);
+    box-shadow:
+        0 2px 0 #92400e,
+        0 4px 8px rgba(0,0,0,0.4),
+        inset 0 2px 0 rgba(0,0,0,0.2);
+}
+
+/* ===== ファンタジーRPG タイポグラフィ ===== */
+.fantasy-title {
+    font-family: 'DotGothic16', 'Noto Sans JP', sans-serif;
+    color: #FFD700;
+    text-shadow:
+        3px 3px 0 #8B4513,
+        -2px -2px 0 #D4AF37,
+        2px -2px 0 #D4AF37,
+        -2px 2px 0 #8B4513,
+        4px 4px 8px rgba(0,0,0,0.9),
+        0 0 40px rgba(255, 215, 0, 0.6);
+    font-weight: 900;
+    letter-spacing: 0.1em;
+}
+
+.fantasy-subtitle {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #FFF8DC;
+    text-shadow:
+        2px 2px 0 #654321,
+        -1px -1px 0 #8B7355,
+        1px -1px 0 #8B7355,
+        -1px 1px 0 #654321,
+        3px 3px 6px rgba(0,0,0,0.8);
+    font-weight: 700;
+}
+
+.fantasy-text {
+    text-shadow:
+        1px 1px 2px rgba(0,0,0,0.8),
+        0 0 10px rgba(255, 215, 0, 0.3);
+}
+
+/* 古文書パネル */
+.scroll-panel {
+    background:
+        linear-gradient(90deg, rgba(139, 69, 19, 0.3) 0%, transparent 5%, transparent 95%, rgba(139, 69, 19, 0.3) 100%),
+        repeating-linear-gradient(0deg, #F5DEB3 0px, #FAEBD7 1px, #F5DEB3 2px);
+    border: 4px solid #8B7355;
+    border-radius: 8px;
+    box-shadow:
+        inset 0 2px 4px rgba(139, 69, 19, 0.3),
+        0 4px 16px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.scroll-panel::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background:
+        radial-gradient(circle at 20% 30%, rgba(139, 69, 19, 0.1) 0%, transparent 5%),
+        radial-gradient(circle at 80% 70%, rgba(139, 69, 19, 0.1) 0%, transparent 5%),
+        radial-gradient(circle at 50% 50%, rgba(139, 69, 19, 0.05) 0%, transparent 10%);
+    pointer-events: none;
+    border-radius: 6px;
+}
+
+.scroll-title {
+    color: #654321;
+    text-shadow: 1px 1px 2px rgba(139, 69, 19, 0.3);
+}
+
+.scroll-text {
+    color: #4a3621;
+}
+
+.scroll-bullet {
+    color: #8B4513;
+}
+
+/* 機能ボックス */
+.feature-box {
+    background:
+        linear-gradient(135deg, #F5DEB3 0%, #DEB887 100%);
+    border: 3px solid #8B7355;
+    border-radius: 8px;
+    padding: 12px;
+    text-align: center;
+    box-shadow:
+        inset 0 2px 4px rgba(255, 255, 255, 0.5),
+        inset 0 -2px 4px rgba(139, 69, 19, 0.3),
+        0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.feature-box:hover {
+    transform: translateY(-3px);
+    box-shadow:
+        inset 0 2px 4px rgba(255, 255, 255, 0.5),
+        inset 0 -2px 4px rgba(139, 69, 19, 0.3),
+        0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* ファンタジーボタン */
+.fantasy-button {
+    background:
+        linear-gradient(180deg, #FFD700 0%, #FFA500 50%, #FF8C00 100%);
+    border: 4px solid #FFF8DC;
+    border-radius: 12px;
+    box-shadow:
+        0 8px 0 #8B4513,
+        0 10px 20px rgba(0,0,0,0.6),
+        inset 0 3px 0 rgba(255,255,255,0.5),
+        inset 0 -3px 6px rgba(139, 69, 19, 0.3);
+    color: #4a2511;
+    font-weight: 900;
+    text-shadow:
+        0 1px 0 rgba(255,255,255,0.8),
+        0 2px 4px rgba(139, 69, 19, 0.3);
+    transition: all 0.2s ease;
+    position: relative;
+    cursor: pointer;
+}
+
+.fantasy-button::before {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    right: 4px;
+    bottom: 4px;
+    border: 2px solid rgba(255, 215, 0, 0.3);
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+.fantasy-button:hover {
+    background:
+        linear-gradient(180deg, #FFED4E 0%, #FFB84D 50%, #FF9D42 100%);
+    transform: translateY(-3px);
+    box-shadow:
+        0 11px 0 #8B4513,
+        0 15px 25px rgba(0,0,0,0.7),
+        inset 0 3px 0 rgba(255,255,255,0.6),
+        inset 0 -3px 6px rgba(139, 69, 19, 0.2);
+}
+
+.fantasy-button:active {
+    transform: translateY(6px);
+    box-shadow:
+        0 2px 0 #8B4513,
+        0 4px 10px rgba(0,0,0,0.5),
+        inset 0 3px 6px rgba(0,0,0,0.3);
+}
+
+/* 保護者リンク */
+.guardian-link {
+    color: #FFD700;
+    font-weight: bold;
+    text-shadow:
+        1px 1px 2px rgba(0,0,0,0.8),
+        0 0 10px rgba(255, 215, 0, 0.4);
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+}
+
+.guardian-link:hover {
+    color: #FFA500;
+    text-shadow:
+        1px 1px 2px rgba(0,0,0,0.8),
+        0 0 20px rgba(255, 165, 0, 0.6);
+    transform: scale(1.05);
+}
+
+/* フッター */
+.fantasy-footer {
+    color: rgba(255, 248, 220, 0.9);
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+}
+
+/* DQ風HPバー */
+.dq-hp-bar {
+    background: linear-gradient(180deg, #16a34a 0%, #15803d 100%);
+    border: 2px solid #fff;
+    box-shadow:
+        inset 0 -2px 0 #166534,
+        0 2px 4px rgba(0,0,0,0.4);
+    height: 24px;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+}
+
+.dq-hp-bar::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    background: linear-gradient(180deg, rgba(255,255,255,0.3) 0%, transparent 100%);
+}
+
+/* DQ風MPバー */
+.dq-mp-bar {
+    background: linear-gradient(180deg, #3b82f6 0%, #2563eb 100%);
+    border: 2px solid #fff;
+    box-shadow:
+        inset 0 -2px 0 #1e40af,
+        0 2px 4px rgba(0,0,0,0.4);
+    height: 24px;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+}
+
+.dq-mp-bar::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    background: linear-gradient(180deg, rgba(255,255,255,0.3) 0%, transparent 100%);
+}
+
+/* アニメーション */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes bounce-in {
+    0% {
+        opacity: 0;
+        transform: scale(0.3);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.05);
+    }
+    70% {
+        transform: scale(0.9);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes zoom-in {
+    from {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: -1000px 0;
+    }
+    100% {
+        background-position: 1000px 0;
+    }
+}
+
+@keyframes sparkle {
+    0%, 100% {
+        opacity: 0;
+        transform: scale(0) rotate(0deg);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1) rotate(180deg);
+    }
+}
+
+@keyframes dq-damage {
+    0% { transform: translateY(0) scale(1); opacity: 1; }
+    50% { transform: translateY(-30px) scale(1.5); opacity: 1; }
+    100% { transform: translateY(-60px) scale(1); opacity: 0; }
+}
+
+@keyframes dq-levelup {
+    0% { transform: scale(0) rotate(-180deg); opacity: 0; }
+    50% { transform: scale(1.2) rotate(10deg); opacity: 1; }
+    100% { transform: scale(1) rotate(0); opacity: 1; }
+}
+
+@keyframes dq-coin {
+    0% { transform: translateY(0) rotateY(0deg); }
+    50% { transform: translateY(-20px) rotateY(180deg); }
+    100% { transform: translateY(0) rotateY(360deg); }
+}
+
+@keyframes dq-shine {
+    0% { background-position: -200% center; }
+    100% { background-position: 200% center; }
+}
+
+/* DQ風ダメージ数値 */
+.dq-damage-number {
+    animation: dq-damage 1s ease-out forwards;
+    font-family: 'DotGothic16', monospace;
+    font-size: 3rem;
+    font-weight: 900;
+    color: #fff;
+    text-shadow:
+        2px 2px 0 #ef4444,
+        -1px -1px 0 #b91c1c,
+        3px 3px 10px rgba(0,0,0,0.8);
+    position: absolute;
+    pointer-events: none;
+    z-index: 9999;
+}
+
+/* DQ風レベルアップエフェクト */
+.dq-levelup-effect {
+    animation: dq-levelup 0.8s ease-out;
+}
+
+/* DQ風コインアニメーション */
+.dq-coin-animation {
+    animation: dq-coin 0.6s ease-in-out;
+}
+
+/* DQ風シャインエフェクト */
+.dq-shine {
+    background: linear-gradient(
+        90deg,
+        transparent 0%,
+        rgba(255,255,255,0.8) 50%,
+        transparent 100%
+    );
+    background-size: 200% 100%;
+    animation: dq-shine 2s infinite;
+}
+
+.animate-fade-in {
+    animation: fadeIn 0.5s ease-out;
+}
+
+.animate-float {
+    animation: float 3s ease-in-out infinite;
+}
+
+.animate-bounce-in {
+    animation: bounce-in 0.6s ease-out;
+}
+
+.animate-zoom-in {
+    animation: zoom-in 0.5s ease-out;
+}
+
+/* クエストカード */
+.quest-card {
+    animation: fadeIn 0.5s ease-out;
+}
+
+.quest-card:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}
+
+/* 回答入力カード */
+.answer-card {
+    animation: bounce-in 0.6s ease-out 0.3s both;
+}
+
+/* 回答入力フィールド */
+.answer-input {
+    transition: all 0.3s ease;
+}
+
+.answer-input:focus {
+    transform: scale(1.05);
+}
+
+/* 結果カード */
+.result-card {
+    background: white;
+    border-radius: 1.5rem;
+    padding: 2rem;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+/* 正解演出 */
+.result-success {
+    animation: fadeIn 0.5s ease-out;
+}
+
+.result-success h1 {
+    animation: bounce-in 0.6s ease-out 0.2s both;
+}
+
+/* 不正解演出 */
+.result-fail {
+    animation: fadeIn 0.5s ease-out;
+}
+
+/* レベルアップ演出 */
+.levelup-animation {
+    animation: zoom-in 0.6s ease-out;
+    position: relative;
+    overflow: hidden;
+}
+
+.levelup-animation::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255, 255, 255, 0.3),
+        transparent
+    );
+    animation: shimmer 2s infinite;
+}
+
+/* 経験値バー */
+.exp-bar {
+    height: 1rem;
+    background: linear-gradient(90deg, #fbbf24, #f59e0b);
+    border-radius: 9999px;
+    transition: width 1s ease-out;
+    position: relative;
+    overflow: hidden;
+}
+
+.exp-bar::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255, 255, 255, 0.5),
+        transparent
+    );
+    animation: shimmer 2s infinite;
+}
+
+/* ワールドカード */
+.world-card {
+    transition: all 0.3s ease;
+    /* cursor: pointer; をコメントアウト - ボタンに任せる */
+    position: relative;
+    z-index: 10;  /* 背景要素より前面に */
+}
+
+.world-card:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.world-card:active {
+    transform: translateY(-5px) scale(1.02);
+}
+
+/* ワールドカード内のボタンを確実にクリック可能に */
+.world-card button {
+    position: relative;
+    z-index: 20;
+    pointer-events: auto;
+}
+
+/* プレイヤーカード */
+.player-card {
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+/* キラキラエフェクト */
+.sparkle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: radial-gradient(circle, #fff 0%, transparent 70%);
+    animation: sparkle 2s infinite;
+}
+
+/* ステップインジケーター */
+.step-indicator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.step-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #d1d5db;
+    margin: 0 4px;
+    transition: all 0.3s ease;
+}
+
+.step-dot.active {
+    background: #8b5cf6;
+    transform: scale(1.5);
+}
+
+.step-dot.completed {
+    background: #10b981;
+}
+
+/* 選択カード */
+.choice-card {
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: 3px solid transparent;
+}
+
+.choice-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.choice-card.selected {
+    border-color: #8b5cf6;
+    background: linear-gradient(135deg, #f3e8ff 0%, #ede9fe 100%);
+    transform: scale(1.05);
+}
+
+/* プログレスバー */
+.progress-bar {
+    height: 8px;
+    background: #e5e7eb;
+    border-radius: 9999px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #8b5cf6, #ec4899);
+    transition: width 0.5s ease-out;
+}
+
+/* ボタンアニメーション */
+button {
+    transition: all 0.3s ease;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+/* ローディングスピナー */
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.animate-spin {
+    animation: spin 1s linear infinite;
+}
+
+/* グラデーション背景 */
+.bg-game-gradient {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.bg-world-gradient {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+/* レスポンシブ調整 */
+@media (max-width: 768px) {
+    .quest-card {
+        padding: 1.5rem;
+    }
+    
+    .answer-input {
+        font-size: 2.5rem;
+        width: 100%;
+        max-width: 200px;
+    }
+    
+    .result-card {
+        padding: 1.5rem;
+    }
+    
+    #question-text {
+        font-size: 2rem;
+    }
+    
+    #story-text {
+        font-size: 1rem;
+    }
+}
+
+/* スクロールバーのスタイル（Webkit） */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(139, 92, 246, 0.5);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(139, 92, 246, 0.8);
+}
+
+/* プリント・スクリーンショット用 */
+@media print {
+    .no-print {
+        display: none;
+    }
+}
+
+/* アクセシビリティ */
+:focus-visible {
+    outline: 3px solid #8b5cf6;
+    outline-offset: 2px;
+}
+
+/* ダークモード対応（将来実装） */
+@media (prefers-color-scheme: dark) {
+    /* ダークモードのスタイルをここに追加 */
+}
+
+/* ===========================
+   バトルシステムアニメーション
+   =========================== */
+
+/* モンスター画像スタイル */
+.monster-image {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    image-rendering: pixelated; /* ピクセルアート用 */
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+}
+
+/* モンスターアイドル（待機）アニメーション */
+.monster-idle {
+    animation: monster-idle 3s ease-in-out infinite;
+}
+
+@keyframes monster-idle {
+    0%, 100% {
+        transform: translateY(0) scale(1);
+    }
+    50% {
+        transform: translateY(-10px) scale(1.02);
+    }
+}
+
+/* モンスターダメージアニメーション */
+.monster-damage {
+    animation: monster-damage 0.5s ease-out;
+}
+
+@keyframes monster-damage {
+    0% { transform: translateX(0); filter: brightness(1); }
+    25% { transform: translateX(-15px); filter: brightness(2); }
+    50% { transform: translateX(15px); filter: brightness(2); }
+    75% { transform: translateX(-10px); filter: brightness(1.5); }
+    100% { transform: translateX(0); filter: brightness(1); }
+}
+
+/* モンスター攻撃アニメーション */
+.monster-attack {
+    animation: monster-attack 0.6s ease-in-out;
+}
+
+@keyframes monster-attack {
+    0% { transform: scale(1) translateY(0); }
+    30% { transform: scale(1.15) translateY(-20px); }
+    50% { transform: scale(1.2) translateY(-25px) rotate(-5deg); }
+    70% { transform: scale(1.1) translateY(-15px) rotate(5deg); }
+    100% { transform: scale(1) translateY(0) rotate(0); }
+}
+
+/* モンスター撃破アニメーション */
+.monster-defeat {
+    animation: monster-defeat 1s ease-out forwards;
+}
+
+@keyframes monster-defeat {
+    0% {
+        transform: scale(1) rotate(0deg);
+        opacity: 1;
+        filter: brightness(1);
+    }
+    50% {
+        transform: scale(1.5) rotate(180deg);
+        opacity: 0.5;
+        filter: brightness(3) blur(2px);
+    }
+    100% {
+        transform: scale(0) rotate(360deg);
+        opacity: 0;
+        filter: brightness(0) blur(10px);
+    }
+}
+
+/* プレイヤー攻撃フラッシュ */
+.player-attack-flash {
+    animation: attack-flash 0.3s ease-out;
+}
+
+@keyframes attack-flash {
+    0% { filter: brightness(1); }
+    50% { filter: brightness(1.8) saturate(1.5); }
+    100% { filter: brightness(1); }
+}
+
+/* 画面シェイク */
+.screen-shake {
+    animation: screen-shake 0.5s ease-in-out;
+}
+
+@keyframes screen-shake {
+    0%, 100% { transform: translateX(0); }
+    10%, 30%, 50%, 70%, 90% { transform: translateX(-5px); }
+    20%, 40%, 60%, 80% { transform: translateX(5px); }
+}
+
+/* ダメージ数値フロート */
+@keyframes damage-float {
+    0% {
+        transform: translateY(0) scale(0.5);
+        opacity: 0;
+    }
+    20% {
+        transform: translateY(-10px) scale(1.2);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-80px) scale(1);
+        opacity: 0;
+    }
+}
+
+/* キラキラ上昇 */
+@keyframes sparkle-rise {
+    0% {
+        transform: translateY(0) scale(0) rotate(0deg);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-100px) scale(1.5) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+/* HPバー脈動（低HP時） */
+@keyframes hp-pulse {
+    0%, 100% {
+        box-shadow: 0 0 10px rgba(239, 68, 68, 0.5);
+    }
+    50% {
+        box-shadow: 0 0 20px rgba(239, 68, 68, 1);
+    }
+}
+
+/* コンボカウンター登場 */
+@keyframes combo-appear {
+    0% {
+        transform: scale(0) rotate(-180deg);
+        opacity: 0;
+    }
+    70% {
+        transform: scale(1.2) rotate(10deg);
+    }
+    100% {
+        transform: scale(1) rotate(0);
+        opacity: 1;
+    }
+}
+
+/* 勝利エフェクト */
+@keyframes victory-bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    25% {
+        transform: translateY(-30px);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+    75% {
+        transform: translateY(-25px);
+    }
+}
+
+/* クリティカルヒットエフェクト */
+@keyframes critical-hit {
+    0% {
+        transform: scale(1);
+        filter: brightness(1);
+    }
+    25% {
+        transform: scale(1.3);
+        filter: brightness(2) saturate(2);
+    }
+    50% {
+        transform: scale(1.1);
+        filter: brightness(3) saturate(3);
+    }
+    75% {
+        transform: scale(1.2);
+        filter: brightness(2) saturate(2);
+    }
+    100% {
+        transform: scale(1);
+        filter: brightness(1);
+    }
+}
+
+/* ===========================
+   ファンタジースタート画面専用スタイル
+   =========================== */
+
+/* スタート画面背景 */
+.fantasy-start-screen {
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
+}
+
+/* サブタイトル - ファンタジーフォント */
+.fantasy-subtitle-main {
+    font-family: 'Cinzel', 'Noto Sans JP', serif;
+    font-weight: 700;
+    color: #fef3c7;
+    text-shadow:
+        0 0 20px rgba(251, 191, 36, 0.8),
+        0 0 40px rgba(251, 191, 36, 0.5),
+        2px 2px 4px rgba(0, 0, 0, 0.8),
+        4px 4px 8px rgba(0, 0, 0, 0.6);
+    letter-spacing: 0.1em;
+    animation: glow-pulse 3s ease-in-out infinite;
+}
+
+/* タグライン */
+.fantasy-tagline {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 700;
+    color: #fef3c7;
+    text-shadow:
+        0 0 15px rgba(251, 191, 36, 0.6),
+        2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* メインギルドパネル */
+.guild-panel-main {
+    background: linear-gradient(135deg,
+        rgba(30, 27, 75, 0.95) 0%,
+        rgba(55, 48, 107, 0.92) 50%,
+        rgba(88, 70, 141, 0.95) 100%);
+    backdrop-filter: blur(15px);
+    border-radius: 24px;
+    border: 3px solid rgba(251, 191, 36, 0.5);
+    box-shadow:
+        0 0 40px rgba(251, 191, 36, 0.3),
+        0 20px 60px rgba(0, 0, 0, 0.6),
+        inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    position: relative;
+}
+
+.guild-panel-main::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(45deg,
+        transparent 0%,
+        rgba(251, 191, 36, 0.2) 25%,
+        transparent 50%,
+        rgba(251, 191, 36, 0.2) 75%,
+        transparent 100%);
+    border-radius: 24px;
+    z-index: -1;
+    animation: border-shimmer 4s linear infinite;
+}
+
+/* プライマリボタン - 冒険開始 */
+.fantasy-button-primary {
+    background: linear-gradient(135deg, #f59e0b 0%, #d97706 50%, #b45309 100%);
+    color: #ffffff;
+    border: 3px solid #fbbf24;
+    border-radius: 16px;
+    box-shadow:
+        0 0 20px rgba(251, 191, 36, 0.5),
+        0 8px 24px rgba(0, 0, 0, 0.4),
+        inset 0 2px 0 rgba(255, 255, 255, 0.3),
+        inset 0 -2px 8px rgba(0, 0, 0, 0.3);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 900;
+    letter-spacing: 0.05em;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.fantasy-button-primary::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg,
+        transparent 0%,
+        rgba(255, 255, 255, 0.3) 50%,
+        transparent 100%);
+    transition: left 0.5s ease;
+}
+
+.fantasy-button-primary:hover {
+    transform: translateY(-3px) scale(1.02);
+    box-shadow:
+        0 0 30px rgba(251, 191, 36, 0.7),
+        0 12px 32px rgba(0, 0, 0, 0.5),
+        inset 0 2px 0 rgba(255, 255, 255, 0.4);
+}
+
+.fantasy-button-primary:hover::before {
+    left: 100%;
+}
+
+.fantasy-button-primary:active {
+    transform: translateY(-1px) scale(0.98);
+}
+
+/* セカンダリボタン - 続きから */
+.fantasy-button-secondary {
+    background: linear-gradient(135deg, #3b82f6 0%, #2563eb 50%, #1d4ed8 100%);
+    color: #ffffff;
+    border: 3px solid #60a5fa;
+    border-radius: 16px;
+    box-shadow:
+        0 0 20px rgba(96, 165, 250, 0.5),
+        0 8px 24px rgba(0, 0, 0, 0.4),
+        inset 0 2px 0 rgba(255, 255, 255, 0.3),
+        inset 0 -2px 8px rgba(0, 0, 0, 0.3);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 900;
+    letter-spacing: 0.05em;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.fantasy-button-secondary::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg,
+        transparent 0%,
+        rgba(255, 255, 255, 0.3) 50%,
+        transparent 100%);
+    transition: left 0.5s ease;
+}
+
+.fantasy-button-secondary:hover {
+    transform: translateY(-3px) scale(1.02);
+    box-shadow:
+        0 0 30px rgba(96, 165, 250, 0.7),
+        0 12px 32px rgba(0, 0, 0, 0.5),
+        inset 0 2px 0 rgba(255, 255, 255, 0.4);
+}
+
+.fantasy-button-secondary:hover::before {
+    left: 100%;
+}
+
+.fantasy-button-secondary:active {
+    transform: translateY(-1px) scale(0.98);
+}
+
+/* 古文書パネル */
+.ancient-scroll-panel {
+    background: linear-gradient(135deg,
+        rgba(245, 158, 11, 0.1) 0%,
+        rgba(217, 119, 6, 0.15) 100%);
+    backdrop-filter: blur(8px);
+    border: 2px solid rgba(251, 191, 36, 0.3);
+    border-radius: 16px;
+    box-shadow:
+        0 8px 24px rgba(0, 0, 0, 0.3),
+        inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.ancient-scroll-title {
+    font-family: 'Cinzel', 'Noto Sans JP', serif;
+    color: #fbbf24;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.ancient-scroll-text {
+    color: #fef3c7;
+    line-height: 1.8;
+}
+
+.ancient-bullet {
+    font-size: 1.2em;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.4));
+}
+
+/* 宝箱風フィーチャーボックス */
+.treasure-feature-box {
+    background: linear-gradient(135deg,
+        rgba(180, 83, 9, 0.3) 0%,
+        rgba(146, 64, 14, 0.4) 100%);
+    backdrop-filter: blur(6px);
+    border: 2px solid rgba(251, 191, 36, 0.4);
+    border-radius: 12px;
+    padding: 1rem;
+    text-align: center;
+    color: #fef3c7;
+    box-shadow:
+        0 4px 12px rgba(0, 0, 0, 0.3),
+        inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.treasure-feature-box:hover {
+    transform: translateY(-4px) scale(1.05);
+    box-shadow:
+        0 0 20px rgba(251, 191, 36, 0.5),
+        0 8px 20px rgba(0, 0, 0, 0.4);
+    border-color: rgba(251, 191, 36, 0.7);
+}
+
+/* 保護者リンク */
+.fantasy-guardian-link {
+    color: #cbd5e1;
+    padding: 0.75rem 1.5rem;
+    border-radius: 9999px;
+    background: rgba(71, 85, 105, 0.3);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(203, 213, 225, 0.3);
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.fantasy-guardian-link:hover {
+    background: rgba(71, 85, 105, 0.5);
+    border-color: rgba(203, 213, 225, 0.5);
+    color: #f1f5f9;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* フッター */
+.fantasy-start-footer {
+    color: #cbd5e1;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* アニメーション */
+@keyframes glow-pulse {
+    0%, 100% {
+        text-shadow:
+            0 0 20px rgba(251, 191, 36, 0.8),
+            0 0 40px rgba(251, 191, 36, 0.5),
+            2px 2px 4px rgba(0, 0, 0, 0.8),
+            4px 4px 8px rgba(0, 0, 0, 0.6);
+    }
+    50% {
+        text-shadow:
+            0 0 30px rgba(251, 191, 36, 1),
+            0 0 60px rgba(251, 191, 36, 0.7),
+            2px 2px 4px rgba(0, 0, 0, 0.8),
+            4px 4px 8px rgba(0, 0, 0, 0.6);
+    }
+}
+
+@keyframes border-shimmer {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 200% 50%;
+    }
+}
+
+@keyframes animate-bounce-slow {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.animate-bounce-slow {
+    animation: animate-bounce-slow 2s ease-in-out infinite;
+}
+
+@keyframes animate-slide-up {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-slide-up {
+    animation: animate-slide-up 0.8s ease-out forwards;
+}
+
+/* 魔法のパーティクルアニメーション */
+@keyframes magic-particle {
+    0%, 100% {
+        transform: translateY(0) scale(1);
+        opacity: 0.6;
+    }
+    50% {
+        transform: translateY(-20px) scale(1.2);
+        opacity: 1;
+    }
+}
+
+.magic-particle {
+    animation: magic-particle 4s ease-in-out infinite;
+    filter: blur(1px);
+}
+
+/* ===========================
+   ワールドマップ背景専用スタイル
+   =========================== */
+
+/* ワールドマップ背景 */
+.world-map-bg {
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: #1a2332;
+}
+
+.world-map-bg::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../assets/images/backgrounds/world-map-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.85;
+    z-index: -1;
+}
+
+/* ===========================
+   キャラクター選択画面専用スタイル
+   =========================== */
+
+/* キャラクター選択背景 */
+.character-select-bg {
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: #2a2340;
+}
+
+.character-select-bg::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../assets/images/backgrounds/character-select-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.80;
+    z-index: -1;
+}

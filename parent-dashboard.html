@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>保護者ダッシュボード - マスマジ！</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="min-h-screen fantasy-bg">
+    
+    <!-- ヘッダー -->
+    <header class="bg-white/10 backdrop-blur-md shadow-lg">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <h1 class="text-2xl font-bold text-white">
+                    <i class="fas fa-chart-bar mr-2"></i>
+                    保護者ダッシュボード
+                </h1>
+                <div class="flex space-x-2">
+                    <button id="back-btn" class="bg-white/20 hover:bg-white/30 text-white px-4 py-2 rounded-full transition">
+                        <i class="fas fa-arrow-left mr-2"></i>戻る
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- メインコンテンツ -->
+    <main class="container mx-auto px-4 py-8">
+        <div class="max-w-7xl mx-auto">
+            
+            <!-- 概要カード -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+                <div class="bg-white/90 backdrop-blur-sm rounded-2xl p-6 shadow-xl transform hover:scale-105 transition">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <p class="text-gray-600 text-sm font-bold mb-1">総プレイヤー数</p>
+                            <p class="text-4xl font-bold text-purple-600" id="total-players">0</p>
+                        </div>
+                        <div class="text-5xl text-purple-500">👨‍👩‍👧‍👦</div>
+                    </div>
+                </div>
+                
+                <div class="bg-white/90 backdrop-blur-sm rounded-2xl p-6 shadow-xl transform hover:scale-105 transition">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <p class="text-gray-600 text-sm font-bold mb-1">総問題数</p>
+                            <p class="text-4xl font-bold text-blue-600" id="total-problems">0</p>
+                        </div>
+                        <div class="text-5xl text-blue-500">📝</div>
+                    </div>
+                </div>
+                
+                <div class="bg-white/90 backdrop-blur-sm rounded-2xl p-6 shadow-xl transform hover:scale-105 transition">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <p class="text-gray-600 text-sm font-bold mb-1">平均正答率</p>
+                            <p class="text-4xl font-bold text-green-600"><span id="avg-accuracy">0</span>%</p>
+                        </div>
+                        <div class="text-5xl text-green-500">✅</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- プレイヤー一覧 -->
+            <div class="bg-white/90 backdrop-blur-sm rounded-2xl p-8 shadow-xl mb-8">
+                <h2 class="text-2xl font-bold text-gray-800 mb-6">
+                    <i class="fas fa-users text-purple-600 mr-2"></i>
+                    プレイヤー詳細
+                </h2>
+                
+                <div id="players-container" class="space-y-4">
+                    <!-- プレイヤーカードは動的生成 -->
+                </div>
+            </div>
+            
+            <!-- グラフエリア -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
+                <!-- 正答率比較グラフ -->
+                <div class="bg-white/90 backdrop-blur-sm rounded-2xl p-6 shadow-xl">
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">
+                        <i class="fas fa-chart-bar text-blue-600 mr-2"></i>
+                        正答率比較
+                    </h3>
+                    <div style="height: 300px;">
+                        <canvas id="accuracy-chart"></canvas>
+                    </div>
+                </div>
+
+                <!-- レベル比較グラフ -->
+                <div class="bg-white/90 backdrop-blur-sm rounded-2xl p-6 shadow-xl">
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">
+                        <i class="fas fa-chart-line text-purple-600 mr-2"></i>
+                        レベル比較
+                    </h3>
+                    <div style="height: 300px;">
+                        <canvas id="level-chart"></canvas>
+                    </div>
+                </div>
+
+                <!-- 学年分布グラフ -->
+                <div class="bg-white/90 backdrop-blur-sm rounded-2xl p-6 shadow-xl">
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">
+                        <i class="fas fa-chart-pie text-green-600 mr-2"></i>
+                        学年分布
+                    </h3>
+                    <div style="height: 300px;">
+                        <canvas id="grade-distribution-chart"></canvas>
+                    </div>
+                </div>
+
+                <!-- 進捗トレンドグラフ -->
+                <div class="bg-white/90 backdrop-blur-sm rounded-2xl p-6 shadow-xl">
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">
+                        <i class="fas fa-chart-area text-orange-600 mr-2"></i>
+                        7日間の進捗トレンド
+                    </h3>
+                    <div style="height: 300px;">
+                        <canvas id="progress-trend-chart"></canvas>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 苦手分野分析 -->
+            <div class="bg-white/90 backdrop-blur-sm rounded-2xl p-8 shadow-xl mb-8">
+                <h2 class="text-2xl font-bold text-gray-800 mb-6">
+                    <i class="fas fa-lightbulb text-yellow-600 mr-2"></i>
+                    気づき・アドバイス
+                </h2>
+
+                <div id="weak-areas-container" class="space-y-3">
+                    <!-- 苦手分野分析は動的生成 -->
+                </div>
+            </div>
+
+            <!-- 活動履歴 -->
+            <div class="bg-white/90 backdrop-blur-sm rounded-2xl p-8 shadow-xl">
+                <h2 class="text-2xl font-bold text-gray-800 mb-6">
+                    <i class="fas fa-history text-green-600 mr-2"></i>
+                    最近の活動
+                </h2>
+
+                <div id="activity-container" class="space-y-3">
+                    <!-- 活動履歴は動的生成 -->
+                </div>
+            </div>
+            
+        </div>
+    </main>
+    
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/sound-system.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/parent-stats.js"></script>
+    
+</body>
+</html>

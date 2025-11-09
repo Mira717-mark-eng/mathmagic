@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>設定 - マスマジ！</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="min-h-screen fantasy-bg">
+    <!-- 星の背景 -->
+    <div class="fixed inset-0 overflow-hidden pointer-events-none">
+        <div class="absolute w-2 h-2 bg-white rounded-full animate-pulse" style="top: 10%; left: 20%; opacity: 0.6;"></div>
+        <div class="absolute w-1 h-1 bg-white rounded-full animate-pulse" style="top: 20%; left: 80%; opacity: 0.4;"></div>
+        <div class="absolute w-2 h-2 bg-white rounded-full animate-pulse" style="top: 60%; left: 10%; opacity: 0.5;"></div>
+        <div class="absolute w-1 h-1 bg-white rounded-full animate-pulse" style="top: 80%; left: 90%; opacity: 0.7;"></div>
+        <div class="absolute w-2 h-2 bg-white rounded-full animate-pulse" style="top: 40%; left: 60%; opacity: 0.3;"></div>
+    </div>
+
+    <div class="container mx-auto px-4 py-8 relative z-10">
+        <!-- ヘッダー -->
+        <div class="dq-window p-6 mb-6 animate-fade-in">
+            <div class="flex items-center justify-between">
+                <div>
+                    <h1 class="dq-gold-text text-4xl mb-2">⚙️ 設定</h1>
+                    <p class="text-white text-lg">ゲームの設定を変更できます</p>
+                </div>
+                <button onclick="goBack()" class="dq-button px-6 py-3 text-lg">
+                    ← 戻る
+                </button>
+            </div>
+        </div>
+
+        <!-- プレイヤー情報 -->
+        <div class="dq-window p-6 mb-6 animate-fade-in" style="animation-delay: 0.1s;">
+            <h2 class="dq-gold-text text-2xl mb-4">👤 プレイヤー情報</h2>
+            <div class="bg-white bg-opacity-10 rounded-lg p-4 mb-4">
+                <div class="grid grid-cols-2 gap-4 text-white">
+                    <div>
+                        <div class="text-blue-200 text-sm">なまえ</div>
+                        <div class="text-xl font-bold" id="player-name">-</div>
+                    </div>
+                    <div>
+                        <div class="text-blue-200 text-sm">学年</div>
+                        <div class="text-xl font-bold" id="player-grade">-</div>
+                    </div>
+                    <div>
+                        <div class="text-blue-200 text-sm">レベル</div>
+                        <div class="text-xl font-bold" id="player-level">-</div>
+                    </div>
+                    <div>
+                        <div class="text-blue-200 text-sm">正答率</div>
+                        <div class="text-xl font-bold" id="player-accuracy">-</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 学年変更 -->
+        <div class="dq-window p-6 mb-6 animate-fade-in" style="animation-delay: 0.2s;">
+            <h2 class="dq-gold-text text-2xl mb-4">📚 学年の変更</h2>
+            <div class="bg-white bg-opacity-10 rounded-lg p-4 mb-4">
+                <p class="text-white mb-4">
+                    学年が上がったら、ここで学年を変更してください。<br>
+                    学習データはそのまま引き継がれます。
+                </p>
+                <div class="flex gap-4">
+                    <button onclick="changeGrade('up')" id="promote-btn" class="dq-button px-6 py-3 text-lg flex-1">
+                        ⬆️ 学年を上げる
+                    </button>
+                    <button onclick="changeGrade('down')" id="demote-btn" class="dq-button px-6 py-3 text-lg flex-1">
+                        ⬇️ 学年を下げる
+                    </button>
+                </div>
+                <div class="mt-4 text-blue-200 text-sm" id="grade-info">
+                    現在の学年: <span id="current-grade-name">-</span>
+                </div>
+            </div>
+
+            <!-- 学年履歴 -->
+            <div class="bg-white bg-opacity-10 rounded-lg p-4">
+                <h3 class="text-white text-lg font-bold mb-3">📜 学年履歴</h3>
+                <div id="grade-history" class="space-y-2">
+                    <!-- 履歴がここに表示されます -->
+                </div>
+            </div>
+        </div>
+
+        <!-- サウンド設定 -->
+        <div class="dq-window p-6 mb-6 animate-fade-in" style="animation-delay: 0.3s;">
+            <h2 class="dq-gold-text text-2xl mb-4">🔊 サウンド設定</h2>
+            <div class="bg-white bg-opacity-10 rounded-lg p-4">
+                <div class="flex items-center justify-between mb-4">
+                    <span class="text-white text-lg">効果音</span>
+                    <button onclick="toggleSound()" id="sound-toggle" class="dq-button px-6 py-2">
+                        <span id="sound-status">ON</span>
+                    </button>
+                </div>
+                <div class="flex items-center gap-4">
+                    <span class="text-white">音量</span>
+                    <input type="range" min="0" max="100" value="50" id="volume-slider"
+                           onchange="changeVolume(this.value)"
+                           class="flex-1">
+                    <span class="text-white" id="volume-display">50%</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- 進捗状況 -->
+        <div class="dq-window p-6 mb-6 animate-fade-in" style="animation-delay: 0.4s;">
+            <h2 class="dq-gold-text text-2xl mb-4">📊 進捗状況</h2>
+            <div class="bg-white bg-opacity-10 rounded-lg p-4">
+                <div class="space-y-4 text-white">
+                    <div>
+                        <div class="flex justify-between mb-2">
+                            <span>現在の学年のワールド</span>
+                            <span id="world-progress">0/0</span>
+                        </div>
+                        <div class="bg-gray-700 rounded-full h-4 overflow-hidden">
+                            <div id="world-progress-bar" class="dq-hp-bar h-full transition-all duration-500" style="width: 0%"></div>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-3 gap-4 text-center">
+                        <div>
+                            <div class="text-blue-200 text-sm">総問題数</div>
+                            <div class="text-2xl font-bold" id="total-problems">0</div>
+                        </div>
+                        <div>
+                            <div class="text-blue-200 text-sm">正解数</div>
+                            <div class="text-2xl font-bold text-green-400" id="correct-problems">0</div>
+                        </div>
+                        <div>
+                            <div class="text-blue-200 text-sm">アチーブメント</div>
+                            <div class="text-2xl font-bold text-yellow-400" id="achievement-count">0</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- データ管理 -->
+        <div class="dq-window p-6 animate-fade-in" style="animation-delay: 0.5s;">
+            <h2 class="dq-gold-text text-2xl mb-4">💾 データ管理</h2>
+            <div class="bg-white bg-opacity-10 rounded-lg p-4">
+                <div class="space-y-3">
+                    <button onclick="exportData()" class="dq-button w-full px-6 py-3 text-lg">
+                        📤 データをエクスポート
+                    </button>
+                    <button onclick="importData()" class="dq-button w-full px-6 py-3 text-lg">
+                        📥 データをインポート
+                    </button>
+                    <button onclick="resetData()" class="dq-button w-full px-6 py-3 text-lg bg-red-600 hover:bg-red-700">
+                        🗑️ データをリセット
+                    </button>
+                </div>
+                <p class="text-blue-200 text-sm mt-4">
+                    ⚠️ データのリセットは取り消せません。<br>
+                    必要に応じて事前にエクスポートしてください。
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 確認ダイアログ -->
+    <div id="confirm-dialog" class="hidden fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50">
+        <div class="dq-window p-8 max-w-md animate-zoom-in">
+            <h3 class="dq-gold-text text-2xl mb-4" id="dialog-title">確認</h3>
+            <p class="text-white text-lg mb-6" id="dialog-message">本当によろしいですか？</p>
+            <div class="flex gap-4">
+                <button onclick="confirmAction()" class="dq-button px-6 py-3 flex-1">
+                    はい
+                </button>
+                <button onclick="closeDialog()" class="dq-button px-6 py-3 flex-1">
+                    いいえ
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/worlds.js"></script>
+    <script src="js/sound-system.js"></script>
+    <script src="js/achievement-system.js"></script>
+    <script>
+        let pendingAction = null;
+
+        // ページ読み込み時の初期化
+        window.addEventListener('DOMContentLoaded', () => {
+            SoundSystem.init();
+            loadPlayerInfo();
+            loadGradeHistory();
+            loadProgress();
+            loadSoundSettings();
+        });
+
+        // プレイヤー情報を読み込み
+        function loadPlayerInfo() {
+            const player = MathMagic.getCurrentPlayer();
+
+            if (!player) {
+                window.location.href = 'player-create.html';
+                return;
+            }
+
+            document.getElementById('player-name').textContent = player.name;
+            document.getElementById('player-grade').textContent = PlayerManager.getGradeName(player.grade);
+            document.getElementById('player-level').textContent = `Lv.${player.level}`;
+            document.getElementById('player-accuracy').textContent = `${PlayerManager.getAccuracy()}%`;
+            document.getElementById('current-grade-name').textContent = PlayerManager.getGradeName(player.grade);
+
+            // ボタンの有効/無効
+            document.getElementById('promote-btn').disabled = player.grade >= 9;
+            document.getElementById('demote-btn').disabled = player.grade <= 1;
+        }
+
+        // 学年履歴を読み込み
+        function loadGradeHistory() {
+            const history = PlayerManager.getGradeHistory();
+            const container = document.getElementById('grade-history');
+
+            if (history.length === 0) {
+                container.innerHTML = '<p class="text-blue-200 text-sm">履歴がありません</p>';
+                return;
+            }
+
+            container.innerHTML = history.map((entry, index) => {
+                const date = new Date(entry.promotedAt);
+                const dateStr = `${date.getFullYear()}/${date.getMonth() + 1}/${date.getDate()}`;
+                const reasonText = entry.reason === 'initial' ? '初期登録' :
+                                   entry.reason === 'manual' ? '手動変更' :
+                                   entry.reason === 'auto' ? '自動進級' : entry.reason;
+
+                return `
+                    <div class="bg-white bg-opacity-5 rounded p-2 text-sm text-white">
+                        <span class="font-bold">${PlayerManager.getGradeName(entry.grade)}</span>
+                        <span class="text-blue-200">（${dateStr} - ${reasonText}）</span>
+                    </div>
+                `;
+            }).reverse().join('');
+        }
+
+        // 進捗状況を読み込み
+        function loadProgress() {
+            const player = MathMagic.getCurrentPlayer();
+
+            if (!player) return;
+
+            // ワールド進捗
+            const gradeWorlds = getAvailableWorlds(player.grade);
+            const completedWorlds = player.completedWorlds || [];
+            const completedCount = gradeWorlds.filter(world =>
+                completedWorlds.some(cw => cw.id === world.id && cw.completed)
+            ).length;
+
+            document.getElementById('world-progress').textContent = `${completedCount}/${gradeWorlds.length}`;
+            const progressPercent = gradeWorlds.length > 0 ? (completedCount / gradeWorlds.length) * 100 : 0;
+            document.getElementById('world-progress-bar').style.width = `${progressPercent}%`;
+
+            // 問題数
+            document.getElementById('total-problems').textContent = player.totalProblems || 0;
+            document.getElementById('correct-problems').textContent = player.correctProblems || 0;
+
+            // アチーブメント数
+            const achievements = player.achievements || [];
+            document.getElementById('achievement-count').textContent = achievements.length;
+        }
+
+        // サウンド設定を読み込み
+        function loadSoundSettings() {
+            const settings = MathMagic.getItem('soundSettings') || { enabled: true, volume: 0.5 };
+
+            document.getElementById('sound-status').textContent = settings.enabled ? 'ON' : 'OFF';
+            document.getElementById('volume-slider').value = Math.round(settings.volume * 100);
+            document.getElementById('volume-display').textContent = `${Math.round(settings.volume * 100)}%`;
+        }
+
+        // 学年変更
+        function changeGrade(direction) {
+            const player = MathMagic.getCurrentPlayer();
+            const currentGradeName = PlayerManager.getGradeName(player.grade);
+            const newGrade = direction === 'up' ? player.grade + 1 : player.grade - 1;
+            const newGradeName = PlayerManager.getGradeName(newGrade);
+
+            const message = direction === 'up'
+                ? `${currentGradeName}から${newGradeName}に進級しますか？\n\n学習データはそのまま引き継がれます。`
+                : `${currentGradeName}から${newGradeName}に変更しますか？\n\n復習用として学年を下げることができます。`;
+
+            showDialog('学年の変更', message, () => {
+                const result = direction === 'up'
+                    ? PlayerManager.promoteGrade('manual')
+                    : PlayerManager.demoteGrade('manual');
+
+                if (result.success) {
+                    SoundSystem.playSound('levelup');
+                    showNotification(result.message, 'success');
+                    loadPlayerInfo();
+                    loadGradeHistory();
+                    loadProgress();
+                } else {
+                    showNotification(result.error, 'error');
+                }
+            });
+        }
+
+        // サウンド切り替え
+        function toggleSound() {
+            const enabled = SoundSystem.toggle();
+            document.getElementById('sound-status').textContent = enabled ? 'ON' : 'OFF';
+            SoundSystem.playSound('click');
+        }
+
+        // 音量変更
+        function changeVolume(value) {
+            const volume = value / 100;
+            SoundSystem.setVolume(volume);
+            document.getElementById('volume-display').textContent = `${value}%`;
+        }
+
+        // データエクスポート
+        function exportData() {
+            const player = MathMagic.getCurrentPlayer();
+            const dataStr = JSON.stringify(player, null, 2);
+            const dataBlob = new Blob([dataStr], { type: 'application/json' });
+            const url = URL.createObjectURL(dataBlob);
+
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = `mathmagic-${player.name}-${new Date().toISOString().split('T')[0]}.json`;
+            link.click();
+
+            showNotification('データをエクスポートしました', 'success');
+        }
+
+        // データインポート
+        function importData() {
+            const input = document.createElement('input');
+            input.type = 'file';
+            input.accept = '.json';
+
+            input.onchange = (e) => {
+                const file = e.target.files[0];
+                const reader = new FileReader();
+
+                reader.onload = (event) => {
+                    try {
+                        const data = JSON.parse(event.target.result);
+                        MathMagic.setItem('currentPlayer', data);
+                        showNotification('データをインポートしました', 'success');
+                        loadPlayerInfo();
+                        loadGradeHistory();
+                        loadProgress();
+                    } catch (error) {
+                        showNotification('データの読み込みに失敗しました', 'error');
+                    }
+                };
+
+                reader.readAsText(file);
+            };
+
+            input.click();
+        }
+
+        // データリセット
+        function resetData() {
+            showDialog(
+                'データのリセット',
+                '⚠️ すべてのデータが削除されます。\n\nこの操作は取り消せません。\n本当にリセットしますか？',
+                () => {
+                    localStorage.clear();
+                    showNotification('データをリセットしました', 'success');
+                    setTimeout(() => {
+                        window.location.href = 'player-create.html';
+                    }, 1500);
+                }
+            );
+        }
+
+        // ダイアログ表示
+        function showDialog(title, message, onConfirm) {
+            document.getElementById('dialog-title').textContent = title;
+            document.getElementById('dialog-message').textContent = message;
+            document.getElementById('confirm-dialog').classList.remove('hidden');
+            pendingAction = onConfirm;
+        }
+
+        // ダイアログを閉じる
+        function closeDialog() {
+            document.getElementById('confirm-dialog').classList.add('hidden');
+            pendingAction = null;
+        }
+
+        // アクション確認
+        function confirmAction() {
+            if (pendingAction) {
+                pendingAction();
+            }
+            closeDialog();
+        }
+
+        // 通知表示
+        function showNotification(message, type = 'info') {
+            const notification = document.createElement('div');
+            notification.className = 'fixed top-4 right-4 z-50 animate-bounce-in';
+            notification.innerHTML = `
+                <div class="dq-window p-4 max-w-sm">
+                    <div class="text-white text-center">
+                        ${type === 'success' ? '✅' : type === 'error' ? '❌' : 'ℹ️'} ${message}
+                    </div>
+                </div>
+            `;
+
+            document.body.appendChild(notification);
+
+            setTimeout(() => {
+                notification.style.opacity = '0';
+                notification.style.transition = 'opacity 0.5s ease';
+                setTimeout(() => notification.remove(), 500);
+            }, 3000);
+        }
+
+        // 戻る
+        function goBack() {
+            window.location.href = 'world-map.html';
+        }
+    </script>
+</body>
+</html>

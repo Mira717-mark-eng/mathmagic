@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>プレイヤー作成 - マスマジ！</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="min-h-screen fantasy-bg flex items-center justify-center p-4">
+    
+    <div class="max-w-3xl w-full">
+        
+        <!-- プログレスバー -->
+        <div class="mb-8">
+            <div class="progress-bar">
+                <div id="progress-fill" class="progress-fill" style="width: 33.33%"></div>
+            </div>
+            <div class="flex justify-between mt-2 text-white text-sm font-bold">
+                <span id="step-text">ステップ 1/3</span>
+                <span id="step-name">学年選択</span>
+            </div>
+        </div>
+        
+        <!-- ステップ1: 学年選択 -->
+        <div id="step1" class="bg-white rounded-3xl shadow-2xl p-8 animate-fade-in">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">
+                <i class="fas fa-graduation-cap text-purple-600 mr-3"></i>
+                何年生ですか？
+            </h2>
+            
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                <button class="grade-btn choice-card bg-gradient-to-br from-purple-100 to-purple-200 p-6 rounded-xl" data-grade="1">
+                    <div class="text-4xl mb-2">📚</div>
+                    <div class="font-bold text-gray-800">小学1年生</div>
+                </button>
+                <button class="grade-btn choice-card bg-gradient-to-br from-purple-100 to-purple-200 p-6 rounded-xl" data-grade="2">
+                    <div class="text-4xl mb-2">📚</div>
+                    <div class="font-bold text-gray-800">小学2年生</div>
+                </button>
+                <button class="grade-btn choice-card bg-gradient-to-br from-purple-100 to-purple-200 p-6 rounded-xl" data-grade="3">
+                    <div class="text-4xl mb-2">📚</div>
+                    <div class="font-bold text-gray-800">小学3年生</div>
+                </button>
+                <button class="grade-btn choice-card bg-gradient-to-br from-blue-100 to-blue-200 p-6 rounded-xl" data-grade="4">
+                    <div class="text-4xl mb-2">📖</div>
+                    <div class="font-bold text-gray-800">小学4年生</div>
+                </button>
+                <button class="grade-btn choice-card bg-gradient-to-br from-blue-100 to-blue-200 p-6 rounded-xl" data-grade="5">
+                    <div class="text-4xl mb-2">📖</div>
+                    <div class="font-bold text-gray-800">小学5年生</div>
+                </button>
+                <button class="grade-btn choice-card bg-gradient-to-br from-blue-100 to-blue-200 p-6 rounded-xl" data-grade="6">
+                    <div class="text-4xl mb-2">📖</div>
+                    <div class="font-bold text-gray-800">小学6年生</div>
+                </button>
+                <button class="grade-btn choice-card bg-gradient-to-br from-green-100 to-green-200 p-6 rounded-xl" data-grade="7">
+                    <div class="text-4xl mb-2">📗</div>
+                    <div class="font-bold text-gray-800">中学1年生</div>
+                </button>
+                <button class="grade-btn choice-card bg-gradient-to-br from-green-100 to-green-200 p-6 rounded-xl" data-grade="8">
+                    <div class="text-4xl mb-2">📗</div>
+                    <div class="font-bold text-gray-800">中学2年生</div>
+                </button>
+                <button class="grade-btn choice-card bg-gradient-to-br from-green-100 to-green-200 p-6 rounded-xl" data-grade="9">
+                    <div class="text-4xl mb-2">📗</div>
+                    <div class="font-bold text-gray-800">中学3年生</div>
+                </button>
+            </div>
+        </div>
+        
+        <!-- ステップ2: キャラクター選択 -->
+        <div id="step2" class="bg-white rounded-3xl shadow-2xl p-8 hidden">
+            <button id="back-to-step1" class="text-purple-600 hover:text-purple-800 font-bold mb-4">
+                <i class="fas fa-arrow-left mr-2"></i>戻る
+            </button>
+            
+            <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">
+                <i class="fas fa-users text-purple-600 mr-3"></i>
+                キャラクターを選ぼう
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <button class="character-btn choice-card bg-gradient-to-br from-purple-100 to-purple-200 p-6 rounded-xl" data-character="wizard">
+                    <div class="text-6xl mb-3">🧙‍♂️</div>
+                    <div class="font-bold text-xl text-gray-800 mb-2">魔法使い</div>
+                    <div class="text-sm text-gray-600">知恵の力で問題を解く</div>
+                </button>
+                <button class="character-btn choice-card bg-gradient-to-br from-red-100 to-red-200 p-6 rounded-xl" data-character="knight">
+                    <div class="text-6xl mb-3">🗡️</div>
+                    <div class="font-bold text-xl text-gray-800 mb-2">騎士</div>
+                    <div class="text-sm text-gray-600">勇気の力で挑戦する</div>
+                </button>
+                <button class="character-btn choice-card bg-gradient-to-br from-green-100 to-green-200 p-6 rounded-xl" data-character="archer">
+                    <div class="text-6xl mb-3">🏹</div>
+                    <div class="font-bold text-xl text-gray-800 mb-2">アーチャー</div>
+                    <div class="text-sm text-gray-600">集中の力で狙い撃つ</div>
+                </button>
+                <button class="character-btn choice-card bg-gradient-to-br from-yellow-100 to-yellow-200 p-6 rounded-xl" data-character="healer">
+                    <div class="text-6xl mb-3">⚕️</div>
+                    <div class="font-bold text-xl text-gray-800 mb-2">ヒーラー</div>
+                    <div class="text-sm text-gray-600">優しさの力で癒す</div>
+                </button>
+            </div>
+        </div>
+        
+        <!-- ステップ3: 名前入力 -->
+        <div id="step3" class="bg-white rounded-3xl shadow-2xl p-8 hidden">
+            <button id="back-to-step2" class="text-purple-600 hover:text-purple-800 font-bold mb-4">
+                <i class="fas fa-arrow-left mr-2"></i>戻る
+            </button>
+            
+            <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">
+                <i class="fas fa-pen text-purple-600 mr-3"></i>
+                冒険者の名前は？
+            </h2>
+            
+            <!-- 選択内容の確認 -->
+            <div class="bg-purple-50 rounded-xl p-6 mb-6">
+                <h3 class="font-bold text-gray-700 mb-4">選択した内容</h3>
+                <div class="flex items-center justify-between">
+                    <div>
+                        <span class="text-gray-600">学年:</span>
+                        <span id="selected-grade" class="font-bold ml-2">小学3年生</span>
+                    </div>
+                    <div>
+                        <span class="text-gray-600">キャラクター:</span>
+                        <span id="selected-character-icon" class="text-3xl ml-2">🧙‍♂️</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 名前入力 -->
+            <div class="mb-6">
+                <label class="block text-gray-700 font-bold mb-3">名前（10文字まで）</label>
+                <input 
+                    type="text" 
+                    id="player-name" 
+                    class="w-full text-2xl font-bold text-center px-6 py-4 border-4 border-purple-300 rounded-xl focus:border-purple-500 focus:outline-none focus:ring-4 focus:ring-purple-200 transition"
+                    placeholder="なまえをいれてね"
+                    maxlength="10"
+                    autofocus
+                >
+                <div class="text-right text-sm text-gray-500 mt-2">
+                    <span id="name-count">0</span>/10
+                </div>
+            </div>
+            
+            <!-- 開始ボタン -->
+            <button id="create-player-btn" class="w-full bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white text-2xl font-bold py-6 rounded-2xl shadow-xl transition transform hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed" disabled>
+                <i class="fas fa-rocket mr-3"></i>
+                冒険を始める！
+            </button>
+        </div>
+        
+    </div>
+    
+    <!-- ローディング -->
+    <div id="loading" class="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center z-50 hidden">
+        <div class="bg-white rounded-2xl p-8 shadow-2xl text-center">
+            <div class="animate-spin text-6xl text-purple-600 mb-4">
+                <i class="fas fa-spinner"></i>
+            </div>
+            <p class="text-xl font-bold text-gray-800">プレイヤーを作成中...</p>
+        </div>
+    </div>
+    
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/player.js"></script>
+    <script>
+        let selectedGrade = null;
+        let selectedCharacter = null;
+        
+        const characterIcons = {
+            wizard: '🧙‍♂️',
+            knight: '🗡️',
+            archer: '🏹',
+            healer: '⚕️'
+        };
+        
+        const gradeNames = {
+            1: '小学1年生', 2: '小学2年生', 3: '小学3年生',
+            4: '小学4年生', 5: '小学5年生', 6: '小学6年生',
+            7: '中学1年生', 8: '中学2年生', 9: '中学3年生'
+        };
+        
+        function updateProgress(step) {
+            const progress = (step / 3) * 100;
+            document.getElementById('progress-fill').style.width = `${progress}%`;
+            document.getElementById('step-text').textContent = `ステップ ${step}/3`;
+            
+            const stepNames = ['学年選択', 'キャラクター選択', '名前入力'];
+            document.getElementById('step-name').textContent = stepNames[step - 1];
+        }
+        
+        document.addEventListener('DOMContentLoaded', () => {
+            // ステップ1: 学年選択
+            document.querySelectorAll('.grade-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    selectedGrade = btn.dataset.grade;
+                    document.getElementById('step1').classList.add('hidden');
+                    document.getElementById('step2').classList.remove('hidden');
+                    document.getElementById('step2').classList.add('animate-fade-in');
+                    updateProgress(2);
+                });
+            });
+            
+            // ステップ2: キャラクター選択
+            document.querySelectorAll('.character-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    selectedCharacter = btn.dataset.character;
+                    
+                    // 選択内容を表示
+                    document.getElementById('selected-grade').textContent = gradeNames[selectedGrade];
+                    document.getElementById('selected-character-icon').textContent = characterIcons[selectedCharacter];
+                    
+                    document.getElementById('step2').classList.add('hidden');
+                    document.getElementById('step3').classList.remove('hidden');
+                    document.getElementById('step3').classList.add('animate-fade-in');
+                    updateProgress(3);
+                });
+            });
+            
+            // 戻るボタン
+            document.getElementById('back-to-step1').addEventListener('click', () => {
+                document.getElementById('step2').classList.add('hidden');
+                document.getElementById('step1').classList.remove('hidden');
+                updateProgress(1);
+            });
+            
+            document.getElementById('back-to-step2').addEventListener('click', () => {
+                document.getElementById('step3').classList.add('hidden');
+                document.getElementById('step2').classList.remove('hidden');
+                updateProgress(2);
+            });
+            
+            // 名前入力
+            const nameInput = document.getElementById('player-name');
+            const createBtn = document.getElementById('create-player-btn');
+            
+            nameInput.addEventListener('input', () => {
+                const length = nameInput.value.length;
+                document.getElementById('name-count').textContent = length;
+                createBtn.disabled = length === 0;
+            });
+            
+            // プレイヤー作成
+            createBtn.addEventListener('click', () => {
+                const playerName = nameInput.value.trim();
+                
+                if (!playerName) {
+                    MathMagic.showMessage('名前を入力してください', 'error');
+                    return;
+                }
+                
+                // ローディング表示
+                document.getElementById('loading').classList.remove('hidden');
+                
+                // プレイヤーを作成
+                setTimeout(() => {
+                    PlayerManager.createPlayer(playerName, selectedGrade, selectedCharacter);
+                    MathMagic.showMessage('冒険者が誕生しました！🎉', 'success');
+                    
+                    setTimeout(() => {
+                        window.location.href = 'world-map.html';
+                    }, 1000);
+                }, 1500);
+            });
+            
+            // Enterキーで進む
+            nameInput.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter' && !createBtn.disabled) {
+                    createBtn.click();
+                }
+            });
+        });
+    </script>
+    
+</body>
+</html>

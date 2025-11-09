@@ -1,0 +1,19 @@
+{
+  "name": "マスマジ！～魔法数学冒険記～",
+  "short_name": "マスマジ！",
+  "description": "RPG風教育ゲームで楽しく数学を学ぼう！小学生・中学生向けの算数・数学学習アプリ",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#9333ea",
+  "theme_color": "#9333ea",
+  "orientation": "any",
+  "scope": "/",
+  "icons": [],
+  "categories": [
+    "education",
+    "games"
+  ],
+  "lang": "ja-JP",
+  "dir": "ltr",
+  "prefer_related_applications": false
+}

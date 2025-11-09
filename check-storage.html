@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LocalStorage確認ツール</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-purple-900 to-blue-900 p-8">
+
+    <div class="max-w-4xl mx-auto">
+        <div class="bg-white rounded-xl shadow-2xl p-8">
+            <h1 class="text-3xl font-bold mb-6 text-gray-800">
+                🔍 LocalStorage データ確認
+            </h1>
+
+            <div class="space-y-6">
+                <!-- questSession -->
+                <div class="bg-blue-50 rounded-lg p-4">
+                    <h2 class="text-xl font-bold mb-2 text-blue-900">questSession</h2>
+                    <pre id="quest-session" class="bg-white p-4 rounded overflow-auto text-sm"></pre>
+                </div>
+
+                <!-- currentPlayer -->
+                <div class="bg-green-50 rounded-lg p-4">
+                    <h2 class="text-xl font-bold mb-2 text-green-900">currentPlayer</h2>
+                    <pre id="current-player" class="bg-white p-4 rounded overflow-auto text-sm"></pre>
+                </div>
+
+                <!-- currentWorldId -->
+                <div class="bg-yellow-50 rounded-lg p-4">
+                    <h2 class="text-xl font-bold mb-2 text-yellow-900">currentWorldId</h2>
+                    <pre id="current-world-id" class="bg-white p-4 rounded overflow-auto text-sm"></pre>
+                </div>
+
+                <!-- 全LocalStorage -->
+                <div class="bg-gray-50 rounded-lg p-4">
+                    <h2 class="text-xl font-bold mb-2 text-gray-900">全LocalStorage</h2>
+                    <pre id="all-storage" class="bg-white p-4 rounded overflow-auto text-sm"></pre>
+                </div>
+            </div>
+
+            <div class="mt-6 flex gap-4">
+                <button onclick="reload()" class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded font-bold">
+                    🔄 再読み込み
+                </button>
+                <button onclick="clearSession()" class="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2 rounded font-bold">
+                    🗑️ questSessionをクリア
+                </button>
+                <button onclick="clearAll()" class="bg-red-500 hover:bg-red-600 text-white px-6 py-2 rounded font-bold">
+                    ⚠️ 全データクリア
+                </button>
+            </div>
+
+            <div class="mt-6 text-center">
+                <a href="world-map.html" class="inline-block bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 rounded-lg font-bold">
+                    ← ワールドマップに戻る
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script>
+        function displayData() {
+            // questSession
+            const questSession = MathMagic.getItem('questSession');
+            document.getElementById('quest-session').textContent =
+                questSession ? JSON.stringify(questSession, null, 2) : '(データなし)';
+
+            // currentPlayer
+            const currentPlayer = MathMagic.getCurrentPlayer();
+            document.getElementById('current-player').textContent =
+                currentPlayer ? JSON.stringify(currentPlayer, null, 2) : '(データなし)';
+
+            // currentWorldId
+            const currentWorldId = MathMagic.getItem('currentWorldId');
+            document.getElementById('current-world-id').textContent =
+                currentWorldId ? `"${currentWorldId}"` : '(データなし)';
+
+            // 全LocalStorage
+            const allData = {};
+            for (let i = 0; i < localStorage.length; i++) {
+                const key = localStorage.key(i);
+                try {
+                    allData[key] = JSON.parse(localStorage.getItem(key));
+                } catch (e) {
+                    allData[key] = localStorage.getItem(key);
+                }
+            }
+            document.getElementById('all-storage').textContent =
+                JSON.stringify(allData, null, 2);
+        }
+
+        function reload() {
+            location.reload();
+        }
+
+        function clearSession() {
+            if (confirm('questSessionをクリアしますか？')) {
+                MathMagic.removeItem('questSession');
+                alert('questSessionをクリアしました');
+                reload();
+            }
+        }
+
+        function clearAll() {
+            if (confirm('本当に全データをクリアしますか？\n※プレイヤーデータも消えます')) {
+                localStorage.clear();
+                alert('全データをクリアしました');
+                reload();
+            }
+        }
+
+        // 初期表示
+        displayData();
+
+        console.log('==================');
+        console.log('📊 LocalStorage確認ツール');
+        console.log('==================');
+        console.log('questSession:', MathMagic.getItem('questSession'));
+        console.log('currentPlayer:', MathMagic.getCurrentPlayer());
+        console.log('currentWorldId:', MathMagic.getItem('currentWorldId'));
+        console.log('==================');
+    </script>
+</body>
+</html>
