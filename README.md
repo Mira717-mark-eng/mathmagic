@@ -11,38 +11,46 @@ RPG風教育ゲームで楽しく算数・数学を学ぶ、小学生・中学�
 **技術スタック**:
 - 静的サイト（HTML/CSS/JavaScript）
 - Tailwind CSS
-- OpenAI GPT-4o-mini API
-- Netlify Functions（サーバーレス）
+- **完全無料運用**（サーバーレス不要）
 - PWA対応
 
 ---
 
-## ✨ 実装済み機能（Phase 2完了）
+## ✨ 実装済み機能
 
 ### 基本機能
 - ✅ プレイヤー作成（名前、学年、キャラクター選択）
+- ✅ 複数プレイヤー対応（キャラクター選択画面）
 - ✅ ワールドマップ（学年別フィルタリング）
 - ✅ クエスト画面（問題表示、回答入力）
+- ✅ バトルシステム（モンスターとのHP制バトル）
 - ✅ 結果画面（正解判定、経験値獲得、レベルアップ）
 - ✅ 経験値・レベルシステム
 - ✅ プレイヤーデータ永続化（LocalStorage）
 
-### Phase 2新機能
-- ✅ **AI問題生成**（GPT-4o-mini使用）
+### ゲーム要素
+- ✅ **バトルシステム**（モンスターとのHP制バトル）
+- ✅ **コンボボーナス**（連続正解でダメージ増加）
+- ✅ **問題式非表示**（考える力を育成、ヒント1で表示）
+- ✅ **3段階ヒントシステム**（経験値減少ペナルティ）
 - ✅ **リトライ機能**（不正解時に答えを見せない）
-- ✅ **3段階ヒントシステム**（任意、経験値減少ペナルティ）
-- ✅ **AI解説表示**（正解後に詳しい説明）
-- ✅ **図形描画機能**（Canvas/SVG）
-- ✅ **複数ワールド対応**（学年別フィルタリング）
-- ✅ **保護者ダッシュボード**（3人の進捗統計）
-- ✅ **PWA対応**（ホーム画面に追加可能）
+- ✅ **称号システム**
+- ✅ **アイテム収集**
+- ✅ **デイリーストリーク**
+
+### UI/UX
+- ✅ **ファンタジーRPG風デザイン**
+- ✅ **背景画像システム**（バトル、ワールドマップ、キャラクター選択）
+- ✅ **モンスター画像表示**（13種類のモンスター）
 - ✅ **レスポンシブデザイン**（スマホ・タブレット・PC対応）
+- ✅ **PWA対応**（ホーム画面に追加可能）
+- ✅ **保護者ダッシュボード**（3人の進捗統計）
 
 ### 教育的特徴
 - ✅ **文部科学省学習指導要領に準拠**
 - ✅ **主要学習塾カリキュラム参考**（公文、学研、栄光）
 - ✅ **学年別ワールド自動表示**
-- ✅ **無限バリエーション問題**（AI生成）
+- ✅ **10種類の固定問題**（ファンタジー風ストーリー付き）
 
 ---
 
@@ -70,15 +78,14 @@ RPG風教育ゲームで楽しく算数・数学を学ぶ、小学生・中学�
 ```
 mathmagic/
 ├── index.html                    # トップ画面
+├── character-select.html         # キャラクター選択画面
 ├── player-create.html            # プレイヤー作成画面
 ├── world-map.html                # ワールドマップ
-├── quest.html                    # クエスト画面
+├── quest.html                    # クエスト画面（バトル）
 ├── result.html                   # 結果画面
 ├── parent-dashboard.html         # 保護者ダッシュボード
 ├── manifest.json                 # PWA manifest
 ├── service-worker.js             # Service Worker
-├── netlify.toml                  # Netlify設定
-├── .env.example                  # 環境変数テンプレート
 │
 ├── css/
 │   └── style.css                 # カスタムCSS
@@ -87,72 +94,93 @@ mathmagic/
 │   ├── main.js                   # 共通関数
 │   ├── player.js                 # プレイヤー管理
 │   ├── world-map.js              # ワールドマップ処理
-│   ├── quest.js                  # クエスト処理（AI統合）
-│   ├── result.js                 # 結果処理（AI解説）
+│   ├── quest.js                  # クエスト処理（固定問題）
+│   ├── result.js                 # 結果処理
 │   ├── worlds.js                 # ワールドデータベース
+│   ├── monster-database.js       # モンスターデータベース
+│   ├── battle-system.js          # バトルシステム
 │   ├── figure-drawer.js          # 図形描画
 │   ├── hint-system.js            # ヒントシステム
+│   ├── achievement-system.js     # 称号システム
+│   ├── inventory-system.js       # アイテムシステム
+│   ├── streak-system.js          # デイリーストリーク
+│   ├── sound-system.js           # サウンドシステム
 │   └── parent-stats.js           # 保護者ダッシュボード
 │
-└── netlify/functions/
-    ├── generate-problem.js       # AI問題生成
-    ├── generate-hint.js          # AIヒント生成
-    └── generate-explanation.js   # AI解説生成
+└── assets/
+    └── images/
+        ├── backgrounds/          # 背景画像
+        └── monsters/             # モンスター画像
 ```
 
 ---
 
 ## 🚀 セットアップ方法
 
-詳細は **[SETUP_GUIDE.md](./SETUP_GUIDE.md)** を参照してください。
+### GitHub Pagesへのデプロイ（推奨）
 
-### 簡易手順
+1. **GitHubにリポジトリを作成**
+   ```bash
+   cd mathmagic
+   git remote add origin https://github.com/ユーザー名/mathmagic.git
+   git branch -M main
+   git push -u origin main
+   ```
 
-1. **OpenAI APIキーを取得**
-   - https://platform.openai.com/signup
-   - APIキーを作成（$5/月の利用上限推奨）
+2. **GitHub Pagesを有効化**
+   - リポジトリの「Settings」→「Pages」
+   - Source: 「Deploy from a branch」
+   - Branch: 「main」→「/ (root)」
+   - 「Save」をクリック
 
-2. **Netlifyアカウントを作成**
-   - https://app.netlify.com/signup
+3. **アクセス**
+   - `https://ユーザー名.github.io/mathmagic/` で公開
 
-3. **デプロイ**
-   - GitHub経由または手動デプロイ
-   - Netlify Functions directoryを `netlify/functions` に設定
+### ローカル開発
 
-4. **環境変数を設定**
-   - Netlifyダッシュボードで `OPENAI_API_KEY` を設定
+1. **ファイルをダウンロード**
+   ```bash
+   git clone https://github.com/ユーザー名/mathmagic.git
+   cd mathmagic
+   ```
 
-5. **動作確認**
-   - サイトにアクセスしてプレイヤー作成
-   - AI問題生成をテスト
+2. **ローカルサーバーで起動**
+   ```bash
+   # Python 3の場合
+   python -m http.server 8000
+
+   # Node.jsの場合
+   npx http-server -p 8000
+   ```
+
+3. **ブラウザでアクセス**
+   - `http://localhost:8000`
 
 ---
 
-## 💰 コスト見積もり
+## 💰 コスト
 
-### OpenAI API（GPT-4o-mini）
-- **1問生成**: 約0.13円
-- **家族3人、1日10問**: 約39円/月
-- **非常に安価！**
+### 完全無料！
+- **ホスティング**: GitHub Pages（無料）
+- **問題生成**: 固定問題（10問）
+- **API依存**: なし
+- **サーバー**: 不要
 
-### Netlify
-- **無料プラン**: 月300分ビルド時間、100GB帯域幅
-- **家族利用**: 完全無料
-
-**合計**: 約40円/月
+**合計**: **0円/月** 🎉
 
 ---
 
-## 🎯 Phase 3計画（今後の拡張）
+## 🎯 今後の拡張
 
 ### 1. ワールド拡充
 - [ ] 40種類のワールドを実装（学年別）
-- [ ] 各ワールド10問 = 400問以上
+- [ ] 各ワールド30問 = 1,200問以上
 
 ### 2. ゲーム要素強化
-- [ ] アイテムシステム
-- [ ] キャラクター育成
+- [ ] アイテム使用機能
+- [ ] キャラクター育成強化
 - [ ] アバターカスタマイズ
+- [ ] ボス戦
 
 ### 3. UI/UX改善
 - [ ] 効果音・BGM
@@ -171,37 +199,28 @@ mathmagic/
 
 ---
 
-## 📚 ドキュメント
+## 📚 主な技術仕様
 
-- **[SETUP_GUIDE.md](./SETUP_GUIDE.md)** - セットアップ手順
-- **[CURRICULUM_RESEARCH.md](./CURRICULUM_RESEARCH.md)** - 教育カリキュラム調査
-- **[WORLD_DESIGN.md](./WORLD_DESIGN.md)** - ワールド設計書
-- **[PHASE2_PLAN.md](./PHASE2_PLAN.md)** - Phase 2実装計画
-- **[REDESIGN_SUMMARY.md](./REDESIGN_SUMMARY.md)** - 再設計まとめ
+### 問題システム
+- **固定問題**: 10種類のファンタジー風問題
+- **フォーマット**: story, question, answer, hints
+- **拡張性**: `js/quest.js` で簡単に追加可能
 
----
-
-## 🔧 技術詳細
-
-### AI問題生成
-- **API**: OpenAI GPT-4o-mini
-- **機能**: 問題文、ストーリー、答え、ヒント、解説を生成
-- **フォールバック**: AI失敗時は固定問題を使用
-
-### 図形描画
-- **技術**: HTML5 Canvas API
-- **対応**: 長方形、正方形、円、三角形、L字型
-- **機能**: 寸法ラベル、High DPI対応
+### バトルシステム
+- **プレイヤーHP**: 100（不正解で-15）
+- **モンスターHP**: 100（正解で-10）
+- **コンボ**: 3連続で1.5倍、5連続で2倍ダメージ
+- **HP継続**: 問題間でHPを保持
 
 ### ヒントシステム
-- **段階**: 3段階（方向性 → 手順 → ほぼ答え）
+- **段階**: 3段階（式 → ヒント2 → ヒント3）
 - **ペナルティ**: 100% → 80% → 60% → 40%
 - **確認**: ヒント表示前に確認ダイアログ
 
-### リトライ機能
-- **方針**: 不正解時に答えを見せない
-- **メッセージ**: 「惜しい！もう一度考えてみよう」
-- **回数**: 無制限（3回後にヒント推奨）
+### モンスターシステム
+- **13種類**: スライム、こうもり、ゴブリン、スケルトン、オーク、ドラゴン等
+- **画像**: PNG形式（フォールバック絵文字あり）
+- **難易度**: 1〜8段階
 
 ### PWA機能
 - **オフライン**: Service Workerでキャッシュ
@@ -225,6 +244,11 @@ mathmagic/
 - 達成感を重視した経験値・レベルシステム
 - ストーリーで問題を魅力的に演出
 
+### 考える力の育成
+- **問題式を非表示**: 自分で式を考える
+- **ヒント1で式表示**: 困ったら式を確認可能
+- **段階的ヒント**: 徐々に答えに近づく
+
 ---
 
 ## ⚠️ 注意事項
@@ -233,23 +257,29 @@ mathmagic/
    - 商用利用不可
    - 第三者への公開不可
 
-2. **APIキー管理**
-   - `.env` ファイルをGitにコミットしない
-   - Netlify環境変数を使用
-
-3. **利用上限設定**
-   - OpenAIで月額上限を設定（$5推奨）
-   - 予期しない課金を防ぐ
-
-4. **データ保存**
+2. **データ保存**
    - LocalStorageに保存（ブラウザローカル）
    - ブラウザキャッシュクリアでデータ消失注意
+
+3. **問題の追加**
+   - `js/quest.js` の `FALLBACK_PROBLEMS` 配列に追加
+   - フォーマットに従って記述
 
 ---
 
 ## 🐛 トラブルシューティング
 
-問題が発生した場合は **[SETUP_GUIDE.md](./SETUP_GUIDE.md)** のトラブルシューティングセクションを参照してください。
+### 問題が表示されない
+- ブラウザのコンソール（F12）でエラー確認
+- キャッシュクリア（Ctrl+Shift+R）
+
+### データが消えた
+- LocalStorageをブラウザがクリアした可能性
+- 定期的にバックアップ推奨
+
+### 背景画像が表示されない
+- `assets/images/backgrounds/` に画像があるか確認
+- パスが正しいか確認
 
 ---
 
@@ -263,8 +293,7 @@ mathmagic/
 
 - **UI Framework**: Tailwind CSS
 - **Icons**: Font Awesome
-- **AI**: OpenAI GPT-4o-mini
-- **Hosting**: Netlify
+- **Hosting**: GitHub Pages
 - **Charts**: Chart.js
 
 ---
@@ -277,4 +306,4 @@ Happy Learning! 🎓✨
 
 ---
 
-**最終更新**: 2024年11月（Phase 2完了）
+**最終更新**: 2024年11月（完全無料運用版）
