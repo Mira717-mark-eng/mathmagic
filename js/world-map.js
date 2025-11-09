@@ -1,22 +1,42 @@
 /**
  * マスマジ！- ワールドマップ管理
  * world-map.html用のJavaScript
- * Phase 2: 複数ワールド対応、学年フィルタリング
+ * v2: 学年ベース・単元(クエスト)ベースの設計
  */
 
+let worldDesignData = null;
+
 const WorldMap = {
+    /**
+     * World Design v2のデータを読み込み
+     */
+    loadWorldDesign: async function() {
+        try {
+            const response = await fetch('js/problems/world-design-v2.json');
+            if (!response.ok) {
+                throw new Error(`Failed to load world-design-v2.json: ${response.status}`);
+            }
+            worldDesignData = await response.json();
+            console.log('✅ World Design v2 読み込み完了:', worldDesignData.totalWorlds, 'ワールド,', worldDesignData.totalQuests, 'クエスト');
+            return worldDesignData;
+        } catch (error) {
+            console.error('❌ World Design v2 読み込みエラー:', error);
+            throw error;
+        }
+    },
+
     /**
      * プレイヤー情報を表示
      */
     displayPlayerInfo: function() {
         const player = MathMagic.getCurrentPlayer();
-        
+
         if (!player) {
             console.error('プレイヤーが見つかりません');
             window.location.href = 'index.html';
             return;
         }
-        
+
         // キャラクターアイコン
         const characterIcons = {
             wizard: '🧙‍♂️',
@@ -24,37 +44,37 @@ const WorldMap = {
             archer: '🏹',
             healer: '⚕️'
         };
-        
-        document.getElementById('character-icon').textContent = characterIcons[player.characterType] || '👤';
+
+        document.getElementById('character-icon').textContent = characterIcons[player.character] || characterIcons[player.characterType] || '👤';
         document.getElementById('player-name').textContent = player.name;
         document.getElementById('player-level').textContent = player.level;
-        
+
         // 学年表示
         const gradeElement = document.getElementById('player-grade');
         if (gradeElement) {
-            gradeElement.textContent = PlayerManager.getGradeName(player.grade);
+            gradeElement.textContent = player.grade;
         }
-        
+
         // 経験値バー
         const expForNextLevel = MathMagic.getExpForLevel(player.level + 1);
         const expPercentage = (player.exp / expForNextLevel) * 100;
-        
+
         const expBar = document.getElementById('exp-bar');
         if (expBar) {
             expBar.style.width = `${Math.min(expPercentage, 100)}%`;
         }
-        
+
         document.getElementById('current-exp').textContent = player.exp;
         document.getElementById('next-level-exp').textContent = expForNextLevel;
-        
+
         // 統計情報
         const accuracy = PlayerManager.getAccuracy();
-        document.getElementById('total-problems').textContent = player.totalProblems;
+        document.getElementById('total-problems').textContent = player.totalProblems || 0;
         document.getElementById('accuracy-rate').textContent = accuracy;
     },
-    
+
     /**
-     * ワールドリストを表示（学年フィルタリング付き）
+     * ワールドリストを表示（学年ベース）
      */
     displayWorlds: function() {
         const player = MathMagic.getCurrentPlayer();
@@ -64,35 +84,44 @@ const WorldMap = {
             return;
         }
 
-        // プレイヤーの学年に合ったワールドを取得
-        const availableWorlds = WORLD_DATABASE.filter(world => {
-            // targetGradeが設定されている場合はそれを優先、なければminGrade/maxGradeを使用
-            if (world.targetGrade) {
-                return player.grade === world.targetGrade;
-            }
-            return player.grade >= world.minGrade && player.grade <= world.maxGrade;
-        });
+        if (!worldDesignData) {
+            console.error('World Design データが読み込まれていません');
+            return;
+        }
 
-        console.log(`${player.grade}年生向けワールド:`, availableWorlds.length, '個');
-        console.log('利用可能なワールド:', availableWorlds.map(w => w.name));
-        
+        // プレイヤーの学年に合ったワールドを取得
+        // 学年は「小1」「小2」...「小6」「中1」「中2」「中3」の形式
+        const gradeMap = {
+            '小1': 'grade1',
+            '小2': 'grade2',
+            '小3': 'grade3',
+            '小4': 'grade4',
+            '小5': 'grade5',
+            '小6': 'grade6',
+            '中1': 'junior-high1',
+            '中2': 'junior-high2',
+            '中3': 'junior-high3'
+        };
+
+        const worldId = gradeMap[player.grade];
+        const world = worldDesignData.worlds.find(w => w.worldId === worldId);
+
+        console.log(`${player.grade}向けワールド:`, world ? world.worldName : '見つかりません');
+
         // ワールドカードを生成
         const worldContainer = document.getElementById('worlds-container');
-        
+
         if (!worldContainer) {
             console.warn('ワールドコンテナが見つかりません');
             return;
         }
-        
-        worldContainer.innerHTML = '';
-        
-        availableWorlds.forEach((world, index) => {
-            const worldCard = this.createWorldCard(world, player, index);
-            worldContainer.appendChild(worldCard);
-        });
 
-        // ワールドがない場合のメッセージ
-        if (availableWorlds.length === 0) {
+        worldContainer.innerHTML = '';
+
+        if (world) {
+            const worldCard = this.createWorldCard(world, player);
+            worldContainer.appendChild(worldCard);
+        } else {
             worldContainer.innerHTML = `
                 <div class="col-span-full text-center py-12">
                     <div class="text-6xl mb-4">🔒</div>
@@ -101,185 +130,166 @@ const WorldMap = {
                 </div>
             `;
         }
-
-        // クエスト開始ボタンにイベントリスナーを追加
-        this.attachQuestButtonListeners();
     },
-    
+
     /**
-     * ワールドカードを生成
+     * ワールドカードを生成（クエストリスト付き）
      */
-    createWorldCard: function(world, player, index) {
+    createWorldCard: function(world, player) {
         const card = document.createElement('div');
-        card.className = 'world-card transform transition-all duration-300 hover:scale-105 hover:shadow-2xl';
-        
-        // 難易度によって色を変える
-        const difficultyColors = {
-            1: 'from-green-400 to-green-600',
-            2: 'from-blue-400 to-blue-600',
-            3: 'from-purple-400 to-purple-600',
-            4: 'from-pink-400 to-pink-600',
-            5: 'from-red-400 to-red-600'
-        };
-        
-        const gradientClass = difficultyColors[world.difficulty] || 'from-gray-400 to-gray-600';
-        
-        // ロック状態の判定（レベル要件）
-        const isLocked = player.level < world.requiredLevel;
-        const lockClass = isLocked ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer';
-        
+        card.className = 'col-span-full';
+
+        const questsHtml = world.quests.map((quest, index) => {
+            // 進捗状況を取得（未実装の場合は0%）
+            const progress = this.getQuestProgress(player, quest.questId);
+            const isCompleted = progress >= 100;
+            const isLocked = index > 0 && this.getQuestProgress(player, world.quests[index-1].questId) < 100;
+
+            return `
+                <div class="bg-white/10 backdrop-blur-md rounded-xl p-4 hover:bg-white/20 transition ${isLocked ? 'opacity-50' : 'cursor-pointer'}"
+                     data-quest-id="${quest.questId}"
+                     data-world-id="${world.worldId}">
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center space-x-3">
+                            <div class="text-3xl">${isCompleted ? '✅' : isLocked ? '🔒' : '📝'}</div>
+                            <div>
+                                <h4 class="text-lg font-bold text-white">${quest.questName}</h4>
+                                <p class="text-white/70 text-sm">${quest.description}</p>
+                                <div class="flex items-center space-x-2 mt-1">
+                                    <span class="text-xs text-white/60">問題数: ${quest.problemCount}問</span>
+                                    <span class="text-xs text-white/60">•</span>
+                                    <span class="text-xs text-white/60">難易度: ${quest.difficulty === 'basic' ? '基礎' : quest.difficulty === 'standard' ? '標準' : '応用'}</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-right">
+                            ${isLocked ? `
+                                <div class="text-white/70 text-sm">前のクエストをクリア</div>
+                            ` : `
+                                <button class="start-quest-btn bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-bold px-6 py-2 rounded-full shadow-lg transition transform hover:scale-105">
+                                    ${isCompleted ? '再挑戦' : '開始'}
+                                </button>
+                            `}
+                            <div class="mt-2 bg-white/20 rounded-full h-2 w-32">
+                                <div class="bg-green-400 h-full rounded-full" style="width: ${progress}%"></div>
+                            </div>
+                            <div class="text-white/70 text-xs mt-1">${progress}%</div>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }).join('');
+
         card.innerHTML = `
-            <div class="bg-gradient-to-br ${gradientClass} rounded-xl p-6 relative overflow-hidden ${lockClass}">
-                ${isLocked ? '<div class="absolute top-4 right-4 text-4xl">🔒</div>' : ''}
-                
-                <!-- ワールドアイコン -->
-                <div class="text-center mb-4">
-                    <div class="text-6xl mb-2">${world.icon}</div>
-                    <h3 class="text-2xl font-bold text-white drop-shadow-lg">${world.name}</h3>
-                    <p class="text-white/90 text-sm mt-1">${world.description}</p>
-                </div>
-                
-                <!-- ワールド情報 -->
-                <div class="bg-white/20 rounded-lg p-3 backdrop-blur-sm mb-4">
-                    <div class="flex justify-between items-center text-white text-sm mb-2">
-                        <span>対象学年</span>
-                        <span class="font-bold">${world.minGrade}〜${world.maxGrade}年生</span>
-                    </div>
-                    <div class="flex justify-between items-center text-white text-sm mb-2">
-                        <span>難易度</span>
-                        <span class="font-bold">${'⭐'.repeat(world.difficulty)}</span>
-                    </div>
-                    <div class="flex justify-between items-center text-white text-sm">
-                        <span>必要レベル</span>
-                        <span class="font-bold">Lv.${world.requiredLevel}</span>
+            <div class="bg-gradient-to-br from-purple-600 to-pink-600 rounded-2xl p-8 shadow-2xl">
+                <div class="text-center mb-6">
+                    <div class="text-8xl mb-4">${world.icon}</div>
+                    <h2 class="text-4xl font-bold text-white mb-2">${world.worldName}</h2>
+                    <p class="text-white/90 text-lg">${world.description}</p>
+                    <div class="flex items-center justify-center space-x-4 mt-4">
+                        <span class="bg-white/20 text-white px-4 py-2 rounded-full text-sm">
+                            📚 ${world.totalQuests}クエスト
+                        </span>
+                        <span class="bg-white/20 text-white px-4 py-2 rounded-full text-sm">
+                            📝 約${world.estimatedProblems}問
+                        </span>
                     </div>
                 </div>
-                
-                <!-- 開始ボタン -->
-                ${isLocked ? `
-                    <div class="text-center text-white text-sm py-3">
-                        Lv.${world.requiredLevel}で解放されます
-                    </div>
-                ` : `
-                    <button
-                        data-world-id="${world.id}"
-                        class="start-quest-btn w-full bg-white hover:bg-gray-100 text-gray-800 font-bold py-3 rounded-lg shadow-lg transition transform hover:scale-105"
-                    >
-                        🗡️ 冒険に出発！
-                    </button>
-                `}
+
+                <div class="space-y-3">
+                    ${questsHtml}
+                </div>
             </div>
         `;
-        
-        return card;
-    },
-    
-    /**
-     * クエスト開始ボタンにイベントリスナーを追加
-     */
-    attachQuestButtonListeners: function() {
-        const questButtons = document.querySelectorAll('.start-quest-btn');
-        console.log('クエストボタンを検出:', questButtons.length, '個');
 
-        questButtons.forEach(button => {
-            button.addEventListener('click', (e) => {
-                e.preventDefault();
-                const worldId = button.getAttribute('data-world-id');
-                console.log('クエストボタンがクリックされました:', worldId);
-                this.startQuest(worldId);
+        // クエスト開始ボタンにイベントリスナーを追加
+        card.querySelectorAll('.start-quest-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                const questCard = btn.closest('[data-quest-id]');
+                const questId = questCard.getAttribute('data-quest-id');
+                const worldId = questCard.getAttribute('data-world-id');
+                this.startQuest(worldId, questId);
             });
         });
+
+        return card;
+    },
+
+    /**
+     * クエストの進捗状況を取得（0-100%）
+     */
+    getQuestProgress: function(player, questId) {
+        // TODO: 実際の進捗データをプレイヤーデータから取得
+        // 現在は未実装なので0%を返す
+        return 0;
     },
 
     /**
      * クエストを開始
      */
-    startQuest: function(worldId) {
+    startQuest: function(worldId, questId) {
         console.log('==================');
-        console.log('クエスト開始関数が呼ばれました');
-        console.log('ワールドID:', worldId);
+        console.log('クエスト開始:', worldId, '/', questId);
 
         try {
             const player = MathMagic.getCurrentPlayer();
-            console.log('プレイヤー情報:', player);
+            const world = worldDesignData.worlds.find(w => w.worldId === worldId);
+            const quest = world?.quests.find(q => q.questId === questId);
 
-            // ワールド情報を取得
-            console.log('ワールドデータベースを検索中...');
-            const world = WORLD_DATABASE.find(w => w.id === worldId);
-            console.log('見つかったワールド:', world);
-
-            if (!world) {
-                console.error('エラー: ワールドが見つかりません');
-                MathMagic.showMessage('ワールドが見つかりません', 'error');
-                return;
-            }
-
-            // レベル要件チェック
-            console.log('レベル要件チェック: プレイヤーLv', player.level, '必要Lv', world.requiredLevel);
-            if (player.level < world.requiredLevel) {
-                console.warn('レベル不足');
-                MathMagic.showMessage(`Lv.${world.requiredLevel}以上が必要です`, 'warning');
+            if (!world || !quest) {
+                console.error('ワールドまたはクエストが見つかりません');
+                MathMagic.showMessage('クエストが見つかりません', 'error');
                 return;
             }
 
             // 既存のセッションをチェック
-            console.log('既存セッションをチェック中...');
             const existingSession = MathMagic.getItem('questSession');
-            console.log('既存セッション:', existingSession);
 
-            if (existingSession && existingSession.worldId === worldId && existingSession.results && existingSession.results.length > 0) {
-                // 同じワールドの途中セッションがある
-                console.log('同じワールドの途中セッションが見つかりました');
+            if (existingSession && existingSession.questId === questId && existingSession.results && existingSession.results.length > 0) {
+                // 同じクエストの途中セッションがある
                 if (confirm('前回の続きから始めますか？\n「キャンセル」を選ぶと最初からになります。')) {
-                    // そのまま継続
-                    console.log('継続を選択 → quest.htmlへ遷移');
                     window.location.href = 'quest.html';
                     return;
                 } else {
-                    // 新しく始める
-                    console.log('新規開始を選択 → セッションクリア');
                     MathMagic.removeItem('questSession');
                 }
-            } else if (existingSession && existingSession.worldId !== worldId) {
-                // 別のワールドのセッションがある
-                console.log('別のワールドのセッションをクリア');
+            } else if (existingSession) {
+                // 別のクエストのセッションがある
                 MathMagic.removeItem('questSession');
             }
 
             // 新しいセッションを作成
-            console.log('新しいセッションを作成中...');
             const newSession = {
                 worldId: worldId,
-                worldName: world.name,
-                difficulty: world.difficulty,
-                targetGrade: world.targetGrade || player.grade,  // targetGradeが未定義の場合はプレイヤーの学年を使用
-                useAI: world.aiGeneration?.enabled || false,
+                worldName: world.worldName,
+                questId: questId,
+                questName: quest.questName,
+                unitId: quest.unitId,
+                difficulty: quest.difficulty,
+                grade: world.grade,
                 startTime: new Date().toISOString(),
                 currentIndex: 0,
-                totalProblems: 10,  // 1ワールドあたり10問
+                totalProblems: quest.problemCount,
+                problemTypes: quest.problemTypes,
                 results: []
             };
 
             console.log('作成されたセッション:', newSession);
             MathMagic.setItem('questSession', newSession);
-            console.log('セッションを保存しました');
 
             // クエスト画面へ
-            console.log('quest.htmlへ遷移します');
-            console.log('==================');
             window.location.href = 'quest.html';
+            console.log('==================');
 
         } catch (error) {
             console.error('==================');
-            console.error('❌ エラーが発生しました:');
-            console.error('エラー内容:', error);
-            console.error('エラーメッセージ:', error.message);
-            console.error('スタックトレース:', error.stack);
+            console.error('❌ エラーが発生しました:', error);
             console.error('==================');
-            alert(`エラーが発生しました:\n${error.message}\n\nコンソールを確認してください。`);
+            alert(`エラーが発生しました:\n${error.message}`);
         }
     },
-    
+
     /**
      * ホームに戻る
      */
@@ -288,7 +298,7 @@ const WorldMap = {
             window.location.href = 'index.html';
         }
     },
-    
+
     /**
      * ログアウト
      */
@@ -297,45 +307,39 @@ const WorldMap = {
             // セッションデータをクリア（プレイヤーデータは保持）
             MathMagic.removeItem('questSession');
             MathMagic.removeItem('lastResult');
-            
+
             window.location.href = 'index.html';
         }
     },
-    
+
     /**
      * 保護者ダッシュボードへ
      */
     goToParentDashboard: function() {
         window.location.href = 'parent-dashboard.html';
     },
-    
+
     /**
-     * デバッグ情報を表示
+     * インベントリへ
      */
-    showDebugInfo: function() {
-        const player = MathMagic.getCurrentPlayer();
-        const questSession = MathMagic.getItem('questSession');
-        const stats = PlayerManager.getStats();
-        
-        console.group('🗺️ ワールドマップ - デバッグ情報');
-        console.log('プレイヤー:', player);
-        console.log('統計:', stats);
-        console.log('クエストセッション:', questSession);
-        console.log('利用可能ワールド数:', WORLD_DATABASE.filter(w => 
-            player.grade >= w.minGrade && player.grade <= w.maxGrade
-        ).length);
-        console.groupEnd();
-        
-        MathMagic.showMessage('デバッグ情報をコンソールに出力しました', 'info');
+    goToInventory: function() {
+        window.location.href = 'inventory.html';
+    },
+
+    /**
+     * ショップへ
+     */
+    goToShop: function() {
+        window.location.href = 'shop.html';
     }
 };
 
 /**
  * 初期化
  */
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
     console.log('ワールドマップを初期化中...');
-    
+
     // プレイヤー情報がない場合はトップへ
     const player = MathMagic.getCurrentPlayer();
     if (!player) {
@@ -343,33 +347,37 @@ document.addEventListener('DOMContentLoaded', () => {
         window.location.href = 'index.html';
         return;
     }
-    
-    // プレイヤー情報を表示
-    WorldMap.displayPlayerInfo();
-    
-    // ワールド情報を表示
-    WorldMap.displayWorlds();
-    
+
+    try {
+        // World Design v2 を読み込み
+        await WorldMap.loadWorldDesign();
+
+        // プレイヤー情報を表示
+        WorldMap.displayPlayerInfo();
+
+        // ワールド情報を表示
+        WorldMap.displayWorlds();
+
+    } catch (error) {
+        console.error('初期化エラー:', error);
+        alert('ワールドマップの読み込みに失敗しました。\nページをリロードしてください。');
+        return;
+    }
+
     // イベントリスナー
     const homeBtn = document.getElementById('home-btn');
     if (homeBtn) {
-        homeBtn.addEventListener('click', () => {
-            WorldMap.goHome();
-        });
+        homeBtn.addEventListener('click', () => WorldMap.goHome());
     }
-    
+
     const logoutBtn = document.getElementById('logout-btn');
     if (logoutBtn) {
-        logoutBtn.addEventListener('click', () => {
-            WorldMap.logout();
-        });
+        logoutBtn.addEventListener('click', () => WorldMap.logout());
     }
-    
+
     const parentDashboardBtn = document.getElementById('parent-dashboard-btn');
     if (parentDashboardBtn) {
-        parentDashboardBtn.addEventListener('click', () => {
-            WorldMap.goToParentDashboard();
-        });
+        parentDashboardBtn.addEventListener('click', () => WorldMap.goToParentDashboard());
     }
 
     const settingsBtn = document.getElementById('settings-btn');
@@ -384,7 +392,7 @@ document.addEventListener('DOMContentLoaded', () => {
         window.WorldMap = WorldMap;
         console.log('🐛 WorldMapをグローバルに公開しました');
     }
-    
+
     console.log('ワールドマップの初期化完了');
 });
 
