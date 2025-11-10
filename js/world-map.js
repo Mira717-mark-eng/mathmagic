@@ -220,9 +220,17 @@ const WorldMap = {
      * クエストの進捗状況を取得（0-100%）
      */
     getQuestProgress: function(player, questId) {
-        // TODO: 実際の進捗データをプレイヤーデータから取得
-        // 現在は未実装なので0%を返す
-        return 0;
+        if (!player || !player.questProgress) {
+            return 0;
+        }
+
+        const progress = player.questProgress[questId];
+        if (!progress) {
+            return 0;
+        }
+
+        // クリア済みなら100%、未クリアならbestScoreを返す
+        return progress.completed ? 100 : (progress.bestScore || 0);
     },
 
     /**

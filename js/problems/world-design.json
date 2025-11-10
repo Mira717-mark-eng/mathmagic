@@ -1,0 +1,599 @@
+{
+  "worlds": [
+    {
+      "worldId": "addition-meadow",
+      "worldName": "たし算の草原",
+      "icon": "🌱",
+      "targetGrades": ["小1", "小2"],
+      "targetUnits": [
+        "elem1_addition_basic",
+        "elem1_addition_carryover",
+        "elem2_addition_2digit"
+      ],
+      "description": "たし算の基礎を学ぶ草原。1桁から2桁の繰り上がりまでマスターしよう！",
+      "difficulty": 1,
+      "totalProblems": 100,
+      "problemBreakdown": {
+        "basic": 40,
+        "standard": 40,
+        "advanced": 20
+      },
+      "prerequisites": [],
+      "recommendedAfter": null,
+      "estimatedCompletionTime": "2-4時間",
+      "learningGoals": [
+        "1桁のたし算を瞬時に解けるようになる",
+        "繰り上がりのあるたし算を理解する",
+        "2桁の筆算を正確にできるようになる"
+      ]
+    },
+    {
+      "worldId": "subtraction-mountain",
+      "worldName": "ひき算の山",
+      "icon": "⛰️",
+      "targetGrades": ["小1", "小2"],
+      "targetUnits": [
+        "elem1_subtraction_basic",
+        "elem1_subtraction_borrow",
+        "elem2_subtraction_2digit"
+      ],
+      "description": "ひき算の山を登って、繰り下がりの技を習得しよう！",
+      "difficulty": 1,
+      "totalProblems": 100,
+      "problemBreakdown": {
+        "basic": 40,
+        "standard": 40,
+        "advanced": 20
+      },
+      "prerequisites": ["addition-meadow"],
+      "recommendedAfter": "addition-meadow",
+      "estimatedCompletionTime": "2-4時間",
+      "learningGoals": [
+        "1桁のひき算を瞬時に解けるようになる",
+        "繰り下がりのあるひき算を理解する",
+        "2桁の筆算を正確にできるようになる"
+      ]
+    },
+    {
+      "worldId": "multiplication-forest",
+      "worldName": "掛け算の森",
+      "icon": "🌲",
+      "targetGrades": ["小2", "小3", "小4"],
+      "targetUnits": [
+        "elem2_multiplication_table",
+        "elem3_multiplication_2digit",
+        "elem4_multiplication_2digit_2digit"
+      ],
+      "description": "九九をマスターし、2桁×2桁の掛け算まで学ぶ深い森。掛け算の真の力を手に入れよう！",
+      "difficulty": 2,
+      "totalProblems": 100,
+      "problemBreakdown": {
+        "basic": 30,
+        "standard": 50,
+        "advanced": 20
+      },
+      "prerequisites": ["addition-meadow", "subtraction-mountain"],
+      "recommendedAfter": "subtraction-mountain",
+      "estimatedCompletionTime": "3-5時間",
+      "learningGoals": [
+        "九九を完全に暗記する",
+        "2桁×1桁の掛け算を解けるようになる",
+        "2桁×2桁の筆算をマスターする"
+      ]
+    },
+    {
+      "worldId": "division-cave",
+      "worldName": "わり算の洞窟",
+      "icon": "🕳️",
+      "targetGrades": ["小3", "小4"],
+      "targetUnits": [
+        "elem3_division_basic",
+        "elem3_division_remainder",
+        "elem4_division_2digit"
+      ],
+      "description": "わり算の謎を解き明かす洞窟。あまりのある計算にも挑戦！",
+      "difficulty": 3,
+      "totalProblems": 100,
+      "problemBreakdown": {
+        "basic": 30,
+        "standard": 50,
+        "advanced": 20
+      },
+      "prerequisites": ["multiplication-forest"],
+      "recommendedAfter": "multiplication-forest",
+      "estimatedCompletionTime": "3-5時間",
+      "learningGoals": [
+        "わり算の概念を理解する",
+        "あまりのあるわり算を解けるようになる",
+        "2桁÷1桁の筆算をマスターする"
+      ]
+    },
+    {
+      "worldId": "fraction-tower",
+      "worldName": "分数の塔",
+      "icon": "🏰",
+      "targetGrades": ["小3", "小4", "小5", "小6"],
+      "targetUnits": [
+        "elem3_fractions_basic",
+        "elem4_fractions_operations",
+        "elem5_fractions_different_denominators",
+        "elem6_fractions_multiplication",
+        "elem6_fractions_division"
+      ],
+      "description": "分数の塔を登り、最上階で分数マスターの称号を得よう！",
+      "difficulty": 4,
+      "totalProblems": 120,
+      "problemBreakdown": {
+        "basic": 30,
+        "standard": 60,
+        "advanced": 30
+      },
+      "prerequisites": ["division-cave"],
+      "recommendedAfter": "division-cave",
+      "estimatedCompletionTime": "5-7時間",
+      "learningGoals": [
+        "分数の概念を理解する",
+        "通分・約分ができるようになる",
+        "分数の四則演算をマスターする"
+      ]
+    },
+    {
+      "worldId": "decimal-sea",
+      "worldName": "小数の海",
+      "icon": "🌊",
+      "targetGrades": ["小3", "小4", "小5"],
+      "targetUnits": [
+        "elem3_decimals_basic",
+        "elem4_decimals_operations",
+        "elem5_multiplication_decimals",
+        "elem5_division_decimals"
+      ],
+      "description": "小数の海を航海し、小数点の扱いをマスターしよう！",
+      "difficulty": 4,
+      "totalProblems": 100,
+      "problemBreakdown": {
+        "basic": 25,
+        "standard": 55,
+        "advanced": 20
+      },
+      "prerequisites": ["division-cave"],
+      "recommendedAfter": "multiplication-forest",
+      "estimatedCompletionTime": "4-6時間",
+      "learningGoals": [
+        "小数の概念を理解する",
+        "小数のたし算・ひき算ができるようになる",
+        "小数の掛け算・わり算をマスターする"
+      ]
+    },
+    {
+      "worldId": "area-plaza",
+      "worldName": "面積の広場",
+      "icon": "🏛️",
+      "targetGrades": ["小4", "小5", "小6"],
+      "targetUnits": [
+        "elem4_area_rectangle",
+        "elem5_area_triangles",
+        "elem6_circles_area"
+      ],
+      "description": "様々な図形の面積を求めて、広場を拡張しよう！",
+      "difficulty": 3,
+      "totalProblems": 100,
+      "problemBreakdown": {
+        "basic": 35,
+        "standard": 45,
+        "advanced": 20
+      },
+      "prerequisites": ["multiplication-forest"],
+      "recommendedAfter": "multiplication-forest",
+      "estimatedCompletionTime": "3-5時間",
+      "learningGoals": [
+        "長方形と正方形の面積を求められるようになる",
+        "三角形と平行四辺形の面積公式を使えるようになる",
+        "円の面積を計算できるようになる"
+      ]
+    },
+    {
+      "worldId": "volume-palace",
+      "worldName": "体積の宮殿",
+      "icon": "🏯",
+      "targetGrades": ["小5", "小6"],
+      "targetUnits": [
+        "elem5_volume",
+        "elem6_volume_advanced"
+      ],
+      "description": "立体図形の体積を計算し、宮殿を建設しよう！",
+      "difficulty": 4,
+      "totalProblems": 80,
+      "problemBreakdown": {
+        "basic": 30,
+        "standard": 35,
+        "advanced": 15
+      },
+      "prerequisites": ["area-plaza"],
+      "recommendedAfter": "area-plaza",
+      "estimatedCompletionTime": "3-4時間",
+      "learningGoals": [
+        "立方体・直方体の体積を求められるようになる",
+        "角柱・円柱の体積を計算できるようになる",
+        "複雑な立体の体積を求められるようになる"
+      ]
+    },
+    {
+      "worldId": "ratio-temple",
+      "worldName": "割合の神殿",
+      "icon": "⛩️",
+      "targetGrades": ["小5", "小6"],
+      "targetUnits": [
+        "elem5_ratio",
+        "elem5_speed",
+        "elem6_proportions",
+        "elem6_proportional_relationships"
+      ],
+      "description": "割合、速さ、比例の謎を解き、神殿の奥へ進もう！",
+      "difficulty": 5,
+      "totalProblems": 120,
+      "problemBreakdown": {
+        "basic": 30,
+        "standard": 60,
+        "advanced": 30
+      },
+      "prerequisites": ["decimal-sea"],
+      "recommendedAfter": "decimal-sea",
+      "estimatedCompletionTime": "5-7時間",
+      "learningGoals": [
+        "割合と百分率を理解する",
+        "速さの公式を使えるようになる",
+        "比と比例の関係を理解する"
+      ]
+    },
+    {
+      "worldId": "data-observatory",
+      "worldName": "データの展望台",
+      "icon": "🔭",
+      "targetGrades": ["小4", "小5", "小6"],
+      "targetUnits": [
+        "elem4_line_graphs",
+        "elem5_statistics",
+        "elem6_data_analysis"
+      ],
+      "description": "グラフと統計の力で、世界を見渡そう！",
+      "difficulty": 3,
+      "totalProblems": 80,
+      "problemBreakdown": {
+        "basic": 35,
+        "standard": 35,
+        "advanced": 10
+      },
+      "prerequisites": [],
+      "recommendedAfter": "area-plaza",
+      "estimatedCompletionTime": "3-4時間",
+      "learningGoals": [
+        "折れ線グラフを読み取れるようになる",
+        "平均を計算できるようになる",
+        "ヒストグラムを理解する"
+      ]
+    },
+    {
+      "worldId": "shapes-kingdom",
+      "worldName": "図形の王国",
+      "icon": "👑",
+      "targetGrades": ["小4", "小5", "小6"],
+      "targetUnits": [
+        "elem4_angles",
+        "elem4_quadrilaterals",
+        "elem5_polygons",
+        "elem6_symmetry"
+      ],
+      "description": "様々な図形の性質を学び、図形の王国を統治しよう！",
+      "difficulty": 3,
+      "totalProblems": 100,
+      "problemBreakdown": {
+        "basic": 35,
+        "standard": 45,
+        "advanced": 20
+      },
+      "prerequisites": ["area-plaza"],
+      "recommendedAfter": "area-plaza",
+      "estimatedCompletionTime": "4-5時間",
+      "learningGoals": [
+        "角度を分度器で測れるようになる",
+        "様々な四角形の性質を理解する",
+        "対称な図形を見分けられるようになる"
+      ]
+    },
+    {
+      "worldId": "positive-negative-realm",
+      "worldName": "正負の数の領域",
+      "icon": "⚖️",
+      "targetGrades": ["中1"],
+      "targetUnits": [
+        "jh1_positive_negative"
+      ],
+      "description": "正と負の数の世界へようこそ。新しい数の概念を理解しよう！",
+      "difficulty": 5,
+      "totalProblems": 100,
+      "problemBreakdown": {
+        "basic": 35,
+        "standard": 45,
+        "advanced": 20
+      },
+      "prerequisites": ["fraction-tower", "decimal-sea"],
+      "recommendedAfter": "fraction-tower",
+      "estimatedCompletionTime": "4-6時間",
+      "learningGoals": [
+        "正負の数の概念を理解する",
+        "絶対値を理解する",
+        "正負の数の四則演算をマスターする"
+      ]
+    },
+    {
+      "worldId": "equation-battlefield",
+      "worldName": "方程式の戦場",
+      "icon": "⚔️",
+      "targetGrades": ["中1", "中2", "中3"],
+      "targetUnits": [
+        "jh1_literal_expressions",
+        "jh1_equations",
+        "jh1_equations_applications",
+        "jh2_simultaneous_equations",
+        "jh2_simultaneous_applications",
+        "jh3_quadratic_equations",
+        "jh3_quadratic_applications"
+      ],
+      "description": "方程式を解いて、数学の戦場を勝ち抜こう！文字式から二次方程式まで！",
+      "difficulty": 6,
+      "totalProblems": 150,
+      "problemBreakdown": {
+        "basic": 40,
+        "standard": 70,
+        "advanced": 40
+      },
+      "prerequisites": ["positive-negative-realm"],
+      "recommendedAfter": "positive-negative-realm",
+      "estimatedCompletionTime": "8-12時間",
+      "learningGoals": [
+        "文字式を自在に扱えるようになる",
+        "一元一次方程式を解けるようになる",
+        "連立方程式をマスターする",
+        "二次方程式を解けるようになる"
+      ]
+    },
+    {
+      "worldId": "function-temple",
+      "worldName": "関数の神殿",
+      "icon": "📈",
+      "targetGrades": ["中1", "中2", "中3"],
+      "targetUnits": [
+        "jh1_proportional_functions",
+        "jh2_linear_functions",
+        "jh2_linear_functions_applications",
+        "jh3_quadratic_functions",
+        "jh3_quadratic_functions_applications"
+      ],
+      "description": "関数のグラフを描き、変化の法則を見抜こう！",
+      "difficulty": 6,
+      "totalProblems": 120,
+      "problemBreakdown": {
+        "basic": 30,
+        "standard": 60,
+        "advanced": 30
+      },
+      "prerequisites": ["equation-battlefield"],
+      "recommendedAfter": "equation-battlefield",
+      "estimatedCompletionTime": "6-9時間",
+      "learningGoals": [
+        "比例・反比例を理解する",
+        "一次関数のグラフを描けるようになる",
+        "二次関数を理解する",
+        "関数を使って問題を解けるようになる"
+      ]
+    },
+    {
+      "worldId": "proof-labyrinth",
+      "worldName": "証明の迷宮",
+      "icon": "🗝️",
+      "targetGrades": ["中2", "中3"],
+      "targetUnits": [
+        "jh2_triangles_properties",
+        "jh2_proof_geometry",
+        "jh2_parallelograms",
+        "jh3_similarity",
+        "jh3_similarity_proof"
+      ],
+      "description": "論理の力で証明の迷宮を攻略しよう！合同と相似の奥義を習得！",
+      "difficulty": 7,
+      "totalProblems": 100,
+      "problemBreakdown": {
+        "basic": 25,
+        "standard": 50,
+        "advanced": 25
+      },
+      "prerequisites": ["positive-negative-realm"],
+      "recommendedAfter": "equation-battlefield",
+      "estimatedCompletionTime": "7-10時間",
+      "learningGoals": [
+        "三角形の性質を理解する",
+        "合同の証明ができるようになる",
+        "平行四辺形の性質を使えるようになる",
+        "相似の証明をマスターする"
+      ]
+    },
+    {
+      "worldId": "root-sanctuary",
+      "worldName": "平方根の聖域",
+      "icon": "√",
+      "targetGrades": ["中3"],
+      "targetUnits": [
+        "jh3_expansion",
+        "jh3_factorization",
+        "jh3_square_roots",
+        "jh3_square_roots_operations"
+      ],
+      "description": "展開・因数分解・平方根の神秘を解き明かせ！",
+      "difficulty": 7,
+      "totalProblems": 110,
+      "problemBreakdown": {
+        "basic": 30,
+        "standard": 55,
+        "advanced": 25
+      },
+      "prerequisites": ["equation-battlefield"],
+      "recommendedAfter": "equation-battlefield",
+      "estimatedCompletionTime": "6-8時間",
+      "learningGoals": [
+        "乗法公式を使いこなせるようになる",
+        "因数分解をマスターする",
+        "平方根の計算ができるようになる",
+        "有理化を理解する"
+      ]
+    },
+    {
+      "worldId": "geometry-universe",
+      "worldName": "幾何の宇宙",
+      "icon": "🌌",
+      "targetGrades": ["中1", "中2", "中3"],
+      "targetUnits": [
+        "jh1_plane_figures",
+        "jh1_space_figures",
+        "jh3_pythagorean_theorem",
+        "jh3_pythagorean_applications",
+        "jh3_circles_properties",
+        "jh3_circles_applications"
+      ],
+      "description": "平面から立体、そして円の世界まで。幾何の全てを極めよう！",
+      "difficulty": 7,
+      "totalProblems": 130,
+      "problemBreakdown": {
+        "basic": 30,
+        "standard": 65,
+        "advanced": 35
+      },
+      "prerequisites": ["proof-labyrinth", "root-sanctuary"],
+      "recommendedAfter": "proof-labyrinth",
+      "estimatedCompletionTime": "8-11時間",
+      "learningGoals": [
+        "平面図形の作図ができるようになる",
+        "空間図形を理解する",
+        "三平方の定理を使いこなせるようになる",
+        "円周角の定理をマスターする"
+      ]
+    },
+    {
+      "worldId": "probability-nexus",
+      "worldName": "確率と統計の交差点",
+      "icon": "🎲",
+      "targetGrades": ["中1", "中2", "中3"],
+      "targetUnits": [
+        "jh1_data_organization",
+        "jh2_probability",
+        "jh3_sampling"
+      ],
+      "description": "データと確率の世界で、未来を予測する力を手に入れよう！",
+      "difficulty": 5,
+      "totalProblems": 80,
+      "problemBreakdown": {
+        "basic": 30,
+        "standard": 35,
+        "advanced": 15
+      },
+      "prerequisites": ["data-observatory"],
+      "recommendedAfter": "function-temple",
+      "estimatedCompletionTime": "4-6時間",
+      "learningGoals": [
+        "度数分布表を作れるようになる",
+        "確率を計算できるようになる",
+        "標本調査を理解する",
+        "データから判断できるようになる"
+      ]
+    }
+  ],
+  "worldProgression": {
+    "elementary": [
+      "addition-meadow",
+      "subtraction-mountain",
+      "multiplication-forest",
+      "division-cave",
+      "area-plaza",
+      "decimal-sea",
+      "fraction-tower",
+      "shapes-kingdom",
+      "volume-palace",
+      "ratio-temple",
+      "data-observatory"
+    ],
+    "juniorHigh": [
+      "positive-negative-realm",
+      "equation-battlefield",
+      "function-temple",
+      "proof-labyrinth",
+      "root-sanctuary",
+      "geometry-universe",
+      "probability-nexus"
+    ]
+  },
+  "designPrinciples": {
+    "gameFirst": "ゲーム性を最優先し、勉強感を出さない。RPG風の世界観でワクワク感を演出する。",
+    "curriculumAligned": "文部科学省学習指導要領と主要塾（公文式、学研、SAPIX）のカリキュラムに準拠し、確実な学力向上を実現。",
+    "progressiveChallenge": "段階的に難易度が上がる設計。前のワールドで学んだことが次のワールドの基礎になる。",
+    "diverseProblems": "計算問題だけでなく、式選択、逆算、文章題、パズル形式など多様な問題タイプを用意。",
+    "familyFriendly": "小学生2人・中学生1人の家族3人で楽しめる設計。兄弟姉妹で協力して進める要素も。",
+    "mastery": "各ワールドで100問程度を解くことで、確実に習熟。反復練習で基礎を固める。",
+    "visualization": "抽象的な概念を視覚的に表現。図形や数直線、グラフなどを活用。",
+    "realWorld": "日常生活や実社会とつながる問題を積極的に取り入れる。",
+    "feedback": "即座のフィードバックと、間違えた問題の詳しい解説。",
+    "motivation": "達成感を感じられる仕組み。レベルアップ、称号、収集要素など。"
+  },
+  "problemTypes": {
+    "calculation": {
+      "name": "計算問題",
+      "description": "基本的な計算力を鍛える",
+      "weight": 35
+    },
+    "equation": {
+      "name": "式選択",
+      "description": "正しい式を選ぶ問題",
+      "weight": 15
+    },
+    "reverse": {
+      "name": "逆算",
+      "description": "□を使った逆算問題",
+      "weight": 15
+    },
+    "wordProblem": {
+      "name": "文章題",
+      "description": "実生活に基づいた応用問題",
+      "weight": 25
+    },
+    "puzzle": {
+      "name": "数学パズル",
+      "description": "楽しく学べるパズル形式",
+      "weight": 10
+    }
+  },
+  "difficultyLevels": {
+    "basic": {
+      "name": "基礎",
+      "description": "基本的な計算と概念の理解",
+      "scoreMultiplier": 1.0
+    },
+    "standard": {
+      "name": "標準",
+      "description": "標準的な問題と応用の入口",
+      "scoreMultiplier": 1.5
+    },
+    "advanced": {
+      "name": "応用",
+      "description": "発展的な問題と複合問題",
+      "scoreMultiplier": 2.0
+    }
+  },
+  "totalStatistics": {
+    "totalWorlds": 18,
+    "elementaryWorlds": 11,
+    "juniorHighWorlds": 7,
+    "totalProblems": 1840,
+    "estimatedTotalPlaytime": "120-200時間",
+    "targetGrades": "小学1年〜中学3年",
+    "curriculumUnits": 180
+  }
+}

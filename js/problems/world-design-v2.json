@@ -1,0 +1,1570 @@
+{
+  "version": "2.0",
+  "description": "学年ベース・単元ベースのワールド設計。各単元（クエスト）の問題数は性質に応じて最適化。",
+  "totalWorlds": 9,
+  "totalQuests": 180,
+  "estimatedTotalProblems": 10550,
+  "worlds": [
+    {
+      "worldId": "grade1",
+      "worldName": "小学1年の世界",
+      "grade": "小1",
+      "icon": "🌱",
+      "description": "数の基礎とたし算・ひき算の世界へようこそ！",
+      "totalQuests": 10,
+      "estimatedProblems": 640,
+      "quests": [
+        {
+          "questId": "grade1-quest01",
+          "unitId": "elem1_numbers_1to10",
+          "questName": "かずとすうじ（1〜10）",
+          "description": "1から10までの数を学ぼう",
+          "difficulty": "basic",
+          "problemCount": 40,
+          "problemTypes": {
+            "calculation": 15,
+            "wordProblem": 10,
+            "puzzle": 15
+          },
+          "reasoning": "数の概念を理解する段階なので、計算より認識と数え方に重点"
+        },
+        {
+          "questId": "grade1-quest02",
+          "unitId": "elem1_addition_basic",
+          "questName": "たし算（1桁・繰り上がりなし）",
+          "description": "1桁のたし算をマスターしよう",
+          "difficulty": "basic",
+          "problemCount": 90,
+          "problemTypes": {
+            "calculation": 50,
+            "wordProblem": 20,
+            "reverse": 15,
+            "puzzle": 5
+          },
+          "reasoning": "計算の基礎なので反復練習が重要。多めの問題数で定着を図る"
+        },
+        {
+          "questId": "grade1-quest03",
+          "unitId": "elem1_subtraction_basic",
+          "questName": "ひき算（1桁・繰り下がりなし）",
+          "description": "1桁のひき算をマスターしよう",
+          "difficulty": "basic",
+          "problemCount": 90,
+          "problemTypes": {
+            "calculation": 50,
+            "wordProblem": 20,
+            "reverse": 15,
+            "puzzle": 5
+          },
+          "reasoning": "たし算と同様、計算の基礎なので十分な練習量が必要"
+        },
+        {
+          "questId": "grade1-quest04",
+          "unitId": "elem1_numbers_1to20",
+          "questName": "20までのかず",
+          "description": "11から20までの数を学ぼう",
+          "difficulty": "basic",
+          "problemCount": 40,
+          "problemTypes": {
+            "calculation": 15,
+            "wordProblem": 10,
+            "puzzle": 15
+          },
+          "reasoning": "位取りの概念理解が中心。計算より数の理解に重点"
+        },
+        {
+          "questId": "grade1-quest05",
+          "unitId": "elem1_addition_carryover",
+          "questName": "たし算（繰り上がり）",
+          "description": "繰り上がりのあるたし算に挑戦",
+          "difficulty": "standard",
+          "problemCount": 100,
+          "problemTypes": {
+            "calculation": 60,
+            "wordProblem": 25,
+            "reverse": 10,
+            "puzzle": 5
+          },
+          "reasoning": "つまずきやすい単元。十分な練習で確実に習得させる"
+        },
+        {
+          "questId": "grade1-quest06",
+          "unitId": "elem1_subtraction_borrow",
+          "questName": "ひき算（繰り下がり）",
+          "description": "繰り下がりのあるひき算に挑戦",
+          "difficulty": "standard",
+          "problemCount": 100,
+          "problemTypes": {
+            "calculation": 60,
+            "wordProblem": 25,
+            "reverse": 10,
+            "puzzle": 5
+          },
+          "reasoning": "繰り上がり同様、つまずきやすい。十分な練習量を確保"
+        },
+        {
+          "questId": "grade1-quest07",
+          "unitId": "elem1_numbers_to100",
+          "questName": "100までのかず",
+          "description": "100までの数と大小を学ぼう",
+          "difficulty": "standard",
+          "problemCount": 50,
+          "problemTypes": {
+            "calculation": 20,
+            "wordProblem": 15,
+            "puzzle": 15
+          },
+          "reasoning": "数の概念拡張。計算より大小比較や数直線の理解が中心"
+        },
+        {
+          "questId": "grade1-quest08",
+          "unitId": "elem1_clock",
+          "questName": "とけい（何時・何時半）",
+          "description": "時計の読み方を学ぼう",
+          "difficulty": "basic",
+          "problemCount": 50,
+          "problemTypes": {
+            "calculation": 0,
+            "wordProblem": 30,
+            "puzzle": 20
+          },
+          "reasoning": "時計の読み取り練習。実生活に即した問題で理解を深める"
+        },
+        {
+          "questId": "grade1-quest09",
+          "unitId": "elem1_shapes_basic",
+          "questName": "かたち（基本図形）",
+          "description": "三角形、四角形、円を見分けよう",
+          "difficulty": "basic",
+          "problemCount": 40,
+          "problemTypes": {
+            "calculation": 0,
+            "wordProblem": 15,
+            "puzzle": 25
+          },
+          "reasoning": "図形認識が中心。パズル形式で楽しく学ぶ"
+        },
+        {
+          "questId": "grade1-quest10",
+          "unitId": "elem1_comparison",
+          "questName": "おおきさくらべ",
+          "description": "長さ、広さ、かさを比べよう",
+          "difficulty": "basic",
+          "problemCount": 40,
+          "problemTypes": {
+            "calculation": 0,
+            "wordProblem": 20,
+            "puzzle": 20
+          },
+          "reasoning": "比較の概念理解。視覚的な問題で直感を養う"
+        }
+      ]
+    },
+    {
+      "worldId": "grade2",
+      "worldName": "小学2年の世界",
+      "grade": "小2",
+      "icon": "🌳",
+      "description": "九九と大きい数の世界！計算力を高めよう",
+      "totalQuests": 10,
+      "estimatedProblems": 800,
+      "quests": [
+        {
+          "questId": "grade2-quest01",
+          "unitId": "elem2_numbers_to1000",
+          "questName": "1000までのかず",
+          "description": "1000までの数と位取りを学ぼう",
+          "difficulty": "basic",
+          "problemCount": 60,
+          "problemTypes": {
+            "calculation": 25,
+            "wordProblem": 20,
+            "puzzle": 15
+          },
+          "reasoning": "大きい数の概念。位取りの理解が重要"
+        },
+        {
+          "questId": "grade2-quest02",
+          "unitId": "elem2_addition_2digit",
+          "questName": "たし算（2桁の筆算）",
+          "description": "2桁のたし算の筆算をマスター",
+          "difficulty": "standard",
+          "problemCount": 100,
+          "problemTypes": {
+            "calculation": 60,
+            "wordProblem": 25,
+            "reverse": 10,
+            "puzzle": 5
+          },
+          "reasoning": "筆算の基礎。十分な練習で確実に習得"
+        },
+        {
+          "questId": "grade2-quest03",
+          "unitId": "elem2_subtraction_2digit",
+          "questName": "ひき算（2桁の筆算）",
+          "description": "2桁のひき算の筆算をマスター",
+          "difficulty": "standard",
+          "problemCount": 100,
+          "problemTypes": {
+            "calculation": 60,
+            "wordProblem": 25,
+            "reverse": 10,
+            "puzzle": 5
+          },
+          "reasoning": "筆算の基礎。繰り下がりの練習も十分に"
+        },
+        {
+          "questId": "grade2-quest04",
+          "unitId": "elem2_multiplication_table",
+          "questName": "かけ算（九九）",
+          "description": "九九を完全にマスターしよう！",
+          "difficulty": "basic",
+          "problemCount": 120,
+          "problemTypes": {
+            "calculation": 81,
+            "wordProblem": 20,
+            "reverse": 10,
+            "puzzle": 9
+          },
+          "reasoning": "九九は全ての基礎。81通り全て + 応用問題で完全習得"
+        },
+        {
+          "questId": "grade2-quest05",
+          "unitId": "elem2_length_units",
+          "questName": "長さのたんい",
+          "description": "cm、mm、mを学ぼう",
+          "difficulty": "basic",
+          "problemCount": 60,
+          "problemTypes": {
+            "calculation": 30,
+            "wordProblem": 20,
+            "puzzle": 10
+          },
+          "reasoning": "単位変換の練習。実測問題も含める"
+        },
+        {
+          "questId": "grade2-quest06",
+          "unitId": "elem2_volume_units",
+          "questName": "かさのたんい",
+          "description": "L、dL、mLを学ぼう",
+          "difficulty": "basic",
+          "problemCount": 60,
+          "problemTypes": {
+            "calculation": 30,
+            "wordProblem": 20,
+            "puzzle": 10
+          },
+          "reasoning": "単位変換の練習。日常生活との結びつけが重要"
+        },
+        {
+          "questId": "grade2-quest07",
+          "unitId": "elem2_clock_minutes",
+          "questName": "とけい（何時何分）",
+          "description": "時計を分まで読めるようになろう",
+          "difficulty": "standard",
+          "problemCount": 70,
+          "problemTypes": {
+            "calculation": 10,
+            "wordProblem": 40,
+            "puzzle": 20
+          },
+          "reasoning": "時刻の読み取りと時間計算。実生活での応用"
+        },
+        {
+          "questId": "grade2-quest08",
+          "unitId": "elem2_shapes_properties",
+          "questName": "三角形と四角形",
+          "description": "図形の性質を学ぼう",
+          "difficulty": "basic",
+          "problemCount": 50,
+          "problemTypes": {
+            "calculation": 0,
+            "wordProblem": 25,
+            "puzzle": 25
+          },
+          "reasoning": "図形の性質理解。作図や観察問題が中心"
+        },
+        {
+          "questId": "grade2-quest09",
+          "unitId": "elem2_graphs_tables",
+          "questName": "ひょうとグラフ",
+          "description": "表とグラフの読み取りをマスター",
+          "difficulty": "basic",
+          "problemCount": 50,
+          "problemTypes": {
+            "calculation": 15,
+            "wordProblem": 25,
+            "puzzle": 10
+          },
+          "reasoning": "データの読み取り。グラフ作成の基礎"
+        },
+        {
+          "questId": "grade2-quest10",
+          "unitId": "elem2_box_shapes",
+          "questName": "はこのかたち",
+          "description": "箱の形を学ぼう",
+          "difficulty": "basic",
+          "problemCount": 50,
+          "problemTypes": {
+            "calculation": 0,
+            "wordProblem": 25,
+            "puzzle": 25
+          },
+          "reasoning": "立体図形の入門。観察と構成の問題"
+        }
+      ]
+    },
+    {
+      "worldId": "grade3",
+      "worldName": "小学3年の世界",
+      "grade": "小3",
+      "icon": "🏔️",
+      "description": "わり算と分数・小数の世界へ！",
+      "totalQuests": 13,
+      "estimatedProblems": 990,
+      "quests": [
+        {
+          "questId": "grade3-quest01",
+          "unitId": "elem3_numbers_to10000",
+          "questName": "10000までのかず",
+          "description": "1万までの数を学ぼう",
+          "difficulty": "basic",
+          "problemCount": 60,
+          "problemTypes": {
+            "calculation": 25,
+            "wordProblem": 20,
+            "puzzle": 15
+          },
+          "reasoning": "大きい数の概念拡張"
+        },
+        {
+          "questId": "grade3-quest02",
+          "unitId": "elem3_addition_3digit",
+          "questName": "たし算（3桁の筆算）",
+          "description": "3桁のたし算をマスター",
+          "difficulty": "standard",
+          "problemCount": 80,
+          "problemTypes": {
+            "calculation": 50,
+            "wordProblem": 20,
+            "reverse": 10
+          },
+          "reasoning": "筆算の発展。十分な練習量"
+        },
+        {
+          "questId": "grade3-quest03",
+          "unitId": "elem3_subtraction_3digit",
+          "questName": "ひき算（3桁の筆算）",
+          "description": "3桁のひき算をマスター",
+          "difficulty": "standard",
+          "problemCount": 80,
+          "problemTypes": {
+            "calculation": 50,
+            "wordProblem": 20,
+            "reverse": 10
+          },
+          "reasoning": "筆算の発展。繰り下がりの練習"
+        },
+        {
+          "questId": "grade3-quest04",
+          "unitId": "elem3_multiplication_2digit",
+          "questName": "かけ算（2桁×1桁）",
+          "description": "2桁の掛け算に挑戦",
+          "difficulty": "standard",
+          "problemCount": 100,
+          "problemTypes": {
+            "calculation": 60,
+            "wordProblem": 25,
+            "reverse": 10,
+            "puzzle": 5
+          },
+          "reasoning": "筆算の基礎。十分な練習で定着"
+        },
+        {
+          "questId": "grade3-quest05",
+          "unitId": "elem3_division_basic",
+          "questName": "わり算（基礎）",
+          "description": "わり算の考え方を学ぼう",
+          "difficulty": "basic",
+          "problemCount": 80,
+          "problemTypes": {
+            "calculation": 40,
+            "wordProblem": 25,
+            "equation": 10,
+            "puzzle": 5
+          },
+          "reasoning": "新しい概念。等分除・包含除の理解が重要"
+        },
+        {
+          "questId": "grade3-quest06",
+          "unitId": "elem3_division_remainder",
+          "questName": "わり算（あまりあり）",
+          "description": "あまりのあるわり算をマスター",
+          "difficulty": "standard",
+          "problemCount": 90,
+          "problemTypes": {
+            "calculation": 50,
+            "wordProblem": 30,
+            "reverse": 10
+          },
+          "reasoning": "つまずきやすい。検算も含めて十分な練習"
+        },
+        {
+          "questId": "grade3-quest07",
+          "unitId": "elem3_fractions_basic",
+          "questName": "分数（基礎）",
+          "description": "分数の考え方を学ぼう",
+          "difficulty": "basic",
+          "problemCount": 70,
+          "problemTypes": {
+            "calculation": 30,
+            "wordProblem": 25,
+            "puzzle": 15
+          },
+          "reasoning": "分数の概念理解。視覚的な問題で理解を深める"
+        },
+        {
+          "questId": "grade3-quest08",
+          "unitId": "elem3_decimals_basic",
+          "questName": "小数（基礎）",
+          "description": "小数の考え方を学ぼう",
+          "difficulty": "basic",
+          "problemCount": 70,
+          "problemTypes": {
+            "calculation": 30,
+            "wordProblem": 25,
+            "puzzle": 15
+          },
+          "reasoning": "小数の概念理解。0.1の意味を確実に"
+        },
+        {
+          "questId": "grade3-quest09",
+          "unitId": "elem3_length_km",
+          "questName": "長さ（km）",
+          "description": "kmと単位変換を学ぼう",
+          "difficulty": "basic",
+          "problemCount": 60,
+          "problemTypes": {
+            "calculation": 30,
+            "wordProblem": 20,
+            "puzzle": 10
+          },
+          "reasoning": "単位変換の練習。道のりの計算"
+        },
+        {
+          "questId": "grade3-quest10",
+          "unitId": "elem3_weight_units",
+          "questName": "重さのたんい",
+          "description": "g、kg、tを学ぼう",
+          "difficulty": "basic",
+          "problemCount": 60,
+          "problemTypes": {
+            "calculation": 30,
+            "wordProblem": 20,
+            "puzzle": 10
+          },
+          "reasoning": "単位変換の練習。実測との結びつけ"
+        },
+        {
+          "questId": "grade3-quest11",
+          "unitId": "elem3_time_duration",
+          "questName": "時間と時刻",
+          "description": "時間の長さを計算しよう",
+          "difficulty": "standard",
+          "problemCount": 70,
+          "problemTypes": {
+            "calculation": 30,
+            "wordProblem": 30,
+            "puzzle": 10
+          },
+          "reasoning": "時間計算。実生活での応用が重要"
+        },
+        {
+          "questId": "grade3-quest12",
+          "unitId": "elem3_circles",
+          "questName": "円と球",
+          "description": "円の性質を学ぼう",
+          "difficulty": "basic",
+          "problemCount": 50,
+          "problemTypes": {
+            "calculation": 15,
+            "wordProblem": 20,
+            "puzzle": 15
+          },
+          "reasoning": "円の基本性質。コンパスの使い方も"
+        },
+        {
+          "questId": "grade3-quest13",
+          "unitId": "elem3_bar_graphs",
+          "questName": "ぼうグラフ",
+          "description": "棒グラフを読み書きしよう",
+          "difficulty": "standard",
+          "problemCount": 60,
+          "problemTypes": {
+            "calculation": 20,
+            "wordProblem": 25,
+            "puzzle": 15
+          },
+          "reasoning": "グラフの読み取りと作成。データ分析の基礎"
+        }
+      ]
+    },
+    {
+      "worldId": "grade4",
+      "worldName": "小学4年の世界",
+      "grade": "小4",
+      "icon": "🏰",
+      "description": "大きい数と図形の世界へ！",
+      "totalQuests": 14,
+      "estimatedProblems": 1060,
+      "quests": [
+        {
+          "questId": "grade4-quest01",
+          "unitId": "elem4_large_numbers",
+          "questName": "大きい数（億・兆）",
+          "description": "億、兆の位まで学ぼう",
+          "difficulty": "standard",
+          "problemCount": 60,
+          "problemTypes": {
+            "calculation": 25,
+            "wordProblem": 20,
+            "puzzle": 15
+          },
+          "reasoning": "非常に大きい数の概念。位取りが重要"
+        },
+        {
+          "questId": "grade4-quest02",
+          "unitId": "elem4_addition_large",
+          "questName": "たし算（大きい数）",
+          "description": "億・兆のたし算",
+          "difficulty": "standard",
+          "problemCount": 70,
+          "problemTypes": {
+            "calculation": 40,
+            "wordProblem": 20,
+            "reverse": 10
+          },
+          "reasoning": "大きい数の計算練習"
+        },
+        {
+          "questId": "grade4-quest03",
+          "unitId": "elem4_subtraction_large",
+          "questName": "ひき算（大きい数）",
+          "description": "億・兆のひき算",
+          "difficulty": "standard",
+          "problemCount": 70,
+          "problemTypes": {
+            "calculation": 40,
+            "wordProblem": 20,
+            "reverse": 10
+          },
+          "reasoning": "大きい数の計算練習"
+        },
+        {
+          "questId": "grade4-quest04",
+          "unitId": "elem4_multiplication_2digit_2digit",
+          "questName": "かけ算（2桁×2桁）",
+          "description": "2桁×2桁の筆算をマスター",
+          "difficulty": "standard",
+          "problemCount": 100,
+          "problemTypes": {
+            "calculation": 60,
+            "wordProblem": 25,
+            "reverse": 10,
+            "puzzle": 5
+          },
+          "reasoning": "筆算の発展。十分な練習量"
+        },
+        {
+          "questId": "grade4-quest05",
+          "unitId": "elem4_division_2digit",
+          "questName": "わり算（2桁÷1桁）",
+          "description": "2桁わり算の筆算をマスター",
+          "difficulty": "standard",
+          "problemCount": 100,
+          "problemTypes": {
+            "calculation": 60,
+            "wordProblem": 25,
+            "reverse": 10,
+            "puzzle": 5
+          },
+          "reasoning": "筆算の発展。見積もりの練習も"
+        },
+        {
+          "questId": "grade4-quest06",
+          "unitId": "elem4_decimals_operations",
+          "questName": "小数のたし算・ひき算",
+          "description": "小数第二位までの計算",
+          "difficulty": "standard",
+          "problemCount": 90,
+          "problemTypes": {
+            "calculation": 55,
+            "wordProblem": 25,
+            "reverse": 10
+          },
+          "reasoning": "小数計算の基礎。小数点の位置に注意"
+        },
+        {
+          "questId": "grade4-quest07",
+          "unitId": "elem4_fractions_operations",
+          "questName": "分数のたし算・ひき算",
+          "description": "同分母の分数計算",
+          "difficulty": "standard",
+          "problemCount": 80,
+          "problemTypes": {
+            "calculation": 50,
+            "wordProblem": 20,
+            "reverse": 10
+          },
+          "reasoning": "分数計算の基礎。約分の練習"
+        },
+        {
+          "questId": "grade4-quest08",
+          "unitId": "elem4_angles",
+          "questName": "角の大きさ",
+          "description": "角度と分度器をマスター",
+          "difficulty": "basic",
+          "problemCount": 70,
+          "problemTypes": {
+            "calculation": 30,
+            "wordProblem": 25,
+            "puzzle": 15
+          },
+          "reasoning": "角度の概念と測定。作図の基礎"
+        },
+        {
+          "questId": "grade4-quest09",
+          "unitId": "elem4_parallel_perpendicular",
+          "questName": "垂直と平行",
+          "description": "垂直・平行の性質を学ぼう",
+          "difficulty": "basic",
+          "problemCount": 60,
+          "problemTypes": {
+            "calculation": 15,
+            "wordProblem": 25,
+            "puzzle": 20
+          },
+          "reasoning": "図形の性質理解。作図問題が中心"
+        },
+        {
+          "questId": "grade4-quest10",
+          "unitId": "elem4_quadrilaterals",
+          "questName": "四角形の性質",
+          "description": "台形、平行四辺形、ひし形",
+          "difficulty": "standard",
+          "problemCount": 70,
+          "problemTypes": {
+            "calculation": 20,
+            "wordProblem": 30,
+            "puzzle": 20
+          },
+          "reasoning": "図形の性質理解と分類"
+        },
+        {
+          "questId": "grade4-quest11",
+          "unitId": "elem4_area_rectangle",
+          "questName": "面積（長方形・正方形）",
+          "description": "面積の求め方をマスター",
+          "difficulty": "basic",
+          "problemCount": 80,
+          "problemTypes": {
+            "calculation": 40,
+            "wordProblem": 30,
+            "reverse": 10
+          },
+          "reasoning": "面積計算の基礎。公式の理解と応用"
+        },
+        {
+          "questId": "grade4-quest12",
+          "unitId": "elem4_solid_shapes",
+          "questName": "立体図形",
+          "description": "展開図と見取図を学ぼう",
+          "difficulty": "standard",
+          "problemCount": 60,
+          "problemTypes": {
+            "calculation": 15,
+            "wordProblem": 25,
+            "puzzle": 20
+          },
+          "reasoning": "立体の理解。空間認識力を養う"
+        },
+        {
+          "questId": "grade4-quest13",
+          "unitId": "elem4_line_graphs",
+          "questName": "折れ線グラフ",
+          "description": "折れ線グラフを読み書きしよう",
+          "difficulty": "standard",
+          "problemCount": 60,
+          "problemTypes": {
+            "calculation": 20,
+            "wordProblem": 25,
+            "puzzle": 15
+          },
+          "reasoning": "グラフの読み取りと作成。変化の読み取り"
+        },
+        {
+          "questId": "grade4-quest14",
+          "unitId": "elem4_units_conversions",
+          "questName": "単位のしくみ",
+          "description": "単位の関係と変換",
+          "difficulty": "standard",
+          "problemCount": 70,
+          "problemTypes": {
+            "calculation": 40,
+            "wordProblem": 20,
+            "puzzle": 10
+          },
+          "reasoning": "単位変換の総まとめ。体系的な理解"
+        }
+      ]
+    },
+    {
+      "worldId": "grade5",
+      "worldName": "小学5年の世界",
+      "grade": "小5",
+      "icon": "⭐",
+      "description": "小数・分数の完成と割合の世界！",
+      "totalQuests": 12,
+      "estimatedProblems": 1150,
+      "quests": [
+        {
+          "questId": "grade5-quest01",
+          "unitId": "elem5_large_numbers_operations",
+          "questName": "整数と小数のしくみ",
+          "description": "数の仕組みを理解しよう",
+          "difficulty": "standard",
+          "problemCount": 70,
+          "problemTypes": {
+            "calculation": 30,
+            "wordProblem": 25,
+            "puzzle": 15
+          },
+          "reasoning": "10倍・1/10の関係理解"
+        },
+        {
+          "questId": "grade5-quest02",
+          "unitId": "elem5_multiplication_decimals",
+          "questName": "小数のかけ算",
+          "description": "小数×小数をマスター",
+          "difficulty": "standard",
+          "problemCount": 100,
+          "problemTypes": {
+            "calculation": 60,
+            "wordProblem": 25,
+            "reverse": 10,
+            "puzzle": 5
+          },
+          "reasoning": "小数計算の重要単元。十分な練習"
+        },
+        {
+          "questId": "grade5-quest03",
+          "unitId": "elem5_division_decimals",
+          "questName": "小数のわり算",
+          "description": "小数÷小数をマスター",
+          "difficulty": "standard",
+          "problemCount": 100,
+          "problemTypes": {
+            "calculation": 60,
+            "wordProblem": 25,
+            "reverse": 10,
+            "puzzle": 5
+          },
+          "reasoning": "小数計算の重要単元。十分な練習"
+        },
+        {
+          "questId": "grade5-quest04",
+          "unitId": "elem5_division_2digit_2digit",
+          "questName": "わり算（2桁÷2桁）",
+          "description": "2桁÷2桁の筆算をマスター",
+          "difficulty": "advanced",
+          "problemCount": 90,
+          "problemTypes": {
+            "calculation": 55,
+            "wordProblem": 25,
+            "reverse": 10
+          },
+          "reasoning": "難易度高い。見積もりの練習も重要"
+        },
+        {
+          "questId": "grade5-quest05",
+          "unitId": "elem5_fractions_different_denominators",
+          "questName": "分数のたし算・ひき算（異分母）",
+          "description": "通分をマスターしよう",
+          "difficulty": "standard",
+          "problemCount": 100,
+          "problemTypes": {
+            "calculation": 60,
+            "wordProblem": 25,
+            "reverse": 10,
+            "puzzle": 5
+          },
+          "reasoning": "分数計算の要。通分・約分を確実に"
+        },
+        {
+          "questId": "grade5-quest06",
+          "unitId": "elem5_volume",
+          "questName": "体積",
+          "description": "立体の体積を求めよう",
+          "difficulty": "standard",
+          "problemCount": 80,
+          "problemTypes": {
+            "calculation": 40,
+            "wordProblem": 30,
+            "reverse": 10
+          },
+          "reasoning": "体積計算。公式の理解と応用"
+        },
+        {
+          "questId": "grade5-quest07",
+          "unitId": "elem5_ratio",
+          "questName": "割合",
+          "description": "割合と百分率をマスター",
+          "difficulty": "standard",
+          "problemCount": 100,
+          "problemTypes": {
+            "calculation": 40,
+            "wordProblem": 45,
+            "reverse": 10,
+            "puzzle": 5
+          },
+          "reasoning": "つまずきやすい重要単元。文章題多め"
+        },
+        {
+          "questId": "grade5-quest08",
+          "unitId": "elem5_speed",
+          "questName": "速さ",
+          "description": "速さ・道のり・時間の関係",
+          "difficulty": "standard",
+          "problemCount": 90,
+          "problemTypes": {
+            "calculation": 35,
+            "wordProblem": 45,
+            "reverse": 10
+          },
+          "reasoning": "公式の理解。文章題で応用力を"
+        },
+        {
+          "questId": "grade5-quest09",
+          "unitId": "elem5_polygons",
+          "questName": "正多角形と円周",
+          "description": "正多角形と円周率を学ぼう",
+          "difficulty": "standard",
+          "problemCount": 80,
+          "problemTypes": {
+            "calculation": 35,
+            "wordProblem": 30,
+            "puzzle": 15
+          },
+          "reasoning": "図形の性質と円周計算"
+        },
+        {
+          "questId": "grade5-quest10",
+          "unitId": "elem5_area_triangles",
+          "questName": "三角形・平行四辺形の面積",
+          "description": "面積公式をマスターしよう",
+          "difficulty": "standard",
+          "problemCount": 90,
+          "problemTypes": {
+            "calculation": 45,
+            "wordProblem": 35,
+            "reverse": 10
+          },
+          "reasoning": "面積公式の理解と応用"
+        },
+        {
+          "questId": "grade5-quest11",
+          "unitId": "elem5_statistics",
+          "questName": "平均とその活用",
+          "description": "平均を計算しよう",
+          "difficulty": "basic",
+          "problemCount": 70,
+          "problemTypes": {
+            "calculation": 30,
+            "wordProblem": 30,
+            "puzzle": 10
+          },
+          "reasoning": "平均の概念理解と計算"
+        },
+        {
+          "questId": "grade5-quest12",
+          "unitId": "elem5_units_advanced",
+          "questName": "単位量あたりの大きさ",
+          "description": "単位量で比べる考え方",
+          "difficulty": "standard",
+          "problemCount": 80,
+          "problemTypes": {
+            "calculation": 30,
+            "wordProblem": 40,
+            "puzzle": 10
+          },
+          "reasoning": "割合の応用。実生活との結びつけ"
+        }
+      ]
+    },
+    {
+      "worldId": "grade6",
+      "worldName": "小学6年の世界",
+      "grade": "小6",
+      "icon": "🎓",
+      "description": "小学算数の完成！中学への準備",
+      "totalQuests": 11,
+      "estimatedProblems": 1010,
+      "quests": [
+        {
+          "questId": "grade6-quest01",
+          "unitId": "elem6_operations_review",
+          "questName": "文字と式",
+          "description": "文字を使った式を学ぼう",
+          "difficulty": "basic",
+          "problemCount": 70,
+          "problemTypes": {
+            "calculation": 30,
+            "wordProblem": 30,
+            "puzzle": 10
+          },
+          "reasoning": "中学数学への橋渡し。文字の導入"
+        },
+        {
+          "questId": "grade6-quest02",
+          "unitId": "elem6_fractions_multiplication",
+          "questName": "分数のかけ算",
+          "description": "分数×分数をマスター",
+          "difficulty": "standard",
+          "problemCount": 100,
+          "problemTypes": {
+            "calculation": 60,
+            "wordProblem": 25,
+            "reverse": 10,
+            "puzzle": 5
+          },
+          "reasoning": "分数計算の完成。十分な練習"
+        },
+        {
+          "questId": "grade6-quest03",
+          "unitId": "elem6_fractions_division",
+          "questName": "分数のわり算",
+          "description": "分数÷分数をマスター",
+          "difficulty": "standard",
+          "problemCount": 100,
+          "problemTypes": {
+            "calculation": 60,
+            "wordProblem": 25,
+            "reverse": 10,
+            "puzzle": 5
+          },
+          "reasoning": "分数計算の完成。逆数の理解"
+        },
+        {
+          "questId": "grade6-quest04",
+          "unitId": "elem6_proportions",
+          "questName": "比と比の値",
+          "description": "比の考え方をマスター",
+          "difficulty": "standard",
+          "problemCount": 80,
+          "problemTypes": {
+            "calculation": 35,
+            "wordProblem": 35,
+            "puzzle": 10
+          },
+          "reasoning": "比の理解。等しい比と簡単な比"
+        },
+        {
+          "questId": "grade6-quest05",
+          "unitId": "elem6_proportional_relationships",
+          "questName": "比例と反比例",
+          "description": "比例・反比例の関係を理解",
+          "difficulty": "standard",
+          "problemCount": 90,
+          "problemTypes": {
+            "calculation": 35,
+            "wordProblem": 40,
+            "puzzle": 15
+          },
+          "reasoning": "関数の入門。グラフとの対応"
+        },
+        {
+          "questId": "grade6-quest06",
+          "unitId": "elem6_circles_area",
+          "questName": "円の面積",
+          "description": "円の面積を求めよう",
+          "difficulty": "standard",
+          "problemCount": 80,
+          "problemTypes": {
+            "calculation": 40,
+            "wordProblem": 30,
+            "reverse": 10
+          },
+          "reasoning": "円周率の応用。面積公式の理解"
+        },
+        {
+          "questId": "grade6-quest07",
+          "unitId": "elem6_volume_advanced",
+          "questName": "角柱・円柱の体積",
+          "description": "柱体の体積をマスター",
+          "difficulty": "standard",
+          "problemCount": 90,
+          "problemTypes": {
+            "calculation": 45,
+            "wordProblem": 35,
+            "reverse": 10
+          },
+          "reasoning": "体積公式の発展。底面積の理解"
+        },
+        {
+          "questId": "grade6-quest08",
+          "unitId": "elem6_symmetry",
+          "questName": "対称な図形",
+          "description": "線対称・点対称を学ぼう",
+          "difficulty": "basic",
+          "problemCount": 70,
+          "problemTypes": {
+            "calculation": 10,
+            "wordProblem": 30,
+            "puzzle": 30
+          },
+          "reasoning": "図形の性質理解。作図問題が中心"
+        },
+        {
+          "questId": "grade6-quest09",
+          "unitId": "elem6_data_analysis",
+          "questName": "データの調べ方",
+          "description": "度数分布とヒストグラム",
+          "difficulty": "standard",
+          "problemCount": 70,
+          "problemTypes": {
+            "calculation": 25,
+            "wordProblem": 30,
+            "puzzle": 15
+          },
+          "reasoning": "データ分析の基礎。グラフの読み取り"
+        },
+        {
+          "questId": "grade6-quest10",
+          "unitId": "elem6_speed_advanced",
+          "questName": "速さの応用",
+          "description": "旅人算などの応用問題",
+          "difficulty": "advanced",
+          "problemCount": 80,
+          "problemTypes": {
+            "calculation": 20,
+            "wordProblem": 50,
+            "puzzle": 10
+          },
+          "reasoning": "難易度高い応用問題。論理的思考"
+        },
+        {
+          "questId": "grade6-quest11",
+          "unitId": "elem6_ratios_applications",
+          "questName": "比の応用",
+          "description": "比を使った問題解決",
+          "difficulty": "advanced",
+          "problemCount": 80,
+          "problemTypes": {
+            "calculation": 20,
+            "wordProblem": 50,
+            "puzzle": 10
+          },
+          "reasoning": "按分などの応用。実践的な問題"
+        }
+      ]
+    },
+    {
+      "worldId": "junior-high1",
+      "worldName": "中学1年の世界",
+      "grade": "中1",
+      "icon": "🔥",
+      "description": "負の数と方程式の世界へ！",
+      "totalQuests": 8,
+      "estimatedProblems": 900,
+      "quests": [
+        {
+          "questId": "jh1-quest01",
+          "unitId": "jh1_positive_negative",
+          "questName": "正負の数",
+          "description": "負の数と四則演算をマスター",
+          "difficulty": "basic",
+          "problemCount": 120,
+          "problemTypes": {
+            "calculation": 70,
+            "wordProblem": 30,
+            "puzzle": 20
+          },
+          "reasoning": "中学数学の基礎。十分な練習で完全習得"
+        },
+        {
+          "questId": "jh1-quest02",
+          "unitId": "jh1_literal_expressions",
+          "questName": "文字と式",
+          "description": "文字式の計算をマスター",
+          "difficulty": "basic",
+          "problemCount": 100,
+          "problemTypes": {
+            "calculation": 60,
+            "wordProblem": 25,
+            "equation": 15
+          },
+          "reasoning": "文字式の基礎。代入と式の値"
+        },
+        {
+          "questId": "jh1-quest03",
+          "unitId": "jh1_equations",
+          "questName": "一元一次方程式",
+          "description": "方程式の解き方をマスター",
+          "difficulty": "standard",
+          "problemCount": 120,
+          "problemTypes": {
+            "calculation": 70,
+            "wordProblem": 30,
+            "reverse": 15,
+            "puzzle": 5
+          },
+          "reasoning": "重要単元。移項と計算を確実に"
+        },
+        {
+          "questId": "jh1-quest04",
+          "unitId": "jh1_equations_applications",
+          "questName": "方程式の利用",
+          "description": "方程式で文章題を解こう",
+          "difficulty": "standard",
+          "problemCount": 100,
+          "problemTypes": {
+            "calculation": 20,
+            "wordProblem": 70,
+            "puzzle": 10
+          },
+          "reasoning": "文章題の練習。立式が重要"
+        },
+        {
+          "questId": "jh1-quest05",
+          "unitId": "jh1_proportional_functions",
+          "questName": "比例と反比例",
+          "description": "関数とグラフを学ぼう",
+          "difficulty": "basic",
+          "problemCount": 100,
+          "problemTypes": {
+            "calculation": 50,
+            "wordProblem": 35,
+            "puzzle": 15
+          },
+          "reasoning": "関数の基礎。座標とグラフ"
+        },
+        {
+          "questId": "jh1-quest06",
+          "unitId": "jh1_plane_figures",
+          "questName": "平面図形",
+          "description": "作図と図形の性質",
+          "difficulty": "basic",
+          "problemCount": 90,
+          "problemTypes": {
+            "calculation": 30,
+            "wordProblem": 40,
+            "puzzle": 20
+          },
+          "reasoning": "作図問題が中心。円の性質"
+        },
+        {
+          "questId": "jh1-quest07",
+          "unitId": "jh1_space_figures",
+          "questName": "空間図形",
+          "description": "立体の体積と表面積",
+          "difficulty": "standard",
+          "problemCount": 100,
+          "problemTypes": {
+            "calculation": 50,
+            "wordProblem": 35,
+            "puzzle": 15
+          },
+          "reasoning": "立体図形の計算。展開図も"
+        },
+        {
+          "questId": "jh1-quest08",
+          "unitId": "jh1_data_organization",
+          "questName": "データの活用（基礎）",
+          "description": "度数分布と代表値",
+          "difficulty": "basic",
+          "problemCount": 90,
+          "problemTypes": {
+            "calculation": 40,
+            "wordProblem": 35,
+            "puzzle": 15
+          },
+          "reasoning": "データの整理と分析。基本統計"
+        }
+      ]
+    },
+    {
+      "worldId": "junior-high2",
+      "worldName": "中学2年の世界",
+      "grade": "中2",
+      "icon": "⚡",
+      "description": "連立方程式と図形証明の世界！",
+      "totalQuests": 10,
+      "estimatedProblems": 1100,
+      "quests": [
+        {
+          "questId": "jh2-quest01",
+          "unitId": "jh2_polynomial_operations",
+          "questName": "式の計算（多項式）",
+          "description": "多項式の計算をマスター",
+          "difficulty": "basic",
+          "problemCount": 100,
+          "problemTypes": {
+            "calculation": 60,
+            "wordProblem": 25,
+            "puzzle": 15
+          },
+          "reasoning": "文字式の発展。同類項の計算"
+        },
+        {
+          "questId": "jh2-quest02",
+          "unitId": "jh2_algebraic_fractions",
+          "questName": "式の計算（文字式の利用）",
+          "description": "等式の変形と証明",
+          "difficulty": "standard",
+          "problemCount": 90,
+          "problemTypes": {
+            "calculation": 40,
+            "wordProblem": 35,
+            "puzzle": 15
+          },
+          "reasoning": "等式の変形。文字式での説明"
+        },
+        {
+          "questId": "jh2-quest03",
+          "unitId": "jh2_simultaneous_equations",
+          "questName": "連立方程式",
+          "description": "連立方程式の解き方",
+          "difficulty": "standard",
+          "problemCount": 120,
+          "problemTypes": {
+            "calculation": 70,
+            "wordProblem": 30,
+            "reverse": 15,
+            "puzzle": 5
+          },
+          "reasoning": "重要単元。加減法・代入法を確実に"
+        },
+        {
+          "questId": "jh2-quest04",
+          "unitId": "jh2_simultaneous_applications",
+          "questName": "連立方程式の利用",
+          "description": "連立方程式で問題を解こう",
+          "difficulty": "standard",
+          "problemCount": 100,
+          "problemTypes": {
+            "calculation": 20,
+            "wordProblem": 70,
+            "puzzle": 10
+          },
+          "reasoning": "文章題の練習。立式の工夫"
+        },
+        {
+          "questId": "jh2-quest05",
+          "unitId": "jh2_linear_functions",
+          "questName": "一次関数",
+          "description": "一次関数のグラフと性質",
+          "difficulty": "standard",
+          "problemCount": 120,
+          "problemTypes": {
+            "calculation": 60,
+            "wordProblem": 45,
+            "puzzle": 15
+          },
+          "reasoning": "重要単元。傾きと切片の理解"
+        },
+        {
+          "questId": "jh2-quest06",
+          "unitId": "jh2_linear_functions_applications",
+          "questName": "一次関数の利用",
+          "description": "一次関数を使った問題解決",
+          "difficulty": "standard",
+          "problemCount": 100,
+          "problemTypes": {
+            "calculation": 30,
+            "wordProblem": 55,
+            "puzzle": 15
+          },
+          "reasoning": "動点問題など。応用力を養う"
+        },
+        {
+          "questId": "jh2-quest07",
+          "unitId": "jh2_triangles_properties",
+          "questName": "三角形の性質",
+          "description": "三角形の定理を学ぼう",
+          "difficulty": "basic",
+          "problemCount": 80,
+          "problemTypes": {
+            "calculation": 30,
+            "wordProblem": 35,
+            "puzzle": 15
+          },
+          "reasoning": "図形の性質理解。定理の使い方"
+        },
+        {
+          "questId": "jh2-quest08",
+          "unitId": "jh2_proof_geometry",
+          "questName": "図形の証明（合同）",
+          "description": "合同の証明をマスター",
+          "difficulty": "advanced",
+          "problemCount": 100,
+          "problemTypes": {
+            "calculation": 10,
+            "wordProblem": 70,
+            "puzzle": 20
+          },
+          "reasoning": "証明問題。論理的思考力を養う"
+        },
+        {
+          "questId": "jh2-quest09",
+          "unitId": "jh2_parallelograms",
+          "questName": "平行四辺形の性質",
+          "description": "四角形の性質と証明",
+          "difficulty": "standard",
+          "problemCount": 90,
+          "problemTypes": {
+            "calculation": 30,
+            "wordProblem": 45,
+            "puzzle": 15
+          },
+          "reasoning": "四角形の性質。証明の応用"
+        },
+        {
+          "questId": "jh2-quest10",
+          "unitId": "jh2_probability",
+          "questName": "確率",
+          "description": "確率の計算をマスター",
+          "difficulty": "standard",
+          "problemCount": 100,
+          "problemTypes": {
+            "calculation": 50,
+            "wordProblem": 40,
+            "puzzle": 10
+          },
+          "reasoning": "場合の数と確率。樹形図の利用"
+        }
+      ]
+    },
+    {
+      "worldId": "junior-high3",
+      "worldName": "中学3年の世界",
+      "grade": "中3",
+      "icon": "👑",
+      "description": "中学数学の完成！高校への準備",
+      "totalQuests": 15,
+      "estimatedProblems": 1500,
+      "quests": [
+        {
+          "questId": "jh3-quest01",
+          "unitId": "jh3_expansion",
+          "questName": "展開",
+          "description": "乗法公式をマスター",
+          "difficulty": "basic",
+          "problemCount": 100,
+          "problemTypes": {
+            "calculation": 60,
+            "wordProblem": 25,
+            "puzzle": 15
+          },
+          "reasoning": "展開の基礎。公式の完全習得"
+        },
+        {
+          "questId": "jh3-quest02",
+          "unitId": "jh3_factorization",
+          "questName": "因数分解",
+          "description": "因数分解をマスター",
+          "difficulty": "standard",
+          "problemCount": 100,
+          "problemTypes": {
+            "calculation": 60,
+            "wordProblem": 25,
+            "puzzle": 15
+          },
+          "reasoning": "重要単元。公式とたすきがけ"
+        },
+        {
+          "questId": "jh3-quest03",
+          "unitId": "jh3_square_roots",
+          "questName": "平方根",
+          "description": "平方根の概念と計算",
+          "difficulty": "basic",
+          "problemCount": 100,
+          "problemTypes": {
+            "calculation": 55,
+            "wordProblem": 30,
+            "puzzle": 15
+          },
+          "reasoning": "新しい数の概念。根号の扱い"
+        },
+        {
+          "questId": "jh3-quest04",
+          "unitId": "jh3_square_roots_operations",
+          "questName": "平方根の計算",
+          "description": "平方根の四則演算",
+          "difficulty": "standard",
+          "problemCount": 100,
+          "problemTypes": {
+            "calculation": 65,
+            "wordProblem": 25,
+            "puzzle": 10
+          },
+          "reasoning": "平方根の計算練習。有理化も"
+        },
+        {
+          "questId": "jh3-quest05",
+          "unitId": "jh3_quadratic_equations",
+          "questName": "二次方程式",
+          "description": "二次方程式の解き方",
+          "difficulty": "standard",
+          "problemCount": 120,
+          "problemTypes": {
+            "calculation": 70,
+            "wordProblem": 30,
+            "reverse": 15,
+            "puzzle": 5
+          },
+          "reasoning": "重要単元。因数分解と解の公式"
+        },
+        {
+          "questId": "jh3-quest06",
+          "unitId": "jh3_quadratic_applications",
+          "questName": "二次方程式の利用",
+          "description": "二次方程式で問題を解こう",
+          "difficulty": "advanced",
+          "problemCount": 90,
+          "problemTypes": {
+            "calculation": 20,
+            "wordProblem": 60,
+            "puzzle": 10
+          },
+          "reasoning": "応用問題。立式の工夫が必要"
+        },
+        {
+          "questId": "jh3-quest07",
+          "unitId": "jh3_quadratic_functions",
+          "questName": "二次関数",
+          "description": "y=ax²のグラフ",
+          "difficulty": "standard",
+          "problemCount": 110,
+          "problemTypes": {
+            "calculation": 55,
+            "wordProblem": 40,
+            "puzzle": 15
+          },
+          "reasoning": "放物線の性質。変化の割合"
+        },
+        {
+          "questId": "jh3-quest08",
+          "unitId": "jh3_quadratic_functions_applications",
+          "questName": "二次関数の利用",
+          "description": "二次関数を使った問題解決",
+          "difficulty": "advanced",
+          "problemCount": 80,
+          "problemTypes": {
+            "calculation": 20,
+            "wordProblem": 50,
+            "puzzle": 10
+          },
+          "reasoning": "最大・最小問題など応用"
+        },
+        {
+          "questId": "jh3-quest09",
+          "unitId": "jh3_similarity",
+          "questName": "相似な図形",
+          "description": "相似の性質をマスター",
+          "difficulty": "standard",
+          "problemCount": 100,
+          "problemTypes": {
+            "calculation": 50,
+            "wordProblem": 35,
+            "puzzle": 15
+          },
+          "reasoning": "相似の基礎。相似比の理解"
+        },
+        {
+          "questId": "jh3-quest10",
+          "unitId": "jh3_similarity_proof",
+          "questName": "相似の証明と利用",
+          "description": "相似を使った証明と計算",
+          "difficulty": "advanced",
+          "problemCount": 100,
+          "problemTypes": {
+            "calculation": 30,
+            "wordProblem": 55,
+            "puzzle": 15
+          },
+          "reasoning": "証明と計量。線分比の計算"
+        },
+        {
+          "questId": "jh3-quest11",
+          "unitId": "jh3_pythagorean_theorem",
+          "questName": "三平方の定理",
+          "description": "三平方の定理をマスター",
+          "difficulty": "standard",
+          "problemCount": 110,
+          "problemTypes": {
+            "calculation": 60,
+            "wordProblem": 35,
+            "puzzle": 15
+          },
+          "reasoning": "重要定理。平面・空間での応用"
+        },
+        {
+          "questId": "jh3-quest12",
+          "unitId": "jh3_pythagorean_applications",
+          "questName": "三平方の定理の応用",
+          "description": "立体への応用",
+          "difficulty": "advanced",
+          "problemCount": 90,
+          "problemTypes": {
+            "calculation": 40,
+            "wordProblem": 40,
+            "puzzle": 10
+          },
+          "reasoning": "空間図形での応用。最短距離"
+        },
+        {
+          "questId": "jh3-quest13",
+          "unitId": "jh3_circles_properties",
+          "questName": "円の性質",
+          "description": "円周角の定理をマスター",
+          "difficulty": "standard",
+          "problemCount": 100,
+          "problemTypes": {
+            "calculation": 50,
+            "wordProblem": 35,
+            "puzzle": 15
+          },
+          "reasoning": "円の性質。円周角と中心角"
+        },
+        {
+          "questId": "jh3-quest14",
+          "unitId": "jh3_circles_applications",
+          "questName": "円の性質の利用",
+          "description": "円を使った証明と計算",
+          "difficulty": "advanced",
+          "problemCount": 80,
+          "problemTypes": {
+            "calculation": 25,
+            "wordProblem": 45,
+            "puzzle": 10
+          },
+          "reasoning": "円と相似の融合問題"
+        },
+        {
+          "questId": "jh3-quest15",
+          "unitId": "jh3_sampling",
+          "questName": "標本調査",
+          "description": "標本調査と推定",
+          "difficulty": "basic",
+          "problemCount": 80,
+          "problemTypes": {
+            "calculation": 35,
+            "wordProblem": 35,
+            "puzzle": 10
+          },
+          "reasoning": "統計の基礎。母集団の推定"
+        }
+      ]
+    }
+  ]
+}

@@ -79,44 +79,92 @@
             </div>
         </div>
         
-        <!-- ステップ2: キャラクター選択 -->
+        <!-- ステップ2: 性格診断 -->
         <div id="step2" class="bg-white rounded-3xl shadow-2xl p-8 hidden">
             <button id="back-to-step1" class="text-purple-600 hover:text-purple-800 font-bold mb-4">
                 <i class="fas fa-arrow-left mr-2"></i>戻る
             </button>
-            
+
+            <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">
+                <i class="fas fa-brain text-purple-600 mr-3"></i>
+                性格診断
+            </h2>
+
+            <div id="personality-quiz">
+                <div class="quiz-question mb-8 text-center">
+                    <p class="text-xl font-bold text-gray-800 mb-2" id="quiz-question-text">質問を読み込み中...</p>
+                    <p class="text-sm text-gray-500" id="quiz-progress">質問 1/5</p>
+                </div>
+
+                <div class="grid grid-cols-1 gap-4" id="quiz-answers">
+                    <!-- 回答選択肢がここに表示されます -->
+                </div>
+            </div>
+
+            <!-- 診断結果 -->
+            <div id="personality-result" class="hidden">
+                <div class="bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl p-6 mb-6 text-center">
+                    <p class="text-lg text-gray-700 mb-4">あなたにおすすめのキャラクターは...</p>
+                    <div class="text-8xl mb-4" id="recommended-character-icon">🧙‍♂️</div>
+                    <div class="text-3xl font-bold text-gray-800 mb-2" id="recommended-character-name">魔法使い</div>
+                    <p class="text-gray-600" id="recommended-character-desc">知恵の力で問題を解く</p>
+                </div>
+
+                <p class="text-center text-gray-700 mb-4">このキャラクターで冒険を始めますか？</p>
+
+                <div class="grid grid-cols-2 gap-4">
+                    <button id="accept-recommendation-btn" class="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-bold py-4 rounded-xl transition">
+                        このキャラクターにする
+                    </button>
+                    <button id="manual-select-btn" class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-4 rounded-xl transition">
+                        自分で選ぶ
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- ステップ2B: 手動キャラクター選択 -->
+        <div id="step2b" class="bg-white rounded-3xl shadow-2xl p-8 hidden">
+            <button id="back-to-step2" class="text-purple-600 hover:text-purple-800 font-bold mb-4">
+                <i class="fas fa-arrow-left mr-2"></i>戻る
+            </button>
+
             <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">
                 <i class="fas fa-users text-purple-600 mr-3"></i>
                 キャラクターを選ぼう
             </h2>
-            
+
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <button class="character-btn choice-card bg-gradient-to-br from-purple-100 to-purple-200 p-6 rounded-xl" data-character="wizard">
                     <div class="text-6xl mb-3">🧙‍♂️</div>
                     <div class="font-bold text-xl text-gray-800 mb-2">魔法使い</div>
                     <div class="text-sm text-gray-600">知恵の力で問題を解く</div>
+                    <div class="text-xs text-gray-500 mt-2">HP+10 MP+20</div>
                 </button>
                 <button class="character-btn choice-card bg-gradient-to-br from-red-100 to-red-200 p-6 rounded-xl" data-character="knight">
                     <div class="text-6xl mb-3">🗡️</div>
                     <div class="font-bold text-xl text-gray-800 mb-2">騎士</div>
                     <div class="text-sm text-gray-600">勇気の力で挑戦する</div>
+                    <div class="text-xs text-gray-500 mt-2">HP+20 ATK+10</div>
                 </button>
                 <button class="character-btn choice-card bg-gradient-to-br from-green-100 to-green-200 p-6 rounded-xl" data-character="archer">
                     <div class="text-6xl mb-3">🏹</div>
                     <div class="font-bold text-xl text-gray-800 mb-2">アーチャー</div>
                     <div class="text-sm text-gray-600">集中の力で狙い撃つ</div>
+                    <div class="text-xs text-gray-500 mt-2">AGI+15 LUK+10</div>
                 </button>
                 <button class="character-btn choice-card bg-gradient-to-br from-yellow-100 to-yellow-200 p-6 rounded-xl" data-character="healer">
                     <div class="text-6xl mb-3">⚕️</div>
                     <div class="font-bold text-xl text-gray-800 mb-2">ヒーラー</div>
                     <div class="text-sm text-gray-600">優しさの力で癒す</div>
+                    <div class="text-xs text-gray-500 mt-2">HP+15 DEF+10</div>
                 </button>
             </div>
         </div>
         
-        <!-- ステップ3: 名前入力 -->
+        <!-- ステップ3: 名前入力とアバターカスタマイズ -->
         <div id="step3" class="bg-white rounded-3xl shadow-2xl p-8 hidden">
-            <button id="back-to-step2" class="text-purple-600 hover:text-purple-800 font-bold mb-4">
+            <button id="back-to-step2b" class="text-purple-600 hover:text-purple-800 font-bold mb-4">
                 <i class="fas fa-arrow-left mr-2"></i>戻る
             </button>
             
@@ -125,18 +173,55 @@
                 冒険者の名前は？
             </h2>
             
-            <!-- 選択内容の確認 -->
+            <!-- アバタープレビュー -->
             <div class="bg-purple-50 rounded-xl p-6 mb-6">
-                <h3 class="font-bold text-gray-700 mb-4">選択した内容</h3>
-                <div class="flex items-center justify-between">
+                <h3 class="font-bold text-gray-700 mb-4 text-center">あなたのアバター</h3>
+                <div class="flex items-center justify-center mb-4">
+                    <div class="relative">
+                        <div id="avatar-preview" class="text-8xl">🧙‍♂️</div>
+                        <div id="avatar-accessory" class="absolute -top-2 -right-2 text-4xl"></div>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 gap-2 text-sm">
                     <div>
                         <span class="text-gray-600">学年:</span>
-                        <span id="selected-grade" class="font-bold ml-2">小学3年生</span>
+                        <span id="selected-grade" class="font-bold ml-1">小学3年生</span>
                     </div>
                     <div>
-                        <span class="text-gray-600">キャラクター:</span>
-                        <span id="selected-character-icon" class="text-3xl ml-2">🧙‍♂️</span>
+                        <span class="text-gray-600">称号:</span>
+                        <span id="selected-title" class="font-bold ml-1 text-purple-600">新米冒険者</span>
                     </div>
+                </div>
+            </div>
+
+            <!-- アバターカスタマイズ -->
+            <div class="bg-gray-50 rounded-xl p-4 mb-6">
+                <h4 class="font-bold text-gray-700 mb-3 text-sm">✨ アクセサリーを選ぼう（オプション）</h4>
+                <div class="grid grid-cols-4 gap-2">
+                    <button class="accessory-btn bg-white hover:bg-purple-100 p-3 rounded-lg text-2xl border-2 border-transparent" data-accessory="">
+                        ❌<br><span class="text-xs text-gray-500">なし</span>
+                    </button>
+                    <button class="accessory-btn bg-white hover:bg-purple-100 p-3 rounded-lg text-2xl border-2 border-transparent" data-accessory="🎩">
+                        🎩<br><span class="text-xs text-gray-500">帽子</span>
+                    </button>
+                    <button class="accessory-btn bg-white hover:bg-purple-100 p-3 rounded-lg text-2xl border-2 border-transparent" data-accessory="👓">
+                        👓<br><span class="text-xs text-gray-500">メガネ</span>
+                    </button>
+                    <button class="accessory-btn bg-white hover:bg-purple-100 p-3 rounded-lg text-2xl border-2 border-transparent" data-accessory="👑">
+                        👑<br><span class="text-xs text-gray-500">王冠</span>
+                    </button>
+                    <button class="accessory-btn bg-white hover:bg-purple-100 p-3 rounded-lg text-2xl border-2 border-transparent" data-accessory="🎀">
+                        🎀<br><span class="text-xs text-gray-500">リボン</span>
+                    </button>
+                    <button class="accessory-btn bg-white hover:bg-purple-100 p-3 rounded-lg text-2xl border-2 border-transparent" data-accessory="⭐">
+                        ⭐<br><span class="text-xs text-gray-500">星</span>
+                    </button>
+                    <button class="accessory-btn bg-white hover:bg-purple-100 p-3 rounded-lg text-2xl border-2 border-transparent" data-accessory="🌈">
+                        🌈<br><span class="text-xs text-gray-500">虹</span>
+                    </button>
+                    <button class="accessory-btn bg-white hover:bg-purple-100 p-3 rounded-lg text-2xl border-2 border-transparent" data-accessory="🦄">
+                        🦄<br><span class="text-xs text-gray-500">ペット</span>
+                    </button>
                 </div>
             </div>
             
@@ -181,29 +266,149 @@
     <script>
         let selectedGrade = null;
         let selectedCharacter = null;
-        
+        let selectedAccessory = '';
+        let quizAnswers = [];
+        let currentQuizIndex = 0;
+
         const characterIcons = {
             wizard: '🧙‍♂️',
             knight: '🗡️',
             archer: '🏹',
             healer: '⚕️'
         };
-        
+
+        const characterNames = {
+            wizard: '魔法使い',
+            knight: '騎士',
+            archer: 'アーチャー',
+            healer: 'ヒーラー'
+        };
+
+        const characterDescs = {
+            wizard: '知恵の力で問題を解く',
+            knight: '勇気の力で挑戦する',
+            archer: '集中の力で狙い撃つ',
+            healer: '優しさの力で癒す'
+        };
+
         const gradeNames = {
             1: '小学1年生', 2: '小学2年生', 3: '小学3年生',
             4: '小学4年生', 5: '小学5年生', 6: '小学6年生',
             7: '中学1年生', 8: '中学2年生', 9: '中学3年生'
         };
-        
+
+        // 性格診断の質問
+        const personalityQuiz = [
+            {
+                question: '新しい問題に挑戦するとき、どう感じる？',
+                answers: [
+                    { text: 'ワクワクする！すぐにやってみたい', character: 'knight' },
+                    { text: 'じっくり考えてから始める', character: 'wizard' },
+                    { text: '集中して一発で解きたい', character: 'archer' },
+                    { text: '間違えても大丈夫、ゆっくりやる', character: 'healer' }
+                ]
+            },
+            {
+                question: '好きな勉強方法は？',
+                answers: [
+                    { text: '何度も練習して体で覚える', character: 'knight' },
+                    { text: '理由を理解してから覚える', character: 'wizard' },
+                    { text: 'ポイントだけ押さえて効率的に', character: 'archer' },
+                    { text: 'マイペースでコツコツと', character: 'healer' }
+                ]
+            },
+            {
+                question: '友達が困っているとき、どうする？',
+                answers: [
+                    { text: 'すぐに助けに行く！', character: 'knight' },
+                    { text: '解決方法を一緒に考える', character: 'wizard' },
+                    { text: '的確なアドバイスをする', character: 'archer' },
+                    { text: '優しく励ましながら支える', character: 'healer' }
+                ]
+            },
+            {
+                question: 'ゲームをするとき、どんなタイプ？',
+                answers: [
+                    { text: '最前線で戦うのが好き', character: 'knight' },
+                    { text: '戦略を練るのが楽しい', character: 'wizard' },
+                    { text: '正確に狙うのが得意', character: 'archer' },
+                    { text: 'チームを守るのが好き', character: 'healer' }
+                ]
+            },
+            {
+                question: '冒険に出るなら、何を持っていく？',
+                answers: [
+                    { text: '剣と盾！勇気があれば大丈夫', character: 'knight' },
+                    { text: '魔法の本と知恵の杖', character: 'wizard' },
+                    { text: '弓矢と地図', character: 'archer' },
+                    { text: '薬草と水、食料', character: 'healer' }
+                ]
+            }
+        ];
+
         function updateProgress(step) {
             const progress = (step / 3) * 100;
             document.getElementById('progress-fill').style.width = `${progress}%`;
             document.getElementById('step-text').textContent = `ステップ ${step}/3`;
-            
-            const stepNames = ['学年選択', 'キャラクター選択', '名前入力'];
+
+            const stepNames = ['学年選択', '性格診断', '名前入力'];
             document.getElementById('step-name').textContent = stepNames[step - 1];
         }
-        
+
+        // 性格診断の質問を表示
+        function showQuizQuestion() {
+            if (currentQuizIndex >= personalityQuiz.length) {
+                calculateRecommendation();
+                return;
+            }
+
+            const quiz = personalityQuiz[currentQuizIndex];
+            document.getElementById('quiz-question-text').textContent = quiz.question;
+            document.getElementById('quiz-progress').textContent = `質問 ${currentQuizIndex + 1}/${personalityQuiz.length}`;
+
+            const answersContainer = document.getElementById('quiz-answers');
+            answersContainer.innerHTML = quiz.answers.map((answer, index) => `
+                <button class="quiz-answer-btn bg-white hover:bg-purple-100 p-4 rounded-xl text-left border-2 border-gray-200 hover:border-purple-500 transition" data-character="${answer.character}">
+                    <div class="font-bold text-gray-800">${String.fromCharCode(65 + index)}. ${answer.text}</div>
+                </button>
+            `).join('');
+
+            // 回答ボタンにイベントリスナー
+            document.querySelectorAll('.quiz-answer-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    quizAnswers.push(btn.dataset.character);
+                    currentQuizIndex++;
+                    showQuizQuestion();
+                });
+            });
+        }
+
+        // おすすめキャラクターを計算
+        function calculateRecommendation() {
+            const counts = {};
+            quizAnswers.forEach(char => {
+                counts[char] = (counts[char] || 0) + 1;
+            });
+
+            let recommendedChar = 'wizard';
+            let maxCount = 0;
+            for (const [char, count] of Object.entries(counts)) {
+                if (count > maxCount) {
+                    maxCount = count;
+                    recommendedChar = char;
+                }
+            }
+
+            selectedCharacter = recommendedChar;
+
+            // 結果を表示
+            document.getElementById('personality-quiz').classList.add('hidden');
+            document.getElementById('personality-result').classList.remove('hidden');
+            document.getElementById('recommended-character-icon').textContent = characterIcons[recommendedChar];
+            document.getElementById('recommended-character-name').textContent = characterNames[recommendedChar];
+            document.getElementById('recommended-character-desc').textContent = characterDescs[recommendedChar];
+        }
+
         document.addEventListener('DOMContentLoaded', () => {
             // ステップ1: 学年選択
             document.querySelectorAll('.grade-btn').forEach(btn => {
@@ -213,35 +418,80 @@
                     document.getElementById('step2').classList.remove('hidden');
                     document.getElementById('step2').classList.add('animate-fade-in');
                     updateProgress(2);
+
+                    // 性格診断を開始
+                    quizAnswers = [];
+                    currentQuizIndex = 0;
+                    showQuizQuestion();
                 });
             });
-            
-            // ステップ2: キャラクター選択
+
+            // ステップ2: 診断結果からキャラクター決定
+            document.getElementById('accept-recommendation-btn')?.addEventListener('click', () => {
+                goToStep3();
+            });
+
+            document.getElementById('manual-select-btn')?.addEventListener('click', () => {
+                document.getElementById('step2').classList.add('hidden');
+                document.getElementById('step2b').classList.remove('hidden');
+                document.getElementById('step2b').classList.add('animate-fade-in');
+            });
+
+            // ステップ2B: 手動キャラクター選択
             document.querySelectorAll('.character-btn').forEach(btn => {
                 btn.addEventListener('click', () => {
                     selectedCharacter = btn.dataset.character;
-                    
-                    // 選択内容を表示
-                    document.getElementById('selected-grade').textContent = gradeNames[selectedGrade];
-                    document.getElementById('selected-character-icon').textContent = characterIcons[selectedCharacter];
-                    
-                    document.getElementById('step2').classList.add('hidden');
-                    document.getElementById('step3').classList.remove('hidden');
-                    document.getElementById('step3').classList.add('animate-fade-in');
-                    updateProgress(3);
+                    goToStep3();
                 });
             });
-            
+
+            function goToStep3() {
+                document.getElementById('selected-grade').textContent = gradeNames[selectedGrade];
+                document.getElementById('avatar-preview').textContent = characterIcons[selectedCharacter];
+
+                document.getElementById('step2').classList.add('hidden');
+                document.getElementById('step2b').classList.add('hidden');
+                document.getElementById('step3').classList.remove('hidden');
+                document.getElementById('step3').classList.add('animate-fade-in');
+                updateProgress(3);
+            }
+
+            // アクセサリー選択
+            document.querySelectorAll('.accessory-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    // 選択状態を切り替え
+                    document.querySelectorAll('.accessory-btn').forEach(b => {
+                        b.classList.remove('border-purple-500');
+                        b.classList.add('border-transparent');
+                    });
+                    btn.classList.remove('border-transparent');
+                    btn.classList.add('border-purple-500');
+
+                    selectedAccessory = btn.dataset.accessory;
+                    document.getElementById('avatar-accessory').textContent = selectedAccessory;
+                });
+            });
+
             // 戻るボタン
-            document.getElementById('back-to-step1').addEventListener('click', () => {
+            document.getElementById('back-to-step1')?.addEventListener('click', () => {
                 document.getElementById('step2').classList.add('hidden');
                 document.getElementById('step1').classList.remove('hidden');
                 updateProgress(1);
             });
-            
-            document.getElementById('back-to-step2').addEventListener('click', () => {
-                document.getElementById('step3').classList.add('hidden');
+
+            document.getElementById('back-to-step2')?.addEventListener('click', () => {
+                document.getElementById('step2b').classList.add('hidden');
                 document.getElementById('step2').classList.remove('hidden');
+                document.getElementById('personality-quiz').classList.remove('hidden');
+                document.getElementById('personality-result').classList.add('hidden');
+                quizAnswers = [];
+                currentQuizIndex = 0;
+                showQuizQuestion();
+            });
+
+            document.getElementById('back-to-step2b')?.addEventListener('click', () => {
+                document.getElementById('step3').classList.add('hidden');
+                document.getElementById('step2b').classList.remove('hidden');
                 updateProgress(2);
             });
             
@@ -258,20 +508,34 @@
             // プレイヤー作成
             createBtn.addEventListener('click', () => {
                 const playerName = nameInput.value.trim();
-                
+
                 if (!playerName) {
                     MathMagic.showMessage('名前を入力してください', 'error');
                     return;
                 }
-                
+
                 // ローディング表示
                 document.getElementById('loading').classList.remove('hidden');
-                
-                // プレイヤーを作成
+
+                // プレイヤーを作成（アバター情報付き）
                 setTimeout(() => {
-                    PlayerManager.createPlayer(playerName, selectedGrade, selectedCharacter);
+                    const player = PlayerManager.createPlayer(playerName, selectedGrade, selectedCharacter);
+
+                    // アバター情報を追加
+                    player.avatar = {
+                        characterIcon: characterIcons[selectedCharacter],
+                        accessory: selectedAccessory,
+                        title: '新米冒険者'
+                    };
+
+                    // 称号リストを初期化
+                    player.titles = ['新米冒険者'];
+                    player.unlockedTitles = ['新米冒険者'];
+
+                    PlayerManager.updatePlayer(player);
+
                     MathMagic.showMessage('冒険者が誕生しました！🎉', 'success');
-                    
+
                     setTimeout(() => {
                         window.location.href = 'world-map.html';
                     }, 1000);

@@ -29,6 +29,7 @@ const PlayerManager = {
             characterType: characterType,
             level: 1,
             exp: 0,
+            gold: 100, // 初期ゴールド
             totalProblems: 0,
             correctProblems: 0,
             consecutiveCorrect: 0,
@@ -37,6 +38,16 @@ const PlayerManager = {
             weakAreas: [],
             inventory: [],
             equipment: {},
+            questProgress: {}, // クエスト進捗 { questId: { completed: bool, bestScore: num, stars: num, attempts: num, lastPlayedAt: ISO } }
+            achievements: [], // 実績 ID リスト
+            badges: [], // バッジ ID リスト
+            titles: ['新米冒険者'], // 所持称号
+            currentTitle: '新米冒険者', // 現在の称号
+            studyStats: { // 学習統計
+                totalStudyTime: 0, // 累計学習時間（秒）
+                studyDays: [], // 学習した日付のリスト
+                unitProgress: {} // 単元別進捗 { unitId: { correct: num, total: num, lastStudied: ISO } }
+            },
             gradeHistory: [
                 {
                     grade: parseInt(grade),
@@ -380,6 +391,183 @@ const PlayerManager = {
         };
 
         return gradeNames[grade] || `${grade}年生`;
+    },
+
+    /**
+     * クエスト進捗を更新
+     */
+    updateQuestProgress: function(questId, result) {
+        const player = MathMagic.getCurrentPlayer();
+
+        if (!player) {
+            console.error('プレイヤーが見つかりません');
+            return null;
+        }
+
+        // questProgress を初期化（互換性対応）
+        if (!player.questProgress) {
+            player.questProgress = {};
+        }
+
+        const existingProgress = player.questProgress[questId] || {
+            completed: false,
+            bestScore: 0,
+            stars: 0,
+            attempts: 0,
+            lastPlayedAt: null,
+            totalProblems: 0,
+            correctProblems: 0
+        };
+
+        // 結果を集計
+        const correctCount = result.correctCount || 0;
+        const totalCount = result.totalCount || 0;
+        const score = totalCount > 0 ? Math.round((correctCount / totalCount) * 100) : 0;
+
+        // 星評価を計算（3段階）
+        let stars = 1;
+        if (score >= 90) stars = 3;
+        else if (score >= 70) stars = 2;
+
+        // 更新
+        player.questProgress[questId] = {
+            completed: score >= 60, // 60%以上でクリア
+            bestScore: Math.max(existingProgress.bestScore, score),
+            stars: Math.max(existingProgress.stars, stars),
+            attempts: existingProgress.attempts + 1,
+            lastPlayedAt: new Date().toISOString(),
+            totalProblems: existingProgress.totalProblems + totalCount,
+            correctProblems: existingProgress.correctProblems + correctCount
+        };
+
+        console.log(`クエスト進捗更新: ${questId}`, player.questProgress[questId]);
+
+        this.updatePlayer(player);
+
+        return player.questProgress[questId];
+    },
+
+    /**
+     * クエストの進捗を取得
+     */
+    getQuestProgress: function(questId) {
+        const player = MathMagic.getCurrentPlayer();
+
+        if (!player || !player.questProgress) {
+            return null;
+        }
+
+        return player.questProgress[questId] || null;
+    },
+
+    /**
+     * クエストの進捗率を取得（0-100%）
+     */
+    getQuestProgressPercent: function(questId) {
+        const progress = this.getQuestProgress(questId);
+
+        if (!progress) {
+            return 0;
+        }
+
+        return progress.bestScore || 0;
+    },
+
+    /**
+     * 実績を解除
+     */
+    unlockAchievement: function(achievementId) {
+        const player = MathMagic.getCurrentPlayer();
+
+        if (!player) {
+            return false;
+        }
+
+        if (!player.achievements) {
+            player.achievements = [];
+        }
+
+        if (player.achievements.includes(achievementId)) {
+            console.log('既に解除済みの実績:', achievementId);
+            return false;
+        }
+
+        player.achievements.push(achievementId);
+        console.log('実績を解除しました:', achievementId);
+
+        this.updatePlayer(player);
+
+        return true;
+    },
+
+    /**
+     * 称号を解除
+     */
+    unlockTitle: function(title) {
+        const player = MathMagic.getCurrentPlayer();
+
+        if (!player) {
+            return false;
+        }
+
+        if (!player.titles) {
+            player.titles = ['新米冒険者'];
+        }
+
+        if (player.titles.includes(title)) {
+            console.log('既に所持している称号:', title);
+            return false;
+        }
+
+        player.titles.push(title);
+        console.log('称号を解除しました:', title);
+
+        this.updatePlayer(player);
+
+        return true;
+    },
+
+    /**
+     * 学習統計を更新
+     */
+    updateStudyStats: function(unitId, correct, total, studyTime) {
+        const player = MathMagic.getCurrentPlayer();
+
+        if (!player) {
+            return;
+        }
+
+        if (!player.studyStats) {
+            player.studyStats = {
+                totalStudyTime: 0,
+                studyDays: [],
+                unitProgress: {}
+            };
+        }
+
+        // 学習時間を追加
+        player.studyStats.totalStudyTime += studyTime;
+
+        // 今日の学習を記録
+        const today = new Date().toISOString().split('T')[0];
+        if (!player.studyStats.studyDays.includes(today)) {
+            player.studyStats.studyDays.push(today);
+        }
+
+        // 単元別進捗を更新
+        if (!player.studyStats.unitProgress[unitId]) {
+            player.studyStats.unitProgress[unitId] = {
+                correct: 0,
+                total: 0,
+                lastStudied: null
+            };
+        }
+
+        player.studyStats.unitProgress[unitId].correct += correct;
+        player.studyStats.unitProgress[unitId].total += total;
+        player.studyStats.unitProgress[unitId].lastStudied = new Date().toISOString();
+
+        this.updatePlayer(player);
     },
 
     /**
