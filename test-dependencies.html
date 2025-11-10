@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>依存関係テスト - マスマジ！</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-purple-900 to-blue-900 p-8">
+    <div class="max-w-6xl mx-auto">
+        <div class="bg-white rounded-xl shadow-2xl p-8 mb-6">
+            <h1 class="text-3xl font-bold mb-6 text-gray-800">
+                🔬 依存関係テスト
+            </h1>
+            <p class="text-gray-600 mb-4">全JavaScriptファイルの読み込みとグローバルオブジェクトをテスト中...</p>
+
+            <div id="test-results" class="space-y-2">
+                <!-- テスト結果がここに表示されます -->
+            </div>
+
+            <div class="mt-6 p-4 bg-blue-50 rounded-lg">
+                <h2 class="font-bold text-blue-900 mb-2">📊 テスト統計</h2>
+                <div id="test-stats" class="text-sm text-gray-700">
+                    読み込み中...
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 全JavaScriptファイルを読み込み -->
+    <script src="js/main.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/worlds.js"></script>
+    <script src="js/monster-database.js"></script>
+    <script src="js/battle-effects.js"></script>
+    <script src="js/battle-system.js"></script>
+    <script src="js/battle-items.js"></script>
+    <script src="js/inventory-system.js"></script>
+    <script src="js/inventory-ui.js"></script>
+    <script src="js/item-drop-system.js"></script>
+    <script src="js/figure-drawer.js"></script>
+    <script src="js/hint-system.js"></script>
+    <script src="js/progress-tracker.js"></script>
+    <script src="js/adaptive-learning.js"></script>
+    <script src="js/dashboard-stats.js"></script>
+    <script src="js/multiplayer.js"></script>
+    <script src="js/custom-problems.js"></script>
+    <script src="js/achievement-system.js"></script>
+    <script src="js/backup-system.js"></script>
+    <script src="js/shop-system.js"></script>
+    <script src="js/sound-system.js"></script>
+    <script src="js/streak-system.js"></script>
+    <script src="js/tutorial-system.js"></script>
+    <script src="js/world-map.js"></script>
+    <script src="js/quest.js"></script>
+    <script src="js/result.js"></script>
+    <script src="js/parent-stats.js"></script>
+
+    <script>
+        // テスト実行
+        document.addEventListener('DOMContentLoaded', function() {
+            runDependencyTests();
+        });
+
+        function runDependencyTests() {
+            const results = [];
+            const requiredObjects = [
+                'MathMagic',
+                'PlayerManager',
+                'WorldsData',
+                'MonsterDatabase',
+                'BattleEffects',
+                'BattleSystem',
+                'BattleItems',
+                'InventorySystem',
+                'ItemDropSystem',
+                'FigureDrawer',
+                'HintSystem',
+                'ProgressTracker',
+                'AdaptiveLearning',
+                'DashboardStats',
+                'Multiplayer',
+                'CustomProblems',
+                'AchievementSystem',
+                'BackupSystem',
+                'ShopSystem',
+                'SoundSystem',
+                'StreakSystem',
+                'TutorialSystem'
+            ];
+
+            let passCount = 0;
+            let failCount = 0;
+
+            requiredObjects.forEach(objName => {
+                const exists = typeof window[objName] !== 'undefined';
+                const hasFunctions = exists && typeof window[objName] === 'object';
+
+                if (exists && hasFunctions) {
+                    passCount++;
+                    results.push({
+                        name: objName,
+                        status: 'pass',
+                        message: '✅ 正常に読み込まれました'
+                    });
+                } else if (exists) {
+                    passCount++;
+                    results.push({
+                        name: objName,
+                        status: 'warning',
+                        message: '⚠️ 読み込まれましたが、オブジェクトではありません'
+                    });
+                } else {
+                    failCount++;
+                    results.push({
+                        name: objName,
+                        status: 'fail',
+                        message: '❌ 読み込みに失敗しました'
+                    });
+                }
+            });
+
+            displayResults(results, passCount, failCount);
+        }
+
+        function displayResults(results, passCount, failCount) {
+            const resultsContainer = document.getElementById('test-results');
+            const statsContainer = document.getElementById('test-stats');
+
+            resultsContainer.innerHTML = results.map(result => {
+                const bgColor = result.status === 'pass' ? 'bg-green-50 border-green-200' :
+                               result.status === 'warning' ? 'bg-yellow-50 border-yellow-200' :
+                               'bg-red-50 border-red-200';
+
+                return `
+                    <div class="${bgColor} border-2 rounded-lg p-3">
+                        <div class="flex items-center justify-between">
+                            <span class="font-mono font-bold">${result.name}</span>
+                            <span class="text-sm">${result.message}</span>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+
+            const totalTests = results.length;
+            const passRate = Math.round((passCount / totalTests) * 100);
+
+            statsContainer.innerHTML = `
+                <div class="grid grid-cols-4 gap-4">
+                    <div>
+                        <div class="text-2xl font-bold text-gray-800">${totalTests}</div>
+                        <div class="text-xs text-gray-500">総テスト数</div>
+                    </div>
+                    <div>
+                        <div class="text-2xl font-bold text-green-600">${passCount}</div>
+                        <div class="text-xs text-gray-500">成功</div>
+                    </div>
+                    <div>
+                        <div class="text-2xl font-bold text-red-600">${failCount}</div>
+                        <div class="text-xs text-gray-500">失敗</div>
+                    </div>
+                    <div>
+                        <div class="text-2xl font-bold ${passRate === 100 ? 'text-green-600' : 'text-yellow-600'}">${passRate}%</div>
+                        <div class="text-xs text-gray-500">成功率</div>
+                    </div>
+                </div>
+                ${passRate === 100 ? '<div class="mt-4 text-green-600 font-bold">🎉 すべてのテストに合格しました！</div>' : ''}
+            `;
+        }
+    </script>
+</body>
+</html>
