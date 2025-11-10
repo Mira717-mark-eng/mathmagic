@@ -51,6 +51,13 @@ const ProgressTracker = {
             rewards.leveledUp = expResult.leveledUp;
             rewards.oldLevel = expResult.oldLevel;
             rewards.newLevel = expResult.newLevel;
+
+            // 【新規】レベルアップエフェクト
+            if (expResult.leveledUp && window.BattleEffects) {
+                setTimeout(() => {
+                    BattleEffects.showLevelUp(expResult.newLevel);
+                }, 1000);
+            }
         }
 
         if (rewards.gold > 0) {

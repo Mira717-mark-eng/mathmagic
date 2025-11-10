@@ -143,6 +143,7 @@ const BattleSystem = {
 
         // ダメージ計算（コンボでダメージ増加）
         let damage = this.damagePerQuestion;
+        let isCritical = false;
 
         // コンボボーナス
         if (this.comboCount >= 3) {
@@ -153,6 +154,12 @@ const BattleSystem = {
         if (this.comboCount >= 5) {
             damage = Math.floor(damage * 2); // 2倍
             console.log('💥 超コンボ！ダメージ2倍');
+
+            // コンボ5以上でクリティカルヒット演出
+            if (this.comboCount % 5 === 0) {
+                isCritical = true;
+                damage = Math.floor(damage * 1.5);
+            }
         }
 
         // アイテムによるダメージブースト
@@ -164,14 +171,43 @@ const BattleSystem = {
             }
         }
 
+        // 【新規】攻撃エフェクトを表示
+        if (window.BattleEffects) {
+            const player = MathMagic.getCurrentPlayer();
+            const characterType = player ? player.characterType : 'wizard';
+            const monsterContainer = document.getElementById('monster-container');
+
+            // 攻撃エフェクト
+            BattleEffects.showAttackEffect(characterType, monsterContainer);
+
+            // クリティカルヒット演出
+            if (isCritical) {
+                BattleEffects.showCritical();
+            }
+
+            // コンボ表示
+            if (this.comboCount >= 2) {
+                BattleEffects.showCombo(this.comboCount);
+            }
+
+            // パーティクルエフェクト
+            BattleEffects.showParticles(monsterContainer, '#fbbf24', 15);
+        }
+
         // モンスターにダメージ
         this.damageMonster(damage);
 
         // 攻撃アニメーション
         this.playAttackAnimation('player');
 
-        // ダメージ数値表示
-        this.showDamageNumber(damage, 'player-attack');
+        // 【新規】ダメージ数値表示（エフェクトシステム使用）
+        if (window.BattleEffects) {
+            const monsterContainer = document.getElementById('monster-container');
+            BattleEffects.showDamage(damage, monsterContainer, isCritical);
+        } else {
+            // フォールバック: 旧システム
+            this.showDamageNumber(damage, 'player-attack');
+        }
 
         return this.monsterCurrentHP <= 0;
     },
@@ -192,14 +228,24 @@ const BattleSystem = {
             this.updateComboDisplay();
         }
 
+        // 【新規】モンスター攻撃エフェクト
+        if (window.BattleEffects) {
+            // 画面シェイク
+            BattleEffects.shakeScreen('medium');
+
+            // ダメージ数値表示（プレイヤー側）
+            const playerContainer = document.getElementById('player-stats');
+            BattleEffects.showDamage(this.playerDamageOnWrong, playerContainer, false);
+        } else {
+            // フォールバック: 旧システム
+            this.showDamageNumber(this.playerDamageOnWrong, 'monster-attack');
+        }
+
         // プレイヤーにダメージ
         this.damagePlayer(this.playerDamageOnWrong);
 
         // 攻撃アニメーション
         this.playAttackAnimation('monster');
-
-        // ダメージ数値表示
-        this.showDamageNumber(this.playerDamageOnWrong, 'monster-attack');
 
         return this.playerCurrentHP <= 0;
     },
@@ -215,12 +261,28 @@ const BattleSystem = {
         const monsterSprite = document.getElementById('monster-sprite');
         if (monsterSprite) {
             monsterSprite.classList.add('monster-damage');
+
+            // 【新規】ヒットアニメーションを追加
+            if (window.BattleEffects) {
+                monsterSprite.classList.add('monster-hit-animation');
+                setTimeout(() => {
+                    monsterSprite.classList.remove('monster-hit-animation');
+                }, 400);
+            }
+
             setTimeout(() => {
                 monsterSprite.classList.remove('monster-damage');
             }, 500);
         }
 
         console.log(`👾 モンスターに${damage}ダメージ！残りHP: ${this.monsterCurrentHP}`);
+
+        // 【新規】モンスター撃破時のエフェクト
+        if (this.monsterCurrentHP <= 0 && window.BattleEffects) {
+            setTimeout(() => {
+                BattleEffects.showVictory();
+            }, 500);
+        }
     },
 
     /**
@@ -234,6 +296,13 @@ const BattleSystem = {
         this.shakeScreen();
 
         console.log(`⚔️ プレイヤーに${damage}ダメージ！残りHP: ${this.playerCurrentHP}`);
+
+        // 【新規】プレイヤー敗北時のエフェクト
+        if (this.playerCurrentHP <= 0 && window.BattleEffects) {
+            setTimeout(() => {
+                BattleEffects.showDefeat();
+            }, 500);
+        }
     },
 
     /**
