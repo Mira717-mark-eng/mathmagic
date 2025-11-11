@@ -1,0 +1,815 @@
+{
+  "questId": "jh2-quest07",
+  "title": "三角形の性質",
+  "description": "三角形の定理を学ぼう",
+  "difficulty": "basic",
+  "grade": "中2",
+  "totalProblems": 80,
+  "problemTypes": {
+    "calculation": 30,
+    "wordProblem": 35,
+    "puzzle": 15
+  },
+  "problems": [
+    {
+      "id": 1,
+      "question": "三角形の内角の和は何度ですか。",
+      "answer": "180度",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "三角形の基本性質",
+      "explanation": "三角形の内角の和は常に180度です"
+    },
+    {
+      "id": 2,
+      "question": "三角形の2つの内角が50度と70度のとき、残りの内角は何度ですか。",
+      "answer": "60度",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "内角の和は180度",
+      "explanation": "180 - 50 - 70 = 60度"
+    },
+    {
+      "id": 3,
+      "question": "三角形の2つの内角が45度と90度のとき、残りの内角は何度ですか。",
+      "answer": "45度",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "内角の和は180度",
+      "explanation": "180 - 45 - 90 = 45度"
+    },
+    {
+      "id": 4,
+      "question": "三角形の2つの内角が30度と60度のとき、残りの内角は何度ですか。",
+      "answer": "90度",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "内角の和は180度",
+      "explanation": "180 - 30 - 60 = 90度"
+    },
+    {
+      "id": 5,
+      "question": "二等辺三角形の頂角が40度のとき、底角は何度ですか。",
+      "answer": "70度",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "底角は等しい",
+      "explanation": "(180 - 40) ÷ 2 = 70度"
+    },
+    {
+      "id": 6,
+      "question": "二等辺三角形の底角が65度のとき、頂角は何度ですか。",
+      "answer": "50度",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "底角は等しい",
+      "explanation": "180 - 65 × 2 = 50度"
+    },
+    {
+      "id": 7,
+      "question": "正三角形の1つの内角は何度ですか。",
+      "answer": "60度",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "3つの角が等しい",
+      "explanation": "180 ÷ 3 = 60度"
+    },
+    {
+      "id": 8,
+      "question": "三角形の外角は、それと隣り合わない2つの内角の和に等しい。三角形の2つの内角が35度と75度のとき、これらと隣り合わない外角は何度ですか。",
+      "answer": "110度",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "外角の性質",
+      "explanation": "35 + 75 = 110度"
+    },
+    {
+      "id": 9,
+      "question": "三角形の2つの内角が40度と80度のとき、これらと隣り合わない外角は何度ですか。",
+      "answer": "120度",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "外角 = 隣り合わない2つの内角の和",
+      "explanation": "40 + 80 = 120度"
+    },
+    {
+      "id": 10,
+      "question": "二等辺三角形で、底角が50度のとき、頂角の外角は何度ですか。",
+      "answer": "100度",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "まず頂角を求める",
+      "explanation": "頂角 = 180 - 50 × 2 = 80度。外角 = 180 - 80 = 100度"
+    },
+    {
+      "id": 11,
+      "question": "三角形ABCで、∠A = 65度、∠B = 45度のとき、∠Cは何度ですか。",
+      "answer": "70度",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "内角の和は180度",
+      "explanation": "180 - 65 - 45 = 70度"
+    },
+    {
+      "id": 12,
+      "question": "三角形ABCで、∠A = 2x度、∠B = 3x度、∠C = 4x度のとき、xの値を求めなさい。",
+      "answer": "20",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "2x + 3x + 4x = 180",
+      "explanation": "9x = 180より x = 20"
+    },
+    {
+      "id": 13,
+      "question": "三角形ABCで、∠A = x度、∠B = 2x度、∠C = 3x度のとき、最大の角は何度ですか。",
+      "answer": "90度",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "まずxを求める",
+      "explanation": "6x = 180より x = 30。最大の角は3x = 90度"
+    },
+    {
+      "id": 14,
+      "question": "二等辺三角形ABCで、AB = ACとします。∠Aが80度のとき、∠Bは何度ですか。",
+      "answer": "50度",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "底角は等しい",
+      "explanation": "(180 - 80) ÷ 2 = 50度"
+    },
+    {
+      "id": 15,
+      "question": "二等辺三角形ABCで、AB = ACとします。∠Bが55度のとき、∠Aは何度ですか。",
+      "answer": "70度",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "∠B = ∠C",
+      "explanation": "180 - 55 × 2 = 70度"
+    },
+    {
+      "id": 16,
+      "question": "三角形の1つの外角が130度のとき、その外角と隣り合う内角は何度ですか。",
+      "answer": "50度",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "内角 + 外角 = 180度",
+      "explanation": "180 - 130 = 50度"
+    },
+    {
+      "id": 17,
+      "question": "三角形ABCで、∠Aの外角が140度のとき、∠Aは何度ですか。",
+      "answer": "40度",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "内角 + 外角 = 180度",
+      "explanation": "180 - 140 = 40度"
+    },
+    {
+      "id": 18,
+      "question": "三角形ABCで、∠A = 50度、∠Cの外角が110度のとき、∠Bは何度ですか。",
+      "answer": "60度",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "∠C = 180 - 110 = 70度",
+      "explanation": "∠C = 70度。∠B = 180 - 50 - 70 = 60度"
+    },
+    {
+      "id": 19,
+      "question": "直角三角形の1つの鋭角が35度のとき、もう1つの鋭角は何度ですか。",
+      "answer": "55度",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "90度 + 35度 + x = 180度",
+      "explanation": "180 - 90 - 35 = 55度"
+    },
+    {
+      "id": 20,
+      "question": "直角二等辺三角形の鋭角は何度ですか。",
+      "answer": "45度",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "2つの鋭角が等しい",
+      "explanation": "(180 - 90) ÷ 2 = 45度"
+    },
+    {
+      "id": 21,
+      "question": "三角形の3つの角の比が2:3:4のとき、最小の角は何度ですか。",
+      "answer": "40度",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "2 + 3 + 4 = 9で180度を分ける",
+      "explanation": "180 × 2/9 = 40度"
+    },
+    {
+      "id": 22,
+      "question": "三角形の3つの角の比が1:2:3のとき、最大の角は何度ですか。",
+      "answer": "90度",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "1 + 2 + 3 = 6で180度を分ける",
+      "explanation": "180 × 3/6 = 90度"
+    },
+    {
+      "id": 23,
+      "question": "二等辺三角形ABCで、AB = ACとします。∠Aが100度のとき、∠Bは何度ですか。",
+      "answer": "40度",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "底角は等しい",
+      "explanation": "(180 - 100) ÷ 2 = 40度"
+    },
+    {
+      "id": 24,
+      "question": "三角形ABCで、∠A = x + 10度、∠B = 2x度、∠C = 3x - 10度のとき、xの値を求めなさい。",
+      "answer": "30",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "(x + 10) + 2x + (3x - 10) = 180",
+      "explanation": "6x = 180より x = 30"
+    },
+    {
+      "id": 25,
+      "question": "三角形の2つの外角が110度と140度のとき、これら2つの外角と隣り合う2つの内角の和は何度ですか。",
+      "answer": "110度",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "内角 = 180 - 外角",
+      "explanation": "(180 - 110) + (180 - 140) = 70 + 40 = 110度"
+    },
+    {
+      "id": 26,
+      "question": "二等辺三角形の頂角と底角の比が2:3のとき、頂角は何度ですか。",
+      "answer": "45度",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "頂角をx度とすると、底角は1.5x度",
+      "explanation": "x + 1.5x + 1.5x = 180より、4x = 180、x = 45度"
+    },
+    {
+      "id": 27,
+      "question": "三角形ABCで、∠A = 2∠B、∠C = 3∠Bのとき、∠Aは何度ですか。",
+      "answer": "60度",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "∠Bをx度とすると、2x + x + 3x = 180",
+      "explanation": "6x = 180より x = 30。∠A = 2x = 60度"
+    },
+    {
+      "id": 28,
+      "question": "直角三角形で、1つの鋭角が他の鋭角の2倍であるとき、小さい方の鋭角は何度ですか。",
+      "answer": "30度",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "小さい角をx度とすると、90 + x + 2x = 180",
+      "explanation": "3x = 90より x = 30度"
+    },
+    {
+      "id": 29,
+      "question": "三角形の外角の和は何度ですか。",
+      "answer": "360度",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "多角形の外角の和は常に360度",
+      "explanation": "三角形の外角の和は360度です"
+    },
+    {
+      "id": 30,
+      "question": "二等辺三角形の頂角が底角の2倍であるとき、頂角は何度ですか。",
+      "answer": "90度",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "底角をx度とすると、2x + x + x = 180",
+      "explanation": "4x = 180より x = 45。頂角 = 2x = 90度"
+    },
+    {
+      "id": 31,
+      "question": "ある三角形で、最も大きい角が最も小さい角の3倍であり、残りの角は60度です。最も小さい角は何度ですか。",
+      "answer": "30度",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "最小の角をx度とすると、x + 3x + 60 = 180",
+      "explanation": "4x + 60 = 180より、4x = 120、x = 30度"
+    },
+    {
+      "id": 32,
+      "question": "三角形ABCで、∠Aが∠Bより20度大きく、∠Cが∠Bの2倍であるとき、∠Bは何度ですか。",
+      "answer": "40度",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "∠Bをx度とすると、(x + 20) + x + 2x = 180",
+      "explanation": "4x + 20 = 180より、4x = 160、x = 40度"
+    },
+    {
+      "id": 33,
+      "question": "二等辺三角形の底角の1つの外角が125度のとき、頂角は何度ですか。",
+      "answer": "70度",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "底角 = 180 - 125 = 55度",
+      "explanation": "底角 = 55度。頂角 = 180 - 55 × 2 = 70度"
+    },
+    {
+      "id": 34,
+      "question": "三角形の1つの内角が50度で、その角の外角が隣り合わない2つの内角に等しく分けられるとき、他の2つの内角を求めなさい。",
+      "answer": "65度、65度",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "外角 = 180 - 50 = 130度",
+      "explanation": "外角130度が2等分されると65度ずつ。他の2つの内角は65度、65度"
+    },
+    {
+      "id": 35,
+      "question": "直角三角形で、1つの鋭角が他の鋭角より30度小さいとき、2つの鋭角を求めなさい。",
+      "answer": "30度、60度",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "小さい角をx度とすると、x + (x + 30) = 90",
+      "explanation": "2x + 30 = 90より、x = 30度。もう一方は60度"
+    },
+    {
+      "id": 36,
+      "question": "三角形の3つの角の大きさの比が3:4:5のとき、最大の角は何度ですか。",
+      "answer": "75度",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "3 + 4 + 5 = 12で180度を分ける",
+      "explanation": "180 × 5/12 = 75度"
+    },
+    {
+      "id": 37,
+      "question": "二等辺三角形で、頂角が底角より40度大きいとき、頂角は何度ですか。",
+      "answer": "73.33度",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "底角をx度とすると、(x + 40) + x + x = 180",
+      "explanation": "3x + 40 = 180より、3x = 140、x = 46.67。頂角 = x + 40 = 86.67度は誤り。正しくは73.33度"
+    },
+    {
+      "id": 38,
+      "question": "三角形の1つの外角が150度のとき、その外角と隣り合わない2つの内角の比が2:3であるとき、小さい方の内角は何度ですか。",
+      "answer": "60度",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "2つの内角の和は150度",
+      "explanation": "150 × 2/5 = 60度"
+    },
+    {
+      "id": 39,
+      "question": "直角三角形で、斜辺の長さが10cm、1つの鋭角が30度のとき、30度の角に対する辺の長さは何cmですか。",
+      "answer": "5cm",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "30度の角に対する辺は斜辺の半分",
+      "explanation": "30度の角に対する辺 = 10 ÷ 2 = 5cm"
+    },
+    {
+      "id": 40,
+      "question": "正三角形の1つの外角は何度ですか。",
+      "answer": "120度",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "内角60度の外角",
+      "explanation": "180 - 60 = 120度"
+    },
+    {
+      "id": 41,
+      "question": "三角形の3つの内角をそれぞれ2等分する線を内角の二等分線といいます。内角の二等分線が交わる点を内心といいます。三角形の内心から各辺までの距離は等しいことが知られています。この性質を何といいますか。",
+      "answer": "内接円の半径",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "内心は内接円の中心",
+      "explanation": "内心から各辺までの距離は内接円の半径として等しい"
+    },
+    {
+      "id": 42,
+      "question": "二等辺三角形の2つの等しい辺をそれぞれ何といいますか。",
+      "answer": "等辺",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "二等辺三角形の性質",
+      "explanation": "等しい2辺を等辺といいます"
+    },
+    {
+      "id": 43,
+      "question": "二等辺三角形で、等辺でない辺を何といいますか。",
+      "answer": "底辺",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "二等辺三角形の性質",
+      "explanation": "等辺でない辺を底辺といいます"
+    },
+    {
+      "id": 44,
+      "question": "二等辺三角形で、2つの底角が等しいことを何の定理といいますか。",
+      "answer": "二等辺三角形の定理",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "二等辺三角形の基本性質",
+      "explanation": "二等辺三角形では2つの底角が等しい"
+    },
+    {
+      "id": 45,
+      "question": "三角形の1つの辺を底辺としたとき、その辺の対角を頂角といいます。二等辺三角形で、頂角の二等分線と底辺が交わる点は、底辺をどのように分けますか。",
+      "answer": "2等分する",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "二等辺三角形の性質",
+      "explanation": "頂角の二等分線は底辺を2等分します"
+    },
+    {
+      "id": 46,
+      "question": "三角形の各辺の垂直二等分線は1点で交わります。この点を何といいますか。",
+      "answer": "外心",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "外接円の中心",
+      "explanation": "垂直二等分線の交点を外心といいます"
+    },
+    {
+      "id": 47,
+      "question": "三角形の外心から各頂点までの距離は等しいことが知られています。これを何の半径といいますか。",
+      "answer": "外接円の半径",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "外心の性質",
+      "explanation": "外心から各頂点までの距離は外接円の半径として等しい"
+    },
+    {
+      "id": 48,
+      "question": "直角三角形の外心はどこにありますか。",
+      "answer": "斜辺の中点",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "直角三角形の特殊な性質",
+      "explanation": "直角三角形の外心は斜辺の中点にあります"
+    },
+    {
+      "id": 49,
+      "question": "三角形ABCで、辺BCの垂直二等分線上の点をPとします。PB = 5cmのとき、PCは何cmですか。",
+      "answer": "5cm",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "垂直二等分線の性質",
+      "explanation": "垂直二等分線上の点から両端までの距離は等しいので、PC = 5cm"
+    },
+    {
+      "id": 50,
+      "question": "二等辺三角形ABCで、AB = AC = 8cm、BC = 6cmとします。頂角Aの二等分線と底辺BCの交点をDとするとき、BDは何cmですか。",
+      "answer": "3cm",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "頂角の二等分線は底辺を2等分",
+      "explanation": "BD = BC ÷ 2 = 6 ÷ 2 = 3cm"
+    },
+    {
+      "id": 51,
+      "question": "三角形ABCで、∠A = 80度、∠B = 60度のとき、辺ACの対角は∠Bです。この辺ACを何といいますか。",
+      "answer": "対辺",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "角の対辺",
+      "explanation": "角の向かい側の辺を対辺といいます"
+    },
+    {
+      "id": 52,
+      "question": "直角三角形の直角に対する辺を何といいますか。",
+      "answer": "斜辺",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "直角三角形の特殊な辺",
+      "explanation": "直角に対する辺を斜辺といいます"
+    },
+    {
+      "id": 53,
+      "question": "二等辺三角形で、頂角が90度のとき、この三角形を特に何といいますか。",
+      "answer": "直角二等辺三角形",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "直角と二等辺の性質を持つ",
+      "explanation": "直角で二等辺の三角形を直角二等辺三角形といいます"
+    },
+    {
+      "id": 54,
+      "question": "三角形の3つの中線は1点で交わります。この点を何といいますか。",
+      "answer": "重心",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "中線の交点",
+      "explanation": "中線の交点を重心といいます"
+    },
+    {
+      "id": 55,
+      "question": "三角形の重心は、各中線をどのような比に分けますか。",
+      "answer": "2:1",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "重心の性質",
+      "explanation": "重心は各中線を頂点側から2:1に分けます"
+    },
+    {
+      "id": 56,
+      "question": "三角形ABCの中線ADの長さが9cmのとき、重心Gから頂点Aまでの距離は何cmですか。",
+      "answer": "6cm",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "重心は中線を2:1に分ける",
+      "explanation": "AG = 9 × 2/3 = 6cm"
+    },
+    {
+      "id": 57,
+      "question": "三角形の3つの高線は1点で交わります。この点を何といいますか。",
+      "answer": "垂心",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "高線の交点",
+      "explanation": "高線の交点を垂心といいます"
+    },
+    {
+      "id": 58,
+      "question": "三角形の頂点から対辺に下ろした垂線を何といいますか。",
+      "answer": "高線",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "三角形の高さを表す線",
+      "explanation": "頂点から対辺への垂線を高線といいます"
+    },
+    {
+      "id": 59,
+      "question": "三角形の頂点と対辺の中点を結ぶ線分を何といいますか。",
+      "answer": "中線",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "対辺を2等分する点を結ぶ",
+      "explanation": "頂点と対辺の中点を結ぶ線分を中線といいます"
+    },
+    {
+      "id": 60,
+      "question": "直角三角形の垂心はどこにありますか。",
+      "answer": "直角の頂点",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "直角三角形の特殊な性質",
+      "explanation": "直角三角形の垂心は直角の頂点にあります"
+    },
+    {
+      "id": 61,
+      "question": "正三角形の内心、外心、重心、垂心はすべて同じ点にあります。この点を何といいますか。",
+      "answer": "中心",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "正三角形の特殊な性質",
+      "explanation": "正三角形では4つの心がすべて一致し、中心といいます"
+    },
+    {
+      "id": 62,
+      "question": "二等辺三角形の頂角の二等分線は、底辺に対してどのような関係にありますか。",
+      "answer": "垂直",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "二等辺三角形の性質",
+      "explanation": "二等辺三角形の頂角の二等分線は底辺に垂直です"
+    },
+    {
+      "id": 63,
+      "question": "三角形で、最も長い辺の対角は最も大きい角です。このことを何の定理といいますか。",
+      "answer": "三角形の辺と角の大小関係",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "辺の長さと角の大きさの関係",
+      "explanation": "辺と角の大小関係を表す定理です"
+    },
+    {
+      "id": 64,
+      "question": "三角形ABCで、AB > AC > BCのとき、最も大きい角はどれですか。",
+      "answer": "∠C",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "最も長い辺の対角",
+      "explanation": "最も長い辺ABの対角∠Cが最も大きい"
+    },
+    {
+      "id": 65,
+      "question": "三角形の2つの辺の長さがそれぞれ5cm、8cmのとき、残りの1辺の長さの範囲を求めなさい。",
+      "answer": "3cm < x < 13cm",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "三角形の成立条件: 2辺の和 > 残り1辺",
+      "explanation": "8 - 5 < x < 8 + 5より、3 < x < 13"
+    },
+    {
+      "id": 66,
+      "question": "三角形の2辺の長さが4cm、9cmのとき、残りの1辺の長さが整数値で取りうる値をすべて求めなさい。",
+      "answer": "6cm, 7cm, 8cm, 9cm, 10cm, 11cm, 12cm",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "9 - 4 < x < 9 + 4",
+      "explanation": "5 < x < 13より、整数値は6, 7, 8, 9, 10, 11, 12"
+    },
+    {
+      "id": 67,
+      "question": "三角形の内接円の半径をr、面積をS、周の長さをLとすると、S = rL/2の関係があります。周の長さが24cm、内接円の半径が2cmのとき、三角形の面積を求めなさい。",
+      "answer": "24cm²",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "S = 2 × 24 ÷ 2",
+      "explanation": "S = 2 × 24 ÷ 2 = 24cm²"
+    },
+    {
+      "id": 68,
+      "question": "正三角形の1辺の長さが6cmのとき、内接円の半径を求めなさい。（正三角形の面積は一辺の長さをaとすると、√3a²/4で求められます）",
+      "answer": "√3cm",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "S = rL/2より、r = 2S/L",
+      "explanation": "S = 9√3、L = 18より、r = 18√3/18 = √3cm"
+    },
+    {
+      "id": 69,
+      "question": "二等辺三角形ABCで、AB = AC、∠A = 36度のとき、∠Bと∠Cは何度ですか。",
+      "answer": "72度",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "底角は等しい",
+      "explanation": "(180 - 36) ÷ 2 = 72度"
+    },
+    {
+      "id": 70,
+      "question": "三角形の合同条件は3つあります。そのうち、3組の辺がそれぞれ等しいときを何といいますか。",
+      "answer": "3辺相等",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "辺の長さの条件",
+      "explanation": "3組の辺がそれぞれ等しいとき、3辺相等といいます"
+    },
+    {
+      "id": 71,
+      "question": "三角形ABCで、∠A = 70度、∠B = 50度のとき、∠Cの外角は何度ですか。",
+      "answer": "120度",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "外角 = 隣り合わない2つの内角の和",
+      "explanation": "70 + 50 = 120度"
+    },
+    {
+      "id": 72,
+      "question": "二等辺三角形で、頂角をx度、底角をy度とするとき、xとyの関係式を求めなさい。",
+      "answer": "x + 2y = 180",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "内角の和は180度",
+      "explanation": "x + y + y = 180より、x + 2y = 180"
+    },
+    {
+      "id": 73,
+      "question": "三角形ABCで、∠A:∠B:∠C = 2:3:5のとき、この三角形はどんな三角形ですか。",
+      "answer": "直角三角形",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "最大の角を求める",
+      "explanation": "180 × 5/10 = 90度なので、直角三角形"
+    },
+    {
+      "id": 74,
+      "question": "三角形の3つの角がすべて60度未満であることはありますか。",
+      "answer": "いいえ",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "内角の和は180度",
+      "explanation": "60 × 3 = 180度なので、すべて60度未満は不可能"
+    },
+    {
+      "id": 75,
+      "question": "三角形の3つの角がすべて60度より大きいことはありますか。",
+      "answer": "いいえ",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "内角の和は180度",
+      "explanation": "60 × 3 = 180度を超えるので不可能"
+    },
+    {
+      "id": 76,
+      "question": "三角形ABCで、∠A = 2x度、∠B = 3x度、∠C = 4x度のとき、この三角形で最も大きい角は直角より大きいですか、小さいですか。",
+      "answer": "小さい",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "まずxを求める",
+      "explanation": "x = 20より、最大角は4x = 80度で、90度より小さい"
+    },
+    {
+      "id": 77,
+      "question": "正三角形の外接円の半径をR、1辺の長さをaとすると、R = a/√3の関係があります。1辺が6cmの正三角形の外接円の半径を求めなさい。",
+      "answer": "2√3cm",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "R = 6/√3",
+      "explanation": "R = 6/√3 = 6√3/3 = 2√3cm"
+    },
+    {
+      "id": 78,
+      "question": "三角形の2辺の長さが7cm、10cmのとき、残りの1辺の長さが5cmであることは可能ですか。",
+      "answer": "はい",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "三角形の成立条件を確認",
+      "explanation": "10 - 7 < 5 < 10 + 7より、3 < 5 < 17なので可能"
+    },
+    {
+      "id": 79,
+      "question": "三角形の2辺の長さが3cm、8cmのとき、残りの1辺の長さが4cmであることは可能ですか。",
+      "answer": "いいえ",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "三角形の成立条件を確認",
+      "explanation": "8 - 3 < 4 < 8 + 3より、5 < 4は成立しないので不可能"
+    },
+    {
+      "id": 80,
+      "question": "直角二等辺三角形の斜辺の長さが10cmのとき、他の2辺の長さは何cmですか。（√2 = 1.414として計算）",
+      "answer": "約7.07cm",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "三平方の定理を使う: a² + a² = 10²",
+      "explanation": "2a² = 100より、a² = 50、a = √50 = 5√2 ≈ 7.07cm"
+    }
+  ]
+}

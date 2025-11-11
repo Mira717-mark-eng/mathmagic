@@ -1,0 +1,549 @@
+{
+  "questId": "grade4-quest01",
+  "questName": "大きい数（億・兆）",
+  "grade": "小4",
+  "unitId": "elem4_large_numbers",
+  "totalProblems": 60,
+  "problems": [
+    {
+      "id": 1,
+      "question": "一万の10倍はいくつですか。",
+      "answer": "十万",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "位の関係を考えましょう。",
+      "explanation": "一万の10倍は十万です。"
+    },
+    {
+      "id": 2,
+      "question": "十万の10倍はいくつですか。",
+      "answer": "百万",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "位の関係を考えましょう。",
+      "explanation": "十万の10倍は百万です。"
+    },
+    {
+      "id": 3,
+      "question": "百万の10倍はいくつですか。",
+      "answer": "千万",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "位の関係を考えましょう。",
+      "explanation": "百万の10倍は千万です。"
+    },
+    {
+      "id": 4,
+      "question": "千万の10倍はいくつですか。",
+      "answer": "一億",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "位の関係を考えましょう。",
+      "explanation": "千万の10倍は一億です。"
+    },
+    {
+      "id": 5,
+      "question": "一億の10倍はいくつですか。",
+      "answer": "十億",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "位の関係を考えましょう。",
+      "explanation": "一億の10倍は十億です。"
+    },
+    {
+      "id": 6,
+      "question": "十億の10倍はいくつですか。",
+      "answer": "百億",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "位の関係を考えましょう。",
+      "explanation": "十億の10倍は百億です。"
+    },
+    {
+      "id": 7,
+      "question": "百億の10倍はいくつですか。",
+      "answer": "千億",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "位の関係を考えましょう。",
+      "explanation": "百億の10倍は千億です。"
+    },
+    {
+      "id": 8,
+      "question": "千億の10倍はいくつですか。",
+      "answer": "一兆",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "位の関係を考えましょう。",
+      "explanation": "千億の10倍は一兆です。"
+    },
+    {
+      "id": 9,
+      "question": "1億は一万の何倍ですか。",
+      "answer": "1万倍",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "位の関係を考えましょう。",
+      "explanation": "1億 = 100,000,000、一万 = 10,000なので、1億は一万の1万倍です。"
+    },
+    {
+      "id": 10,
+      "question": "1兆は1億の何倍ですか。",
+      "answer": "1万倍",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "位の関係を考えましょう。",
+      "explanation": "1兆 = 1,000,000,000,000、1億 = 100,000,000なので、1兆は1億の1万倍です。"
+    },
+    {
+      "id": 11,
+      "question": "35億を数字で書くといくつですか。",
+      "answer": "3500000000",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "位の関係を考えましょう。",
+      "explanation": "35億 = 3,500,000,000です。"
+    },
+    {
+      "id": 12,
+      "question": "2兆5000億を数字で書くといくつですか。",
+      "answer": "2500000000000",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "位の関係を考えましょう。",
+      "explanation": "2兆5000億 = 2,500,000,000,000です。"
+    },
+    {
+      "id": 13,
+      "question": "1億2000万を数字で書くといくつですか。",
+      "answer": "120000000",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "位の関係を考えましょう。",
+      "explanation": "1億2000万 = 120,000,000です。"
+    },
+    {
+      "id": 14,
+      "question": "8兆3億を数字で書くといくつですか。",
+      "answer": "8000000300000",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "位の関係を考えましょう。",
+      "explanation": "8兆3億 = 8,000,000,300,000です。"
+    },
+    {
+      "id": 15,
+      "question": "50億を数字で書くといくつですか。",
+      "answer": "5000000000",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "位の関係を考えましょう。",
+      "explanation": "50億 = 5,000,000,000です。"
+    },
+    {
+      "id": 16,
+      "question": "3,000,000,000は何億ですか。",
+      "answer": "30億",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "位の関係を考えましょう。",
+      "explanation": "3,000,000,000 = 30億です。"
+    },
+    {
+      "id": 17,
+      "question": "7,000,000,000,000は何兆ですか。",
+      "answer": "7兆",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "位の関係を考えましょう。",
+      "explanation": "7,000,000,000,000 = 7兆です。"
+    },
+    {
+      "id": 18,
+      "question": "200,000,000は何億ですか。",
+      "answer": "2億",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "位の関係を考えましょう。",
+      "explanation": "200,000,000 = 2億です。"
+    },
+    {
+      "id": 19,
+      "question": "1,500,000,000は何億ですか。",
+      "answer": "15億",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "位の関係を考えましょう。",
+      "explanation": "1,500,000,000 = 15億です。"
+    },
+    {
+      "id": 20,
+      "question": "4,500,000,000,000は何兆何億ですか。",
+      "answer": "4兆5000億",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "位の関係を考えましょう。",
+      "explanation": "4,500,000,000,000 = 4兆5000億です。"
+    },
+    {
+      "id": 21,
+      "question": "1億と5000万を合わせるといくつですか。",
+      "answer": "1億5000万",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "位の関係を考えましょう。",
+      "explanation": "1億 + 5000万 = 1億5000万です。"
+    },
+    {
+      "id": 22,
+      "question": "10億と3億を合わせるといくつですか。",
+      "answer": "13億",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "位の関係を考えましょう。",
+      "explanation": "10億 + 3億 = 13億です。"
+    },
+    {
+      "id": 23,
+      "question": "1兆と2000億を合わせるといくつですか。",
+      "answer": "1兆2000億",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "位の関係を考えましょう。",
+      "explanation": "1兆 + 2000億 = 1兆2000億です。"
+    },
+    {
+      "id": 24,
+      "question": "20億から8億を引くといくつですか。",
+      "answer": "12億",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "位の関係を考えましょう。",
+      "explanation": "20億 - 8億 = 12億です。"
+    },
+    {
+      "id": 25,
+      "question": "5兆から3000億を引くといくつですか。",
+      "answer": "4兆7000億",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "位の関係を考えましょう。",
+      "explanation": "5兆 - 3000億 = 4兆7000億です。"
+    },
+    {
+      "id": 26,
+      "question": "日本の人口は約1億2000万人です。これを数字で書くといくつですか。",
+      "answer": "120000000",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "大きい数の位の関係を使って考えましょう。",
+      "explanation": "1億2000万 = 120,000,000です。"
+    },
+    {
+      "id": 27,
+      "question": "地球から太陽までの距離は約1億5000万kmです。これを数字で書くといくつですか。",
+      "answer": "150000000",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "大きい数の位の関係を使って考えましょう。",
+      "explanation": "1億5000万 = 150,000,000です。"
+    },
+    {
+      "id": 28,
+      "question": "ある国の予算は3兆5000億円です。これを数字で書くといくつですか。",
+      "answer": "3500000000000",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "大きい数の位の関係を使って考えましょう。",
+      "explanation": "3兆5000億 = 3,500,000,000,000です。"
+    },
+    {
+      "id": 29,
+      "question": "世界の人口は約80億人です。これを数字で書くといくつですか。",
+      "answer": "8000000000",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "大きい数の位の関係を使って考えましょう。",
+      "explanation": "80億 = 8,000,000,000です。"
+    },
+    {
+      "id": 30,
+      "question": "ある会社の売上は2億3000万円でした。これを数字で書くといくつですか。",
+      "answer": "230000000",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "大きい数の位の関係を使って考えましょう。",
+      "explanation": "2億3000万 = 230,000,000です。"
+    },
+    {
+      "id": 31,
+      "question": "A国の人口は5億人、B国の人口は3億人です。2つの国を合わせると何億人ですか。",
+      "answer": "8億人",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "大きい数の位の関係を使って考えましょう。",
+      "explanation": "5億 + 3億 = 8億人です。"
+    },
+    {
+      "id": 32,
+      "question": "去年の売上は10億円、今年の売上は15億円でした。今年は去年より何億円増えましたか。",
+      "answer": "5億円",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "大きい数の位の関係を使って考えましょう。",
+      "explanation": "15億 - 10億 = 5億円です。"
+    },
+    {
+      "id": 33,
+      "question": "A市の予算は2兆円、B市の予算は5000億円です。A市の予算はB市の予算の何倍ですか。",
+      "answer": "4倍",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "大きい数の位の関係を使って考えましょう。",
+      "explanation": "2兆 = 20000億、20000億 ÷ 5000億 = 4倍です。"
+    },
+    {
+      "id": 34,
+      "question": "1億円の100倍はいくらですか。",
+      "answer": "100億円",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "大きい数の位の関係を使って考えましょう。",
+      "explanation": "1億 × 100 = 100億円です。"
+    },
+    {
+      "id": 35,
+      "question": "1兆円の10倍はいくらですか。",
+      "answer": "10兆円",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "大きい数の位の関係を使って考えましょう。",
+      "explanation": "1兆 × 10 = 10兆円です。"
+    },
+    {
+      "id": 36,
+      "question": "図書館の本の数は500万冊です。これは何億冊ですか。",
+      "answer": "0.05億冊",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "大きい数の位の関係を使って考えましょう。",
+      "explanation": "500万 = 0.05億です。"
+    },
+    {
+      "id": 37,
+      "question": "ある都市の人口は800万人です。これは何億人ですか。",
+      "answer": "0.08億人",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "大きい数の位の関係を使って考えましょう。",
+      "explanation": "800万 = 0.08億です。"
+    },
+    {
+      "id": 38,
+      "question": "地球の年齢は約46億年です。これを数字で書くといくつですか。",
+      "answer": "4600000000",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "大きい数の位の関係を使って考えましょう。",
+      "explanation": "46億 = 4,600,000,000です。"
+    },
+    {
+      "id": 39,
+      "question": "銀河系の星の数は約2000億個です。これを数字で書くといくつですか。",
+      "answer": "200000000000",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "大きい数の位の関係を使って考えましょう。",
+      "explanation": "2000億 = 200,000,000,000です。"
+    },
+    {
+      "id": 40,
+      "question": "A社の資産は1兆5000億円、B社の資産は8000億円です。2社を合わせると何兆何億円ですか。",
+      "answer": "2兆3000億円",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "大きい数の位の関係を使って考えましょう。",
+      "explanation": "1兆5000億 + 8000億 = 2兆3000億円です。"
+    },
+    {
+      "id": 41,
+      "question": "今年の輸出額は50兆円、輸入額は45兆円です。輸出額は輸入額より何兆円多いですか。",
+      "answer": "5兆円",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "大きい数の位の関係を使って考えましょう。",
+      "explanation": "50兆 - 45兆 = 5兆円です。"
+    },
+    {
+      "id": 42,
+      "question": "ある国の国土面積は900万平方キロメートルです。これは何億平方メートルですか。（1平方キロメートル = 1,000,000平方メートル）",
+      "answer": "9兆平方メートル",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "大きい数の位の関係を使って考えましょう。",
+      "explanation": "900万km² = 9,000,000,000,000m² = 9兆m²です。"
+    },
+    {
+      "id": 43,
+      "question": "1日は何秒ですか。（1日 = 24時間、1時間 = 3600秒）",
+      "answer": "86400秒",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "大きい数の位の関係を使って考えましょう。",
+      "explanation": "24 × 3600 = 86400秒です。"
+    },
+    {
+      "id": 44,
+      "question": "100万人の1000倍は何億人ですか。",
+      "answer": "10億人",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "大きい数の位の関係を使って考えましょう。",
+      "explanation": "100万 × 1000 = 10億人です。"
+    },
+    {
+      "id": 45,
+      "question": "1億円を1万人で分けると、1人分はいくらですか。",
+      "answer": "1万円",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "大きい数の位の関係を使って考えましょう。",
+      "explanation": "1億 ÷ 1万 = 1万円です。"
+    },
+    {
+      "id": 46,
+      "question": "一、十、百、千、万、十万、百万、千万、□、十億。□に入る位は何ですか。",
+      "answer": "億",
+      "type": "puzzle",
+      "difficulty": "standard",
+      "hint": "位の関係と10倍、10分の1の関係を考えましょう。",
+      "explanation": "千万の次は億です。"
+    },
+    {
+      "id": 47,
+      "question": "一万が10000個で□です。□に入る数は何ですか。",
+      "answer": "一億",
+      "type": "puzzle",
+      "difficulty": "standard",
+      "hint": "位の関係と10倍、10分の1の関係を考えましょう。",
+      "explanation": "一万 × 10000 = 一億です。"
+    },
+    {
+      "id": 48,
+      "question": "1億の中に一万はいくつありますか。",
+      "answer": "1万個",
+      "type": "puzzle",
+      "difficulty": "standard",
+      "hint": "位の関係と10倍、10分の1の関係を考えましょう。",
+      "explanation": "1億 = 100,000,000、一万 = 10,000なので、100,000,000 ÷ 10,000 = 10,000個です。"
+    },
+    {
+      "id": 49,
+      "question": "1兆の中に1億はいくつありますか。",
+      "answer": "1万個",
+      "type": "puzzle",
+      "difficulty": "standard",
+      "hint": "位の関係と10倍、10分の1の関係を考えましょう。",
+      "explanation": "1兆 = 1,000,000,000,000、1億 = 100,000,000なので、1,000,000,000,000 ÷ 100,000,000 = 10,000個です。"
+    },
+    {
+      "id": 50,
+      "question": "1億を10で割るといくつですか。",
+      "answer": "1000万",
+      "type": "puzzle",
+      "difficulty": "standard",
+      "hint": "位の関係と10倍、10分の1の関係を考えましょう。",
+      "explanation": "100,000,000 ÷ 10 = 10,000,000 = 1000万です。"
+    },
+    {
+      "id": 51,
+      "question": "1兆を100で割るといくつですか。",
+      "answer": "100億",
+      "type": "puzzle",
+      "difficulty": "standard",
+      "hint": "位の関係と10倍、10分の1の関係を考えましょう。",
+      "explanation": "1,000,000,000,000 ÷ 100 = 10,000,000,000 = 100億です。"
+    },
+    {
+      "id": 52,
+      "question": "10億を10倍するといくつですか。",
+      "answer": "100億",
+      "type": "puzzle",
+      "difficulty": "standard",
+      "hint": "位の関係と10倍、10分の1の関係を考えましょう。",
+      "explanation": "10億 × 10 = 100億です。"
+    },
+    {
+      "id": 53,
+      "question": "1000億を10倍するといくつですか。",
+      "answer": "1兆",
+      "type": "puzzle",
+      "difficulty": "standard",
+      "hint": "位の関係と10倍、10分の1の関係を考えましょう。",
+      "explanation": "1000億 × 10 = 1兆です。"
+    },
+    {
+      "id": 54,
+      "question": "□億 = 1兆。□に入る数はいくつですか。",
+      "answer": "1万",
+      "type": "puzzle",
+      "difficulty": "standard",
+      "hint": "位の関係と10倍、10分の1の関係を考えましょう。",
+      "explanation": "1兆 = 1万億です。"
+    },
+    {
+      "id": 55,
+      "question": "□万 = 1億。□に入る数はいくつですか。",
+      "answer": "1万",
+      "type": "puzzle",
+      "difficulty": "standard",
+      "hint": "位の関係と10倍、10分の1の関係を考えましょう。",
+      "explanation": "1億 = 1万万です。"
+    },
+    {
+      "id": 56,
+      "question": "1億の100倍はいくつですか。",
+      "answer": "100億",
+      "type": "puzzle",
+      "difficulty": "standard",
+      "hint": "位の関係と10倍、10分の1の関係を考えましょう。",
+      "explanation": "1億 × 100 = 100億です。"
+    },
+    {
+      "id": 57,
+      "question": "1兆の10分の1はいくつですか。",
+      "answer": "1000億",
+      "type": "puzzle",
+      "difficulty": "standard",
+      "hint": "位の関係と10倍、10分の1の関係を考えましょう。",
+      "explanation": "1兆 ÷ 10 = 1000億です。"
+    },
+    {
+      "id": 58,
+      "question": "数を10倍すると位はどうなりますか。",
+      "answer": "1つ上がる",
+      "type": "puzzle",
+      "difficulty": "standard",
+      "hint": "位の関係と10倍、10分の1の関係を考えましょう。",
+      "explanation": "10倍すると位が1つ上がります。"
+    },
+    {
+      "id": 59,
+      "question": "数を10で割ると位はどうなりますか。",
+      "answer": "1つ下がる",
+      "type": "puzzle",
+      "difficulty": "standard",
+      "hint": "位の関係と10倍、10分の1の関係を考えましょう。",
+      "explanation": "10で割ると位が1つ下がります。"
+    },
+    {
+      "id": 60,
+      "question": "1億円を1万円札で積むと何枚になりますか。",
+      "answer": "1万枚",
+      "type": "puzzle",
+      "difficulty": "standard",
+      "hint": "位の関係と10倍、10分の1の関係を考えましょう。",
+      "explanation": "100,000,000 ÷ 10,000 = 10,000枚です。"
+    }
+  ]
+}

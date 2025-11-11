@@ -26,6 +26,20 @@ async function loadProblemsForQuest(questId) {
         }
 
         const data = await response.json();
+
+        // 互換性: problemCount と totalProblems の両方をサポート
+        if (data.problemCount && !data.totalProblems) {
+            data.totalProblems = data.problemCount;
+        }
+        if (!data.totalProblems && !data.problemCount) {
+            data.totalProblems = data.problems ? data.problems.length : 0;
+        }
+
+        // questNameが存在しない場合（quest_name対応含む）
+        if (!data.questName) {
+            data.questName = data.quest_name || data.questId || questId;
+        }
+
         console.log(`✅ 問題ファイル読み込み完了:`, data.problems.length, '問');
         return data;
     } catch (error) {

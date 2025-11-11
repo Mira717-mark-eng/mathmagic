@@ -1,0 +1,639 @@
+{
+  "questId": "grade3-quest08",
+  "questName": "小数（基礎）",
+  "grade": "小3",
+  "unitId": "elem3_decimals_basic",
+  "totalProblems": 70,
+  "problems": [
+    {
+      "id": 1,
+      "question": "0.1は1を何等分した1つ分ですか。",
+      "answer": "10等分",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "小数の意味を考えましょう。",
+      "explanation": "0.1は1を10等分した1つ分です。"
+    },
+    {
+      "id": 2,
+      "question": "0.1を10個集めるといくつになりますか。",
+      "answer": "1",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "小数の意味を考えましょう。",
+      "explanation": "0.1を10個集めると1になります。"
+    },
+    {
+      "id": 3,
+      "question": "0.2は0.1が何個分ですか。",
+      "answer": "2個",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "小数の意味を考えましょう。",
+      "explanation": "0.2は0.1が2個分です。"
+    },
+    {
+      "id": 4,
+      "question": "0.5は0.1が何個分ですか。",
+      "answer": "5個",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "小数の意味を考えましょう。",
+      "explanation": "0.5は0.1が5個分です。"
+    },
+    {
+      "id": 5,
+      "question": "0.8は0.1が何個分ですか。",
+      "answer": "8個",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "小数の意味を考えましょう。",
+      "explanation": "0.8は0.1が8個分です。"
+    },
+    {
+      "id": 6,
+      "question": "1.3は1と0.1が何個分を合わせた数ですか。",
+      "answer": "1と0.1が3個",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "小数の意味を考えましょう。",
+      "explanation": "1.3は1と0.1が3個分を合わせた数です。"
+    },
+    {
+      "id": 7,
+      "question": "2.7は2と0.1が何個分を合わせた数ですか。",
+      "answer": "2と0.1が7個",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "小数の意味を考えましょう。",
+      "explanation": "2.7は2と0.1が7個分を合わせた数です。"
+    },
+    {
+      "id": 8,
+      "question": "0.3と0.4を合わせるといくつですか。",
+      "answer": "0.7",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "小数の意味を考えましょう。",
+      "explanation": "0.3 + 0.4 = 0.7です。"
+    },
+    {
+      "id": 9,
+      "question": "0.5と0.2を合わせるといくつですか。",
+      "answer": "0.7",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "小数の意味を考えましょう。",
+      "explanation": "0.5 + 0.2 = 0.7です。"
+    },
+    {
+      "id": 10,
+      "question": "0.6と0.3を合わせるといくつですか。",
+      "answer": "0.9",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "小数の意味を考えましょう。",
+      "explanation": "0.6 + 0.3 = 0.9です。"
+    },
+    {
+      "id": 11,
+      "question": "0.7から0.3を引くといくつですか。",
+      "answer": "0.4",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "小数の意味を考えましょう。",
+      "explanation": "0.7 - 0.3 = 0.4です。"
+    },
+    {
+      "id": 12,
+      "question": "0.9から0.5を引くといくつですか。",
+      "answer": "0.4",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "小数の意味を考えましょう。",
+      "explanation": "0.9 - 0.5 = 0.4です。"
+    },
+    {
+      "id": 13,
+      "question": "0.8から0.6を引くといくつですか。",
+      "answer": "0.2",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "小数の意味を考えましょう。",
+      "explanation": "0.8 - 0.6 = 0.2です。"
+    },
+    {
+      "id": 14,
+      "question": "1.5と0.3を合わせるといくつですか。",
+      "answer": "1.8",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "小数の意味を考えましょう。",
+      "explanation": "1.5 + 0.3 = 1.8です。"
+    },
+    {
+      "id": 15,
+      "question": "2.4と0.5を合わせるといくつですか。",
+      "answer": "2.9",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "小数の意味を考えましょう。",
+      "explanation": "2.4 + 0.5 = 2.9です。"
+    },
+    {
+      "id": 16,
+      "question": "1.8から0.6を引くといくつですか。",
+      "answer": "1.2",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "小数の意味を考えましょう。",
+      "explanation": "1.8 - 0.6 = 1.2です。"
+    },
+    {
+      "id": 17,
+      "question": "2.7から0.4を引くといくつですか。",
+      "answer": "2.3",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "小数の意味を考えましょう。",
+      "explanation": "2.7 - 0.4 = 2.3です。"
+    },
+    {
+      "id": 18,
+      "question": "0.3と0.5はどちらが大きいですか。",
+      "answer": "0.5",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "小数の意味を考えましょう。",
+      "explanation": "0.5の方が0.3より大きいです。"
+    },
+    {
+      "id": 19,
+      "question": "0.7と0.9はどちらが大きいですか。",
+      "answer": "0.9",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "小数の意味を考えましょう。",
+      "explanation": "0.9の方が0.7より大きいです。"
+    },
+    {
+      "id": 20,
+      "question": "1.2と1.5はどちらが大きいですか。",
+      "answer": "1.5",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "小数の意味を考えましょう。",
+      "explanation": "1.5の方が1.2より大きいです。"
+    },
+    {
+      "id": 21,
+      "question": "2.3と2.8はどちらが大きいですか。",
+      "answer": "2.8",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "小数の意味を考えましょう。",
+      "explanation": "2.8の方が2.3より大きいです。"
+    },
+    {
+      "id": 22,
+      "question": "0.4と1はどちらが大きいですか。",
+      "answer": "1",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "小数の意味を考えましょう。",
+      "explanation": "1の方が0.4より大きいです。"
+    },
+    {
+      "id": 23,
+      "question": "1.9と2はどちらが大きいですか。",
+      "answer": "2",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "小数の意味を考えましょう。",
+      "explanation": "2の方が1.9より大きいです。"
+    },
+    {
+      "id": 24,
+      "question": "3を小数で表すといくつですか。",
+      "answer": "3.0",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "小数の意味を考えましょう。",
+      "explanation": "3は3.0と表すことができます。"
+    },
+    {
+      "id": 25,
+      "question": "5を小数で表すといくつですか。",
+      "answer": "5.0",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "小数の意味を考えましょう。",
+      "explanation": "5は5.0と表すことができます。"
+    },
+    {
+      "id": 26,
+      "question": "1.0は整数でいくつですか。",
+      "answer": "1",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "小数の意味を考えましょう。",
+      "explanation": "1.0は整数の1と同じです。"
+    },
+    {
+      "id": 27,
+      "question": "2.0は整数でいくつですか。",
+      "answer": "2",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "小数の意味を考えましょう。",
+      "explanation": "2.0は整数の2と同じです。"
+    },
+    {
+      "id": 28,
+      "question": "0.1の10倍はいくつですか。",
+      "answer": "1",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "小数の意味を考えましょう。",
+      "explanation": "0.1の10倍は1です。"
+    },
+    {
+      "id": 29,
+      "question": "0.2の10倍はいくつですか。",
+      "answer": "2",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "小数の意味を考えましょう。",
+      "explanation": "0.2の10倍は2です。"
+    },
+    {
+      "id": 30,
+      "question": "0.5の10倍はいくつですか。",
+      "answer": "5",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "小数の意味を考えましょう。",
+      "explanation": "0.5の10倍は5です。"
+    },
+    {
+      "id": 31,
+      "question": "1Lの牛乳を10等分しました。1つ分は何Lですか。",
+      "answer": "0.1L",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "小数のたし算・ひき算を使って考えましょう。",
+      "explanation": "1Lを10等分すると、1つ分は0.1Lです。"
+    },
+    {
+      "id": 32,
+      "question": "1mのテープを10等分しました。1つ分は何mですか。",
+      "answer": "0.1m",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "小数のたし算・ひき算を使って考えましょう。",
+      "explanation": "1mを10等分すると、1つ分は0.1mです。"
+    },
+    {
+      "id": 33,
+      "question": "1kgのお米を10等分しました。1つ分は何kgですか。",
+      "answer": "0.1kg",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "小数のたし算・ひき算を使って考えましょう。",
+      "explanation": "1kgを10等分すると、1つ分は0.1kgです。"
+    },
+    {
+      "id": 34,
+      "question": "0.3Lのジュースと0.5Lのジュースを合わせると何Lになりますか。",
+      "answer": "0.8L",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "小数のたし算・ひき算を使って考えましょう。",
+      "explanation": "0.3L + 0.5L = 0.8Lです。"
+    },
+    {
+      "id": 35,
+      "question": "0.6mのリボンと0.3mのリボンを合わせると何mになりますか。",
+      "answer": "0.9m",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "小数のたし算・ひき算を使って考えましょう。",
+      "explanation": "0.6m + 0.3m = 0.9mです。"
+    },
+    {
+      "id": 36,
+      "question": "1.2Lの水と0.7Lの水を合わせると何Lになりますか。",
+      "answer": "1.9L",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "小数のたし算・ひき算を使って考えましょう。",
+      "explanation": "1.2L + 0.7L = 1.9Lです。"
+    },
+    {
+      "id": 37,
+      "question": "2.3kgのりんごと1.5kgのりんごを合わせると何kgになりますか。",
+      "answer": "3.8kg",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "小数のたし算・ひき算を使って考えましょう。",
+      "explanation": "2.3kg + 1.5kg = 3.8kgです。"
+    },
+    {
+      "id": 38,
+      "question": "0.9Lの牛乳から0.4Lを飲みました。残りは何Lですか。",
+      "answer": "0.5L",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "小数のたし算・ひき算を使って考えましょう。",
+      "explanation": "0.9L - 0.4L = 0.5Lです。"
+    },
+    {
+      "id": 39,
+      "question": "1.8mのひもから0.6mを切りました。残りは何mですか。",
+      "answer": "1.2m",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "小数のたし算・ひき算を使って考えましょう。",
+      "explanation": "1.8m - 0.6m = 1.2mです。"
+    },
+    {
+      "id": 40,
+      "question": "2.7kgの小麦粉から1.3kgを使いました。残りは何kgですか。",
+      "answer": "1.4kg",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "小数のたし算・ひき算を使って考えましょう。",
+      "explanation": "2.7kg - 1.3kg = 1.4kgです。"
+    },
+    {
+      "id": 41,
+      "question": "1本のえんぴつの長さは1.5cmです。もう1本のえんぴつは0.8cm短いです。もう1本のえんぴつの長さは何cmですか。",
+      "answer": "0.7cm",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "小数のたし算・ひき算を使って考えましょう。",
+      "explanation": "1.5cm - 0.8cm = 0.7cmです。"
+    },
+    {
+      "id": 42,
+      "question": "あきらさんは1.6Lの水を飲みました。ゆうこさんはあきらさんより0.4L多く飲みました。ゆうこさんは何L飲みましたか。",
+      "answer": "2.0L",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "小数のたし算・ひき算を使って考えましょう。",
+      "explanation": "1.6L + 0.4L = 2.0Lです。"
+    },
+    {
+      "id": 43,
+      "question": "たろうさんの身長は1.3mです。はなこさんの身長はたろうさんより0.2m低いです。はなこさんの身長は何mですか。",
+      "answer": "1.1m",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "小数のたし算・ひき算を使って考えましょう。",
+      "explanation": "1.3m - 0.2m = 1.1mです。"
+    },
+    {
+      "id": 44,
+      "question": "1dLは0.1Lです。3dLは何Lですか。",
+      "answer": "0.3L",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "小数のたし算・ひき算を使って考えましょう。",
+      "explanation": "1dL = 0.1Lなので、3dL = 0.3Lです。"
+    },
+    {
+      "id": 45,
+      "question": "1dLは0.1Lです。7dLは何Lですか。",
+      "answer": "0.7L",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "小数のたし算・ひき算を使って考えましょう。",
+      "explanation": "1dL = 0.1Lなので、7dL = 0.7Lです。"
+    },
+    {
+      "id": 46,
+      "question": "1cmは0.01mです。5cmは何mですか。",
+      "answer": "0.05m",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "小数のたし算・ひき算を使って考えましょう。",
+      "explanation": "1cm = 0.01mなので、5cm = 0.05mです。"
+    },
+    {
+      "id": 47,
+      "question": "1本のリボンの長さは2.5mです。このリボンの0.1倍の長さは何mですか。",
+      "answer": "0.25m",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "小数のたし算・ひき算を使って考えましょう。",
+      "explanation": "2.5mの0.1倍は、2.5 ÷ 10 = 0.25mです。"
+    },
+    {
+      "id": 48,
+      "question": "1つの箱の重さは3.2kgです。この箱の0.1倍の重さは何kgですか。",
+      "answer": "0.32kg",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "小数のたし算・ひき算を使って考えましょう。",
+      "explanation": "3.2kgの0.1倍は、3.2 ÷ 10 = 0.32kgです。"
+    },
+    {
+      "id": 49,
+      "question": "1本のテープは1.8mあります。0.6m使いました。残りは何mですか。",
+      "answer": "1.2m",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "小数のたし算・ひき算を使って考えましょう。",
+      "explanation": "1.8m - 0.6m = 1.2mです。"
+    },
+    {
+      "id": 50,
+      "question": "1つの水そうに2.4Lの水が入っています。0.9L水を足しました。全部で何Lになりましたか。",
+      "answer": "3.3L",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "小数のたし算・ひき算を使って考えましょう。",
+      "explanation": "2.4L + 0.9L = 3.3Lです。"
+    },
+    {
+      "id": 51,
+      "question": "赤いリボンは1.7mあります。青いリボンは赤いリボンより0.5m長いです。青いリボンは何mですか。",
+      "answer": "2.2m",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "小数のたし算・ひき算を使って考えましょう。",
+      "explanation": "1.7m + 0.5m = 2.2mです。"
+    },
+    {
+      "id": 52,
+      "question": "りんごの重さは0.3kgです。みかんの重さはりんごより0.1kg軽いです。みかんの重さは何kgですか。",
+      "answer": "0.2kg",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "小数のたし算・ひき算を使って考えましょう。",
+      "explanation": "0.3kg - 0.1kg = 0.2kgです。"
+    },
+    {
+      "id": 53,
+      "question": "1本のジュースは1.5Lです。2本では何Lですか。",
+      "answer": "3.0L",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "小数のたし算・ひき算を使って考えましょう。",
+      "explanation": "1.5L × 2 = 3.0Lです。"
+    },
+    {
+      "id": 54,
+      "question": "1個のケーキの重さは0.4kgです。3個では何kgですか。",
+      "answer": "1.2kg",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "小数のたし算・ひき算を使って考えましょう。",
+      "explanation": "0.4kg × 3 = 1.2kgです。"
+    },
+    {
+      "id": 55,
+      "question": "1mのひもを10等分すると、1つ分は何mですか。",
+      "answer": "0.1m",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "小数のたし算・ひき算を使って考えましょう。",
+      "explanation": "1m ÷ 10 = 0.1mです。"
+    },
+    {
+      "id": 56,
+      "question": "数直線で1から2の間を10等分したとき、1の次のめもりは何を表しますか。",
+      "answer": "1.1",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "数直線や0.1のまとまりで考えましょう。",
+      "explanation": "1と2の間を10等分すると、1の次は1.1です。"
+    },
+    {
+      "id": 57,
+      "question": "数直線で2から3の間を10等分したとき、2の次のめもりは何を表しますか。",
+      "answer": "2.1",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "数直線や0.1のまとまりで考えましょう。",
+      "explanation": "2と3の間を10等分すると、2の次は2.1です。"
+    },
+    {
+      "id": 58,
+      "question": "0.4の次の小数は何ですか。",
+      "answer": "0.5",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "数直線や0.1のまとまりで考えましょう。",
+      "explanation": "0.4の次は0.5です。"
+    },
+    {
+      "id": 59,
+      "question": "1.6の次の小数は何ですか。",
+      "answer": "1.7",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "数直線や0.1のまとまりで考えましょう。",
+      "explanation": "1.6の次は1.7です。"
+    },
+    {
+      "id": 60,
+      "question": "0.7の前の小数は何ですか。",
+      "answer": "0.6",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "数直線や0.1のまとまりで考えましょう。",
+      "explanation": "0.7の前は0.6です。"
+    },
+    {
+      "id": 61,
+      "question": "2.3の前の小数は何ですか。",
+      "answer": "2.2",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "数直線や0.1のまとまりで考えましょう。",
+      "explanation": "2.3の前は2.2です。"
+    },
+    {
+      "id": 62,
+      "question": "0.1が5個で0.5です。0.1が8個では何ですか。",
+      "answer": "0.8",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "数直線や0.1のまとまりで考えましょう。",
+      "explanation": "0.1が8個では0.8です。"
+    },
+    {
+      "id": 63,
+      "question": "0.1が12個では何ですか。",
+      "answer": "1.2",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "数直線や0.1のまとまりで考えましょう。",
+      "explanation": "0.1が12個では1.2です。"
+    },
+    {
+      "id": 64,
+      "question": "1.4は0.1が何個分ですか。",
+      "answer": "14個",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "数直線や0.1のまとまりで考えましょう。",
+      "explanation": "1.4 = 1 + 0.4なので、10個 + 4個 = 14個です。"
+    },
+    {
+      "id": 65,
+      "question": "2.7は0.1が何個分ですか。",
+      "answer": "27個",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "数直線や0.1のまとまりで考えましょう。",
+      "explanation": "2.7 = 2 + 0.7なので、20個 + 7個 = 27個です。"
+    },
+    {
+      "id": 66,
+      "question": "0.3 + 0.3 + 0.3はいくつですか。",
+      "answer": "0.9",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "数直線や0.1のまとまりで考えましょう。",
+      "explanation": "0.3 + 0.3 + 0.3 = 0.9です。"
+    },
+    {
+      "id": 67,
+      "question": "0.2を5個集めるといくつですか。",
+      "answer": "1.0",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "数直線や0.1のまとまりで考えましょう。",
+      "explanation": "0.2 × 5 = 1.0です。"
+    },
+    {
+      "id": 68,
+      "question": "1Lは何dLですか。",
+      "answer": "10dL",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "数直線や0.1のまとまりで考えましょう。",
+      "explanation": "1L = 10dLです。"
+    },
+    {
+      "id": 69,
+      "question": "2Lは何dLですか。",
+      "answer": "20dL",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "数直線や0.1のまとまりで考えましょう。",
+      "explanation": "2L = 20dLです。"
+    },
+    {
+      "id": 70,
+      "question": "15dLは何Lですか。",
+      "answer": "1.5L",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "数直線や0.1のまとまりで考えましょう。",
+      "explanation": "15dL = 1.5Lです。"
+    }
+  ]
+}

@@ -1,0 +1,1010 @@
+{
+  "questId": "grade5-quest05",
+  "worldId": "grade5",
+  "questName": "分数のたし算・ひき算(異分母)",
+  "description": "通分をマスターしよう",
+  "difficulty": "standard",
+  "totalProblems": 100,
+  "problems": [
+    {
+      "id": "g5q05-p001",
+      "question": "1/2+1/4を計算しましょう。",
+      "answer": "3/4",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "分母を4に通分します。1/2=2/4です。",
+      "explanation": "2/4+1/4=3/4です。"
+    },
+    {
+      "id": "g5q05-p002",
+      "question": "1/3+1/6を計算しましょう。",
+      "answer": "1/2",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "分母を6に通分します。1/3=2/6です。",
+      "explanation": "2/6+1/6=3/6=1/2です。"
+    },
+    {
+      "id": "g5q05-p003",
+      "question": "1/4+1/8を計算しましょう。",
+      "answer": "3/8",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "分母を8に通分します。1/4=2/8です。",
+      "explanation": "2/8+1/8=3/8です。"
+    },
+    {
+      "id": "g5q05-p004",
+      "question": "1/2+1/3を計算しましょう。",
+      "answer": "5/6",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "分母を6に通分します。1/2=3/6、1/3=2/6です。",
+      "explanation": "3/6+2/6=5/6です。"
+    },
+    {
+      "id": "g5q05-p005",
+      "question": "1/3+1/4を計算しましょう。",
+      "answer": "7/12",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "分母を12に通分します。1/3=4/12、1/4=3/12です。",
+      "explanation": "4/12+3/12=7/12です。"
+    },
+    {
+      "id": "g5q05-p006",
+      "question": "1/4+1/6を計算しましょう。",
+      "answer": "5/12",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "分母を12に通分します。1/4=3/12、1/6=2/12です。",
+      "explanation": "3/12+2/12=5/12です。"
+    },
+    {
+      "id": "g5q05-p007",
+      "question": "1/5+1/10を計算しましょう。",
+      "answer": "3/10",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "分母を10に通分します。1/5=2/10です。",
+      "explanation": "2/10+1/10=3/10です。"
+    },
+    {
+      "id": "g5q05-p008",
+      "question": "1/6+1/12を計算しましょう。",
+      "answer": "1/4",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "分母を12に通分します。1/6=2/12です。",
+      "explanation": "2/12+1/12=3/12=1/4です。"
+    },
+    {
+      "id": "g5q05-p009",
+      "question": "2/3+1/6を計算しましょう。",
+      "answer": "5/6",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "分母を6に通分します。2/3=4/6です。",
+      "explanation": "4/6+1/6=5/6です。"
+    },
+    {
+      "id": "g5q05-p010",
+      "question": "3/4+1/8を計算しましょう。",
+      "answer": "7/8",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "分母を8に通分します。3/4=6/8です。",
+      "explanation": "6/8+1/8=7/8です。"
+    },
+    {
+      "id": "g5q05-p011",
+      "question": "1/2+2/5を計算しましょう。",
+      "answer": "9/10",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "分母を10に通分します。1/2=5/10、2/5=4/10です。",
+      "explanation": "5/10+4/10=9/10です。"
+    },
+    {
+      "id": "g5q05-p012",
+      "question": "2/3+1/4を計算しましょう。",
+      "answer": "11/12",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "分母を12に通分します。2/3=8/12、1/4=3/12です。",
+      "explanation": "8/12+3/12=11/12です。"
+    },
+    {
+      "id": "g5q05-p013",
+      "question": "3/5+1/10を計算しましょう。",
+      "answer": "7/10",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "分母を10に通分します。3/5=6/10です。",
+      "explanation": "6/10+1/10=7/10です。"
+    },
+    {
+      "id": "g5q05-p014",
+      "question": "5/6+1/12を計算しましょう。",
+      "answer": "11/12",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "分母を12に通分します。5/6=10/12です。",
+      "explanation": "10/12+1/12=11/12です。"
+    },
+    {
+      "id": "g5q05-p015",
+      "question": "1/3+2/5を計算しましょう。",
+      "answer": "11/15",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "分母を15に通分します。1/3=5/15、2/5=6/15です。",
+      "explanation": "5/15+6/15=11/15です。"
+    },
+    {
+      "id": "g5q05-p016",
+      "question": "1/4+2/5を計算しましょう。",
+      "answer": "13/20",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "分母を20に通分します。1/4=5/20、2/5=8/20です。",
+      "explanation": "5/20+8/20=13/20です。"
+    },
+    {
+      "id": "g5q05-p017",
+      "question": "2/5+1/6を計算しましょう。",
+      "answer": "17/30",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "分母を30に通分します。2/5=12/30、1/6=5/30です。",
+      "explanation": "12/30+5/30=17/30です。"
+    },
+    {
+      "id": "g5q05-p018",
+      "question": "3/4+2/3を計算しましょう。",
+      "answer": "17/12",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "分母を12に通分します。3/4=9/12、2/3=8/12です。",
+      "explanation": "9/12+8/12=17/12=1と5/12です。"
+    },
+    {
+      "id": "g5q05-p019",
+      "question": "5/8+3/4を計算しましょう。",
+      "answer": "11/8",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "分母を8に通分します。3/4=6/8です。",
+      "explanation": "5/8+6/8=11/8=1と3/8です。"
+    },
+    {
+      "id": "g5q05-p020",
+      "question": "7/10+3/5を計算しましょう。",
+      "answer": "13/10",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "分母を10に通分します。3/5=6/10です。",
+      "explanation": "7/10+6/10=13/10=1と3/10です。"
+    },
+    {
+      "id": "g5q05-p021",
+      "question": "3/4-1/8を計算しましょう。",
+      "answer": "5/8",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "分母を8に通分します。3/4=6/8です。",
+      "explanation": "6/8-1/8=5/8です。"
+    },
+    {
+      "id": "g5q05-p022",
+      "question": "2/3-1/6を計算しましょう。",
+      "answer": "1/2",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "分母を6に通分します。2/3=4/6です。",
+      "explanation": "4/6-1/6=3/6=1/2です。"
+    },
+    {
+      "id": "g5q05-p023",
+      "question": "1/2-1/4を計算しましょう。",
+      "answer": "1/4",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "分母を4に通分します。1/2=2/4です。",
+      "explanation": "2/4-1/4=1/4です。"
+    },
+    {
+      "id": "g5q05-p024",
+      "question": "1/2-1/3を計算しましょう。",
+      "answer": "1/6",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "分母を6に通分します。1/2=3/6、1/3=2/6です。",
+      "explanation": "3/6-2/6=1/6です。"
+    },
+    {
+      "id": "g5q05-p025",
+      "question": "1/3-1/4を計算しましょう。",
+      "answer": "1/12",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "分母を12に通分します。1/3=4/12、1/4=3/12です。",
+      "explanation": "4/12-3/12=1/12です。"
+    },
+    {
+      "id": "g5q05-p026",
+      "question": "3/5-1/10を計算しましょう。",
+      "answer": "1/2",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "分母を10に通分します。3/5=6/10です。",
+      "explanation": "6/10-1/10=5/10=1/2です。"
+    },
+    {
+      "id": "g5q05-p027",
+      "question": "5/6-1/12を計算しましょう。",
+      "answer": "3/4",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "分母を12に通分します。5/6=10/12です。",
+      "explanation": "10/12-1/12=9/12=3/4です。"
+    },
+    {
+      "id": "g5q05-p028",
+      "question": "2/3-1/4を計算しましょう。",
+      "answer": "5/12",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "分母を12に通分します。2/3=8/12、1/4=3/12です。",
+      "explanation": "8/12-3/12=5/12です。"
+    },
+    {
+      "id": "g5q05-p029",
+      "question": "4/5-1/10を計算しましょう。",
+      "answer": "7/10",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "分母を10に通分します。4/5=8/10です。",
+      "explanation": "8/10-1/10=7/10です。"
+    },
+    {
+      "id": "g5q05-p030",
+      "question": "7/8-1/4を計算しましょう。",
+      "answer": "5/8",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "分母を8に通分します。1/4=2/8です。",
+      "explanation": "7/8-2/8=5/8です。"
+    },
+    {
+      "id": "g5q05-p031",
+      "question": "1/2-2/5を計算しましょう。",
+      "answer": "1/10",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "分母を10に通分します。1/2=5/10、2/5=4/10です。",
+      "explanation": "5/10-4/10=1/10です。"
+    },
+    {
+      "id": "g5q05-p032",
+      "question": "2/3-2/5を計算しましょう。",
+      "answer": "4/15",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "分母を15に通分します。2/3=10/15、2/5=6/15です。",
+      "explanation": "10/15-6/15=4/15です。"
+    },
+    {
+      "id": "g5q05-p033",
+      "question": "3/4-2/5を計算しましょう。",
+      "answer": "7/20",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "分母を20に通分します。3/4=15/20、2/5=8/20です。",
+      "explanation": "15/20-8/20=7/20です。"
+    },
+    {
+      "id": "g5q05-p034",
+      "question": "5/6-2/3を計算しましょう。",
+      "answer": "1/6",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "分母を6に通分します。2/3=4/6です。",
+      "explanation": "5/6-4/6=1/6です。"
+    },
+    {
+      "id": "g5q05-p035",
+      "question": "7/10-1/5を計算しましょう。",
+      "answer": "1/2",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "分母を10に通分します。1/5=2/10です。",
+      "explanation": "7/10-2/10=5/10=1/2です。"
+    },
+    {
+      "id": "g5q05-p036",
+      "question": "11/12-3/4を計算しましょう。",
+      "answer": "1/6",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "分母を12に通分します。3/4=9/12です。",
+      "explanation": "11/12-9/12=2/12=1/6です。"
+    },
+    {
+      "id": "g5q05-p037",
+      "question": "13/15-2/5を計算しましょう。",
+      "answer": "7/15",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "分母を15に通分します。2/5=6/15です。",
+      "explanation": "13/15-6/15=7/15です。"
+    },
+    {
+      "id": "g5q05-p038",
+      "question": "17/20-3/5を計算しましょう。",
+      "answer": "5/20",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "分母を20に通分します。3/5=12/20です。",
+      "explanation": "17/20-12/20=5/20=1/4です。"
+    },
+    {
+      "id": "g5q05-p039",
+      "question": "19/20-4/5を計算しましょう。",
+      "answer": "3/20",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "分母を20に通分します。4/5=16/20です。",
+      "explanation": "19/20-16/20=3/20です。"
+    },
+    {
+      "id": "g5q05-p040",
+      "question": "23/24-5/6を計算しましょう。",
+      "answer": "1/8",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "分母を24に通分します。5/6=20/24です。",
+      "explanation": "23/24-20/24=3/24=1/8です。"
+    },
+    {
+      "id": "g5q05-p041",
+      "question": "1/2+1/3+1/6を計算しましょう。",
+      "answer": "1",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "分母を6に通分します。1/2=3/6、1/3=2/6です。",
+      "explanation": "3/6+2/6+1/6=6/6=1です。"
+    },
+    {
+      "id": "g5q05-p042",
+      "question": "1/4+1/6+1/12を計算しましょう。",
+      "answer": "1/2",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "分母を12に通分します。1/4=3/12、1/6=2/12です。",
+      "explanation": "3/12+2/12+1/12=6/12=1/2です。"
+    },
+    {
+      "id": "g5q05-p043",
+      "question": "1/3+1/4+1/6を計算しましょう。",
+      "answer": "3/4",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "分母を12に通分します。1/3=4/12、1/4=3/12、1/6=2/12です。",
+      "explanation": "4/12+3/12+2/12=9/12=3/4です。"
+    },
+    {
+      "id": "g5q05-p044",
+      "question": "2/3+1/4-1/6を計算しましょう。",
+      "answer": "3/4",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "分母を12に通分します。2/3=8/12、1/4=3/12、1/6=2/12です。",
+      "explanation": "8/12+3/12-2/12=9/12=3/4です。"
+    },
+    {
+      "id": "g5q05-p045",
+      "question": "3/4-1/6-1/12を計算しましょう。",
+      "answer": "7/12",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "分母を12に通分します。3/4=9/12、1/6=2/12です。",
+      "explanation": "9/12-2/12-1/12=6/12=1/2です。"
+    },
+    {
+      "id": "g5q05-p046",
+      "question": "1/2+1/5を計算しましょう。",
+      "answer": "7/10",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "分母を10に通分します。1/2=5/10、1/5=2/10です。",
+      "explanation": "5/10+2/10=7/10です。"
+    },
+    {
+      "id": "g5q05-p047",
+      "question": "3/5+1/4を計算しましょう。",
+      "answer": "17/20",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "分母を20に通分します。3/5=12/20、1/4=5/20です。",
+      "explanation": "12/20+5/20=17/20です。"
+    },
+    {
+      "id": "g5q05-p048",
+      "question": "2/3+3/5を計算しましょう。",
+      "answer": "19/15",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "分母を15に通分します。2/3=10/15、3/5=9/15です。",
+      "explanation": "10/15+9/15=19/15=1と4/15です。"
+    },
+    {
+      "id": "g5q05-p049",
+      "question": "5/6+3/4を計算しましょう。",
+      "answer": "19/12",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "分母を12に通分します。5/6=10/12、3/4=9/12です。",
+      "explanation": "10/12+9/12=19/12=1と7/12です。"
+    },
+    {
+      "id": "g5q05-p050",
+      "question": "7/8+5/6を計算しましょう。",
+      "answer": "41/24",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "分母を24に通分します。7/8=21/24、5/6=20/24です。",
+      "explanation": "21/24+20/24=41/24=1と17/24です。"
+    },
+    {
+      "id": "g5q05-p051",
+      "question": "2/5-1/6を計算しましょう。",
+      "answer": "7/30",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "分母を30に通分します。2/5=12/30、1/6=5/30です。",
+      "explanation": "12/30-5/30=7/30です。"
+    },
+    {
+      "id": "g5q05-p052",
+      "question": "5/8-1/6を計算しましょう。",
+      "answer": "11/24",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "分母を24に通分します。5/8=15/24、1/6=4/24です。",
+      "explanation": "15/24-4/24=11/24です。"
+    },
+    {
+      "id": "g5q05-p053",
+      "question": "7/12-1/8を計算しましょう。",
+      "answer": "11/24",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "分母を24に通分します。7/12=14/24、1/8=3/24です。",
+      "explanation": "14/24-3/24=11/24です。"
+    },
+    {
+      "id": "g5q05-p054",
+      "question": "5/6-3/8を計算しましょう。",
+      "answer": "11/24",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "分母を24に通分します。5/6=20/24、3/8=9/24です。",
+      "explanation": "20/24-9/24=11/24です。"
+    },
+    {
+      "id": "g5q05-p055",
+      "question": "7/10-2/15を計算しましょう。",
+      "answer": "17/30",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "分母を30に通分します。7/10=21/30、2/15=4/30です。",
+      "explanation": "21/30-4/30=17/30です。"
+    },
+    {
+      "id": "g5q05-p056",
+      "question": "9/10-3/5を計算しましょう。",
+      "answer": "3/10",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "分母を10に通分します。3/5=6/10です。",
+      "explanation": "9/10-6/10=3/10です。"
+    },
+    {
+      "id": "g5q05-p057",
+      "question": "11/12-2/3を計算しましょう。",
+      "answer": "1/4",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "分母を12に通分します。2/3=8/12です。",
+      "explanation": "11/12-8/12=3/12=1/4です。"
+    },
+    {
+      "id": "g5q05-p058",
+      "question": "13/15-3/5を計算しましょう。",
+      "answer": "4/15",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "分母を15に通分します。3/5=9/15です。",
+      "explanation": "13/15-9/15=4/15です。"
+    },
+    {
+      "id": "g5q05-p059",
+      "question": "17/20-2/5を計算しましょう。",
+      "answer": "9/20",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "分母を20に通分します。2/5=8/20です。",
+      "explanation": "17/20-8/20=9/20です。"
+    },
+    {
+      "id": "g5q05-p060",
+      "question": "19/24-5/8を計算しましょう。",
+      "answer": "1/6",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "分母を24に通分します。5/8=15/24です。",
+      "explanation": "19/24-15/24=4/24=1/6です。"
+    },
+    {
+      "id": "g5q05-p061",
+      "question": "ケーキが1個あります。1/4を食べた後、さらに1/6を食べました。全部で何分のいくつ食べましたか。",
+      "answer": "5/12",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "1/4+1/6を計算します。",
+      "explanation": "1/4+1/6=3/12+2/12=5/12です。"
+    },
+    {
+      "id": "g5q05-p062",
+      "question": "ジュースが1Lあります。1/3を飲んだ後、さらに1/6を飲みました。残りは何Lですか。",
+      "answer": "1/2",
+      "unit": "L",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "1-(1/3+1/6)を計算します。",
+      "explanation": "1/3+1/6=3/6=1/2なので、1-1/2=1/2Lです。"
+    },
+    {
+      "id": "g5q05-p063",
+      "question": "牛乳が1Lあります。朝に1/4を飲み、昼に1/3を飲みました。残りは何Lですか。",
+      "answer": "5/12",
+      "unit": "L",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "1-(1/4+1/3)を計算します。",
+      "explanation": "1/4+1/3=7/12なので、1-7/12=5/12Lです。"
+    },
+    {
+      "id": "g5q05-p064",
+      "question": "1mのリボンがあります。1/2を使った後、さらに1/4を使いました。残りは何mですか。",
+      "answer": "1/4",
+      "unit": "m",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "1-(1/2+1/4)を計算します。",
+      "explanation": "1/2+1/4=3/4なので、1-3/4=1/4mです。"
+    },
+    {
+      "id": "g5q05-p065",
+      "question": "水槽に水が1Lあります。1/5を使い、さらに1/10を使いました。残りは何Lですか。",
+      "answer": "7/10",
+      "unit": "L",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "1-(1/5+1/10)を計算します。",
+      "explanation": "1/5+1/10=3/10なので、1-3/10=7/10Lです。"
+    },
+    {
+      "id": "g5q05-p066",
+      "question": "赤いテープが3/4m、青いテープが2/3mあります。合わせて何mですか。",
+      "answer": "17/12",
+      "unit": "m",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "3/4+2/3を計算します。",
+      "explanation": "3/4+2/3=9/12+8/12=17/12=1と5/12mです。"
+    },
+    {
+      "id": "g5q05-p067",
+      "question": "水が5/6L入っています。そこから2/3Lを使いました。残りは何Lですか。",
+      "answer": "1/6",
+      "unit": "L",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "5/6-2/3を計算します。",
+      "explanation": "5/6-2/3=5/6-4/6=1/6Lです。"
+    },
+    {
+      "id": "g5q05-p068",
+      "question": "砂糖が7/8kgあります。そのうち3/4kgを使いました。残りは何kgですか。",
+      "answer": "1/8",
+      "unit": "kg",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "7/8-3/4を計算します。",
+      "explanation": "7/8-3/4=7/8-6/8=1/8kgです。"
+    },
+    {
+      "id": "g5q05-p069",
+      "question": "ひもが9/10mあります。そのうち3/5mを使いました。残りは何mですか。",
+      "answer": "3/10",
+      "unit": "m",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "9/10-3/5を計算します。",
+      "explanation": "9/10-3/5=9/10-6/10=3/10mです。"
+    },
+    {
+      "id": "g5q05-p070",
+      "question": "布が11/12mあります。そのうち2/3mを使いました。残りは何mですか。",
+      "answer": "1/4",
+      "unit": "m",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "11/12-2/3を計算します。",
+      "explanation": "11/12-2/3=11/12-8/12=3/12=1/4mです。"
+    },
+    {
+      "id": "g5q05-p071",
+      "question": "太郎君は1/3km、花子さんは1/4km歩きました。2人合わせて何km歩きましたか。",
+      "answer": "7/12",
+      "unit": "km",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "1/3+1/4を計算します。",
+      "explanation": "1/3+1/4=4/12+3/12=7/12kmです。"
+    },
+    {
+      "id": "g5q05-p072",
+      "question": "赤いリボンが2/5m、青いリボンが1/3mあります。赤いリボンは青いリボンより何m長いですか。",
+      "answer": "1/15",
+      "unit": "m",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "2/5-1/3を計算します。",
+      "explanation": "2/5-1/3=6/15-5/15=1/15mです。"
+    },
+    {
+      "id": "g5q05-p073",
+      "question": "ペンキが1Lあります。午前に3/8を使い、午後に1/4を使いました。残りは何Lですか。",
+      "answer": "3/8",
+      "unit": "L",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "1-(3/8+1/4)を計算します。",
+      "explanation": "3/8+1/4=3/8+2/8=5/8なので、1-5/8=3/8Lです。"
+    },
+    {
+      "id": "g5q05-p074",
+      "question": "小麦粉が1kgあります。ケーキに2/5を使い、パンに1/4を使いました。残りは何kgですか。",
+      "answer": "7/20",
+      "unit": "kg",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "1-(2/5+1/4)を計算します。",
+      "explanation": "2/5+1/4=8/20+5/20=13/20なので、1-13/20=7/20kgです。"
+    },
+    {
+      "id": "g5q05-p075",
+      "question": "牛乳が1Lあります。1/6を飲み、さらに1/3を飲みました。残りは何Lですか。",
+      "answer": "1/2",
+      "unit": "L",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "1-(1/6+1/3)を計算します。",
+      "explanation": "1/6+1/3=1/6+2/6=3/6=1/2なので、1-1/2=1/2Lです。"
+    },
+    {
+      "id": "g5q05-p076",
+      "question": "1kmの道のりを、1/4歩いた後、さらに1/3歩きました。残りは何kmですか。",
+      "answer": "5/12",
+      "unit": "km",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "1-(1/4+1/3)を計算します。",
+      "explanation": "1/4+1/3=7/12なので、1-7/12=5/12kmです。"
+    },
+    {
+      "id": "g5q05-p077",
+      "question": "ジュースが1Lあります。太郎君が1/5を飲み、花子さんが1/4を飲みました。2人で合わせて何L飲みましたか。",
+      "answer": "9/20",
+      "unit": "L",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "1/5+1/4を計算します。",
+      "explanation": "1/5+1/4=4/20+5/20=9/20Lです。"
+    },
+    {
+      "id": "g5q05-p078",
+      "question": "砂が1kgあります。そのうち3/5を使い、さらに1/4を使いました。残りは何kgですか。",
+      "answer": "3/20",
+      "unit": "kg",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "1-(3/5+1/4)を計算します。",
+      "explanation": "3/5+1/4=12/20+5/20=17/20なので、1-17/20=3/20kgです。"
+    },
+    {
+      "id": "g5q05-p079",
+      "question": "水が1L入っている容器があります。1/6を使い、さらに1/3を使いました。残りは何Lですか。",
+      "answer": "1/2",
+      "unit": "L",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "1-(1/6+1/3)を計算します。",
+      "explanation": "1/6+1/3=3/6=1/2なので、1-1/2=1/2Lです。"
+    },
+    {
+      "id": "g5q05-p080",
+      "question": "ケーキが1個あります。1/3を食べ、さらに1/6を食べました。残りは何分のいくつですか。",
+      "answer": "1/2",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "1-(1/3+1/6)を計算します。",
+      "explanation": "1/3+1/6=3/6=1/2なので、1-1/2=1/2です。"
+    },
+    {
+      "id": "g5q05-p081",
+      "question": "油が7/10L入っています。そこから何Lか使ったら3/5Lになりました。何L使いましたか。",
+      "answer": "1/10",
+      "unit": "L",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "7/10-3/5を計算します。",
+      "explanation": "7/10-3/5=7/10-6/10=1/10Lです。"
+    },
+    {
+      "id": "g5q05-p082",
+      "question": "テープが5/6mあります。そこから何m使ったら2/3mになりました。何m使いましたか。",
+      "answer": "1/6",
+      "unit": "m",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "5/6-2/3を計算します。",
+      "explanation": "5/6-2/3=5/6-4/6=1/6mです。"
+    },
+    {
+      "id": "g5q05-p083",
+      "question": "砂糖が11/12kgあります。そこから何kg使ったら3/4kgになりました。何kg使いましたか。",
+      "answer": "1/6",
+      "unit": "kg",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "11/12-3/4を計算します。",
+      "explanation": "11/12-3/4=11/12-9/12=2/12=1/6kgです。"
+    },
+    {
+      "id": "g5q05-p084",
+      "question": "ジュースが9/10Lあります。そこから何L飲んだら3/5Lになりました。何L飲みましたか。",
+      "answer": "3/10",
+      "unit": "L",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "9/10-3/5を計算します。",
+      "explanation": "9/10-3/5=9/10-6/10=3/10Lです。"
+    },
+    {
+      "id": "g5q05-p085",
+      "question": "ロープが13/15mあります。そこから何m使ったら2/5mになりました。何m使いましたか。",
+      "answer": "7/15",
+      "unit": "m",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "13/15-2/5を計算します。",
+      "explanation": "13/15-2/5=13/15-6/15=7/15mです。"
+    },
+    {
+      "id": "g5q05-p086",
+      "question": "□+1/4=5/6を満たす□を求めましょう。",
+      "answer": "7/12",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "5/6-1/4を計算します。",
+      "explanation": "5/6-1/4=10/12-3/12=7/12なので、□=7/12です。"
+    },
+    {
+      "id": "g5q05-p087",
+      "question": "1/3+□=3/4を満たす□を求めましょう。",
+      "answer": "5/12",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "3/4-1/3を計算します。",
+      "explanation": "3/4-1/3=9/12-4/12=5/12なので、□=5/12です。"
+    },
+    {
+      "id": "g5q05-p088",
+      "question": "□+2/5=7/10を満たす□を求めましょう。",
+      "answer": "3/10",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "7/10-2/5を計算します。",
+      "explanation": "7/10-2/5=7/10-4/10=3/10なので、□=3/10です。"
+    },
+    {
+      "id": "g5q05-p089",
+      "question": "□-1/6=1/2を満たす□を求めましょう。",
+      "answer": "2/3",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "1/2+1/6を計算します。",
+      "explanation": "1/2+1/6=3/6+1/6=4/6=2/3なので、□=2/3です。"
+    },
+    {
+      "id": "g5q05-p090",
+      "question": "5/6-□=1/3を満たす□を求めましょう。",
+      "answer": "1/2",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "5/6-1/3を計算します。",
+      "explanation": "5/6-1/3=5/6-2/6=3/6=1/2なので、□=1/2です。"
+    },
+    {
+      "id": "g5q05-p091",
+      "question": "□+1/5=4/5を満たす□を求めましょう。",
+      "answer": "3/5",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "reverse",
+      "hint": "4/5-1/5を計算します。",
+      "explanation": "4/5-1/5=3/5なので、□=3/5です。"
+    },
+    {
+      "id": "g5q05-p092",
+      "question": "2/3+□=11/12を満たす□を求めましょう。",
+      "answer": "1/4",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "11/12-2/3を計算します。",
+      "explanation": "11/12-2/3=11/12-8/12=3/12=1/4なので、□=1/4です。"
+    },
+    {
+      "id": "g5q05-p093",
+      "question": "□-1/4=1/3を満たす□を求めましょう。",
+      "answer": "7/12",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "1/3+1/4を計算します。",
+      "explanation": "1/3+1/4=4/12+3/12=7/12なので、□=7/12です。"
+    },
+    {
+      "id": "g5q05-p094",
+      "question": "7/8-□=1/4を満たす□を求めましょう。",
+      "answer": "5/8",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "7/8-1/4を計算します。",
+      "explanation": "7/8-1/4=7/8-2/8=5/8なので、□=5/8です。"
+    },
+    {
+      "id": "g5q05-p095",
+      "question": "□+3/5=9/10を満たす□を求めましょう。",
+      "answer": "3/10",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "9/10-3/5を計算します。",
+      "explanation": "9/10-3/5=9/10-6/10=3/10なので、□=3/10です。"
+    },
+    {
+      "id": "g5q05-p096",
+      "question": "次の式を正しくするには、□に何を入れればよいですか。1/4+□=7/12",
+      "answer": "1/3",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "7/12-1/4を計算します。",
+      "explanation": "7/12-1/4=7/12-3/12=4/12=1/3なので、□=1/3です。"
+    },
+    {
+      "id": "g5q05-p097",
+      "question": "1/2に何を足すと5/6になりますか。",
+      "answer": "1/3",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "5/6-1/2を計算します。",
+      "explanation": "5/6-1/2=5/6-3/6=2/6=1/3です。"
+    },
+    {
+      "id": "g5q05-p098",
+      "question": "2/3から何を引くと1/2になりますか。",
+      "answer": "1/6",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "2/3-1/2を計算します。",
+      "explanation": "2/3-1/2=4/6-3/6=1/6です。"
+    },
+    {
+      "id": "g5q05-p099",
+      "question": "1/3と1/4を足した答えと、□と1/6を足した答えが同じになります。□に入る数を求めましょう。",
+      "answer": "5/12",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "まず1/3+1/4=7/12を求め、7/12-1/6を計算します。",
+      "explanation": "1/3+1/4=7/12で、7/12-1/6=7/12-2/12=5/12なので、□=5/12です。"
+    },
+    {
+      "id": "g5q05-p100",
+      "question": "ある数に1/4を足すと3/4になります。ある数を求めましょう。",
+      "answer": "1/2",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "3/4-1/4を計算します。",
+      "explanation": "3/4-1/4=2/4=1/2です。"
+    }
+  ]
+}

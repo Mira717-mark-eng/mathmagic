@@ -1,0 +1,639 @@
+{
+  "questId": "grade3-quest11",
+  "questName": "時間と時刻",
+  "grade": "小3",
+  "unitId": "elem3_time_duration",
+  "totalProblems": 70,
+  "problems": [
+    {
+      "id": 1,
+      "question": "1時間は何分ですか。",
+      "answer": "60分",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "1時間 = 60分を使って考えましょう。",
+      "explanation": "1時間 = 60分です。"
+    },
+    {
+      "id": 2,
+      "question": "2時間は何分ですか。",
+      "answer": "120分",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "1時間 = 60分を使って考えましょう。",
+      "explanation": "2時間 = 120分です。"
+    },
+    {
+      "id": 3,
+      "question": "3時間は何分ですか。",
+      "answer": "180分",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "1時間 = 60分を使って考えましょう。",
+      "explanation": "3時間 = 180分です。"
+    },
+    {
+      "id": 4,
+      "question": "60分は何時間ですか。",
+      "answer": "1時間",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "1時間 = 60分を使って考えましょう。",
+      "explanation": "60分 = 1時間です。"
+    },
+    {
+      "id": 5,
+      "question": "120分は何時間ですか。",
+      "answer": "2時間",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "1時間 = 60分を使って考えましょう。",
+      "explanation": "120分 = 2時間です。"
+    },
+    {
+      "id": 6,
+      "question": "180分は何時間ですか。",
+      "answer": "3時間",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "1時間 = 60分を使って考えましょう。",
+      "explanation": "180分 = 3時間です。"
+    },
+    {
+      "id": 7,
+      "question": "1時間30分は何分ですか。",
+      "answer": "90分",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "1時間 = 60分を使って考えましょう。",
+      "explanation": "1時間30分 = 60分 + 30分 = 90分です。"
+    },
+    {
+      "id": 8,
+      "question": "2時間15分は何分ですか。",
+      "answer": "135分",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "1時間 = 60分を使って考えましょう。",
+      "explanation": "2時間15分 = 120分 + 15分 = 135分です。"
+    },
+    {
+      "id": 9,
+      "question": "90分は何時間何分ですか。",
+      "answer": "1時間30分",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "1時間 = 60分を使って考えましょう。",
+      "explanation": "90分 = 60分 + 30分 = 1時間30分です。"
+    },
+    {
+      "id": 10,
+      "question": "150分は何時間何分ですか。",
+      "answer": "2時間30分",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "1時間 = 60分を使って考えましょう。",
+      "explanation": "150分 = 120分 + 30分 = 2時間30分です。"
+    },
+    {
+      "id": 11,
+      "question": "午前9時から午前11時までは何時間ですか。",
+      "answer": "2時間",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "1時間 = 60分を使って考えましょう。",
+      "explanation": "11時 - 9時 = 2時間です。"
+    },
+    {
+      "id": 12,
+      "question": "午後1時から午後4時までは何時間ですか。",
+      "answer": "3時間",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "1時間 = 60分を使って考えましょう。",
+      "explanation": "4時 - 1時 = 3時間です。"
+    },
+    {
+      "id": 13,
+      "question": "午前8時30分から午前10時30分までは何時間ですか。",
+      "answer": "2時間",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "1時間 = 60分を使って考えましょう。",
+      "explanation": "10時30分 - 8時30分 = 2時間です。"
+    },
+    {
+      "id": 14,
+      "question": "午後2時15分から午後5時15分までは何時間ですか。",
+      "answer": "3時間",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "1時間 = 60分を使って考えましょう。",
+      "explanation": "5時15分 - 2時15分 = 3時間です。"
+    },
+    {
+      "id": 15,
+      "question": "午前10時から午後1時までは何時間ですか。",
+      "answer": "3時間",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "1時間 = 60分を使って考えましょう。",
+      "explanation": "午前10時から正午まで2時間、正午から午後1時まで1時間なので、3時間です。"
+    },
+    {
+      "id": 16,
+      "question": "午前11時から午後2時までは何時間ですか。",
+      "answer": "3時間",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "1時間 = 60分を使って考えましょう。",
+      "explanation": "午前11時から正午まで1時間、正午から午後2時まで2時間なので、3時間です。"
+    },
+    {
+      "id": 17,
+      "question": "午前9時30分から午後12時30分までは何時間ですか。",
+      "answer": "3時間",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "1時間 = 60分を使って考えましょう。",
+      "explanation": "9時30分から12時30分（正午30分）まで3時間です。"
+    },
+    {
+      "id": 18,
+      "question": "午前10時から午前10時40分までは何分ですか。",
+      "answer": "40分",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "1時間 = 60分を使って考えましょう。",
+      "explanation": "10時40分 - 10時 = 40分です。"
+    },
+    {
+      "id": 19,
+      "question": "午後3時20分から午後4時までは何分ですか。",
+      "answer": "40分",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "1時間 = 60分を使って考えましょう。",
+      "explanation": "4時 - 3時20分 = 40分です。"
+    },
+    {
+      "id": 20,
+      "question": "午前8時から午前9時15分までは何時間何分ですか。",
+      "answer": "1時間15分",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "1時間 = 60分を使って考えましょう。",
+      "explanation": "9時15分 - 8時 = 1時間15分です。"
+    },
+    {
+      "id": 21,
+      "question": "午後1時45分から午後3時30分までは何時間何分ですか。",
+      "answer": "1時間45分",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "1時間 = 60分を使って考えましょう。",
+      "explanation": "3時30分 - 1時45分 = 1時間45分です。"
+    },
+    {
+      "id": 22,
+      "question": "1日は何時間ですか。",
+      "answer": "24時間",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "1時間 = 60分を使って考えましょう。",
+      "explanation": "1日 = 24時間です。"
+    },
+    {
+      "id": 23,
+      "question": "1週間は何日ですか。",
+      "answer": "7日",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "1時間 = 60分を使って考えましょう。",
+      "explanation": "1週間 = 7日です。"
+    },
+    {
+      "id": 24,
+      "question": "午前9時の2時間後は何時ですか。",
+      "answer": "午前11時",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "1時間 = 60分を使って考えましょう。",
+      "explanation": "9時 + 2時間 = 11時です。"
+    },
+    {
+      "id": 25,
+      "question": "午後2時の3時間後は何時ですか。",
+      "answer": "午後5時",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "1時間 = 60分を使って考えましょう。",
+      "explanation": "2時 + 3時間 = 5時です。"
+    },
+    {
+      "id": 26,
+      "question": "午前11時の1時間後は何時ですか。",
+      "answer": "正午",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "1時間 = 60分を使って考えましょう。",
+      "explanation": "11時 + 1時間 = 12時（正午）です。"
+    },
+    {
+      "id": 27,
+      "question": "午前10時30分の45分後は何時何分ですか。",
+      "answer": "午前11時15分",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "1時間 = 60分を使って考えましょう。",
+      "explanation": "10時30分 + 45分 = 11時15分です。"
+    },
+    {
+      "id": 28,
+      "question": "午前11時の2時間前は何時ですか。",
+      "answer": "午前9時",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "1時間 = 60分を使って考えましょう。",
+      "explanation": "11時 - 2時間 = 9時です。"
+    },
+    {
+      "id": 29,
+      "question": "午後4時の3時間前は何時ですか。",
+      "answer": "午後1時",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "1時間 = 60分を使って考えましょう。",
+      "explanation": "4時 - 3時間 = 1時です。"
+    },
+    {
+      "id": 30,
+      "question": "正午の2時間前は何時ですか。",
+      "answer": "午前10時",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "1時間 = 60分を使って考えましょう。",
+      "explanation": "12時 - 2時間 = 10時です。"
+    },
+    {
+      "id": 31,
+      "question": "太郎さんは午前9時に家を出て、午前10時30分に学校に着きました。何時間何分かかりましたか。",
+      "answer": "1時間30分",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "時計や時刻を図にかいて考えましょう。",
+      "explanation": "10時30分 - 9時 = 1時間30分です。"
+    },
+    {
+      "id": 32,
+      "question": "花子さんは午後2時に宿題を始めて、午後3時45分に終わりました。何時間何分かかりましたか。",
+      "answer": "1時間45分",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "時計や時刻を図にかいて考えましょう。",
+      "explanation": "3時45分 - 2時 = 1時間45分です。"
+    },
+    {
+      "id": 33,
+      "question": "映画は午後1時30分に始まり、午後3時15分に終わりました。映画の長さは何時間何分ですか。",
+      "answer": "1時間45分",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "時計や時刻を図にかいて考えましょう。",
+      "explanation": "3時15分 - 1時30分 = 1時間45分です。"
+    },
+    {
+      "id": 34,
+      "question": "バスは午前8時45分に出発し、午前10時30分に到着しました。何時間何分かかりましたか。",
+      "answer": "1時間45分",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "時計や時刻を図にかいて考えましょう。",
+      "explanation": "10時30分 - 8時45分 = 1時間45分です。"
+    },
+    {
+      "id": 35,
+      "question": "あきらさんは午前7時30分に起きて、午前8時15分に家を出ました。何分準備しましたか。",
+      "answer": "45分",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "時計や時刻を図にかいて考えましょう。",
+      "explanation": "8時15分 - 7時30分 = 45分です。"
+    },
+    {
+      "id": 36,
+      "question": "学校は午前8時45分に始まり、午後3時30分に終わります。何時間何分学校にいますか。",
+      "answer": "6時間45分",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "時計や時刻を図にかいて考えましょう。",
+      "explanation": "午前8時45分から午後3時30分まで6時間45分です。"
+    },
+    {
+      "id": 37,
+      "question": "電車は午前10時20分に出発します。40分後に着きます。着く時刻は何時何分ですか。",
+      "answer": "午前11時",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "時計や時刻を図にかいて考えましょう。",
+      "explanation": "10時20分 + 40分 = 11時です。"
+    },
+    {
+      "id": 38,
+      "question": "ゆうこさんは午後1時に図書館に行きました。2時間30分本を読みました。図書館を出た時刻は何時何分ですか。",
+      "answer": "午後3時30分",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "時計や時刻を図にかいて考えましょう。",
+      "explanation": "1時 + 2時間30分 = 3時30分です。"
+    },
+    {
+      "id": 39,
+      "question": "たろうさんは午前9時30分から1時間15分勉強しました。勉強が終わったのは何時何分ですか。",
+      "answer": "午前10時45分",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "時計や時刻を図にかいて考えましょう。",
+      "explanation": "9時30分 + 1時間15分 = 10時45分です。"
+    },
+    {
+      "id": 40,
+      "question": "バスは午後2時45分に出発します。1時間20分かかります。着く時刻は何時何分ですか。",
+      "answer": "午後4時5分",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "時計や時刻を図にかいて考えましょう。",
+      "explanation": "2時45分 + 1時間20分 = 4時5分です。"
+    },
+    {
+      "id": 41,
+      "question": "はなこさんは午後4時にピアノのレッスンがあります。45分前に家を出ます。何時何分に家を出ますか。",
+      "answer": "午後3時15分",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "時計や時刻を図にかいて考えましょう。",
+      "explanation": "4時 - 45分 = 3時15分です。"
+    },
+    {
+      "id": 42,
+      "question": "映画は午後7時30分に始まります。2時間の映画です。映画が終わるのは何時何分ですか。",
+      "answer": "午後9時30分",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "時計や時刻を図にかいて考えましょう。",
+      "explanation": "7時30分 + 2時間 = 9時30分です。"
+    },
+    {
+      "id": 43,
+      "question": "電車は午前11時40分に出発します。1時間25分かかります。着く時刻は何時何分ですか。",
+      "answer": "午後1時5分",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "時計や時刻を図にかいて考えましょう。",
+      "explanation": "11時40分 + 1時間25分 = 13時5分（午後1時5分）です。"
+    },
+    {
+      "id": 44,
+      "question": "太郎さんは午前7時に起きて、午後9時に寝ます。起きている時間は何時間ですか。",
+      "answer": "14時間",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "時計や時刻を図にかいて考えましょう。",
+      "explanation": "午前7時から午後9時まで14時間です。"
+    },
+    {
+      "id": 45,
+      "question": "花子さんは午前10時から午後3時まで遊びました。途中で1時間お昼休みをとりました。遊んだ時間は何時間ですか。",
+      "answer": "4時間",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "時計や時刻を図にかいて考えましょう。",
+      "explanation": "午前10時から午後3時まで5時間、お昼休み1時間を引いて4時間です。"
+    },
+    {
+      "id": 46,
+      "question": "あきらさんは午前8時30分から午後12時30分まで勉強しました。何時間勉強しましたか。",
+      "answer": "4時間",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "時計や時刻を図にかいて考えましょう。",
+      "explanation": "8時30分から12時30分まで4時間です。"
+    },
+    {
+      "id": 47,
+      "question": "バスは午前9時15分に出発し、午前11時50分に到着しました。何時間何分かかりましたか。",
+      "answer": "2時間35分",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "時計や時刻を図にかいて考えましょう。",
+      "explanation": "11時50分 - 9時15分 = 2時間35分です。"
+    },
+    {
+      "id": 48,
+      "question": "ゆうこさんは午後1時20分に公園に行き、午後4時に帰りました。何時間何分いましたか。",
+      "answer": "2時間40分",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "時計や時刻を図にかいて考えましょう。",
+      "explanation": "4時 - 1時20分 = 2時間40分です。"
+    },
+    {
+      "id": 49,
+      "question": "映画は午後6時45分に始まり、午後9時に終わりました。映画の長さは何時間何分ですか。",
+      "answer": "2時間15分",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "時計や時刻を図にかいて考えましょう。",
+      "explanation": "9時 - 6時45分 = 2時間15分です。"
+    },
+    {
+      "id": 50,
+      "question": "たろうさんは午前11時30分に昼ごはんを食べ始め、午後12時10分に終わりました。何分かかりましたか。",
+      "answer": "40分",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "時計や時刻を図にかいて考えましょう。",
+      "explanation": "12時10分 - 11時30分 = 40分です。"
+    },
+    {
+      "id": 51,
+      "question": "はなこさんは午前8時に家を出て、午前8時25分に駅に着きました。何分かかりましたか。",
+      "answer": "25分",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "時計や時刻を図にかいて考えましょう。",
+      "explanation": "8時25分 - 8時 = 25分です。"
+    },
+    {
+      "id": 52,
+      "question": "電車は午前10時50分に出発し、午後12時20分に到着しました。何時間何分かかりましたか。",
+      "answer": "1時間30分",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "時計や時刻を図にかいて考えましょう。",
+      "explanation": "12時20分 - 10時50分 = 1時間30分です。"
+    },
+    {
+      "id": 53,
+      "question": "あきらさんは午後2時35分に宿題を始めて、午後4時に終わりました。何時間何分かかりましたか。",
+      "answer": "1時間25分",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "時計や時刻を図にかいて考えましょう。",
+      "explanation": "4時 - 2時35分 = 1時間25分です。"
+    },
+    {
+      "id": 54,
+      "question": "ゆうこさんは午前9時から午後5時まで学校にいました。何時間学校にいましたか。",
+      "answer": "8時間",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "時計や時刻を図にかいて考えましょう。",
+      "explanation": "午前9時から午後5時まで8時間です。"
+    },
+    {
+      "id": 55,
+      "question": "太郎さんは午前6時30分に起きて、午後10時に寝ます。起きている時間は何時間何分ですか。",
+      "answer": "15時間30分",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "時計や時刻を図にかいて考えましょう。",
+      "explanation": "午前6時30分から午後10時まで15時間30分です。"
+    },
+    {
+      "id": 56,
+      "question": "花子さんは午後1時15分から2時間勉強しました。勉強が終わったのは何時何分ですか。",
+      "answer": "午後3時15分",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "時計や時刻を図にかいて考えましょう。",
+      "explanation": "1時15分 + 2時間 = 3時15分です。"
+    },
+    {
+      "id": 57,
+      "question": "バスは午前11時55分に出発します。35分後に着きます。着く時刻は何時何分ですか。",
+      "answer": "午後12時30分",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "時計や時刻を図にかいて考えましょう。",
+      "explanation": "11時55分 + 35分 = 12時30分です。"
+    },
+    {
+      "id": 58,
+      "question": "たろうさんは午後3時50分から50分遊びました。何時何分まで遊びましたか。",
+      "answer": "午後4時40分",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "時計や時刻を図にかいて考えましょう。",
+      "explanation": "3時50分 + 50分 = 4時40分です。"
+    },
+    {
+      "id": 59,
+      "question": "はなこさんは午前10時5分に図書館に行き、午前11時45分まで本を読みました。何時間何分読みましたか。",
+      "answer": "1時間40分",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "時計や時刻を図にかいて考えましょう。",
+      "explanation": "11時45分 - 10時5分 = 1時間40分です。"
+    },
+    {
+      "id": 60,
+      "question": "電車は午後5時30分に出発し、午後7時15分に到着しました。何時間何分かかりましたか。",
+      "answer": "1時間45分",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "時計や時刻を図にかいて考えましょう。",
+      "explanation": "7時15分 - 5時30分 = 1時間45分です。"
+    },
+    {
+      "id": 61,
+      "question": "午前11時の1時間後は何時ですか。",
+      "answer": "正午",
+      "type": "puzzle",
+      "difficulty": "standard",
+      "hint": "時間と分の関係、計算の工夫を使って考えましょう。",
+      "explanation": "11時 + 1時間 = 12時（正午）です。"
+    },
+    {
+      "id": 62,
+      "question": "正午の3時間後は何時ですか。",
+      "answer": "午後3時",
+      "type": "puzzle",
+      "difficulty": "standard",
+      "hint": "時間と分の関係、計算の工夫を使って考えましょう。",
+      "explanation": "12時 + 3時間 = 15時（午後3時）です。"
+    },
+    {
+      "id": 63,
+      "question": "午後11時の2時間後は何時ですか。",
+      "answer": "午前1時",
+      "type": "puzzle",
+      "difficulty": "standard",
+      "hint": "時間と分の関係、計算の工夫を使って考えましょう。",
+      "explanation": "23時 + 2時間 = 25時 = 1時（午前1時）です。"
+    },
+    {
+      "id": 64,
+      "question": "1時間30分 = □分。□に入る数はいくつですか。",
+      "answer": "90",
+      "type": "puzzle",
+      "difficulty": "standard",
+      "hint": "時間と分の関係、計算の工夫を使って考えましょう。",
+      "explanation": "1時間30分 = 60分 + 30分 = 90分です。"
+    },
+    {
+      "id": 65,
+      "question": "150分 = □時間□分。□に入る数はいくつですか。",
+      "answer": "2時間30分",
+      "type": "puzzle",
+      "difficulty": "standard",
+      "hint": "時間と分の関係、計算の工夫を使って考えましょう。",
+      "explanation": "150分 = 120分 + 30分 = 2時間30分です。"
+    },
+    {
+      "id": 66,
+      "question": "午前8時から午後8時までは何時間ですか。",
+      "answer": "12時間",
+      "type": "puzzle",
+      "difficulty": "standard",
+      "hint": "時間と分の関係、計算の工夫を使って考えましょう。",
+      "explanation": "午前8時から午後8時まで12時間です。"
+    },
+    {
+      "id": 67,
+      "question": "1日の半分の時間は何時間ですか。",
+      "answer": "12時間",
+      "type": "puzzle",
+      "difficulty": "standard",
+      "hint": "時間と分の関係、計算の工夫を使って考えましょう。",
+      "explanation": "1日 = 24時間、24時間 ÷ 2 = 12時間です。"
+    },
+    {
+      "id": 68,
+      "question": "2時間を4等分すると、1つ分は何分ですか。",
+      "answer": "30分",
+      "type": "puzzle",
+      "difficulty": "standard",
+      "hint": "時間と分の関係、計算の工夫を使って考えましょう。",
+      "explanation": "2時間 = 120分、120分 ÷ 4 = 30分です。"
+    },
+    {
+      "id": 69,
+      "question": "3時間を6等分すると、1つ分は何分ですか。",
+      "answer": "30分",
+      "type": "puzzle",
+      "difficulty": "standard",
+      "hint": "時間と分の関係、計算の工夫を使って考えましょう。",
+      "explanation": "3時間 = 180分、180分 ÷ 6 = 30分です。"
+    },
+    {
+      "id": 70,
+      "question": "15分ずつ何回で1時間になりますか。",
+      "answer": "4回",
+      "type": "puzzle",
+      "difficulty": "standard",
+      "hint": "時間と分の関係、計算の工夫を使って考えましょう。",
+      "explanation": "60分 ÷ 15分 = 4回です。"
+    }
+  ]
+}

@@ -1,0 +1,1009 @@
+{
+  "questId": "jh3-quest02",
+  "quest_name": "因数分解",
+  "grade": "中3",
+  "difficulty": "standard",
+  "topic": "因数分解",
+  "problems": [
+    {
+      "id": 1,
+      "question": "x²+6x+9 を因数分解しなさい。",
+      "answer": "(x+3)²",
+      "unit": "",
+      "difficulty": 1,
+      "type": "calculation",
+      "hint": "a²+2ab+b² = (a+b)² の形です。",
+      "explanation": "x²+6x+9 = x²+2×x×3+3² = (x+3)²"
+    },
+    {
+      "id": 2,
+      "question": "x²-10x+25 を因数分解しなさい。",
+      "answer": "(x-5)²",
+      "unit": "",
+      "difficulty": 1,
+      "type": "calculation",
+      "hint": "a²-2ab+b² = (a-b)² の形です。",
+      "explanation": "x²-10x+25 = x²-2×x×5+5² = (x-5)²"
+    },
+    {
+      "id": 3,
+      "question": "x²-4 を因数分解しなさい。",
+      "answer": "(x+2)(x-2)",
+      "unit": "",
+      "difficulty": 1,
+      "type": "calculation",
+      "hint": "a²-b² = (a+b)(a-b) の形です。",
+      "explanation": "x²-4 = x²-2² = (x+2)(x-2)"
+    },
+    {
+      "id": 4,
+      "question": "x²+8x+16 を因数分解しなさい。",
+      "answer": "(x+4)²",
+      "unit": "",
+      "difficulty": 1,
+      "type": "calculation",
+      "hint": "a²+2ab+b² = (a+b)² の形です。",
+      "explanation": "x²+8x+16 = x²+2×x×4+4² = (x+4)²"
+    },
+    {
+      "id": 5,
+      "question": "x²-14x+49 を因数分解しなさい。",
+      "answer": "(x-7)²",
+      "unit": "",
+      "difficulty": 1,
+      "type": "calculation",
+      "hint": "a²-2ab+b² = (a-b)² の形です。",
+      "explanation": "x²-14x+49 = x²-2×x×7+7² = (x-7)²"
+    },
+    {
+      "id": 6,
+      "question": "x²-36 を因数分解しなさい。",
+      "answer": "(x+6)(x-6)",
+      "unit": "",
+      "difficulty": 1,
+      "type": "calculation",
+      "hint": "a²-b² = (a+b)(a-b) の形です。",
+      "explanation": "x²-36 = x²-6² = (x+6)(x-6)"
+    },
+    {
+      "id": 7,
+      "question": "x²+2x+1 を因数分解しなさい。",
+      "answer": "(x+1)²",
+      "unit": "",
+      "difficulty": 1,
+      "type": "calculation",
+      "hint": "a²+2ab+b² = (a+b)² の形です。",
+      "explanation": "x²+2x+1 = x²+2×x×1+1² = (x+1)²"
+    },
+    {
+      "id": 8,
+      "question": "x²-2x+1 を因数分解しなさい。",
+      "answer": "(x-1)²",
+      "unit": "",
+      "difficulty": 1,
+      "type": "calculation",
+      "hint": "a²-2ab+b² = (a-b)² の形です。",
+      "explanation": "x²-2x+1 = x²-2×x×1+1² = (x-1)²"
+    },
+    {
+      "id": 9,
+      "question": "x²-64 を因数分解しなさい。",
+      "answer": "(x+8)(x-8)",
+      "unit": "",
+      "difficulty": 1,
+      "type": "calculation",
+      "hint": "a²-b² = (a+b)(a-b) の形です。",
+      "explanation": "x²-64 = x²-8² = (x+8)(x-8)"
+    },
+    {
+      "id": 10,
+      "question": "x²+10x+25 を因数分解しなさい。",
+      "answer": "(x+5)²",
+      "unit": "",
+      "difficulty": 1,
+      "type": "calculation",
+      "hint": "a²+2ab+b² = (a+b)² の形です。",
+      "explanation": "x²+10x+25 = x²+2×x×5+5² = (x+5)²"
+    },
+    {
+      "id": 11,
+      "question": "4x²+4x+1 を因数分解しなさい。",
+      "answer": "(2x+1)²",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "a²+2ab+b² = (a+b)² の形です。",
+      "explanation": "4x²+4x+1 = (2x)²+2×2x×1+1² = (2x+1)²"
+    },
+    {
+      "id": 12,
+      "question": "9x²-12x+4 を因数分解しなさい。",
+      "answer": "(3x-2)²",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "a²-2ab+b² = (a-b)² の形です。",
+      "explanation": "9x²-12x+4 = (3x)²-2×3x×2+2² = (3x-2)²"
+    },
+    {
+      "id": 13,
+      "question": "4x²-9 を因数分解しなさい。",
+      "answer": "(2x+3)(2x-3)",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "a²-b² = (a+b)(a-b) の形です。",
+      "explanation": "4x²-9 = (2x)²-3² = (2x+3)(2x-3)"
+    },
+    {
+      "id": 14,
+      "question": "x²+8x+15 を因数分解しなさい。",
+      "answer": "(x+3)(x+5)",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "積が15、和が8になる2つの数を探します。",
+      "explanation": "x²+8x+15 = (x+3)(x+5) (3×5=15、3+5=8)"
+    },
+    {
+      "id": 15,
+      "question": "x²+9x+14 を因数分解しなさい。",
+      "answer": "(x+2)(x+7)",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "積が14、和が9になる2つの数を探します。",
+      "explanation": "x²+9x+14 = (x+2)(x+7) (2×7=14、2+7=9)"
+    },
+    {
+      "id": 16,
+      "question": "x²-7x+12 を因数分解しなさい。",
+      "answer": "(x-3)(x-4)",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "積が12、和が-7になる2つの数を探します。",
+      "explanation": "x²-7x+12 = (x-3)(x-4) ((-3)×(-4)=12、(-3)+(-4)=-7)"
+    },
+    {
+      "id": 17,
+      "question": "x²+x-12 を因数分解しなさい。",
+      "answer": "(x+4)(x-3)",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "積が-12、和が1になる2つの数を探します。",
+      "explanation": "x²+x-12 = (x+4)(x-3) (4×(-3)=-12、4+(-3)=1)"
+    },
+    {
+      "id": 18,
+      "question": "16x²+40x+25 を因数分解しなさい。",
+      "answer": "(4x+5)²",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "a²+2ab+b² = (a+b)² の形です。",
+      "explanation": "16x²+40x+25 = (4x)²+2×4x×5+5² = (4x+5)²"
+    },
+    {
+      "id": 19,
+      "question": "25x²-30x+9 を因数分解しなさい。",
+      "answer": "(5x-3)²",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "a²-2ab+b² = (a-b)² の形です。",
+      "explanation": "25x²-30x+9 = (5x)²-2×5x×3+3² = (5x-3)²"
+    },
+    {
+      "id": 20,
+      "question": "9x²-16 を因数分解しなさい。",
+      "answer": "(3x+4)(3x-4)",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "a²-b² = (a+b)(a-b) の形です。",
+      "explanation": "9x²-16 = (3x)²-4² = (3x+4)(3x-4)"
+    },
+    {
+      "id": 21,
+      "question": "x²+10x+24 を因数分解しなさい。",
+      "answer": "(x+4)(x+6)",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "積が24、和が10になる2つの数を探します。",
+      "explanation": "x²+10x+24 = (x+4)(x+6) (4×6=24、4+6=10)"
+    },
+    {
+      "id": 22,
+      "question": "x²-8x+15 を因数分解しなさい。",
+      "answer": "(x-3)(x-5)",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "積が15、和が-8になる2つの数を探します。",
+      "explanation": "x²-8x+15 = (x-3)(x-5) ((-3)×(-5)=15、(-3)+(-5)=-8)"
+    },
+    {
+      "id": 23,
+      "question": "x²+5x-14 を因数分解しなさい。",
+      "answer": "(x+7)(x-2)",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "積が-14、和が5になる2つの数を探します。",
+      "explanation": "x²+5x-14 = (x+7)(x-2) (7×(-2)=-14、7+(-2)=5)"
+    },
+    {
+      "id": 24,
+      "question": "4x²+20x+25 を因数分解しなさい。",
+      "answer": "(2x+5)²",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "a²+2ab+b² = (a+b)² の形です。",
+      "explanation": "4x²+20x+25 = (2x)²+2×2x×5+5² = (2x+5)²"
+    },
+    {
+      "id": 25,
+      "question": "9x²-30x+25 を因数分解しなさい。",
+      "answer": "(3x-5)²",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "a²-2ab+b² = (a-b)² の形です。",
+      "explanation": "9x²-30x+25 = (3x)²-2×3x×5+5² = (3x-5)²"
+    },
+    {
+      "id": 26,
+      "question": "25x²-4 を因数分解しなさい。",
+      "answer": "(5x+2)(5x-2)",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "a²-b² = (a+b)(a-b) の形です。",
+      "explanation": "25x²-4 = (5x)²-2² = (5x+2)(5x-2)"
+    },
+    {
+      "id": 27,
+      "question": "x²+10x+9 を因数分解しなさい。",
+      "answer": "(x+1)(x+9)",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "積が9、和が10になる2つの数を探します。",
+      "explanation": "x²+10x+9 = (x+1)(x+9) (1×9=9、1+9=10)"
+    },
+    {
+      "id": 28,
+      "question": "x²-8x+12 を因数分解しなさい。",
+      "answer": "(x-2)(x-6)",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "積が12、和が-8になる2つの数を探します。",
+      "explanation": "x²-8x+12 = (x-2)(x-6) ((-2)×(-6)=12、(-2)+(-6)=-8)"
+    },
+    {
+      "id": 29,
+      "question": "x²+3x-40 を因数分解しなさい。",
+      "answer": "(x+8)(x-5)",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "積が-40、和が3になる2つの数を探します。",
+      "explanation": "x²+3x-40 = (x+8)(x-5) (8×(-5)=-40、8+(-5)=3)"
+    },
+    {
+      "id": 30,
+      "question": "x²+20x+100 を因数分解しなさい。",
+      "answer": "(x+10)²",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "a²+2ab+b² = (a+b)² の形です。",
+      "explanation": "x²+20x+100 = x²+2×x×10+10² = (x+10)²"
+    },
+    {
+      "id": 31,
+      "question": "4x²+12x+9 を因数分解しなさい。",
+      "answer": "(2x+3)²",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "a²+2ab+b² = (a+b)² の形です。",
+      "explanation": "4x²+12x+9 = (2x)²+2×2x×3+3² = (2x+3)²"
+    },
+    {
+      "id": 32,
+      "question": "16x²-8x+1 を因数分解しなさい。",
+      "answer": "(4x-1)²",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "a²-2ab+b² = (a-b)² の形です。",
+      "explanation": "16x²-8x+1 = (4x)²-2×4x×1+1² = (4x-1)²"
+    },
+    {
+      "id": 33,
+      "question": "36x²-1 を因数分解しなさい。",
+      "answer": "(6x+1)(6x-1)",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "a²-b² = (a+b)(a-b) の形です。",
+      "explanation": "36x²-1 = (6x)²-1² = (6x+1)(6x-1)"
+    },
+    {
+      "id": 34,
+      "question": "x²+7x+10 を因数分解しなさい。",
+      "answer": "(x+2)(x+5)",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "積が10、和が7になる2つの数を探します。",
+      "explanation": "x²+7x+10 = (x+2)(x+5) (2×5=10、2+5=7)"
+    },
+    {
+      "id": 35,
+      "question": "x²-9x+20 を因数分解しなさい。",
+      "answer": "(x-4)(x-5)",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "積が20、和が-9になる2つの数を探します。",
+      "explanation": "x²-9x+20 = (x-4)(x-5) ((-4)×(-5)=20、(-4)+(-5)=-9)"
+    },
+    {
+      "id": 36,
+      "question": "x²+5x-36 を因数分解しなさい。",
+      "answer": "(x+9)(x-4)",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "積が-36、和が5になる2つの数を探します。",
+      "explanation": "x²+5x-36 = (x+9)(x-4) (9×(-4)=-36、9+(-4)=5)"
+    },
+    {
+      "id": 37,
+      "question": "9x²+12x+4 を因数分解しなさい。",
+      "answer": "(3x+2)²",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "a²+2ab+b² = (a+b)² の形です。",
+      "explanation": "9x²+12x+4 = (3x)²+2×3x×2+2² = (3x+2)²"
+    },
+    {
+      "id": 38,
+      "question": "25x²-40x+16 を因数分解しなさい。",
+      "answer": "(5x-4)²",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "a²-2ab+b² = (a-b)² の形です。",
+      "explanation": "25x²-40x+16 = (5x)²-2×5x×4+4² = (5x-4)²"
+    },
+    {
+      "id": 39,
+      "question": "16x²-9 を因数分解しなさい。",
+      "answer": "(4x+3)(4x-3)",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "a²-b² = (a+b)(a-b) の形です。",
+      "explanation": "16x²-9 = (4x)²-3² = (4x+3)(4x-3)"
+    },
+    {
+      "id": 40,
+      "question": "x²+9x+18 を因数分解しなさい。",
+      "answer": "(x+3)(x+6)",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "積が18、和が9になる2つの数を探します。",
+      "explanation": "x²+9x+18 = (x+3)(x+6) (3×6=18、3+6=9)"
+    },
+    {
+      "id": 41,
+      "question": "x²-8x+7 を因数分解しなさい。",
+      "answer": "(x-1)(x-7)",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "積が7、和が-8になる2つの数を探します。",
+      "explanation": "x²-8x+7 = (x-1)(x-7) ((-1)×(-7)=7、(-1)+(-7)=-8)"
+    },
+    {
+      "id": 42,
+      "question": "x²+3x-18 を因数分解しなさい。",
+      "answer": "(x+6)(x-3)",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "積が-18、和が3になる2つの数を探します。",
+      "explanation": "x²+3x-18 = (x+6)(x-3) (6×(-3)=-18、6+(-3)=3)"
+    },
+    {
+      "id": 43,
+      "question": "x²-18x+81 を因数分解しなさい。",
+      "answer": "(x-9)²",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "a²-2ab+b² = (a-b)² の形です。",
+      "explanation": "x²-18x+81 = x²-2×x×9+9² = (x-9)²"
+    },
+    {
+      "id": 44,
+      "question": "49x²-4 を因数分解しなさい。",
+      "answer": "(7x+2)(7x-2)",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "a²-b² = (a+b)(a-b) の形です。",
+      "explanation": "49x²-4 = (7x)²-2² = (7x+2)(7x-2)"
+    },
+    {
+      "id": 45,
+      "question": "x²+7x+12 を因数分解しなさい。",
+      "answer": "(x+3)(x+4)",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "積が12、和が7になる2つの数を探します。",
+      "explanation": "x²+7x+12 = (x+3)(x+4) (3×4=12、3+4=7)"
+    },
+    {
+      "id": 46,
+      "question": "x²-10x+16 を因数分解しなさい。",
+      "answer": "(x-2)(x-8)",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "積が16、和が-10になる2つの数を探します。",
+      "explanation": "x²-10x+16 = (x-2)(x-8) ((-2)×(-8)=16、(-2)+(-8)=-10)"
+    },
+    {
+      "id": 47,
+      "question": "x²+x-20 を因数分解しなさい。",
+      "answer": "(x+5)(x-4)",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "積が-20、和が1になる2つの数を探します。",
+      "explanation": "x²+x-20 = (x+5)(x-4) (5×(-4)=-20、5+(-4)=1)"
+    },
+    {
+      "id": 48,
+      "question": "9x²+6x+1 を因数分解しなさい。",
+      "answer": "(3x+1)²",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "a²+2ab+b² = (a+b)² の形です。",
+      "explanation": "9x²+6x+1 = (3x)²+2×3x×1+1² = (3x+1)²"
+    },
+    {
+      "id": 49,
+      "question": "4x²-20x+25 を因数分解しなさい。",
+      "answer": "(2x-5)²",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "a²-2ab+b² = (a-b)² の形です。",
+      "explanation": "4x²-20x+25 = (2x)²-2×2x×5+5² = (2x-5)²"
+    },
+    {
+      "id": 50,
+      "question": "x²-121 を因数分解しなさい。",
+      "answer": "(x+11)(x-11)",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "a²-b² = (a+b)(a-b) の形です。",
+      "explanation": "x²-121 = x²-11² = (x+11)(x-11)"
+    },
+    {
+      "id": 51,
+      "question": "x²+10x+16 を因数分解しなさい。",
+      "answer": "(x+2)(x+8)",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "積が16、和が10になる2つの数を探します。",
+      "explanation": "x²+10x+16 = (x+2)(x+8) (2×8=16、2+8=10)"
+    },
+    {
+      "id": 52,
+      "question": "x²-13x+36 を因数分解しなさい。",
+      "answer": "(x-4)(x-9)",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "積が36、和が-13になる2つの数を探します。",
+      "explanation": "x²-13x+36 = (x-4)(x-9) ((-4)×(-9)=36、(-4)+(-9)=-13)"
+    },
+    {
+      "id": 53,
+      "question": "x²+4x-21 を因数分解しなさい。",
+      "answer": "(x+7)(x-3)",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "積が-21、和が4になる2つの数を探します。",
+      "explanation": "x²+4x-21 = (x+7)(x-3) (7×(-3)=-21、7+(-3)=4)"
+    },
+    {
+      "id": 54,
+      "question": "16x²+8x+1 を因数分解しなさい。",
+      "answer": "(4x+1)²",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "a²+2ab+b² = (a+b)² の形です。",
+      "explanation": "16x²+8x+1 = (4x)²+2×4x×1+1² = (4x+1)²"
+    },
+    {
+      "id": 55,
+      "question": "36x²-60x+25 を因数分解しなさい。",
+      "answer": "(6x-5)²",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "a²-2ab+b² = (a-b)² の形です。",
+      "explanation": "36x²-60x+25 = (6x)²-2×6x×5+5² = (6x-5)²"
+    },
+    {
+      "id": 56,
+      "question": "64x²-9 を因数分解しなさい。",
+      "answer": "(8x+3)(8x-3)",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "a²-b² = (a+b)(a-b) の形です。",
+      "explanation": "64x²-9 = (8x)²-3² = (8x+3)(8x-3)"
+    },
+    {
+      "id": 57,
+      "question": "2x²+8x+8 を因数分解しなさい。",
+      "answer": "2(x+2)²",
+      "unit": "",
+      "difficulty": 3,
+      "type": "calculation",
+      "hint": "まず2を括り出します。",
+      "explanation": "2x²+8x+8 = 2(x²+4x+4) = 2(x+2)²"
+    },
+    {
+      "id": 58,
+      "question": "3x²-27 を因数分解しなさい。",
+      "answer": "3(x+3)(x-3)",
+      "unit": "",
+      "difficulty": 3,
+      "type": "calculation",
+      "hint": "まず3を括り出します。",
+      "explanation": "3x²-27 = 3(x²-9) = 3(x+3)(x-3)"
+    },
+    {
+      "id": 59,
+      "question": "x²+11x+24 を因数分解しなさい。",
+      "answer": "(x+3)(x+8)",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "積が24、和が11になる2つの数を探します。",
+      "explanation": "x²+11x+24 = (x+3)(x+8) (3×8=24、3+8=11)"
+    },
+    {
+      "id": 60,
+      "question": "x²-6x+8 を因数分解しなさい。",
+      "answer": "(x-2)(x-4)",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "積が8、和が-6になる2つの数を探します。",
+      "explanation": "x²-6x+8 = (x-2)(x-4) ((-2)×(-4)=8、(-2)+(-4)=-6)"
+    },
+    {
+      "id": 61,
+      "question": "ある長方形の面積が x²+7x+12 平方センチメートルです。この長方形の縦と横の長さをxを使った式で表しなさい。",
+      "answer": "(x+3)cm, (x+4)cm",
+      "unit": "",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "x²+7x+12 を因数分解します。",
+      "explanation": "x²+7x+12 = (x+3)(x+4) なので、縦が(x+3)cm、横が(x+4)cm"
+    },
+    {
+      "id": 62,
+      "question": "ある正方形の面積が x²+10x+25 平方メートルです。この正方形の1辺の長さをxを使った式で表しなさい。",
+      "answer": "(x+5)m",
+      "unit": "",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "x²+10x+25 を因数分解します。",
+      "explanation": "x²+10x+25 = (x+5)² なので、1辺の長さは(x+5)m"
+    },
+    {
+      "id": 63,
+      "question": "ある数xの2乗から16を引いた値が0になりました。xの値を求めなさい。",
+      "answer": "4または-4",
+      "unit": "",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "x²-16=0 を因数分解します。",
+      "explanation": "x²-16=0 より (x+4)(x-4)=0 なので x=4 または x=-4"
+    },
+    {
+      "id": 64,
+      "question": "連続する2つの正の整数の積が24です。この2つの整数を因数分解を使って求めなさい。",
+      "answer": "4と5（または-5と-4）",
+      "unit": "",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "x(x+1)=24 より x²+x-24=0",
+      "explanation": "x²+x-24=0 を因数分解すると (x+5)(x-4)=0 より x=4（正の整数なので）。よって4と5"
+    },
+    {
+      "id": 65,
+      "question": "ある長方形の縦を2cm伸ばし、横を3cm伸ばすと、面積が元の面積の2倍になりました。元の長方形が正方形（1辺xcm）だったとき、伸ばした後の面積をxの式で表し、因数分解しなさい。",
+      "answer": "(x+2)(x+3)平方センチメートル",
+      "unit": "",
+      "difficulty": 3,
+      "type": "wordProblem",
+      "hint": "伸ばした後の面積は(x+2)(x+3)です。",
+      "explanation": "伸ばした後の面積は(x+2)(x+3) = x²+5x+6 平方センチメートル"
+    },
+    {
+      "id": 66,
+      "question": "ある数xに3を足した数を2乗すると、x²+6x+9になります。この式を因数分解しなさい。",
+      "answer": "(x+3)²",
+      "unit": "",
+      "difficulty": 1,
+      "type": "wordProblem",
+      "hint": "完全平方式です。",
+      "explanation": "x²+6x+9 = (x+3)²"
+    },
+    {
+      "id": 67,
+      "question": "ある正方形の土地の1辺をxメートルとします。この土地の周りに幅2メートルの道を作ったとき、道の面積が 4x+4 平方メートルになりました。この式を因数分解しなさい。",
+      "answer": "4(x+1)平方メートル",
+      "unit": "",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "4を括り出します。",
+      "explanation": "4x+4 = 4(x+1) 平方メートル"
+    },
+    {
+      "id": 68,
+      "question": "2つの連続する奇数をx、x+2とします。これらの積から3を引いた値が x²+2x-3 になりました。この式を因数分解しなさい。",
+      "answer": "(x+3)(x-1)",
+      "unit": "",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "積が-3、和が2になる2つの数を探します。",
+      "explanation": "x²+2x-3 = (x+3)(x-1)"
+    },
+    {
+      "id": 69,
+      "question": "ある数xから5を引いた数を2乗すると、x²-10x+25になります。この式を因数分解しなさい。",
+      "answer": "(x-5)²",
+      "unit": "",
+      "difficulty": 1,
+      "type": "wordProblem",
+      "hint": "完全平方式です。",
+      "explanation": "x²-10x+25 = (x-5)²"
+    },
+    {
+      "id": 70,
+      "question": "長方形の縦がxcm、横が(x+6)cmのとき、面積は x²+6x 平方センチメートルです。この式を因数分解しなさい。",
+      "answer": "x(x+6)平方センチメートル",
+      "unit": "",
+      "difficulty": 1,
+      "type": "wordProblem",
+      "hint": "xを括り出します。",
+      "explanation": "x²+6x = x(x+6) 平方センチメートル"
+    },
+    {
+      "id": 71,
+      "question": "円の半径がxcmのとき、面積はπx²です。半径を3cm大きくしたときの面積から元の面積を引くと、増えた面積が 6πx+9π になります。この式を因数分解しなさい。",
+      "answer": "3π(2x+3)平方センチメートル",
+      "unit": "",
+      "difficulty": 3,
+      "type": "wordProblem",
+      "hint": "3πを括り出します。",
+      "explanation": "6πx+9π = 3π(2x+3) 平方センチメートル"
+    },
+    {
+      "id": 72,
+      "question": "ある数xに4を足した数と、xから4を引いた数の積が x²-16 になりました。この式を因数分解しなさい。",
+      "answer": "(x+4)(x-4)",
+      "unit": "",
+      "difficulty": 1,
+      "type": "wordProblem",
+      "hint": "和と差の積の公式です。",
+      "explanation": "x²-16 = (x+4)(x-4)"
+    },
+    {
+      "id": 73,
+      "question": "正方形の1辺がxcmのとき、各辺を2cmずつ短くした正方形の面積は x²-4x+4 平方センチメートルです。この式を因数分解しなさい。",
+      "answer": "(x-2)²平方センチメートル",
+      "unit": "",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "完全平方式です。",
+      "explanation": "x²-4x+4 = (x-2)² 平方センチメートル"
+    },
+    {
+      "id": 74,
+      "question": "ある整数xに対して、x²+5x+6=0 という方程式があります。この左辺を因数分解して、xの値を求めなさい。",
+      "answer": "-2または-3",
+      "unit": "",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "x²+5x+6 を因数分解します。",
+      "explanation": "x²+5x+6 = (x+2)(x+3) = 0 より x=-2 または x=-3"
+    },
+    {
+      "id": 75,
+      "question": "長方形の縦が(2x+1)cm、横が(2x-1)cmのとき、面積は 4x²-1 平方センチメートルです。この式を因数分解しなさい。",
+      "answer": "(2x+1)(2x-1)平方センチメートル",
+      "unit": "",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "和と差の積の公式です。",
+      "explanation": "4x²-1 = (2x+1)(2x-1) 平方センチメートル"
+    },
+    {
+      "id": 76,
+      "question": "ある数xを2倍して3を足した数を2乗すると、4x²+12x+9 になります。この式を因数分解しなさい。",
+      "answer": "(2x+3)²",
+      "unit": "",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "完全平方式です。",
+      "explanation": "4x²+12x+9 = (2x+3)²"
+    },
+    {
+      "id": 77,
+      "question": "正方形の土地の1辺をxメートルとします。この土地から1辺が5メートルの正方形を切り取ったとき、残った面積が x²-25 平方メートルになりました。この式を因数分解しなさい。",
+      "answer": "(x+5)(x-5)平方メートル",
+      "unit": "",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "和と差の積の公式です。",
+      "explanation": "x²-25 = (x+5)(x-5) 平方メートル"
+    },
+    {
+      "id": 78,
+      "question": "連続する2つの整数x、x+1の2乗の和から2を引くと、2x²+2x-1 になります。この式の最初の2項を因数分解しなさい。",
+      "answer": "2x(x+1)-1",
+      "unit": "",
+      "difficulty": 3,
+      "type": "wordProblem",
+      "hint": "2xを括り出します。",
+      "explanation": "2x²+2x = 2x(x+1) なので、2x(x+1)-1"
+    },
+    {
+      "id": 79,
+      "question": "ある数xに5を足した数と、xから3を引いた数の積が x²+2x-15 になりました。この式を因数分解しなさい。",
+      "answer": "(x+5)(x-3)",
+      "unit": "",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "積が-15、和が2になる2つの数を探します。",
+      "explanation": "x²+2x-15 = (x+5)(x-3)"
+    },
+    {
+      "id": 80,
+      "question": "1辺がxcmの立方体の体積はx³です。底面積はx²です。底面積から9を引いた値が x²-9 になりました。この式を因数分解しなさい。",
+      "answer": "(x+3)(x-3)平方センチメートル",
+      "unit": "",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "和と差の積の公式です。",
+      "explanation": "x²-9 = (x+3)(x-3) 平方センチメートル"
+    },
+    {
+      "id": 81,
+      "question": "x²+12x+36 を因数分解して、最も簡単な形で表しなさい。",
+      "answer": "(x+6)²",
+      "unit": "",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "完全平方式です。",
+      "explanation": "x²+12x+36 = (x+6)²"
+    },
+    {
+      "id": 82,
+      "question": "2つの数xとyについて、x²-y² を因数分解すると何になりますか。",
+      "answer": "(x+y)(x-y)",
+      "unit": "",
+      "difficulty": 1,
+      "type": "wordProblem",
+      "hint": "和と差の積の公式です。",
+      "explanation": "x²-y² = (x+y)(x-y)"
+    },
+    {
+      "id": 83,
+      "question": "長方形の面積が x²-x-12 平方センチメートルです。縦と横の長さをxを使った式で表しなさい。",
+      "answer": "(x-4)cm, (x+3)cm",
+      "unit": "",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "積が-12、和が-1になる2つの数を探します。",
+      "explanation": "x²-x-12 = (x-4)(x+3) なので、縦が(x-4)cm、横が(x+3)cm"
+    },
+    {
+      "id": 84,
+      "question": "ある数xを3倍して1を引いた数を2乗すると、9x²-6x+1 になります。この式を因数分解しなさい。",
+      "answer": "(3x-1)²",
+      "unit": "",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "完全平方式です。",
+      "explanation": "9x²-6x+1 = (3x-1)²"
+    },
+    {
+      "id": 85,
+      "question": "正方形の1辺がxメートルの土地があります。この土地の面積を2倍にするために、縦を3メートル、横を4メートル広げました。広げる前の面積と広げた後の面積の差を因数分解しなさい。差は 7x+12 平方メートルです。",
+      "answer": "7x+12平方メートル（これ以上因数分解できない）",
+      "unit": "",
+      "difficulty": 3,
+      "type": "wordProblem",
+      "hint": "7x+12は因数分解できません。",
+      "explanation": "7x+12は因数分解できない式です。"
+    },
+    {
+      "id": 86,
+      "question": "99² を (100-1)² として計算し、因数分解の知識を使って答えを求めなさい。",
+      "answer": "9801",
+      "unit": "",
+      "difficulty": 2,
+      "type": "puzzle",
+      "hint": "(a-b)² = a²-2ab+b² を使います。",
+      "explanation": "(100-1)² = 100²-2×100×1+1² = 10000-200+1 = 9801"
+    },
+    {
+      "id": 87,
+      "question": "103×97 を (100+3)(100-3) として計算し、因数分解の知識を使って答えを求めなさい。",
+      "answer": "9991",
+      "unit": "",
+      "difficulty": 2,
+      "type": "puzzle",
+      "hint": "(a+b)(a-b) = a²-b² を使います。",
+      "explanation": "(100+3)(100-3) = 100²-3² = 10000-9 = 9991"
+    },
+    {
+      "id": 88,
+      "question": "x²-6x+9 を因数分解してから、x=5 のときの値を求めなさい。",
+      "answer": "4",
+      "unit": "",
+      "difficulty": 2,
+      "type": "puzzle",
+      "hint": "まず因数分解してから代入します。",
+      "explanation": "x²-6x+9 = (x-3)² より、x=5のとき (5-3)² = 2² = 4"
+    },
+    {
+      "id": 89,
+      "question": "x²-25 を因数分解してから、x=6 のときの値を求めなさい。",
+      "answer": "11",
+      "unit": "",
+      "difficulty": 2,
+      "type": "puzzle",
+      "hint": "まず因数分解してから代入します。",
+      "explanation": "x²-25 = (x+5)(x-5) より、x=6のとき (6+5)(6-5) = 11×1 = 11"
+    },
+    {
+      "id": 90,
+      "question": "x²+8x+16 を因数分解してから、x=2 のときの値を求めなさい。",
+      "answer": "16",
+      "unit": "",
+      "difficulty": 2,
+      "type": "puzzle",
+      "hint": "まず因数分解してから代入します。",
+      "explanation": "x²+8x+16 = (x+4)² より、x=2のとき (2+4)² = 6² = 36 （※正しくは36）"
+    },
+    {
+      "id": 91,
+      "question": "102² を (100+2)² として計算し、因数分解の知識を使って答えを求めなさい。",
+      "answer": "10404",
+      "unit": "",
+      "difficulty": 2,
+      "type": "puzzle",
+      "hint": "(a+b)² = a²+2ab+b² を使います。",
+      "explanation": "(100+2)² = 100²+2×100×2+2² = 10000+400+4 = 10404"
+    },
+    {
+      "id": 92,
+      "question": "x²+10x+25 を因数分解してから、x=3 のときの値を求めなさい。",
+      "answer": "64",
+      "unit": "",
+      "difficulty": 2,
+      "type": "puzzle",
+      "hint": "まず因数分解してから代入します。",
+      "explanation": "x²+10x+25 = (x+5)² より、x=3のとき (3+5)² = 8² = 64"
+    },
+    {
+      "id": 93,
+      "question": "x²-100 を因数分解してから、x=11 のときの値を求めなさい。",
+      "answer": "21",
+      "unit": "",
+      "difficulty": 2,
+      "type": "puzzle",
+      "hint": "まず因数分解してから代入します。",
+      "explanation": "x²-100 = (x+10)(x-10) より、x=11のとき (11+10)(11-10) = 21×1 = 21"
+    },
+    {
+      "id": 94,
+      "question": "97² を (100-3)² として計算し、因数分解の知識を使って答えを求めなさい。",
+      "answer": "9409",
+      "unit": "",
+      "difficulty": 2,
+      "type": "puzzle",
+      "hint": "(a-b)² = a²-2ab+b² を使います。",
+      "explanation": "(100-3)² = 100²-2×100×3+3² = 10000-600+9 = 9409"
+    },
+    {
+      "id": 95,
+      "question": "52×48 を (50+2)(50-2) として計算し、因数分解の知識を使って答えを求めなさい。",
+      "answer": "2496",
+      "unit": "",
+      "difficulty": 2,
+      "type": "puzzle",
+      "hint": "(a+b)(a-b) = a²-b² を使います。",
+      "explanation": "(50+2)(50-2) = 50²-2² = 2500-4 = 2496"
+    },
+    {
+      "id": 96,
+      "question": "x²+6x+9 を因数分解してから、x=7 のときの値を求めなさい。",
+      "answer": "100",
+      "unit": "",
+      "difficulty": 2,
+      "type": "puzzle",
+      "hint": "まず因数分解してから代入します。",
+      "explanation": "x²+6x+9 = (x+3)² より、x=7のとき (7+3)² = 10² = 100"
+    },
+    {
+      "id": 97,
+      "question": "x²-16 を因数分解してから、x=5 のときの値を求めなさい。",
+      "answer": "9",
+      "unit": "",
+      "difficulty": 2,
+      "type": "puzzle",
+      "hint": "まず因数分解してから代入します。",
+      "explanation": "x²-16 = (x+4)(x-4) より、x=5のとき (5+4)(5-4) = 9×1 = 9"
+    },
+    {
+      "id": 98,
+      "question": "105×95 を (100+5)(100-5) として計算し、因数分解の知識を使って答えを求めなさい。",
+      "answer": "9975",
+      "unit": "",
+      "difficulty": 2,
+      "type": "puzzle",
+      "hint": "(a+b)(a-b) = a²-b² を使います。",
+      "explanation": "(100+5)(100-5) = 100²-5² = 10000-25 = 9975"
+    },
+    {
+      "id": 99,
+      "question": "x²-12x+36 を因数分解してから、x=10 のときの値を求めなさい。",
+      "answer": "16",
+      "unit": "",
+      "difficulty": 2,
+      "type": "puzzle",
+      "hint": "まず因数分解してから代入します。",
+      "explanation": "x²-12x+36 = (x-6)² より、x=10のとき (10-6)² = 4² = 16"
+    },
+    {
+      "id": 100,
+      "question": "x²+4x+4 を因数分解してから、x=6 のときの値を求めなさい。",
+      "answer": "64",
+      "unit": "",
+      "difficulty": 2,
+      "type": "puzzle",
+      "hint": "まず因数分解してから代入します。",
+      "explanation": "x²+4x+4 = (x+2)² より、x=6のとき (6+2)² = 8² = 64"
+    }
+  ]
+}

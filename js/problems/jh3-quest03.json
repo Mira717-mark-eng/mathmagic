@@ -1,0 +1,1009 @@
+{
+  "questId": "jh3-quest03",
+  "quest_name": "平方根",
+  "grade": "中3",
+  "difficulty": "basic",
+  "topic": "平方根",
+  "problems": [
+    {
+      "id": 1,
+      "question": "√9 の値を求めなさい。",
+      "answer": "3",
+      "unit": "",
+      "difficulty": 1,
+      "type": "calculation",
+      "hint": "3²=9 なので √9=3 です。",
+      "explanation": "√9 = 3（3×3=9）"
+    },
+    {
+      "id": 2,
+      "question": "√16 の値を求めなさい。",
+      "answer": "4",
+      "unit": "",
+      "difficulty": 1,
+      "type": "calculation",
+      "hint": "4²=16 なので √16=4 です。",
+      "explanation": "√16 = 4（4×4=16）"
+    },
+    {
+      "id": 3,
+      "question": "√25 の値を求めなさい。",
+      "answer": "5",
+      "unit": "",
+      "difficulty": 1,
+      "type": "calculation",
+      "hint": "5²=25 なので √25=5 です。",
+      "explanation": "√25 = 5（5×5=25）"
+    },
+    {
+      "id": 4,
+      "question": "√36 の値を求めなさい。",
+      "answer": "6",
+      "unit": "",
+      "difficulty": 1,
+      "type": "calculation",
+      "hint": "6²=36 なので √36=6 です。",
+      "explanation": "√36 = 6（6×6=36）"
+    },
+    {
+      "id": 5,
+      "question": "√49 の値を求めなさい。",
+      "answer": "7",
+      "unit": "",
+      "difficulty": 1,
+      "type": "calculation",
+      "hint": "7²=49 なので √49=7 です。",
+      "explanation": "√49 = 7（7×7=49）"
+    },
+    {
+      "id": 6,
+      "question": "√64 の値を求めなさい。",
+      "answer": "8",
+      "unit": "",
+      "difficulty": 1,
+      "type": "calculation",
+      "hint": "8²=64 なので √64=8 です。",
+      "explanation": "√64 = 8（8×8=64）"
+    },
+    {
+      "id": 7,
+      "question": "√81 の値を求めなさい。",
+      "answer": "9",
+      "unit": "",
+      "difficulty": 1,
+      "type": "calculation",
+      "hint": "9²=81 なので √81=9 です。",
+      "explanation": "√81 = 9（9×9=81）"
+    },
+    {
+      "id": 8,
+      "question": "√100 の値を求めなさい。",
+      "answer": "10",
+      "unit": "",
+      "difficulty": 1,
+      "type": "calculation",
+      "hint": "10²=100 なので √100=10 です。",
+      "explanation": "√100 = 10（10×10=100）"
+    },
+    {
+      "id": 9,
+      "question": "√121 の値を求めなさい。",
+      "answer": "11",
+      "unit": "",
+      "difficulty": 1,
+      "type": "calculation",
+      "hint": "11²=121 なので √121=11 です。",
+      "explanation": "√121 = 11（11×11=121）"
+    },
+    {
+      "id": 10,
+      "question": "√144 の値を求めなさい。",
+      "answer": "12",
+      "unit": "",
+      "difficulty": 1,
+      "type": "calculation",
+      "hint": "12²=144 なので √144=12 です。",
+      "explanation": "√144 = 12（12×12=144）"
+    },
+    {
+      "id": 11,
+      "question": "√4 の値を求めなさい。",
+      "answer": "2",
+      "unit": "",
+      "difficulty": 1,
+      "type": "calculation",
+      "hint": "2²=4 なので √4=2 です。",
+      "explanation": "√4 = 2（2×2=4）"
+    },
+    {
+      "id": 12,
+      "question": "√1 の値を求めなさい。",
+      "answer": "1",
+      "unit": "",
+      "difficulty": 1,
+      "type": "calculation",
+      "hint": "1²=1 なので √1=1 です。",
+      "explanation": "√1 = 1（1×1=1）"
+    },
+    {
+      "id": 13,
+      "question": "√169 の値を求めなさい。",
+      "answer": "13",
+      "unit": "",
+      "difficulty": 1,
+      "type": "calculation",
+      "hint": "13²=169 なので √169=13 です。",
+      "explanation": "√169 = 13（13×13=169）"
+    },
+    {
+      "id": 14,
+      "question": "√196 の値を求めなさい。",
+      "answer": "14",
+      "unit": "",
+      "difficulty": 1,
+      "type": "calculation",
+      "hint": "14²=196 なので √196=14 です。",
+      "explanation": "√196 = 14（14×14=196）"
+    },
+    {
+      "id": 15,
+      "question": "√225 の値を求めなさい。",
+      "answer": "15",
+      "unit": "",
+      "difficulty": 1,
+      "type": "calculation",
+      "hint": "15²=225 なので √225=15 です。",
+      "explanation": "√225 = 15（15×15=225）"
+    },
+    {
+      "id": 16,
+      "question": "2² の値を求めなさい。",
+      "answer": "4",
+      "unit": "",
+      "difficulty": 1,
+      "type": "calculation",
+      "hint": "2×2を計算します。",
+      "explanation": "2² = 2×2 = 4"
+    },
+    {
+      "id": 17,
+      "question": "5² の値を求めなさい。",
+      "answer": "25",
+      "unit": "",
+      "difficulty": 1,
+      "type": "calculation",
+      "hint": "5×5を計算します。",
+      "explanation": "5² = 5×5 = 25"
+    },
+    {
+      "id": 18,
+      "question": "(√7)² の値を求めなさい。",
+      "answer": "7",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(√a)² = a です。",
+      "explanation": "(√7)² = 7"
+    },
+    {
+      "id": 19,
+      "question": "(√10)² の値を求めなさい。",
+      "answer": "10",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(√a)² = a です。",
+      "explanation": "(√10)² = 10"
+    },
+    {
+      "id": 20,
+      "question": "√(3²) の値を求めなさい。",
+      "answer": "3",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√(a²) = a（a>0）です。",
+      "explanation": "√(3²) = √9 = 3"
+    },
+    {
+      "id": 21,
+      "question": "√0.25 の値を求めなさい。",
+      "answer": "0.5",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "0.5²=0.25 なので √0.25=0.5 です。",
+      "explanation": "√0.25 = 0.5（0.5×0.5=0.25）"
+    },
+    {
+      "id": 22,
+      "question": "√0.01 の値を求めなさい。",
+      "answer": "0.1",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "0.1²=0.01 なので √0.01=0.1 です。",
+      "explanation": "√0.01 = 0.1（0.1×0.1=0.01）"
+    },
+    {
+      "id": 23,
+      "question": "√(1/4) の値を求めなさい。",
+      "answer": "1/2",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(1/2)²=1/4 なので √(1/4)=1/2 です。",
+      "explanation": "√(1/4) = 1/2"
+    },
+    {
+      "id": 24,
+      "question": "√(1/9) の値を求めなさい。",
+      "answer": "1/3",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(1/3)²=1/9 なので √(1/9)=1/3 です。",
+      "explanation": "√(1/9) = 1/3"
+    },
+    {
+      "id": 25,
+      "question": "√(4/9) の値を求めなさい。",
+      "answer": "2/3",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√(4/9) = √4/√9 = 2/3 です。",
+      "explanation": "√(4/9) = √4/√9 = 2/3"
+    },
+    {
+      "id": 26,
+      "question": "√(9/16) の値を求めなさい。",
+      "answer": "3/4",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√(9/16) = √9/√16 = 3/4 です。",
+      "explanation": "√(9/16) = √9/√16 = 3/4"
+    },
+    {
+      "id": 27,
+      "question": "-√25 の値を求めなさい。",
+      "answer": "-5",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√25=5 なので -√25=-5 です。",
+      "explanation": "-√25 = -5"
+    },
+    {
+      "id": 28,
+      "question": "-√36 の値を求めなさい。",
+      "answer": "-6",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√36=6 なので -√36=-6 です。",
+      "explanation": "-√36 = -6"
+    },
+    {
+      "id": 29,
+      "question": "√256 の値を求めなさい。",
+      "answer": "16",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "16²=256 なので √256=16 です。",
+      "explanation": "√256 = 16（16×16=256）"
+    },
+    {
+      "id": 30,
+      "question": "√400 の値を求めなさい。",
+      "answer": "20",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "20²=400 なので √400=20 です。",
+      "explanation": "√400 = 20（20×20=400）"
+    },
+    {
+      "id": 31,
+      "question": "2√4 の値を求めなさい。",
+      "answer": "4",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√4=2 なので 2√4=2×2=4 です。",
+      "explanation": "2√4 = 2×2 = 4"
+    },
+    {
+      "id": 32,
+      "question": "3√9 の値を求めなさい。",
+      "answer": "9",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√9=3 なので 3√9=3×3=9 です。",
+      "explanation": "3√9 = 3×3 = 9"
+    },
+    {
+      "id": 33,
+      "question": "√16 + √9 の値を求めなさい。",
+      "answer": "7",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√16=4、√9=3 なので 4+3=7 です。",
+      "explanation": "√16 + √9 = 4 + 3 = 7"
+    },
+    {
+      "id": 34,
+      "question": "√25 - √16 の値を求めなさい。",
+      "answer": "1",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√25=5、√16=4 なので 5-4=1 です。",
+      "explanation": "√25 - √16 = 5 - 4 = 1"
+    },
+    {
+      "id": 35,
+      "question": "√49 + √36 の値を求めなさい。",
+      "answer": "13",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√49=7、√36=6 なので 7+6=13 です。",
+      "explanation": "√49 + √36 = 7 + 6 = 13"
+    },
+    {
+      "id": 36,
+      "question": "√100 - √64 の値を求めなさい。",
+      "answer": "2",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√100=10、√64=8 なので 10-8=2 です。",
+      "explanation": "√100 - √64 = 10 - 8 = 2"
+    },
+    {
+      "id": 37,
+      "question": "√81 + √1 の値を求めなさい。",
+      "answer": "10",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√81=9、√1=1 なので 9+1=10 です。",
+      "explanation": "√81 + √1 = 9 + 1 = 10"
+    },
+    {
+      "id": 38,
+      "question": "√144 - √121 の値を求めなさい。",
+      "answer": "1",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√144=12、√121=11 なので 12-11=1 です。",
+      "explanation": "√144 - √121 = 12 - 11 = 1"
+    },
+    {
+      "id": 39,
+      "question": "2√16 の値を求めなさい。",
+      "answer": "8",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√16=4 なので 2×4=8 です。",
+      "explanation": "2√16 = 2×4 = 8"
+    },
+    {
+      "id": 40,
+      "question": "5√4 の値を求めなさい。",
+      "answer": "10",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√4=2 なので 5×2=10 です。",
+      "explanation": "5√4 = 5×2 = 10"
+    },
+    {
+      "id": 41,
+      "question": "√(6²) の値を求めなさい。",
+      "answer": "6",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√(a²) = a（a>0）です。",
+      "explanation": "√(6²) = √36 = 6"
+    },
+    {
+      "id": 42,
+      "question": "(√11)² の値を求めなさい。",
+      "answer": "11",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(√a)² = a です。",
+      "explanation": "(√11)² = 11"
+    },
+    {
+      "id": 43,
+      "question": "√0.04 の値を求めなさい。",
+      "answer": "0.2",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "0.2²=0.04 なので √0.04=0.2 です。",
+      "explanation": "√0.04 = 0.2（0.2×0.2=0.04）"
+    },
+    {
+      "id": 44,
+      "question": "√0.36 の値を求めなさい。",
+      "answer": "0.6",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "0.6²=0.36 なので √0.36=0.6 です。",
+      "explanation": "√0.36 = 0.6（0.6×0.6=0.36）"
+    },
+    {
+      "id": 45,
+      "question": "√(1/16) の値を求めなさい。",
+      "answer": "1/4",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√(1/16) = √1/√16 = 1/4 です。",
+      "explanation": "√(1/16) = √1/√16 = 1/4"
+    },
+    {
+      "id": 46,
+      "question": "√(25/36) の値を求めなさい。",
+      "answer": "5/6",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√(25/36) = √25/√36 = 5/6 です。",
+      "explanation": "√(25/36) = √25/√36 = 5/6"
+    },
+    {
+      "id": 47,
+      "question": "-√49 の値を求めなさい。",
+      "answer": "-7",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√49=7 なので -√49=-7 です。",
+      "explanation": "-√49 = -7"
+    },
+    {
+      "id": 48,
+      "question": "-√100 の値を求めなさい。",
+      "answer": "-10",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√100=10 なので -√100=-10 です。",
+      "explanation": "-√100 = -10"
+    },
+    {
+      "id": 49,
+      "question": "√625 の値を求めなさい。",
+      "answer": "25",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "25²=625 なので √625=25 です。",
+      "explanation": "√625 = 25（25×25=625）"
+    },
+    {
+      "id": 50,
+      "question": "√900 の値を求めなさい。",
+      "answer": "30",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "30²=900 なので √900=30 です。",
+      "explanation": "√900 = 30（30×30=900）"
+    },
+    {
+      "id": 51,
+      "question": "4√9 の値を求めなさい。",
+      "answer": "12",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√9=3 なので 4×3=12 です。",
+      "explanation": "4√9 = 4×3 = 12"
+    },
+    {
+      "id": 52,
+      "question": "√64 + √25 の値を求めなさい。",
+      "answer": "13",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√64=8、√25=5 なので 8+5=13 です。",
+      "explanation": "√64 + √25 = 8 + 5 = 13"
+    },
+    {
+      "id": 53,
+      "question": "√121 - √81 の値を求めなさい。",
+      "answer": "2",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√121=11、√81=9 なので 11-9=2 です。",
+      "explanation": "√121 - √81 = 11 - 9 = 2"
+    },
+    {
+      "id": 54,
+      "question": "3√25 の値を求めなさい。",
+      "answer": "15",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√25=5 なので 3×5=15 です。",
+      "explanation": "3√25 = 3×5 = 15"
+    },
+    {
+      "id": 55,
+      "question": "√(8²) の値を求めなさい。",
+      "answer": "8",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√(a²) = a（a>0）です。",
+      "explanation": "√(8²) = √64 = 8"
+    },
+    {
+      "id": 56,
+      "question": "面積が25平方センチメートルの正方形の1辺の長さを求めなさい。",
+      "answer": "5",
+      "unit": "cm",
+      "difficulty": 1,
+      "type": "wordProblem",
+      "hint": "正方形の面積=（1辺）² なので、1辺=√25 です。",
+      "explanation": "1辺の長さは √25 = 5cm"
+    },
+    {
+      "id": 57,
+      "question": "面積が64平方メートルの正方形の1辺の長さを求めなさい。",
+      "answer": "8",
+      "unit": "m",
+      "difficulty": 1,
+      "type": "wordProblem",
+      "hint": "正方形の面積=（1辺）² なので、1辺=√64 です。",
+      "explanation": "1辺の長さは √64 = 8m"
+    },
+    {
+      "id": 58,
+      "question": "面積が100平方センチメートルの正方形の1辺の長さを求めなさい。",
+      "answer": "10",
+      "unit": "cm",
+      "difficulty": 1,
+      "type": "wordProblem",
+      "hint": "正方形の面積=（1辺）² なので、1辺=√100 です。",
+      "explanation": "1辺の長さは √100 = 10cm"
+    },
+    {
+      "id": 59,
+      "question": "面積が144平方メートルの正方形の畑があります。この畑の1辺の長さを求めなさい。",
+      "answer": "12",
+      "unit": "m",
+      "difficulty": 1,
+      "type": "wordProblem",
+      "hint": "正方形の面積=（1辺）² なので、1辺=√144 です。",
+      "explanation": "1辺の長さは √144 = 12m"
+    },
+    {
+      "id": 60,
+      "question": "x²=49 のとき、正の数xの値を求めなさい。",
+      "answer": "7",
+      "unit": "",
+      "difficulty": 1,
+      "type": "wordProblem",
+      "hint": "x²=49 なので x=√49 です。",
+      "explanation": "x = √49 = 7"
+    },
+    {
+      "id": 61,
+      "question": "x²=81 のとき、正の数xの値を求めなさい。",
+      "answer": "9",
+      "unit": "",
+      "difficulty": 1,
+      "type": "wordProblem",
+      "hint": "x²=81 なので x=√81 です。",
+      "explanation": "x = √81 = 9"
+    },
+    {
+      "id": 62,
+      "question": "面積が36平方センチメートルの正方形の1辺の長さを求めなさい。",
+      "answer": "6",
+      "unit": "cm",
+      "difficulty": 1,
+      "type": "wordProblem",
+      "hint": "正方形の面積=（1辺）² なので、1辺=√36 です。",
+      "explanation": "1辺の長さは √36 = 6cm"
+    },
+    {
+      "id": 63,
+      "question": "ある正方形の土地の面積が225平方メートルです。この土地の1辺の長さを求めなさい。",
+      "answer": "15",
+      "unit": "m",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "正方形の面積=（1辺）² なので、1辺=√225 です。",
+      "explanation": "1辺の長さは √225 = 15m"
+    },
+    {
+      "id": 64,
+      "question": "x²=16 のとき、正の数xの値を求めなさい。",
+      "answer": "4",
+      "unit": "",
+      "difficulty": 1,
+      "type": "wordProblem",
+      "hint": "x²=16 なので x=√16 です。",
+      "explanation": "x = √16 = 4"
+    },
+    {
+      "id": 65,
+      "question": "面積が196平方センチメートルの正方形の1辺の長さを求めなさい。",
+      "answer": "14",
+      "unit": "cm",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "正方形の面積=（1辺）² なので、1辺=√196 です。",
+      "explanation": "1辺の長さは √196 = 14cm"
+    },
+    {
+      "id": 66,
+      "question": "2²=4 という関係があります。同様に、3²はいくつですか。",
+      "answer": "9",
+      "unit": "",
+      "difficulty": 1,
+      "type": "wordProblem",
+      "hint": "3×3を計算します。",
+      "explanation": "3² = 3×3 = 9"
+    },
+    {
+      "id": 67,
+      "question": "√16=4 という関係があります。同様に、√25はいくつですか。",
+      "answer": "5",
+      "unit": "",
+      "difficulty": 1,
+      "type": "wordProblem",
+      "hint": "5²=25 なので √25=5 です。",
+      "explanation": "√25 = 5"
+    },
+    {
+      "id": 68,
+      "question": "ある数を2乗すると36になります。この数はいくつですか（正の数）。",
+      "answer": "6",
+      "unit": "",
+      "difficulty": 1,
+      "type": "wordProblem",
+      "hint": "x²=36 なので x=√36 です。",
+      "explanation": "√36 = 6"
+    },
+    {
+      "id": 69,
+      "question": "面積が4平方メートルの正方形の1辺の長さを求めなさい。",
+      "answer": "2",
+      "unit": "m",
+      "difficulty": 1,
+      "type": "wordProblem",
+      "hint": "正方形の面積=（1辺）² なので、1辺=√4 です。",
+      "explanation": "1辺の長さは √4 = 2m"
+    },
+    {
+      "id": 70,
+      "question": "x²=121 のとき、正の数xの値を求めなさい。",
+      "answer": "11",
+      "unit": "",
+      "difficulty": 1,
+      "type": "wordProblem",
+      "hint": "x²=121 なので x=√121 です。",
+      "explanation": "x = √121 = 11"
+    },
+    {
+      "id": 71,
+      "question": "面積が169平方センチメートルの正方形の1辺の長さを求めなさい。",
+      "answer": "13",
+      "unit": "cm",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "正方形の面積=（1辺）² なので、1辺=√169 です。",
+      "explanation": "1辺の長さは √169 = 13cm"
+    },
+    {
+      "id": 72,
+      "question": "ある数を2乗すると100になります。この数はいくつですか（正の数）。",
+      "answer": "10",
+      "unit": "",
+      "difficulty": 1,
+      "type": "wordProblem",
+      "hint": "x²=100 なので x=√100 です。",
+      "explanation": "√100 = 10"
+    },
+    {
+      "id": 73,
+      "question": "面積が9平方メートルの正方形の1辺の長さを求めなさい。",
+      "answer": "3",
+      "unit": "m",
+      "difficulty": 1,
+      "type": "wordProblem",
+      "hint": "正方形の面積=（1辺）² なので、1辺=√9 です。",
+      "explanation": "1辺の長さは √9 = 3m"
+    },
+    {
+      "id": 74,
+      "question": "x²=64 のとき、正の数xの値を求めなさい。",
+      "answer": "8",
+      "unit": "",
+      "difficulty": 1,
+      "type": "wordProblem",
+      "hint": "x²=64 なので x=√64 です。",
+      "explanation": "x = √64 = 8"
+    },
+    {
+      "id": 75,
+      "question": "ある正方形の土地の面積が400平方メートルです。この土地の1辺の長さを求めなさい。",
+      "answer": "20",
+      "unit": "m",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "正方形の面積=（1辺）² なので、1辺=√400 です。",
+      "explanation": "1辺の長さは √400 = 20m"
+    },
+    {
+      "id": 76,
+      "question": "√9 と √16 のどちらが大きいですか。",
+      "answer": "√16",
+      "unit": "",
+      "difficulty": 1,
+      "type": "wordProblem",
+      "hint": "√9=3、√16=4 なので、√16の方が大きいです。",
+      "explanation": "√9=3、√16=4 より、√16 の方が大きい"
+    },
+    {
+      "id": 77,
+      "question": "√25 と √36 のどちらが大きいですか。",
+      "answer": "√36",
+      "unit": "",
+      "difficulty": 1,
+      "type": "wordProblem",
+      "hint": "√25=5、√36=6 なので、√36の方が大きいです。",
+      "explanation": "√25=5、√36=6 より、√36 の方が大きい"
+    },
+    {
+      "id": 78,
+      "question": "面積が1平方センチメートルの正方形の1辺の長さを求めなさい。",
+      "answer": "1",
+      "unit": "cm",
+      "difficulty": 1,
+      "type": "wordProblem",
+      "hint": "正方形の面積=（1辺）² なので、1辺=√1 です。",
+      "explanation": "1辺の長さは √1 = 1cm"
+    },
+    {
+      "id": 79,
+      "question": "ある数を2乗すると144になります。この数はいくつですか（正の数）。",
+      "answer": "12",
+      "unit": "",
+      "difficulty": 1,
+      "type": "wordProblem",
+      "hint": "x²=144 なので x=√144 です。",
+      "explanation": "√144 = 12"
+    },
+    {
+      "id": 80,
+      "question": "x²=25 のとき、正の数xの値を求めなさい。",
+      "answer": "5",
+      "unit": "",
+      "difficulty": 1,
+      "type": "wordProblem",
+      "hint": "x²=25 なので x=√25 です。",
+      "explanation": "x = √25 = 5"
+    },
+    {
+      "id": 81,
+      "question": "面積が256平方センチメートルの正方形の1辺の長さを求めなさい。",
+      "answer": "16",
+      "unit": "cm",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "正方形の面積=（1辺）² なので、1辺=√256 です。",
+      "explanation": "1辺の長さは √256 = 16cm"
+    },
+    {
+      "id": 82,
+      "question": "√49 と √64 の和を求めなさい。",
+      "answer": "15",
+      "unit": "",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "√49=7、√64=8 なので 7+8=15 です。",
+      "explanation": "√49 + √64 = 7 + 8 = 15"
+    },
+    {
+      "id": 83,
+      "question": "√100 と √81 の差を求めなさい。",
+      "answer": "1",
+      "unit": "",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "√100=10、√81=9 なので 10-9=1 です。",
+      "explanation": "√100 - √81 = 10 - 9 = 1"
+    },
+    {
+      "id": 84,
+      "question": "ある数を2乗すると225になります。この数はいくつですか（正の数）。",
+      "answer": "15",
+      "unit": "",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "x²=225 なので x=√225 です。",
+      "explanation": "√225 = 15"
+    },
+    {
+      "id": 85,
+      "question": "面積が625平方メートルの正方形の畑があります。この畑の1辺の長さを求めなさい。",
+      "answer": "25",
+      "unit": "m",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "正方形の面積=（1辺）² なので、1辺=√625 です。",
+      "explanation": "1辺の長さは √625 = 25m"
+    },
+    {
+      "id": 86,
+      "question": "√1、√4、√9、√16、√25 の中で最も大きい値はどれですか。",
+      "answer": "√25",
+      "unit": "",
+      "difficulty": 2,
+      "type": "puzzle",
+      "hint": "それぞれの値を計算してみましょう。",
+      "explanation": "√1=1、√4=2、√9=3、√16=4、√25=5 なので、√25 が最も大きい"
+    },
+    {
+      "id": 87,
+      "question": "次の数を小さい順に並べなさい: √16、√9、√25",
+      "answer": "√9, √16, √25",
+      "unit": "",
+      "difficulty": 2,
+      "type": "puzzle",
+      "hint": "それぞれの値を計算してみましょう。",
+      "explanation": "√9=3、√16=4、√25=5 なので、√9、√16、√25 の順"
+    },
+    {
+      "id": 88,
+      "question": "√4 + √9 + √16 の値を求めなさい。",
+      "answer": "9",
+      "unit": "",
+      "difficulty": 2,
+      "type": "puzzle",
+      "hint": "√4=2、√9=3、√16=4 です。",
+      "explanation": "√4 + √9 + √16 = 2 + 3 + 4 = 9"
+    },
+    {
+      "id": 89,
+      "question": "√36 - √25 + √16 の値を求めなさい。",
+      "answer": "5",
+      "unit": "",
+      "difficulty": 2,
+      "type": "puzzle",
+      "hint": "√36=6、√25=5、√16=4 です。",
+      "explanation": "√36 - √25 + √16 = 6 - 5 + 4 = 5"
+    },
+    {
+      "id": 90,
+      "question": "2√4 + 3√9 の値を求めなさい。",
+      "answer": "13",
+      "unit": "",
+      "difficulty": 2,
+      "type": "puzzle",
+      "hint": "√4=2、√9=3 なので 2×2+3×3 です。",
+      "explanation": "2√4 + 3√9 = 2×2 + 3×3 = 4 + 9 = 13"
+    },
+    {
+      "id": 91,
+      "question": "√100 ÷ √4 の値を求めなさい。",
+      "answer": "5",
+      "unit": "",
+      "difficulty": 2,
+      "type": "puzzle",
+      "hint": "√100=10、√4=2 なので 10÷2 です。",
+      "explanation": "√100 ÷ √4 = 10 ÷ 2 = 5"
+    },
+    {
+      "id": 92,
+      "question": "√64 ÷ √16 の値を求めなさい。",
+      "answer": "2",
+      "unit": "",
+      "difficulty": 2,
+      "type": "puzzle",
+      "hint": "√64=8、√16=4 なので 8÷4 です。",
+      "explanation": "√64 ÷ √16 = 8 ÷ 4 = 2"
+    },
+    {
+      "id": 93,
+      "question": "√9 × √4 の値を求めなさい。",
+      "answer": "6",
+      "unit": "",
+      "difficulty": 2,
+      "type": "puzzle",
+      "hint": "√9=3、√4=2 なので 3×2 です。",
+      "explanation": "√9 × √4 = 3 × 2 = 6"
+    },
+    {
+      "id": 94,
+      "question": "√16 × √25 の値を求めなさい。",
+      "answer": "20",
+      "unit": "",
+      "difficulty": 2,
+      "type": "puzzle",
+      "hint": "√16=4、√25=5 なので 4×5 です。",
+      "explanation": "√16 × √25 = 4 × 5 = 20"
+    },
+    {
+      "id": 95,
+      "question": "(√9)² + (√16)² の値を求めなさい。",
+      "answer": "25",
+      "unit": "",
+      "difficulty": 2,
+      "type": "puzzle",
+      "hint": "(√a)² = a なので、9+16 です。",
+      "explanation": "(√9)² + (√16)² = 9 + 16 = 25"
+    },
+    {
+      "id": 96,
+      "question": "√(√256) の値を求めなさい。",
+      "answer": "4",
+      "unit": "",
+      "difficulty": 3,
+      "type": "puzzle",
+      "hint": "まず √256=16 を求めてから √16 を計算します。",
+      "explanation": "√(√256) = √16 = 4"
+    },
+    {
+      "id": 97,
+      "question": "√1 + √4 + √9 + √16 + √25 の値を求めなさい。",
+      "answer": "15",
+      "unit": "",
+      "difficulty": 2,
+      "type": "puzzle",
+      "hint": "1+2+3+4+5 を計算します。",
+      "explanation": "√1 + √4 + √9 + √16 + √25 = 1 + 2 + 3 + 4 + 5 = 15"
+    },
+    {
+      "id": 98,
+      "question": "√49 × √1 + √36 の値を求めなさい。",
+      "answer": "13",
+      "unit": "",
+      "difficulty": 2,
+      "type": "puzzle",
+      "hint": "√49=7、√1=1、√36=6 です。",
+      "explanation": "√49 × √1 + √36 = 7 × 1 + 6 = 13"
+    },
+    {
+      "id": 99,
+      "question": "√144 - √121 + √100 の値を求めなさい。",
+      "answer": "11",
+      "unit": "",
+      "difficulty": 2,
+      "type": "puzzle",
+      "hint": "√144=12、√121=11、√100=10 です。",
+      "explanation": "√144 - √121 + √100 = 12 - 11 + 10 = 11"
+    },
+    {
+      "id": 100,
+      "question": "3√16 - 2√25 の値を求めなさい。",
+      "answer": "2",
+      "unit": "",
+      "difficulty": 2,
+      "type": "puzzle",
+      "hint": "√16=4、√25=5 なので 3×4-2×5 です。",
+      "explanation": "3√16 - 2√25 = 3×4 - 2×5 = 12 - 10 = 2"
+    }
+  ]
+}

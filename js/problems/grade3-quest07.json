@@ -1,0 +1,639 @@
+{
+  "questId": "grade3-quest07",
+  "questName": "分数（基礎）",
+  "grade": "小3",
+  "unitId": "elem3_fractions_basic",
+  "totalProblems": 70,
+  "problems": [
+    {
+      "id": 1,
+      "question": "1つを2つに分けた1つ分を分数で表すと何ですか。",
+      "answer": "1/2",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "分数の考え方を使って考えましょう。",
+      "explanation": "1つを2つに分けた1つ分は2分の1です。"
+    },
+    {
+      "id": 2,
+      "question": "1つを3つに分けた1つ分を分数で表すと何ですか。",
+      "answer": "1/3",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "分数の考え方を使って考えましょう。",
+      "explanation": "1つを3つに分けた1つ分は3分の1です。"
+    },
+    {
+      "id": 3,
+      "question": "1つを4つに分けた1つ分を分数で表すと何ですか。",
+      "answer": "1/4",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "分数の考え方を使って考えましょう。",
+      "explanation": "1つを4つに分けた1つ分は4分の1です。"
+    },
+    {
+      "id": 4,
+      "question": "1つを5つに分けた1つ分を分数で表すと何ですか。",
+      "answer": "1/5",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "分数の考え方を使って考えましょう。",
+      "explanation": "1つを5つに分けた1つ分は5分の1です。"
+    },
+    {
+      "id": 5,
+      "question": "1つを6つに分けた1つ分を分数で表すと何ですか。",
+      "answer": "1/6",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "分数の考え方を使って考えましょう。",
+      "explanation": "1つを6つに分けた1つ分は6分の1です。"
+    },
+    {
+      "id": 6,
+      "question": "1つを8つに分けた1つ分を分数で表すと何ですか。",
+      "answer": "1/8",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "分数の考え方を使って考えましょう。",
+      "explanation": "1つを8つに分けた1つ分は8分の1です。"
+    },
+    {
+      "id": 7,
+      "question": "1つを10に分けた1つ分を分数で表すと何ですか。",
+      "answer": "1/10",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "分数の考え方を使って考えましょう。",
+      "explanation": "1つを10に分けた1つ分は10分の1です。"
+    },
+    {
+      "id": 8,
+      "question": "1つを4つに分けた2つ分を分数で表すと何ですか。",
+      "answer": "2/4",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "分数の考え方を使って考えましょう。",
+      "explanation": "1つを4つに分けた2つ分は4分の2です。"
+    },
+    {
+      "id": 9,
+      "question": "1つを3つに分けた2つ分を分数で表すと何ですか。",
+      "answer": "2/3",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "分数の考え方を使って考えましょう。",
+      "explanation": "1つを3つに分けた2つ分は3分の2です。"
+    },
+    {
+      "id": 10,
+      "question": "1つを5つに分けた3つ分を分数で表すと何ですか。",
+      "answer": "3/5",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "分数の考え方を使って考えましょう。",
+      "explanation": "1つを5つに分けた3つ分は5分の3です。"
+    },
+    {
+      "id": 11,
+      "question": "1/2と1/3はどちらが大きいですか。",
+      "answer": "1/2",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "分数の考え方を使って考えましょう。",
+      "explanation": "1/2は1つを2つに分けた1つ分、1/3は1つを3つに分けた1つ分なので、1/2の方が大きいです。"
+    },
+    {
+      "id": 12,
+      "question": "1/3と1/4はどちらが大きいですか。",
+      "answer": "1/3",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "分数の考え方を使って考えましょう。",
+      "explanation": "1/3は1つを3つに分けた1つ分、1/4は1つを4つに分けた1つ分なので、1/3の方が大きいです。"
+    },
+    {
+      "id": 13,
+      "question": "1/4と1/5はどちらが大きいですか。",
+      "answer": "1/4",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "分数の考え方を使って考えましょう。",
+      "explanation": "1/4は1つを4つに分けた1つ分、1/5は1つを5つに分けた1つ分なので、1/4の方が大きいです。"
+    },
+    {
+      "id": 14,
+      "question": "1/5と1/6はどちらが大きいですか。",
+      "answer": "1/5",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "分数の考え方を使って考えましょう。",
+      "explanation": "1/5は1つを5つに分けた1つ分、1/6は1つを6つに分けた1つ分なので、1/5の方が大きいです。"
+    },
+    {
+      "id": 15,
+      "question": "1/6と1/8はどちらが大きいですか。",
+      "answer": "1/6",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "分数の考え方を使って考えましょう。",
+      "explanation": "1/6は1つを6つに分けた1つ分、1/8は1つを8つに分けた1つ分なので、1/6の方が大きいです。"
+    },
+    {
+      "id": 16,
+      "question": "2/5と3/5はどちらが大きいですか。",
+      "answer": "3/5",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "分数の考え方を使って考えましょう。",
+      "explanation": "分母が同じときは、分子が大きい方が大きいです。3/5の方が大きいです。"
+    },
+    {
+      "id": 17,
+      "question": "4/7と5/7はどちらが大きいですか。",
+      "answer": "5/7",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "分数の考え方を使って考えましょう。",
+      "explanation": "分母が同じときは、分子が大きい方が大きいです。5/7の方が大きいです。"
+    },
+    {
+      "id": 18,
+      "question": "3/8と5/8はどちらが大きいですか。",
+      "answer": "5/8",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "分数の考え方を使って考えましょう。",
+      "explanation": "分母が同じときは、分子が大きい方が大きいです。5/8の方が大きいです。"
+    },
+    {
+      "id": 19,
+      "question": "1/2は何/4と同じですか。",
+      "answer": "2/4",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "分数の考え方を使って考えましょう。",
+      "explanation": "1/2 = 2/4です。1つを2つに分けた1つ分は、1つを4つに分けた2つ分と同じです。"
+    },
+    {
+      "id": 20,
+      "question": "1/3は何/6と同じですか。",
+      "answer": "2/6",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "分数の考え方を使って考えましょう。",
+      "explanation": "1/3 = 2/6です。1つを3つに分けた1つ分は、1つを6つに分けた2つ分と同じです。"
+    },
+    {
+      "id": 21,
+      "question": "1/2は何/6と同じですか。",
+      "answer": "3/6",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "分数の考え方を使って考えましょう。",
+      "explanation": "1/2 = 3/6です。1つを2つに分けた1つ分は、1つを6つに分けた3つ分と同じです。"
+    },
+    {
+      "id": 22,
+      "question": "1/4は何/8と同じですか。",
+      "answer": "2/8",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "分数の考え方を使って考えましょう。",
+      "explanation": "1/4 = 2/8です。1つを4つに分けた1つ分は、1つを8つに分けた2つ分と同じです。"
+    },
+    {
+      "id": 23,
+      "question": "2/4は簡単な分数で表すと何ですか。",
+      "answer": "1/2",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "分数の考え方を使って考えましょう。",
+      "explanation": "2/4 = 1/2です。分子と分母を2で割ると1/2になります。"
+    },
+    {
+      "id": 24,
+      "question": "3/6は簡単な分数で表すと何ですか。",
+      "answer": "1/2",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "分数の考え方を使って考えましょう。",
+      "explanation": "3/6 = 1/2です。分子と分母を3で割ると1/2になります。"
+    },
+    {
+      "id": 25,
+      "question": "4/8は簡単な分数で表すと何ですか。",
+      "answer": "1/2",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "分数の考え方を使って考えましょう。",
+      "explanation": "4/8 = 1/2です。分子と分母を4で割ると1/2になります。"
+    },
+    {
+      "id": 26,
+      "question": "2/6は簡単な分数で表すと何ですか。",
+      "answer": "1/3",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "分数の考え方を使って考えましょう。",
+      "explanation": "2/6 = 1/3です。分子と分母を2で割ると1/3になります。"
+    },
+    {
+      "id": 27,
+      "question": "4/6は簡単な分数で表すと何ですか。",
+      "answer": "2/3",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "分数の考え方を使って考えましょう。",
+      "explanation": "4/6 = 2/3です。分子と分母を2で割ると2/3になります。"
+    },
+    {
+      "id": 28,
+      "question": "3/9は簡単な分数で表すと何ですか。",
+      "answer": "1/3",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "分数の考え方を使って考えましょう。",
+      "explanation": "3/9 = 1/3です。分子と分母を3で割ると1/3になります。"
+    },
+    {
+      "id": 29,
+      "question": "6/9は簡単な分数で表すと何ですか。",
+      "answer": "2/3",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "分数の考え方を使って考えましょう。",
+      "explanation": "6/9 = 2/3です。分子と分母を3で割ると2/3になります。"
+    },
+    {
+      "id": 30,
+      "question": "5/10は簡単な分数で表すと何ですか。",
+      "answer": "1/2",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "分数の考え方を使って考えましょう。",
+      "explanation": "5/10 = 1/2です。分子と分母を5で割ると1/2になります。"
+    },
+    {
+      "id": 31,
+      "question": "1本のリボンを2人で同じ長さに分けました。1人分は全体の何分のいくつですか。",
+      "answer": "1/2",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "分数の意味を考えましょう。",
+      "explanation": "1本を2つに分けたので、1人分は2分の1です。"
+    },
+    {
+      "id": 32,
+      "question": "1つのケーキを3人で同じ大きさに分けました。1人分は全体の何分のいくつですか。",
+      "answer": "1/3",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "分数の意味を考えましょう。",
+      "explanation": "1つを3つに分けたので、1人分は3分の1です。"
+    },
+    {
+      "id": 33,
+      "question": "1つのピザを4人で同じ大きさに分けました。1人分は全体の何分のいくつですか。",
+      "answer": "1/4",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "分数の意味を考えましょう。",
+      "explanation": "1つを4つに分けたので、1人分は4分の1です。"
+    },
+    {
+      "id": 34,
+      "question": "1Lの牛乳を5つのコップに同じ量ずつ入れました。1つのコップには全体の何分のいくつが入っていますか。",
+      "answer": "1/5",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "分数の意味を考えましょう。",
+      "explanation": "1Lを5つに分けたので、1つのコップには5分の1が入っています。"
+    },
+    {
+      "id": 35,
+      "question": "1本のテープを6人で同じ長さに分けました。1人分は全体の何分のいくつですか。",
+      "answer": "1/6",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "分数の意味を考えましょう。",
+      "explanation": "1本を6つに分けたので、1人分は6分の1です。"
+    },
+    {
+      "id": 36,
+      "question": "1つのメロンを8人で同じ大きさに分けました。1人分は全体の何分のいくつですか。",
+      "answer": "1/8",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "分数の意味を考えましょう。",
+      "explanation": "1つを8つに分けたので、1人分は8分の1です。"
+    },
+    {
+      "id": 37,
+      "question": "1mのひもを4つに分けて、そのうち3つ分を使いました。使ったひもの長さは全体の何分のいくつですか。",
+      "answer": "3/4",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "分数の意味を考えましょう。",
+      "explanation": "1mを4つに分けた3つ分なので、4分の3です。"
+    },
+    {
+      "id": 38,
+      "question": "1Lのジュースを5つのコップに分けて、そのうち2つ分を飲みました。飲んだジュースは全体の何分のいくつですか。",
+      "answer": "2/5",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "分数の意味を考えましょう。",
+      "explanation": "1Lを5つに分けた2つ分なので、5分の2です。"
+    },
+    {
+      "id": 39,
+      "question": "1本のチョコレートを6つに分けて、そのうち5つ食べました。食べたチョコレートは全体の何分のいくつですか。",
+      "answer": "5/6",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "分数の意味を考えましょう。",
+      "explanation": "1本を6つに分けた5つ分なので、6分の5です。"
+    },
+    {
+      "id": 40,
+      "question": "1つのパイを8つに分けて、そのうち3つ分を食べました。食べたパイは全体の何分のいくつですか。",
+      "answer": "3/8",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "分数の意味を考えましょう。",
+      "explanation": "1つを8つに分けた3つ分なので、8分の3です。"
+    },
+    {
+      "id": 41,
+      "question": "1本のえんぴつの長さは10cmです。このえんぴつの1/2の長さは何cmですか。",
+      "answer": "5cm",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "分数の意味を考えましょう。",
+      "explanation": "10cmの1/2は、10 ÷ 2 = 5cmです。"
+    },
+    {
+      "id": 42,
+      "question": "1本のリボンの長さは12cmです。このリボンの1/3の長さは何cmですか。",
+      "answer": "4cm",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "分数の意味を考えましょう。",
+      "explanation": "12cmの1/3は、12 ÷ 3 = 4cmです。"
+    },
+    {
+      "id": 43,
+      "question": "1本のテープの長さは20cmです。このテープの1/4の長さは何cmですか。",
+      "answer": "5cm",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "分数の意味を考えましょう。",
+      "explanation": "20cmの1/4は、20 ÷ 4 = 5cmです。"
+    },
+    {
+      "id": 44,
+      "question": "1本のひもの長さは15cmです。このひもの1/5の長さは何cmですか。",
+      "answer": "3cm",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "分数の意味を考えましょう。",
+      "explanation": "15cmの1/5は、15 ÷ 5 = 3cmです。"
+    },
+    {
+      "id": 45,
+      "question": "1個のケーキは24こに切れます。このケーキの1/6は何こですか。",
+      "answer": "4こ",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "分数の意味を考えましょう。",
+      "explanation": "24この1/6は、24 ÷ 6 = 4こです。"
+    },
+    {
+      "id": 46,
+      "question": "1箱に18このあめが入っています。この箱のあめの1/3は何こですか。",
+      "answer": "6こ",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "分数の意味を考えましょう。",
+      "explanation": "18この1/3は、18 ÷ 3 = 6こです。"
+    },
+    {
+      "id": 47,
+      "question": "1袋に20このクッキーが入っています。この袋のクッキーの1/4は何こですか。",
+      "answer": "5こ",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "分数の意味を考えましょう。",
+      "explanation": "20この1/4は、20 ÷ 4 = 5こです。"
+    },
+    {
+      "id": 48,
+      "question": "1束に30本のえんぴつがあります。この束のえんぴつの1/5は何本ですか。",
+      "answer": "6本",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "分数の意味を考えましょう。",
+      "explanation": "30本の1/5は、30 ÷ 5 = 6本です。"
+    },
+    {
+      "id": 49,
+      "question": "1つのパックに16個のたまごが入っています。このパックのたまごの1/4は何個ですか。",
+      "answer": "4個",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "分数の意味を考えましょう。",
+      "explanation": "16個の1/4は、16 ÷ 4 = 4個です。"
+    },
+    {
+      "id": 50,
+      "question": "1つの箱に36このチョコレートが入っています。この箱のチョコレートの1/6は何こですか。",
+      "answer": "6こ",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "分数の意味を考えましょう。",
+      "explanation": "36この1/6は、36 ÷ 6 = 6こです。"
+    },
+    {
+      "id": 51,
+      "question": "1本のテープを2人で分けて、1人分は8cmでした。テープ全体の長さは何cmですか。",
+      "answer": "16cm",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "分数の意味を考えましょう。",
+      "explanation": "1人分が8cmで2人分なので、8 × 2 = 16cmです。"
+    },
+    {
+      "id": 52,
+      "question": "1つのケーキを3人で分けて、1人分は9個に切れます。ケーキ全体は何個に切れますか。",
+      "answer": "27個",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "分数の意味を考えましょう。",
+      "explanation": "1人分が9個で3人分なので、9 × 3 = 27個です。"
+    },
+    {
+      "id": 53,
+      "question": "1本のひもを4人で分けて、1人分は7cmでした。ひも全体の長さは何cmですか。",
+      "answer": "28cm",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "分数の意味を考えましょう。",
+      "explanation": "1人分が7cmで4人分なので、7 × 4 = 28cmです。"
+    },
+    {
+      "id": 54,
+      "question": "1Lの牛乳を5つのコップに分けて、1つのコップには200mLずつ入りました。牛乳は全部で何mLですか。",
+      "answer": "1000mL",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "分数の意味を考えましょう。",
+      "explanation": "1つのコップに200mLで5つなので、200 × 5 = 1000mLです。"
+    },
+    {
+      "id": 55,
+      "question": "1袋のあめを6人で分けて、1人分は8こでした。あめは全部で何こですか。",
+      "answer": "48こ",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "分数の意味を考えましょう。",
+      "explanation": "1人分が8こで6人分なので、8 × 6 = 48こです。"
+    },
+    {
+      "id": 56,
+      "question": "1つのケーキを4つに切りました。1つ分は何分の何ですか。また、2つ分は何分の何ですか。",
+      "answer": "1/4, 2/4",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "分数の意味を考えて、図を描いてみるとわかりやすいです。",
+      "explanation": "1つ分は4分の1、2つ分は4分の2です。"
+    },
+    {
+      "id": 57,
+      "question": "1本のリボンを5つに切りました。1つ分は何分の何ですか。また、3つ分は何分の何ですか。",
+      "answer": "1/5, 3/5",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "分数の意味を考えて、図を描いてみるとわかりやすいです。",
+      "explanation": "1つ分は5分の1、3つ分は5分の3です。"
+    },
+    {
+      "id": 58,
+      "question": "1Lのジュースを6つのコップに分けました。1つのコップには何分の何Lが入っていますか。また、4つのコップには何分の何Lが入っていますか。",
+      "answer": "1/6, 4/6",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "分数の意味を考えて、図を描いてみるとわかりやすいです。",
+      "explanation": "1つのコップには6分の1L、4つのコップには6分の4Lが入っています。"
+    },
+    {
+      "id": 59,
+      "question": "1つのピザを8つに切りました。3つ食べたら、残りは何分の何ですか。",
+      "answer": "5/8",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "分数の意味を考えて、図を描いてみるとわかりやすいです。",
+      "explanation": "8つのうち3つ食べたので、残りは8 - 3 = 5つです。つまり8分の5です。"
+    },
+    {
+      "id": 60,
+      "question": "1本のチョコレートを10個に分けました。4個食べたら、残りは何分の何ですか。",
+      "answer": "6/10",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "分数の意味を考えて、図を描いてみるとわかりやすいです。",
+      "explanation": "10個のうち4個食べたので、残りは10 - 4 = 6個です。つまり10分の6です。"
+    },
+    {
+      "id": 61,
+      "question": "1/2と2/4は同じ大きさですか。",
+      "answer": "はい",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "分数の意味を考えて、図を描いてみるとわかりやすいです。",
+      "explanation": "1/2 = 2/4です。どちらも半分を表しています。"
+    },
+    {
+      "id": 62,
+      "question": "1/3と2/6は同じ大きさですか。",
+      "answer": "はい",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "分数の意味を考えて、図を描いてみるとわかりやすいです。",
+      "explanation": "1/3 = 2/6です。分子と分母を2倍すると同じになります。"
+    },
+    {
+      "id": 63,
+      "question": "1/4と2/8は同じ大きさですか。",
+      "answer": "はい",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "分数の意味を考えて、図を描いてみるとわかりやすいです。",
+      "explanation": "1/4 = 2/8です。分子と分母を2倍すると同じになります。"
+    },
+    {
+      "id": 64,
+      "question": "2/4と1/2は同じ大きさですか。",
+      "answer": "はい",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "分数の意味を考えて、図を描いてみるとわかりやすいです。",
+      "explanation": "2/4 = 1/2です。分子と分母を2で割ると同じになります。"
+    },
+    {
+      "id": 65,
+      "question": "3/6と1/2は同じ大きさですか。",
+      "answer": "はい",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "分数の意味を考えて、図を描いてみるとわかりやすいです。",
+      "explanation": "3/6 = 1/2です。分子と分母を3で割ると同じになります。"
+    },
+    {
+      "id": 66,
+      "question": "4/8と1/2は同じ大きさですか。",
+      "answer": "はい",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "分数の意味を考えて、図を描いてみるとわかりやすいです。",
+      "explanation": "4/8 = 1/2です。分子と分母を4で割ると同じになります。"
+    },
+    {
+      "id": 67,
+      "question": "1つを2つに分けた1つ分と、1つを4つに分けた2つ分は同じ大きさですか。",
+      "answer": "はい",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "分数の意味を考えて、図を描いてみるとわかりやすいです。",
+      "explanation": "1/2 = 2/4です。どちらも半分を表しています。"
+    },
+    {
+      "id": 68,
+      "question": "1つを3つに分けた1つ分と、1つを6つに分けた2つ分は同じ大きさですか。",
+      "answer": "はい",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "分数の意味を考えて、図を描いてみるとわかりやすいです。",
+      "explanation": "1/3 = 2/6です。どちらも同じ大きさです。"
+    },
+    {
+      "id": 69,
+      "question": "1本のテープの1/2は10cmでした。テープ全体の長さは何cmですか。",
+      "answer": "20cm",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "分数の意味を考えて、図を描いてみるとわかりやすいです。",
+      "explanation": "1/2が10cmなので、全体は10 × 2 = 20cmです。"
+    },
+    {
+      "id": 70,
+      "question": "1つの箱のあめの1/3は6こでした。箱全体には何こ入っていますか。",
+      "answer": "18こ",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "分数の意味を考えて、図を描いてみるとわかりやすいです。",
+      "explanation": "1/3が6こなので、全体は6 × 3 = 18こです。"
+    }
+  ]
+}

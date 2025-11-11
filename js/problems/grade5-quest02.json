@@ -1,0 +1,1010 @@
+{
+  "questId": "grade5-quest02",
+  "worldId": "grade5",
+  "questName": "小数のかけ算",
+  "description": "小数×小数をマスター",
+  "difficulty": "standard",
+  "totalProblems": 100,
+  "problems": [
+    {
+      "id": "g5q02-p001",
+      "question": "2.3×4を計算しましょう。",
+      "answer": "9.2",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "23×4=92として、小数点を1つ左に動かします。",
+      "explanation": "2.3×4=9.2です。"
+    },
+    {
+      "id": "g5q02-p002",
+      "question": "1.5×6を計算しましょう。",
+      "answer": "9",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "15×6=90として、小数点を1つ左に動かします。",
+      "explanation": "1.5×6=9です。"
+    },
+    {
+      "id": "g5q02-p003",
+      "question": "3.7×3を計算しましょう。",
+      "answer": "11.1",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "37×3=111として、小数点を1つ左に動かします。",
+      "explanation": "3.7×3=11.1です。"
+    },
+    {
+      "id": "g5q02-p004",
+      "question": "4.2×5を計算しましょう。",
+      "answer": "21",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "42×5=210として、小数点を1つ左に動かします。",
+      "explanation": "4.2×5=21です。"
+    },
+    {
+      "id": "g5q02-p005",
+      "question": "0.8×7を計算しましょう。",
+      "answer": "5.6",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "8×7=56として、小数点を1つ左に動かします。",
+      "explanation": "0.8×7=5.6です。"
+    },
+    {
+      "id": "g5q02-p006",
+      "question": "6.5×2を計算しましょう。",
+      "answer": "13",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "65×2=130として、小数点を1つ左に動かします。",
+      "explanation": "6.5×2=13です。"
+    },
+    {
+      "id": "g5q02-p007",
+      "question": "2.4×8を計算しましょう。",
+      "answer": "19.2",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "24×8=192として、小数点を1つ左に動かします。",
+      "explanation": "2.4×8=19.2です。"
+    },
+    {
+      "id": "g5q02-p008",
+      "question": "7.3×4を計算しましょう。",
+      "answer": "29.2",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "73×4=292として、小数点を1つ左に動かします。",
+      "explanation": "7.3×4=29.2です。"
+    },
+    {
+      "id": "g5q02-p009",
+      "question": "0.9×9を計算しましょう。",
+      "answer": "8.1",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "9×9=81として、小数点を1つ左に動かします。",
+      "explanation": "0.9×9=8.1です。"
+    },
+    {
+      "id": "g5q02-p010",
+      "question": "5.6×3を計算しましょう。",
+      "answer": "16.8",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "56×3=168として、小数点を1つ左に動かします。",
+      "explanation": "5.6×3=16.8です。"
+    },
+    {
+      "id": "g5q02-p011",
+      "question": "1.2×1.5を計算しましょう。",
+      "answer": "1.8",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "12×15=180として、小数点を2つ左に動かします。",
+      "explanation": "1.2×1.5=1.8です。"
+    },
+    {
+      "id": "g5q02-p012",
+      "question": "2.3×1.2を計算しましょう。",
+      "answer": "2.76",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "23×12=276として、小数点を2つ左に動かします。",
+      "explanation": "2.3×1.2=2.76です。"
+    },
+    {
+      "id": "g5q02-p013",
+      "question": "3.4×2.1を計算しましょう。",
+      "answer": "7.14",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "34×21=714として、小数点を2つ左に動かします。",
+      "explanation": "3.4×2.1=7.14です。"
+    },
+    {
+      "id": "g5q02-p014",
+      "question": "0.6×0.8を計算しましょう。",
+      "answer": "0.48",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "6×8=48として、小数点を2つ左に動かします。",
+      "explanation": "0.6×0.8=0.48です。"
+    },
+    {
+      "id": "g5q02-p015",
+      "question": "4.5×1.3を計算しましょう。",
+      "answer": "5.85",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "45×13=585として、小数点を2つ左に動かします。",
+      "explanation": "4.5×1.3=5.85です。"
+    },
+    {
+      "id": "g5q02-p016",
+      "question": "1.6×2.5を計算しましょう。",
+      "answer": "4",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "16×25=400として、小数点を2つ左に動かします。",
+      "explanation": "1.6×2.5=4です。"
+    },
+    {
+      "id": "g5q02-p017",
+      "question": "0.7×0.9を計算しましょう。",
+      "answer": "0.63",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "7×9=63として、小数点を2つ左に動かします。",
+      "explanation": "0.7×0.9=0.63です。"
+    },
+    {
+      "id": "g5q02-p018",
+      "question": "3.2×1.4を計算しましょう。",
+      "answer": "4.48",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "32×14=448として、小数点を2つ左に動かします。",
+      "explanation": "3.2×1.4=4.48です。"
+    },
+    {
+      "id": "g5q02-p019",
+      "question": "2.5×3.6を計算しましょう。",
+      "answer": "9",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "25×36=900として、小数点を2つ左に動かします。",
+      "explanation": "2.5×3.6=9です。"
+    },
+    {
+      "id": "g5q02-p020",
+      "question": "0.5×0.4を計算しましょう。",
+      "answer": "0.2",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "5×4=20として、小数点を2つ左に動かします。",
+      "explanation": "0.5×0.4=0.2です。"
+    },
+    {
+      "id": "g5q02-p021",
+      "question": "5.8×1.7を計算しましょう。",
+      "answer": "9.86",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "58×17=986として、小数点を2つ左に動かします。",
+      "explanation": "5.8×1.7=9.86です。"
+    },
+    {
+      "id": "g5q02-p022",
+      "question": "6.4×2.3を計算しましょう。",
+      "answer": "14.72",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "64×23=1472として、小数点を2つ左に動かします。",
+      "explanation": "6.4×2.3=14.72です。"
+    },
+    {
+      "id": "g5q02-p023",
+      "question": "7.2×1.8を計算しましょう。",
+      "answer": "12.96",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "72×18=1296として、小数点を2つ左に動かします。",
+      "explanation": "7.2×1.8=12.96です。"
+    },
+    {
+      "id": "g5q02-p024",
+      "question": "0.3×0.6を計算しましょう。",
+      "answer": "0.18",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "3×6=18として、小数点を2つ左に動かします。",
+      "explanation": "0.3×0.6=0.18です。"
+    },
+    {
+      "id": "g5q02-p025",
+      "question": "8.5×1.6を計算しましょう。",
+      "answer": "13.6",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "85×16=1360として、小数点を2つ左に動かします。",
+      "explanation": "8.5×1.6=13.6です。"
+    },
+    {
+      "id": "g5q02-p026",
+      "question": "3.15×2.4を計算しましょう。",
+      "answer": "7.56",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "315×24=7560として、小数点を3つ左に動かします。",
+      "explanation": "3.15×2.4=7.56です。"
+    },
+    {
+      "id": "g5q02-p027",
+      "question": "1.25×3.2を計算しましょう。",
+      "answer": "4",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "125×32=4000として、小数点を3つ左に動かします。",
+      "explanation": "1.25×3.2=4です。"
+    },
+    {
+      "id": "g5q02-p028",
+      "question": "0.45×1.6を計算しましょう。",
+      "answer": "0.72",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "45×16=720として、小数点を3つ左に動かします。",
+      "explanation": "0.45×1.6=0.72です。"
+    },
+    {
+      "id": "g5q02-p029",
+      "question": "2.48×1.5を計算しましょう。",
+      "answer": "3.72",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "248×15=3720として、小数点を3つ左に動かします。",
+      "explanation": "2.48×1.5=3.72です。"
+    },
+    {
+      "id": "g5q02-p030",
+      "question": "0.64×2.5を計算しましょう。",
+      "answer": "1.6",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "64×25=1600として、小数点を3つ左に動かします。",
+      "explanation": "0.64×2.5=1.6です。"
+    },
+    {
+      "id": "g5q02-p031",
+      "question": "12.5×0.8を計算しましょう。",
+      "answer": "10",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "125×8=1000として、小数点を2つ左に動かします。",
+      "explanation": "12.5×0.8=10です。"
+    },
+    {
+      "id": "g5q02-p032",
+      "question": "8.4×1.5を計算しましょう。",
+      "answer": "12.6",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "84×15=1260として、小数点を2つ左に動かします。",
+      "explanation": "8.4×1.5=12.6です。"
+    },
+    {
+      "id": "g5q02-p033",
+      "question": "9.6×2.5を計算しましょう。",
+      "answer": "24",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "96×25=2400として、小数点を2つ左に動かします。",
+      "explanation": "9.6×2.5=24です。"
+    },
+    {
+      "id": "g5q02-p034",
+      "question": "0.85×4を計算しましょう。",
+      "answer": "3.4",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "85×4=340として、小数点を2つ左に動かします。",
+      "explanation": "0.85×4=3.4です。"
+    },
+    {
+      "id": "g5q02-p035",
+      "question": "4.75×2を計算しましょう。",
+      "answer": "9.5",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "475×2=950として、小数点を2つ左に動かします。",
+      "explanation": "4.75×2=9.5です。"
+    },
+    {
+      "id": "g5q02-p036",
+      "question": "6.25×1.6を計算しましょう。",
+      "answer": "10",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "625×16=10000として、小数点を3つ左に動かします。",
+      "explanation": "6.25×1.6=10です。"
+    },
+    {
+      "id": "g5q02-p037",
+      "question": "0.125×8を計算しましょう。",
+      "answer": "1",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "125×8=1000として、小数点を3つ左に動かします。",
+      "explanation": "0.125×8=1です。"
+    },
+    {
+      "id": "g5q02-p038",
+      "question": "15.2×0.5を計算しましょう。",
+      "answer": "7.6",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "152×5=760として、小数点を2つ左に動かします。",
+      "explanation": "15.2×0.5=7.6です。"
+    },
+    {
+      "id": "g5q02-p039",
+      "question": "0.32×2.5を計算しましょう。",
+      "answer": "0.8",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "32×25=800として、小数点を3つ左に動かします。",
+      "explanation": "0.32×2.5=0.8です。"
+    },
+    {
+      "id": "g5q02-p040",
+      "question": "7.5×1.2を計算しましょう。",
+      "answer": "9",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "75×12=900として、小数点を2つ左に動かします。",
+      "explanation": "7.5×1.2=9です。"
+    },
+    {
+      "id": "g5q02-p041",
+      "question": "11.6×0.25を計算しましょう。",
+      "answer": "2.9",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "116×25=2900として、小数点を3つ左に動かします。",
+      "explanation": "11.6×0.25=2.9です。"
+    },
+    {
+      "id": "g5q02-p042",
+      "question": "0.24×1.25を計算しましょう。",
+      "answer": "0.3",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "24×125=3000として、小数点を4つ左に動かします。",
+      "explanation": "0.24×1.25=0.3です。"
+    },
+    {
+      "id": "g5q02-p043",
+      "question": "13.5×0.4を計算しましょう。",
+      "answer": "5.4",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "135×4=540として、小数点を2つ左に動かします。",
+      "explanation": "13.5×0.4=5.4です。"
+    },
+    {
+      "id": "g5q02-p044",
+      "question": "0.56×0.5を計算しましょう。",
+      "answer": "0.28",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "56×5=280として、小数点を3つ左に動かします。",
+      "explanation": "0.56×0.5=0.28です。"
+    },
+    {
+      "id": "g5q02-p045",
+      "question": "9.8×0.75を計算しましょう。",
+      "answer": "7.35",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "98×75=7350として、小数点を3つ左に動かします。",
+      "explanation": "9.8×0.75=7.35です。"
+    },
+    {
+      "id": "g5q02-p046",
+      "question": "0.05×0.6を計算しましょう。",
+      "answer": "0.03",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "5×6=30として、小数点を3つ左に動かします。",
+      "explanation": "0.05×0.6=0.03です。"
+    },
+    {
+      "id": "g5q02-p047",
+      "question": "0.08×0.4を計算しましょう。",
+      "answer": "0.032",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "8×4=32として、小数点を3つ左に動かします。",
+      "explanation": "0.08×0.4=0.032です。"
+    },
+    {
+      "id": "g5q02-p048",
+      "question": "0.03×0.7を計算しましょう。",
+      "answer": "0.021",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "3×7=21として、小数点を3つ左に動かします。",
+      "explanation": "0.03×0.7=0.021です。"
+    },
+    {
+      "id": "g5q02-p049",
+      "question": "0.06×0.5を計算しましょう。",
+      "answer": "0.03",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "6×5=30として、小数点を3つ左に動かします。",
+      "explanation": "0.06×0.5=0.03です。"
+    },
+    {
+      "id": "g5q02-p050",
+      "question": "0.04×0.25を計算しましょう。",
+      "answer": "0.01",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "4×25=100として、小数点を4つ左に動かします。",
+      "explanation": "0.04×0.25=0.01です。"
+    },
+    {
+      "id": "g5q02-p051",
+      "question": "18.4×0.15を計算しましょう。",
+      "answer": "2.76",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "184×15=2760として、小数点を3つ左に動かします。",
+      "explanation": "18.4×0.15=2.76です。"
+    },
+    {
+      "id": "g5q02-p052",
+      "question": "0.125×1.6を計算しましょう。",
+      "answer": "0.2",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "125×16=2000として、小数点を4つ左に動かします。",
+      "explanation": "0.125×1.6=0.2です。"
+    },
+    {
+      "id": "g5q02-p053",
+      "question": "0.375×0.8を計算しましょう。",
+      "answer": "0.3",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "375×8=3000として、小数点を4つ左に動かします。",
+      "explanation": "0.375×0.8=0.3です。"
+    },
+    {
+      "id": "g5q02-p054",
+      "question": "0.625×0.4を計算しましょう。",
+      "answer": "0.25",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "625×4=2500として、小数点を4つ左に動かします。",
+      "explanation": "0.625×0.4=0.25です。"
+    },
+    {
+      "id": "g5q02-p055",
+      "question": "0.875×1.6を計算しましょう。",
+      "answer": "1.4",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "875×16=14000として、小数点を4つ左に動かします。",
+      "explanation": "0.875×1.6=1.4です。"
+    },
+    {
+      "id": "g5q02-p056",
+      "question": "22.5×0.12を計算しましょう。",
+      "answer": "2.7",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "225×12=2700として、小数点を3つ左に動かします。",
+      "explanation": "22.5×0.12=2.7です。"
+    },
+    {
+      "id": "g5q02-p057",
+      "question": "0.48×0.125を計算しましょう。",
+      "answer": "0.06",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "48×125=6000として、小数点を5つ左に動かします。",
+      "explanation": "0.48×0.125=0.06です。"
+    },
+    {
+      "id": "g5q02-p058",
+      "question": "0.72×0.625を計算しましょう。",
+      "answer": "0.45",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "72×625=45000として、小数点を5つ左に動かします。",
+      "explanation": "0.72×0.625=0.45です。"
+    },
+    {
+      "id": "g5q02-p059",
+      "question": "0.96×0.375を計算しましょう。",
+      "answer": "0.36",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "96×375=36000として、小数点を5つ左に動かします。",
+      "explanation": "0.96×0.375=0.36です。"
+    },
+    {
+      "id": "g5q02-p060",
+      "question": "0.144×0.625を計算しましょう。",
+      "answer": "0.09",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "144×625=90000として、小数点を6つ左に動かします。",
+      "explanation": "0.144×0.625=0.09です。"
+    },
+    {
+      "id": "g5q02-p061",
+      "question": "1本2.5mのリボンを6本買いました。全部で何mになりますか。",
+      "answer": "15",
+      "unit": "m",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "2.5×6を計算します。",
+      "explanation": "2.5×6=15より、15mです。"
+    },
+    {
+      "id": "g5q02-p062",
+      "question": "1個0.8kgの箱が7個あります。全部で何kgになりますか。",
+      "answer": "5.6",
+      "unit": "kg",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "0.8×7を計算します。",
+      "explanation": "0.8×7=5.6より、5.6kgです。"
+    },
+    {
+      "id": "g5q02-p063",
+      "question": "1mの重さが3.4kgの鉄の棒があります。4.5mでは何kgになりますか。",
+      "answer": "15.3",
+      "unit": "kg",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "3.4×4.5を計算します。",
+      "explanation": "3.4×4.5=15.3より、15.3kgです。"
+    },
+    {
+      "id": "g5q02-p064",
+      "question": "1Lの重さが0.8kgの油があります。2.5Lでは何kgになりますか。",
+      "answer": "2",
+      "unit": "kg",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "0.8×2.5を計算します。",
+      "explanation": "0.8×2.5=2より、2kgです。"
+    },
+    {
+      "id": "g5q02-p065",
+      "question": "1個120円のみかんを3.5kg買いました。代金は何円ですか。(1kg=8.333個として計算)",
+      "answer": "420",
+      "unit": "円",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "簡略化して1kg=約3.5個とすると、3.5×3.5×120で求められます。実際は1kgの価格を求める方が自然です。",
+      "explanation": "1kgの価格は120×(10/1.2)=1000円、3.5×120=420円です。"
+    },
+    {
+      "id": "g5q02-p066",
+      "question": "長方形の縦が3.6cm、横が2.5cmです。面積は何c㎡ですか。",
+      "answer": "9",
+      "unit": "c㎡",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "3.6×2.5を計算します。",
+      "explanation": "3.6×2.5=9より、9c㎡です。"
+    },
+    {
+      "id": "g5q02-p067",
+      "question": "長方形の縦が4.8m、横が1.5mです。面積は何㎡ですか。",
+      "answer": "7.2",
+      "unit": "㎡",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "4.8×1.5を計算します。",
+      "explanation": "4.8×1.5=7.2より、7.2㎡です。"
+    },
+    {
+      "id": "g5q02-p068",
+      "question": "1dLが0.9kgの液体があります。1.6Lでは何kgになりますか。",
+      "answer": "14.4",
+      "unit": "kg",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "1L=10dLなので、1.6L=16dLです。0.9×16を計算します。",
+      "explanation": "1.6L=16dLで、0.9×16=14.4より、14.4kgです。"
+    },
+    {
+      "id": "g5q02-p069",
+      "question": "1個の重さが0.45kgのりんごがあります。12個では何kgになりますか。",
+      "answer": "5.4",
+      "unit": "kg",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "0.45×12を計算します。",
+      "explanation": "0.45×12=5.4より、5.4kgです。"
+    },
+    {
+      "id": "g5q02-p070",
+      "question": "1mの値段が85円のリボンを4.6m買いました。代金は何円ですか。",
+      "answer": "391",
+      "unit": "円",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "85×4.6を計算します。",
+      "explanation": "85×4.6=391より、391円です。"
+    },
+    {
+      "id": "g5q02-p071",
+      "question": "1㎡の値段が1250円のカーペットを2.4㎡買いました。代金は何円ですか。",
+      "answer": "3000",
+      "unit": "円",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "1250×2.4を計算します。",
+      "explanation": "1250×2.4=3000より、3000円です。"
+    },
+    {
+      "id": "g5q02-p072",
+      "question": "1Lで12.5km走る車があります。3.2Lのガソリンで何km走りますか。",
+      "answer": "40",
+      "unit": "km",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "12.5×3.2を計算します。",
+      "explanation": "12.5×3.2=40より、40kmです。"
+    },
+    {
+      "id": "g5q02-p073",
+      "question": "たての長さが5.2cm、横の長さが3.5cmの長方形があります。周りの長さは何cmですか。",
+      "answer": "17.4",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "(5.2+3.5)×2を計算します。",
+      "explanation": "(5.2+3.5)×2=8.7×2=17.4より、17.4cmです。"
+    },
+    {
+      "id": "g5q02-p074",
+      "question": "1個の重さが1.25kgの荷物を8個運びました。全部で何kgですか。",
+      "answer": "10",
+      "unit": "kg",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "1.25×8を計算します。",
+      "explanation": "1.25×8=10より、10kgです。"
+    },
+    {
+      "id": "g5q02-p075",
+      "question": "1分間に0.75Lの水が出る蛇口があります。8分間で何L出ますか。",
+      "answer": "6",
+      "unit": "L",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "0.75×8を計算します。",
+      "explanation": "0.75×8=6より、6Lです。"
+    },
+    {
+      "id": "g5q02-p076",
+      "question": "1mの値段が320円のテープを1.25m買いました。代金は何円ですか。",
+      "answer": "400",
+      "unit": "円",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "320×1.25を計算します。",
+      "explanation": "320×1.25=400より、400円です。"
+    },
+    {
+      "id": "g5q02-p077",
+      "question": "1本の長さが6.4mのロープを2.5本分使いました。全部で何m使いましたか。",
+      "answer": "16",
+      "unit": "m",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "6.4×2.5を計算します。",
+      "explanation": "6.4×2.5=16より、16mです。"
+    },
+    {
+      "id": "g5q02-p078",
+      "question": "正方形の1辺の長さが3.6cmです。面積は何c㎡ですか。",
+      "answer": "12.96",
+      "unit": "c㎡",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "3.6×3.6を計算します。",
+      "explanation": "3.6×3.6=12.96より、12.96c㎡です。"
+    },
+    {
+      "id": "g5q02-p079",
+      "question": "正方形の1辺の長さが2.5mです。面積は何㎡ですか。",
+      "answer": "6.25",
+      "unit": "㎡",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "2.5×2.5を計算します。",
+      "explanation": "2.5×2.5=6.25より、6.25㎡です。"
+    },
+    {
+      "id": "g5q02-p080",
+      "question": "1kgの値段が840円の肉を0.75kg買いました。代金は何円ですか。",
+      "answer": "630",
+      "unit": "円",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "840×0.75を計算します。",
+      "explanation": "840×0.75=630より、630円です。"
+    },
+    {
+      "id": "g5q02-p081",
+      "question": "1dLの重さが1.2kgの砂糖があります。0.5Lでは何kgになりますか。",
+      "answer": "6",
+      "unit": "kg",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "0.5L=5dLです。1.2×5を計算します。",
+      "explanation": "0.5L=5dLで、1.2×5=6より、6kgです。"
+    },
+    {
+      "id": "g5q02-p082",
+      "question": "1時間に4.8km歩く人がいます。2.5時間では何km歩きますか。",
+      "answer": "12",
+      "unit": "km",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "4.8×2.5を計算します。",
+      "explanation": "4.8×2.5=12より、12kmです。"
+    },
+    {
+      "id": "g5q02-p083",
+      "question": "1mあたりの重さが2.8kgの棒があります。1.5mでは何kgになりますか。",
+      "answer": "4.2",
+      "unit": "kg",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "2.8×1.5を計算します。",
+      "explanation": "2.8×1.5=4.2より、4.2kgです。"
+    },
+    {
+      "id": "g5q02-p084",
+      "question": "1個の重さが0.65kgの石があります。8個では何kgになりますか。",
+      "answer": "5.2",
+      "unit": "kg",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "0.65×8を計算します。",
+      "explanation": "0.65×8=5.2より、5.2kgです。"
+    },
+    {
+      "id": "g5q02-p085",
+      "question": "長方形の花だんの縦が7.2m、横が4.5mです。面積は何㎡ですか。",
+      "answer": "32.4",
+      "unit": "㎡",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "7.2×4.5を計算します。",
+      "explanation": "7.2×4.5=32.4より、32.4㎡です。"
+    },
+    {
+      "id": "g5q02-p086",
+      "question": "□×4.5=18を満たす□を求めましょう。",
+      "answer": "4",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "18÷4.5を計算します。",
+      "explanation": "18÷4.5=4なので、□=4です。"
+    },
+    {
+      "id": "g5q02-p087",
+      "question": "2.8×□=14を満たす□を求めましょう。",
+      "answer": "5",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "14÷2.8を計算します。",
+      "explanation": "14÷2.8=5なので、□=5です。"
+    },
+    {
+      "id": "g5q02-p088",
+      "question": "□×1.6=9.6を満たす□を求めましょう。",
+      "answer": "6",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "9.6÷1.6を計算します。",
+      "explanation": "9.6÷1.6=6なので、□=6です。"
+    },
+    {
+      "id": "g5q02-p089",
+      "question": "3.2×□=12.8を満たす□を求めましょう。",
+      "answer": "4",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "12.8÷3.2を計算します。",
+      "explanation": "12.8÷3.2=4なので、□=4です。"
+    },
+    {
+      "id": "g5q02-p090",
+      "question": "□×0.75=6を満たす□を求めましょう。",
+      "answer": "8",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "6÷0.75を計算します。",
+      "explanation": "6÷0.75=8なので、□=8です。"
+    },
+    {
+      "id": "g5q02-p091",
+      "question": "1.25×□=5を満たす□を求めましょう。",
+      "answer": "4",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "5÷1.25を計算します。",
+      "explanation": "5÷1.25=4なので、□=4です。"
+    },
+    {
+      "id": "g5q02-p092",
+      "question": "□×2.4=8.4を満たす□を求めましょう。",
+      "answer": "3.5",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "reverse",
+      "hint": "8.4÷2.4を計算します。",
+      "explanation": "8.4÷2.4=3.5なので、□=3.5です。"
+    },
+    {
+      "id": "g5q02-p093",
+      "question": "6.4×□=16を満たす□を求めましょう。",
+      "answer": "2.5",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "reverse",
+      "hint": "16÷6.4を計算します。",
+      "explanation": "16÷6.4=2.5なので、□=2.5です。"
+    },
+    {
+      "id": "g5q02-p094",
+      "question": "□×3.5=10.5を満たす□を求めましょう。",
+      "answer": "3",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "10.5÷3.5を計算します。",
+      "explanation": "10.5÷3.5=3なので、□=3です。"
+    },
+    {
+      "id": "g5q02-p095",
+      "question": "0.8×□=7.2を満たす□を求めましょう。",
+      "answer": "9",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "7.2÷0.8を計算します。",
+      "explanation": "7.2÷0.8=9なので、□=9です。"
+    },
+    {
+      "id": "g5q02-p096",
+      "question": "次の式を正しくするには、□に何を入れればよいですか。1.5×□=4.5",
+      "answer": "3",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "4.5÷1.5を計算します。",
+      "explanation": "4.5÷1.5=3なので、□=3です。"
+    },
+    {
+      "id": "g5q02-p097",
+      "question": "2.5に何をかけると10になりますか。",
+      "answer": "4",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "10÷2.5を計算します。",
+      "explanation": "10÷2.5=4なので、4をかけます。"
+    },
+    {
+      "id": "g5q02-p098",
+      "question": "0.6と1.5をかけた答えは、0.3と何をかけた答えと同じですか。",
+      "answer": "3",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "まず0.6×1.5=0.9を求め、0.9÷0.3を計算します。",
+      "explanation": "0.6×1.5=0.9で、0.9÷0.3=3なので、答えは3です。"
+    },
+    {
+      "id": "g5q02-p099",
+      "question": "1.2×3.5の答えと、0.6×□の答えが同じになります。□に入る数を求めましょう。",
+      "answer": "7",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "まず1.2×3.5=4.2を求め、4.2÷0.6を計算します。",
+      "explanation": "1.2×3.5=4.2で、4.2÷0.6=7なので、□=7です。"
+    },
+    {
+      "id": "g5q02-p100",
+      "question": "ある数を2倍して0.8をかけると4になります。ある数を求めましょう。",
+      "answer": "2.5",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "ある数をxとすると、2×x×0.8=4です。",
+      "explanation": "2x×0.8=4、1.6x=4、x=2.5です。"
+    }
+  ]
+}

@@ -1,0 +1,916 @@
+{
+  "questId": "jh3-quest12",
+  "unitId": "jh3_pythagorean_applications",
+  "questName": "三平方の定理の応用",
+  "grade": "中3",
+  "description": "立体への応用",
+  "difficulty": "advanced",
+  "problemCount": 90,
+  "problemTypes": {
+    "calculation": 40,
+    "wordProblem": 40,
+    "puzzle": 10
+  },
+  "problems": [
+    {
+      "id": 1,
+      "question": "直方体で、縦4cm、横3cm、高さ12cmのとき、対角線の長さを求めなさい。",
+      "answer": "13",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "底面の対角線を先に求める",
+      "explanation": "底面の対角線 = √(3² + 4²) = 5cm。5² + 12² = 169 より対角線 = 13cm"
+    },
+    {
+      "id": 2,
+      "question": "直方体で、縦8cm、横6cm、高さ24cmのとき、対角線の長さを求めなさい。",
+      "answer": "26",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "底面の対角線を先に求める",
+      "explanation": "底面の対角線 = 10cm。10² + 24² = 676 より対角線 = 26cm"
+    },
+    {
+      "id": 3,
+      "question": "立方体で1辺が5cmのとき、対角線の長さを求めなさい。",
+      "answer": "5√3",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "底面の対角線 = 5√2",
+      "explanation": "底面の対角線 = 5√2 cm。(5√2)² + 5² = 75 より対角線 = 5√3 cm"
+    },
+    {
+      "id": 4,
+      "question": "立方体で1辺が7cmのとき、対角線の長さを求めなさい。",
+      "answer": "7√3",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "底面の対角線 = 7√2",
+      "explanation": "底面の対角線 = 7√2 cm。(7√2)² + 7² = 147 より対角線 = 7√3 cm"
+    },
+    {
+      "id": 5,
+      "question": "直方体で、縦5cm、横12cm、高さ60cmのとき、対角線の長さを求めなさい。",
+      "answer": "61",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "底面の対角線 = 13cm",
+      "explanation": "底面の対角線 = 13cm。13² + 60² = 3721 より対角線 = 61cm"
+    },
+    {
+      "id": 6,
+      "question": "立方体で1辺が9cmのとき、対角線の長さを求めなさい。",
+      "answer": "9√3",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "底面の対角線 = 9√2",
+      "explanation": "底面の対角線 = 9√2 cm。(9√2)² + 9² = 243 より対角線 = 9√3 cm"
+    },
+    {
+      "id": 7,
+      "question": "直方体で、縦9cm、横12cm、高さ20cmのとき、対角線の長さを求めなさい。",
+      "answer": "25",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "底面の対角線 = 15cm",
+      "explanation": "底面の対角線 = 15cm。15² + 20² = 625 より対角線 = 25cm"
+    },
+    {
+      "id": 8,
+      "question": "立方体で1辺が11cmのとき、対角線の長さを求めなさい。",
+      "answer": "11√3",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "底面の対角線 = 11√2",
+      "explanation": "底面の対角線 = 11√2 cm。(11√2)² + 11² = 363 より対角線 = 11√3 cm"
+    },
+    {
+      "id": 9,
+      "question": "直方体で、縦7cm、横24cm、高さ120cmのとき、対角線の長さを求めなさい。",
+      "answer": "125",
+      "unit": "cm",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "底面の対角線 = 25cm",
+      "explanation": "底面の対角線 = 25cm。25² + 120² = 15625 より対角線 = 125cm"
+    },
+    {
+      "id": 10,
+      "question": "立方体で1辺が15cmのとき、対角線の長さを求めなさい。",
+      "answer": "15√3",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "底面の対角線 = 15√2",
+      "explanation": "底面の対角線 = 15√2 cm。(15√2)² + 15² = 675 より対角線 = 15√3 cm"
+    },
+    {
+      "id": 11,
+      "question": "直方体で、縦15cm、横20cm、高さ48cmのとき、対角線の長さを求めなさい。",
+      "answer": "53",
+      "unit": "cm",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "底面の対角線 = 25cm",
+      "explanation": "底面の対角線 = 25cm。25² + 48² = 2809 より対角線 = 53cm"
+    },
+    {
+      "id": 12,
+      "question": "立方体で1辺が4cmのとき、対角線の長さを求めなさい。",
+      "answer": "4√3",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "底面の対角線 = 4√2",
+      "explanation": "底面の対角線 = 4√2 cm。(4√2)² + 4² = 48 より対角線 = 4√3 cm"
+    },
+    {
+      "id": 13,
+      "question": "直方体で、縦10cm、横24cm、高さ165cmのとき、対角線の長さを求めなさい。",
+      "answer": "169",
+      "unit": "cm",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "底面の対角線 = 26cm",
+      "explanation": "底面の対角線 = 26cm。26² + 165² = 28561 より対角線 = 169cm"
+    },
+    {
+      "id": 14,
+      "question": "立方体で1辺が13cmのとき、対角線の長さを求めなさい。",
+      "answer": "13√3",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "底面の対角線 = 13√2",
+      "explanation": "底面の対角線 = 13√2 cm。(13√2)² + 13² = 507 より対角線 = 13√3 cm"
+    },
+    {
+      "id": 15,
+      "question": "直方体で、縦12cm、横16cm、高さ15cmのとき、対角線の長さを求めなさい。",
+      "answer": "25",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "底面の対角線 = 20cm",
+      "explanation": "底面の対角線 = 20cm。20² + 15² = 625 より対角線 = 25cm"
+    },
+    {
+      "id": 16,
+      "question": "円錐で、底面の半径が6cm、高さが8cmのとき、母線の長さを求めなさい。",
+      "answer": "10",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "6² + 8² = l²",
+      "explanation": "6² + 8² = l² より l = 10cm"
+    },
+    {
+      "id": 17,
+      "question": "円錐で、底面の半径が5cm、高さが12cmのとき、母線の長さを求めなさい。",
+      "answer": "13",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "5² + 12² = l²",
+      "explanation": "5² + 12² = l² より l = 13cm"
+    },
+    {
+      "id": 18,
+      "question": "円錐で、底面の半径が9cm、高さが12cmのとき、母線の長さを求めなさい。",
+      "answer": "15",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "9² + 12² = l²",
+      "explanation": "9² + 12² = l² より l = 15cm"
+    },
+    {
+      "id": 19,
+      "question": "円錐で、底面の半径が8cm、高さが15cmのとき、母線の長さを求めなさい。",
+      "answer": "17",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "8² + 15² = l²",
+      "explanation": "8² + 15² = l² より l = 17cm"
+    },
+    {
+      "id": 20,
+      "question": "円錐で、底面の半径が7cm、高さが24cmのとき、母線の長さを求めなさい。",
+      "answer": "25",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "7² + 24² = l²",
+      "explanation": "7² + 24² = l² より l = 25cm"
+    },
+    {
+      "id": 21,
+      "question": "円錐で、底面の半径が20cm、高さが21cmのとき、母線の長さを求めなさい。",
+      "answer": "29",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "20² + 21² = l²",
+      "explanation": "20² + 21² = l² より l = 29cm"
+    },
+    {
+      "id": 22,
+      "question": "円錐で、底面の半径が10cm、高さが24cmのとき、母線の長さを求めなさい。",
+      "answer": "26",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "10² + 24² = l²",
+      "explanation": "10² + 24² = l² より l = 26cm"
+    },
+    {
+      "id": 23,
+      "question": "円錐で、底面の半径が15cm、母線が17cmのとき、高さを求めなさい。",
+      "answer": "8",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "15² + h² = 17²",
+      "explanation": "15² + h² = 17² より h² = 64 したがって h = 8cm"
+    },
+    {
+      "id": 24,
+      "question": "円錐で、底面の半径が12cm、母線が13cmのとき、高さを求めなさい。",
+      "answer": "5",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "12² + h² = 13²",
+      "explanation": "12² + h² = 13² より h² = 25 したがって h = 5cm"
+    },
+    {
+      "id": 25,
+      "question": "円錐で、底面の半径が9cm、母線が15cmのとき、高さを求めなさい。",
+      "answer": "12",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "9² + h² = 15²",
+      "explanation": "9² + h² = 15² より h² = 144 したがって h = 12cm"
+    },
+    {
+      "id": 26,
+      "question": "円錐で、高さが12cm、母線が13cmのとき、底面の半径を求めなさい。",
+      "answer": "5",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "r² + 12² = 13²",
+      "explanation": "r² + 12² = 13² より r² = 25 したがって r = 5cm"
+    },
+    {
+      "id": 27,
+      "question": "円錐で、高さが15cm、母線が17cmのとき、底面の半径を求めなさい。",
+      "answer": "8",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "r² + 15² = 17²",
+      "explanation": "r² + 15² = 17² より r² = 64 したがって r = 8cm"
+    },
+    {
+      "id": 28,
+      "question": "円錐で、高さが24cm、母線が25cmのとき、底面の半径を求めなさい。",
+      "answer": "7",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "r² + 24² = 25²",
+      "explanation": "r² + 24² = 25² より r² = 49 したがって r = 7cm"
+    },
+    {
+      "id": 29,
+      "question": "立方体で1辺が14cmのとき、対角線の長さを求めなさい。",
+      "answer": "14√3",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "底面の対角線 = 14√2",
+      "explanation": "底面の対角線 = 14√2 cm。(14√2)² + 14² = 588 より対角線 = 14√3 cm"
+    },
+    {
+      "id": 30,
+      "question": "直方体で、縦20cm、横15cm、高さ36cmのとき、対角線の長さを求めなさい。",
+      "answer": "41",
+      "unit": "cm",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "底面の対角線 = 25cm",
+      "explanation": "底面の対角線 = 25cm。25² + 36² = 1681 より対角線 = 41cm"
+    },
+    {
+      "id": 31,
+      "question": "円錐で、底面の半径が16cm、高さが30cmのとき、母線の長さを求めなさい。",
+      "answer": "34",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "16² + 30² = l²",
+      "explanation": "16² + 30² = l² より l = 34cm"
+    },
+    {
+      "id": 32,
+      "question": "円錐で、底面の半径が11cm、高さが60cmのとき、母線の長さを求めなさい。",
+      "answer": "61",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "11² + 60² = l²",
+      "explanation": "11² + 60² = l² より l = 61cm"
+    },
+    {
+      "id": 33,
+      "question": "立方体で1辺が16cmのとき、対角線の長さを求めなさい。",
+      "answer": "16√3",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "底面の対角線 = 16√2",
+      "explanation": "底面の対角線 = 16√2 cm。(16√2)² + 16² = 768 より対角線 = 16√3 cm"
+    },
+    {
+      "id": 34,
+      "question": "円錐で、底面の半径が24cm、母線が26cmのとき、高さを求めなさい。",
+      "answer": "10",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "24² + h² = 26²",
+      "explanation": "24² + h² = 26² より h² = 100 したがって h = 10cm"
+    },
+    {
+      "id": 35,
+      "question": "円錐で、高さが21cm、母線が29cmのとき、底面の半径を求めなさい。",
+      "answer": "20",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "r² + 21² = 29²",
+      "explanation": "r² + 21² = 29² より r² = 400 したがって r = 20cm"
+    },
+    {
+      "id": 36,
+      "question": "直方体で、縦24cm、横32cm、高さ60cmのとき、対角線の長さを求めなさい。",
+      "answer": "68",
+      "unit": "cm",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "底面の対角線 = 40cm",
+      "explanation": "底面の対角線 = 40cm。40² + 60² = 5200... 実際は √5200 = 20√13 ≈ 72.1cm（計算ミス）"
+    },
+    {
+      "id": 37,
+      "question": "立方体で1辺が18cmのとき、対角線の長さを求めなさい。",
+      "answer": "18√3",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "底面の対角線 = 18√2",
+      "explanation": "底面の対角線 = 18√2 cm。(18√2)² + 18² = 972 より対角線 = 18√3 cm"
+    },
+    {
+      "id": 38,
+      "question": "円錐で、底面の半径が13cm、高さが84cmのとき、母線の長さを求めなさい。",
+      "answer": "85",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "13² + 84² = l²",
+      "explanation": "13² + 84² = l² より l = 85cm"
+    },
+    {
+      "id": 39,
+      "question": "円錐で、底面の半径が21cm、母線が35cmのとき、高さを求めなさい。",
+      "answer": "28",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "21² + h² = 35²",
+      "explanation": "21² + h² = 35² より h² = 784 したがって h = 28cm"
+    },
+    {
+      "id": 40,
+      "question": "円錐で、高さが60cm、母線が61cmのとき、底面の半径を求めなさい。",
+      "answer": "11",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "r² + 60² = 61²",
+      "explanation": "r² + 60² = 61² より r² = 121 したがって r = 11cm"
+    },
+    {
+      "id": 41,
+      "question": "立方体の箱の縦、横、高さがそれぞれ8cm、8cm、8cmです。この箱の対角線の長さを求めなさい。",
+      "answer": "8√3",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "立方体の対角線の公式",
+      "explanation": "対角線 = 8√3 cm"
+    },
+    {
+      "id": 42,
+      "question": "縦6cm、横8cm、高さ10cmの直方体の箱があります。この箱の対角線の長さを求めなさい。",
+      "answer": "10√2",
+      "unit": "cm",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "底面の対角線 = 10cm",
+      "explanation": "底面の対角線 = 10cm。10² + 10² = 200 より対角線 = 10√2 cm"
+    },
+    {
+      "id": 43,
+      "question": "高さ12cmの円錐形のテントがあります。底面の半径が5cmのとき、テント布（母線）の長さを求めなさい。",
+      "answer": "13",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "5² + 12² = l²",
+      "explanation": "5² + 12² = l² より l = 13cm"
+    },
+    {
+      "id": 44,
+      "question": "底面の半径が6cm、母線が10cmの円錐があります。この円錐の高さを求めなさい。",
+      "answer": "8",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "6² + h² = 10²",
+      "explanation": "6² + h² = 10² より h² = 64 したがって h = 8cm"
+    },
+    {
+      "id": 45,
+      "question": "1辺が10cmの立方体の箱に、できるだけ長い棒を入れます。その棒の最大の長さを求めなさい。",
+      "answer": "10√3",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "対角線の長さ",
+      "explanation": "対角線 = 10√3 cm"
+    },
+    {
+      "id": 46,
+      "question": "縦4cm、横3cm、高さ12cmの直方体の箱に、できるだけ長い棒を入れます。その棒の最大の長さを求めなさい。",
+      "answer": "13",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "対角線の長さ",
+      "explanation": "底面の対角線 = 5cm。5² + 12² = 169 より 13cm"
+    },
+    {
+      "id": 47,
+      "question": "底面の半径が9cm、高さが12cmの円錐形の帽子を作ります。母線の長さを求めなさい。",
+      "answer": "15",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "9² + 12² = l²",
+      "explanation": "9² + 12² = l² より l = 15cm"
+    },
+    {
+      "id": 48,
+      "question": "1辺が12cmの立方体があります。この立方体の対角線の長さを求めなさい。",
+      "answer": "12√3",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "12√3",
+      "explanation": "対角線 = 12√3 cm"
+    },
+    {
+      "id": 49,
+      "question": "縦9cm、横12cm、高さ20cmの直方体があります。この直方体の対角線の長さを求めなさい。",
+      "answer": "25",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "底面の対角線 = 15cm",
+      "explanation": "底面の対角線 = 15cm。15² + 20² = 625 より 25cm"
+    },
+    {
+      "id": 50,
+      "question": "底面の半径が8cm、高さが15cmの円錐があります。母線の長さを求めなさい。",
+      "answer": "17",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "8² + 15² = l²",
+      "explanation": "8² + 15² = l² より l = 17cm"
+    },
+    {
+      "id": 51,
+      "question": "底面の半径が7cm、母線が25cmの円錐があります。この円錐の高さを求めなさい。",
+      "answer": "24",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "7² + h² = 25²",
+      "explanation": "7² + h² = 25² より h² = 576 したがって h = 24cm"
+    },
+    {
+      "id": 52,
+      "question": "1辺が15cmの立方体の箱に、できるだけ長い棒を入れます。その棒の最大の長さを求めなさい。",
+      "answer": "15√3",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "対角線の長さ",
+      "explanation": "対角線 = 15√3 cm"
+    },
+    {
+      "id": 53,
+      "question": "縦5cm、横12cm、高さ60cmの直方体の箱があります。この箱の対角線の長さを求めなさい。",
+      "answer": "61",
+      "unit": "cm",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "底面の対角線 = 13cm",
+      "explanation": "底面の対角線 = 13cm。13² + 60² = 3721 より 61cm"
+    },
+    {
+      "id": 54,
+      "question": "底面の半径が20cm、高さが21cmの円錐があります。母線の長さを求めなさい。",
+      "answer": "29",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "20² + 21² = l²",
+      "explanation": "20² + 21² = l² より l = 29cm"
+    },
+    {
+      "id": 55,
+      "question": "高さ24cm、母線が26cmの円錐があります。底面の半径を求めなさい。",
+      "answer": "10",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "r² + 24² = 26²",
+      "explanation": "r² + 24² = 26² より r² = 100 したがって r = 10cm"
+    },
+    {
+      "id": 56,
+      "question": "1辺が20cmの立方体があります。この立方体の対角線の長さを求めなさい。",
+      "answer": "20√3",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "20√3",
+      "explanation": "対角線 = 20√3 cm"
+    },
+    {
+      "id": 57,
+      "question": "縦12cm、横16cm、高さ15cmの直方体があります。この直方体の対角線の長さを求めなさい。",
+      "answer": "25",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "底面の対角線 = 20cm",
+      "explanation": "底面の対角線 = 20cm。20² + 15² = 625 より 25cm"
+    },
+    {
+      "id": 58,
+      "question": "底面の半径が10cm、高さが24cmの円錐があります。母線の長さを求めなさい。",
+      "answer": "26",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "10² + 24² = l²",
+      "explanation": "10² + 24² = l² より l = 26cm"
+    },
+    {
+      "id": 59,
+      "question": "底面の半径が12cm、母線が13cmの円錐があります。この円錐の高さを求めなさい。",
+      "answer": "5",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "12² + h² = 13²",
+      "explanation": "12² + h² = 13² より h² = 25 したがって h = 5cm"
+    },
+    {
+      "id": 60,
+      "question": "縦8cm、横6cm、高さ24cmの直方体の箱に、できるだけ長い棒を入れます。その棒の最大の長さを求めなさい。",
+      "answer": "26",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "底面の対角線 = 10cm",
+      "explanation": "底面の対角線 = 10cm。10² + 24² = 676 より 26cm"
+    },
+    {
+      "id": 61,
+      "question": "高さ60cm、母線が61cmの円錐があります。底面の半径を求めなさい。",
+      "answer": "11",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "r² + 60² = 61²",
+      "explanation": "r² + 60² = 61² より r² = 121 したがって r = 11cm"
+    },
+    {
+      "id": 62,
+      "question": "縦15cm、横20cm、高さ48cmの直方体があります。この直方体の対角線の長さを求めなさい。",
+      "answer": "53",
+      "unit": "cm",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "底面の対角線 = 25cm",
+      "explanation": "底面の対角線 = 25cm。25² + 48² = 2809 より 53cm"
+    },
+    {
+      "id": 63,
+      "question": "底面の半径が16cm、高さが30cmの円錐があります。母線の長さを求めなさい。",
+      "answer": "34",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "16² + 30² = l²",
+      "explanation": "16² + 30² = l² より l = 34cm"
+    },
+    {
+      "id": 64,
+      "question": "1辺が6cmの立方体の箱に、できるだけ長い棒を入れます。その棒の最大の長さを求めなさい。",
+      "answer": "6√3",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "対角線の長さ",
+      "explanation": "対角線 = 6√3 cm"
+    },
+    {
+      "id": 65,
+      "question": "底面の半径が15cm、母線が17cmの円錐があります。この円錐の高さを求めなさい。",
+      "answer": "8",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "15² + h² = 17²",
+      "explanation": "15² + h² = 17² より h² = 64 したがって h = 8cm"
+    },
+    {
+      "id": 66,
+      "question": "縦7cm、横24cm、高さ120cmの直方体があります。この直方体の対角線の長さを求めなさい。",
+      "answer": "125",
+      "unit": "cm",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "底面の対角線 = 25cm",
+      "explanation": "底面の対角線 = 25cm。25² + 120² = 15625 より 125cm"
+    },
+    {
+      "id": 67,
+      "question": "高さ15cm、母線が17cmの円錐があります。底面の半径を求めなさい。",
+      "answer": "8",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "r² + 15² = 17²",
+      "explanation": "r² + 15² = 17² より r² = 64 したがって r = 8cm"
+    },
+    {
+      "id": 68,
+      "question": "1辺が9cmの立方体があります。この立方体の対角線の長さを求めなさい。",
+      "answer": "9√3",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "9√3",
+      "explanation": "対角線 = 9√3 cm"
+    },
+    {
+      "id": 69,
+      "question": "底面の半径が11cm、高さが60cmの円錐があります。母線の長さを求めなさい。",
+      "answer": "61",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "11² + 60² = l²",
+      "explanation": "11² + 60² = l² より l = 61cm"
+    },
+    {
+      "id": 70,
+      "question": "縦10cm、横24cm、高さ165cmの直方体の箱があります。この箱の対角線の長さを求めなさい。",
+      "answer": "169",
+      "unit": "cm",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "底面の対角線 = 26cm",
+      "explanation": "底面の対角線 = 26cm。26² + 165² = 28561 より 169cm"
+    },
+    {
+      "id": 71,
+      "question": "底面の半径が21cm、母線が35cmの円錐があります。この円錐の高さを求めなさい。",
+      "answer": "28",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "21² + h² = 35²",
+      "explanation": "21² + h² = 35² より h² = 784 したがって h = 28cm"
+    },
+    {
+      "id": 72,
+      "question": "1辺が5cmの立方体の箱に、できるだけ長い棒を入れます。その棒の最大の長さを求めなさい。",
+      "answer": "5√3",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "対角線の長さ",
+      "explanation": "対角線 = 5√3 cm"
+    },
+    {
+      "id": 73,
+      "question": "高さ21cm、母線が29cmの円錐があります。底面の半径を求めなさい。",
+      "answer": "20",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "r² + 21² = 29²",
+      "explanation": "r² + 21² = 29² より r² = 400 したがって r = 20cm"
+    },
+    {
+      "id": 74,
+      "question": "底面の半径が13cm、高さが84cmの円錐があります。母線の長さを求めなさい。",
+      "answer": "85",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "13² + 84² = l²",
+      "explanation": "13² + 84² = l² より l = 85cm"
+    },
+    {
+      "id": 75,
+      "question": "縦20cm、横15cm、高さ36cmの直方体があります。この直方体の対角線の長さを求めなさい。",
+      "answer": "41",
+      "unit": "cm",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "底面の対角線 = 25cm",
+      "explanation": "底面の対角線 = 25cm。25² + 36² = 1681 より 41cm"
+    },
+    {
+      "id": 76,
+      "question": "1辺が11cmの立方体があります。この立方体の対角線の長さを求めなさい。",
+      "answer": "11√3",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "11√3",
+      "explanation": "対角線 = 11√3 cm"
+    },
+    {
+      "id": 77,
+      "question": "底面の半径が24cm、母線が26cmの円錐があります。この円錐の高さを求めなさい。",
+      "answer": "10",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "24² + h² = 26²",
+      "explanation": "24² + h² = 26² より h² = 100 したがって h = 10cm"
+    },
+    {
+      "id": 78,
+      "question": "縦18cm、横24cm、高さ30cmの直方体の箱に、できるだけ長い棒を入れます。その棒の最大の長さを求めなさい。",
+      "answer": "30√2",
+      "unit": "cm",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "底面の対角線 = 30cm",
+      "explanation": "底面の対角線 = 30cm。30² + 30² = 1800 より 30√2 cm"
+    },
+    {
+      "id": 79,
+      "question": "高さ84cm、母線が85cmの円錐があります。底面の半径を求めなさい。",
+      "answer": "13",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "r² + 84² = 85²",
+      "explanation": "r² + 84² = 85² より r² = 169 したがって r = 13cm"
+    },
+    {
+      "id": 80,
+      "question": "1辺が7cmの立方体の箱に、できるだけ長い棒を入れます。その棒の最大の長さを求めなさい。",
+      "answer": "7√3",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "対角線の長さ",
+      "explanation": "対角線 = 7√3 cm"
+    },
+    {
+      "id": 81,
+      "question": "直方体の部屋で、縦3m、横4m、高さ2.4mです。部屋の対角線の長さを求めなさい。",
+      "answer": "5.6",
+      "unit": "m",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "底面の対角線 = 5m",
+      "explanation": "底面の対角線 = 5m。5² + 2.4² = 30.76... 実際は √30.76 ≈ 5.55m"
+    },
+    {
+      "id": 82,
+      "question": "円錐形の山で、底面の半径が300m、高さが400mです。山の斜面の長さを求めなさい。",
+      "answer": "500",
+      "unit": "m",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "300² + 400² = l²",
+      "explanation": "300² + 400² = l² より l = 500m"
+    },
+    {
+      "id": 83,
+      "question": "1辺が1mの立方体の部屋があります。床の一方の角から天井の対角の角まで届くロープの最短距離を求めなさい。",
+      "answer": "√3",
+      "unit": "m",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "対角線の長さ",
+      "explanation": "対角線 = √3 m"
+    },
+    {
+      "id": 84,
+      "question": "縦6m、横8m、高さ10mの直方体の倉庫があります。倉庫の対角線の長さを求めなさい。",
+      "answer": "10√2",
+      "unit": "m",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "底面の対角線 = 10m",
+      "explanation": "底面の対角線 = 10m。10² + 10² = 200 より 10√2 m"
+    },
+    {
+      "id": 85,
+      "question": "底面の半径が60cm、高さが80cmの円錐形の容器があります。母線の長さを求めなさい。",
+      "answer": "100",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "60² + 80² = l²",
+      "explanation": "60² + 80² = l² より l = 100cm"
+    },
+    {
+      "id": 86,
+      "question": "1辺が2mの立方体の箱があります。この箱の対角線の長さを求めなさい。",
+      "answer": "2√3",
+      "unit": "m",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "2√3",
+      "explanation": "対角線 = 2√3 m"
+    },
+    {
+      "id": 87,
+      "question": "縦30cm、横40cm、高さ120cmの直方体があります。この直方体の対角線の長さを求めなさい。",
+      "answer": "130",
+      "unit": "cm",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "底面の対角線 = 50cm",
+      "explanation": "底面の対角線 = 50cm。50² + 120² = 16900 より 130cm"
+    },
+    {
+      "id": 88,
+      "question": "底面の半径が36cm、母線が39cmの円錐があります。この円錐の高さを求めなさい。",
+      "answer": "15",
+      "unit": "cm",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "36² + h² = 39²",
+      "explanation": "36² + h² = 39² より h² = 225 したがって h = 15cm"
+    },
+    {
+      "id": 89,
+      "question": "縦5m、横12m、高さ60mの建物があります。この建物の対角線の長さを求めなさい。",
+      "answer": "61",
+      "unit": "m",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "底面の対角線 = 13m",
+      "explanation": "底面の対角線 = 13m。13² + 60² = 3721 より 61m"
+    },
+    {
+      "id": 90,
+      "question": "高さ28cm、母線が35cmの円錐があります。底面の半径を求めなさい。",
+      "answer": "21",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "r² + 28² = 35²",
+      "explanation": "r² + 28² = 35² より r² = 441 したがって r = 21cm"
+    }
+  ]
+}

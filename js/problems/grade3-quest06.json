@@ -1,0 +1,819 @@
+{
+  "questId": "grade3-quest06",
+  "questName": "わり算（あまりあり）",
+  "grade": "小3",
+  "unitId": "elem3_division_remainder",
+  "totalProblems": 90,
+  "problems": [
+    {
+      "id": 1,
+      "question": "13 ÷ 3",
+      "answer": "4あまり1",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "13の中に3が何こあって、何こあまる？",
+      "explanation": "13 ÷ 3 = 4あまり1です。13の中に3が4こあって、1こあまります。確かめ：3 × 4 + 1 = 13"
+    },
+    {
+      "id": 2,
+      "question": "17 ÷ 4",
+      "answer": "4あまり1",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "17の中に4が何こあって、何こあまる？",
+      "explanation": "17 ÷ 4 = 4あまり1です。17の中に4が4こあって、1こあまります。確かめ：4 × 4 + 1 = 17"
+    },
+    {
+      "id": 3,
+      "question": "23 ÷ 5",
+      "answer": "4あまり3",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "23の中に5が何こあって、何こあまる？",
+      "explanation": "23 ÷ 5 = 4あまり3です。23の中に5が4こあって、3こあまります。確かめ：5 × 4 + 3 = 23"
+    },
+    {
+      "id": 4,
+      "question": "26 ÷ 6",
+      "answer": "4あまり2",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "26の中に6が何こあって、何こあまる？",
+      "explanation": "26 ÷ 6 = 4あまり2です。26の中に6が4こあって、2こあまります。確かめ：6 × 4 + 2 = 26"
+    },
+    {
+      "id": 5,
+      "question": "29 ÷ 7",
+      "answer": "4あまり1",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "29の中に7が何こあって、何こあまる？",
+      "explanation": "29 ÷ 7 = 4あまり1です。29の中に7が4こあって、1こあまります。確かめ：7 × 4 + 1 = 29"
+    },
+    {
+      "id": 6,
+      "question": "34 ÷ 8",
+      "answer": "4あまり2",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "34の中に8が何こあって、何こあまる？",
+      "explanation": "34 ÷ 8 = 4あまり2です。34の中に8が4こあって、2こあまります。確かめ：8 × 4 + 2 = 34"
+    },
+    {
+      "id": 7,
+      "question": "38 ÷ 9",
+      "answer": "4あまり2",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "38の中に9が何こあって、何こあまる？",
+      "explanation": "38 ÷ 9 = 4あまり2です。38の中に9が4こあって、2こあまります。確かめ：9 × 4 + 2 = 38"
+    },
+    {
+      "id": 8,
+      "question": "11 ÷ 2",
+      "answer": "5あまり1",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "11の中に2が何こあって、何こあまる？",
+      "explanation": "11 ÷ 2 = 5あまり1です。11の中に2が5こあって、1こあまります。確かめ：2 × 5 + 1 = 11"
+    },
+    {
+      "id": 9,
+      "question": "14 ÷ 3",
+      "answer": "4あまり2",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "14の中に3が何こあって、何こあまる？",
+      "explanation": "14 ÷ 3 = 4あまり2です。14の中に3が4こあって、2こあまります。確かめ：3 × 4 + 2 = 14"
+    },
+    {
+      "id": 10,
+      "question": "19 ÷ 4",
+      "answer": "4あまり3",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "19の中に4が何こあって、何こあまる？",
+      "explanation": "19 ÷ 4 = 4あまり3です。19の中に4が4こあって、3こあまります。確かめ：4 × 4 + 3 = 19"
+    },
+    {
+      "id": 11,
+      "question": "22 ÷ 5",
+      "answer": "4あまり2",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "22の中に5が何こあって、何こあまる？",
+      "explanation": "22 ÷ 5 = 4あまり2です。22の中に5が4こあって、2こあまります。確かめ：5 × 4 + 2 = 22"
+    },
+    {
+      "id": 12,
+      "question": "27 ÷ 6",
+      "answer": "4あまり3",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "27の中に6が何こあって、何こあまる？",
+      "explanation": "27 ÷ 6 = 4あまり3です。27の中に6が4こあって、3こあまります。確かめ：6 × 4 + 3 = 27"
+    },
+    {
+      "id": 13,
+      "question": "31 ÷ 7",
+      "answer": "4あまり3",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "31の中に7が何こあって、何こあまる？",
+      "explanation": "31 ÷ 7 = 4あまり3です。31の中に7が4こあって、3こあまります。確かめ：7 × 4 + 3 = 31"
+    },
+    {
+      "id": 14,
+      "question": "35 ÷ 8",
+      "answer": "4あまり3",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "35の中に8が何こあって、何こあまる？",
+      "explanation": "35 ÷ 8 = 4あまり3です。35の中に8が4こあって、3こあまります。確かめ：8 × 4 + 3 = 35"
+    },
+    {
+      "id": 15,
+      "question": "39 ÷ 9",
+      "answer": "4あまり3",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "39の中に9が何こあって、何こあまる？",
+      "explanation": "39 ÷ 9 = 4あまり3です。39の中に9が4こあって、3こあまります。確かめ：9 × 4 + 3 = 39"
+    },
+    {
+      "id": 16,
+      "question": "25 ÷ 3",
+      "answer": "8あまり1",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "25の中に3が何こあって、何こあまる？",
+      "explanation": "25 ÷ 3 = 8あまり1です。25の中に3が8こあって、1こあまります。確かめ：3 × 8 + 1 = 25"
+    },
+    {
+      "id": 17,
+      "question": "30 ÷ 4",
+      "answer": "7あまり2",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "30の中に4が何こあって、何こあまる？",
+      "explanation": "30 ÷ 4 = 7あまり2です。30の中に4が7こあって、2こあまります。確かめ：4 × 7 + 2 = 30"
+    },
+    {
+      "id": 18,
+      "question": "33 ÷ 5",
+      "answer": "6あまり3",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "33の中に5が何こあって、何こあまる？",
+      "explanation": "33 ÷ 5 = 6あまり3です。33の中に5が6こあって、3こあまります。確かめ：5 × 6 + 3 = 33"
+    },
+    {
+      "id": 19,
+      "question": "37 ÷ 6",
+      "answer": "6あまり1",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "37の中に6が何こあって、何こあまる？",
+      "explanation": "37 ÷ 6 = 6あまり1です。37の中に6が6こあって、1こあまります。確かめ：6 × 6 + 1 = 37"
+    },
+    {
+      "id": 20,
+      "question": "41 ÷ 7",
+      "answer": "5あまり6",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "41の中に7が何こあって、何こあまる？",
+      "explanation": "41 ÷ 7 = 5あまり6です。41の中に7が5こあって、6こあまります。確かめ：7 × 5 + 6 = 41"
+    },
+    {
+      "id": 21,
+      "question": "43 ÷ 8",
+      "answer": "5あまり3",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "43の中に8が何こあって、何こあまる？",
+      "explanation": "43 ÷ 8 = 5あまり3です。43の中に8が5こあって、3こあまります。確かめ：8 × 5 + 3 = 43"
+    },
+    {
+      "id": 22,
+      "question": "47 ÷ 9",
+      "answer": "5あまり2",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "47の中に9が何こあって、何こあまる？",
+      "explanation": "47 ÷ 9 = 5あまり2です。47の中に9が5こあって、2こあまります。確かめ：9 × 5 + 2 = 47"
+    },
+    {
+      "id": 23,
+      "question": "15 ÷ 2",
+      "answer": "7あまり1",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "15の中に2が何こあって、何こあまる？",
+      "explanation": "15 ÷ 2 = 7あまり1です。15の中に2が7こあって、1こあまります。確かめ：2 × 7 + 1 = 15"
+    },
+    {
+      "id": 24,
+      "question": "20 ÷ 3",
+      "answer": "6あまり2",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "20の中に3が何こあって、何こあまる？",
+      "explanation": "20 ÷ 3 = 6あまり2です。20の中に3が6こあって、2こあまります。確かめ：3 × 6 + 2 = 20"
+    },
+    {
+      "id": 25,
+      "question": "26 ÷ 4",
+      "answer": "6あまり2",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "26の中に4が何こあって、何こあまる？",
+      "explanation": "26 ÷ 4 = 6あまり2です。26の中に4が6こあって、2こあまります。確かめ：4 × 6 + 2 = 26"
+    },
+    {
+      "id": 26,
+      "question": "28 ÷ 5",
+      "answer": "5あまり3",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "28の中に5が何こあって、何こあまる？",
+      "explanation": "28 ÷ 5 = 5あまり3です。28の中に5が5こあって、3こあまります。確かめ：5 × 5 + 3 = 28"
+    },
+    {
+      "id": 27,
+      "question": "32 ÷ 6",
+      "answer": "5あまり2",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "32の中に6が何こあって、何こあまる？",
+      "explanation": "32 ÷ 6 = 5あまり2です。32の中に6が5こあって、2こあまります。確かめ：6 × 5 + 2 = 32"
+    },
+    {
+      "id": 28,
+      "question": "36 ÷ 7",
+      "answer": "5あまり1",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "36の中に7が何こあって、何こあまる？",
+      "explanation": "36 ÷ 7 = 5あまり1です。36の中に7が5こあって、1こあまります。確かめ：7 × 5 + 1 = 36"
+    },
+    {
+      "id": 29,
+      "question": "44 ÷ 8",
+      "answer": "5あまり4",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "44の中に8が何こあって、何こあまる？",
+      "explanation": "44 ÷ 8 = 5あまり4です。44の中に8が5こあって、4こあまります。確かめ：8 × 5 + 4 = 44"
+    },
+    {
+      "id": 30,
+      "question": "50 ÷ 9",
+      "answer": "5あまり5",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "50の中に9が何こあって、何こあまる？",
+      "explanation": "50 ÷ 9 = 5あまり5です。50の中に9が5こあって、5こあまります。確かめ：9 × 5 + 5 = 50"
+    },
+    {
+      "id": 31,
+      "question": "51 ÷ 7",
+      "answer": "7あまり2",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "51の中に7が何こあって、何こあまる？",
+      "explanation": "51 ÷ 7 = 7あまり2です。51の中に7が7こあって、2こあまります。確かめ：7 × 7 + 2 = 51"
+    },
+    {
+      "id": 32,
+      "question": "53 ÷ 8",
+      "answer": "6あまり5",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "53の中に8が何こあって、何こあまる？",
+      "explanation": "53 ÷ 8 = 6あまり5です。53の中に8が6こあって、5こあまります。確かめ：8 × 6 + 5 = 53"
+    },
+    {
+      "id": 33,
+      "question": "58 ÷ 9",
+      "answer": "6あまり4",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "58の中に9が何こあって、何こあまる？",
+      "explanation": "58 ÷ 9 = 6あまり4です。58の中に9が6こあって、4こあまります。確かめ：9 × 6 + 4 = 58"
+    },
+    {
+      "id": 34,
+      "question": "46 ÷ 5",
+      "answer": "9あまり1",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "46の中に5が何こあって、何こあまる？",
+      "explanation": "46 ÷ 5 = 9あまり1です。46の中に5が9こあって、1こあまります。確かめ：5 × 9 + 1 = 46"
+    },
+    {
+      "id": 35,
+      "question": "52 ÷ 6",
+      "answer": "8あまり4",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "52の中に6が何こあって、何こあまる？",
+      "explanation": "52 ÷ 6 = 8あまり4です。52の中に6が8こあって、4こあまります。確かめ：6 × 8 + 4 = 52"
+    },
+    {
+      "id": 36,
+      "question": "59 ÷ 7",
+      "answer": "8あまり3",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "59の中に7が何こあって、何こあまる？",
+      "explanation": "59 ÷ 7 = 8あまり3です。59の中に7が8こあって、3こあまります。確かめ：7 × 8 + 3 = 59"
+    },
+    {
+      "id": 37,
+      "question": "62 ÷ 8",
+      "answer": "7あまり6",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "62の中に8が何こあって、何こあまる？",
+      "explanation": "62 ÷ 8 = 7あまり6です。62の中に8が7こあって、6こあまります。確かめ：8 × 7 + 6 = 62"
+    },
+    {
+      "id": 38,
+      "question": "67 ÷ 9",
+      "answer": "7あまり4",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "67の中に9が何こあって、何こあまる？",
+      "explanation": "67 ÷ 9 = 7あまり4です。67の中に9が7こあって、4こあまります。確かめ：9 × 7 + 4 = 67"
+    },
+    {
+      "id": 39,
+      "question": "55 ÷ 6",
+      "answer": "9あまり1",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "55の中に6が何こあって、何こあまる？",
+      "explanation": "55 ÷ 6 = 9あまり1です。55の中に6が9こあって、1こあまります。確かめ：6 × 9 + 1 = 55"
+    },
+    {
+      "id": 40,
+      "question": "61 ÷ 7",
+      "answer": "8あまり5",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "61の中に7が何こあって、何こあまる？",
+      "explanation": "61 ÷ 7 = 8あまり5です。61の中に7が8こあって、5こあまります。確かめ：7 × 8 + 5 = 61"
+    },
+    {
+      "id": 41,
+      "question": "70 ÷ 8",
+      "answer": "8あまり6",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "70の中に8が何こあって、何こあまる？",
+      "explanation": "70 ÷ 8 = 8あまり6です。70の中に8が8こあって、6こあまります。確かめ：8 × 8 + 6 = 70"
+    },
+    {
+      "id": 42,
+      "question": "75 ÷ 9",
+      "answer": "8あまり3",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "75の中に9が何こあって、何こあまる？",
+      "explanation": "75 ÷ 9 = 8あまり3です。75の中に9が8こあって、3こあまります。確かめ：9 × 8 + 3 = 75"
+    },
+    {
+      "id": 43,
+      "question": "68 ÷ 7",
+      "answer": "9あまり5",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "68の中に7が何こあって、何こあまる？",
+      "explanation": "68 ÷ 7 = 9あまり5です。68の中に7が9こあって、5こあまります。確かめ：7 × 9 + 5 = 68"
+    },
+    {
+      "id": 44,
+      "question": "73 ÷ 8",
+      "answer": "9あまり1",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "73の中に8が何こあって、何こあまる？",
+      "explanation": "73 ÷ 8 = 9あまり1です。73の中に8が9こあって、1こあまります。確かめ：8 × 9 + 1 = 73"
+    },
+    {
+      "id": 45,
+      "question": "78 ÷ 9",
+      "answer": "8あまり6",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "78の中に9が何こあって、何こあまる？",
+      "explanation": "78 ÷ 9 = 8あまり6です。78の中に9が8こあって、6こあまります。確かめ：9 × 8 + 6 = 78"
+    },
+    {
+      "id": 46,
+      "question": "65 ÷ 8",
+      "answer": "8あまり1",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "65の中に8が何こあって、何こあまる？",
+      "explanation": "65 ÷ 8 = 8あまり1です。65の中に8が8こあって、1こあまります。確かめ：8 × 8 + 1 = 65"
+    },
+    {
+      "id": 47,
+      "question": "71 ÷ 9",
+      "answer": "7あまり8",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "71の中に9が何こあって、何こあまる？",
+      "explanation": "71 ÷ 9 = 7あまり8です。71の中に9が7こあって、8こあまります。確かめ：9 × 7 + 8 = 71"
+    },
+    {
+      "id": 48,
+      "question": "54 ÷ 7",
+      "answer": "7あまり5",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "54の中に7が何こあって、何こあまる？",
+      "explanation": "54 ÷ 7 = 7あまり5です。54の中に7が7こあって、5こあまります。確かめ：7 × 7 + 5 = 54"
+    },
+    {
+      "id": 49,
+      "question": "60 ÷ 8",
+      "answer": "7あまり4",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "60の中に8が何こあって、何こあまる？",
+      "explanation": "60 ÷ 8 = 7あまり4です。60の中に8が7こあって、4こあまります。確かめ：8 × 7 + 4 = 60"
+    },
+    {
+      "id": 50,
+      "question": "66 ÷ 9",
+      "answer": "7あまり3",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "66の中に9が何こあって、何こあまる？",
+      "explanation": "66 ÷ 9 = 7あまり3です。66の中に9が7こあって、3こあまります。確かめ：9 × 7 + 3 = 66"
+    },
+    {
+      "id": 51,
+      "question": "23このあめを3人で同じ数ずつ分けます。1人分は何こで、何こあまりますか。",
+      "answer": "7こずつで2こあまる",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "23 ÷ 3を計算します。",
+      "explanation": "23 ÷ 3 = 7あまり2です。7こずつで2こあまる"
+    },
+    {
+      "id": 52,
+      "question": "25このみかんを4人で同じ数ずつ分けます。1人分は何こで、何こあまりますか。",
+      "answer": "6こずつで1こあまる",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "25 ÷ 4を計算します。",
+      "explanation": "25 ÷ 4 = 6あまり1です。6こずつで1こあまる"
+    },
+    {
+      "id": 53,
+      "question": "31このクッキーを5人で同じ数ずつ分けます。1人分は何こで、何こあまりますか。",
+      "answer": "6こずつで1こあまる",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "31 ÷ 5を計算します。",
+      "explanation": "31 ÷ 5 = 6あまり1です。6こずつで1こあまる"
+    },
+    {
+      "id": 54,
+      "question": "38このチョコレートを6人で同じ数ずつ分けます。1人分は何こで、何こあまりますか。",
+      "answer": "6こずつで2こあまる",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "38 ÷ 6を計算します。",
+      "explanation": "38 ÷ 6 = 6あまり2です。6こずつで2こあまる"
+    },
+    {
+      "id": 55,
+      "question": "45このえんぴつを7人で同じ数ずつ分けます。1人分は何本で、何本あまりますか。",
+      "answer": "6本ずつで3本あまる",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "45 ÷ 7を計算します。",
+      "explanation": "45 ÷ 7 = 6あまり3です。6本ずつで3本あまる"
+    },
+    {
+      "id": 56,
+      "question": "50このビー玉を8人で同じ数ずつ分けます。1人分は何こで、何こあまりますか。",
+      "answer": "6こずつで2こあまる",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "50 ÷ 8を計算します。",
+      "explanation": "50 ÷ 8 = 6あまり2です。6こずつで2こあまる"
+    },
+    {
+      "id": 57,
+      "question": "56このりんごを9人で同じ数ずつ分けます。1人分は何こで、何こあまりますか。",
+      "answer": "6こずつで2こあまる",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "56 ÷ 9を計算します。",
+      "explanation": "56 ÷ 9 = 6あまり2です。6こずつで2こあまる"
+    },
+    {
+      "id": 58,
+      "question": "26このキャンディーがあります。1人に3こずつあげると、何人に配れて何こあまりますか。",
+      "answer": "8人で2こあまる",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "26 ÷ 3を計算します。",
+      "explanation": "26 ÷ 3 = 8あまり2です。8人で2こあまる"
+    },
+    {
+      "id": 59,
+      "question": "34このおはじきがあります。1人に4こずつあげると、何人に配れて何こあまりますか。",
+      "answer": "8人で2こあまる",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "34 ÷ 4を計算します。",
+      "explanation": "34 ÷ 4 = 8あまり2です。8人で2こあまる"
+    },
+    {
+      "id": 60,
+      "question": "43このトマトがあります。1人に5こずつあげると、何人に配れて何こあまりますか。",
+      "answer": "8人で3こあまる",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "43 ÷ 5を計算します。",
+      "explanation": "43 ÷ 5 = 8あまり3です。8人で3こあまる"
+    },
+    {
+      "id": 61,
+      "question": "47このシールがあります。1人に6まいずつあげると、何人に配れて何まいあまりますか。",
+      "answer": "7人で5まいあまる",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "47 ÷ 6を計算します。",
+      "explanation": "47 ÷ 6 = 7あまり5です。7人で5まいあまる"
+    },
+    {
+      "id": 62,
+      "question": "52このボールがあります。1つのかごに7こずつ入れると、何かごできて何こあまりますか。",
+      "answer": "7かごで3こあまる",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "52 ÷ 7を計算します。",
+      "explanation": "52 ÷ 7 = 7あまり3です。7かごで3こあまる"
+    },
+    {
+      "id": 63,
+      "question": "58このクレヨンがあります。1つの箱に8本ずつ入れると、何箱できて何本あまりますか。",
+      "answer": "7箱で2本あまる",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "58 ÷ 8を計算します。",
+      "explanation": "58 ÷ 8 = 7あまり2です。7箱で2本あまる"
+    },
+    {
+      "id": 64,
+      "question": "65このお花があります。1つの花びんに9本ずつ入れると、何本の花びんが必要で、何本あまりますか。",
+      "answer": "7本で2本あまる",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "65 ÷ 9を計算します。",
+      "explanation": "65 ÷ 9 = 7あまり2です。7本で2本あまる"
+    },
+    {
+      "id": 65,
+      "question": "37cmのテープを4本に切り分けます。同じ長さで切ると、1本は何cmになって、何cmあまりますか。",
+      "answer": "9cmずつで1cmあまる",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "37 ÷ 4を計算します。",
+      "explanation": "37 ÷ 4 = 9あまり1です。9cmずつで1cmあまる"
+    },
+    {
+      "id": 66,
+      "question": "46cmのリボンを5本に切り分けます。同じ長さで切ると、1本は何cmになって、何cmあまりますか。",
+      "answer": "9cmずつで1cmあまる",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "46 ÷ 5を計算します。",
+      "explanation": "46 ÷ 5 = 9あまり1です。9cmずつで1cmあまる"
+    },
+    {
+      "id": 67,
+      "question": "53人の子どもを6人ずつのグループに分けます。何グループできて、何人あまりますか。",
+      "answer": "8グループで5人あまる",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "53 ÷ 6を計算します。",
+      "explanation": "53 ÷ 6 = 8あまり5です。8グループで5人あまる"
+    },
+    {
+      "id": 68,
+      "question": "62人の子どもを7人ずつのグループに分けます。何グループできて、何人あまりますか。",
+      "answer": "8グループで6人あまる",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "62 ÷ 7を計算します。",
+      "explanation": "62 ÷ 7 = 8あまり6です。8グループで6人あまる"
+    },
+    {
+      "id": 69,
+      "question": "70このノートを8人で同じ数ずつ分けます。1人分は何さつで、何さつあまりますか。",
+      "answer": "8さつずつで6さつあまる",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "70 ÷ 8を計算します。",
+      "explanation": "70 ÷ 8 = 8あまり6です。8さつずつで6さつあまる"
+    },
+    {
+      "id": 70,
+      "question": "74このどんぐりを9人で同じ数ずつ分けます。1人分は何こで、何こあまりますか。",
+      "answer": "8こずつで2こあまる",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "74 ÷ 9を計算します。",
+      "explanation": "74 ÷ 9 = 8あまり2です。8こずつで2こあまる"
+    },
+    {
+      "id": 71,
+      "question": "60このくりを7人で同じ数ずつ分けます。1人分は何こで、何こあまりますか。",
+      "answer": "8こずつで4こあまる",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "60 ÷ 7を計算します。",
+      "explanation": "60 ÷ 7 = 8あまり4です。8こずつで4こあまる"
+    },
+    {
+      "id": 72,
+      "question": "69このメダルを8人で同じ数ずつ分けます。1人分は何こで、何こあまりますか。",
+      "answer": "8こずつで5こあまる",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "69 ÷ 8を計算します。",
+      "explanation": "69 ÷ 8 = 8あまり5です。8こずつで5こあまる"
+    },
+    {
+      "id": 73,
+      "question": "77このおもちゃを9人で同じ数ずつ分けます。1人分は何こで、何こあまりますか。",
+      "answer": "8こずつで5こあまる",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "77 ÷ 9を計算します。",
+      "explanation": "77 ÷ 9 = 8あまり5です。8こずつで5こあまる"
+    },
+    {
+      "id": 74,
+      "question": "40このいちごがあります。1人に6こずつあげると、何人に配れて何こあまりますか。",
+      "answer": "6人で4こあまる",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "40 ÷ 6を計算します。",
+      "explanation": "40 ÷ 6 = 6あまり4です。6人で4こあまる"
+    },
+    {
+      "id": 75,
+      "question": "48このキャラメルがあります。1人に7こずつあげると、何人に配れて何こあまりますか。",
+      "answer": "6人で6こあまる",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "48 ÷ 7を計算します。",
+      "explanation": "48 ÷ 7 = 6あまり6です。6人で6こあまる"
+    },
+    {
+      "id": 76,
+      "question": "55このビスケットがあります。1人に8こずつあげると、何人に配れて何こあまりますか。",
+      "answer": "6人で7こあまる",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "55 ÷ 8を計算します。",
+      "explanation": "55 ÷ 8 = 6あまり7です。6人で7こあまる"
+    },
+    {
+      "id": 77,
+      "question": "63このガムがあります。1人に9こずつあげると、何人に配れて何こあまりますか。",
+      "answer": "7人であまりなし",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "63 ÷ 9を計算します。",
+      "explanation": "63 ÷ 9 = 7あまり0です。7人であまりなし"
+    },
+    {
+      "id": 78,
+      "question": "29このおり紙を4人で分けます。1人何まいずつ配れますか。また、何まいあまりますか。",
+      "answer": "7まいずつで1まいあまる",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "29 ÷ 4を計算します。",
+      "explanation": "29 ÷ 4 = 7あまり1です。7まいずつで1まいあまる"
+    },
+    {
+      "id": 79,
+      "question": "41このマグネットを5人で分けます。1人何こずつ配れますか。また、何こあまりますか。",
+      "answer": "8こずつで1こあまる",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "41 ÷ 5を計算します。",
+      "explanation": "41 ÷ 5 = 8あまり1です。8こずつで1こあまる"
+    },
+    {
+      "id": 80,
+      "question": "57このカードを6人で分けます。1人何まいずつ配れますか。また、何まいあまりますか。",
+      "answer": "9まいずつで3まいあまる",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "57 ÷ 6を計算します。",
+      "explanation": "57 ÷ 6 = 9あまり3です。9まいずつで3まいあまる"
+    },
+    {
+      "id": 81,
+      "question": "□ ÷ 4 = 6あまり2のとき、□に入る数を求めましょう。",
+      "answer": 26,
+      "type": "reverse",
+      "difficulty": "standard",
+      "hint": "4 × 6 + 2を計算します。",
+      "explanation": "□ = 4 × 6 + 2 = 24 + 2 = 26です。確かめ：26 ÷ 4 = 6あまり2"
+    },
+    {
+      "id": 82,
+      "question": "□ ÷ 5 = 7あまり3のとき、□に入る数を求めましょう。",
+      "answer": 38,
+      "type": "reverse",
+      "difficulty": "standard",
+      "hint": "5 × 7 + 3を計算します。",
+      "explanation": "□ = 5 × 7 + 3 = 35 + 3 = 38です。確かめ：38 ÷ 5 = 7あまり3"
+    },
+    {
+      "id": 83,
+      "question": "□ ÷ 6 = 8あまり4のとき、□に入る数を求めましょう。",
+      "answer": 52,
+      "type": "reverse",
+      "difficulty": "standard",
+      "hint": "6 × 8 + 4を計算します。",
+      "explanation": "□ = 6 × 8 + 4 = 48 + 4 = 52です。確かめ：52 ÷ 6 = 8あまり4"
+    },
+    {
+      "id": 84,
+      "question": "□ ÷ 7 = 5あまり6のとき、□に入る数を求めましょう。",
+      "answer": 41,
+      "type": "reverse",
+      "difficulty": "standard",
+      "hint": "7 × 5 + 6を計算します。",
+      "explanation": "□ = 7 × 5 + 6 = 35 + 6 = 41です。確かめ：41 ÷ 7 = 5あまり6"
+    },
+    {
+      "id": 85,
+      "question": "□ ÷ 8 = 6あまり5のとき、□に入る数を求めましょう。",
+      "answer": 53,
+      "type": "reverse",
+      "difficulty": "standard",
+      "hint": "8 × 6 + 5を計算します。",
+      "explanation": "□ = 8 × 6 + 5 = 48 + 5 = 53です。確かめ：53 ÷ 8 = 6あまり5"
+    },
+    {
+      "id": 86,
+      "question": "□ ÷ 9 = 7あまり4のとき、□に入る数を求めましょう。",
+      "answer": 67,
+      "type": "reverse",
+      "difficulty": "standard",
+      "hint": "9 × 7 + 4を計算します。",
+      "explanation": "□ = 9 × 7 + 4 = 63 + 4 = 67です。確かめ：67 ÷ 9 = 7あまり4"
+    },
+    {
+      "id": 87,
+      "question": "□ ÷ 3 = 9あまり2のとき、□に入る数を求めましょう。",
+      "answer": 29,
+      "type": "reverse",
+      "difficulty": "standard",
+      "hint": "3 × 9 + 2を計算します。",
+      "explanation": "□ = 3 × 9 + 2 = 27 + 2 = 29です。確かめ：29 ÷ 3 = 9あまり2"
+    },
+    {
+      "id": 88,
+      "question": "□ ÷ 4 = 8あまり3のとき、□に入る数を求めましょう。",
+      "answer": 35,
+      "type": "reverse",
+      "difficulty": "standard",
+      "hint": "4 × 8 + 3を計算します。",
+      "explanation": "□ = 4 × 8 + 3 = 32 + 3 = 35です。確かめ：35 ÷ 4 = 8あまり3"
+    },
+    {
+      "id": 89,
+      "question": "□ ÷ 5 = 9あまり4のとき、□に入る数を求めましょう。",
+      "answer": 49,
+      "type": "reverse",
+      "difficulty": "standard",
+      "hint": "5 × 9 + 4を計算します。",
+      "explanation": "□ = 5 × 9 + 4 = 45 + 4 = 49です。確かめ：49 ÷ 5 = 9あまり4"
+    },
+    {
+      "id": 90,
+      "question": "□ ÷ 6 = 9あまり5のとき、□に入る数を求めましょう。",
+      "answer": 59,
+      "type": "reverse",
+      "difficulty": "standard",
+      "hint": "6 × 9 + 5を計算します。",
+      "explanation": "□ = 6 × 9 + 5 = 54 + 5 = 59です。確かめ：59 ÷ 6 = 9あまり5"
+    }
+  ]
+}

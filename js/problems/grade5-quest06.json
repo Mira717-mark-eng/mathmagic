@@ -1,0 +1,810 @@
+{
+  "questId": "grade5-quest06",
+  "worldId": "grade5",
+  "questName": "体積",
+  "description": "立体の体積を求めよう",
+  "difficulty": "standard",
+  "totalProblems": 80,
+  "problems": [
+    {
+      "id": "g5q06-p001",
+      "question": "縦5cm、横4cm、高さ3cmの直方体の体積は何c㎥ですか。",
+      "answer": "60",
+      "unit": "c㎥",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "5×4×3を計算します。",
+      "explanation": "5×4×3=60より、60c㎥です。"
+    },
+    {
+      "id": "g5q06-p002",
+      "question": "1辺が4cmの立方体の体積は何c㎥ですか。",
+      "answer": "64",
+      "unit": "c㎥",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "4×4×4を計算します。",
+      "explanation": "4×4×4=64より、64c㎥です。"
+    },
+    {
+      "id": "g5q06-p003",
+      "question": "縦6cm、横5cm、高さ4cmの直方体の体積は何c㎥ですか。",
+      "answer": "120",
+      "unit": "c㎥",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "6×5×4を計算します。",
+      "explanation": "6×5×4=120より、120c㎥です。"
+    },
+    {
+      "id": "g5q06-p004",
+      "question": "1辺が5cmの立方体の体積は何c㎥ですか。",
+      "answer": "125",
+      "unit": "c㎥",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "5×5×5を計算します。",
+      "explanation": "5×5×5=125より、125c㎥です。"
+    },
+    {
+      "id": "g5q06-p005",
+      "question": "縦8cm、横6cm、高さ5cmの直方体の体積は何c㎥ですか。",
+      "answer": "240",
+      "unit": "c㎥",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "8×6×5を計算します。",
+      "explanation": "8×6×5=240より、240c㎥です。"
+    },
+    {
+      "id": "g5q06-p006",
+      "question": "縦10cm、横8cm、高さ6cmの直方体の体積は何c㎥ですか。",
+      "answer": "480",
+      "unit": "c㎥",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "10×8×6を計算します。",
+      "explanation": "10×8×6=480より、480c㎥です。"
+    },
+    {
+      "id": "g5q06-p007",
+      "question": "1辺が6cmの立方体の体積は何c㎥ですか。",
+      "answer": "216",
+      "unit": "c㎥",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "6×6×6を計算します。",
+      "explanation": "6×6×6=216より、216c㎥です。"
+    },
+    {
+      "id": "g5q06-p008",
+      "question": "縦12cm、横10cm、高さ8cmの直方体の体積は何c㎥ですか。",
+      "answer": "960",
+      "unit": "c㎥",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "12×10×8を計算します。",
+      "explanation": "12×10×8=960より、960c㎥です。"
+    },
+    {
+      "id": "g5q06-p009",
+      "question": "縦7cm、横6cm、高さ5cmの直方体の体積は何c㎥ですか。",
+      "answer": "210",
+      "unit": "c㎥",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "7×6×5を計算します。",
+      "explanation": "7×6×5=210より、210c㎥です。"
+    },
+    {
+      "id": "g5q06-p010",
+      "question": "1辺が7cmの立方体の体積は何c㎥ですか。",
+      "answer": "343",
+      "unit": "c㎥",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "7×7×7を計算します。",
+      "explanation": "7×7×7=343より、343c㎥です。"
+    },
+    {
+      "id": "g5q06-p011",
+      "question": "縦3m、横2m、高さ1.5mの直方体の体積は何㎥ですか。",
+      "answer": "9",
+      "unit": "㎥",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "3×2×1.5を計算します。",
+      "explanation": "3×2×1.5=9より、9㎥です。"
+    },
+    {
+      "id": "g5q06-p012",
+      "question": "1辺が1.5mの立方体の体積は何㎥ですか。",
+      "answer": "3.375",
+      "unit": "㎥",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "1.5×1.5×1.5を計算します。",
+      "explanation": "1.5×1.5×1.5=3.375より、3.375㎥です。"
+    },
+    {
+      "id": "g5q06-p013",
+      "question": "縦4m、横3m、高さ2.5mの直方体の体積は何㎥ですか。",
+      "answer": "30",
+      "unit": "㎥",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "4×3×2.5を計算します。",
+      "explanation": "4×3×2.5=30より、30㎥です。"
+    },
+    {
+      "id": "g5q06-p014",
+      "question": "1辺が2.5mの立方体の体積は何㎥ですか。",
+      "answer": "15.625",
+      "unit": "㎥",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "2.5×2.5×2.5を計算します。",
+      "explanation": "2.5×2.5×2.5=15.625より、15.625㎥です。"
+    },
+    {
+      "id": "g5q06-p015",
+      "question": "縦5m、横4m、高さ3.5mの直方体の体積は何㎥ですか。",
+      "answer": "70",
+      "unit": "㎥",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "5×4×3.5を計算します。",
+      "explanation": "5×4×3.5=70より、70㎥です。"
+    },
+    {
+      "id": "g5q06-p016",
+      "question": "縦2.5cm、横2cm、高さ1.5cmの直方体の体積は何c㎥ですか。",
+      "answer": "7.5",
+      "unit": "c㎥",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "2.5×2×1.5を計算します。",
+      "explanation": "2.5×2×1.5=7.5より、7.5c㎥です。"
+    },
+    {
+      "id": "g5q06-p017",
+      "question": "縦3.5cm、横2.5cm、高さ2cmの直方体の体積は何c㎥ですか。",
+      "answer": "17.5",
+      "unit": "c㎥",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "3.5×2.5×2を計算します。",
+      "explanation": "3.5×2.5×2=17.5より、17.5c㎥です。"
+    },
+    {
+      "id": "g5q06-p018",
+      "question": "縦4.5cm、横3cm、高さ2.5cmの直方体の体積は何c㎥ですか。",
+      "answer": "33.75",
+      "unit": "c㎥",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "4.5×3×2.5を計算します。",
+      "explanation": "4.5×3×2.5=33.75より、33.75c㎥です。"
+    },
+    {
+      "id": "g5q06-p019",
+      "question": "1辺が1.2mの立方体の体積は何㎥ですか。",
+      "answer": "1.728",
+      "unit": "㎥",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "1.2×1.2×1.2を計算します。",
+      "explanation": "1.2×1.2×1.2=1.728より、1.728㎥です。"
+    },
+    {
+      "id": "g5q06-p020",
+      "question": "縦6m、横5m、高さ4.5mの直方体の体積は何㎥ですか。",
+      "answer": "135",
+      "unit": "㎥",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "6×5×4.5を計算します。",
+      "explanation": "6×5×4.5=135より、135㎥です。"
+    },
+    {
+      "id": "g5q06-p021",
+      "question": "縦15cm、横12cm、高さ10cmの直方体の体積は何c㎥ですか。",
+      "answer": "1800",
+      "unit": "c㎥",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "15×12×10を計算します。",
+      "explanation": "15×12×10=1800より、1800c㎥です。"
+    },
+    {
+      "id": "g5q06-p022",
+      "question": "1辺が8cmの立方体の体積は何c㎥ですか。",
+      "answer": "512",
+      "unit": "c㎥",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "8×8×8を計算します。",
+      "explanation": "8×8×8=512より、512c㎥です。"
+    },
+    {
+      "id": "g5q06-p023",
+      "question": "縦20cm、横15cm、高さ12cmの直方体の体積は何c㎥ですか。",
+      "answer": "3600",
+      "unit": "c㎥",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "20×15×12を計算します。",
+      "explanation": "20×15×12=3600より、3600c㎥です。"
+    },
+    {
+      "id": "g5q06-p024",
+      "question": "1辺が9cmの立方体の体積は何c㎥ですか。",
+      "answer": "729",
+      "unit": "c㎥",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "9×9×9を計算します。",
+      "explanation": "9×9×9=729より、729c㎥です。"
+    },
+    {
+      "id": "g5q06-p025",
+      "question": "縦25cm、横20cm、高さ15cmの直方体の体積は何c㎥ですか。",
+      "answer": "7500",
+      "unit": "c㎥",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "25×20×15を計算します。",
+      "explanation": "25×20×15=7500より、7500c㎥です。"
+    },
+    {
+      "id": "g5q06-p026",
+      "question": "1辺が10cmの立方体の体積は何c㎥ですか。",
+      "answer": "1000",
+      "unit": "c㎥",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "10×10×10を計算します。",
+      "explanation": "10×10×10=1000より、1000c㎥です。1Lと同じです。"
+    },
+    {
+      "id": "g5q06-p027",
+      "question": "縦8m、横6m、高さ5mの直方体の体積は何㎥ですか。",
+      "answer": "240",
+      "unit": "㎥",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "8×6×5を計算します。",
+      "explanation": "8×6×5=240より、240㎥です。"
+    },
+    {
+      "id": "g5q06-p028",
+      "question": "1辺が3mの立方体の体積は何㎥ですか。",
+      "answer": "27",
+      "unit": "㎥",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "3×3×3を計算します。",
+      "explanation": "3×3×3=27より、27㎥です。"
+    },
+    {
+      "id": "g5q06-p029",
+      "question": "縦10m、横8m、高さ6mの直方体の体積は何㎥ですか。",
+      "answer": "480",
+      "unit": "㎥",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "10×8×6を計算します。",
+      "explanation": "10×8×6=480より、480㎥です。"
+    },
+    {
+      "id": "g5q06-p030",
+      "question": "1辺が4mの立方体の体積は何㎥ですか。",
+      "answer": "64",
+      "unit": "㎥",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "4×4×4を計算します。",
+      "explanation": "4×4×4=64より、64㎥です。"
+    },
+    {
+      "id": "g5q06-p031",
+      "question": "縦1.6m、横1.2m、高さ1mの直方体の体積は何㎥ですか。",
+      "answer": "1.92",
+      "unit": "㎥",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "1.6×1.2×1を計算します。",
+      "explanation": "1.6×1.2×1=1.92より、1.92㎥です。"
+    },
+    {
+      "id": "g5q06-p032",
+      "question": "縦2.4m、横1.8m、高さ1.5mの直方体の体積は何㎥ですか。",
+      "answer": "6.48",
+      "unit": "㎥",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "2.4×1.8×1.5を計算します。",
+      "explanation": "2.4×1.8×1.5=6.48より、6.48㎥です。"
+    },
+    {
+      "id": "g5q06-p033",
+      "question": "縦3.2m、横2.4m、高さ2mの直方体の体積は何㎥ですか。",
+      "answer": "15.36",
+      "unit": "㎥",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "3.2×2.4×2を計算します。",
+      "explanation": "3.2×2.4×2=15.36より、15.36㎥です。"
+    },
+    {
+      "id": "g5q06-p034",
+      "question": "1辺が1.8mの立方体の体積は何㎥ですか。",
+      "answer": "5.832",
+      "unit": "㎥",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "1.8×1.8×1.8を計算します。",
+      "explanation": "1.8×1.8×1.8=5.832より、5.832㎥です。"
+    },
+    {
+      "id": "g5q06-p035",
+      "question": "縦5.5cm、横4cm、高さ3cmの直方体の体積は何c㎥ですか。",
+      "answer": "66",
+      "unit": "c㎥",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "5.5×4×3を計算します。",
+      "explanation": "5.5×4×3=66より、66c㎥です。"
+    },
+    {
+      "id": "g5q06-p036",
+      "question": "縦6.5cm、横5cm、高さ4cmの直方体の体積は何c㎥ですか。",
+      "answer": "130",
+      "unit": "c㎥",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "6.5×5×4を計算します。",
+      "explanation": "6.5×5×4=130より、130c㎥です。"
+    },
+    {
+      "id": "g5q06-p037",
+      "question": "縦7.5cm、横6cm、高さ5cmの直方体の体積は何c㎥ですか。",
+      "answer": "225",
+      "unit": "c㎥",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "7.5×6×5を計算します。",
+      "explanation": "7.5×6×5=225より、225c㎥です。"
+    },
+    {
+      "id": "g5q06-p038",
+      "question": "1辺が3.5cmの立方体の体積は何c㎥ですか。",
+      "answer": "42.875",
+      "unit": "c㎥",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "3.5×3.5×3.5を計算します。",
+      "explanation": "3.5×3.5×3.5=42.875より、42.875c㎥です。"
+    },
+    {
+      "id": "g5q06-p039",
+      "question": "縦8.5cm、横7cm、高さ6cmの直方体の体積は何c㎥ですか。",
+      "answer": "357",
+      "unit": "c㎥",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "8.5×7×6を計算します。",
+      "explanation": "8.5×7×6=357より、357c㎥です。"
+    },
+    {
+      "id": "g5q06-p040",
+      "question": "縦9.5cm、横8cm、高さ7cmの直方体の体積は何c㎥ですか。",
+      "answer": "532",
+      "unit": "c㎥",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "9.5×8×7を計算します。",
+      "explanation": "9.5×8×7=532より、532c㎥です。"
+    },
+    {
+      "id": "g5q06-p041",
+      "question": "縦5cm、横4cm、高さ3cmの箱があります。この箱の体積は何c㎥ですか。",
+      "answer": "60",
+      "unit": "c㎥",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "5×4×3を計算します。",
+      "explanation": "5×4×3=60より、60c㎥です。"
+    },
+    {
+      "id": "g5q06-p042",
+      "question": "1辺が6cmの立方体の積み木があります。体積は何c㎥ですか。",
+      "answer": "216",
+      "unit": "c㎥",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "6×6×6を計算します。",
+      "explanation": "6×6×6=216より、216c㎥です。"
+    },
+    {
+      "id": "g5q06-p043",
+      "question": "縦8m、横6m、高さ3mの部屋があります。この部屋の体積は何㎥ですか。",
+      "answer": "144",
+      "unit": "㎥",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "8×6×3を計算します。",
+      "explanation": "8×6×3=144より、144㎥です。"
+    },
+    {
+      "id": "g5q06-p044",
+      "question": "縦10cm、横8cm、高さ6cmの水そうがあります。この水そうの体積は何c㎥ですか。",
+      "answer": "480",
+      "unit": "c㎥",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "10×8×6を計算します。",
+      "explanation": "10×8×6=480より、480c㎥です。"
+    },
+    {
+      "id": "g5q06-p045",
+      "question": "1辺が5mのコンテナがあります。体積は何㎥ですか。",
+      "answer": "125",
+      "unit": "㎥",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "5×5×5を計算します。",
+      "explanation": "5×5×5=125より、125㎥です。"
+    },
+    {
+      "id": "g5q06-p046",
+      "question": "縦12cm、横10cm、高さ8cmのケースがあります。このケースの体積は何c㎥ですか。",
+      "answer": "960",
+      "unit": "c㎥",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "12×10×8を計算します。",
+      "explanation": "12×10×8=960より、960c㎥です。"
+    },
+    {
+      "id": "g5q06-p047",
+      "question": "縦5m、横4m、高さ2.5mの倉庫があります。この倉庫の体積は何㎥ですか。",
+      "answer": "50",
+      "unit": "㎥",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "5×4×2.5を計算します。",
+      "explanation": "5×4×2.5=50より、50㎥です。"
+    },
+    {
+      "id": "g5q06-p048",
+      "question": "1辺が1.5mの立方体の容器があります。体積は何㎥ですか。",
+      "answer": "3.375",
+      "unit": "㎥",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "1.5×1.5×1.5を計算します。",
+      "explanation": "1.5×1.5×1.5=3.375より、3.375㎥です。"
+    },
+    {
+      "id": "g5q06-p049",
+      "question": "縦15cm、横12cm、高さ10cmの箱があります。この箱の体積は何c㎥ですか。また、何Lですか。",
+      "answer": "1800",
+      "unit": "c㎥",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "15×12×10を計算します。1000c㎥=1Lです。",
+      "explanation": "15×12×10=1800より、1800c㎥=1.8Lです。"
+    },
+    {
+      "id": "g5q06-p050",
+      "question": "1辺が10cmの立方体の水そうがあります。この水そうの体積は何c㎥ですか。また、何Lですか。",
+      "answer": "1000",
+      "unit": "c㎥",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "10×10×10を計算します。1000c㎥=1Lです。",
+      "explanation": "10×10×10=1000より、1000c㎥=1Lです。"
+    },
+    {
+      "id": "g5q06-p051",
+      "question": "縦20cm、横15cm、高さ12cmの容器があります。この容器の体積は何c㎥ですか。また、何Lですか。",
+      "answer": "3600",
+      "unit": "c㎥",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "20×15×12を計算します。1000c㎥=1Lです。",
+      "explanation": "20×15×12=3600より、3600c㎥=3.6Lです。"
+    },
+    {
+      "id": "g5q06-p052",
+      "question": "縦6m、横5m、高さ4mの部屋があります。この部屋の体積は何㎥ですか。",
+      "answer": "120",
+      "unit": "㎥",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "6×5×4を計算します。",
+      "explanation": "6×5×4=120より、120㎥です。"
+    },
+    {
+      "id": "g5q06-p053",
+      "question": "縦8cm、横6cm、高さ5cmのプールがあります。水を満たすと何c㎥になりますか。また、何Lですか。",
+      "answer": "240",
+      "unit": "c㎥",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "8×6×5を計算します。1000c㎥=1Lです。",
+      "explanation": "8×6×5=240より、240c㎥=0.24Lです。"
+    },
+    {
+      "id": "g5q06-p054",
+      "question": "1辺が8cmの立方体のケースがあります。体積は何c㎥ですか。",
+      "answer": "512",
+      "unit": "c㎥",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "8×8×8を計算します。",
+      "explanation": "8×8×8=512より、512c㎥です。"
+    },
+    {
+      "id": "g5q06-p055",
+      "question": "縦25cm、横20cm、高さ15cmの水そうがあります。この水そうの体積は何c㎥ですか。また、何Lですか。",
+      "answer": "7500",
+      "unit": "c㎥",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "25×20×15を計算します。1000c㎥=1Lです。",
+      "explanation": "25×20×15=7500より、7500c㎥=7.5Lです。"
+    },
+    {
+      "id": "g5q06-p056",
+      "question": "縦10m、横8m、高さ6mの倉庫があります。この倉庫の体積は何㎥ですか。",
+      "answer": "480",
+      "unit": "㎥",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "10×8×6を計算します。",
+      "explanation": "10×8×6=480より、480㎥です。"
+    },
+    {
+      "id": "g5q06-p057",
+      "question": "1辺が2.5mの立方体のタンクがあります。体積は何㎥ですか。",
+      "answer": "15.625",
+      "unit": "㎥",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "2.5×2.5×2.5を計算します。",
+      "explanation": "2.5×2.5×2.5=15.625より、15.625㎥です。"
+    },
+    {
+      "id": "g5q06-p058",
+      "question": "縦4m、横3m、高さ2.5mのコンテナがあります。このコンテナの体積は何㎥ですか。",
+      "answer": "30",
+      "unit": "㎥",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "4×3×2.5を計算します。",
+      "explanation": "4×3×2.5=30より、30㎥です。"
+    },
+    {
+      "id": "g5q06-p059",
+      "question": "縦30cm、横25cm、高さ20cmの水そうがあります。この水そうの体積は何c㎥ですか。また、何Lですか。",
+      "answer": "15000",
+      "unit": "c㎥",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "30×25×20を計算します。1000c㎥=1Lです。",
+      "explanation": "30×25×20=15000より、15000c㎥=15Lです。"
+    },
+    {
+      "id": "g5q06-p060",
+      "question": "1辺が12cmの立方体の箱があります。体積は何c㎥ですか。また、何Lですか。",
+      "answer": "1728",
+      "unit": "c㎥",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "12×12×12を計算します。1000c㎥=1Lです。",
+      "explanation": "12×12×12=1728より、1728c㎥=1.728Lです。"
+    },
+    {
+      "id": "g5q06-p061",
+      "question": "縦12m、横10m、高さ8mのプールがあります。このプールの体積は何㎥ですか。",
+      "answer": "960",
+      "unit": "㎥",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "12×10×8を計算します。",
+      "explanation": "12×10×8=960より、960㎥です。"
+    },
+    {
+      "id": "g5q06-p062",
+      "question": "縦3.2m、横2.4m、高さ2mの部屋があります。この部屋の体積は何㎥ですか。",
+      "answer": "15.36",
+      "unit": "㎥",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "3.2×2.4×2を計算します。",
+      "explanation": "3.2×2.4×2=15.36より、15.36㎥です。"
+    },
+    {
+      "id": "g5q06-p063",
+      "question": "1辺が1.8mの立方体の水そうがあります。体積は何㎥ですか。",
+      "answer": "5.832",
+      "unit": "㎥",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "1.8×1.8×1.8を計算します。",
+      "explanation": "1.8×1.8×1.8=5.832より、5.832㎥です。"
+    },
+    {
+      "id": "g5q06-p064",
+      "question": "縦40cm、横30cm、高さ25cmのケースがあります。このケースの体積は何c㎥ですか。また、何Lですか。",
+      "answer": "30000",
+      "unit": "c㎥",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "40×30×25を計算します。1000c㎥=1Lです。",
+      "explanation": "40×30×25=30000より、30000c㎥=30Lです。"
+    },
+    {
+      "id": "g5q06-p065",
+      "question": "1辺が15cmの立方体の容器があります。体積は何c㎥ですか。また、何Lですか。",
+      "answer": "3375",
+      "unit": "c㎥",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "15×15×15を計算します。1000c㎥=1Lです。",
+      "explanation": "15×15×15=3375より、3375c㎥=3.375Lです。"
+    },
+    {
+      "id": "g5q06-p066",
+      "question": "縦5m、横4m、高さ3.5mのコンテナがあります。このコンテナの体積は何㎥ですか。",
+      "answer": "70",
+      "unit": "㎥",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "5×4×3.5を計算します。",
+      "explanation": "5×4×3.5=70より、70㎥です。"
+    },
+    {
+      "id": "g5q06-p067",
+      "question": "縦7.5cm、横6cm、高さ5cmの箱があります。この箱の体積は何c㎥ですか。",
+      "answer": "225",
+      "unit": "c㎥",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "7.5×6×5を計算します。",
+      "explanation": "7.5×6×5=225より、225c㎥です。"
+    },
+    {
+      "id": "g5q06-p068",
+      "question": "1辺が3.5cmの立方体の積み木があります。体積は何c㎥ですか。",
+      "answer": "42.875",
+      "unit": "c㎥",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "3.5×3.5×3.5を計算します。",
+      "explanation": "3.5×3.5×3.5=42.875より、42.875c㎥です。"
+    },
+    {
+      "id": "g5q06-p069",
+      "question": "縦6m、横5m、高さ4.5mの倉庫があります。この倉庫の体積は何㎥ですか。",
+      "answer": "135",
+      "unit": "㎥",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "6×5×4.5を計算します。",
+      "explanation": "6×5×4.5=135より、135㎥です。"
+    },
+    {
+      "id": "g5q06-p070",
+      "question": "1辺が1.2mの立方体のタンクがあります。体積は何㎥ですか。",
+      "answer": "1.728",
+      "unit": "㎥",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "1.2×1.2×1.2を計算します。",
+      "explanation": "1.2×1.2×1.2=1.728より、1.728㎥です。"
+    },
+    {
+      "id": "g5q06-p071",
+      "question": "体積が120c㎥の直方体があります。縦が5cm、横が4cmのとき、高さは何cmですか。",
+      "answer": "6",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "120÷(5×4)を計算します。",
+      "explanation": "120÷20=6より、高さは6cmです。"
+    },
+    {
+      "id": "g5q06-p072",
+      "question": "体積が64c㎥の立方体があります。1辺の長さは何cmですか。",
+      "answer": "4",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "4×4×4=64なので、1辺は4cmです。",
+      "explanation": "1辺が4cmの立方体の体積は64c㎥です。"
+    },
+    {
+      "id": "g5q06-p073",
+      "question": "体積が180c㎥の直方体があります。縦が6cm、横が5cmのとき、高さは何cmですか。",
+      "answer": "6",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "180÷(6×5)を計算します。",
+      "explanation": "180÷30=6より、高さは6cmです。"
+    },
+    {
+      "id": "g5q06-p074",
+      "question": "体積が125c㎥の立方体があります。1辺の長さは何cmですか。",
+      "answer": "5",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "5×5×5=125なので、1辺は5cmです。",
+      "explanation": "1辺が5cmの立方体の体積は125c㎥です。"
+    },
+    {
+      "id": "g5q06-p075",
+      "question": "体積が240c㎥の直方体があります。縦が8cm、横が6cmのとき、高さは何cmですか。",
+      "answer": "5",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "240÷(8×6)を計算します。",
+      "explanation": "240÷48=5より、高さは5cmです。"
+    },
+    {
+      "id": "g5q06-p076",
+      "question": "体積が216c㎥の立方体があります。1辺の長さは何cmですか。",
+      "answer": "6",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "6×6×6=216なので、1辺は6cmです。",
+      "explanation": "1辺が6cmの立方体の体積は216c㎥です。"
+    },
+    {
+      "id": "g5q06-p077",
+      "question": "体積が480c㎥の直方体があります。縦が10cm、横が8cmのとき、高さは何cmですか。",
+      "answer": "6",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "480÷(10×8)を計算します。",
+      "explanation": "480÷80=6より、高さは6cmです。"
+    },
+    {
+      "id": "g5q06-p078",
+      "question": "体積が343c㎥の立方体があります。1辺の長さは何cmですか。",
+      "answer": "7",
+      "unit": "cm",
+      "difficulty": "advanced",
+      "type": "reverse",
+      "hint": "7×7×7=343なので、1辺は7cmです。",
+      "explanation": "1辺が7cmの立方体の体積は343c㎥です。"
+    },
+    {
+      "id": "g5q06-p079",
+      "question": "体積が960c㎥の直方体があります。縦が12cm、横が10cmのとき、高さは何cmですか。",
+      "answer": "8",
+      "unit": "cm",
+      "difficulty": "advanced",
+      "type": "reverse",
+      "hint": "960÷(12×10)を計算します。",
+      "explanation": "960÷120=8より、高さは8cmです。"
+    },
+    {
+      "id": "g5q06-p080",
+      "question": "体積が512c㎥の立方体があります。1辺の長さは何cmですか。",
+      "answer": "8",
+      "unit": "cm",
+      "difficulty": "advanced",
+      "type": "reverse",
+      "hint": "8×8×8=512なので、1辺は8cmです。",
+      "explanation": "1辺が8cmの立方体の体積は512c㎥です。"
+    }
+  ]
+}

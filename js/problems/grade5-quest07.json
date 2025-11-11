@@ -1,0 +1,1010 @@
+{
+  "questId": "grade5-quest07",
+  "worldId": "grade5",
+  "questName": "割合",
+  "description": "割合と百分率をマスター",
+  "difficulty": "standard",
+  "totalProblems": 100,
+  "problems": [
+    {
+      "id": "g5q07-p001",
+      "question": "全体が100で、その30%はいくつですか。",
+      "answer": "30",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "100×0.3を計算します。",
+      "explanation": "100×0.3=30です。"
+    },
+    {
+      "id": "g5q07-p002",
+      "question": "全体が200で、その25%はいくつですか。",
+      "answer": "50",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "200×0.25を計算します。",
+      "explanation": "200×0.25=50です。"
+    },
+    {
+      "id": "g5q07-p003",
+      "question": "全体が80で、その50%はいくつですか。",
+      "answer": "40",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "80×0.5を計算します。",
+      "explanation": "80×0.5=40です。"
+    },
+    {
+      "id": "g5q07-p004",
+      "question": "全体が60で、その20%はいくつですか。",
+      "answer": "12",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "60×0.2を計算します。",
+      "explanation": "60×0.2=12です。"
+    },
+    {
+      "id": "g5q07-p005",
+      "question": "全体が150で、その40%はいくつですか。",
+      "answer": "60",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "150×0.4を計算します。",
+      "explanation": "150×0.4=60です。"
+    },
+    {
+      "id": "g5q07-p006",
+      "question": "全体が120で、その15%はいくつですか。",
+      "answer": "18",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "120×0.15を計算します。",
+      "explanation": "120×0.15=18です。"
+    },
+    {
+      "id": "g5q07-p007",
+      "question": "全体が250で、その12%はいくつですか。",
+      "answer": "30",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "250×0.12を計算します。",
+      "explanation": "250×0.12=30です。"
+    },
+    {
+      "id": "g5q07-p008",
+      "question": "全体が180で、その35%はいくつですか。",
+      "answer": "63",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "180×0.35を計算します。",
+      "explanation": "180×0.35=63です。"
+    },
+    {
+      "id": "g5q07-p009",
+      "question": "全体が90で、その60%はいくつですか。",
+      "answer": "54",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "90×0.6を計算します。",
+      "explanation": "90×0.6=54です。"
+    },
+    {
+      "id": "g5q07-p010",
+      "question": "全体が300で、その8%はいくつですか。",
+      "answer": "24",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "300×0.08を計算します。",
+      "explanation": "300×0.08=24です。"
+    },
+    {
+      "id": "g5q07-p011",
+      "question": "50は200の何%ですか。",
+      "answer": "25",
+      "unit": "%",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "50÷200×100を計算します。",
+      "explanation": "50÷200=0.25なので、25%です。"
+    },
+    {
+      "id": "g5q07-p012",
+      "question": "30は150の何%ですか。",
+      "answer": "20",
+      "unit": "%",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "30÷150×100を計算します。",
+      "explanation": "30÷150=0.2なので、20%です。"
+    },
+    {
+      "id": "g5q07-p013",
+      "question": "45は180の何%ですか。",
+      "answer": "25",
+      "unit": "%",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "45÷180×100を計算します。",
+      "explanation": "45÷180=0.25なので、25%です。"
+    },
+    {
+      "id": "g5q07-p014",
+      "question": "60は120の何%ですか。",
+      "answer": "50",
+      "unit": "%",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "60÷120×100を計算します。",
+      "explanation": "60÷120=0.5なので、50%です。"
+    },
+    {
+      "id": "g5q07-p015",
+      "question": "72は240の何%ですか。",
+      "answer": "30",
+      "unit": "%",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "72÷240×100を計算します。",
+      "explanation": "72÷240=0.3なので、30%です。"
+    },
+    {
+      "id": "g5q07-p016",
+      "question": "18は90の何%ですか。",
+      "answer": "20",
+      "unit": "%",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "18÷90×100を計算します。",
+      "explanation": "18÷90=0.2なので、20%です。"
+    },
+    {
+      "id": "g5q07-p017",
+      "question": "35は70の何%ですか。",
+      "answer": "50",
+      "unit": "%",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "35÷70×100を計算します。",
+      "explanation": "35÷70=0.5なので、50%です。"
+    },
+    {
+      "id": "g5q07-p018",
+      "question": "24は80の何%ですか。",
+      "answer": "30",
+      "unit": "%",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "24÷80×100を計算します。",
+      "explanation": "24÷80=0.3なので、30%です。"
+    },
+    {
+      "id": "g5q07-p019",
+      "question": "15は60の何%ですか。",
+      "answer": "25",
+      "unit": "%",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "15÷60×100を計算します。",
+      "explanation": "15÷60=0.25なので、25%です。"
+    },
+    {
+      "id": "g5q07-p020",
+      "question": "42は105の何%ですか。",
+      "answer": "40",
+      "unit": "%",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "42÷105×100を計算します。",
+      "explanation": "42÷105=0.4なので、40%です。"
+    },
+    {
+      "id": "g5q07-p021",
+      "question": "20%を小数で表しましょう。",
+      "answer": "0.2",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "20÷100を計算します。",
+      "explanation": "20%=20÷100=0.2です。"
+    },
+    {
+      "id": "g5q07-p022",
+      "question": "35%を小数で表しましょう。",
+      "answer": "0.35",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "35÷100を計算します。",
+      "explanation": "35%=35÷100=0.35です。"
+    },
+    {
+      "id": "g5q07-p023",
+      "question": "0.4を百分率で表しましょう。",
+      "answer": "40",
+      "unit": "%",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "0.4×100を計算します。",
+      "explanation": "0.4=40%です。"
+    },
+    {
+      "id": "g5q07-p024",
+      "question": "0.65を百分率で表しましょう。",
+      "answer": "65",
+      "unit": "%",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "0.65×100を計算します。",
+      "explanation": "0.65=65%です。"
+    },
+    {
+      "id": "g5q07-p025",
+      "question": "75%を小数で表しましょう。",
+      "answer": "0.75",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "75÷100を計算します。",
+      "explanation": "75%=75÷100=0.75です。"
+    },
+    {
+      "id": "g5q07-p026",
+      "question": "0.15を百分率で表しましょう。",
+      "answer": "15",
+      "unit": "%",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "0.15×100を計算します。",
+      "explanation": "0.15=15%です。"
+    },
+    {
+      "id": "g5q07-p027",
+      "question": "8%を小数で表しましょう。",
+      "answer": "0.08",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "8÷100を計算します。",
+      "explanation": "8%=8÷100=0.08です。"
+    },
+    {
+      "id": "g5q07-p028",
+      "question": "0.03を百分率で表しましょう。",
+      "answer": "3",
+      "unit": "%",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "0.03×100を計算します。",
+      "explanation": "0.03=3%です。"
+    },
+    {
+      "id": "g5q07-p029",
+      "question": "12.5%を小数で表しましょう。",
+      "answer": "0.125",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "12.5÷100を計算します。",
+      "explanation": "12.5%=12.5÷100=0.125です。"
+    },
+    {
+      "id": "g5q07-p030",
+      "question": "1.2を百分率で表しましょう。",
+      "answer": "120",
+      "unit": "%",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "1.2×100を計算します。",
+      "explanation": "1.2=120%です。"
+    },
+    {
+      "id": "g5q07-p031",
+      "question": "全体が400で、その18%はいくつですか。",
+      "answer": "72",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "400×0.18を計算します。",
+      "explanation": "400×0.18=72です。"
+    },
+    {
+      "id": "g5q07-p032",
+      "question": "全体が350で、その22%はいくつですか。",
+      "answer": "77",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "350×0.22を計算します。",
+      "explanation": "350×0.22=77です。"
+    },
+    {
+      "id": "g5q07-p033",
+      "question": "全体が280で、その45%はいくつですか。",
+      "answer": "126",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "280×0.45を計算します。",
+      "explanation": "280×0.45=126です。"
+    },
+    {
+      "id": "g5q07-p034",
+      "question": "全体が320で、その37.5%はいくつですか。",
+      "answer": "120",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "320×0.375を計算します。",
+      "explanation": "320×0.375=120です。"
+    },
+    {
+      "id": "g5q07-p035",
+      "question": "27は135の何%ですか。",
+      "answer": "20",
+      "unit": "%",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "27÷135×100を計算します。",
+      "explanation": "27÷135=0.2なので、20%です。"
+    },
+    {
+      "id": "g5q07-p036",
+      "question": "56は224の何%ですか。",
+      "answer": "25",
+      "unit": "%",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "56÷224×100を計算します。",
+      "explanation": "56÷224=0.25なので、25%です。"
+    },
+    {
+      "id": "g5q07-p037",
+      "question": "84は210の何%ですか。",
+      "answer": "40",
+      "unit": "%",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "84÷210×100を計算します。",
+      "explanation": "84÷210=0.4なので、40%です。"
+    },
+    {
+      "id": "g5q07-p038",
+      "question": "48は160の何%ですか。",
+      "answer": "30",
+      "unit": "%",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "48÷160×100を計算します。",
+      "explanation": "48÷160=0.3なので、30%です。"
+    },
+    {
+      "id": "g5q07-p039",
+      "question": "63は126の何%ですか。",
+      "answer": "50",
+      "unit": "%",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "63÷126×100を計算します。",
+      "explanation": "63÷126=0.5なので、50%です。"
+    },
+    {
+      "id": "g5q07-p040",
+      "question": "96は320の何%ですか。",
+      "answer": "30",
+      "unit": "%",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "96÷320×100を計算します。",
+      "explanation": "96÷320=0.3なので、30%です。"
+    },
+    {
+      "id": "g5q07-p041",
+      "question": "クラスに40人の生徒がいます。そのうち25%が眼鏡をかけています。眼鏡をかけている生徒は何人ですか。",
+      "answer": "10",
+      "unit": "人",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "40×0.25を計算します。",
+      "explanation": "40×0.25=10より、10人です。"
+    },
+    {
+      "id": "g5q07-p042",
+      "question": "80人の生徒がいます。そのうち30%が運動部に入っています。運動部の生徒は何人ですか。",
+      "answer": "24",
+      "unit": "人",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "80×0.3を計算します。",
+      "explanation": "80×0.3=24より、24人です。"
+    },
+    {
+      "id": "g5q07-p043",
+      "question": "200円の商品を20%引きで買いました。代金は何円ですか。",
+      "answer": "160",
+      "unit": "円",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "200×(1-0.2)を計算します。",
+      "explanation": "200×0.8=160より、160円です。"
+    },
+    {
+      "id": "g5q07-p044",
+      "question": "150円の商品に15%の消費税がかかります。支払う金額は何円ですか。",
+      "answer": "172.5",
+      "unit": "円",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "150×(1+0.15)を計算します。",
+      "explanation": "150×1.15=172.5より、172.5円です。"
+    },
+    {
+      "id": "g5q07-p045",
+      "question": "300円の商品を25%引きで買いました。代金は何円ですか。",
+      "answer": "225",
+      "unit": "円",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "300×(1-0.25)を計算します。",
+      "explanation": "300×0.75=225より、225円です。"
+    },
+    {
+      "id": "g5q07-p046",
+      "question": "60人のクラスで18人が眼鏡をかけています。眼鏡をかけている人は全体の何%ですか。",
+      "answer": "30",
+      "unit": "%",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "18÷60×100を計算します。",
+      "explanation": "18÷60=0.3なので、30%です。"
+    },
+    {
+      "id": "g5q07-p047",
+      "question": "全体が200個のりんごのうち、50個が赤いりんごです。赤いりんごは全体の何%ですか。",
+      "answer": "25",
+      "unit": "%",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "50÷200×100を計算します。",
+      "explanation": "50÷200=0.25なので、25%です。"
+    },
+    {
+      "id": "g5q07-p048",
+      "question": "120mLのジュースのうち、36mLを飲みました。飲んだジュースは全体の何%ですか。",
+      "answer": "30",
+      "unit": "%",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "36÷120×100を計算します。",
+      "explanation": "36÷120=0.3なので、30%です。"
+    },
+    {
+      "id": "g5q07-p049",
+      "question": "150人の生徒のうち、75人が男子です。男子は全体の何%ですか。",
+      "answer": "50",
+      "unit": "%",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "75÷150×100を計算します。",
+      "explanation": "75÷150=0.5なので、50%です。"
+    },
+    {
+      "id": "g5q07-p050",
+      "question": "400gの小麦粉のうち、160gを使いました。使った小麦粉は全体の何%ですか。",
+      "answer": "40",
+      "unit": "%",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "160÷400×100を計算します。",
+      "explanation": "160÷400=0.4なので、40%です。"
+    },
+    {
+      "id": "g5q07-p051",
+      "question": "800円の商品を30%引きで買いました。代金は何円ですか。",
+      "answer": "560",
+      "unit": "円",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "800×(1-0.3)を計算します。",
+      "explanation": "800×0.7=560より、560円です。"
+    },
+    {
+      "id": "g5q07-p052",
+      "question": "500円の商品に10%の消費税がかかります。支払う金額は何円ですか。",
+      "answer": "550",
+      "unit": "円",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "500×(1+0.1)を計算します。",
+      "explanation": "500×1.1=550より、550円です。"
+    },
+    {
+      "id": "g5q07-p053",
+      "question": "1200円の商品を15%引きで買いました。代金は何円ですか。",
+      "answer": "1020",
+      "unit": "円",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "1200×(1-0.15)を計算します。",
+      "explanation": "1200×0.85=1020より、1020円です。"
+    },
+    {
+      "id": "g5q07-p054",
+      "question": "700円の商品に8%の消費税がかかります。支払う金額は何円ですか。",
+      "answer": "756",
+      "unit": "円",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "700×(1+0.08)を計算します。",
+      "explanation": "700×1.08=756より、756円です。"
+    },
+    {
+      "id": "g5q07-p055",
+      "question": "2000円の商品を35%引きで買いました。代金は何円ですか。",
+      "answer": "1300",
+      "unit": "円",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "2000×(1-0.35)を計算します。",
+      "explanation": "2000×0.65=1300より、1300円です。"
+    },
+    {
+      "id": "g5q07-p056",
+      "question": "80人の生徒のうち、64人が合格しました。合格率は何%ですか。",
+      "answer": "80",
+      "unit": "%",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "64÷80×100を計算します。",
+      "explanation": "64÷80=0.8なので、80%です。"
+    },
+    {
+      "id": "g5q07-p057",
+      "question": "250mLのジュースのうち、100mLを飲みました。飲んだジュースは全体の何%ですか。",
+      "answer": "40",
+      "unit": "%",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "100÷250×100を計算します。",
+      "explanation": "100÷250=0.4なので、40%です。"
+    },
+    {
+      "id": "g5q07-p058",
+      "question": "180個のみかんのうち、27個が傷んでいました。傷んだみかんは全体の何%ですか。",
+      "answer": "15",
+      "unit": "%",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "27÷180×100を計算します。",
+      "explanation": "27÷180=0.15なので、15%です。"
+    },
+    {
+      "id": "g5q07-p059",
+      "question": "320人の生徒のうち、96人がサッカー部に入っています。サッカー部の割合は何%ですか。",
+      "answer": "30",
+      "unit": "%",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "96÷320×100を計算します。",
+      "explanation": "96÷320=0.3なので、30%です。"
+    },
+    {
+      "id": "g5q07-p060",
+      "question": "450人の生徒のうち、108人が図書委員です。図書委員の割合は何%ですか。",
+      "answer": "24",
+      "unit": "%",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "108÷450×100を計算します。",
+      "explanation": "108÷450=0.24なので、24%です。"
+    },
+    {
+      "id": "g5q07-p061",
+      "question": "1500円の商品を20%引きで買いました。代金は何円ですか。",
+      "answer": "1200",
+      "unit": "円",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "1500×(1-0.2)を計算します。",
+      "explanation": "1500×0.8=1200より、1200円です。"
+    },
+    {
+      "id": "g5q07-p062",
+      "question": "600円の商品に5%の消費税がかかります。支払う金額は何円ですか。",
+      "answer": "630",
+      "unit": "円",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "600×(1+0.05)を計算します。",
+      "explanation": "600×1.05=630より、630円です。"
+    },
+    {
+      "id": "g5q07-p063",
+      "question": "900円の商品を40%引きで買いました。代金は何円ですか。",
+      "answer": "540",
+      "unit": "円",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "900×(1-0.4)を計算します。",
+      "explanation": "900×0.6=540より、540円です。"
+    },
+    {
+      "id": "g5q07-p064",
+      "question": "クラスの生徒40人のうち、18人が図書委員です。図書委員は全体の何%ですか。",
+      "answer": "45",
+      "unit": "%",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "18÷40×100を計算します。",
+      "explanation": "18÷40=0.45なので、45%です。"
+    },
+    {
+      "id": "g5q07-p065",
+      "question": "300mLの牛乳のうち、210mLを飲みました。残りは全体の何%ですか。",
+      "answer": "30",
+      "unit": "%",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "残りは90mLです。90÷300×100を計算します。",
+      "explanation": "残り90÷300=0.3なので、30%です。"
+    },
+    {
+      "id": "g5q07-p066",
+      "question": "500人の生徒のうち、375人が合格しました。合格率は何%ですか。",
+      "answer": "75",
+      "unit": "%",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "375÷500×100を計算します。",
+      "explanation": "375÷500=0.75なので、75%です。"
+    },
+    {
+      "id": "g5q07-p067",
+      "question": "2400円の商品を25%引きで買いました。代金は何円ですか。",
+      "answer": "1800",
+      "unit": "円",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "2400×(1-0.25)を計算します。",
+      "explanation": "2400×0.75=1800より、1800円です。"
+    },
+    {
+      "id": "g5q07-p068",
+      "question": "800gの砂糖のうち、320gを使いました。使った砂糖は全体の何%ですか。",
+      "answer": "40",
+      "unit": "%",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "320÷800×100を計算します。",
+      "explanation": "320÷800=0.4なので、40%です。"
+    },
+    {
+      "id": "g5q07-p069",
+      "question": "1kmの道のりのうち、350mを歩きました。歩いた道のりは全体の何%ですか。",
+      "answer": "35",
+      "unit": "%",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "1km=1000mです。350÷1000×100を計算します。",
+      "explanation": "350÷1000=0.35なので、35%です。"
+    },
+    {
+      "id": "g5q07-p070",
+      "question": "全体が50個のりんごのうち、8個が傷んでいました。傷んだりんごは全体の何%ですか。",
+      "answer": "16",
+      "unit": "%",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "8÷50×100を計算します。",
+      "explanation": "8÷50=0.16なので、16%です。"
+    },
+    {
+      "id": "g5q07-p071",
+      "question": "1000円の商品に消費税がかかり、1100円になりました。消費税は何%ですか。",
+      "answer": "10",
+      "unit": "%",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "増えた金額は100円です。100÷1000×100を計算します。",
+      "explanation": "100÷1000=0.1なので、10%です。"
+    },
+    {
+      "id": "g5q07-p072",
+      "question": "3000円の商品を割引で2550円で買いました。割引率は何%ですか。",
+      "answer": "15",
+      "unit": "%",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "減った金額は450円です。450÷3000×100を計算します。",
+      "explanation": "450÷3000=0.15なので、15%です。"
+    },
+    {
+      "id": "g5q07-p073",
+      "question": "昨年の売上は400万円でした。今年は440万円でした。売上は何%増加しましたか。",
+      "answer": "10",
+      "unit": "%",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "増えた金額は40万円です。40÷400×100を計算します。",
+      "explanation": "40÷400=0.1なので、10%増加です。"
+    },
+    {
+      "id": "g5q07-p074",
+      "question": "昨年の人口は20000人でした。今年は18000人でした。人口は何%減少しましたか。",
+      "answer": "10",
+      "unit": "%",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "減った人数は2000人です。2000÷20000×100を計算します。",
+      "explanation": "2000÷20000=0.1なので、10%減少です。"
+    },
+    {
+      "id": "g5q07-p075",
+      "question": "先月の売上は600万円でした。今月は720万円でした。売上は何%増加しましたか。",
+      "answer": "20",
+      "unit": "%",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "増えた金額は120万円です。120÷600×100を計算します。",
+      "explanation": "120÷600=0.2なので、20%増加です。"
+    },
+    {
+      "id": "g5q07-p076",
+      "question": "1600円の商品を割引で1280円で買いました。割引率は何%ですか。",
+      "answer": "20",
+      "unit": "%",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "減った金額は320円です。320÷1600×100を計算します。",
+      "explanation": "320÷1600=0.2なので、20%です。"
+    },
+    {
+      "id": "g5q07-p077",
+      "question": "2500円の商品に消費税がかかり、2625円になりました。消費税は何%ですか。",
+      "answer": "5",
+      "unit": "%",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "増えた金額は125円です。125÷2500×100を計算します。",
+      "explanation": "125÷2500=0.05なので、5%です。"
+    },
+    {
+      "id": "g5q07-p078",
+      "question": "昨日は100人でしたが、今日は125人になりました。何%増加しましたか。",
+      "answer": "25",
+      "unit": "%",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "増えた人数は25人です。25÷100×100を計算します。",
+      "explanation": "25÷100=0.25なので、25%増加です。"
+    },
+    {
+      "id": "g5q07-p079",
+      "question": "昨年は200kgでしたが、今年は180kgになりました。何%減少しましたか。",
+      "answer": "10",
+      "unit": "%",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "減った量は20kgです。20÷200×100を計算します。",
+      "explanation": "20÷200=0.1なので、10%減少です。"
+    },
+    {
+      "id": "g5q07-p080",
+      "question": "4000円の商品を割引で3200円で買いました。割引率は何%ですか。",
+      "answer": "20",
+      "unit": "%",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "減った金額は800円です。800÷4000×100を計算します。",
+      "explanation": "800÷4000=0.2なので、20%です。"
+    },
+    {
+      "id": "g5q07-p081",
+      "question": "5000円の商品に消費税がかかり、5250円になりました。消費税は何%ですか。",
+      "answer": "5",
+      "unit": "%",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "増えた金額は250円です。250÷5000×100を計算します。",
+      "explanation": "250÷5000=0.05なので、5%です。"
+    },
+    {
+      "id": "g5q07-p082",
+      "question": "昨年の生産量は80tでしたが、今年は96tになりました。何%増加しましたか。",
+      "answer": "20",
+      "unit": "%",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "増えた量は16tです。16÷80×100を計算します。",
+      "explanation": "16÷80=0.2なので、20%増加です。"
+    },
+    {
+      "id": "g5q07-p083",
+      "question": "昨年の売上は1200万円でしたが、今年は960万円になりました。何%減少しましたか。",
+      "answer": "20",
+      "unit": "%",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "減った金額は240万円です。240÷1200×100を計算します。",
+      "explanation": "240÷1200=0.2なので、20%減少です。"
+    },
+    {
+      "id": "g5q07-p084",
+      "question": "クラスの生徒50人のうち、35人が合格しました。合格率は何%ですか。",
+      "answer": "70",
+      "unit": "%",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "35÷50×100を計算します。",
+      "explanation": "35÷50=0.7なので、70%です。"
+    },
+    {
+      "id": "g5q07-p085",
+      "question": "600mLのジュースのうち、150mLを飲みました。残りは全体の何%ですか。",
+      "answer": "75",
+      "unit": "%",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "残りは450mLです。450÷600×100を計算します。",
+      "explanation": "450÷600=0.75なので、75%です。"
+    },
+    {
+      "id": "g5q07-p086",
+      "question": "全体の30%が45のとき、全体はいくつですか。",
+      "answer": "150",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "reverse",
+      "hint": "45÷0.3を計算します。",
+      "explanation": "45÷0.3=150です。"
+    },
+    {
+      "id": "g5q07-p087",
+      "question": "全体の25%が60のとき、全体はいくつですか。",
+      "answer": "240",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "reverse",
+      "hint": "60÷0.25を計算します。",
+      "explanation": "60÷0.25=240です。"
+    },
+    {
+      "id": "g5q07-p088",
+      "question": "全体の20%が48のとき、全体はいくつですか。",
+      "answer": "240",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "reverse",
+      "hint": "48÷0.2を計算します。",
+      "explanation": "48÷0.2=240です。"
+    },
+    {
+      "id": "g5q07-p089",
+      "question": "全体の40%が72のとき、全体はいくつですか。",
+      "answer": "180",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "reverse",
+      "hint": "72÷0.4を計算します。",
+      "explanation": "72÷0.4=180です。"
+    },
+    {
+      "id": "g5q07-p090",
+      "question": "全体の15%が36のとき、全体はいくつですか。",
+      "answer": "240",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "reverse",
+      "hint": "36÷0.15を計算します。",
+      "explanation": "36÷0.15=240です。"
+    },
+    {
+      "id": "g5q07-p091",
+      "question": "全体の35%が84のとき、全体はいくつですか。",
+      "answer": "240",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "reverse",
+      "hint": "84÷0.35を計算します。",
+      "explanation": "84÷0.35=240です。"
+    },
+    {
+      "id": "g5q07-p092",
+      "question": "全体の12%が30のとき、全体はいくつですか。",
+      "answer": "250",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "reverse",
+      "hint": "30÷0.12を計算します。",
+      "explanation": "30÷0.12=250です。"
+    },
+    {
+      "id": "g5q07-p093",
+      "question": "全体の45%が99のとき、全体はいくつですか。",
+      "answer": "220",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "reverse",
+      "hint": "99÷0.45を計算します。",
+      "explanation": "99÷0.45=220です。"
+    },
+    {
+      "id": "g5q07-p094",
+      "question": "全体の18%が54のとき、全体はいくつですか。",
+      "answer": "300",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "reverse",
+      "hint": "54÷0.18を計算します。",
+      "explanation": "54÷0.18=300です。"
+    },
+    {
+      "id": "g5q07-p095",
+      "question": "全体の22%が66のとき、全体はいくつですか。",
+      "answer": "300",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "reverse",
+      "hint": "66÷0.22を計算します。",
+      "explanation": "66÷0.22=300です。"
+    },
+    {
+      "id": "g5q07-p096",
+      "question": "ある数の30%は45です。ある数を求めましょう。",
+      "answer": "150",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "45÷0.3を計算します。",
+      "explanation": "45÷0.3=150です。"
+    },
+    {
+      "id": "g5q07-p097",
+      "question": "200の何%が50ですか。",
+      "answer": "25",
+      "unit": "%",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "50÷200×100を計算します。",
+      "explanation": "50÷200=0.25なので、25%です。"
+    },
+    {
+      "id": "g5q07-p098",
+      "question": "ある数の25%は60です。ある数の50%はいくつですか。",
+      "answer": "120",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "まずある数を求めます。60÷0.25=240。その50%は240×0.5です。",
+      "explanation": "ある数は240で、その50%は120です。"
+    },
+    {
+      "id": "g5q07-p099",
+      "question": "全体の20%が36です。全体の15%はいくつですか。",
+      "answer": "27",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "まず全体を求めます。36÷0.2=180。その15%は180×0.15です。",
+      "explanation": "全体は180で、その15%は27です。"
+    },
+    {
+      "id": "g5q07-p100",
+      "question": "ある数を20%増やすと120になりました。もとの数を求めましょう。",
+      "answer": "100",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "もとの数をxとすると、x×1.2=120です。",
+      "explanation": "120÷1.2=100より、もとの数は100です。"
+    }
+  ]
+}

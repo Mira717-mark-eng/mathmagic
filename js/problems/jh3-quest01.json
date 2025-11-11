@@ -1,0 +1,1009 @@
+{
+  "questId": "jh3-quest01",
+  "quest_name": "展開",
+  "grade": "中3",
+  "difficulty": "basic",
+  "topic": "展開",
+  "problems": [
+    {
+      "id": 1,
+      "question": "(x+3)² を展開しなさい。",
+      "answer": "x²+6x+9",
+      "unit": "",
+      "difficulty": 1,
+      "type": "calculation",
+      "hint": "(a+b)² = a² + 2ab + b² の公式を使います。",
+      "explanation": "(x+3)² = x² + 2×x×3 + 3² = x² + 6x + 9"
+    },
+    {
+      "id": 2,
+      "question": "(x-5)² を展開しなさい。",
+      "answer": "x²-10x+25",
+      "unit": "",
+      "difficulty": 1,
+      "type": "calculation",
+      "hint": "(a-b)² = a² - 2ab + b² の公式を使います。",
+      "explanation": "(x-5)² = x² - 2×x×5 + 5² = x² - 10x + 25"
+    },
+    {
+      "id": 3,
+      "question": "(x+2)(x-2) を展開しなさい。",
+      "answer": "x²-4",
+      "unit": "",
+      "difficulty": 1,
+      "type": "calculation",
+      "hint": "(a+b)(a-b) = a² - b² の公式を使います。",
+      "explanation": "(x+2)(x-2) = x² - 2² = x² - 4"
+    },
+    {
+      "id": 4,
+      "question": "(x+4)² を展開しなさい。",
+      "answer": "x²+8x+16",
+      "unit": "",
+      "difficulty": 1,
+      "type": "calculation",
+      "hint": "(a+b)² = a² + 2ab + b² の公式を使います。",
+      "explanation": "(x+4)² = x² + 2×x×4 + 4² = x² + 8x + 16"
+    },
+    {
+      "id": 5,
+      "question": "(x-7)² を展開しなさい。",
+      "answer": "x²-14x+49",
+      "unit": "",
+      "difficulty": 1,
+      "type": "calculation",
+      "hint": "(a-b)² = a² - 2ab + b² の公式を使います。",
+      "explanation": "(x-7)² = x² - 2×x×7 + 7² = x² - 14x + 49"
+    },
+    {
+      "id": 6,
+      "question": "(x+6)(x-6) を展開しなさい。",
+      "answer": "x²-36",
+      "unit": "",
+      "difficulty": 1,
+      "type": "calculation",
+      "hint": "(a+b)(a-b) = a² - b² の公式を使います。",
+      "explanation": "(x+6)(x-6) = x² - 6² = x² - 36"
+    },
+    {
+      "id": 7,
+      "question": "(x+1)² を展開しなさい。",
+      "answer": "x²+2x+1",
+      "unit": "",
+      "difficulty": 1,
+      "type": "calculation",
+      "hint": "(a+b)² = a² + 2ab + b² の公式を使います。",
+      "explanation": "(x+1)² = x² + 2×x×1 + 1² = x² + 2x + 1"
+    },
+    {
+      "id": 8,
+      "question": "(x-1)² を展開しなさい。",
+      "answer": "x²-2x+1",
+      "unit": "",
+      "difficulty": 1,
+      "type": "calculation",
+      "hint": "(a-b)² = a² - 2ab + b² の公式を使います。",
+      "explanation": "(x-1)² = x² - 2×x×1 + 1² = x² - 2x + 1"
+    },
+    {
+      "id": 9,
+      "question": "(x+8)(x-8) を展開しなさい。",
+      "answer": "x²-64",
+      "unit": "",
+      "difficulty": 1,
+      "type": "calculation",
+      "hint": "(a+b)(a-b) = a² - b² の公式を使います。",
+      "explanation": "(x+8)(x-8) = x² - 8² = x² - 64"
+    },
+    {
+      "id": 10,
+      "question": "(x+5)² を展開しなさい。",
+      "answer": "x²+10x+25",
+      "unit": "",
+      "difficulty": 1,
+      "type": "calculation",
+      "hint": "(a+b)² = a² + 2ab + b² の公式を使います。",
+      "explanation": "(x+5)² = x² + 2×x×5 + 5² = x² + 10x + 25"
+    },
+    {
+      "id": 11,
+      "question": "(2x+1)² を展開しなさい。",
+      "answer": "4x²+4x+1",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(a+b)² = a² + 2ab + b² の公式を使います。",
+      "explanation": "(2x+1)² = (2x)² + 2×2x×1 + 1² = 4x² + 4x + 1"
+    },
+    {
+      "id": 12,
+      "question": "(3x-2)² を展開しなさい。",
+      "answer": "9x²-12x+4",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(a-b)² = a² - 2ab + b² の公式を使います。",
+      "explanation": "(3x-2)² = (3x)² - 2×3x×2 + 2² = 9x² - 12x + 4"
+    },
+    {
+      "id": 13,
+      "question": "(2x+3)(2x-3) を展開しなさい。",
+      "answer": "4x²-9",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(a+b)(a-b) = a² - b² の公式を使います。",
+      "explanation": "(2x+3)(2x-3) = (2x)² - 3² = 4x² - 9"
+    },
+    {
+      "id": 14,
+      "question": "(x+3)(x+5) を展開しなさい。",
+      "answer": "x²+8x+15",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(x+a)(x+b) = x² + (a+b)x + ab の形です。",
+      "explanation": "(x+3)(x+5) = x² + (3+5)x + 3×5 = x² + 8x + 15"
+    },
+    {
+      "id": 15,
+      "question": "(x+2)(x+7) を展開しなさい。",
+      "answer": "x²+9x+14",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(x+a)(x+b) = x² + (a+b)x + ab の形です。",
+      "explanation": "(x+2)(x+7) = x² + (2+7)x + 2×7 = x² + 9x + 14"
+    },
+    {
+      "id": 16,
+      "question": "(x-3)(x-4) を展開しなさい。",
+      "answer": "x²-7x+12",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(x+a)(x+b) = x² + (a+b)x + ab の形です。",
+      "explanation": "(x-3)(x-4) = x² + (-3-4)x + (-3)×(-4) = x² - 7x + 12"
+    },
+    {
+      "id": 17,
+      "question": "(x+4)(x-3) を展開しなさい。",
+      "answer": "x²+x-12",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(x+a)(x+b) = x² + (a+b)x + ab の形です。",
+      "explanation": "(x+4)(x-3) = x² + (4-3)x + 4×(-3) = x² + x - 12"
+    },
+    {
+      "id": 18,
+      "question": "(4x+5)² を展開しなさい。",
+      "answer": "16x²+40x+25",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(a+b)² = a² + 2ab + b² の公式を使います。",
+      "explanation": "(4x+5)² = (4x)² + 2×4x×5 + 5² = 16x² + 40x + 25"
+    },
+    {
+      "id": 19,
+      "question": "(5x-3)² を展開しなさい。",
+      "answer": "25x²-30x+9",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(a-b)² = a² - 2ab + b² の公式を使います。",
+      "explanation": "(5x-3)² = (5x)² - 2×5x×3 + 3² = 25x² - 30x + 9"
+    },
+    {
+      "id": 20,
+      "question": "(3x+4)(3x-4) を展開しなさい。",
+      "answer": "9x²-16",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(a+b)(a-b) = a² - b² の公式を使います。",
+      "explanation": "(3x+4)(3x-4) = (3x)² - 4² = 9x² - 16"
+    },
+    {
+      "id": 21,
+      "question": "(x+6)(x+4) を展開しなさい。",
+      "answer": "x²+10x+24",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(x+a)(x+b) = x² + (a+b)x + ab の形です。",
+      "explanation": "(x+6)(x+4) = x² + (6+4)x + 6×4 = x² + 10x + 24"
+    },
+    {
+      "id": 22,
+      "question": "(x-5)(x-3) を展開しなさい。",
+      "answer": "x²-8x+15",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(x+a)(x+b) = x² + (a+b)x + ab の形です。",
+      "explanation": "(x-5)(x-3) = x² + (-5-3)x + (-5)×(-3) = x² - 8x + 15"
+    },
+    {
+      "id": 23,
+      "question": "(x+7)(x-2) を展開しなさい。",
+      "answer": "x²+5x-14",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(x+a)(x+b) = x² + (a+b)x + ab の形です。",
+      "explanation": "(x+7)(x-2) = x² + (7-2)x + 7×(-2) = x² + 5x - 14"
+    },
+    {
+      "id": 24,
+      "question": "(2x+5)² を展開しなさい。",
+      "answer": "4x²+20x+25",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(a+b)² = a² + 2ab + b² の公式を使います。",
+      "explanation": "(2x+5)² = (2x)² + 2×2x×5 + 5² = 4x² + 20x + 25"
+    },
+    {
+      "id": 25,
+      "question": "(3x-5)² を展開しなさい。",
+      "answer": "9x²-30x+25",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(a-b)² = a² - 2ab + b² の公式を使います。",
+      "explanation": "(3x-5)² = (3x)² - 2×3x×5 + 5² = 9x² - 30x + 25"
+    },
+    {
+      "id": 26,
+      "question": "(5x+2)(5x-2) を展開しなさい。",
+      "answer": "25x²-4",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(a+b)(a-b) = a² - b² の公式を使います。",
+      "explanation": "(5x+2)(5x-2) = (5x)² - 2² = 25x² - 4"
+    },
+    {
+      "id": 27,
+      "question": "(x+1)(x+9) を展開しなさい。",
+      "answer": "x²+10x+9",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(x+a)(x+b) = x² + (a+b)x + ab の形です。",
+      "explanation": "(x+1)(x+9) = x² + (1+9)x + 1×9 = x² + 10x + 9"
+    },
+    {
+      "id": 28,
+      "question": "(x-6)(x-2) を展開しなさい。",
+      "answer": "x²-8x+12",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(x+a)(x+b) = x² + (a+b)x + ab の形です。",
+      "explanation": "(x-6)(x-2) = x² + (-6-2)x + (-6)×(-2) = x² - 8x + 12"
+    },
+    {
+      "id": 29,
+      "question": "(x+8)(x-5) を展開しなさい。",
+      "answer": "x²+3x-40",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(x+a)(x+b) = x² + (a+b)x + ab の形です。",
+      "explanation": "(x+8)(x-5) = x² + (8-5)x + 8×(-5) = x² + 3x - 40"
+    },
+    {
+      "id": 30,
+      "question": "(x+10)² を展開しなさい。",
+      "answer": "x²+20x+100",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(a+b)² = a² + 2ab + b² の公式を使います。",
+      "explanation": "(x+10)² = x² + 2×x×10 + 10² = x² + 20x + 100"
+    },
+    {
+      "id": 31,
+      "question": "(2x+3)² を展開しなさい。",
+      "answer": "4x²+12x+9",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(a+b)² = a² + 2ab + b² の公式を使います。",
+      "explanation": "(2x+3)² = (2x)² + 2×2x×3 + 3² = 4x² + 12x + 9"
+    },
+    {
+      "id": 32,
+      "question": "(4x-1)² を展開しなさい。",
+      "answer": "16x²-8x+1",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(a-b)² = a² - 2ab + b² の公式を使います。",
+      "explanation": "(4x-1)² = (4x)² - 2×4x×1 + 1² = 16x² - 8x + 1"
+    },
+    {
+      "id": 33,
+      "question": "(6x+1)(6x-1) を展開しなさい。",
+      "answer": "36x²-1",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(a+b)(a-b) = a² - b² の公式を使います。",
+      "explanation": "(6x+1)(6x-1) = (6x)² - 1² = 36x² - 1"
+    },
+    {
+      "id": 34,
+      "question": "(x+5)(x+2) を展開しなさい。",
+      "answer": "x²+7x+10",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(x+a)(x+b) = x² + (a+b)x + ab の形です。",
+      "explanation": "(x+5)(x+2) = x² + (5+2)x + 5×2 = x² + 7x + 10"
+    },
+    {
+      "id": 35,
+      "question": "(x-4)(x-5) を展開しなさい。",
+      "answer": "x²-9x+20",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(x+a)(x+b) = x² + (a+b)x + ab の形です。",
+      "explanation": "(x-4)(x-5) = x² + (-4-5)x + (-4)×(-5) = x² - 9x + 20"
+    },
+    {
+      "id": 36,
+      "question": "(x+9)(x-4) を展開しなさい。",
+      "answer": "x²+5x-36",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(x+a)(x+b) = x² + (a+b)x + ab の形です。",
+      "explanation": "(x+9)(x-4) = x² + (9-4)x + 9×(-4) = x² + 5x - 36"
+    },
+    {
+      "id": 37,
+      "question": "(3x+2)² を展開しなさい。",
+      "answer": "9x²+12x+4",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(a+b)² = a² + 2ab + b² の公式を使います。",
+      "explanation": "(3x+2)² = (3x)² + 2×3x×2 + 2² = 9x² + 12x + 4"
+    },
+    {
+      "id": 38,
+      "question": "(5x-4)² を展開しなさい。",
+      "answer": "25x²-40x+16",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(a-b)² = a² - 2ab + b² の公式を使います。",
+      "explanation": "(5x-4)² = (5x)² - 2×5x×4 + 4² = 25x² - 40x + 16"
+    },
+    {
+      "id": 39,
+      "question": "(4x+3)(4x-3) を展開しなさい。",
+      "answer": "16x²-9",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(a+b)(a-b) = a² - b² の公式を使います。",
+      "explanation": "(4x+3)(4x-3) = (4x)² - 3² = 16x² - 9"
+    },
+    {
+      "id": 40,
+      "question": "(x+3)(x+6) を展開しなさい。",
+      "answer": "x²+9x+18",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(x+a)(x+b) = x² + (a+b)x + ab の形です。",
+      "explanation": "(x+3)(x+6) = x² + (3+6)x + 3×6 = x² + 9x + 18"
+    },
+    {
+      "id": 41,
+      "question": "(x-7)(x-1) を展開しなさい。",
+      "answer": "x²-8x+7",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(x+a)(x+b) = x² + (a+b)x + ab の形です。",
+      "explanation": "(x-7)(x-1) = x² + (-7-1)x + (-7)×(-1) = x² - 8x + 7"
+    },
+    {
+      "id": 42,
+      "question": "(x+6)(x-3) を展開しなさい。",
+      "answer": "x²+3x-18",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(x+a)(x+b) = x² + (a+b)x + ab の形です。",
+      "explanation": "(x+6)(x-3) = x² + (6-3)x + 6×(-3) = x² + 3x - 18"
+    },
+    {
+      "id": 43,
+      "question": "(2x-3)(2x+3) を展開しなさい。",
+      "answer": "4x²-9",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(a+b)(a-b) = a² - b² の公式を使います。",
+      "explanation": "(2x-3)(2x+3) = (2x)² - 3² = 4x² - 9"
+    },
+    {
+      "id": 44,
+      "question": "(x+2)² を展開しなさい。",
+      "answer": "x²+4x+4",
+      "unit": "",
+      "difficulty": 1,
+      "type": "calculation",
+      "hint": "(a+b)² = a² + 2ab + b² の公式を使います。",
+      "explanation": "(x+2)² = x² + 2×x×2 + 2² = x² + 4x + 4"
+    },
+    {
+      "id": 45,
+      "question": "(x-9)² を展開しなさい。",
+      "answer": "x²-18x+81",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(a-b)² = a² - 2ab + b² の公式を使います。",
+      "explanation": "(x-9)² = x² - 2×x×9 + 9² = x² - 18x + 81"
+    },
+    {
+      "id": 46,
+      "question": "(7x+2)(7x-2) を展開しなさい。",
+      "answer": "49x²-4",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(a+b)(a-b) = a² - b² の公式を使います。",
+      "explanation": "(7x+2)(7x-2) = (7x)² - 2² = 49x² - 4"
+    },
+    {
+      "id": 47,
+      "question": "(x+4)(x+3) を展開しなさい。",
+      "answer": "x²+7x+12",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(x+a)(x+b) = x² + (a+b)x + ab の形です。",
+      "explanation": "(x+4)(x+3) = x² + (4+3)x + 4×3 = x² + 7x + 12"
+    },
+    {
+      "id": 48,
+      "question": "(x-8)(x-2) を展開しなさい。",
+      "answer": "x²-10x+16",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(x+a)(x+b) = x² + (a+b)x + ab の形です。",
+      "explanation": "(x-8)(x-2) = x² + (-8-2)x + (-8)×(-2) = x² - 10x + 16"
+    },
+    {
+      "id": 49,
+      "question": "(x+5)(x-4) を展開しなさい。",
+      "answer": "x²+x-20",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(x+a)(x+b) = x² + (a+b)x + ab の形です。",
+      "explanation": "(x+5)(x-4) = x² + (5-4)x + 5×(-4) = x² + x - 20"
+    },
+    {
+      "id": 50,
+      "question": "(3x+1)² を展開しなさい。",
+      "answer": "9x²+6x+1",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(a+b)² = a² + 2ab + b² の公式を使います。",
+      "explanation": "(3x+1)² = (3x)² + 2×3x×1 + 1² = 9x² + 6x + 1"
+    },
+    {
+      "id": 51,
+      "question": "(2x-5)² を展開しなさい。",
+      "answer": "4x²-20x+25",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(a-b)² = a² - 2ab + b² の公式を使います。",
+      "explanation": "(2x-5)² = (2x)² - 2×2x×5 + 5² = 4x² - 20x + 25"
+    },
+    {
+      "id": 52,
+      "question": "(x+11)(x-11) を展開しなさい。",
+      "answer": "x²-121",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(a+b)(a-b) = a² - b² の公式を使います。",
+      "explanation": "(x+11)(x-11) = x² - 11² = x² - 121"
+    },
+    {
+      "id": 53,
+      "question": "(x+2)(x+8) を展開しなさい。",
+      "answer": "x²+10x+16",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(x+a)(x+b) = x² + (a+b)x + ab の形です。",
+      "explanation": "(x+2)(x+8) = x² + (2+8)x + 2×8 = x² + 10x + 16"
+    },
+    {
+      "id": 54,
+      "question": "(x-9)(x-4) を展開しなさい。",
+      "answer": "x²-13x+36",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(x+a)(x+b) = x² + (a+b)x + ab の形です。",
+      "explanation": "(x-9)(x-4) = x² + (-9-4)x + (-9)×(-4) = x² - 13x + 36"
+    },
+    {
+      "id": 55,
+      "question": "(x+7)(x-3) を展開しなさい。",
+      "answer": "x²+4x-21",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(x+a)(x+b) = x² + (a+b)x + ab の形です。",
+      "explanation": "(x+7)(x-3) = x² + (7-3)x + 7×(-3) = x² + 4x - 21"
+    },
+    {
+      "id": 56,
+      "question": "(4x+1)² を展開しなさい。",
+      "answer": "16x²+8x+1",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(a+b)² = a² + 2ab + b² の公式を使います。",
+      "explanation": "(4x+1)² = (4x)² + 2×4x×1 + 1² = 16x² + 8x + 1"
+    },
+    {
+      "id": 57,
+      "question": "(6x-5)² を展開しなさい。",
+      "answer": "36x²-60x+25",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(a-b)² = a² - 2ab + b² の公式を使います。",
+      "explanation": "(6x-5)² = (6x)² - 2×6x×5 + 5² = 36x² - 60x + 25"
+    },
+    {
+      "id": 58,
+      "question": "(8x+3)(8x-3) を展開しなさい。",
+      "answer": "64x²-9",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "(a+b)(a-b) = a² - b² の公式を使います。",
+      "explanation": "(8x+3)(8x-3) = (8x)² - 3² = 64x² - 9"
+    },
+    {
+      "id": 59,
+      "question": "(2x+1)(3x+2) を展開しなさい。",
+      "answer": "6x²+7x+2",
+      "unit": "",
+      "difficulty": 3,
+      "type": "calculation",
+      "hint": "(ax+b)(cx+d) = acx² + (ad+bc)x + bd の形です。",
+      "explanation": "(2x+1)(3x+2) = 2×3×x² + (2×2+1×3)x + 1×2 = 6x² + 7x + 2"
+    },
+    {
+      "id": 60,
+      "question": "(3x-1)(2x+5) を展開しなさい。",
+      "answer": "6x²+13x-5",
+      "unit": "",
+      "difficulty": 3,
+      "type": "calculation",
+      "hint": "(ax+b)(cx+d) = acx² + (ad+bc)x + bd の形です。",
+      "explanation": "(3x-1)(2x+5) = 3×2×x² + (3×5+(-1)×2)x + (-1)×5 = 6x² + 13x - 5"
+    },
+    {
+      "id": 61,
+      "question": "正方形の花壇の1辺をxメートルとします。この花壇の周りに幅1メートルの小道を作ったとき、小道の面積を展開式で表しなさい。",
+      "answer": "4x+4",
+      "unit": "平方メートル",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "全体の面積から元の花壇の面積を引きます。全体は(x+2)²です。",
+      "explanation": "全体の面積は(x+2)² = x²+4x+4、元の花壇の面積はx²なので、小道の面積は x²+4x+4-x² = 4x+4 平方メートル"
+    },
+    {
+      "id": 62,
+      "question": "1辺がxcmの正方形の紙があります。この紙の各辺から2cmずつ内側に入った線で正方形を作ったとき、外側の額縁部分の面積を展開式で表しなさい。",
+      "answer": "8x-16",
+      "unit": "平方センチメートル",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "元の面積x²から内側の正方形の面積(x-4)²を引きます。",
+      "explanation": "元の面積はx²、内側の正方形は(x-4)² = x²-8x+16 なので、額縁部分は x² - (x²-8x+16) = 8x-16 平方センチメートル"
+    },
+    {
+      "id": 63,
+      "question": "縦がxcm、横が(x+5)cmの長方形の紙があります。この紙の面積を展開式で表しなさい。",
+      "answer": "x²+5x",
+      "unit": "平方センチメートル",
+      "difficulty": 1,
+      "type": "wordProblem",
+      "hint": "長方形の面積は縦×横です。",
+      "explanation": "面積は x×(x+5) = x²+5x 平方センチメートル"
+    },
+    {
+      "id": 64,
+      "question": "1辺がxメートルの正方形の土地があります。この土地の面積を2倍にするために、縦を3メートル、横を4メートル広げました。広げた後の面積を展開式で表しなさい。",
+      "answer": "x²+7x+12",
+      "unit": "平方メートル",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "広げた後の縦は(x+3)、横は(x+4)です。",
+      "explanation": "広げた後の面積は (x+3)(x+4) = x²+7x+12 平方メートル"
+    },
+    {
+      "id": 65,
+      "question": "ある数xを2倍して3を足した数と、xに5を足した数の積を展開式で表しなさい。",
+      "answer": "2x²+13x+15",
+      "unit": "",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "2倍して3を足した数は(2x+3)、xに5を足した数は(x+5)です。",
+      "explanation": "(2x+3)(x+5) = 2x²+10x+3x+15 = 2x²+13x+15"
+    },
+    {
+      "id": 66,
+      "question": "連続する2つの整数をx、x+1とします。これらの積にxを足した数を展開式で表しなさい。",
+      "answer": "x²+2x",
+      "unit": "",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "x(x+1) を展開してからxを足します。",
+      "explanation": "x(x+1) + x = x²+x+x = x²+2x"
+    },
+    {
+      "id": 67,
+      "question": "1辺がxcmの正方形のタイルがあります。このタイルの各辺を3cmずつ伸ばしたとき、増えた面積を展開式で表しなさい。",
+      "answer": "6x+9",
+      "unit": "平方センチメートル",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "伸ばした後の面積(x+3)²から元の面積x²を引きます。",
+      "explanation": "(x+3)² - x² = x²+6x+9-x² = 6x+9 平方センチメートル"
+    },
+    {
+      "id": 68,
+      "question": "xに4を足した数を2乗した値から、xに4を引いた数を2乗した値を引いた式を展開しなさい。",
+      "answer": "16x",
+      "unit": "",
+      "difficulty": 3,
+      "type": "wordProblem",
+      "hint": "(x+4)² - (x-4)² を計算します。",
+      "explanation": "(x+4)² - (x-4)² = (x²+8x+16) - (x²-8x+16) = 16x"
+    },
+    {
+      "id": 69,
+      "question": "縦が(2x+1)cm、横が(2x-1)cmの長方形の面積を展開式で表しなさい。",
+      "answer": "4x²-1",
+      "unit": "平方センチメートル",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "(2x+1)(2x-1) を展開します。",
+      "explanation": "(2x+1)(2x-1) = 4x²-1 平方センチメートル"
+    },
+    {
+      "id": 70,
+      "question": "ある数xに3を足した数と、xから2を引いた数の積を展開式で表しなさい。",
+      "answer": "x²+x-6",
+      "unit": "",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "(x+3)(x-2) を展開します。",
+      "explanation": "(x+3)(x-2) = x²+x-6"
+    },
+    {
+      "id": 71,
+      "question": "半径がxcmの円の面積は πx² です。この円の半径を2cm増やしたとき、増えた面積を展開式で表しなさい。",
+      "answer": "4πx+4π",
+      "unit": "平方センチメートル",
+      "difficulty": 3,
+      "type": "wordProblem",
+      "hint": "π(x+2)² - πx² を計算します。",
+      "explanation": "π(x+2)² - πx² = π(x²+4x+4) - πx² = 4πx+4π 平方センチメートル"
+    },
+    {
+      "id": 72,
+      "question": "1辺がxcmの立方体の体積はx³です。この立方体の1辺を2cm伸ばしたとき、底面積の増加を展開式で表しなさい。",
+      "answer": "4x+4",
+      "unit": "平方センチメートル",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "底面積は(x+2)² - x² です。",
+      "explanation": "(x+2)² - x² = x²+4x+4-x² = 4x+4 平方センチメートル"
+    },
+    {
+      "id": 73,
+      "question": "xから3を引いた数を2乗した値は、ある数になります。この値を展開式で表しなさい。",
+      "answer": "x²-6x+9",
+      "unit": "",
+      "difficulty": 1,
+      "type": "wordProblem",
+      "hint": "(x-3)² を展開します。",
+      "explanation": "(x-3)² = x²-6x+9"
+    },
+    {
+      "id": 74,
+      "question": "縦がxm、横が(x+6)mの長方形の土地があります。この土地の対角線の長さの2乗を展開式で表しなさい。ただし、ピタゴラスの定理を使います。",
+      "answer": "2x²+12x+36",
+      "unit": "平方メートル",
+      "difficulty": 3,
+      "type": "wordProblem",
+      "hint": "対角線の長さの2乗は x² + (x+6)² です。",
+      "explanation": "x² + (x+6)² = x² + x²+12x+36 = 2x²+12x+36 平方メートル"
+    },
+    {
+      "id": 75,
+      "question": "ある商品の定価をx円とします。この商品を20%値引きして売ったときの売価を、100で割ってからxを含む式で表し、その値を100倍した展開式を求めなさい。",
+      "answer": "80x",
+      "unit": "円",
+      "difficulty": 3,
+      "type": "wordProblem",
+      "hint": "20%値引きは0.8倍です。",
+      "explanation": "売価は0.8x円。これを100で割ると0.8x/100、100倍すると80x円"
+    },
+    {
+      "id": 76,
+      "question": "連続する3つの整数x-1、x、x+1があります。最小の数と最大の数の積を展開式で表しなさい。",
+      "answer": "x²-1",
+      "unit": "",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "(x-1)(x+1) を展開します。",
+      "explanation": "(x-1)(x+1) = x²-1"
+    },
+    {
+      "id": 77,
+      "question": "xに2を足した数を2乗して、元の数xを引いた値を展開式で表しなさい。",
+      "answer": "x²+3x+4",
+      "unit": "",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "(x+2)² - x を計算します。",
+      "explanation": "(x+2)² - x = x²+4x+4-x = x²+3x+4"
+    },
+    {
+      "id": 78,
+      "question": "1辺がxcmの正方形から、1辺が(x-4)cmの正方形を切り取りました。残った部分の面積を展開式で表しなさい。",
+      "answer": "8x-16",
+      "unit": "平方センチメートル",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "x² - (x-4)² を計算します。",
+      "explanation": "x² - (x-4)² = x² - (x²-8x+16) = 8x-16 平方センチメートル"
+    },
+    {
+      "id": 79,
+      "question": "ある整数xに対して、(x+5)と(x-3)の積に7を足した値を展開式で表しなさい。",
+      "answer": "x²+2x-8",
+      "unit": "",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "(x+5)(x-3) + 7 を計算します。",
+      "explanation": "(x+5)(x-3) + 7 = x²+2x-15+7 = x²+2x-8"
+    },
+    {
+      "id": 80,
+      "question": "縦が(3x-2)cm、横が(3x+2)cmの長方形の面積を展開式で表しなさい。",
+      "answer": "9x²-4",
+      "unit": "平方センチメートル",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "(3x-2)(3x+2) を展開します。",
+      "explanation": "(3x-2)(3x+2) = 9x²-4 平方センチメートル"
+    },
+    {
+      "id": 81,
+      "question": "2つの数xとx+10があります。これらの数の平均を2乗した値を展開式で表しなさい。",
+      "answer": "x²+10x+25",
+      "unit": "",
+      "difficulty": 3,
+      "type": "wordProblem",
+      "hint": "平均は(x+x+10)/2 = x+5 です。",
+      "explanation": "平均はx+5なので、(x+5)² = x²+10x+25"
+    },
+    {
+      "id": 82,
+      "question": "ある数xを3倍して2を引いた数を2乗した値を展開式で表しなさい。",
+      "answer": "9x²-12x+4",
+      "unit": "",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "(3x-2)² を展開します。",
+      "explanation": "(3x-2)² = 9x²-12x+4"
+    },
+    {
+      "id": 83,
+      "question": "1辺がxcmの正方形の各頂点から、1辺が2cmの正方形を切り取りました。残った図形の面積を展開式で表しなさい。",
+      "answer": "x²-16",
+      "unit": "平方センチメートル",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "元の面積x²から、4つの小正方形の面積を引きます。",
+      "explanation": "x² - 4×2² = x² - 16 平方センチメートル"
+    },
+    {
+      "id": 84,
+      "question": "xに1を足した数とxから1を引いた数の積に、xを2乗した値を足した式を展開しなさい。",
+      "answer": "2x²-1",
+      "unit": "",
+      "difficulty": 3,
+      "type": "wordProblem",
+      "hint": "(x+1)(x-1) + x² を計算します。",
+      "explanation": "(x+1)(x-1) + x² = x²-1+x² = 2x²-1"
+    },
+    {
+      "id": 85,
+      "question": "縦が(x+3)m、横が(2x-1)mの長方形の畑があります。この畑の面積を展開式で表しなさい。",
+      "answer": "2x²+5x-3",
+      "unit": "平方メートル",
+      "difficulty": 3,
+      "type": "wordProblem",
+      "hint": "(x+3)(2x-1) を展開します。",
+      "explanation": "(x+3)(2x-1) = 2x²-x+6x-3 = 2x²+5x-3 平方メートル"
+    },
+    {
+      "id": 86,
+      "question": "次の展開式を工夫して計算しなさい: 51² を (50+1)² として計算",
+      "answer": "2601",
+      "unit": "",
+      "difficulty": 2,
+      "type": "puzzle",
+      "hint": "(50+1)² = 50² + 2×50×1 + 1² を計算します。",
+      "explanation": "(50+1)² = 2500 + 100 + 1 = 2601"
+    },
+    {
+      "id": 87,
+      "question": "次の展開式を工夫して計算しなさい: 49² を (50-1)² として計算",
+      "answer": "2401",
+      "unit": "",
+      "difficulty": 2,
+      "type": "puzzle",
+      "hint": "(50-1)² = 50² - 2×50×1 + 1² を計算します。",
+      "explanation": "(50-1)² = 2500 - 100 + 1 = 2401"
+    },
+    {
+      "id": 88,
+      "question": "次の展開式を工夫して計算しなさい: 103×97 を (100+3)(100-3) として計算",
+      "answer": "9991",
+      "unit": "",
+      "difficulty": 2,
+      "type": "puzzle",
+      "hint": "(100+3)(100-3) = 100² - 3² を計算します。",
+      "explanation": "(100+3)(100-3) = 10000 - 9 = 9991"
+    },
+    {
+      "id": 89,
+      "question": "(x+1)² + (x-1)² を展開して整理しなさい。",
+      "answer": "2x²+2",
+      "unit": "",
+      "difficulty": 3,
+      "type": "puzzle",
+      "hint": "それぞれ展開してから足し合わせます。",
+      "explanation": "(x²+2x+1) + (x²-2x+1) = 2x²+2"
+    },
+    {
+      "id": 90,
+      "question": "(x+2)² - (x-2)² を展開して整理しなさい。",
+      "answer": "8x",
+      "unit": "",
+      "difficulty": 3,
+      "type": "puzzle",
+      "hint": "それぞれ展開してから引き算します。",
+      "explanation": "(x²+4x+4) - (x²-4x+4) = 8x"
+    },
+    {
+      "id": 91,
+      "question": "次の展開式を工夫して計算しなさい: 201² を (200+1)² として計算",
+      "answer": "40401",
+      "unit": "",
+      "difficulty": 2,
+      "type": "puzzle",
+      "hint": "(200+1)² = 200² + 2×200×1 + 1² を計算します。",
+      "explanation": "(200+1)² = 40000 + 400 + 1 = 40401"
+    },
+    {
+      "id": 92,
+      "question": "(x+3)(x-3) + 9 を展開して整理しなさい。",
+      "answer": "x²",
+      "unit": "",
+      "difficulty": 2,
+      "type": "puzzle",
+      "hint": "(x+3)(x-3) = x² - 9 です。",
+      "explanation": "x² - 9 + 9 = x²"
+    },
+    {
+      "id": 93,
+      "question": "次の展開式を工夫して計算しなさい: 98² を (100-2)² として計算",
+      "answer": "9604",
+      "unit": "",
+      "difficulty": 2,
+      "type": "puzzle",
+      "hint": "(100-2)² = 100² - 2×100×2 + 2² を計算します。",
+      "explanation": "(100-2)² = 10000 - 400 + 4 = 9604"
+    },
+    {
+      "id": 94,
+      "question": "(2x+1)² - 4x² を展開して整理しなさい。",
+      "answer": "4x+1",
+      "unit": "",
+      "difficulty": 3,
+      "type": "puzzle",
+      "hint": "(2x+1)² = 4x²+4x+1 を展開します。",
+      "explanation": "4x²+4x+1 - 4x² = 4x+1"
+    },
+    {
+      "id": 95,
+      "question": "次の展開式を工夫して計算しなさい: 52×48 を (50+2)(50-2) として計算",
+      "answer": "2496",
+      "unit": "",
+      "difficulty": 2,
+      "type": "puzzle",
+      "hint": "(50+2)(50-2) = 50² - 2² を計算します。",
+      "explanation": "(50+2)(50-2) = 2500 - 4 = 2496"
+    },
+    {
+      "id": 96,
+      "question": "(x+1)³ は (x+1)(x+1)² と考えられます。これを展開しなさい。",
+      "answer": "x³+3x²+3x+1",
+      "unit": "",
+      "difficulty": 3,
+      "type": "puzzle",
+      "hint": "まず(x+1)² = x²+2x+1 を求め、それに(x+1)をかけます。",
+      "explanation": "(x+1)(x²+2x+1) = x³+2x²+x+x²+2x+1 = x³+3x²+3x+1"
+    },
+    {
+      "id": 97,
+      "question": "(x+y)² + (x-y)² を展開して整理しなさい。",
+      "answer": "2x²+2y²",
+      "unit": "",
+      "difficulty": 3,
+      "type": "puzzle",
+      "hint": "それぞれ展開してから足し合わせます。",
+      "explanation": "(x²+2xy+y²) + (x²-2xy+y²) = 2x²+2y²"
+    },
+    {
+      "id": 98,
+      "question": "(x+5)² - (x+3)² を展開して整理しなさい。",
+      "answer": "4x+16",
+      "unit": "",
+      "difficulty": 3,
+      "type": "puzzle",
+      "hint": "それぞれ展開してから引き算します。",
+      "explanation": "(x²+10x+25) - (x²+6x+9) = 4x+16"
+    },
+    {
+      "id": 99,
+      "question": "次の展開式を工夫して計算しなさい: 101×99 を (100+1)(100-1) として計算",
+      "answer": "9999",
+      "unit": "",
+      "difficulty": 2,
+      "type": "puzzle",
+      "hint": "(100+1)(100-1) = 100² - 1² を計算します。",
+      "explanation": "(100+1)(100-1) = 10000 - 1 = 9999"
+    },
+    {
+      "id": 100,
+      "question": "x² - (x-4)² を展開して整理しなさい。",
+      "answer": "8x-16",
+      "unit": "",
+      "difficulty": 3,
+      "type": "puzzle",
+      "hint": "(x-4)² = x²-8x+16 を展開します。",
+      "explanation": "x² - (x²-8x+16) = 8x-16"
+    }
+  ]
+}

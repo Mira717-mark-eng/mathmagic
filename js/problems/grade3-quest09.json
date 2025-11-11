@@ -1,0 +1,549 @@
+{
+  "questId": "grade3-quest09",
+  "questName": "長さ（km）",
+  "grade": "小3",
+  "unitId": "elem3_length_km",
+  "totalProblems": 60,
+  "problems": [
+    {
+      "id": 1,
+      "question": "1kmは何mですか。",
+      "answer": "1000m",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1km = 1000mを使って考えましょう。",
+      "explanation": "1km = 1000mです。"
+    },
+    {
+      "id": 2,
+      "question": "2kmは何mですか。",
+      "answer": "2000m",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1km = 1000mを使って考えましょう。",
+      "explanation": "2km = 2000mです。"
+    },
+    {
+      "id": 3,
+      "question": "3kmは何mですか。",
+      "answer": "3000m",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1km = 1000mを使って考えましょう。",
+      "explanation": "3km = 3000mです。"
+    },
+    {
+      "id": 4,
+      "question": "5kmは何mですか。",
+      "answer": "5000m",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1km = 1000mを使って考えましょう。",
+      "explanation": "5km = 5000mです。"
+    },
+    {
+      "id": 5,
+      "question": "1000mは何kmですか。",
+      "answer": "1km",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1km = 1000mを使って考えましょう。",
+      "explanation": "1000m = 1kmです。"
+    },
+    {
+      "id": 6,
+      "question": "2000mは何kmですか。",
+      "answer": "2km",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1km = 1000mを使って考えましょう。",
+      "explanation": "2000m = 2kmです。"
+    },
+    {
+      "id": 7,
+      "question": "4000mは何kmですか。",
+      "answer": "4km",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1km = 1000mを使って考えましょう。",
+      "explanation": "4000m = 4kmです。"
+    },
+    {
+      "id": 8,
+      "question": "6000mは何kmですか。",
+      "answer": "6km",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1km = 1000mを使って考えましょう。",
+      "explanation": "6000m = 6kmです。"
+    },
+    {
+      "id": 9,
+      "question": "1km500mは何mですか。",
+      "answer": "1500m",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1km = 1000mを使って考えましょう。",
+      "explanation": "1km500m = 1000m + 500m = 1500mです。"
+    },
+    {
+      "id": 10,
+      "question": "2km300mは何mですか。",
+      "answer": "2300m",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1km = 1000mを使って考えましょう。",
+      "explanation": "2km300m = 2000m + 300m = 2300mです。"
+    },
+    {
+      "id": 11,
+      "question": "3km800mは何mですか。",
+      "answer": "3800m",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1km = 1000mを使って考えましょう。",
+      "explanation": "3km800m = 3000m + 800m = 3800mです。"
+    },
+    {
+      "id": 12,
+      "question": "1500mは何km何mですか。",
+      "answer": "1km500m",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1km = 1000mを使って考えましょう。",
+      "explanation": "1500m = 1000m + 500m = 1km500mです。"
+    },
+    {
+      "id": 13,
+      "question": "2700mは何km何mですか。",
+      "answer": "2km700m",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1km = 1000mを使って考えましょう。",
+      "explanation": "2700m = 2000m + 700m = 2km700mです。"
+    },
+    {
+      "id": 14,
+      "question": "4200mは何km何mですか。",
+      "answer": "4km200m",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1km = 1000mを使って考えましょう。",
+      "explanation": "4200m = 4000m + 200m = 4km200mです。"
+    },
+    {
+      "id": 15,
+      "question": "1kmと500mを合わせると何mですか。",
+      "answer": "1500m",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1km = 1000mを使って考えましょう。",
+      "explanation": "1km + 500m = 1000m + 500m = 1500mです。"
+    },
+    {
+      "id": 16,
+      "question": "2kmと800mを合わせると何mですか。",
+      "answer": "2800m",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1km = 1000mを使って考えましょう。",
+      "explanation": "2km + 800m = 2000m + 800m = 2800mです。"
+    },
+    {
+      "id": 17,
+      "question": "3kmから600mを引くと何mですか。",
+      "answer": "2400m",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1km = 1000mを使って考えましょう。",
+      "explanation": "3km - 600m = 3000m - 600m = 2400mです。"
+    },
+    {
+      "id": 18,
+      "question": "5kmから1200mを引くと何mですか。",
+      "answer": "3800m",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1km = 1000mを使って考えましょう。",
+      "explanation": "5km - 1200m = 5000m - 1200m = 3800mです。"
+    },
+    {
+      "id": 19,
+      "question": "1km200mと800mを合わせると何mですか。",
+      "answer": "2000m",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1km = 1000mを使って考えましょう。",
+      "explanation": "1km200m + 800m = 1200m + 800m = 2000mです。"
+    },
+    {
+      "id": 20,
+      "question": "2km500mと1km300mを合わせると何kmですか。",
+      "answer": "3km800m",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1km = 1000mを使って考えましょう。",
+      "explanation": "2km500m + 1km300m = 3km800mです。"
+    },
+    {
+      "id": 21,
+      "question": "3km600mから1km400mを引くと何kmですか。",
+      "answer": "2km200m",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1km = 1000mを使って考えましょう。",
+      "explanation": "3km600m - 1km400m = 2km200mです。"
+    },
+    {
+      "id": 22,
+      "question": "4km800mから2km500mを引くと何kmですか。",
+      "answer": "2km300m",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1km = 1000mを使って考えましょう。",
+      "explanation": "4km800m - 2km500m = 2km300mです。"
+    },
+    {
+      "id": 23,
+      "question": "1km400mは何mですか。",
+      "answer": "1400m",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1km = 1000mを使って考えましょう。",
+      "explanation": "1km400m = 1000m + 400m = 1400mです。"
+    },
+    {
+      "id": 24,
+      "question": "2km600mは何mですか。",
+      "answer": "2600m",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1km = 1000mを使って考えましょう。",
+      "explanation": "2km600m = 2000m + 600m = 2600mです。"
+    },
+    {
+      "id": 25,
+      "question": "3km900mは何mですか。",
+      "answer": "3900m",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1km = 1000mを使って考えましょう。",
+      "explanation": "3km900m = 3000m + 900m = 3900mです。"
+    },
+    {
+      "id": 26,
+      "question": "1800mは何km何mですか。",
+      "answer": "1km800m",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1km = 1000mを使って考えましょう。",
+      "explanation": "1800m = 1000m + 800m = 1km800mです。"
+    },
+    {
+      "id": 27,
+      "question": "3400mは何km何mですか。",
+      "answer": "3km400m",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1km = 1000mを使って考えましょう。",
+      "explanation": "3400m = 3000m + 400m = 3km400mです。"
+    },
+    {
+      "id": 28,
+      "question": "5600mは何km何mですか。",
+      "answer": "5km600m",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1km = 1000mを使って考えましょう。",
+      "explanation": "5600m = 5000m + 600m = 5km600mです。"
+    },
+    {
+      "id": 29,
+      "question": "1km + 2km",
+      "answer": "3km",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1km = 1000mを使って考えましょう。",
+      "explanation": "1km + 2km = 3kmです。"
+    },
+    {
+      "id": 30,
+      "question": "5km - 2km",
+      "answer": "3km",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1km = 1000mを使って考えましょう。",
+      "explanation": "5km - 2km = 3kmです。"
+    },
+    {
+      "id": 31,
+      "question": "家から学校まで1km200mあります。これは何mですか。",
+      "answer": "1200m",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "kmとmの関係を使って考えましょう。",
+      "explanation": "1km200m = 1000m + 200m = 1200mです。"
+    },
+    {
+      "id": 32,
+      "question": "家から駅まで2km500mあります。これは何mですか。",
+      "answer": "2500m",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "kmとmの関係を使って考えましょう。",
+      "explanation": "2km500m = 2000m + 500m = 2500mです。"
+    },
+    {
+      "id": 33,
+      "question": "公園から図書館まで1500mあります。これは何km何mですか。",
+      "answer": "1km500m",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "kmとmの関係を使って考えましょう。",
+      "explanation": "1500m = 1000m + 500m = 1km500mです。"
+    },
+    {
+      "id": 34,
+      "question": "学校から病院まで3200mあります。これは何km何mですか。",
+      "answer": "3km200m",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "kmとmの関係を使って考えましょう。",
+      "explanation": "3200m = 3000m + 200m = 3km200mです。"
+    },
+    {
+      "id": 35,
+      "question": "太郎さんは午前中に2km、午後に1km500m歩きました。全部で何km何m歩きましたか。",
+      "answer": "3km500m",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "kmとmの関係を使って考えましょう。",
+      "explanation": "2km + 1km500m = 3km500mです。"
+    },
+    {
+      "id": 36,
+      "question": "花子さんは家から駅まで1km800m、駅から学校まで900m歩きました。全部で何km何m歩きましたか。",
+      "answer": "2km700m",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "kmとmの関係を使って考えましょう。",
+      "explanation": "1km800m + 900m = 2km700mです。"
+    },
+    {
+      "id": 37,
+      "question": "あきらさんは5kmのマラソンコースを走り、3km600m走ったところです。残りは何km何mですか。",
+      "answer": "1km400m",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "kmとmの関係を使って考えましょう。",
+      "explanation": "5km - 3km600m = 1km400mです。"
+    },
+    {
+      "id": 38,
+      "question": "ゆうこさんは4km800mの道のりを歩き、2km500m歩きました。残りは何km何mですか。",
+      "answer": "2km300m",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "kmとmの関係を使って考えましょう。",
+      "explanation": "4km800m - 2km500m = 2km300mです。"
+    },
+    {
+      "id": 39,
+      "question": "川の長さは7000mです。これは何kmですか。",
+      "answer": "7km",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "kmとmの関係を使って考えましょう。",
+      "explanation": "7000m = 7kmです。"
+    },
+    {
+      "id": 40,
+      "question": "道路の長さは5500mです。これは何km何mですか。",
+      "answer": "5km500m",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "kmとmの関係を使って考えましょう。",
+      "explanation": "5500m = 5000m + 500m = 5km500mです。"
+    },
+    {
+      "id": 41,
+      "question": "赤い線の長さは2km、青い線の長さは1km600mです。どちらが何m長いですか。",
+      "answer": "赤い線が400m長い",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "kmとmの関係を使って考えましょう。",
+      "explanation": "2km = 2000m、1km600m = 1600mなので、2000m - 1600m = 400m長いです。"
+    },
+    {
+      "id": 42,
+      "question": "Aコースは3km500m、Bコースは2km800mです。Aコースの方が何m長いですか。",
+      "answer": "700m",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "kmとmの関係を使って考えましょう。",
+      "explanation": "3km500m - 2km800m = 700mです。"
+    },
+    {
+      "id": 43,
+      "question": "学校から公園まで2km、公園から図書館まで1km300mあります。学校から図書館まで公園を通ると何km何mですか。",
+      "answer": "3km300m",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "kmとmの関係を使って考えましょう。",
+      "explanation": "2km + 1km300m = 3km300mです。"
+    },
+    {
+      "id": 44,
+      "question": "たろうさんの家から駅まで1km800m、駅からおばあちゃんの家まで2km400mあります。たろうさんの家からおばあちゃんの家まで駅を通ると何km何mですか。",
+      "answer": "4km200m",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "kmとmの関係を使って考えましょう。",
+      "explanation": "1km800m + 2km400m = 4km200mです。"
+    },
+    {
+      "id": 45,
+      "question": "バスは5km走って止まりました。そこから3km進むと、全部で何km走ったことになりますか。",
+      "answer": "8km",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "kmとmの関係を使って考えましょう。",
+      "explanation": "5km + 3km = 8kmです。"
+    },
+    {
+      "id": 46,
+      "question": "電車は8km走りました。そのうち3kmはトンネルの中でした。トンネル以外は何km走りましたか。",
+      "answer": "5km",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "kmとmの関係を使って考えましょう。",
+      "explanation": "8km - 3km = 5kmです。"
+    },
+    {
+      "id": 47,
+      "question": "川の上流から下流まで12kmあります。上流から6km500m進むと、どこですか。",
+      "answer": "6km500m地点",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "kmとmの関係を使って考えましょう。",
+      "explanation": "上流から6km500m進んだところです。"
+    },
+    {
+      "id": 48,
+      "question": "マラソン大会で10kmのコースがあります。5km200m走ったところで休けいしました。残りは何km何mですか。",
+      "answer": "4km800m",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "kmとmの関係を使って考えましょう。",
+      "explanation": "10km - 5km200m = 4km800mです。"
+    },
+    {
+      "id": 49,
+      "question": "1kmのコースを3周すると、全部で何km走りますか。",
+      "answer": "3km",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "kmとmの関係を使って考えましょう。",
+      "explanation": "1km × 3 = 3kmです。"
+    },
+    {
+      "id": 50,
+      "question": "2km500mの道のりを2回往復すると、全部で何km歩きますか。",
+      "answer": "10km",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "kmとmの関係を使って考えましょう。",
+      "explanation": "2km500m × 4 = 10kmです。（往復2回=4回分）"
+    },
+    {
+      "id": 51,
+      "question": "1000mごとに1kmずつ増えます。500mは0.5kmです。では、2500mは何kmですか。",
+      "answer": "2.5km",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "kmとmの関係、計算の工夫を使って考えましょう。",
+      "explanation": "2500m = 2km500m = 2.5kmです。"
+    },
+    {
+      "id": 52,
+      "question": "3km300mは、何m多いと4kmになりますか。",
+      "answer": "700m",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "kmとmの関係、計算の工夫を使って考えましょう。",
+      "explanation": "4km - 3km300m = 700mです。"
+    },
+    {
+      "id": 53,
+      "question": "1km = 1000m、1m = 100cmです。1kmは何cmですか。",
+      "answer": "100000cm",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "kmとmの関係、計算の工夫を使って考えましょう。",
+      "explanation": "1km = 1000m = 100000cmです。"
+    },
+    {
+      "id": 54,
+      "question": "1kmの道を200mごとに目じるしを立てます。目じるしは何本必要ですか。（最初と最後にも立てます）",
+      "answer": "6本",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "kmとmの関係、計算の工夫を使って考えましょう。",
+      "explanation": "1000m ÷ 200m = 5つの区間なので、6本必要です。"
+    },
+    {
+      "id": 55,
+      "question": "家から学校まで2km400mあります。半分の距離は何mですか。",
+      "answer": "1200m",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "kmとmの関係、計算の工夫を使って考えましょう。",
+      "explanation": "2km400m = 2400m、2400m ÷ 2 = 1200mです。"
+    },
+    {
+      "id": 56,
+      "question": "4km800mの道のりを800mずつ区切ると、何区間できますか。",
+      "answer": "6区間",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "kmとmの関係、計算の工夫を使って考えましょう。",
+      "explanation": "4km800m = 4800m、4800m ÷ 800m = 6区間です。"
+    },
+    {
+      "id": 57,
+      "question": "1kmの道を4等分すると、1つ分は何mですか。",
+      "answer": "250m",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "kmとmの関係、計算の工夫を使って考えましょう。",
+      "explanation": "1000m ÷ 4 = 250mです。"
+    },
+    {
+      "id": 58,
+      "question": "3kmの道を6等分すると、1つ分は何mですか。",
+      "answer": "500m",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "kmとmの関係、計算の工夫を使って考えましょう。",
+      "explanation": "3km = 3000m、3000m ÷ 6 = 500mです。"
+    },
+    {
+      "id": 59,
+      "question": "2km = □m。□に入る数はいくつですか。",
+      "answer": "2000",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "kmとmの関係、計算の工夫を使って考えましょう。",
+      "explanation": "2km = 2000mです。"
+    },
+    {
+      "id": 60,
+      "question": "□m = 3km500m。□に入る数はいくつですか。",
+      "answer": "3500",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "kmとmの関係、計算の工夫を使って考えましょう。",
+      "explanation": "3km500m = 3500mです。"
+    }
+  ]
+}

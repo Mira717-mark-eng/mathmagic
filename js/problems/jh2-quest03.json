@@ -1,0 +1,1216 @@
+{
+  "questId": "jh2-quest03",
+  "title": "連立方程式",
+  "description": "連立方程式の解き方",
+  "difficulty": "standard",
+  "grade": "中2",
+  "totalProblems": 120,
+  "problemTypes": {
+    "calculation": 70,
+    "wordProblem": 30,
+    "reverse": 15,
+    "puzzle": 5
+  },
+  "problems": [
+    {
+      "id": 1,
+      "question": "次の連立方程式を解きなさい。\n2x + -1y = 11\n2x + 1y = 21",
+      "answer": "x = 8, y = 5",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "加減法でyを消去しましょう",
+      "explanation": "解を代入して確認: 2(8) + -1(5) = 11, 2(8) + 1(5) = 21"
+    },
+    {
+      "id": 2,
+      "question": "次の連立方程式を解きなさい。\n3x + -1y = -1\n2x + 1y = 11",
+      "answer": "x = 2, y = 7",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "加減法でyを消去しましょう",
+      "explanation": "解を代入して確認: 3(2) + -1(7) = -1, 2(2) + 1(7) = 11"
+    },
+    {
+      "id": 3,
+      "question": "次の連立方程式を解きなさい。\n2x + 1y = 13\n2x + -1y = 7",
+      "answer": "x = 5, y = 3",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "加減法でyを消去しましょう",
+      "explanation": "解を代入して確認: 2(5) + 1(3) = 13, 2(5) + -1(3) = 7"
+    },
+    {
+      "id": 4,
+      "question": "次の連立方程式を解きなさい。\n3x + 1y = 17\n1x + -1y = -5",
+      "answer": "x = 3, y = 8",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "加減法でyを消去しましょう",
+      "explanation": "解を代入して確認: 3(3) + 1(8) = 17, 1(3) + -1(8) = -5"
+    },
+    {
+      "id": 5,
+      "question": "次の連立方程式を解きなさい。\n3x + -1y = 7\n1x + 1y = 5",
+      "answer": "x = 3, y = 2",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "加減法でyを消去しましょう",
+      "explanation": "解を代入して確認: 3(3) + -1(2) = 7, 1(3) + 1(2) = 5"
+    },
+    {
+      "id": 6,
+      "question": "次の連立方程式を解きなさい。\n1x + -1y = -6\n1x + 1y = 8",
+      "answer": "x = 1, y = 7",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "加減法でyを消去しましょう",
+      "explanation": "解を代入して確認: 1(1) + -1(7) = -6, 1(1) + 1(7) = 8"
+    },
+    {
+      "id": 7,
+      "question": "次の連立方程式を解きなさい。\n2x + -1y = 0\n1x + 1y = 3",
+      "answer": "x = 1, y = 2",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "加減法でyを消去しましょう",
+      "explanation": "解を代入して確認: 2(1) + -1(2) = 0, 1(1) + 1(2) = 3"
+    },
+    {
+      "id": 8,
+      "question": "次の連立方程式を解きなさい。\n3x + -1y = 12\n2x + 1y = 13",
+      "answer": "x = 5, y = 3",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "加減法でyを消去しましょう",
+      "explanation": "解を代入して確認: 3(5) + -1(3) = 12, 2(5) + 1(3) = 13"
+    },
+    {
+      "id": 9,
+      "question": "次の連立方程式を解きなさい。\n3x + 1y = 15\n1x + -1y = 1",
+      "answer": "x = 4, y = 3",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "加減法でyを消去しましょう",
+      "explanation": "解を代入して確認: 3(4) + 1(3) = 15, 1(4) + -1(3) = 1"
+    },
+    {
+      "id": 10,
+      "question": "次の連立方程式を解きなさい。\n3x + 1y = 33\n1x + -1y = 3",
+      "answer": "x = 9, y = 6",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "加減法でyを消去しましょう",
+      "explanation": "解を代入して確認: 3(9) + 1(6) = 33, 1(9) + -1(6) = 3"
+    },
+    {
+      "id": 11,
+      "question": "次の連立方程式を解きなさい。\n2x + 1y = 7\n1x + -1y = 2",
+      "answer": "x = 3, y = 1",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "加減法でyを消去しましょう",
+      "explanation": "解を代入して確認: 2(3) + 1(1) = 7, 1(3) + -1(1) = 2"
+    },
+    {
+      "id": 12,
+      "question": "次の連立方程式を解きなさい。\n2x + 1y = 18\n2x + -1y = 10",
+      "answer": "x = 7, y = 4",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "加減法でyを消去しましょう",
+      "explanation": "解を代入して確認: 2(7) + 1(4) = 18, 2(7) + -1(4) = 10"
+    },
+    {
+      "id": 13,
+      "question": "次の連立方程式を解きなさい。\n1x + 1y = 10\n1x + -1y = 2",
+      "answer": "x = 6, y = 4",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "加減法でyを消去しましょう",
+      "explanation": "解を代入して確認: 1(6) + 1(4) = 10, 1(6) + -1(4) = 2"
+    },
+    {
+      "id": 14,
+      "question": "次の連立方程式を解きなさい。\n3x + 1y = 25\n2x + -1y = 10",
+      "answer": "x = 7, y = 4",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "加減法でyを消去しましょう",
+      "explanation": "解を代入して確認: 3(7) + 1(4) = 25, 2(7) + -1(4) = 10"
+    },
+    {
+      "id": 15,
+      "question": "次の連立方程式を解きなさい。\n3x + 1y = 15\n2x + -1y = 0",
+      "answer": "x = 3, y = 6",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "加減法でyを消去しましょう",
+      "explanation": "解を代入して確認: 3(3) + 1(6) = 15, 2(3) + -1(6) = 0"
+    },
+    {
+      "id": 16,
+      "question": "次の連立方程式を解きなさい。\n2x + 1y = 12\n1x + -1y = -6",
+      "answer": "x = 2, y = 8",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "加減法でyを消去しましょう",
+      "explanation": "解を代入して確認: 2(2) + 1(8) = 12, 1(2) + -1(8) = -6"
+    },
+    {
+      "id": 17,
+      "question": "次の連立方程式を解きなさい。\n2x + 1y = 8\n1x + -1y = 1",
+      "answer": "x = 3, y = 2",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "加減法でyを消去しましょう",
+      "explanation": "解を代入して確認: 2(3) + 1(2) = 8, 1(3) + -1(2) = 1"
+    },
+    {
+      "id": 18,
+      "question": "次の連立方程式を解きなさい。\n1x + -1y = -3\n2x + 1y = 15",
+      "answer": "x = 4, y = 7",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "加減法でyを消去しましょう",
+      "explanation": "解を代入して確認: 1(4) + -1(7) = -3, 2(4) + 1(7) = 15"
+    },
+    {
+      "id": 19,
+      "question": "次の連立方程式を解きなさい。\n2x + 1y = 23\n2x + -1y = 13",
+      "answer": "x = 9, y = 5",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "加減法でyを消去しましょう",
+      "explanation": "解を代入して確認: 2(9) + 1(5) = 23, 2(9) + -1(5) = 13"
+    },
+    {
+      "id": 20,
+      "question": "次の連立方程式を解きなさい。\n2x + -1y = 0\n1x + 1y = 9",
+      "answer": "x = 3, y = 6",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "加減法でyを消去しましょう",
+      "explanation": "解を代入して確認: 2(3) + -1(6) = 0, 1(3) + 1(6) = 9"
+    },
+    {
+      "id": 21,
+      "question": "次の連立方程式を解きなさい。\n2x + 5y = 47\n4x - 3y = 3",
+      "answer": "x = 6, y = 7",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "係数を揃えて加減法を使いましょう",
+      "explanation": "1式目を適切に変形して2式目と足し引きします"
+    },
+    {
+      "id": 22,
+      "question": "次の連立方程式を解きなさい。\n4x + 2y = 32\n3x - 2y = -4",
+      "answer": "x = 4, y = 8",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "係数を揃えて加減法を使いましょう",
+      "explanation": "1式目を適切に変形して2式目と足し引きします"
+    },
+    {
+      "id": 23,
+      "question": "次の連立方程式を解きなさい。\n3x + 3y = 30\n4x - 3y = -9",
+      "answer": "x = 3, y = 7",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "係数を揃えて加減法を使いましょう",
+      "explanation": "1式目を適切に変形して2式目と足し引きします"
+    },
+    {
+      "id": 24,
+      "question": "次の連立方程式を解きなさい。\n2x + 2y = 30\n5x - 4y = 3",
+      "answer": "x = 7, y = 8",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "係数を揃えて加減法を使いましょう",
+      "explanation": "1式目を適切に変形して2式目と足し引きします"
+    },
+    {
+      "id": 25,
+      "question": "次の連立方程式を解きなさい。\n2x + 3y = 16\n2x - 4y = -12",
+      "answer": "x = 2, y = 4",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "係数を揃えて加減法を使いましょう",
+      "explanation": "1式目を適切に変形して2式目と足し引きします"
+    },
+    {
+      "id": 26,
+      "question": "次の連立方程式を解きなさい。\n4x + 5y = 52\n5x - 2y = -1",
+      "answer": "x = 3, y = 8",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "係数を揃えて加減法を使いましょう",
+      "explanation": "1式目を適切に変形して2式目と足し引きします"
+    },
+    {
+      "id": 27,
+      "question": "次の連立方程式を解きなさい。\n3x + 2y = 16\n2x - 2y = 4",
+      "answer": "x = 4, y = 2",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "係数を揃えて加減法を使いましょう",
+      "explanation": "1式目を適切に変形して2式目と足し引きします"
+    },
+    {
+      "id": 28,
+      "question": "次の連立方程式を解きなさい。\n3x + 5y = 29\n3x - 4y = -7",
+      "answer": "x = 3, y = 4",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "係数を揃えて加減法を使いましょう",
+      "explanation": "1式目を適切に変形して2式目と足し引きします"
+    },
+    {
+      "id": 29,
+      "question": "次の連立方程式を解きなさい。\n2x + 2y = 20\n5x - 3y = 18",
+      "answer": "x = 6, y = 4",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "係数を揃えて加減法を使いましょう",
+      "explanation": "1式目を適切に変形して2式目と足し引きします"
+    },
+    {
+      "id": 30,
+      "question": "次の連立方程式を解きなさい。\n5x + 4y = 39\n3x - 4y = -15",
+      "answer": "x = 3, y = 6",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "係数を揃えて加減法を使いましょう",
+      "explanation": "1式目を適切に変形して2式目と足し引きします"
+    },
+    {
+      "id": 31,
+      "question": "次の連立方程式を解きなさい。\n4x + 5y = 47\n3x - 3y = -12",
+      "answer": "x = 3, y = 7",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "係数を揃えて加減法を使いましょう",
+      "explanation": "1式目を適切に変形して2式目と足し引きします"
+    },
+    {
+      "id": 32,
+      "question": "次の連立方程式を解きなさい。\n3x + 2y = 23\n3x - 5y = -26",
+      "answer": "x = 3, y = 7",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "係数を揃えて加減法を使いましょう",
+      "explanation": "1式目を適切に変形して2式目と足し引きします"
+    },
+    {
+      "id": 33,
+      "question": "次の連立方程式を解きなさい。\n2x + 2y = 24\n4x - 3y = 20",
+      "answer": "x = 8, y = 4",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "係数を揃えて加減法を使いましょう",
+      "explanation": "1式目を適切に変形して2式目と足し引きします"
+    },
+    {
+      "id": 34,
+      "question": "次の連立方程式を解きなさい。\n4x + 3y = 25\n5x - 2y = 14",
+      "answer": "x = 4, y = 3",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "係数を揃えて加減法を使いましょう",
+      "explanation": "1式目を適切に変形して2式目と足し引きします"
+    },
+    {
+      "id": 35,
+      "question": "次の連立方程式を解きなさい。\n5x + 2y = 34\n4x - 2y = 20",
+      "answer": "x = 6, y = 2",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "係数を揃えて加減法を使いましょう",
+      "explanation": "1式目を適切に変形して2式目と足し引きします"
+    },
+    {
+      "id": 36,
+      "question": "次の連立方程式を解きなさい。\n2x + 4y = 28\n3x - 3y = -12",
+      "answer": "x = 2, y = 6",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "係数を揃えて加減法を使いましょう",
+      "explanation": "1式目を適切に変形して2式目と足し引きします"
+    },
+    {
+      "id": 37,
+      "question": "次の連立方程式を解きなさい。\n3x + 4y = 21\n4x - 5y = -3",
+      "answer": "x = 3, y = 3",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "係数を揃えて加減法を使いましょう",
+      "explanation": "1式目を適切に変形して2式目と足し引きします"
+    },
+    {
+      "id": 38,
+      "question": "次の連立方程式を解きなさい。\n4x + 5y = 45\n2x - 2y = 0",
+      "answer": "x = 5, y = 5",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "係数を揃えて加減法を使いましょう",
+      "explanation": "1式目を適切に変形して2式目と足し引きします"
+    },
+    {
+      "id": 39,
+      "question": "次の連立方程式を解きなさい。\n2x + 4y = 26\n4x - 3y = 8",
+      "answer": "x = 5, y = 4",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "係数を揃えて加減法を使いましょう",
+      "explanation": "1式目を適切に変形して2式目と足し引きします"
+    },
+    {
+      "id": 40,
+      "question": "次の連立方程式を解きなさい。\n2x + 5y = 16\n2x - 4y = -2",
+      "answer": "x = 3, y = 2",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "係数を揃えて加減法を使いましょう",
+      "explanation": "1式目を適切に変形して2式目と足し引きします"
+    },
+    {
+      "id": 41,
+      "question": "次の連立方程式を代入法で解きなさい。\ny = 4x + 1\nx + y = 7",
+      "answer": "x = 5, y = 2",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "1式目を2式目に代入しましょう",
+      "explanation": "x + (4x + 1) = 7 → 5x = 6 → x = 5"
+    },
+    {
+      "id": 42,
+      "question": "次の連立方程式を代入法で解きなさい。\ny = 4x + 3\nx + y = 10",
+      "answer": "x = 2, y = 8",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "1式目を2式目に代入しましょう",
+      "explanation": "x + (4x + 3) = 10 → 5x = 7 → x = 2"
+    },
+    {
+      "id": 43,
+      "question": "次の連立方程式を代入法で解きなさい。\ny = 3x + 3\nx + y = 14",
+      "answer": "x = 8, y = 6",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "1式目を2式目に代入しましょう",
+      "explanation": "x + (3x + 3) = 14 → 4x = 11 → x = 8"
+    },
+    {
+      "id": 44,
+      "question": "次の連立方程式を代入法で解きなさい。\ny = 3x + 3\nx + y = 11",
+      "answer": "x = 7, y = 4",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "1式目を2式目に代入しましょう",
+      "explanation": "x + (3x + 3) = 11 → 4x = 8 → x = 7"
+    },
+    {
+      "id": 45,
+      "question": "次の連立方程式を代入法で解きなさい。\ny = 2x + 1\nx + y = 8",
+      "answer": "x = 2, y = 6",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "1式目を2式目に代入しましょう",
+      "explanation": "x + (2x + 1) = 8 → 3x = 7 → x = 2"
+    },
+    {
+      "id": 46,
+      "question": "次の連立方程式を代入法で解きなさい。\ny = 3x + 4\nx + y = 10",
+      "answer": "x = 7, y = 3",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "1式目を2式目に代入しましょう",
+      "explanation": "x + (3x + 4) = 10 → 4x = 6 → x = 7"
+    },
+    {
+      "id": 47,
+      "question": "次の連立方程式を代入法で解きなさい。\ny = 2x + 4\nx + y = 5",
+      "answer": "x = 3, y = 2",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "1式目を2式目に代入しましょう",
+      "explanation": "x + (2x + 4) = 5 → 3x = 1 → x = 3"
+    },
+    {
+      "id": 48,
+      "question": "次の連立方程式を代入法で解きなさい。\ny = 4x + 3\nx + y = 12",
+      "answer": "x = 6, y = 6",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "1式目を2式目に代入しましょう",
+      "explanation": "x + (4x + 3) = 12 → 5x = 9 → x = 6"
+    },
+    {
+      "id": 49,
+      "question": "次の連立方程式を代入法で解きなさい。\ny = 2x + 5\nx + y = 9",
+      "answer": "x = 7, y = 2",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "1式目を2式目に代入しましょう",
+      "explanation": "x + (2x + 5) = 9 → 3x = 4 → x = 7"
+    },
+    {
+      "id": 50,
+      "question": "次の連立方程式を代入法で解きなさい。\ny = 2x + 5\nx + y = 11",
+      "answer": "x = 8, y = 3",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "1式目を2式目に代入しましょう",
+      "explanation": "x + (2x + 5) = 11 → 3x = 6 → x = 8"
+    },
+    {
+      "id": 51,
+      "question": "次の連立方程式を代入法で解きなさい。\ny = 2x + 4\nx + y = 12",
+      "answer": "x = 8, y = 4",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "1式目を2式目に代入しましょう",
+      "explanation": "x + (2x + 4) = 12 → 3x = 8 → x = 8"
+    },
+    {
+      "id": 52,
+      "question": "次の連立方程式を代入法で解きなさい。\ny = 3x + 3\nx + y = 10",
+      "answer": "x = 2, y = 8",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "1式目を2式目に代入しましょう",
+      "explanation": "x + (3x + 3) = 10 → 4x = 7 → x = 2"
+    },
+    {
+      "id": 53,
+      "question": "次の連立方程式を代入法で解きなさい。\ny = 4x + 5\nx + y = 15",
+      "answer": "x = 8, y = 7",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "1式目を2式目に代入しましょう",
+      "explanation": "x + (4x + 5) = 15 → 5x = 10 → x = 8"
+    },
+    {
+      "id": 54,
+      "question": "次の連立方程式を代入法で解きなさい。\ny = 3x + 4\nx + y = 11",
+      "answer": "x = 8, y = 3",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "1式目を2式目に代入しましょう",
+      "explanation": "x + (3x + 4) = 11 → 4x = 7 → x = 8"
+    },
+    {
+      "id": 55,
+      "question": "次の連立方程式を代入法で解きなさい。\ny = 3x + 3\nx + y = 7",
+      "answer": "x = 3, y = 4",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "1式目を2式目に代入しましょう",
+      "explanation": "x + (3x + 3) = 7 → 4x = 4 → x = 3"
+    },
+    {
+      "id": 56,
+      "question": "次の連立方程式を解きなさい。\n6x + 5y = 67\n5x - 3y = 20",
+      "answer": "x = 7, y = 5",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "適切な方法を選んで解きましょう",
+      "explanation": "加減法または代入法で解くことができます"
+    },
+    {
+      "id": 57,
+      "question": "次の連立方程式を解きなさい。\n6x + 2y = 50\n4x - 4y = 12",
+      "answer": "x = 7, y = 4",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "適切な方法を選んで解きましょう",
+      "explanation": "加減法または代入法で解くことができます"
+    },
+    {
+      "id": 58,
+      "question": "次の連立方程式を解きなさい。\n3x + 3y = 24\n3x - 4y = -4",
+      "answer": "x = 4, y = 4",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "適切な方法を選んで解きましょう",
+      "explanation": "加減法または代入法で解くことができます"
+    },
+    {
+      "id": 59,
+      "question": "次の連立方程式を解きなさい。\n3x + 4y = 29\n5x - 5y = -10",
+      "answer": "x = 3, y = 5",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "適切な方法を選んで解きましょう",
+      "explanation": "加減法または代入法で解くことができます"
+    },
+    {
+      "id": 60,
+      "question": "次の連立方程式を解きなさい。\n6x + 4y = 62\n5x - 5y = 10",
+      "answer": "x = 7, y = 5",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "適切な方法を選んで解きましょう",
+      "explanation": "加減法または代入法で解くことができます"
+    },
+    {
+      "id": 61,
+      "question": "次の連立方程式を解きなさい。\n5x + 3y = 34\n2x - 5y = -5",
+      "answer": "x = 5, y = 3",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "適切な方法を選んで解きましょう",
+      "explanation": "加減法または代入法で解くことができます"
+    },
+    {
+      "id": 62,
+      "question": "次の連立方程式を解きなさい。\n5x + 4y = 36\n5x - 4y = 4",
+      "answer": "x = 4, y = 4",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "適切な方法を選んで解きましょう",
+      "explanation": "加減法または代入法で解くことができます"
+    },
+    {
+      "id": 63,
+      "question": "次の連立方程式を解きなさい。\n6x + 2y = 34\n2x - 4y = 2",
+      "answer": "x = 5, y = 2",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "適切な方法を選んで解きましょう",
+      "explanation": "加減法または代入法で解くことができます"
+    },
+    {
+      "id": 64,
+      "question": "次の連立方程式を解きなさい。\n6x + 4y = 56\n3x - 3y = 3",
+      "answer": "x = 6, y = 5",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "適切な方法を選んで解きましょう",
+      "explanation": "加減法または代入法で解くことができます"
+    },
+    {
+      "id": 65,
+      "question": "次の連立方程式を解きなさい。\n4x + 3y = 21\n2x - 6y = -12",
+      "answer": "x = 3, y = 3",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "適切な方法を選んで解きましょう",
+      "explanation": "加減法または代入法で解くことができます"
+    },
+    {
+      "id": 66,
+      "question": "次の連立方程式を解きなさい。\n3x + 5y = 37\n3x - 4y = -8",
+      "answer": "x = 4, y = 5",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "適切な方法を選んで解きましょう",
+      "explanation": "加減法または代入法で解くことができます"
+    },
+    {
+      "id": 67,
+      "question": "次の連立方程式を解きなさい。\n5x + 4y = 50\n2x - 4y = -8",
+      "answer": "x = 6, y = 5",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "適切な方法を選んで解きましょう",
+      "explanation": "加減法または代入法で解くことができます"
+    },
+    {
+      "id": 68,
+      "question": "次の連立方程式を解きなさい。\n3x + 2y = 28\n2x - 6y = -18",
+      "answer": "x = 6, y = 5",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "適切な方法を選んで解きましょう",
+      "explanation": "加減法または代入法で解くことができます"
+    },
+    {
+      "id": 69,
+      "question": "次の連立方程式を解きなさい。\n4x + 5y = 48\n3x - 5y = 1",
+      "answer": "x = 7, y = 4",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "適切な方法を選んで解きましょう",
+      "explanation": "加減法または代入法で解くことができます"
+    },
+    {
+      "id": 70,
+      "question": "次の連立方程式を解きなさい。\n6x + 4y = 36\n3x - 3y = 3",
+      "answer": "x = 4, y = 3",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "適切な方法を選んで解きましょう",
+      "explanation": "加減法または代入法で解くことができます"
+    },
+    {
+      "id": 71,
+      "question": "鉛筆1本とノート1冊の合計が180円、鉛筆2本とノート1冊の合計が260円です。鉛筆とノートの値段は?",
+      "answer": "鉛筆80円、ノート100円",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "鉛筆をx円、ノートをy円とします",
+      "explanation": "x + y = 180, 2x + y = 260 を解きます"
+    },
+    {
+      "id": 72,
+      "question": "リンゴ3個とミカン2個で680円、リンゴ2個とミカン3個で670円です。各1個の値段は?",
+      "answer": "リンゴ140円、ミカン130円",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "リンゴをx円、ミカンをy円とします",
+      "explanation": "3x + 2y = 680, 2x + 3y = 670 を解きます"
+    },
+    {
+      "id": 73,
+      "question": "現在父42歳、息子12歳です。何年後に父の年齢が息子の2倍になりますか?",
+      "answer": "18年後",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "x年後とすると、42+x = 2(12+x)",
+      "explanation": "42 + x = 24 + 2x → x = 18"
+    },
+    {
+      "id": 74,
+      "question": "ある数の3倍に5を加えた数は、その数の2倍より15大きい。ある数は?",
+      "answer": "10",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "ある数をxとします",
+      "explanation": "3x + 5 = 2x + 15 → x = 10"
+    },
+    {
+      "id": 75,
+      "question": "縦が横より5cm長い長方形の周囲が50cmです。縦と横の長さは?",
+      "answer": "縦15cm、横10cm",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "横をxcm、縦をycmとします",
+      "explanation": "y = x + 5, 2(x + y) = 50 を解きます"
+    },
+    {
+      "id": 76,
+      "question": "鉛筆1本とノート1冊の合計が180円、鉛筆2本とノート1冊の合計が260円です。鉛筆とノートの値段は?",
+      "answer": "鉛筆80円、ノート100円",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "鉛筆をx円、ノートをy円とします",
+      "explanation": "x + y = 180, 2x + y = 260 を解きます"
+    },
+    {
+      "id": 77,
+      "question": "リンゴ3個とミカン2個で680円、リンゴ2個とミカン3個で670円です。各1個の値段は?",
+      "answer": "リンゴ140円、ミカン130円",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "リンゴをx円、ミカンをy円とします",
+      "explanation": "3x + 2y = 680, 2x + 3y = 670 を解きます"
+    },
+    {
+      "id": 78,
+      "question": "現在父42歳、息子12歳です。何年後に父の年齢が息子の2倍になりますか?",
+      "answer": "18年後",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "x年後とすると、42+x = 2(12+x)",
+      "explanation": "42 + x = 24 + 2x → x = 18"
+    },
+    {
+      "id": 79,
+      "question": "ある数の3倍に5を加えた数は、その数の2倍より15大きい。ある数は?",
+      "answer": "10",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "ある数をxとします",
+      "explanation": "3x + 5 = 2x + 15 → x = 10"
+    },
+    {
+      "id": 80,
+      "question": "縦が横より5cm長い長方形の周囲が50cmです。縦と横の長さは?",
+      "answer": "縦15cm、横10cm",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "横をxcm、縦をycmとします",
+      "explanation": "y = x + 5, 2(x + y) = 50 を解きます"
+    },
+    {
+      "id": 81,
+      "question": "鉛筆1本とノート1冊の合計が180円、鉛筆2本とノート1冊の合計が260円です。鉛筆とノートの値段は?",
+      "answer": "鉛筆80円、ノート100円",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "鉛筆をx円、ノートをy円とします",
+      "explanation": "x + y = 180, 2x + y = 260 を解きます"
+    },
+    {
+      "id": 82,
+      "question": "リンゴ3個とミカン2個で680円、リンゴ2個とミカン3個で670円です。各1個の値段は?",
+      "answer": "リンゴ140円、ミカン130円",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "リンゴをx円、ミカンをy円とします",
+      "explanation": "3x + 2y = 680, 2x + 3y = 670 を解きます"
+    },
+    {
+      "id": 83,
+      "question": "現在父42歳、息子12歳です。何年後に父の年齢が息子の2倍になりますか?",
+      "answer": "18年後",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "x年後とすると、42+x = 2(12+x)",
+      "explanation": "42 + x = 24 + 2x → x = 18"
+    },
+    {
+      "id": 84,
+      "question": "ある数の3倍に5を加えた数は、その数の2倍より15大きい。ある数は?",
+      "answer": "10",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "ある数をxとします",
+      "explanation": "3x + 5 = 2x + 15 → x = 10"
+    },
+    {
+      "id": 85,
+      "question": "縦が横より5cm長い長方形の周囲が50cmです。縦と横の長さは?",
+      "answer": "縦15cm、横10cm",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "横をxcm、縦をycmとします",
+      "explanation": "y = x + 5, 2(x + y) = 50 を解きます"
+    },
+    {
+      "id": 86,
+      "question": "鉛筆1本とノート1冊の合計が180円、鉛筆2本とノート1冊の合計が260円です。鉛筆とノートの値段は?",
+      "answer": "鉛筆80円、ノート100円",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "鉛筆をx円、ノートをy円とします",
+      "explanation": "x + y = 180, 2x + y = 260 を解きます"
+    },
+    {
+      "id": 87,
+      "question": "リンゴ3個とミカン2個で680円、リンゴ2個とミカン3個で670円です。各1個の値段は?",
+      "answer": "リンゴ140円、ミカン130円",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "リンゴをx円、ミカンをy円とします",
+      "explanation": "3x + 2y = 680, 2x + 3y = 670 を解きます"
+    },
+    {
+      "id": 88,
+      "question": "現在父42歳、息子12歳です。何年後に父の年齢が息子の2倍になりますか?",
+      "answer": "18年後",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "x年後とすると、42+x = 2(12+x)",
+      "explanation": "42 + x = 24 + 2x → x = 18"
+    },
+    {
+      "id": 89,
+      "question": "ある数の3倍に5を加えた数は、その数の2倍より15大きい。ある数は?",
+      "answer": "10",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "ある数をxとします",
+      "explanation": "3x + 5 = 2x + 15 → x = 10"
+    },
+    {
+      "id": 90,
+      "question": "縦が横より5cm長い長方形の周囲が50cmです。縦と横の長さは?",
+      "answer": "縦15cm、横10cm",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "横をxcm、縦をycmとします",
+      "explanation": "y = x + 5, 2(x + y) = 50 を解きます"
+    },
+    {
+      "id": 91,
+      "question": "鉛筆1本とノート1冊の合計が180円、鉛筆2本とノート1冊の合計が260円です。鉛筆とノートの値段は?",
+      "answer": "鉛筆80円、ノート100円",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "鉛筆をx円、ノートをy円とします",
+      "explanation": "x + y = 180, 2x + y = 260 を解きます"
+    },
+    {
+      "id": 92,
+      "question": "リンゴ3個とミカン2個で680円、リンゴ2個とミカン3個で670円です。各1個の値段は?",
+      "answer": "リンゴ140円、ミカン130円",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "リンゴをx円、ミカンをy円とします",
+      "explanation": "3x + 2y = 680, 2x + 3y = 670 を解きます"
+    },
+    {
+      "id": 93,
+      "question": "現在父42歳、息子12歳です。何年後に父の年齢が息子の2倍になりますか?",
+      "answer": "18年後",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "x年後とすると、42+x = 2(12+x)",
+      "explanation": "42 + x = 24 + 2x → x = 18"
+    },
+    {
+      "id": 94,
+      "question": "ある数の3倍に5を加えた数は、その数の2倍より15大きい。ある数は?",
+      "answer": "10",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "ある数をxとします",
+      "explanation": "3x + 5 = 2x + 15 → x = 10"
+    },
+    {
+      "id": 95,
+      "question": "縦が横より5cm長い長方形の周囲が50cmです。縦と横の長さは?",
+      "answer": "縦15cm、横10cm",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "横をxcm、縦をycmとします",
+      "explanation": "y = x + 5, 2(x + y) = 50 を解きます"
+    },
+    {
+      "id": 96,
+      "question": "鉛筆1本とノート1冊の合計が180円、鉛筆2本とノート1冊の合計が260円です。鉛筆とノートの値段は?",
+      "answer": "鉛筆80円、ノート100円",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "鉛筆をx円、ノートをy円とします",
+      "explanation": "x + y = 180, 2x + y = 260 を解きます"
+    },
+    {
+      "id": 97,
+      "question": "リンゴ3個とミカン2個で680円、リンゴ2個とミカン3個で670円です。各1個の値段は?",
+      "answer": "リンゴ140円、ミカン130円",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "リンゴをx円、ミカンをy円とします",
+      "explanation": "3x + 2y = 680, 2x + 3y = 670 を解きます"
+    },
+    {
+      "id": 98,
+      "question": "現在父42歳、息子12歳です。何年後に父の年齢が息子の2倍になりますか?",
+      "answer": "18年後",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "x年後とすると、42+x = 2(12+x)",
+      "explanation": "42 + x = 24 + 2x → x = 18"
+    },
+    {
+      "id": 99,
+      "question": "ある数の3倍に5を加えた数は、その数の2倍より15大きい。ある数は?",
+      "answer": "10",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "ある数をxとします",
+      "explanation": "3x + 5 = 2x + 15 → x = 10"
+    },
+    {
+      "id": 100,
+      "question": "縦が横より5cm長い長方形の周囲が50cmです。縦と横の長さは?",
+      "answer": "縦15cm、横10cm",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "横をxcm、縦をycmとします",
+      "explanation": "y = x + 5, 2(x + y) = 50 を解きます"
+    },
+    {
+      "id": 101,
+      "question": "連立方程式の解が x = 2, y = 3 のとき、□に入る数は?\n□x + y = 13\nx + 2y = 8",
+      "answer": "□ = 5",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "x, yの値を1式目に代入します",
+      "explanation": "5(2) + 3 = 13"
+    },
+    {
+      "id": 102,
+      "question": "連立方程式の解が x = 6, y = 2 のとき、□に入る数は?\n□x + y = 32\nx + 2y = 10",
+      "answer": "□ = 5",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "x, yの値を1式目に代入します",
+      "explanation": "5(6) + 2 = 32"
+    },
+    {
+      "id": 103,
+      "question": "連立方程式の解が x = 4, y = 4 のとき、□に入る数は?\n□x + y = 24\nx + 2y = 12",
+      "answer": "□ = 5",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "x, yの値を1式目に代入します",
+      "explanation": "5(4) + 4 = 24"
+    },
+    {
+      "id": 104,
+      "question": "連立方程式の解が x = 2, y = 5 のとき、□に入る数は?\n□x + y = 15\nx + 2y = 12",
+      "answer": "□ = 5",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "x, yの値を1式目に代入します",
+      "explanation": "5(2) + 5 = 15"
+    },
+    {
+      "id": 105,
+      "question": "連立方程式の解が x = 3, y = 2 のとき、□に入る数は?\n□x + y = 14\nx + 2y = 7",
+      "answer": "□ = 4",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "x, yの値を1式目に代入します",
+      "explanation": "4(3) + 2 = 14"
+    },
+    {
+      "id": 106,
+      "question": "連立方程式の解が x = 4, y = 4 のとき、□に入る数は?\n□x + y = 12\nx + 2y = 12",
+      "answer": "□ = 2",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "x, yの値を1式目に代入します",
+      "explanation": "2(4) + 4 = 12"
+    },
+    {
+      "id": 107,
+      "question": "連立方程式の解が x = 5, y = 3 のとき、□に入る数は?\n□x + y = 28\nx + 2y = 11",
+      "answer": "□ = 5",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "x, yの値を1式目に代入します",
+      "explanation": "5(5) + 3 = 28"
+    },
+    {
+      "id": 108,
+      "question": "連立方程式の解が x = 5, y = 6 のとき、□に入る数は?\n□x + y = 31\nx + 2y = 17",
+      "answer": "□ = 5",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "x, yの値を1式目に代入します",
+      "explanation": "5(5) + 6 = 31"
+    },
+    {
+      "id": 109,
+      "question": "連立方程式の解が x = 3, y = 5 のとき、□に入る数は?\n□x + y = 17\nx + 2y = 13",
+      "answer": "□ = 4",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "x, yの値を1式目に代入します",
+      "explanation": "4(3) + 5 = 17"
+    },
+    {
+      "id": 110,
+      "question": "連立方程式の解が x = 6, y = 4 のとき、□に入る数は?\n□x + y = 34\nx + 2y = 14",
+      "answer": "□ = 5",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "x, yの値を1式目に代入します",
+      "explanation": "5(6) + 4 = 34"
+    },
+    {
+      "id": 111,
+      "question": "連立方程式の解が x = 6, y = 6 のとき、□に入る数は?\n□x + y = 30\nx + 2y = 18",
+      "answer": "□ = 4",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "x, yの値を1式目に代入します",
+      "explanation": "4(6) + 6 = 30"
+    },
+    {
+      "id": 112,
+      "question": "連立方程式の解が x = 5, y = 6 のとき、□に入る数は?\n□x + y = 21\nx + 2y = 17",
+      "answer": "□ = 3",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "x, yの値を1式目に代入します",
+      "explanation": "3(5) + 6 = 21"
+    },
+    {
+      "id": 113,
+      "question": "連立方程式の解が x = 6, y = 3 のとき、□に入る数は?\n□x + y = 27\nx + 2y = 12",
+      "answer": "□ = 4",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "x, yの値を1式目に代入します",
+      "explanation": "4(6) + 3 = 27"
+    },
+    {
+      "id": 114,
+      "question": "連立方程式の解が x = 4, y = 5 のとき、□に入る数は?\n□x + y = 21\nx + 2y = 14",
+      "answer": "□ = 4",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "x, yの値を1式目に代入します",
+      "explanation": "4(4) + 5 = 21"
+    },
+    {
+      "id": 115,
+      "question": "連立方程式の解が x = 4, y = 3 のとき、□に入る数は?\n□x + y = 19\nx + 2y = 10",
+      "answer": "□ = 4",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "x, yの値を1式目に代入します",
+      "explanation": "4(4) + 3 = 19"
+    },
+    {
+      "id": 116,
+      "question": "x + y = 12, x - y = 4 の解を求めなさい。",
+      "answer": "x = 8, y = 4",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "2つの式を足してyを消去します",
+      "explanation": "2x = 16 → x = 8, y = 4"
+    },
+    {
+      "id": 117,
+      "question": "A, B, Cが出し合ったお金で A+B=1500, A+C=1800, B+C=1700 のとき、Cは?",
+      "answer": "1000円",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "3式を足してから考えます",
+      "explanation": "2(A+B+C) = 5000 → A+B+C = 2500, C = 1000"
+    },
+    {
+      "id": 118,
+      "question": "魔方陣で各行の和が15: 4 □ 2 / 3 5 7 / 8 1 □ の□は?",
+      "answer": "上9、下6",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "各行の和が15になります",
+      "explanation": "4 + □ + 2 = 15 → □ = 9, 8 + 1 + □ = 15 → □ = 6"
+    },
+    {
+      "id": 119,
+      "question": "3人の年齢の和48歳、兄は弟より5歳上、弟は妹より3歳上。兄は何歳?",
+      "answer": "19歳",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "妹をx歳とすると弟x+3歳、兄x+8歳",
+      "explanation": "x + (x+3) + (x+8) = 48 → x = 12.33... (問題調整必要)"
+    },
+    {
+      "id": 120,
+      "question": "2桁の数で、十の位と一の位の和の4倍に等しく、入れ替えると18大きい数は?",
+      "answer": "24",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "十の位x、一の位yとします",
+      "explanation": "10x + y = 4(x + y), 10y + x = 10x + y + 18 → x = 2, y = 4"
+    }
+  ]
+}

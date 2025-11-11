@@ -1,0 +1,729 @@
+{
+  "questId": "grade3-quest05",
+  "questName": "わり算（基礎）",
+  "grade": "小3",
+  "unitId": "elem3_division_basic",
+  "totalProblems": 80,
+  "problems": [
+    {
+      "id": 1,
+      "question": "12 ÷ 3",
+      "answer": 4,
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "12を3つに分けると、1つ分はいくつ？",
+      "explanation": "12 ÷ 3 = 4です。12個を3つに分けると、1つ分は4個になります。"
+    },
+    {
+      "id": 2,
+      "question": "15 ÷ 5",
+      "answer": 3,
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "15を5つに分けると？",
+      "explanation": "15 ÷ 5 = 3です。15個を5つに分けると、1つ分は3個になります。"
+    },
+    {
+      "id": 3,
+      "question": "20 ÷ 4",
+      "answer": 5,
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "20を4つに分けると？",
+      "explanation": "20 ÷ 4 = 5です。20個を4つに分けると、1つ分は5個になります。"
+    },
+    {
+      "id": 4,
+      "question": "18 ÷ 6",
+      "answer": 3,
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "18を6つに分けると？",
+      "explanation": "18 ÷ 6 = 3です。18個を6つに分けると、1つ分は3個になります。"
+    },
+    {
+      "id": 5,
+      "question": "24 ÷ 8",
+      "answer": 3,
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "24を8つに分けると？",
+      "explanation": "24 ÷ 8 = 3です。24個を8つに分けると、1つ分は3個になります。"
+    },
+    {
+      "id": 6,
+      "question": "10 ÷ 2",
+      "answer": 5,
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "10を2つに分けると？",
+      "explanation": "10 ÷ 2 = 5です。10個を2つに分けると、1つ分は5個になります。"
+    },
+    {
+      "id": 7,
+      "question": "14 ÷ 2",
+      "answer": 7,
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "14を2つに分けると？",
+      "explanation": "14 ÷ 2 = 7です。14個を2つに分けると、1つ分は7個になります。"
+    },
+    {
+      "id": 8,
+      "question": "21 ÷ 3",
+      "answer": 7,
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "21を3つに分けると？",
+      "explanation": "21 ÷ 3 = 7です。21個を3つに分けると、1つ分は7個になります。"
+    },
+    {
+      "id": 9,
+      "question": "28 ÷ 4",
+      "answer": 7,
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "28を4つに分けると？",
+      "explanation": "28 ÷ 4 = 7です。28個を4つに分けると、1つ分は7個になります。"
+    },
+    {
+      "id": 10,
+      "question": "35 ÷ 5",
+      "answer": 7,
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "35を5つに分けると？",
+      "explanation": "35 ÷ 5 = 7です。35個を5つに分けると、1つ分は7個になります。"
+    },
+    {
+      "id": 11,
+      "question": "16 ÷ 4",
+      "answer": 4,
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "16を4つに分けると？",
+      "explanation": "16 ÷ 4 = 4です。16個を4つに分けると、1つ分は4個になります。"
+    },
+    {
+      "id": 12,
+      "question": "27 ÷ 9",
+      "answer": 3,
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "27を9つに分けると？",
+      "explanation": "27 ÷ 9 = 3です。27個を9つに分けると、1つ分は3個になります。"
+    },
+    {
+      "id": 13,
+      "question": "30 ÷ 6",
+      "answer": 5,
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "30を6つに分けると？",
+      "explanation": "30 ÷ 6 = 5です。30個を6つに分けると、1つ分は5個になります。"
+    },
+    {
+      "id": 14,
+      "question": "32 ÷ 8",
+      "answer": 4,
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "32を8つに分けると？",
+      "explanation": "32 ÷ 8 = 4です。32個を8つに分けると、1つ分は4個になります。"
+    },
+    {
+      "id": 15,
+      "question": "36 ÷ 6",
+      "answer": 6,
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "36を6つに分けると？",
+      "explanation": "36 ÷ 6 = 6です。36個を6つに分けると、1つ分は6個になります。"
+    },
+    {
+      "id": 16,
+      "question": "40 ÷ 5",
+      "answer": 8,
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "40を5つに分けると？",
+      "explanation": "40 ÷ 5 = 8です。40個を5つに分けると、1つ分は8個になります。"
+    },
+    {
+      "id": 17,
+      "question": "45 ÷ 9",
+      "answer": 5,
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "45を9つに分けると？",
+      "explanation": "45 ÷ 9 = 5です。45個を9つに分けると、1つ分は5個になります。"
+    },
+    {
+      "id": 18,
+      "question": "48 ÷ 6",
+      "answer": 8,
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "48を6つに分けると？",
+      "explanation": "48 ÷ 6 = 8です。48個を6つに分けると、1つ分は8個になります。"
+    },
+    {
+      "id": 19,
+      "question": "54 ÷ 6",
+      "answer": 9,
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "54を6つに分けると？",
+      "explanation": "54 ÷ 6 = 9です。54個を6つに分けると、1つ分は9個になります。"
+    },
+    {
+      "id": 20,
+      "question": "56 ÷ 7",
+      "answer": 8,
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "56を7つに分けると？",
+      "explanation": "56 ÷ 7 = 8です。56個を7つに分けると、1つ分は8個になります。"
+    },
+    {
+      "id": 21,
+      "question": "63 ÷ 9",
+      "answer": 7,
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "63を9つに分けると？",
+      "explanation": "63 ÷ 9 = 7です。63個を9つに分けると、1つ分は7個になります。"
+    },
+    {
+      "id": 22,
+      "question": "72 ÷ 8",
+      "answer": 9,
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "72を8つに分けると？",
+      "explanation": "72 ÷ 8 = 9です。72個を8つに分けると、1つ分は9個になります。"
+    },
+    {
+      "id": 23,
+      "question": "81 ÷ 9",
+      "answer": 9,
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "81を9つに分けると？",
+      "explanation": "81 ÷ 9 = 9です。81個を9つに分けると、1つ分は9個になります。"
+    },
+    {
+      "id": 24,
+      "question": "16 ÷ 2",
+      "answer": 8,
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "16を2つに分けると？",
+      "explanation": "16 ÷ 2 = 8です。16個を2つに分けると、1つ分は8個になります。"
+    },
+    {
+      "id": 25,
+      "question": "18 ÷ 3",
+      "answer": 6,
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "18を3つに分けると？",
+      "explanation": "18 ÷ 3 = 6です。18個を3つに分けると、1つ分は6個になります。"
+    },
+    {
+      "id": 26,
+      "question": "24 ÷ 4",
+      "answer": 6,
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "24を4つに分けると？",
+      "explanation": "24 ÷ 4 = 6です。24個を4つに分けると、1つ分は6個になります。"
+    },
+    {
+      "id": 27,
+      "question": "30 ÷ 5",
+      "answer": 6,
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "30を5つに分けると？",
+      "explanation": "30 ÷ 5 = 6です。30個を5つに分けると、1つ分は6個になります。"
+    },
+    {
+      "id": 28,
+      "question": "42 ÷ 6",
+      "answer": 7,
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "42を6つに分けると？",
+      "explanation": "42 ÷ 6 = 7です。42個を6つに分けると、1つ分は7個になります。"
+    },
+    {
+      "id": 29,
+      "question": "49 ÷ 7",
+      "answer": 7,
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "49を7つに分けると？",
+      "explanation": "49 ÷ 7 = 7です。49個を7つに分けると、1つ分は7個になります。"
+    },
+    {
+      "id": 30,
+      "question": "64 ÷ 8",
+      "answer": 8,
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "64を8つに分けると？",
+      "explanation": "64 ÷ 8 = 8です。64個を8つに分けると、1つ分は8個になります。"
+    },
+    {
+      "id": 31,
+      "question": "18 ÷ 2",
+      "answer": 9,
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "18を2つに分けると？",
+      "explanation": "18 ÷ 2 = 9です。18個を2つに分けると、1つ分は9個になります。"
+    },
+    {
+      "id": 32,
+      "question": "24 ÷ 3",
+      "answer": 8,
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "24を3つに分けると？",
+      "explanation": "24 ÷ 3 = 8です。24個を3つに分けると、1つ分は8個になります。"
+    },
+    {
+      "id": 33,
+      "question": "36 ÷ 4",
+      "answer": 9,
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "36を4つに分けると？",
+      "explanation": "36 ÷ 4 = 9です。36個を4つに分けると、1つ分は9個になります。"
+    },
+    {
+      "id": 34,
+      "question": "45 ÷ 5",
+      "answer": 9,
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "45を5つに分けると？",
+      "explanation": "45 ÷ 5 = 9です。45個を5つに分けると、1つ分は9個になります。"
+    },
+    {
+      "id": 35,
+      "question": "48 ÷ 8",
+      "answer": 6,
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "48を8つに分けると？",
+      "explanation": "48 ÷ 8 = 6です。48個を8つに分けると、1つ分は6個になります。"
+    },
+    {
+      "id": 36,
+      "question": "54 ÷ 9",
+      "answer": 6,
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "54を9つに分けると？",
+      "explanation": "54 ÷ 9 = 6です。54個を9つに分けると、1つ分は6個になります。"
+    },
+    {
+      "id": 37,
+      "question": "42 ÷ 7",
+      "answer": 6,
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "42を7つに分けると？",
+      "explanation": "42 ÷ 7 = 6です。42個を7つに分けると、1つ分は6個になります。"
+    },
+    {
+      "id": 38,
+      "question": "35 ÷ 7",
+      "answer": 5,
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "35を7つに分けると？",
+      "explanation": "35 ÷ 7 = 5です。35個を7つに分けると、1つ分は5個になります。"
+    },
+    {
+      "id": 39,
+      "question": "27 ÷ 3",
+      "answer": 9,
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "27を3つに分けると？",
+      "explanation": "27 ÷ 3 = 9です。27個を3つに分けると、1つ分は9個になります。"
+    },
+    {
+      "id": 40,
+      "question": "40 ÷ 8",
+      "answer": 5,
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "40を8つに分けると？",
+      "explanation": "40 ÷ 8 = 5です。40個を8つに分けると、1つ分は5個になります。"
+    },
+    {
+      "id": 41,
+      "question": "12このあめを3人で同じ数ずつ分けます。1人分は何こになりますか。",
+      "answer": 4,
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "12こを3つに分けると？",
+      "explanation": "12 ÷ 3 = 4です。12このあめを3人で分けると、1人分は4こになります。これは等分除の問題です。"
+    },
+    {
+      "id": 42,
+      "question": "15まいの画用紙を5人で同じ数ずつ分けます。1人分は何まいですか。",
+      "answer": 3,
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "15まいを5つに分けると？",
+      "explanation": "15 ÷ 5 = 3です。15まいの画用紙を5人で分けると、1人分は3まいになります。"
+    },
+    {
+      "id": 43,
+      "question": "20このりんごを4つのかごに同じ数ずつ入れます。1つのかごには何こ入りますか。",
+      "answer": 5,
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "20こを4つに分けると？",
+      "explanation": "20 ÷ 4 = 5です。20このりんごを4つのかごに分けると、1つのかごには5こ入ります。"
+    },
+    {
+      "id": 44,
+      "question": "18このクッキーがあります。1人に2こずつあげると、何人に配れますか。",
+      "answer": 9,
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "18の中に2がいくつある？",
+      "explanation": "18 ÷ 2 = 9です。18このクッキーを1人に2こずつ配ると、9人に配れます。これは包含除の問題です。"
+    },
+    {
+      "id": 45,
+      "question": "24このみかんがあります。1人に3こずつあげると、何人に配れますか。",
+      "answer": 8,
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "24の中に3がいくつある？",
+      "explanation": "24 ÷ 3 = 8です。24このみかんを1人に3こずつ配ると、8人に配れます。"
+    },
+    {
+      "id": 46,
+      "question": "30このえん筆を6人で同じ数ずつ分けます。1人分は何本ですか。",
+      "answer": 5,
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "30本を6つに分けると？",
+      "explanation": "30 ÷ 6 = 5です。30このえん筆を6人で分けると、1人分は5本になります。"
+    },
+    {
+      "id": 47,
+      "question": "40このチョコレートがあります。1つの箱に5こずつ入れると、何箱できますか。",
+      "answer": 8,
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "40の中に5がいくつある？",
+      "explanation": "40 ÷ 5 = 8です。40このチョコレートを1箱に5こずつ入れると、8箱できます。"
+    },
+    {
+      "id": 48,
+      "question": "36人の子どもが4つの教室に同じ人数ずつ入ります。1つの教室に何人入りますか。",
+      "answer": 9,
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "36人を4つに分けると？",
+      "explanation": "36 ÷ 4 = 9です。36人を4つの教室に分けると、1つの教室に9人入ります。"
+    },
+    {
+      "id": 49,
+      "question": "21このボールを3つのかごに同じ数ずつ入れます。1つのかごには何こ入りますか。",
+      "answer": 7,
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "21こを3つに分けると？",
+      "explanation": "21 ÷ 3 = 7です。21このボールを3つのかごに分けると、1つのかごには7こ入ります。"
+    },
+    {
+      "id": 50,
+      "question": "28このトマトがあります。1人に4こずつあげると、何人に配れますか。",
+      "answer": 7,
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "28の中に4がいくつある？",
+      "explanation": "28 ÷ 4 = 7です。28このトマトを1人に4こずつ配ると、7人に配れます。"
+    },
+    {
+      "id": 51,
+      "question": "45cmのテープを5本に切ります。1本の長さは何cmですか。",
+      "answer": 9,
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "45cmを5つに分けると？",
+      "explanation": "45 ÷ 5 = 9です。45cmのテープを5本に切ると、1本の長さは9cmになります。"
+    },
+    {
+      "id": 52,
+      "question": "48このキャンディーを6人で同じ数ずつ分けます。1人分は何こですか。",
+      "answer": 8,
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "48こを6つに分けると？",
+      "explanation": "48 ÷ 6 = 8です。48このキャンディーを6人で分けると、1人分は8こになります。"
+    },
+    {
+      "id": 53,
+      "question": "54このビー玉があります。1人に6こずつあげると、何人に配れますか。",
+      "answer": 9,
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "54の中に6がいくつある？",
+      "explanation": "54 ÷ 6 = 9です。54このビー玉を1人に6こずつ配ると、9人に配れます。"
+    },
+    {
+      "id": 54,
+      "question": "56このクレヨンを7つの箱に同じ数ずつ入れます。1つの箱には何本入りますか。",
+      "answer": 8,
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "56本を7つに分けると？",
+      "explanation": "56 ÷ 7 = 8です。56このクレヨンを7つの箱に分けると、1つの箱には8本入ります。"
+    },
+    {
+      "id": 55,
+      "question": "63こののりを9人で同じ数ずつ分けます。1人分は何こですか。",
+      "answer": 7,
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "63こを9つに分けると？",
+      "explanation": "63 ÷ 9 = 7です。63こののりを9人で分けると、1人分は7こになります。"
+    },
+    {
+      "id": 56,
+      "question": "72このお花があります。1つの花びんに8本ずつ入れると、何本の花びんが必要ですか。",
+      "answer": 9,
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "72の中に8がいくつある？",
+      "explanation": "72 ÷ 8 = 9です。72このお花を1つの花びんに8本ずつ入れると、9本の花びんが必要です。"
+    },
+    {
+      "id": 57,
+      "question": "32cmのリボンを4本に切ります。1本の長さは何cmですか。",
+      "answer": 8,
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "32cmを4つに分けると？",
+      "explanation": "32 ÷ 4 = 8です。32cmのリボンを4本に切ると、1本の長さは8cmになります。"
+    },
+    {
+      "id": 58,
+      "question": "27このおはじきがあります。1人に3こずつあげると、何人に配れますか。",
+      "answer": 9,
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "27の中に3がいくつある？",
+      "explanation": "27 ÷ 3 = 9です。27このおはじきを1人に3こずつ配ると、9人に配れます。"
+    },
+    {
+      "id": 59,
+      "question": "35このキャラメルを5人で同じ数ずつ分けます。1人分は何こですか。",
+      "answer": 7,
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "35こを5つに分けると？",
+      "explanation": "35 ÷ 5 = 7です。35このキャラメルを5人で分けると、1人分は7こになります。"
+    },
+    {
+      "id": 60,
+      "question": "42このシールを6人で同じ数ずつ分けます。1人分は何まいですか。",
+      "answer": 7,
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "42まいを6つに分けると？",
+      "explanation": "42 ÷ 6 = 7です。42このシールを6人で分けると、1人分は7まいになります。"
+    },
+    {
+      "id": 61,
+      "question": "49このどんぐりを7つのふくろに同じ数ずつ入れます。1つのふくろには何こ入りますか。",
+      "answer": 7,
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "49こを7つに分けると？",
+      "explanation": "49 ÷ 7 = 7です。49このどんぐりを7つのふくろに分けると、1つのふくろには7こ入ります。"
+    },
+    {
+      "id": 62,
+      "question": "64このくりがあります。1人に8こずつあげると、何人に配れますか。",
+      "answer": 8,
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "64の中に8がいくつある？",
+      "explanation": "64 ÷ 8 = 8です。64このくりを1人に8こずつ配ると、8人に配れます。"
+    },
+    {
+      "id": 63,
+      "question": "81このおり紙を9人で同じ数ずつ分けます。1人分は何まいですか。",
+      "answer": 9,
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "81まいを9つに分けると？",
+      "explanation": "81 ÷ 9 = 9です。81このおり紙を9人で分けると、1人分は9まいになります。"
+    },
+    {
+      "id": 64,
+      "question": "16このいちごを2人で同じ数ずつ分けます。1人分は何こですか。",
+      "answer": 8,
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "16こを2つに分けると？",
+      "explanation": "16 ÷ 2 = 8です。16このいちごを2人で分けると、1人分は8こになります。"
+    },
+    {
+      "id": 65,
+      "question": "25このメダルを5人で同じ数ずつ分けます。1人分は何こですか。",
+      "answer": 5,
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "25こを5つに分けると？",
+      "explanation": "25 ÷ 5 = 5です。25このメダルを5人で分けると、1人分は5こになります。"
+    },
+    {
+      "id": 66,
+      "question": "□ ÷ 3 = 6。□に入る数はいくつですか。",
+      "answer": 18,
+      "type": "equation",
+      "difficulty": "basic",
+      "hint": "3 × 6を計算してみましょう。",
+      "explanation": "□ = 3 × 6 = 18です。18 ÷ 3 = 6なので、□は18です。"
+    },
+    {
+      "id": 67,
+      "question": "□ ÷ 4 = 5。□に入る数はいくつですか。",
+      "answer": 20,
+      "type": "equation",
+      "difficulty": "basic",
+      "hint": "4 × 5を計算してみましょう。",
+      "explanation": "□ = 4 × 5 = 20です。20 ÷ 4 = 5なので、□は20です。"
+    },
+    {
+      "id": 68,
+      "question": "24 ÷ □ = 6。□に入る数はいくつですか。",
+      "answer": 4,
+      "type": "equation",
+      "difficulty": "basic",
+      "hint": "24 ÷ 6を計算してみましょう。",
+      "explanation": "□ = 24 ÷ 6 = 4です。24 ÷ 4 = 6なので、□は4です。"
+    },
+    {
+      "id": 69,
+      "question": "□ ÷ 5 = 7。□に入る数はいくつですか。",
+      "answer": 35,
+      "type": "equation",
+      "difficulty": "basic",
+      "hint": "5 × 7を計算してみましょう。",
+      "explanation": "□ = 5 × 7 = 35です。35 ÷ 5 = 7なので、□は35です。"
+    },
+    {
+      "id": 70,
+      "question": "36 ÷ □ = 9。□に入る数はいくつですか。",
+      "answer": 4,
+      "type": "equation",
+      "difficulty": "basic",
+      "hint": "36 ÷ 9を計算してみましょう。",
+      "explanation": "□ = 36 ÷ 9 = 4です。36 ÷ 4 = 9なので、□は4です。"
+    },
+    {
+      "id": 71,
+      "question": "□ ÷ 6 = 8。□に入る数はいくつですか。",
+      "answer": 48,
+      "type": "equation",
+      "difficulty": "basic",
+      "hint": "6 × 8を計算してみましょう。",
+      "explanation": "□ = 6 × 8 = 48です。48 ÷ 6 = 8なので、□は48です。"
+    },
+    {
+      "id": 72,
+      "question": "42 ÷ □ = 7。□に入る数はいくつですか。",
+      "answer": 6,
+      "type": "equation",
+      "difficulty": "basic",
+      "hint": "42 ÷ 7を計算してみましょう。",
+      "explanation": "□ = 42 ÷ 7 = 6です。42 ÷ 6 = 7なので、□は6です。"
+    },
+    {
+      "id": 73,
+      "question": "□ ÷ 8 = 7。□に入る数はいくつですか。",
+      "answer": 56,
+      "type": "equation",
+      "difficulty": "basic",
+      "hint": "8 × 7を計算してみましょう。",
+      "explanation": "□ = 8 × 7 = 56です。56 ÷ 8 = 7なので、□は56です。"
+    },
+    {
+      "id": 74,
+      "question": "54 ÷ □ = 6。□に入る数はいくつですか。",
+      "answer": 9,
+      "type": "equation",
+      "difficulty": "basic",
+      "hint": "54 ÷ 6を計算してみましょう。",
+      "explanation": "□ = 54 ÷ 6 = 9です。54 ÷ 9 = 6なので、□は9です。"
+    },
+    {
+      "id": 75,
+      "question": "□ ÷ 9 = 8。□に入る数はいくつですか。",
+      "answer": 72,
+      "type": "equation",
+      "difficulty": "basic",
+      "hint": "9 × 8を計算してみましょう。",
+      "explanation": "□ = 9 × 8 = 72です。72 ÷ 9 = 8なので、□は72です。"
+    },
+    {
+      "id": 76,
+      "question": "12このあめがあります。2こ、2こと配っていくと、何人に配れますか。同じことを式に表すと、どんな式になりますか。",
+      "answer": 6,
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "12 ÷ 2で求められます。",
+      "explanation": "12 ÷ 2 = 6です。12このあめを2こずつ配ると6人に配れます。式は 12 ÷ 2 = 6 です。"
+    },
+    {
+      "id": 77,
+      "question": "20このりんごを4人で分けます。1人分は何こですか。また、かけ算で確かめてみましょう。",
+      "answer": 5,
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "20 ÷ 4を計算して、4 × □ = 20で確かめます。",
+      "explanation": "20 ÷ 4 = 5です。確かめ：4 × 5 = 20なので正しいです。"
+    },
+    {
+      "id": 78,
+      "question": "6 × 4 = 24です。この式から作れるわり算の式を2つ書きましょう。",
+      "answer": 6,
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "24 ÷ 6と24 ÷ 4の2つです。",
+      "explanation": "6 × 4 = 24から、24 ÷ 6 = 4と24 ÷ 4 = 6の2つのわり算ができます。かけ算とわり算は逆の関係です。"
+    },
+    {
+      "id": 79,
+      "question": "30このくりを5人で分けました。1人分は□こです。□に入る数を求めましょう。また、わり算の式も書きましょう。",
+      "answer": 6,
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "30を5で割ります。",
+      "explanation": "30 ÷ 5 = 6です。□は6です。30このくりを5人で分けると、1人分は6こになります。"
+    },
+    {
+      "id": 80,
+      "question": "48このおはじきを8こずつふくろに入れていきます。何ふくろできますか。また、これを等分除の考え方で言いかえるとどうなりますか。",
+      "answer": 6,
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "48 ÷ 8を計算します。",
+      "explanation": "48 ÷ 8 = 6です。6ふくろできます。等分除で言うと「48このおはじきを8つのふくろに同じ数ずつ入れると、1つのふくろには6こ入る」となります。"
+    }
+  ]
+}

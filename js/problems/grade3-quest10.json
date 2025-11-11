@@ -1,0 +1,549 @@
+{
+  "questId": "grade3-quest10",
+  "questName": "重さのたんい",
+  "grade": "小3",
+  "unitId": "elem3_weight_units",
+  "totalProblems": 60,
+  "problems": [
+    {
+      "id": 1,
+      "question": "1kgは何gですか。",
+      "answer": "1000g",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1kg = 1000g、1t = 1000kgを使って考えましょう。",
+      "explanation": "1kg = 1000gです。"
+    },
+    {
+      "id": 2,
+      "question": "2kgは何gですか。",
+      "answer": "2000g",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1kg = 1000g、1t = 1000kgを使って考えましょう。",
+      "explanation": "2kg = 2000gです。"
+    },
+    {
+      "id": 3,
+      "question": "3kgは何gですか。",
+      "answer": "3000g",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1kg = 1000g、1t = 1000kgを使って考えましょう。",
+      "explanation": "3kg = 3000gです。"
+    },
+    {
+      "id": 4,
+      "question": "5kgは何gですか。",
+      "answer": "5000g",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1kg = 1000g、1t = 1000kgを使って考えましょう。",
+      "explanation": "5kg = 5000gです。"
+    },
+    {
+      "id": 5,
+      "question": "1000gは何kgですか。",
+      "answer": "1kg",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1kg = 1000g、1t = 1000kgを使って考えましょう。",
+      "explanation": "1000g = 1kgです。"
+    },
+    {
+      "id": 6,
+      "question": "2000gは何kgですか。",
+      "answer": "2kg",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1kg = 1000g、1t = 1000kgを使って考えましょう。",
+      "explanation": "2000g = 2kgです。"
+    },
+    {
+      "id": 7,
+      "question": "4000gは何kgですか。",
+      "answer": "4kg",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1kg = 1000g、1t = 1000kgを使って考えましょう。",
+      "explanation": "4000g = 4kgです。"
+    },
+    {
+      "id": 8,
+      "question": "6000gは何kgですか。",
+      "answer": "6kg",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1kg = 1000g、1t = 1000kgを使って考えましょう。",
+      "explanation": "6000g = 6kgです。"
+    },
+    {
+      "id": 9,
+      "question": "1kg500gは何gですか。",
+      "answer": "1500g",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1kg = 1000g、1t = 1000kgを使って考えましょう。",
+      "explanation": "1kg500g = 1000g + 500g = 1500gです。"
+    },
+    {
+      "id": 10,
+      "question": "2kg300gは何gですか。",
+      "answer": "2300g",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1kg = 1000g、1t = 1000kgを使って考えましょう。",
+      "explanation": "2kg300g = 2000g + 300g = 2300gです。"
+    },
+    {
+      "id": 11,
+      "question": "3kg800gは何gですか。",
+      "answer": "3800g",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1kg = 1000g、1t = 1000kgを使って考えましょう。",
+      "explanation": "3kg800g = 3000g + 800g = 3800gです。"
+    },
+    {
+      "id": 12,
+      "question": "1500gは何kg何gですか。",
+      "answer": "1kg500g",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1kg = 1000g、1t = 1000kgを使って考えましょう。",
+      "explanation": "1500g = 1000g + 500g = 1kg500gです。"
+    },
+    {
+      "id": 13,
+      "question": "2700gは何kg何gですか。",
+      "answer": "2kg700g",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1kg = 1000g、1t = 1000kgを使って考えましょう。",
+      "explanation": "2700g = 2000g + 700g = 2kg700gです。"
+    },
+    {
+      "id": 14,
+      "question": "4200gは何kg何gですか。",
+      "answer": "4kg200g",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1kg = 1000g、1t = 1000kgを使って考えましょう。",
+      "explanation": "4200g = 4000g + 200g = 4kg200gです。"
+    },
+    {
+      "id": 15,
+      "question": "1tは何kgですか。",
+      "answer": "1000kg",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1kg = 1000g、1t = 1000kgを使って考えましょう。",
+      "explanation": "1t = 1000kgです。"
+    },
+    {
+      "id": 16,
+      "question": "2tは何kgですか。",
+      "answer": "2000kg",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1kg = 1000g、1t = 1000kgを使って考えましょう。",
+      "explanation": "2t = 2000kgです。"
+    },
+    {
+      "id": 17,
+      "question": "3tは何kgですか。",
+      "answer": "3000kg",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1kg = 1000g、1t = 1000kgを使って考えましょう。",
+      "explanation": "3t = 3000kgです。"
+    },
+    {
+      "id": 18,
+      "question": "2000kgは何tですか。",
+      "answer": "2t",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1kg = 1000g、1t = 1000kgを使って考えましょう。",
+      "explanation": "2000kg = 2tです。"
+    },
+    {
+      "id": 19,
+      "question": "5000kgは何tですか。",
+      "answer": "5t",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1kg = 1000g、1t = 1000kgを使って考えましょう。",
+      "explanation": "5000kg = 5tです。"
+    },
+    {
+      "id": 20,
+      "question": "1kgと500gを合わせると何gですか。",
+      "answer": "1500g",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1kg = 1000g、1t = 1000kgを使って考えましょう。",
+      "explanation": "1kg + 500g = 1000g + 500g = 1500gです。"
+    },
+    {
+      "id": 21,
+      "question": "2kgと800gを合わせると何gですか。",
+      "answer": "2800g",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1kg = 1000g、1t = 1000kgを使って考えましょう。",
+      "explanation": "2kg + 800g = 2000g + 800g = 2800gです。"
+    },
+    {
+      "id": 22,
+      "question": "3kgから600gを引くと何gですか。",
+      "answer": "2400g",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1kg = 1000g、1t = 1000kgを使って考えましょう。",
+      "explanation": "3kg - 600g = 3000g - 600g = 2400gです。"
+    },
+    {
+      "id": 23,
+      "question": "1kg200gと800gを合わせると何gですか。",
+      "answer": "2000g",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1kg = 1000g、1t = 1000kgを使って考えましょう。",
+      "explanation": "1kg200g + 800g = 1200g + 800g = 2000gです。"
+    },
+    {
+      "id": 24,
+      "question": "2kg500gと1kg300gを合わせると何kgですか。",
+      "answer": "3kg800g",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1kg = 1000g、1t = 1000kgを使って考えましょう。",
+      "explanation": "2kg500g + 1kg300g = 3kg800gです。"
+    },
+    {
+      "id": 25,
+      "question": "3kg600gから1kg400gを引くと何kgですか。",
+      "answer": "2kg200g",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1kg = 1000g、1t = 1000kgを使って考えましょう。",
+      "explanation": "3kg600g - 1kg400g = 2kg200gです。"
+    },
+    {
+      "id": 26,
+      "question": "1kg400gは何gですか。",
+      "answer": "1400g",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1kg = 1000g、1t = 1000kgを使って考えましょう。",
+      "explanation": "1kg400g = 1000g + 400g = 1400gです。"
+    },
+    {
+      "id": 27,
+      "question": "1800gは何kg何gですか。",
+      "answer": "1kg800g",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1kg = 1000g、1t = 1000kgを使って考えましょう。",
+      "explanation": "1800g = 1000g + 800g = 1kg800gです。"
+    },
+    {
+      "id": 28,
+      "question": "1kg + 2kg",
+      "answer": "3kg",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1kg = 1000g、1t = 1000kgを使って考えましょう。",
+      "explanation": "1kg + 2kg = 3kgです。"
+    },
+    {
+      "id": 29,
+      "question": "5kg - 2kg",
+      "answer": "3kg",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1kg = 1000g、1t = 1000kgを使って考えましょう。",
+      "explanation": "5kg - 2kg = 3kgです。"
+    },
+    {
+      "id": 30,
+      "question": "1t500kgは何kgですか。",
+      "answer": "1500kg",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "1kg = 1000g、1t = 1000kgを使って考えましょう。",
+      "explanation": "1t500kg = 1000kg + 500kg = 1500kgです。"
+    },
+    {
+      "id": 31,
+      "question": "りんご1個の重さは200gです。5個では何gですか。",
+      "answer": "1000g",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "kgとgの関係を使って考えましょう。",
+      "explanation": "200g × 5 = 1000gです。"
+    },
+    {
+      "id": 32,
+      "question": "みかん1個の重さは100gです。10個では何gですか。",
+      "answer": "1000g",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "kgとgの関係を使って考えましょう。",
+      "explanation": "100g × 10 = 1000gです。"
+    },
+    {
+      "id": 33,
+      "question": "お米の袋の重さは5kgです。これは何gですか。",
+      "answer": "5000g",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "kgとgの関係を使って考えましょう。",
+      "explanation": "5kg = 5000gです。"
+    },
+    {
+      "id": 34,
+      "question": "小麦粉の袋の重さは2kg500gです。これは何gですか。",
+      "answer": "2500g",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "kgとgの関係を使って考えましょう。",
+      "explanation": "2kg500g = 2000g + 500g = 2500gです。"
+    },
+    {
+      "id": 35,
+      "question": "砂糖が1500g入っています。これは何kg何gですか。",
+      "answer": "1kg500g",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "kgとgの関係を使って考えましょう。",
+      "explanation": "1500g = 1000g + 500g = 1kg500gです。"
+    },
+    {
+      "id": 36,
+      "question": "太郎さんの体重は30kg、花子さんの体重は28kgです。2人合わせて何kgですか。",
+      "answer": "58kg",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "kgとgの関係を使って考えましょう。",
+      "explanation": "30kg + 28kg = 58kgです。"
+    },
+    {
+      "id": 37,
+      "question": "あきらさんの体重は35kg、弟の体重は20kgです。あきらさんは弟より何kg重いですか。",
+      "answer": "15kg",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "kgとgの関係を使って考えましょう。",
+      "explanation": "35kg - 20kg = 15kgです。"
+    },
+    {
+      "id": 38,
+      "question": "1つの箱の重さは800g、もう1つの箱の重さは1kg200gです。2つ合わせて何gですか。",
+      "answer": "2000g",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "kgとgの関係を使って考えましょう。",
+      "explanation": "800g + 1kg200g = 800g + 1200g = 2000gです。"
+    },
+    {
+      "id": 39,
+      "question": "大きな箱の重さは3kg、小さな箱の重さは1kg500gです。大きな箱は小さな箱より何g重いですか。",
+      "answer": "1500g",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "kgとgの関係を使って考えましょう。",
+      "explanation": "3kg - 1kg500g = 1500gです。"
+    },
+    {
+      "id": 40,
+      "question": "トラックの重さは3tです。これは何kgですか。",
+      "answer": "3000kg",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "kgとgの関係を使って考えましょう。",
+      "explanation": "3t = 3000kgです。"
+    },
+    {
+      "id": 41,
+      "question": "車の重さは1t500kgです。これは何kgですか。",
+      "answer": "1500kg",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "kgとgの関係を使って考えましょう。",
+      "explanation": "1t500kg = 1000kg + 500kg = 1500kgです。"
+    },
+    {
+      "id": 42,
+      "question": "りんごが1kg200g、みかんが800gあります。全部で何kg何gですか。",
+      "answer": "2kg",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "kgとgの関係を使って考えましょう。",
+      "explanation": "1kg200g + 800g = 2kgです。"
+    },
+    {
+      "id": 43,
+      "question": "お米が5kg入っている袋から2kg使いました。残りは何kgですか。",
+      "answer": "3kg",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "kgとgの関係を使って考えましょう。",
+      "explanation": "5kg - 2kg = 3kgです。"
+    },
+    {
+      "id": 44,
+      "question": "ケーキ1個の重さは300gです。4個では何kg何gですか。",
+      "answer": "1kg200g",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "kgとgの関係を使って考えましょう。",
+      "explanation": "300g × 4 = 1200g = 1kg200gです。"
+    },
+    {
+      "id": 45,
+      "question": "赤ちゃんの体重は3kg600gでした。1か月後は4kg800gになりました。何g増えましたか。",
+      "answer": "1200g",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "kgとgの関係を使って考えましょう。",
+      "explanation": "4kg800g - 3kg600g = 1kg200g = 1200gです。"
+    },
+    {
+      "id": 46,
+      "question": "犬の体重は8kg、猫の体重は3kg500gです。犬は猫より何kg何g重いですか。",
+      "answer": "4kg500g",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "kgとgの関係を使って考えましょう。",
+      "explanation": "8kg - 3kg500g = 4kg500gです。"
+    },
+    {
+      "id": 47,
+      "question": "肉が2kg、野菜が1kg800gあります。全部で何kg何gですか。",
+      "answer": "3kg800g",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "kgとgの関係を使って考えましょう。",
+      "explanation": "2kg + 1kg800g = 3kg800gです。"
+    },
+    {
+      "id": 48,
+      "question": "バスの重さは8t、トラックの重さは6tです。バスはトラックより何t重いですか。",
+      "answer": "2t",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "kgとgの関係を使って考えましょう。",
+      "explanation": "8t - 6t = 2tです。"
+    },
+    {
+      "id": 49,
+      "question": "1個100gのりんごが何個で1kgになりますか。",
+      "answer": "10個",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "kgとgの関係を使って考えましょう。",
+      "explanation": "1000g ÷ 100g = 10個です。"
+    },
+    {
+      "id": 50,
+      "question": "1個200gのみかんが何個で2kgになりますか。",
+      "answer": "10個",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "kgとgの関係を使って考えましょう。",
+      "explanation": "2kg = 2000g、2000g ÷ 200g = 10個です。"
+    },
+    {
+      "id": 51,
+      "question": "1kgの砂糖を200gずつ袋に分けます。何袋できますか。",
+      "answer": "5袋",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "kgとgの関係、計算の工夫を使って考えましょう。",
+      "explanation": "1000g ÷ 200g = 5袋です。"
+    },
+    {
+      "id": 52,
+      "question": "2kgのお米を500gずつ袋に分けます。何袋できますか。",
+      "answer": "4袋",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "kgとgの関係、計算の工夫を使って考えましょう。",
+      "explanation": "2000g ÷ 500g = 4袋です。"
+    },
+    {
+      "id": 53,
+      "question": "1kg = □g。□に入る数はいくつですか。",
+      "answer": "1000",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "kgとgの関係、計算の工夫を使って考えましょう。",
+      "explanation": "1kg = 1000gです。"
+    },
+    {
+      "id": 54,
+      "question": "□kg = 3000g。□に入る数はいくつですか。",
+      "answer": "3",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "kgとgの関係、計算の工夫を使って考えましょう。",
+      "explanation": "3000g = 3kgです。"
+    },
+    {
+      "id": 55,
+      "question": "1t = □kg。□に入る数はいくつですか。",
+      "answer": "1000",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "kgとgの関係、計算の工夫を使って考えましょう。",
+      "explanation": "1t = 1000kgです。"
+    },
+    {
+      "id": 56,
+      "question": "2kg400gは、何g多いと3kgになりますか。",
+      "answer": "600g",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "kgとgの関係、計算の工夫を使って考えましょう。",
+      "explanation": "3kg - 2kg400g = 600gです。"
+    },
+    {
+      "id": 57,
+      "question": "1kgの重さを4等分すると、1つ分は何gですか。",
+      "answer": "250g",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "kgとgの関係、計算の工夫を使って考えましょう。",
+      "explanation": "1000g ÷ 4 = 250gです。"
+    },
+    {
+      "id": 58,
+      "question": "3kgの重さを6等分すると、1つ分は何gですか。",
+      "answer": "500g",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "kgとgの関係、計算の工夫を使って考えましょう。",
+      "explanation": "3kg = 3000g、3000g ÷ 6 = 500gです。"
+    },
+    {
+      "id": 59,
+      "question": "500gのものを何個集めると2kgになりますか。",
+      "answer": "4個",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "kgとgの関係、計算の工夫を使って考えましょう。",
+      "explanation": "2kg = 2000g、2000g ÷ 500g = 4個です。"
+    },
+    {
+      "id": 60,
+      "question": "1kg500gの半分の重さは何gですか。",
+      "answer": "750g",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "kgとgの関係、計算の工夫を使って考えましょう。",
+      "explanation": "1kg500g = 1500g、1500g ÷ 2 = 750gです。"
+    }
+  ]
+}

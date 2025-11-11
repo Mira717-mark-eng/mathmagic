@@ -1,0 +1,710 @@
+{
+  "questId": "grade5-quest01",
+  "worldId": "grade5",
+  "questName": "整数と小数のしくみ",
+  "description": "数の仕組みを理解しよう",
+  "difficulty": "standard",
+  "totalProblems": 70,
+  "problems": [
+    {
+      "id": "g5q01-p001",
+      "question": "0.7を10倍した数はいくつですか。",
+      "answer": "7",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "小数点を右に1つ動かします。",
+      "explanation": "0.7の小数点を右に1つ動かすと7になります。"
+    },
+    {
+      "id": "g5q01-p002",
+      "question": "3.5を10倍した数はいくつですか。",
+      "answer": "35",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "小数点を右に1つ動かします。",
+      "explanation": "3.5の小数点を右に1つ動かすと35になります。"
+    },
+    {
+      "id": "g5q01-p003",
+      "question": "12を1/10にした数はいくつですか。",
+      "answer": "1.2",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "小数点を左に1つ動かします。",
+      "explanation": "12の小数点を左に1つ動かすと1.2になります。"
+    },
+    {
+      "id": "g5q01-p004",
+      "question": "0.09を10倍した数はいくつですか。",
+      "answer": "0.9",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "小数点を右に1つ動かします。",
+      "explanation": "0.09の小数点を右に1つ動かすと0.9になります。"
+    },
+    {
+      "id": "g5q01-p005",
+      "question": "25.6を1/10にした数はいくつですか。",
+      "answer": "2.56",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "小数点を左に1つ動かします。",
+      "explanation": "25.6の小数点を左に1つ動かすと2.56になります。"
+    },
+    {
+      "id": "g5q01-p006",
+      "question": "0.5を100倍した数はいくつですか。",
+      "answer": "50",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "小数点を右に2つ動かします。",
+      "explanation": "0.5の小数点を右に2つ動かすと50になります。"
+    },
+    {
+      "id": "g5q01-p007",
+      "question": "180を1/100にした数はいくつですか。",
+      "answer": "1.8",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "小数点を左に2つ動かします。",
+      "explanation": "180の小数点を左に2つ動かすと1.8になります。"
+    },
+    {
+      "id": "g5q01-p008",
+      "question": "4.23を10倍した数はいくつですか。",
+      "answer": "42.3",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "小数点を右に1つ動かします。",
+      "explanation": "4.23の小数点を右に1つ動かすと42.3になります。"
+    },
+    {
+      "id": "g5q01-p009",
+      "question": "0.06を100倍した数はいくつですか。",
+      "answer": "6",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "小数点を右に2つ動かします。",
+      "explanation": "0.06の小数点を右に2つ動かすと6になります。"
+    },
+    {
+      "id": "g5q01-p010",
+      "question": "7500を1/100にした数はいくつですか。",
+      "answer": "75",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "小数点を左に2つ動かします。",
+      "explanation": "7500の小数点を左に2つ動かすと75になります。"
+    },
+    {
+      "id": "g5q01-p011",
+      "question": "2.8を10倍して、さらに10倍した数はいくつですか。",
+      "answer": "280",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "10倍を2回すると100倍になります。",
+      "explanation": "2.8×10×10=2.8×100=280です。"
+    },
+    {
+      "id": "g5q01-p012",
+      "question": "450を1/10にして、さらに1/10にした数はいくつですか。",
+      "answer": "4.5",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "1/10を2回すると1/100になります。",
+      "explanation": "450÷10÷10=450÷100=4.5です。"
+    },
+    {
+      "id": "g5q01-p013",
+      "question": "0.004を1000倍した数はいくつですか。",
+      "answer": "4",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "小数点を右に3つ動かします。",
+      "explanation": "0.004の小数点を右に3つ動かすと4になります。"
+    },
+    {
+      "id": "g5q01-p014",
+      "question": "3200を1/1000にした数はいくつですか。",
+      "answer": "3.2",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "小数点を左に3つ動かします。",
+      "explanation": "3200の小数点を左に3つ動かすと3.2になります。"
+    },
+    {
+      "id": "g5q01-p015",
+      "question": "1.45を100倍した数はいくつですか。",
+      "answer": "145",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "小数点を右に2つ動かします。",
+      "explanation": "1.45の小数点を右に2つ動かすと145になります。"
+    },
+    {
+      "id": "g5q01-p016",
+      "question": "68を1/10にした数はいくつですか。",
+      "answer": "6.8",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "小数点を左に1つ動かします。",
+      "explanation": "68の小数点を左に1つ動かすと6.8になります。"
+    },
+    {
+      "id": "g5q01-p017",
+      "question": "0.9を10倍した数はいくつですか。",
+      "answer": "9",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "小数点を右に1つ動かします。",
+      "explanation": "0.9の小数点を右に1つ動かすと9になります。"
+    },
+    {
+      "id": "g5q01-p018",
+      "question": "3.07を1/10にした数はいくつですか。",
+      "answer": "0.307",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "小数点を左に1つ動かします。",
+      "explanation": "3.07の小数点を左に1つ動かすと0.307になります。"
+    },
+    {
+      "id": "g5q01-p019",
+      "question": "0.15を100倍した数はいくつですか。",
+      "answer": "15",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "小数点を右に2つ動かします。",
+      "explanation": "0.15の小数点を右に2つ動かすと15になります。"
+    },
+    {
+      "id": "g5q01-p020",
+      "question": "940を1/100にした数はいくつですか。",
+      "answer": "9.4",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "小数点を左に2つ動かします。",
+      "explanation": "940の小数点を左に2つ動かすと9.4になります。"
+    },
+    {
+      "id": "g5q01-p021",
+      "question": "5.6を10倍して、その答えを1/10にした数はいくつですか。",
+      "answer": "5.6",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "10倍してから1/10にすると元に戻ります。",
+      "explanation": "5.6×10÷10=5.6です。"
+    },
+    {
+      "id": "g5q01-p022",
+      "question": "82を1/10にして、その答えを10倍した数はいくつですか。",
+      "answer": "82",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "1/10にしてから10倍にすると元に戻ります。",
+      "explanation": "82÷10×10=82です。"
+    },
+    {
+      "id": "g5q01-p023",
+      "question": "0.072を1000倍した数はいくつですか。",
+      "answer": "72",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "小数点を右に3つ動かします。",
+      "explanation": "0.072の小数点を右に3つ動かすと72になります。"
+    },
+    {
+      "id": "g5q01-p024",
+      "question": "5600を1/1000にした数はいくつですか。",
+      "answer": "5.6",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "小数点を左に3つ動かします。",
+      "explanation": "5600の小数点を左に3つ動かすと5.6になります。"
+    },
+    {
+      "id": "g5q01-p025",
+      "question": "0.8を10倍して、さらに100倍した数はいくつですか。",
+      "answer": "800",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "10倍と100倍を合わせると1000倍になります。",
+      "explanation": "0.8×10×100=0.8×1000=800です。"
+    },
+    {
+      "id": "g5q01-p026",
+      "question": "2400を1/10にして、さらに1/100にした数はいくつですか。",
+      "answer": "2.4",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "1/10と1/100を合わせると1/1000になります。",
+      "explanation": "2400÷10÷100=2400÷1000=2.4です。"
+    },
+    {
+      "id": "g5q01-p027",
+      "question": "9.25を100倍した数はいくつですか。",
+      "answer": "925",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "小数点を右に2つ動かします。",
+      "explanation": "9.25の小数点を右に2つ動かすと925になります。"
+    },
+    {
+      "id": "g5q01-p028",
+      "question": "17を1/100にした数はいくつですか。",
+      "answer": "0.17",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "小数点を左に2つ動かします。",
+      "explanation": "17の小数点を左に2つ動かすと0.17になります。"
+    },
+    {
+      "id": "g5q01-p029",
+      "question": "0.003を10000倍した数はいくつですか。",
+      "answer": "30",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "小数点を右に4つ動かします。",
+      "explanation": "0.003の小数点を右に4つ動かすと30になります。"
+    },
+    {
+      "id": "g5q01-p030",
+      "question": "75000を1/10000にした数はいくつですか。",
+      "answer": "7.5",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "小数点を左に4つ動かします。",
+      "explanation": "75000の小数点を左に4つ動かすと7.5になります。"
+    },
+    {
+      "id": "g5q01-p031",
+      "question": "リボンの長さは2.4mです。この長さは何cmですか。",
+      "answer": "240",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "1m=100cmです。mをcmにするには100倍します。",
+      "explanation": "2.4×100=240より、240cmです。"
+    },
+    {
+      "id": "g5q01-p032",
+      "question": "ロープの長さは350cmです。この長さは何mですか。",
+      "answer": "3.5",
+      "unit": "m",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "1m=100cmです。cmをmにするには1/100にします。",
+      "explanation": "350÷100=3.5より、3.5mです。"
+    },
+    {
+      "id": "g5q01-p033",
+      "question": "机の重さは8.5kgです。この重さは何gですか。",
+      "answer": "8500",
+      "unit": "g",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "1kg=1000gです。kgをgにするには1000倍します。",
+      "explanation": "8.5×1000=8500より、8500gです。"
+    },
+    {
+      "id": "g5q01-p034",
+      "question": "砂糖の重さは2400gです。この重さは何kgですか。",
+      "answer": "2.4",
+      "unit": "kg",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "1kg=1000gです。gをkgにするには1/1000にします。",
+      "explanation": "2400÷1000=2.4より、2.4kgです。"
+    },
+    {
+      "id": "g5q01-p035",
+      "question": "水が0.6L入っています。これは何mLですか。",
+      "answer": "600",
+      "unit": "mL",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "1L=1000mLです。LをmLにするには1000倍します。",
+      "explanation": "0.6×1000=600より、600mLです。"
+    },
+    {
+      "id": "g5q01-p036",
+      "question": "牛乳が750mL入っています。これは何Lですか。",
+      "answer": "0.75",
+      "unit": "L",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "1L=1000mLです。mLをLにするには1/1000にします。",
+      "explanation": "750÷1000=0.75より、0.75Lです。"
+    },
+    {
+      "id": "g5q01-p037",
+      "question": "道の長さは1.8kmです。この長さは何mですか。",
+      "answer": "1800",
+      "unit": "m",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "1km=1000mです。kmをmにするには1000倍します。",
+      "explanation": "1.8×1000=1800より、1800mです。"
+    },
+    {
+      "id": "g5q01-p038",
+      "question": "ジョギングコースは5200mです。この長さは何kmですか。",
+      "answer": "5.2",
+      "unit": "km",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "1km=1000mです。mをkmにするには1/1000にします。",
+      "explanation": "5200÷1000=5.2より、5.2kmです。"
+    },
+    {
+      "id": "g5q01-p039",
+      "question": "テープの長さは4.7mです。これは何mmですか。",
+      "answer": "4700",
+      "unit": "mm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "1m=1000mmです。mをmmにするには1000倍します。",
+      "explanation": "4.7×1000=4700より、4700mmです。"
+    },
+    {
+      "id": "g5q01-p040",
+      "question": "鉛筆の長さは180mmです。これは何cmですか。",
+      "answer": "18",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "1cm=10mmです。mmをcmにするには1/10にします。",
+      "explanation": "180÷10=18より、18cmです。"
+    },
+    {
+      "id": "g5q01-p041",
+      "question": "りんごの重さは0.28kgです。これは何gですか。",
+      "answer": "280",
+      "unit": "g",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "1kg=1000gです。kgをgにするには1000倍します。",
+      "explanation": "0.28×1000=280より、280gです。"
+    },
+    {
+      "id": "g5q01-p042",
+      "question": "トラック1台の重さは3.5tです。これは何kgですか。",
+      "answer": "3500",
+      "unit": "kg",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "1t=1000kgです。tをkgにするには1000倍します。",
+      "explanation": "3.5×1000=3500より、3500kgです。"
+    },
+    {
+      "id": "g5q01-p043",
+      "question": "車の重さは1200kgです。これは何tですか。",
+      "answer": "1.2",
+      "unit": "t",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "1t=1000kgです。kgをtにするには1/1000にします。",
+      "explanation": "1200÷1000=1.2より、1.2tです。"
+    },
+    {
+      "id": "g5q01-p044",
+      "question": "正方形の1辺の長さが2.5cmです。この正方形の周りの長さは何cmですか。",
+      "answer": "10",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "正方形の周りの長さは1辺の長さ×4です。",
+      "explanation": "2.5×4=10より、10cmです。"
+    },
+    {
+      "id": "g5q01-p045",
+      "question": "正方形の周りの長さが36cmです。1辺の長さは何cmですか。",
+      "answer": "9",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "周りの長さ÷4=1辺の長さです。",
+      "explanation": "36÷4=9より、9cmです。"
+    },
+    {
+      "id": "g5q01-p046",
+      "question": "長さ15.6mのロープを10等分しました。1本分の長さは何mですか。",
+      "answer": "1.56",
+      "unit": "m",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "全体の長さを10で割ります。",
+      "explanation": "15.6÷10=1.56より、1.56mです。"
+    },
+    {
+      "id": "g5q01-p047",
+      "question": "長さ3.2mのリボンがあります。同じ長さのリボンを10本つなげると、何mになりますか。",
+      "answer": "32",
+      "unit": "m",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "1本の長さを10倍します。",
+      "explanation": "3.2×10=32より、32mです。"
+    },
+    {
+      "id": "g5q01-p048",
+      "question": "水が8.4L入っています。これを100mLのコップに分けると何杯分になりますか。",
+      "answer": "84",
+      "unit": "杯",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "8.4Lは8400mLです。8400÷100を計算します。",
+      "explanation": "8.4L=8400mLで、8400÷100=84より、84杯分です。"
+    },
+    {
+      "id": "g5q01-p049",
+      "question": "ある数を10倍すると450になります。もとの数はいくつですか。",
+      "answer": "45",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "450を1/10にします。",
+      "explanation": "450÷10=45より、もとの数は45です。"
+    },
+    {
+      "id": "g5q01-p050",
+      "question": "ある数を1/10にすると3.8になります。もとの数はいくつですか。",
+      "answer": "38",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "3.8を10倍します。",
+      "explanation": "3.8×10=38より、もとの数は38です。"
+    },
+    {
+      "id": "g5q01-p051",
+      "question": "ある数を100倍すると6200になります。もとの数はいくつですか。",
+      "answer": "62",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "6200を1/100にします。",
+      "explanation": "6200÷100=62より、もとの数は62です。"
+    },
+    {
+      "id": "g5q01-p052",
+      "question": "ある数を1/100にすると0.75になります。もとの数はいくつですか。",
+      "answer": "75",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "0.75を100倍します。",
+      "explanation": "0.75×100=75より、もとの数は75です。"
+    },
+    {
+      "id": "g5q01-p053",
+      "question": "面積が2.6㎡の部屋があります。これは何c㎡ですか。",
+      "answer": "26000",
+      "unit": "c㎡",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "1㎡=10000c㎡です。㎡をc㎡にするには10000倍します。",
+      "explanation": "2.6×10000=26000より、26000c㎡です。"
+    },
+    {
+      "id": "g5q01-p054",
+      "question": "土地の面積は45000c㎡です。これは何㎡ですか。",
+      "answer": "4.5",
+      "unit": "㎡",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "1㎡=10000c㎡です。c㎡を㎡にするには1/10000にします。",
+      "explanation": "45000÷10000=4.5より、4.5㎡です。"
+    },
+    {
+      "id": "g5q01-p055",
+      "question": "ある数を1000倍すると8300になります。もとの数はいくつですか。",
+      "answer": "8.3",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "8300を1/1000にします。",
+      "explanation": "8300÷1000=8.3より、もとの数は8.3です。"
+    },
+    {
+      "id": "g5q01-p056",
+      "question": "次の数を小さい順に並べましょう。3.5、35、0.35、350",
+      "answer": "0.35、3.5、35、350",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "小数点の位置に注意して大きさを比べます。",
+      "explanation": "0.35<3.5<35<350の順です。"
+    },
+    {
+      "id": "g5q01-p057",
+      "question": "次の数を大きい順に並べましょう。0.8、80、8、0.08",
+      "answer": "80、8、0.8、0.08",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "小数点の位置に注意して大きさを比べます。",
+      "explanation": "80>8>0.8>0.08の順です。"
+    },
+    {
+      "id": "g5q01-p058",
+      "question": "□に当てはまる数を答えましょう。4.7×10=□",
+      "answer": "47",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "4.7を10倍します。",
+      "explanation": "4.7×10=47です。"
+    },
+    {
+      "id": "g5q01-p059",
+      "question": "□に当てはまる数を答えましょう。□÷10=5.2",
+      "answer": "52",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "5.2を10倍します。",
+      "explanation": "52÷10=5.2なので、□=52です。"
+    },
+    {
+      "id": "g5q01-p060",
+      "question": "□に当てはまる数を答えましょう。0.6×□=60",
+      "answer": "100",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "0.6を何倍すると60になるか考えます。",
+      "explanation": "0.6×100=60なので、□=100です。"
+    },
+    {
+      "id": "g5q01-p061",
+      "question": "□に当てはまる数を答えましょう。320÷□=3.2",
+      "answer": "100",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "320を何で割ると3.2になるか考えます。",
+      "explanation": "320÷100=3.2なので、□=100です。"
+    },
+    {
+      "id": "g5q01-p062",
+      "question": "1.5を10倍した数と、15を□倍した数が等しくなります。□に入る数を答えましょう。",
+      "answer": "1",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "1.5×10=15です。",
+      "explanation": "1.5×10=15で、15×1=15なので、□=1です。"
+    },
+    {
+      "id": "g5q01-p063",
+      "question": "4を□倍すると400になります。□に入る数を答えましょう。",
+      "answer": "100",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "4を何倍すると400になるか考えます。",
+      "explanation": "4×100=400なので、□=100です。"
+    },
+    {
+      "id": "g5q01-p064",
+      "question": "7200を□で割ると7.2になります。□に入る数を答えましょう。",
+      "answer": "1000",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "7200を何で割ると7.2になるか考えます。",
+      "explanation": "7200÷1000=7.2なので、□=1000です。"
+    },
+    {
+      "id": "g5q01-p065",
+      "question": "次の中で、一番大きい数はどれですか。ア:0.45  イ:4.5  ウ:0.045  エ:45",
+      "answer": "エ",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "小数点の位置に注意して大きさを比べます。",
+      "explanation": "45が一番大きいので、答えはエです。"
+    },
+    {
+      "id": "g5q01-p066",
+      "question": "次の中で、一番小さい数はどれですか。ア:1.8  イ:0.18  ウ:18  エ:0.018",
+      "answer": "エ",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "小数点の位置に注意して大きさを比べます。",
+      "explanation": "0.018が一番小さいので、答えはエです。"
+    },
+    {
+      "id": "g5q01-p067",
+      "question": "ある数を10倍すると、1/100にした数より594大きくなります。ある数を求めましょう。",
+      "answer": "6",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "ある数をxとすると、10x-x÷100=594です。",
+      "explanation": "10x-0.01x=594、9.99x=594、x=6です。"
+    },
+    {
+      "id": "g5q01-p068",
+      "question": "2.5を□倍して、さらに□倍すると250になります。□に入る数を答えましょう。",
+      "answer": "10",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "2.5×□×□=250です。",
+      "explanation": "2.5×10×10=250なので、□=10です。"
+    },
+    {
+      "id": "g5q01-p069",
+      "question": "3600を□で割って、さらに□で割ると3.6になります。□に入る数を答えましょう。",
+      "answer": "10",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "3600÷□÷□=3.6です。",
+      "explanation": "3600÷10÷10=3.6なので、□=10です。"
+    },
+    {
+      "id": "g5q01-p070",
+      "question": "0.05を□倍すると500になります。□に入る数を答えましょう。",
+      "answer": "10000",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "0.05を何倍すると500になるか考えます。",
+      "explanation": "0.05×10000=500なので、□=10000です。"
+    }
+  ]
+}

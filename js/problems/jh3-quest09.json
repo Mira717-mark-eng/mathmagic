@@ -1,0 +1,1016 @@
+{
+  "questId": "jh3-quest09",
+  "unitId": "jh3_similarity",
+  "questName": "相似な図形",
+  "grade": "中3",
+  "description": "相似の性質をマスター",
+  "difficulty": "standard",
+  "problemCount": 100,
+  "problemTypes": {
+    "calculation": 50,
+    "wordProblem": 35,
+    "puzzle": 15
+  },
+  "problems": [
+    {
+      "id": 1,
+      "question": "2つの三角形が相似で、相似比が 2:3 です。小さい三角形の1辺が8cmのとき、対応する大きい三角形の辺の長さを求めなさい。",
+      "answer": "12",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "8 : x = 2 : 3",
+      "explanation": "8 : x = 2 : 3 より 2x = 24 したがって x = 12cm"
+    },
+    {
+      "id": 2,
+      "question": "2つの三角形が相似で、相似比が 3:5 です。小さい三角形の1辺が9cmのとき、対応する大きい三角形の辺の長さを求めなさい。",
+      "answer": "15",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "9 : x = 3 : 5",
+      "explanation": "9 : x = 3 : 5 より 3x = 45 したがって x = 15cm"
+    },
+    {
+      "id": 3,
+      "question": "2つの三角形が相似で、相似比が 4:7 です。大きい三角形の1辺が21cmのとき、対応する小さい三角形の辺の長さを求めなさい。",
+      "answer": "12",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "x : 21 = 4 : 7",
+      "explanation": "x : 21 = 4 : 7 より 7x = 84 したがって x = 12cm"
+    },
+    {
+      "id": 4,
+      "question": "2つの三角形が相似で、相似比が 2:5 です。小さい三角形の1辺が6cmのとき、対応する大きい三角形の辺の長さを求めなさい。",
+      "answer": "15",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "6 : x = 2 : 5",
+      "explanation": "6 : x = 2 : 5 より 2x = 30 したがって x = 15cm"
+    },
+    {
+      "id": 5,
+      "question": "2つの三角形が相似で、相似比が 3:4 です。小さい三角形の1辺が12cmのとき、対応する大きい三角形の辺の長さを求めなさい。",
+      "answer": "16",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "12 : x = 3 : 4",
+      "explanation": "12 : x = 3 : 4 より 3x = 48 したがって x = 16cm"
+    },
+    {
+      "id": 6,
+      "question": "2つの三角形が相似で、対応する辺の長さが 8cm と 12cm です。相似比を求めなさい。",
+      "answer": "2:3",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "8 : 12 を簡単にします",
+      "explanation": "8 : 12 = 2 : 3"
+    },
+    {
+      "id": 7,
+      "question": "2つの三角形が相似で、対応する辺の長さが 15cm と 25cm です。相似比を求めなさい。",
+      "answer": "3:5",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "15 : 25 を簡単にします",
+      "explanation": "15 : 25 = 3 : 5"
+    },
+    {
+      "id": 8,
+      "question": "2つの三角形が相似で、対応する辺の長さが 6cm と 10cm です。相似比を求めなさい。",
+      "answer": "3:5",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "6 : 10 を簡単にします",
+      "explanation": "6 : 10 = 3 : 5"
+    },
+    {
+      "id": 9,
+      "question": "2つの三角形が相似で、相似比が 1:2 です。小さい三角形の周の長さが18cmのとき、大きい三角形の周の長さを求めなさい。",
+      "answer": "36",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "周の長さの比も相似比と同じ",
+      "explanation": "18 : x = 1 : 2 より x = 36cm"
+    },
+    {
+      "id": 10,
+      "question": "2つの三角形が相似で、相似比が 2:3 です。小さい三角形の周の長さが24cmのとき、大きい三角形の周の長さを求めなさい。",
+      "answer": "36",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "周の長さの比も相似比と同じ",
+      "explanation": "24 : x = 2 : 3 より 2x = 72 したがって x = 36cm"
+    },
+    {
+      "id": 11,
+      "question": "2つの三角形が相似で、相似比が 1:3 です。小さい三角形の面積が4cm²のとき、大きい三角形の面積を求めなさい。",
+      "answer": "36",
+      "unit": "cm²",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "面積の比は相似比の2乗",
+      "explanation": "面積の比 = 1² : 3² = 1 : 9 より 4 : x = 1 : 9 したがって x = 36cm²"
+    },
+    {
+      "id": 12,
+      "question": "2つの三角形が相似で、相似比が 2:5 です。小さい三角形の面積が8cm²のとき、大きい三角形の面積を求めなさい。",
+      "answer": "50",
+      "unit": "cm²",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "面積の比は相似比の2乗",
+      "explanation": "面積の比 = 2² : 5² = 4 : 25 より 8 : x = 4 : 25 したがって 4x = 200、x = 50cm²"
+    },
+    {
+      "id": 13,
+      "question": "2つの三角形が相似で、相似比が 3:4 です。小さい三角形の面積が18cm²のとき、大きい三角形の面積を求めなさい。",
+      "answer": "32",
+      "unit": "cm²",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "面積の比は相似比の2乗",
+      "explanation": "面積の比 = 3² : 4² = 9 : 16 より 18 : x = 9 : 16 したがって 9x = 288、x = 32cm²"
+    },
+    {
+      "id": 14,
+      "question": "2つの三角形が相似で、相似比が 1:4 です。大きい三角形の面積が64cm²のとき、小さい三角形の面積を求めなさい。",
+      "answer": "4",
+      "unit": "cm²",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "面積の比は 1 : 16",
+      "explanation": "面積の比 = 1² : 4² = 1 : 16 より x : 64 = 1 : 16 したがって 16x = 64、x = 4cm²"
+    },
+    {
+      "id": 15,
+      "question": "2つの三角形が相似で、相似比が 2:3 です。大きい三角形の面積が45cm²のとき、小さい三角形の面積を求めなさい。",
+      "answer": "20",
+      "unit": "cm²",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "面積の比は 4 : 9",
+      "explanation": "面積の比 = 2² : 3² = 4 : 9 より x : 45 = 4 : 9 したがって 9x = 180、x = 20cm²"
+    },
+    {
+      "id": 16,
+      "question": "2つの立体が相似で、相似比が 1:2 です。小さい立体の体積が5cm³のとき、大きい立体の体積を求めなさい。",
+      "answer": "40",
+      "unit": "cm³",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "体積の比は相似比の3乗",
+      "explanation": "体積の比 = 1³ : 2³ = 1 : 8 より 5 : x = 1 : 8 したがって x = 40cm³"
+    },
+    {
+      "id": 17,
+      "question": "2つの立体が相似で、相似比が 1:3 です。小さい立体の体積が4cm³のとき、大きい立体の体積を求めなさい。",
+      "answer": "108",
+      "unit": "cm³",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "体積の比は相似比の3乗",
+      "explanation": "体積の比 = 1³ : 3³ = 1 : 27 より 4 : x = 1 : 27 したがって x = 108cm³"
+    },
+    {
+      "id": 18,
+      "question": "2つの立体が相似で、相似比が 2:3 です。小さい立体の体積が16cm³のとき、大きい立体の体積を求めなさい。",
+      "answer": "54",
+      "unit": "cm³",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "体積の比は 8 : 27",
+      "explanation": "体積の比 = 2³ : 3³ = 8 : 27 より 16 : x = 8 : 27 したがって 8x = 432、x = 54cm³"
+    },
+    {
+      "id": 19,
+      "question": "2つの立体が相似で、相似比が 3:5 です。大きい立体の体積が250cm³のとき、小さい立体の体積を求めなさい。",
+      "answer": "54",
+      "unit": "cm³",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "体積の比は 27 : 125",
+      "explanation": "体積の比 = 3³ : 5³ = 27 : 125 より x : 250 = 27 : 125 したがって 125x = 6750、x = 54cm³"
+    },
+    {
+      "id": 20,
+      "question": "2つの三角形が相似で、対応する辺が 4cm と 6cm です。小さい三角形の面積が12cm²のとき、大きい三角形の面積を求めなさい。",
+      "answer": "27",
+      "unit": "cm²",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "相似比は 2 : 3、面積の比は 4 : 9",
+      "explanation": "相似比 = 2 : 3。面積の比 = 4 : 9 より 12 : x = 4 : 9 したがって 4x = 108、x = 27cm²"
+    },
+    {
+      "id": 21,
+      "question": "2つの三角形が相似で、対応する辺が 5cm と 8cm です。相似比を最も簡単な整数の比で表しなさい。",
+      "answer": "5:8",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "5 : 8 はすでに簡単",
+      "explanation": "5 : 8（これ以上簡単にできない）"
+    },
+    {
+      "id": 22,
+      "question": "2つの三角形が相似で、相似比が 4:5 です。小さい三角形の1辺が20cmのとき、対応する大きい三角形の辺の長さを求めなさい。",
+      "answer": "25",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "20 : x = 4 : 5",
+      "explanation": "20 : x = 4 : 5 より 4x = 100 したがって x = 25cm"
+    },
+    {
+      "id": 23,
+      "question": "2つの三角形が相似で、相似比が 3:7 です。大きい三角形の1辺が35cmのとき、対応する小さい三角形の辺の長さを求めなさい。",
+      "answer": "15",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "x : 35 = 3 : 7",
+      "explanation": "x : 35 = 3 : 7 より 7x = 105 したがって x = 15cm"
+    },
+    {
+      "id": 24,
+      "question": "2つの三角形が相似で、対応する辺が 9cm と 15cm です。小さい三角形の面積が27cm²のとき、大きい三角形の面積を求めなさい。",
+      "answer": "75",
+      "unit": "cm²",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "相似比は 3 : 5、面積の比は 9 : 25",
+      "explanation": "相似比 = 3 : 5。面積の比 = 9 : 25 より 27 : x = 9 : 25 したがって 9x = 675、x = 75cm²"
+    },
+    {
+      "id": 25,
+      "question": "2つの立体が相似で、相似比が 2:5 です。小さい立体の表面積が24cm²のとき、大きい立体の表面積を求めなさい。",
+      "answer": "150",
+      "unit": "cm²",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "表面積の比は相似比の2乗",
+      "explanation": "表面積の比 = 2² : 5² = 4 : 25 より 24 : x = 4 : 25 したがって 4x = 600、x = 150cm²"
+    },
+    {
+      "id": 26,
+      "question": "2つの立体が相似で、相似比が 3:4 です。小さい立体の表面積が36cm²のとき、大きい立体の表面積を求めなさい。",
+      "answer": "64",
+      "unit": "cm²",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "表面積の比は 9 : 16",
+      "explanation": "表面積の比 = 3² : 4² = 9 : 16 より 36 : x = 9 : 16 したがって 9x = 576、x = 64cm²"
+    },
+    {
+      "id": 27,
+      "question": "2つの立体が相似で、相似比が 1:4 です。大きい立体の体積が512cm³のとき、小さい立体の体積を求めなさい。",
+      "answer": "8",
+      "unit": "cm³",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "体積の比は 1 : 64",
+      "explanation": "体積の比 = 1³ : 4³ = 1 : 64 より x : 512 = 1 : 64 したがって 64x = 512、x = 8cm³"
+    },
+    {
+      "id": 28,
+      "question": "2つの三角形が相似で、相似比が 5:6 です。小さい三角形の周の長さが30cmのとき、大きい三角形の周の長さを求めなさい。",
+      "answer": "36",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "30 : x = 5 : 6",
+      "explanation": "30 : x = 5 : 6 より 5x = 180 したがって x = 36cm"
+    },
+    {
+      "id": 29,
+      "question": "2つの三角形が相似で、相似比が 4:9 です。小さい三角形の面積が32cm²のとき、大きい三角形の面積を求めなさい。",
+      "answer": "162",
+      "unit": "cm²",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "面積の比は 16 : 81",
+      "explanation": "面積の比 = 4² : 9² = 16 : 81 より 32 : x = 16 : 81 したがって 16x = 2592、x = 162cm²"
+    },
+    {
+      "id": 30,
+      "question": "2つの立体が相似で、相似比が 2:7 です。小さい立体の体積が24cm³のとき、大きい立体の体積を求めなさい。",
+      "answer": "1029",
+      "unit": "cm³",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "体積の比は 8 : 343",
+      "explanation": "体積の比 = 2³ : 7³ = 8 : 343 より 24 : x = 8 : 343 したがって 8x = 8232、x = 1029cm³"
+    },
+    {
+      "id": 31,
+      "question": "△ABC と △DEF が相似で、AB = 6cm、BC = 8cm、DE = 9cm です。EF の長さを求めなさい。",
+      "answer": "12",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "相似比は AB : DE = 6 : 9 = 2 : 3",
+      "explanation": "相似比 = 2 : 3 より BC : EF = 2 : 3。8 : EF = 2 : 3 より 2EF = 24 したがって EF = 12cm"
+    },
+    {
+      "id": 32,
+      "question": "△ABC と △DEF が相似で、AB = 4cm、BC = 6cm、CA = 8cm、DE = 6cm です。EF の長さを求めなさい。",
+      "answer": "9",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "相似比は 4 : 6 = 2 : 3",
+      "explanation": "相似比 = 2 : 3 より BC : EF = 2 : 3。6 : EF = 2 : 3 より 2EF = 18 したがって EF = 9cm"
+    },
+    {
+      "id": 33,
+      "question": "△ABC と △DEF が相似で、AB = 5cm、DE = 15cm です。△ABC の面積が10cm²のとき、△DEF の面積を求めなさい。",
+      "answer": "90",
+      "unit": "cm²",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "相似比は 1 : 3、面積の比は 1 : 9",
+      "explanation": "相似比 = 1 : 3。面積の比 = 1 : 9 より 10 : x = 1 : 9 したがって x = 90cm²"
+    },
+    {
+      "id": 34,
+      "question": "△ABC と △DEF が相似で、AB = 8cm、DE = 12cm です。△ABC の周の長さが24cmのとき、△DEF の周の長さを求めなさい。",
+      "answer": "36",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "相似比は 2 : 3",
+      "explanation": "相似比 = 2 : 3 より 24 : x = 2 : 3 したがって 2x = 72、x = 36cm"
+    },
+    {
+      "id": 35,
+      "question": "△ABC と △DEF が相似で、AB = 10cm、DE = 15cm です。△DEF の面積が135cm²のとき、△ABC の面積を求めなさい。",
+      "answer": "60",
+      "unit": "cm²",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "相似比は 2 : 3、面積の比は 4 : 9",
+      "explanation": "相似比 = 2 : 3。面積の比 = 4 : 9 より x : 135 = 4 : 9 したがって 9x = 540、x = 60cm²"
+    },
+    {
+      "id": 36,
+      "question": "△ABC で、辺 BC の中点を M とします。AM と BC は垂直です。AB = 10cm、BC = 12cm のとき、AM の長さを求めなさい。",
+      "answer": "8",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "三平方の定理を使います。BM = 6cm",
+      "explanation": "BM = 6cm。△ABM で AM² + 6² = 10² より AM² = 100 - 36 = 64 したがって AM = 8cm"
+    },
+    {
+      "id": 37,
+      "question": "2つの正方形が相似で、1辺の長さが 4cm と 7cm です。小さい正方形の面積を求めなさい。",
+      "answer": "16",
+      "unit": "cm²",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "面積 = 4²",
+      "explanation": "面積 = 4 × 4 = 16cm²"
+    },
+    {
+      "id": 38,
+      "question": "2つの正方形が相似で、1辺の長さが 4cm と 7cm です。大きい正方形の面積を求めなさい。",
+      "answer": "49",
+      "unit": "cm²",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "面積 = 7²",
+      "explanation": "面積 = 7 × 7 = 49cm²"
+    },
+    {
+      "id": 39,
+      "question": "2つの正方形が相似で、1辺の長さが 4cm と 7cm です。面積の比を求めなさい。",
+      "answer": "16:49",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "面積の比 = 4² : 7²",
+      "explanation": "面積の比 = 16 : 49"
+    },
+    {
+      "id": 40,
+      "question": "2つの立方体が相似で、1辺の長さが 3cm と 5cm です。小さい立方体の体積を求めなさい。",
+      "answer": "27",
+      "unit": "cm³",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "体積 = 3³",
+      "explanation": "体積 = 3 × 3 × 3 = 27cm³"
+    },
+    {
+      "id": 41,
+      "question": "2つの立方体が相似で、1辺の長さが 3cm と 5cm です。大きい立方体の体積を求めなさい。",
+      "answer": "125",
+      "unit": "cm³",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "体積 = 5³",
+      "explanation": "体積 = 5 × 5 × 5 = 125cm³"
+    },
+    {
+      "id": 42,
+      "question": "2つの立方体が相似で、1辺の長さが 3cm と 5cm です。体積の比を求めなさい。",
+      "answer": "27:125",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "体積の比 = 3³ : 5³",
+      "explanation": "体積の比 = 27 : 125"
+    },
+    {
+      "id": 43,
+      "question": "△ABC と △DEF が相似で、AB = 7cm、BC = 9cm、CA = 11cm、DE = 14cm です。△DEF の周の長さを求めなさい。",
+      "answer": "54",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "相似比は 1 : 2",
+      "explanation": "相似比 = 1 : 2。△ABC の周 = 27cm より △DEF の周 = 54cm"
+    },
+    {
+      "id": 44,
+      "question": "2つの円が相似で、半径が 3cm と 8cm です。小さい円の面積を求めなさい（円周率はπとする）。",
+      "answer": "9π",
+      "unit": "cm²",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "面積 = π × 3²",
+      "explanation": "面積 = π × 3² = 9πcm²"
+    },
+    {
+      "id": 45,
+      "question": "2つの円が相似で、半径が 3cm と 8cm です。面積の比を求めなさい。",
+      "answer": "9:64",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "面積の比 = 3² : 8²",
+      "explanation": "面積の比 = 9 : 64"
+    },
+    {
+      "id": 46,
+      "question": "2つの球が相似で、半径が 2cm と 5cm です。小さい球の体積を求めなさい（円周率はπとする）。",
+      "answer": "(32/3)π",
+      "unit": "cm³",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "体積 = (4/3)π × 2³",
+      "explanation": "体積 = (4/3)π × 8 = (32/3)πcm³"
+    },
+    {
+      "id": 47,
+      "question": "2つの球が相似で、半径が 2cm と 5cm です。体積の比を求めなさい。",
+      "answer": "8:125",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "体積の比 = 2³ : 5³",
+      "explanation": "体積の比 = 8 : 125"
+    },
+    {
+      "id": 48,
+      "question": "△ABC と △DEF が相似で、相似比が 3:5 です。△ABC の面積が27cm²のとき、△DEF の面積を求めなさい。",
+      "answer": "75",
+      "unit": "cm²",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "面積の比は 9 : 25",
+      "explanation": "面積の比 = 9 : 25 より 27 : x = 9 : 25 したがって 9x = 675、x = 75cm²"
+    },
+    {
+      "id": 49,
+      "question": "2つの円柱が相似で、底面の半径が 4cm と 6cm です。高さの比を求めなさい。",
+      "answer": "2:3",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "相似比と同じ",
+      "explanation": "相似比 = 2 : 3 なので、高さの比も 2 : 3"
+    },
+    {
+      "id": 50,
+      "question": "2つの円柱が相似で、底面の半径が 4cm と 6cm、小さい円柱の高さが 10cm です。大きい円柱の高さを求めなさい。",
+      "answer": "15",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "10 : x = 2 : 3",
+      "explanation": "10 : x = 2 : 3 より 2x = 30 したがって x = 15cm"
+    },
+    {
+      "id": 51,
+      "question": "身長160cmの人が影の長さ80cmになるとき、影の長さが120cmになる建物の高さを求めなさい。",
+      "answer": "240",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "160 : 80 = x : 120",
+      "explanation": "160 : 80 = x : 120 より 80x = 19200 したがって x = 240cm"
+    },
+    {
+      "id": 52,
+      "question": "身長150cmの人が影の長さ100cmになるとき、影の長さが200cmになる建物の高さを求めなさい。",
+      "answer": "300",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "150 : 100 = x : 200",
+      "explanation": "150 : 100 = x : 200 より 100x = 30000 したがって x = 300cm"
+    },
+    {
+      "id": 53,
+      "question": "身長170cmの人の影の長さが85cmのとき、高さ340cmの電柱の影の長さを求めなさい。",
+      "answer": "170",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "170 : 85 = 340 : x",
+      "explanation": "170 : 85 = 340 : x より 170x = 28900 したがって x = 170cm"
+    },
+    {
+      "id": 54,
+      "question": "実際の距離が100kmの2地点間が、地図上で5cmになっています。地図上で8cmの距離は、実際には何kmですか。",
+      "answer": "160",
+      "unit": "km",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "5 : 100 = 8 : x",
+      "explanation": "5 : 100 = 8 : x より 5x = 800 したがって x = 160km"
+    },
+    {
+      "id": 55,
+      "question": "実際の距離が50kmの2地点間が、地図上で2cmになっています。地図上で7cmの距離は、実際には何kmですか。",
+      "answer": "175",
+      "unit": "km",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "2 : 50 = 7 : x",
+      "explanation": "2 : 50 = 7 : x より 2x = 350 したがって x = 175km"
+    },
+    {
+      "id": 56,
+      "question": "実際の長さが30mの建物が、図面上で6cmになっています。図面上で9cmの距離は、実際には何mですか。",
+      "answer": "45",
+      "unit": "m",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "6 : 30 = 9 : x",
+      "explanation": "6 : 30 = 9 : x より 6x = 270 したがって x = 45m"
+    },
+    {
+      "id": 57,
+      "question": "身長180cmの人が影の長さ120cmになるとき、高さ450cmの建物の影の長さを求めなさい。",
+      "answer": "300",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "180 : 120 = 450 : x",
+      "explanation": "180 : 120 = 450 : x より 180x = 54000 したがって x = 300cm"
+    },
+    {
+      "id": 58,
+      "question": "ある三角形の模型を作ります。実物の辺の長さが 15m、20m、25m のとき、模型の縮尺を 1:100 とすると、模型の最も長い辺は何cmですか。",
+      "answer": "25",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "2500cm の 1/100",
+      "explanation": "25m = 2500cm。2500 × (1/100) = 25cm"
+    },
+    {
+      "id": 59,
+      "question": "縮尺 1:500 の地図で、2地点間の距離が12cmです。実際の距離は何mですか。",
+      "answer": "60",
+      "unit": "m",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "12cm × 500 = 6000cm = 60m",
+      "explanation": "12 × 500 = 6000cm = 60m"
+    },
+    {
+      "id": 60,
+      "question": "縮尺 1:2000 の地図で、実際の距離が800mの2地点は、地図上で何cmですか。",
+      "answer": "40",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "80000cm ÷ 2000 = 40cm",
+      "explanation": "800m = 80000cm。80000 ÷ 2000 = 40cm"
+    },
+    {
+      "id": 61,
+      "question": "ある建物の模型を 1:50 の縮尺で作ります。実物の高さが25mのとき、模型の高さは何cmですか。",
+      "answer": "50",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "2500cm ÷ 50 = 50cm",
+      "explanation": "25m = 2500cm。2500 ÷ 50 = 50cm"
+    },
+    {
+      "id": 62,
+      "question": "身長165cmの人が影の長さ110cmになるとき、影の長さが220cmになる木の高さを求めなさい。",
+      "answer": "330",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "165 : 110 = x : 220",
+      "explanation": "165 : 110 = x : 220 より 110x = 36300 したがって x = 330cm"
+    },
+    {
+      "id": 63,
+      "question": "縮尺 1:1000 の地図で、ある公園の面積が20cm²です。実際の公園の面積は何m²ですか。",
+      "answer": "20000",
+      "unit": "m²",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "面積の比は 1 : 1000000",
+      "explanation": "20cm² × 1000000 = 20000000cm² = 20000m²"
+    },
+    {
+      "id": 64,
+      "question": "実際の面積が5000m²の土地が、縮尺 1:500 の地図上で何cm²になりますか。",
+      "answer": "200",
+      "unit": "cm²",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "5000m² = 50000000cm²、比は 1 : 250000",
+      "explanation": "5000m² = 50000000cm²。50000000 ÷ 250000 = 200cm²"
+    },
+    {
+      "id": 65,
+      "question": "身長155cmの人が影の長さ93cmになるとき、高さ310cmの建物の影の長さを求めなさい。",
+      "answer": "186",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "155 : 93 = 310 : x",
+      "explanation": "155 : 93 = 310 : x より 155x = 28830 したがって x = 186cm"
+    },
+    {
+      "id": 66,
+      "question": "縮尺 1:200 の模型で、模型の体積が125cm³です。実物の体積は何m³ですか。",
+      "answer": "1",
+      "unit": "m³",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "体積の比は 1 : 8000000",
+      "explanation": "125cm³ × 8000000 = 1000000000cm³ = 1m³"
+    },
+    {
+      "id": 67,
+      "question": "実際の距離が80kmの2地点間が、地図上で4cmになっています。この地図の縮尺を求めなさい。",
+      "answer": "1:2000000",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "80km = 8000000cm",
+      "explanation": "80km = 8000000cm。4 : 8000000 = 1 : 2000000"
+    },
+    {
+      "id": 68,
+      "question": "身長175cmの人の影の長さが140cmのとき、高さ525cmの建物の影の長さを求めなさい。",
+      "answer": "420",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "175 : 140 = 525 : x",
+      "explanation": "175 : 140 = 525 : x より 175x = 73500 したがって x = 420cm"
+    },
+    {
+      "id": 69,
+      "question": "縮尺 1:5000 の地図で、2地点間の距離が15cmです。実際の距離は何kmですか。",
+      "answer": "0.75",
+      "unit": "km",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "15cm × 5000 = 75000cm = 750m = 0.75km",
+      "explanation": "15 × 5000 = 75000cm = 750m = 0.75km"
+    },
+    {
+      "id": 70,
+      "question": "実物の長さが40mの建物が、縮尺 1:80 の図面上で何cmになりますか。",
+      "answer": "50",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "4000cm ÷ 80 = 50cm",
+      "explanation": "40m = 4000cm。4000 ÷ 80 = 50cm"
+    },
+    {
+      "id": 71,
+      "question": "2つの三角形 ABC と DEF があります。∠A = ∠D、∠B = ∠E のとき、この2つの三角形は相似ですか。",
+      "answer": "はい",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "2組の角がそれぞれ等しい",
+      "explanation": "2組の角がそれぞれ等しいので相似（AA相似）"
+    },
+    {
+      "id": 72,
+      "question": "2つの三角形 ABC と DEF があります。AB:DE = BC:EF = CA:FD のとき、この2つの三角形は相似ですか。",
+      "answer": "はい",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "3組の辺の比がすべて等しい",
+      "explanation": "3組の辺の比がすべて等しいので相似（SSS相似）"
+    },
+    {
+      "id": 73,
+      "question": "2つの三角形 ABC と DEF があります。AB:DE = AC:DF で ∠A = ∠D のとき、この2つの三角形は相似ですか。",
+      "answer": "はい",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "2組の辺の比が等しく、その間の角が等しい",
+      "explanation": "2組の辺の比が等しく、その間の角が等しいので相似（SAS相似）"
+    },
+    {
+      "id": 74,
+      "question": "△ABC で、辺 AB 上に点 D、辺 AC 上に点 E をとり、DE が BC に平行です。AD = 3cm、DB = 6cm、BC = 12cm のとき、DE の長さを求めなさい。",
+      "answer": "4",
+      "unit": "cm",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "△ADE と △ABC が相似",
+      "explanation": "AD : AB = 3 : 9 = 1 : 3 より DE : BC = 1 : 3。DE : 12 = 1 : 3 より DE = 4cm"
+    },
+    {
+      "id": 75,
+      "question": "△ABC で、辺 AB 上に点 D、辺 AC 上に点 E をとり、DE が BC に平行です。AD = 4cm、DB = 8cm、BC = 18cm のとき、DE の長さを求めなさい。",
+      "answer": "6",
+      "unit": "cm",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "△ADE と △ABC が相似",
+      "explanation": "AD : AB = 4 : 12 = 1 : 3 より DE : BC = 1 : 3。DE : 18 = 1 : 3 より DE = 6cm"
+    },
+    {
+      "id": 76,
+      "question": "△ABC で、辺 AB 上に点 D、辺 AC 上に点 E をとり、DE が BC に平行です。AD:DB = 2:3、BC = 15cm のとき、DE の長さを求めなさい。",
+      "answer": "6",
+      "unit": "cm",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "AD : AB = 2 : 5",
+      "explanation": "AD : AB = 2 : 5 より DE : BC = 2 : 5。DE : 15 = 2 : 5 より 5DE = 30 したがって DE = 6cm"
+    },
+    {
+      "id": 77,
+      "question": "△ABC で、辺 AB 上に点 D、辺 AC 上に点 E をとり、DE が BC に平行です。AD:AB = 3:5、BC = 20cm のとき、DE の長さを求めなさい。",
+      "answer": "12",
+      "unit": "cm",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "DE : BC = 3 : 5",
+      "explanation": "DE : BC = 3 : 5 より DE : 20 = 3 : 5 したがって 5DE = 60、DE = 12cm"
+    },
+    {
+      "id": 78,
+      "question": "△ABC で、辺 AB 上に点 D、辺 AC 上に点 E をとり、DE が BC に平行です。AD = 5cm、AB = 15cm、DE = 8cm のとき、BC の長さを求めなさい。",
+      "answer": "24",
+      "unit": "cm",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "AD : AB = 5 : 15 = 1 : 3",
+      "explanation": "AD : AB = 1 : 3 より DE : BC = 1 : 3。8 : BC = 1 : 3 より BC = 24cm"
+    },
+    {
+      "id": 79,
+      "question": "△ABC で、辺 AB 上に点 D、辺 AC 上に点 E をとり、DE が BC に平行です。AD:DB = 1:2、DE = 6cm のとき、BC の長さを求めなさい。",
+      "answer": "18",
+      "unit": "cm",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "AD : AB = 1 : 3",
+      "explanation": "AD : AB = 1 : 3 より DE : BC = 1 : 3。6 : BC = 1 : 3 より BC = 18cm"
+    },
+    {
+      "id": 80,
+      "question": "△ABC で、辺 AB 上に点 D、辺 AC 上に点 E をとり、DE が BC に平行です。AD = 6cm、AB = 10cm、△ADE の面積が18cm²のとき、△ABC の面積を求めなさい。",
+      "answer": "50",
+      "unit": "cm²",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "面積の比は (6:10)² = 36:100 = 9:25",
+      "explanation": "相似比 = 3 : 5。面積の比 = 9 : 25 より 18 : x = 9 : 25 したがって 9x = 450、x = 50cm²"
+    },
+    {
+      "id": 81,
+      "question": "△ABC で、辺 AB の中点を D、辺 AC の中点を E とします。DE と BC は平行です。BC = 14cm のとき、DE の長さを求めなさい。",
+      "answer": "7",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "中点連結定理より DE = BC/2",
+      "explanation": "中点連結定理より DE = BC/2 = 14/2 = 7cm"
+    },
+    {
+      "id": 82,
+      "question": "△ABC で、辺 AB の中点を D、辺 AC の中点を E とします。DE と BC は平行です。DE = 9cm のとき、BC の長さを求めなさい。",
+      "answer": "18",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "中点連結定理より BC = 2 × DE",
+      "explanation": "中点連結定理より BC = 2 × DE = 2 × 9 = 18cm"
+    },
+    {
+      "id": 83,
+      "question": "△ABC で、辺 AB の中点を D、辺 AC の中点を E とします。△ABC の面積が64cm²のとき、△ADE の面積を求めなさい。",
+      "answer": "16",
+      "unit": "cm²",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "相似比 1:2、面積の比 1:4",
+      "explanation": "相似比 = 1 : 2。面積の比 = 1 : 4 より x : 64 = 1 : 4 したがって x = 16cm²"
+    },
+    {
+      "id": 84,
+      "question": "△ABC で、辺 AB 上に点 D、辺 AC 上に点 E をとり、DE が BC に平行です。AD:DB = 3:2、△ABC の面積が75cm²のとき、△ADE の面積を求めなさい。",
+      "answer": "27",
+      "unit": "cm²",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "AD:AB = 3:5、面積の比 9:25",
+      "explanation": "AD : AB = 3 : 5。面積の比 = 9 : 25 より x : 75 = 9 : 25 したがって 25x = 675、x = 27cm²"
+    },
+    {
+      "id": 85,
+      "question": "△ABC で、辺 AB 上に点 D、辺 AC 上に点 E をとり、DE が BC に平行です。AD:AB = 2:5、△ADE の面積が12cm²のとき、△ABC の面積を求めなさい。",
+      "answer": "75",
+      "unit": "cm²",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "面積の比 4:25",
+      "explanation": "面積の比 = 4 : 25 より 12 : x = 4 : 25 したがって 4x = 300、x = 75cm²"
+    },
+    {
+      "id": 86,
+      "question": "△ABC で、辺 BC 上に点 D をとります。AD と BE が点 O で交わり、AD:AO = 5:3 です。BO:OE を求めなさい。ただし、点 E は辺 AC 上にあり、BE と AD は点 O で交わります。",
+      "answer": "情報不足",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "問題設定を再確認",
+      "explanation": "この問題は情報が不足しているため解けません"
+    },
+    {
+      "id": 87,
+      "question": "2つの三角形が相似で、面積の比が 4:9 です。相似比を求めなさい。",
+      "answer": "2:3",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "相似比の2乗が面積の比",
+      "explanation": "面積の比 = 4 : 9 = 2² : 3² より相似比 = 2 : 3"
+    },
+    {
+      "id": 88,
+      "question": "2つの三角形が相似で、面積の比が 9:25 です。相似比を求めなさい。",
+      "answer": "3:5",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "相似比の2乗が面積の比",
+      "explanation": "面積の比 = 9 : 25 = 3² : 5² より相似比 = 3 : 5"
+    },
+    {
+      "id": 89,
+      "question": "2つの立体が相似で、体積の比が 8:27 です。相似比を求めなさい。",
+      "answer": "2:3",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "相似比の3乗が体積の比",
+      "explanation": "体積の比 = 8 : 27 = 2³ : 3³ より相似比 = 2 : 3"
+    },
+    {
+      "id": 90,
+      "question": "2つの立体が相似で、体積の比が 27:125 です。相似比を求めなさい。",
+      "answer": "3:5",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "相似比の3乗が体積の比",
+      "explanation": "体積の比 = 27 : 125 = 3³ : 5³ より相似比 = 3 : 5"
+    },
+    {
+      "id": 91,
+      "question": "2つの三角形が相似で、対応する辺の長さが 6cm と 10cm です。小さい三角形の周の長さが24cmのとき、大きい三角形の周の長さを求めなさい。",
+      "answer": "40",
+      "unit": "cm",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "相似比 3:5",
+      "explanation": "相似比 = 3 : 5 より 24 : x = 3 : 5 したがって 3x = 120、x = 40cm"
+    },
+    {
+      "id": 92,
+      "question": "2つの立体が相似で、対応する辺の長さが 4cm と 7cm です。小さい立体の表面積が48cm²のとき、大きい立体の表面積を求めなさい。",
+      "answer": "147",
+      "unit": "cm²",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "相似比 4:7、表面積の比 16:49",
+      "explanation": "表面積の比 = 16 : 49 より 48 : x = 16 : 49 したがって 16x = 2352、x = 147cm²"
+    },
+    {
+      "id": 93,
+      "question": "2つの立体が相似で、対応する辺の長さが 3cm と 6cm です。小さい立体の体積が18cm³のとき、大きい立体の体積を求めなさい。",
+      "answer": "144",
+      "unit": "cm³",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "相似比 1:2、体積の比 1:8",
+      "explanation": "体積の比 = 1 : 8 より 18 : x = 1 : 8 したがって x = 144cm³"
+    },
+    {
+      "id": 94,
+      "question": "2つの円柱が相似で、底面の半径が 5cm と 8cm、小さい円柱の体積が150cm³ です。大きい円柱の体積を求めなさい。",
+      "answer": "614.4",
+      "unit": "cm³",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "相似比 5:8、体積の比 125:512",
+      "explanation": "体積の比 = 125 : 512 より 150 : x = 125 : 512 したがって 125x = 76800、x = 614.4cm³"
+    },
+    {
+      "id": 95,
+      "question": "2つの三角錐が相似で、底面の1辺が 6cm と 9cm、小さい三角錐の体積が72cm³ です。大きい三角錐の体積を求めなさい。",
+      "answer": "243",
+      "unit": "cm³",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "相似比 2:3、体積の比 8:27",
+      "explanation": "体積の比 = 8 : 27 より 72 : x = 8 : 27 したがって 8x = 1944、x = 243cm³"
+    },
+    {
+      "id": 96,
+      "question": "△ABC で、辺 AB を 2:3 に内分する点を D、辺 AC を 2:3 に内分する点を E とします。BC = 20cm のとき、DE の長さを求めなさい。",
+      "answer": "8",
+      "unit": "cm",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "DE と BC は平行で、相似比 2:5",
+      "explanation": "AD:AB = 2:5 より DE:BC = 2:5。DE:20 = 2:5 より 5DE = 40 したがって DE = 8cm"
+    },
+    {
+      "id": 97,
+      "question": "△ABC で、辺 AB を 3:4 に内分する点を D、辺 AC を 3:4 に内分する点を E とします。BC = 28cm のとき、DE の長さを求めなさい。",
+      "answer": "12",
+      "unit": "cm",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "DE と BC は平行で、相似比 3:7",
+      "explanation": "AD:AB = 3:7 より DE:BC = 3:7。DE:28 = 3:7 より 7DE = 84 したがって DE = 12cm"
+    },
+    {
+      "id": 98,
+      "question": "2つの三角形が相似で、小さい三角形の3辺が 5cm、6cm、7cm です。大きい三角形の最も短い辺が10cmのとき、最も長い辺の長さを求めなさい。",
+      "answer": "14",
+      "unit": "cm",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "相似比 1:2",
+      "explanation": "相似比 = 5 : 10 = 1 : 2 より、最も長い辺 = 7 × 2 = 14cm"
+    },
+    {
+      "id": 99,
+      "question": "2つの三角形が相似で、小さい三角形の3辺が 8cm、9cm、10cm です。大きい三角形の最も長い辺が15cmのとき、最も短い辺の長さを求めなさい。",
+      "answer": "12",
+      "unit": "cm",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "相似比 2:3",
+      "explanation": "相似比 = 10 : 15 = 2 : 3 より、最も短い辺 = 8 × (3/2) = 12cm"
+    },
+    {
+      "id": 100,
+      "question": "△ABC で、辺 AB、BC、CA の中点をそれぞれ D、E、F とします。△ABC の面積が48cm²のとき、△DEF の面積を求めなさい。",
+      "answer": "12",
+      "unit": "cm²",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "△DEF の面積は △ABC の 1/4",
+      "explanation": "中点を結んでできる三角形の面積は元の三角形の 1/4。48 × (1/4) = 12cm²"
+    }
+  ]
+}

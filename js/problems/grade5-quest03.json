@@ -1,0 +1,1010 @@
+{
+  "questId": "grade5-quest03",
+  "worldId": "grade5",
+  "questName": "小数のわり算",
+  "description": "小数÷小数をマスター",
+  "difficulty": "standard",
+  "totalProblems": 100,
+  "problems": [
+    {
+      "id": "g5q03-p001",
+      "question": "8.4÷4を計算しましょう。",
+      "answer": "2.1",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "84÷4=21として、小数点を1つ左に動かします。",
+      "explanation": "8.4÷4=2.1です。"
+    },
+    {
+      "id": "g5q03-p002",
+      "question": "9.6÷3を計算しましょう。",
+      "answer": "3.2",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "96÷3=32として、小数点を1つ左に動かします。",
+      "explanation": "9.6÷3=3.2です。"
+    },
+    {
+      "id": "g5q03-p003",
+      "question": "12.5÷5を計算しましょう。",
+      "answer": "2.5",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "125÷5=25として、小数点を1つ左に動かします。",
+      "explanation": "12.5÷5=2.5です。"
+    },
+    {
+      "id": "g5q03-p004",
+      "question": "14.4÷6を計算しましょう。",
+      "answer": "2.4",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "144÷6=24として、小数点を1つ左に動かします。",
+      "explanation": "14.4÷6=2.4です。"
+    },
+    {
+      "id": "g5q03-p005",
+      "question": "18.9÷9を計算しましょう。",
+      "answer": "2.1",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "189÷9=21として、小数点を1つ左に動かします。",
+      "explanation": "18.9÷9=2.1です。"
+    },
+    {
+      "id": "g5q03-p006",
+      "question": "21.6÷8を計算しましょう。",
+      "answer": "2.7",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "216÷8=27として、小数点を1つ左に動かします。",
+      "explanation": "21.6÷8=2.7です。"
+    },
+    {
+      "id": "g5q03-p007",
+      "question": "7.2÷2を計算しましょう。",
+      "answer": "3.6",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "72÷2=36として、小数点を1つ左に動かします。",
+      "explanation": "7.2÷2=3.6です。"
+    },
+    {
+      "id": "g5q03-p008",
+      "question": "15.4÷7を計算しましょう。",
+      "answer": "2.2",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "154÷7=22として、小数点を1つ左に動かします。",
+      "explanation": "15.4÷7=2.2です。"
+    },
+    {
+      "id": "g5q03-p009",
+      "question": "4.8÷6を計算しましょう。",
+      "answer": "0.8",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "48÷6=8として、小数点を1つ左に動かします。",
+      "explanation": "4.8÷6=0.8です。"
+    },
+    {
+      "id": "g5q03-p010",
+      "question": "5.6÷8を計算しましょう。",
+      "answer": "0.7",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "56÷8=7として、小数点を1つ左に動かします。",
+      "explanation": "5.6÷8=0.7です。"
+    },
+    {
+      "id": "g5q03-p011",
+      "question": "6.3÷0.7を計算しましょう。",
+      "answer": "9",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "63÷7を計算します。",
+      "explanation": "6.3÷0.7=9です。"
+    },
+    {
+      "id": "g5q03-p012",
+      "question": "8.4÷1.2を計算しましょう。",
+      "answer": "7",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "84÷12を計算します。",
+      "explanation": "8.4÷1.2=7です。"
+    },
+    {
+      "id": "g5q03-p013",
+      "question": "4.5÷0.9を計算しましょう。",
+      "answer": "5",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "45÷9を計算します。",
+      "explanation": "4.5÷0.9=5です。"
+    },
+    {
+      "id": "g5q03-p014",
+      "question": "7.2÷1.8を計算しましょう。",
+      "answer": "4",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "72÷18を計算します。",
+      "explanation": "7.2÷1.8=4です。"
+    },
+    {
+      "id": "g5q03-p015",
+      "question": "9.6÷2.4を計算しましょう。",
+      "answer": "4",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "96÷24を計算します。",
+      "explanation": "9.6÷2.4=4です。"
+    },
+    {
+      "id": "g5q03-p016",
+      "question": "10.5÷1.5を計算しましょう。",
+      "answer": "7",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "105÷15を計算します。",
+      "explanation": "10.5÷1.5=7です。"
+    },
+    {
+      "id": "g5q03-p017",
+      "question": "5.4÷0.6を計算しましょう。",
+      "answer": "9",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "54÷6を計算します。",
+      "explanation": "5.4÷0.6=9です。"
+    },
+    {
+      "id": "g5q03-p018",
+      "question": "12.6÷1.4を計算しましょう。",
+      "answer": "9",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "126÷14を計算します。",
+      "explanation": "12.6÷1.4=9です。"
+    },
+    {
+      "id": "g5q03-p019",
+      "question": "15.6÷1.3を計算しましょう。",
+      "answer": "12",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "156÷13を計算します。",
+      "explanation": "15.6÷1.3=12です。"
+    },
+    {
+      "id": "g5q03-p020",
+      "question": "3.2÷0.8を計算しましょう。",
+      "answer": "4",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "32÷8を計算します。",
+      "explanation": "3.2÷0.8=4です。"
+    },
+    {
+      "id": "g5q03-p021",
+      "question": "13.5÷2.7を計算しましょう。",
+      "answer": "5",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "135÷27を計算します。",
+      "explanation": "13.5÷2.7=5です。"
+    },
+    {
+      "id": "g5q03-p022",
+      "question": "18.4÷2.3を計算しましょう。",
+      "answer": "8",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "184÷23を計算します。",
+      "explanation": "18.4÷2.3=8です。"
+    },
+    {
+      "id": "g5q03-p023",
+      "question": "14.7÷2.1を計算しましょう。",
+      "answer": "7",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "147÷21を計算します。",
+      "explanation": "14.7÷2.1=7です。"
+    },
+    {
+      "id": "g5q03-p024",
+      "question": "16.8÷2.8を計算しましょう。",
+      "answer": "6",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "168÷28を計算します。",
+      "explanation": "16.8÷2.8=6です。"
+    },
+    {
+      "id": "g5q03-p025",
+      "question": "20.4÷3.4を計算しましょう。",
+      "answer": "6",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "204÷34を計算します。",
+      "explanation": "20.4÷3.4=6です。"
+    },
+    {
+      "id": "g5q03-p026",
+      "question": "7.84÷1.4を計算しましょう。",
+      "answer": "5.6",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "784÷14=56として、小数点を1つ左に動かします。",
+      "explanation": "7.84÷1.4=5.6です。"
+    },
+    {
+      "id": "g5q03-p027",
+      "question": "9.36÷1.2を計算しましょう。",
+      "answer": "7.8",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "936÷12=78として、小数点を1つ左に動かします。",
+      "explanation": "9.36÷1.2=7.8です。"
+    },
+    {
+      "id": "g5q03-p028",
+      "question": "5.76÷0.8を計算しましょう。",
+      "answer": "7.2",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "576÷8=72として、小数点を1つ左に動かします。",
+      "explanation": "5.76÷0.8=7.2です。"
+    },
+    {
+      "id": "g5q03-p029",
+      "question": "10.56÷1.6を計算しましょう。",
+      "answer": "6.6",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "1056÷16=66として、小数点を1つ左に動かします。",
+      "explanation": "10.56÷1.6=6.6です。"
+    },
+    {
+      "id": "g5q03-p030",
+      "question": "12.48÷2.4を計算しましょう。",
+      "answer": "5.2",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "1248÷24=52として、小数点を1つ左に動かします。",
+      "explanation": "12.48÷2.4=5.2です。"
+    },
+    {
+      "id": "g5q03-p031",
+      "question": "8÷0.5を計算しましょう。",
+      "answer": "16",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "80÷5を計算します。",
+      "explanation": "8÷0.5=16です。"
+    },
+    {
+      "id": "g5q03-p032",
+      "question": "12÷0.4を計算しましょう。",
+      "answer": "30",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "120÷4を計算します。",
+      "explanation": "12÷0.4=30です。"
+    },
+    {
+      "id": "g5q03-p033",
+      "question": "15÷0.6を計算しましょう。",
+      "answer": "25",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "150÷6を計算します。",
+      "explanation": "15÷0.6=25です。"
+    },
+    {
+      "id": "g5q03-p034",
+      "question": "6÷0.3を計算しましょう。",
+      "answer": "20",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "60÷3を計算します。",
+      "explanation": "6÷0.3=20です。"
+    },
+    {
+      "id": "g5q03-p035",
+      "question": "9÷0.25を計算しましょう。",
+      "answer": "36",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "900÷25を計算します。",
+      "explanation": "9÷0.25=36です。"
+    },
+    {
+      "id": "g5q03-p036",
+      "question": "10÷0.8を計算しましょう。",
+      "answer": "12.5",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "100÷8=12.5です。",
+      "explanation": "10÷0.8=12.5です。"
+    },
+    {
+      "id": "g5q03-p037",
+      "question": "14÷0.7を計算しましょう。",
+      "answer": "20",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "140÷7を計算します。",
+      "explanation": "14÷0.7=20です。"
+    },
+    {
+      "id": "g5q03-p038",
+      "question": "18÷0.9を計算しましょう。",
+      "answer": "20",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "180÷9を計算します。",
+      "explanation": "18÷0.9=20です。"
+    },
+    {
+      "id": "g5q03-p039",
+      "question": "7÷0.5を計算しましょう。",
+      "answer": "14",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "70÷5を計算します。",
+      "explanation": "7÷0.5=14です。"
+    },
+    {
+      "id": "g5q03-p040",
+      "question": "20÷0.25を計算しましょう。",
+      "answer": "80",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "2000÷25を計算します。",
+      "explanation": "20÷0.25=80です。"
+    },
+    {
+      "id": "g5q03-p041",
+      "question": "0.72÷0.9を計算しましょう。",
+      "answer": "0.8",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "72÷90=0.8です。",
+      "explanation": "0.72÷0.9=0.8です。"
+    },
+    {
+      "id": "g5q03-p042",
+      "question": "0.56÷0.8を計算しましょう。",
+      "answer": "0.7",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "56÷80=0.7です。",
+      "explanation": "0.56÷0.8=0.7です。"
+    },
+    {
+      "id": "g5q03-p043",
+      "question": "0.48÷0.6を計算しましょう。",
+      "answer": "0.8",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "48÷60=0.8です。",
+      "explanation": "0.48÷0.6=0.8です。"
+    },
+    {
+      "id": "g5q03-p044",
+      "question": "0.36÷0.9を計算しましょう。",
+      "answer": "0.4",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "36÷90=0.4です。",
+      "explanation": "0.36÷0.9=0.4です。"
+    },
+    {
+      "id": "g5q03-p045",
+      "question": "0.81÷0.9を計算しましょう。",
+      "answer": "0.9",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "81÷90=0.9です。",
+      "explanation": "0.81÷0.9=0.9です。"
+    },
+    {
+      "id": "g5q03-p046",
+      "question": "0.28÷0.4を計算しましょう。",
+      "answer": "0.7",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "28÷40=0.7です。",
+      "explanation": "0.28÷0.4=0.7です。"
+    },
+    {
+      "id": "g5q03-p047",
+      "question": "0.45÷0.5を計算しましょう。",
+      "answer": "0.9",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "45÷50=0.9です。",
+      "explanation": "0.45÷0.5=0.9です。"
+    },
+    {
+      "id": "g5q03-p048",
+      "question": "0.64÷0.8を計算しましょう。",
+      "answer": "0.8",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "64÷80=0.8です。",
+      "explanation": "0.64÷0.8=0.8です。"
+    },
+    {
+      "id": "g5q03-p049",
+      "question": "0.35÷0.7を計算しましょう。",
+      "answer": "0.5",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "35÷70=0.5です。",
+      "explanation": "0.35÷0.7=0.5です。"
+    },
+    {
+      "id": "g5q03-p050",
+      "question": "0.24÷0.3を計算しましょう。",
+      "answer": "0.8",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "24÷30=0.8です。",
+      "explanation": "0.24÷0.3=0.8です。"
+    },
+    {
+      "id": "g5q03-p051",
+      "question": "1÷0.5を計算しましょう。",
+      "answer": "2",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "10÷5を計算します。",
+      "explanation": "1÷0.5=2です。"
+    },
+    {
+      "id": "g5q03-p052",
+      "question": "1÷0.25を計算しましょう。",
+      "answer": "4",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "100÷25を計算します。",
+      "explanation": "1÷0.25=4です。"
+    },
+    {
+      "id": "g5q03-p053",
+      "question": "1÷0.2を計算しましょう。",
+      "answer": "5",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "10÷2を計算します。",
+      "explanation": "1÷0.2=5です。"
+    },
+    {
+      "id": "g5q03-p054",
+      "question": "1÷0.125を計算しましょう。",
+      "answer": "8",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "1000÷125を計算します。",
+      "explanation": "1÷0.125=8です。"
+    },
+    {
+      "id": "g5q03-p055",
+      "question": "2÷0.8を計算しましょう。",
+      "answer": "2.5",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "20÷8=2.5です。",
+      "explanation": "2÷0.8=2.5です。"
+    },
+    {
+      "id": "g5q03-p056",
+      "question": "3÷1.2を計算しましょう。",
+      "answer": "2.5",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "30÷12=2.5です。",
+      "explanation": "3÷1.2=2.5です。"
+    },
+    {
+      "id": "g5q03-p057",
+      "question": "5÷2.5を計算しましょう。",
+      "answer": "2",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "50÷25を計算します。",
+      "explanation": "5÷2.5=2です。"
+    },
+    {
+      "id": "g5q03-p058",
+      "question": "4÷1.6を計算しましょう。",
+      "answer": "2.5",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "40÷16=2.5です。",
+      "explanation": "4÷1.6=2.5です。"
+    },
+    {
+      "id": "g5q03-p059",
+      "question": "6÷1.5を計算しましょう。",
+      "answer": "4",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "60÷15を計算します。",
+      "explanation": "6÷1.5=4です。"
+    },
+    {
+      "id": "g5q03-p060",
+      "question": "8÷3.2を計算しましょう。",
+      "answer": "2.5",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "80÷32=2.5です。",
+      "explanation": "8÷3.2=2.5です。"
+    },
+    {
+      "id": "g5q03-p061",
+      "question": "12.6mのリボンを3等分しました。1本分の長さは何mですか。",
+      "answer": "4.2",
+      "unit": "m",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "12.6÷3を計算します。",
+      "explanation": "12.6÷3=4.2より、4.2mです。"
+    },
+    {
+      "id": "g5q03-p062",
+      "question": "18.4kgのお米を4等分しました。1つ分の重さは何kgですか。",
+      "answer": "4.6",
+      "unit": "kg",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "18.4÷4を計算します。",
+      "explanation": "18.4÷4=4.6より、4.6kgです。"
+    },
+    {
+      "id": "g5q03-p063",
+      "question": "14.4Lの水を8個の容器に同じ量ずつ分けました。1個分は何Lですか。",
+      "answer": "1.8",
+      "unit": "L",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "14.4÷8を計算します。",
+      "explanation": "14.4÷8=1.8より、1.8Lです。"
+    },
+    {
+      "id": "g5q03-p064",
+      "question": "8.4mのロープを1.2mずつに切ります。何本できますか。",
+      "answer": "7",
+      "unit": "本",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "8.4÷1.2を計算します。",
+      "explanation": "8.4÷1.2=7より、7本です。"
+    },
+    {
+      "id": "g5q03-p065",
+      "question": "10.5Lの油を0.7Lずつびんに入れます。何本のびんが必要ですか。",
+      "answer": "15",
+      "unit": "本",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "10.5÷0.7を計算します。",
+      "explanation": "10.5÷0.7=15より、15本です。"
+    },
+    {
+      "id": "g5q03-p066",
+      "question": "7.2kgの荷物を0.6kgずつ箱に詰めます。何箱できますか。",
+      "answer": "12",
+      "unit": "箱",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "7.2÷0.6を計算します。",
+      "explanation": "7.2÷0.6=12より、12箱です。"
+    },
+    {
+      "id": "g5q03-p067",
+      "question": "長さ6.3mのロープを0.9mずつに切ります。何本できますか。",
+      "answer": "7",
+      "unit": "本",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "6.3÷0.9を計算します。",
+      "explanation": "6.3÷0.9=7より、7本です。"
+    },
+    {
+      "id": "g5q03-p068",
+      "question": "15.6mのテープを1.3mずつに切ります。何本できますか。",
+      "answer": "12",
+      "unit": "本",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "15.6÷1.3を計算します。",
+      "explanation": "15.6÷1.3=12より、12本です。"
+    },
+    {
+      "id": "g5q03-p069",
+      "question": "長方形の面積が18.2㎡で、横の長さが2.8mです。縦の長さは何mですか。",
+      "answer": "6.5",
+      "unit": "m",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "18.2÷2.8を計算します。",
+      "explanation": "18.2÷2.8=6.5より、6.5mです。"
+    },
+    {
+      "id": "g5q03-p070",
+      "question": "長方形の面積が15.6c㎡で、縦の長さが2.4cmです。横の長さは何cmですか。",
+      "answer": "6.5",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "15.6÷2.4を計算します。",
+      "explanation": "15.6÷2.4=6.5より、6.5cmです。"
+    },
+    {
+      "id": "g5q03-p071",
+      "question": "代金が750円で、1mの値段が125円のリボンがあります。何m買いましたか。",
+      "answer": "6",
+      "unit": "m",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "750÷125を計算します。",
+      "explanation": "750÷125=6より、6mです。"
+    },
+    {
+      "id": "g5q03-p072",
+      "question": "12.8kmの道のりを1.6時間で走りました。速さは時速何kmですか。",
+      "answer": "8",
+      "unit": "km",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "12.8÷1.6を計算します。",
+      "explanation": "12.8÷1.6=8より、時速8kmです。"
+    },
+    {
+      "id": "g5q03-p073",
+      "question": "21kmの道のりを2.5時間で歩きました。速さは時速何kmですか。",
+      "answer": "8.4",
+      "unit": "km",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "21÷2.5を計算します。",
+      "explanation": "21÷2.5=8.4より、時速8.4kmです。"
+    },
+    {
+      "id": "g5q03-p074",
+      "question": "4.5Lのジュースを0.3Lずつコップに入れます。何杯できますか。",
+      "answer": "15",
+      "unit": "杯",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "4.5÷0.3を計算します。",
+      "explanation": "4.5÷0.3=15より、15杯です。"
+    },
+    {
+      "id": "g5q03-p075",
+      "question": "18kgの荷物を0.6kgずつ小分けにします。何個できますか。",
+      "answer": "30",
+      "unit": "個",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "18÷0.6を計算します。",
+      "explanation": "18÷0.6=30より、30個です。"
+    },
+    {
+      "id": "g5q03-p076",
+      "question": "15mのロープを0.5mずつに切ります。何本できますか。",
+      "answer": "30",
+      "unit": "本",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "15÷0.5を計算します。",
+      "explanation": "15÷0.5=30より、30本です。"
+    },
+    {
+      "id": "g5q03-p077",
+      "question": "9.6kgの小麦粉を0.8kgずつ袋に入れます。何袋できますか。",
+      "answer": "12",
+      "unit": "袋",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "9.6÷0.8を計算します。",
+      "explanation": "9.6÷0.8=12より、12袋です。"
+    },
+    {
+      "id": "g5q03-p078",
+      "question": "13.5Lの水を0.9Lずつバケツに入れます。何杯できますか。",
+      "answer": "15",
+      "unit": "杯",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "13.5÷0.9を計算します。",
+      "explanation": "13.5÷0.9=15より、15杯です。"
+    },
+    {
+      "id": "g5q03-p079",
+      "question": "16.8mのテープを2.4mずつに切ります。何本できますか。",
+      "answer": "7",
+      "unit": "本",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "16.8÷2.4を計算します。",
+      "explanation": "16.8÷2.4=7より、7本です。"
+    },
+    {
+      "id": "g5q03-p080",
+      "question": "20.4kgの砂糖を1.7kgずつ袋に入れます。何袋できますか。",
+      "answer": "12",
+      "unit": "袋",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "20.4÷1.7を計算します。",
+      "explanation": "20.4÷1.7=12より、12袋です。"
+    },
+    {
+      "id": "g5q03-p081",
+      "question": "1mの重さが2.4kgの鉄の棒があります。14.4kgの鉄の棒は何mですか。",
+      "answer": "6",
+      "unit": "m",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "14.4÷2.4を計算します。",
+      "explanation": "14.4÷2.4=6より、6mです。"
+    },
+    {
+      "id": "g5q03-p082",
+      "question": "1dLの重さが1.8kgの液体があります。9kgの液体は何dLですか。",
+      "answer": "5",
+      "unit": "dL",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "9÷1.8を計算します。",
+      "explanation": "9÷1.8=5より、5dLです。"
+    },
+    {
+      "id": "g5q03-p083",
+      "question": "10kmの道のりを0.8時間で走りました。速さは時速何kmですか。",
+      "answer": "12.5",
+      "unit": "km",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "10÷0.8を計算します。",
+      "explanation": "10÷0.8=12.5より、時速12.5kmです。"
+    },
+    {
+      "id": "g5q03-p084",
+      "question": "12Lの水を0.25Lずつびんに入れます。何本のびんが必要ですか。",
+      "answer": "48",
+      "unit": "本",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "12÷0.25を計算します。",
+      "explanation": "12÷0.25=48より、48本です。"
+    },
+    {
+      "id": "g5q03-p085",
+      "question": "正方形の面積が22.09c㎡です。1辺の長さは何cmですか。",
+      "answer": "4.7",
+      "unit": "cm",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "面積を1辺×1辺で求めるので、1辺=√22.09=4.7です。",
+      "explanation": "4.7×4.7=22.09なので、1辺は4.7cmです。"
+    },
+    {
+      "id": "g5q03-p086",
+      "question": "□÷1.5=6を満たす□を求めましょう。",
+      "answer": "9",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "6×1.5を計算します。",
+      "explanation": "6×1.5=9なので、□=9です。"
+    },
+    {
+      "id": "g5q03-p087",
+      "question": "□÷0.8=12を満たす□を求めましょう。",
+      "answer": "9.6",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "12×0.8を計算します。",
+      "explanation": "12×0.8=9.6なので、□=9.6です。"
+    },
+    {
+      "id": "g5q03-p088",
+      "question": "15.6÷□=1.3を満たす□を求めましょう。",
+      "answer": "12",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "15.6÷1.3を計算します。",
+      "explanation": "15.6÷1.3=12なので、□=12です。"
+    },
+    {
+      "id": "g5q03-p089",
+      "question": "□÷2.4=7を満たす□を求めましょう。",
+      "answer": "16.8",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "7×2.4を計算します。",
+      "explanation": "7×2.4=16.8なので、□=16.8です。"
+    },
+    {
+      "id": "g5q03-p090",
+      "question": "18.4÷□=2.3を満たす□を求めましょう。",
+      "answer": "8",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "18.4÷2.3を計算します。",
+      "explanation": "18.4÷2.3=8なので、□=8です。"
+    },
+    {
+      "id": "g5q03-p091",
+      "question": "□÷0.6=15を満たす□を求めましょう。",
+      "answer": "9",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "15×0.6を計算します。",
+      "explanation": "15×0.6=9なので、□=9です。"
+    },
+    {
+      "id": "g5q03-p092",
+      "question": "12.6÷□=1.8を満たす□を求めましょう。",
+      "answer": "7",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "12.6÷1.8を計算します。",
+      "explanation": "12.6÷1.8=7なので、□=7です。"
+    },
+    {
+      "id": "g5q03-p093",
+      "question": "□÷3.5=4を満たす□を求めましょう。",
+      "answer": "14",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "4×3.5を計算します。",
+      "explanation": "4×3.5=14なので、□=14です。"
+    },
+    {
+      "id": "g5q03-p094",
+      "question": "20.4÷□=3.4を満たす□を求めましょう。",
+      "answer": "6",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "20.4÷3.4を計算します。",
+      "explanation": "20.4÷3.4=6なので、□=6です。"
+    },
+    {
+      "id": "g5q03-p095",
+      "question": "□÷0.25=36を満たす□を求めましょう。",
+      "answer": "9",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "reverse",
+      "hint": "36×0.25を計算します。",
+      "explanation": "36×0.25=9なので、□=9です。"
+    },
+    {
+      "id": "g5q03-p096",
+      "question": "次の式を正しくするには、□に何を入れればよいですか。10.5÷□=7",
+      "answer": "1.5",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "10.5÷7を計算します。",
+      "explanation": "10.5÷7=1.5なので、□=1.5です。"
+    },
+    {
+      "id": "g5q03-p097",
+      "question": "8.4を何で割ると6になりますか。",
+      "answer": "1.4",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "8.4÷6を計算します。",
+      "explanation": "8.4÷6=1.4なので、1.4で割ります。"
+    },
+    {
+      "id": "g5q03-p098",
+      "question": "15を0.5で割った答えは、30を何で割った答えと同じですか。",
+      "answer": "1",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "まず15÷0.5=30を求め、30÷30を計算します。",
+      "explanation": "15÷0.5=30で、30÷1=30なので、答えは1です。"
+    },
+    {
+      "id": "g5q03-p099",
+      "question": "12.6÷1.8の答えと、□÷0.9の答えが同じになります。□に入る数を求めましょう。",
+      "answer": "6.3",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "まず12.6÷1.8=7を求め、7×0.9を計算します。",
+      "explanation": "12.6÷1.8=7で、7×0.9=6.3なので、□=6.3です。"
+    },
+    {
+      "id": "g5q03-p100",
+      "question": "ある数を2倍して0.8で割ると15になります。ある数を求めましょう。",
+      "answer": "6",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "ある数をxとすると、2x÷0.8=15です。",
+      "explanation": "2x÷0.8=15、2x=12、x=6です。"
+    }
+  ]
+}

@@ -68,6 +68,17 @@
 - **学習推奨**: AIによる次の学習提案
 - **データバックアップ**: JSONエクスポート/インポート
 
+## 📚 問題データ
+
+**99/103クエスト (96%)** の問題ファイルが配置済み
+
+問題ファイル検証:
+```
+node validate-problems.js
+```
+
+詳細なファイル名定義: [docs/quest-file-naming.md](docs/quest-file-naming.md)
+
 ## 📊 テスト
 
 依存関係テストを実行：
@@ -90,6 +101,8 @@ test-dependencies.html をブラウザで開く
 - 🎉 勝利・敗北・レベルアップエフェクト
 - 🧹 不要ファイル削除（character-select.html等）
 - ✅ 依存関係テスト追加
+- 📚 問題ファイル99/103個配置（96%完成）
+- 🔧 問題ファイル互換性対応（totalProblems/problemCount/quest_name）
 
 ---
 

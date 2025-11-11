@@ -1,0 +1,1015 @@
+{
+  "questId": "jh2-quest04",
+  "title": "連立方程式の利用",
+  "description": "連立方程式で問題を解こう",
+  "difficulty": "standard",
+  "grade": "中2",
+  "totalProblems": 100,
+  "problemTypes": {
+    "calculation": 20,
+    "wordProblem": 70,
+    "puzzle": 10
+  },
+  "problems": [
+    {
+      "id": 1,
+      "question": "往復の道のりで、行きは時速5km、帰りは時速5kmで歩き、往復で6時間かかりました。道のりを求める式を立てて解きなさい。",
+      "answer": "計算により求める",
+      "unit": "km",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "距離をxkmとすると、行きx/{speed1}時間、帰りx/{speed2}時間",
+      "explanation": "x/5 + x/5 = 6 を解きます"
+    },
+    {
+      "id": 2,
+      "question": "濃度12%の食塩水と濃度15%の食塩水を混ぜて、濃度12%の食塩水300gを作ります。それぞれ何gずつ混ぜればよいか、式を立てて解きなさい。",
+      "answer": "計算により求める",
+      "unit": "g",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "12%をxg、15%をygとして連立方程式を立てます",
+      "explanation": "x + y = 300, 0.012x + 0.15y = 36"
+    },
+    {
+      "id": 3,
+      "question": "A商品1個とB商品1個で226円、A商品2個とB商品3個で542円です。各商品の値段を求める式を立てて解きなさい。",
+      "answer": "A商品136円、B商品90円",
+      "unit": "円",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "A商品をx円、B商品をy円として連立方程式を立てます",
+      "explanation": "x + y = 226, 2x + 3y = 542"
+    },
+    {
+      "id": 4,
+      "question": "A商品1個とB商品1個で197円、A商品2個とB商品3個で450円です。各商品の値段を求める式を立てて解きなさい。",
+      "answer": "A商品141円、B商品56円",
+      "unit": "円",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "A商品をx円、B商品をy円として連立方程式を立てます",
+      "explanation": "x + y = 197, 2x + 3y = 450"
+    },
+    {
+      "id": 5,
+      "question": "A商品1個とB商品1個で171円、A商品2個とB商品3個で401円です。各商品の値段を求める式を立てて解きなさい。",
+      "answer": "A商品112円、B商品59円",
+      "unit": "円",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "A商品をx円、B商品をy円として連立方程式を立てます",
+      "explanation": "x + y = 171, 2x + 3y = 401"
+    },
+    {
+      "id": 6,
+      "question": "往復の道のりで、行きは時速8km、帰りは時速6kmで歩き、往復で4時間かかりました。道のりを求める式を立てて解きなさい。",
+      "answer": "計算により求める",
+      "unit": "km",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "距離をxkmとすると、行きx/{speed1}時間、帰りx/{speed2}時間",
+      "explanation": "x/8 + x/6 = 4 を解きます"
+    },
+    {
+      "id": 7,
+      "question": "濃度13%の食塩水と濃度11%の食塩水を混ぜて、濃度12%の食塩水300gを作ります。それぞれ何gずつ混ぜればよいか、式を立てて解きなさい。",
+      "answer": "計算により求める",
+      "unit": "g",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "13%をxg、11%をygとして連立方程式を立てます",
+      "explanation": "x + y = 300, 0.013x + 0.11y = 36"
+    },
+    {
+      "id": 8,
+      "question": "A商品1個とB商品1個で224円、A商品2個とB商品3個で566円です。各商品の値段を求める式を立てて解きなさい。",
+      "answer": "A商品106円、B商品118円",
+      "unit": "円",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "A商品をx円、B商品をy円として連立方程式を立てます",
+      "explanation": "x + y = 224, 2x + 3y = 566"
+    },
+    {
+      "id": 9,
+      "question": "A商品1個とB商品1個で204円、A商品2個とB商品3個で480円です。各商品の値段を求める式を立てて解きなさい。",
+      "answer": "A商品132円、B商品72円",
+      "unit": "円",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "A商品をx円、B商品をy円として連立方程式を立てます",
+      "explanation": "x + y = 204, 2x + 3y = 480"
+    },
+    {
+      "id": 10,
+      "question": "A商品1個とB商品1個で202円、A商品2個とB商品3個で460円です。各商品の値段を求める式を立てて解きなさい。",
+      "answer": "A商品146円、B商品56円",
+      "unit": "円",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "A商品をx円、B商品をy円として連立方程式を立てます",
+      "explanation": "x + y = 202, 2x + 3y = 460"
+    },
+    {
+      "id": 11,
+      "question": "往復の道のりで、行きは時速4km、帰りは時速3kmで歩き、往復で6時間かかりました。道のりを求める式を立てて解きなさい。",
+      "answer": "計算により求める",
+      "unit": "km",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "距離をxkmとすると、行きx/{speed1}時間、帰りx/{speed2}時間",
+      "explanation": "x/4 + x/3 = 6 を解きます"
+    },
+    {
+      "id": 12,
+      "question": "濃度5%の食塩水と濃度11%の食塩水を混ぜて、濃度12%の食塩水300gを作ります。それぞれ何gずつ混ぜればよいか、式を立てて解きなさい。",
+      "answer": "計算により求める",
+      "unit": "g",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "5%をxg、11%をygとして連立方程式を立てます",
+      "explanation": "x + y = 300, 0.05x + 0.11y = 36"
+    },
+    {
+      "id": 13,
+      "question": "A商品1個とB商品1個で202円、A商品2個とB商品3個で496円です。各商品の値段を求める式を立てて解きなさい。",
+      "answer": "A商品110円、B商品92円",
+      "unit": "円",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "A商品をx円、B商品をy円として連立方程式を立てます",
+      "explanation": "x + y = 202, 2x + 3y = 496"
+    },
+    {
+      "id": 14,
+      "question": "A商品1個とB商品1個で217円、A商品2個とB商品3個で549円です。各商品の値段を求める式を立てて解きなさい。",
+      "answer": "A商品102円、B商品115円",
+      "unit": "円",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "A商品をx円、B商品をy円として連立方程式を立てます",
+      "explanation": "x + y = 217, 2x + 3y = 549"
+    },
+    {
+      "id": 15,
+      "question": "A商品1個とB商品1個で180円、A商品2個とB商品3個で440円です。各商品の値段を求める式を立てて解きなさい。",
+      "answer": "A商品100円、B商品80円",
+      "unit": "円",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "A商品をx円、B商品をy円として連立方程式を立てます",
+      "explanation": "x + y = 180, 2x + 3y = 440"
+    },
+    {
+      "id": 16,
+      "question": "往復の道のりで、行きは時速3km、帰りは時速7kmで歩き、往復で5時間かかりました。道のりを求める式を立てて解きなさい。",
+      "answer": "計算により求める",
+      "unit": "km",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "距離をxkmとすると、行きx/{speed1}時間、帰りx/{speed2}時間",
+      "explanation": "x/3 + x/7 = 5 を解きます"
+    },
+    {
+      "id": 17,
+      "question": "濃度15%の食塩水と濃度11%の食塩水を混ぜて、濃度12%の食塩水300gを作ります。それぞれ何gずつ混ぜればよいか、式を立てて解きなさい。",
+      "answer": "計算により求める",
+      "unit": "g",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "15%をxg、11%をygとして連立方程式を立てます",
+      "explanation": "x + y = 300, 0.015x + 0.11y = 36"
+    },
+    {
+      "id": 18,
+      "question": "A商品1個とB商品1個で125円、A商品2個とB商品3個で307円です。各商品の値段を求める式を立てて解きなさい。",
+      "answer": "A商品68円、B商品57円",
+      "unit": "円",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "A商品をx円、B商品をy円として連立方程式を立てます",
+      "explanation": "x + y = 125, 2x + 3y = 307"
+    },
+    {
+      "id": 19,
+      "question": "A商品1個とB商品1個で278円、A商品2個とB商品3個で690円です。各商品の値段を求める式を立てて解きなさい。",
+      "answer": "A商品144円、B商品134円",
+      "unit": "円",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "A商品をx円、B商品をy円として連立方程式を立てます",
+      "explanation": "x + y = 278, 2x + 3y = 690"
+    },
+    {
+      "id": 20,
+      "question": "A商品1個とB商品1個で205円、A商品2個とB商品3個で524円です。各商品の値段を求める式を立てて解きなさい。",
+      "answer": "A商品91円、B商品114円",
+      "unit": "円",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "A商品をx円、B商品をy円として連立方程式を立てます",
+      "explanation": "x + y = 205, 2x + 3y = 524"
+    },
+    {
+      "id": 21,
+      "question": "リンゴ3個とミカン5個で1148円、リンゴ2個とミカン3個で718円です。リンゴ1個とミカン1個の値段をそれぞれ求めなさい。",
+      "answer": "リンゴ146円、ミカン142円",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "リンゴをx円、ミカンをy円として連立方程式を立てます",
+      "explanation": "3x + 5y = 1148, 2x + 3y = 718 を解きます"
+    },
+    {
+      "id": 22,
+      "question": "現在、父の年齢は42歳、息子の年齢は12歳です。何年後に父の年齢が息子の年齢の2倍になりますか。",
+      "answer": "18年後",
+      "unit": "年後",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "x年後とすると、42+x = 2(12+x)",
+      "explanation": "42 + x = 2(12 + x) を解きます"
+    },
+    {
+      "id": 23,
+      "question": "A地点からB地点まで28kmあります。行きは時速42km、帰りは時速39kmで往復しました。往復の時間の合計を求めなさい。",
+      "answer": "1.38時間",
+      "unit": "時間",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "行きの時間は28/42時間、帰りは28/39時間",
+      "explanation": "28/42 + 28/39 = 1.38"
+    },
+    {
+      "id": 24,
+      "question": "濃度11%の食塩水145gと濃度15%の食塩水185gを混ぜると、濃度何%の食塩水ができますか。",
+      "answer": "13.2%",
+      "unit": "%",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "食塩の量の合計を食塩水の量の合計で割ります",
+      "explanation": "(11×145 + 15×185) / (145+185) = 13.2%"
+    },
+    {
+      "id": 25,
+      "question": "140円の品物と119円の品物を合わせて16個買い、代金が2114円でした。それぞれ何個ずつ買いましたか。",
+      "answer": "140円の品物10個、119円の品物6個",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "140円の品物をx個、119円の品物をy個とします",
+      "explanation": "x + y = 16, 140x + 119y = 2114 を解きます"
+    },
+    {
+      "id": 26,
+      "question": "リンゴ3個とミカン3個で939円、リンゴ5個とミカン5個で1565円です。リンゴ1個とミカン1個の値段をそれぞれ求めなさい。",
+      "answer": "リンゴ188円、ミカン125円",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "リンゴをx円、ミカンをy円として連立方程式を立てます",
+      "explanation": "3x + 3y = 939, 5x + 5y = 1565 を解きます"
+    },
+    {
+      "id": 27,
+      "question": "現在、父の年齢は35歳、息子の年齢は13歳です。x年後に父の年齢が息子の年齢の2倍になります。式を立ててxを求めなさい。",
+      "answer": "4年後",
+      "unit": "年後",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "x年後とすると、35+x = 2(13+x)",
+      "explanation": "35 + x = 2(13 + x) を解きます"
+    },
+    {
+      "id": 28,
+      "question": "A地点からB地点まで14kmあります。行きは時速31km、帰りは時速42kmで往復しました。往復の時間の合計を求めなさい。",
+      "answer": "0.78時間",
+      "unit": "時間",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "行きの時間は14/31時間、帰りは14/42時間",
+      "explanation": "14/31 + 14/42 = 0.78"
+    },
+    {
+      "id": 29,
+      "question": "濃度5%の食塩水231gと濃度19%の食塩水230gを混ぜると、濃度何%の食塩水ができますか。",
+      "answer": "12.0%",
+      "unit": "%",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "食塩の量の合計を食塩水の量の合計で割ります",
+      "explanation": "(5×231 + 19×230) / (231+230) = 12.0%"
+    },
+    {
+      "id": 30,
+      "question": "104円の品物と106円の品物を合わせて12個買い、代金が1266円でした。それぞれ何個ずつ買いましたか。",
+      "answer": "104円の品物3個、106円の品物9個",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "104円の品物をx個、106円の品物をy個とします",
+      "explanation": "x + y = 12, 104x + 106y = 1266 を解きます"
+    },
+    {
+      "id": 31,
+      "question": "リンゴ3個とミカン5個で1248円、リンゴ5個とミカン2個で1187円です。リンゴ1個とミカン1個の値段をそれぞれ求めなさい。",
+      "answer": "リンゴ181円、ミカン141円",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "リンゴをx円、ミカンをy円として連立方程式を立てます",
+      "explanation": "3x + 5y = 1248, 5x + 2y = 1187 を解きます"
+    },
+    {
+      "id": 32,
+      "question": "現在、父の年齢は42歳、息子の年齢は12歳です。何年後に父の年齢が息子の年齢の2倍になりますか。",
+      "answer": "18年後",
+      "unit": "年後",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "x年後とすると、42+x = 2(12+x)",
+      "explanation": "42 + x = 2(12 + x) を解きます"
+    },
+    {
+      "id": 33,
+      "question": "A地点からB地点まで27kmあります。行きは時速49km、帰りは時速31kmで往復しました。往復の時間の合計を求めなさい。",
+      "answer": "1.42時間",
+      "unit": "時間",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "行きの時間は27/49時間、帰りは27/31時間",
+      "explanation": "27/49 + 27/31 = 1.42"
+    },
+    {
+      "id": 34,
+      "question": "濃度13%の食塩水296gと濃度10%の食塩水178gを混ぜると、濃度何%の食塩水ができますか。",
+      "answer": "11.9%",
+      "unit": "%",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "食塩の量の合計を食塩水の量の合計で割ります",
+      "explanation": "(13×296 + 10×178) / (296+178) = 11.9%"
+    },
+    {
+      "id": 35,
+      "question": "135円の品物と116円の品物を合わせて17個買い、代金が2162円でした。それぞれ何個ずつ買いましたか。",
+      "answer": "135円の品物10個、116円の品物7個",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "135円の品物をx個、116円の品物をy個とします",
+      "explanation": "x + y = 17, 135x + 116y = 2162 を解きます"
+    },
+    {
+      "id": 36,
+      "question": "リンゴ2個とミカン3個で812円、リンゴ4個とミカン3個で1204円です。リンゴ1個とミカン1個の値段をそれぞれ求めなさい。",
+      "answer": "リンゴ196円、ミカン140円",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "リンゴをx円、ミカンをy円として連立方程式を立てます",
+      "explanation": "2x + 3y = 812, 4x + 3y = 1204 を解きます"
+    },
+    {
+      "id": 37,
+      "question": "現在、父の年齢は42歳、息子の年齢は12歳です。何年後に父の年齢が息子の年齢の2倍になりますか。",
+      "answer": "18年後",
+      "unit": "年後",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "x年後とすると、42+x = 2(12+x)",
+      "explanation": "42 + x = 2(12 + x) を解きます"
+    },
+    {
+      "id": 38,
+      "question": "A地点からB地点まで25kmあります。行きは時速59km、帰りは時速49kmで往復しました。往復の時間の合計を求めなさい。",
+      "answer": "0.93時間",
+      "unit": "時間",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "行きの時間は25/59時間、帰りは25/49時間",
+      "explanation": "25/59 + 25/49 = 0.93"
+    },
+    {
+      "id": 39,
+      "question": "濃度6%の食塩水199gと濃度18%の食塩水250gを混ぜると、濃度何%の食塩水ができますか。",
+      "answer": "12.7%",
+      "unit": "%",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "食塩の量の合計を食塩水の量の合計で割ります",
+      "explanation": "(6×199 + 18×250) / (199+250) = 12.7%"
+    },
+    {
+      "id": 40,
+      "question": "107円の品物と140円の品物を合わせて12個買い、代金が1515円でした。それぞれ何個ずつ買いましたか。",
+      "answer": "107円の品物5個、140円の品物7個",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "107円の品物をx個、140円の品物をy個とします",
+      "explanation": "x + y = 12, 107x + 140y = 1515 を解きます"
+    },
+    {
+      "id": 41,
+      "question": "リンゴ4個とミカン2個で714円、リンゴ3個とミカン5個で882円です。リンゴ1個とミカン1個の値段をそれぞれ求めなさい。",
+      "answer": "リンゴ129円、ミカン99円",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "リンゴをx円、ミカンをy円として連立方程式を立てます",
+      "explanation": "4x + 2y = 714, 3x + 5y = 882 を解きます"
+    },
+    {
+      "id": 42,
+      "question": "現在、父の年齢は42歳、息子の年齢は12歳です。何年後に父の年齢が息子の年齢の2倍になりますか。",
+      "answer": "18年後",
+      "unit": "年後",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "x年後とすると、42+x = 2(12+x)",
+      "explanation": "42 + x = 2(12 + x) を解きます"
+    },
+    {
+      "id": 43,
+      "question": "A地点からB地点まで25kmあります。行きは時速45km、帰りは時速30kmで往復しました。往復の時間の合計を求めなさい。",
+      "answer": "1.39時間",
+      "unit": "時間",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "行きの時間は25/45時間、帰りは25/30時間",
+      "explanation": "25/45 + 25/30 = 1.39"
+    },
+    {
+      "id": 44,
+      "question": "濃度14%の食塩水232gと濃度20%の食塩水144gを混ぜると、濃度何%の食塩水ができますか。",
+      "answer": "16.3%",
+      "unit": "%",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "食塩の量の合計を食塩水の量の合計で割ります",
+      "explanation": "(14×232 + 20×144) / (232+144) = 16.3%"
+    },
+    {
+      "id": 45,
+      "question": "97円の品物と126円の品物を合わせて17個買い、代金が1939円でした。それぞれ何個ずつ買いましたか。",
+      "answer": "97円の品物7個、126円の品物10個",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "97円の品物をx個、126円の品物をy個とします",
+      "explanation": "x + y = 17, 97x + 126y = 1939 を解きます"
+    },
+    {
+      "id": 46,
+      "question": "リンゴ5個とミカン3個で1215円、リンゴ5個とミカン3個で1215円です。リンゴ1個とミカン1個の値段をそれぞれ求めなさい。",
+      "answer": "リンゴ180円、ミカン105円",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "リンゴをx円、ミカンをy円として連立方程式を立てます",
+      "explanation": "5x + 3y = 1215, 5x + 3y = 1215 を解きます"
+    },
+    {
+      "id": 47,
+      "question": "現在、父の年齢は42歳、息子の年齢は12歳です。何年後に父の年齢が息子の年齢の2倍になりますか。",
+      "answer": "18年後",
+      "unit": "年後",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "x年後とすると、42+x = 2(12+x)",
+      "explanation": "42 + x = 2(12 + x) を解きます"
+    },
+    {
+      "id": 48,
+      "question": "A地点からB地点まで29kmあります。行きは時速51km、帰りは時速42kmで往復しました。往復の時間の合計を求めなさい。",
+      "answer": "1.26時間",
+      "unit": "時間",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "行きの時間は29/51時間、帰りは29/42時間",
+      "explanation": "29/51 + 29/42 = 1.26"
+    },
+    {
+      "id": 49,
+      "question": "濃度9%の食塩水113gと濃度12%の食塩水240gを混ぜると、濃度何%の食塩水ができますか。",
+      "answer": "11.0%",
+      "unit": "%",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "食塩の量の合計を食塩水の量の合計で割ります",
+      "explanation": "(9×113 + 12×240) / (113+240) = 11.0%"
+    },
+    {
+      "id": 50,
+      "question": "129円の品物と91円の品物を合わせて15個買い、代金が1707円でした。それぞれ何個ずつ買いましたか。",
+      "answer": "129円の品物9個、91円の品物6個",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "129円の品物をx個、91円の品物をy個とします",
+      "explanation": "x + y = 15, 129x + 91y = 1707 を解きます"
+    },
+    {
+      "id": 51,
+      "question": "リンゴ2個とミカン5個で978円、リンゴ4個とミカン4個で1248円です。リンゴ1個とミカン1個の値段をそれぞれ求めなさい。",
+      "answer": "リンゴ194円、ミカン118円",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "リンゴをx円、ミカンをy円として連立方程式を立てます",
+      "explanation": "2x + 5y = 978, 4x + 4y = 1248 を解きます"
+    },
+    {
+      "id": 52,
+      "question": "現在、父の年齢は42歳、息子の年齢は12歳です。何年後に父の年齢が息子の年齢の2倍になりますか。",
+      "answer": "18年後",
+      "unit": "年後",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "x年後とすると、42+x = 2(12+x)",
+      "explanation": "42 + x = 2(12 + x) を解きます"
+    },
+    {
+      "id": 53,
+      "question": "A地点からB地点まで17kmあります。行きは時速32km、帰りは時速31kmで往復しました。往復の時間の合計を求めなさい。",
+      "answer": "1.08時間",
+      "unit": "時間",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "行きの時間は17/32時間、帰りは17/31時間",
+      "explanation": "17/32 + 17/31 = 1.08"
+    },
+    {
+      "id": 54,
+      "question": "濃度13%の食塩水238gと濃度14%の食塩水262gを混ぜると、濃度何%の食塩水ができますか。",
+      "answer": "13.5%",
+      "unit": "%",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "食塩の量の合計を食塩水の量の合計で割ります",
+      "explanation": "(13×238 + 14×262) / (238+262) = 13.5%"
+    },
+    {
+      "id": 55,
+      "question": "123円の品物と144円の品物を合わせて16個買い、代金が2115円でした。それぞれ何個ずつ買いましたか。",
+      "answer": "123円の品物9個、144円の品物7個",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "123円の品物をx個、144円の品物をy個とします",
+      "explanation": "x + y = 16, 123x + 144y = 2115 を解きます"
+    },
+    {
+      "id": 56,
+      "question": "リンゴ3個とミカン5個で1020円、リンゴ2個とミカン3個で635円です。リンゴ1個とミカン1個の値段をそれぞれ求めなさい。",
+      "answer": "リンゴ115円、ミカン135円",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "リンゴをx円、ミカンをy円として連立方程式を立てます",
+      "explanation": "3x + 5y = 1020, 2x + 3y = 635 を解きます"
+    },
+    {
+      "id": 57,
+      "question": "現在、父の年齢は42歳、息子の年齢は12歳です。何年後に父の年齢が息子の年齢の2倍になりますか。",
+      "answer": "18年後",
+      "unit": "年後",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "x年後とすると、42+x = 2(12+x)",
+      "explanation": "42 + x = 2(12 + x) を解きます"
+    },
+    {
+      "id": 58,
+      "question": "A地点からB地点まで24kmあります。行きは時速53km、帰りは時速40kmで往復しました。往復の時間の合計を求めなさい。",
+      "answer": "1.05時間",
+      "unit": "時間",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "行きの時間は24/53時間、帰りは24/40時間",
+      "explanation": "24/53 + 24/40 = 1.05"
+    },
+    {
+      "id": 59,
+      "question": "濃度8%の食塩水217gと濃度14%の食塩水269gを混ぜると、濃度何%の食塩水ができますか。",
+      "answer": "11.3%",
+      "unit": "%",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "食塩の量の合計を食塩水の量の合計で割ります",
+      "explanation": "(8×217 + 14×269) / (217+269) = 11.3%"
+    },
+    {
+      "id": 60,
+      "question": "89円の品物と97円の品物を合わせて14個買い、代金が1302円でした。それぞれ何個ずつ買いましたか。",
+      "answer": "89円の品物7個、97円の品物7個",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "89円の品物をx個、97円の品物をy個とします",
+      "explanation": "x + y = 14, 89x + 97y = 1302 を解きます"
+    },
+    {
+      "id": 61,
+      "question": "リンゴ4個とミカン3個で860円、リンゴ5個とミカン4個で1110円です。リンゴ1個とミカン1個の値段をそれぞれ求めなさい。",
+      "answer": "リンゴ110円、ミカン140円",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "リンゴをx円、ミカンをy円として連立方程式を立てます",
+      "explanation": "4x + 3y = 860, 5x + 4y = 1110 を解きます"
+    },
+    {
+      "id": 62,
+      "question": "現在、父の年齢は42歳、息子の年齢は12歳です。何年後に父の年齢が息子の年齢の2倍になりますか。",
+      "answer": "18年後",
+      "unit": "年後",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "x年後とすると、42+x = 2(12+x)",
+      "explanation": "42 + x = 2(12 + x) を解きます"
+    },
+    {
+      "id": 63,
+      "question": "A地点からB地点まで26kmあります。行きは時速37km、帰りは時速34kmで往復しました。往復の時間の合計を求めなさい。",
+      "answer": "1.47時間",
+      "unit": "時間",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "行きの時間は26/37時間、帰りは26/34時間",
+      "explanation": "26/37 + 26/34 = 1.47"
+    },
+    {
+      "id": 64,
+      "question": "濃度11%の食塩水218gと濃度12%の食塩水279gを混ぜると、濃度何%の食塩水ができますか。",
+      "answer": "11.6%",
+      "unit": "%",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "食塩の量の合計を食塩水の量の合計で割ります",
+      "explanation": "(11×218 + 12×279) / (218+279) = 11.6%"
+    },
+    {
+      "id": 65,
+      "question": "97円の品物と104円の品物を合わせて16個買い、代金が1601円でした。それぞれ何個ずつ買いましたか。",
+      "answer": "97円の品物9個、104円の品物7個",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "97円の品物をx個、104円の品物をy個とします",
+      "explanation": "x + y = 16, 97x + 104y = 1601 を解きます"
+    },
+    {
+      "id": 66,
+      "question": "リンゴ2個とミカン5個で951円、リンゴ4個とミカン5個で1347円です。リンゴ1個とミカン1個の値段をそれぞれ求めなさい。",
+      "answer": "リンゴ198円、ミカン111円",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "リンゴをx円、ミカンをy円として連立方程式を立てます",
+      "explanation": "2x + 5y = 951, 4x + 5y = 1347 を解きます"
+    },
+    {
+      "id": 67,
+      "question": "現在、父の年齢は42歳、息子の年齢は12歳です。何年後に父の年齢が息子の年齢の2倍になりますか。",
+      "answer": "18年後",
+      "unit": "年後",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "x年後とすると、42+x = 2(12+x)",
+      "explanation": "42 + x = 2(12 + x) を解きます"
+    },
+    {
+      "id": 68,
+      "question": "A地点からB地点まで18kmあります。行きは時速48km、帰りは時速51kmで往復しました。往復の時間の合計を求めなさい。",
+      "answer": "0.73時間",
+      "unit": "時間",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "行きの時間は18/48時間、帰りは18/51時間",
+      "explanation": "18/48 + 18/51 = 0.73"
+    },
+    {
+      "id": 69,
+      "question": "濃度12%の食塩水139gと濃度14%の食塩水110gを混ぜると、濃度何%の食塩水ができますか。",
+      "answer": "12.9%",
+      "unit": "%",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "食塩の量の合計を食塩水の量の合計で割ります",
+      "explanation": "(12×139 + 14×110) / (139+110) = 12.9%"
+    },
+    {
+      "id": 70,
+      "question": "93円の品物と145円の品物を合わせて13個買い、代金が1469円でした。それぞれ何個ずつ買いましたか。",
+      "answer": "93円の品物8個、145円の品物5個",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "93円の品物をx個、145円の品物をy個とします",
+      "explanation": "x + y = 13, 93x + 145y = 1469 を解きます"
+    },
+    {
+      "id": 71,
+      "question": "リンゴ3個とミカン2個で719円、リンゴ4個とミカン4個で1164円です。リンゴ1個とミカン1個の値段をそれぞれ求めなさい。",
+      "answer": "リンゴ137円、ミカン154円",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "リンゴをx円、ミカンをy円として連立方程式を立てます",
+      "explanation": "3x + 2y = 719, 4x + 4y = 1164 を解きます"
+    },
+    {
+      "id": 72,
+      "question": "現在、父の年齢は42歳、息子の年齢は12歳です。何年後に父の年齢が息子の年齢の2倍になりますか。",
+      "answer": "18年後",
+      "unit": "年後",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "x年後とすると、42+x = 2(12+x)",
+      "explanation": "42 + x = 2(12 + x) を解きます"
+    },
+    {
+      "id": 73,
+      "question": "A地点からB地点まで16kmあります。行きは時速52km、帰りは時速58kmで往復しました。往復の時間の合計を求めなさい。",
+      "answer": "0.58時間",
+      "unit": "時間",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "行きの時間は16/52時間、帰りは16/58時間",
+      "explanation": "16/52 + 16/58 = 0.58"
+    },
+    {
+      "id": 74,
+      "question": "濃度15%の食塩水251gと濃度19%の食塩水242gを混ぜると、濃度何%の食塩水ができますか。",
+      "answer": "17.0%",
+      "unit": "%",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "食塩の量の合計を食塩水の量の合計で割ります",
+      "explanation": "(15×251 + 19×242) / (251+242) = 17.0%"
+    },
+    {
+      "id": 75,
+      "question": "88円の品物と90円の品物を合わせて14個買い、代金が1248円でした。それぞれ何個ずつ買いましたか。",
+      "answer": "88円の品物6個、90円の品物8個",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "88円の品物をx個、90円の品物をy個とします",
+      "explanation": "x + y = 14, 88x + 90y = 1248 を解きます"
+    },
+    {
+      "id": 76,
+      "question": "リンゴ2個とミカン3個で794円、リンゴ5個とミカン4個で1488円です。リンゴ1個とミカン1個の値段をそれぞれ求めなさい。",
+      "answer": "リンゴ184円、ミカン142円",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "リンゴをx円、ミカンをy円として連立方程式を立てます",
+      "explanation": "2x + 3y = 794, 5x + 4y = 1488 を解きます"
+    },
+    {
+      "id": 77,
+      "question": "現在、父の年齢は42歳、息子の年齢は12歳です。何年後に父の年齢が息子の年齢の2倍になりますか。",
+      "answer": "18年後",
+      "unit": "年後",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "x年後とすると、42+x = 2(12+x)",
+      "explanation": "42 + x = 2(12 + x) を解きます"
+    },
+    {
+      "id": 78,
+      "question": "A地点からB地点まで17kmあります。行きは時速59km、帰りは時速50kmで往復しました。往復の時間の合計を求めなさい。",
+      "answer": "0.63時間",
+      "unit": "時間",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "行きの時間は17/59時間、帰りは17/50時間",
+      "explanation": "17/59 + 17/50 = 0.63"
+    },
+    {
+      "id": 79,
+      "question": "濃度12%の食塩水116gと濃度16%の食塩水253gを混ぜると、濃度何%の食塩水ができますか。",
+      "answer": "14.7%",
+      "unit": "%",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "食塩の量の合計を食塩水の量の合計で割ります",
+      "explanation": "(12×116 + 16×253) / (116+253) = 14.7%"
+    },
+    {
+      "id": 80,
+      "question": "81円の品物と131円の品物を合わせて14個買い、代金が1634円でした。それぞれ何個ずつ買いましたか。",
+      "answer": "81円の品物4個、131円の品物10個",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "81円の品物をx個、131円の品物をy個とします",
+      "explanation": "x + y = 14, 81x + 131y = 1634 を解きます"
+    },
+    {
+      "id": 81,
+      "question": "リンゴ5個とミカン2個で975円、リンゴ3個とミカン3個で783円です。リンゴ1個とミカン1個の値段をそれぞれ求めなさい。",
+      "answer": "リンゴ151円、ミカン110円",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "リンゴをx円、ミカンをy円として連立方程式を立てます",
+      "explanation": "5x + 2y = 975, 3x + 3y = 783 を解きます"
+    },
+    {
+      "id": 82,
+      "question": "現在、父の年齢は36歳、息子の年齢は14歳です。x年後に父の年齢が息子の年齢の2倍になります。式を立ててxを求めなさい。",
+      "answer": "6年後",
+      "unit": "年後",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "x年後とすると、36+x = 2(14+x)",
+      "explanation": "36 + x = 2(14 + x) を解きます"
+    },
+    {
+      "id": 83,
+      "question": "A地点からB地点まで18kmあります。行きは時速41km、帰りは時速35kmで往復しました。往復の時間の合計を求めなさい。",
+      "answer": "0.95時間",
+      "unit": "時間",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "行きの時間は18/41時間、帰りは18/35時間",
+      "explanation": "18/41 + 18/35 = 0.95"
+    },
+    {
+      "id": 84,
+      "question": "濃度13%の食塩水298gと濃度18%の食塩水262gを混ぜると、濃度何%の食塩水ができますか。",
+      "answer": "15.3%",
+      "unit": "%",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "食塩の量の合計を食塩水の量の合計で割ります",
+      "explanation": "(13×298 + 18×262) / (298+262) = 15.3%"
+    },
+    {
+      "id": 85,
+      "question": "98円の品物と143円の品物を合わせて16個買い、代金が1973円でした。それぞれ何個ずつ買いましたか。",
+      "answer": "98円の品物7個、143円の品物9個",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "98円の品物をx個、143円の品物をy個とします",
+      "explanation": "x + y = 16, 98x + 143y = 1973 を解きます"
+    },
+    {
+      "id": 86,
+      "question": "リンゴ5個とミカン4個で995円、リンゴ2個とミカン3個で538円です。リンゴ1個とミカン1個の値段をそれぞれ求めなさい。",
+      "answer": "リンゴ119円、ミカン100円",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "リンゴをx円、ミカンをy円として連立方程式を立てます",
+      "explanation": "5x + 4y = 995, 2x + 3y = 538 を解きます"
+    },
+    {
+      "id": 87,
+      "question": "現在、父の年齢は42歳、息子の年齢は12歳です。何年後に父の年齢が息子の年齢の2倍になりますか。",
+      "answer": "18年後",
+      "unit": "年後",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "x年後とすると、42+x = 2(12+x)",
+      "explanation": "42 + x = 2(12 + x) を解きます"
+    },
+    {
+      "id": 88,
+      "question": "A地点からB地点まで23kmあります。行きは時速53km、帰りは時速39kmで往復しました。往復の時間の合計を求めなさい。",
+      "answer": "1.02時間",
+      "unit": "時間",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "行きの時間は23/53時間、帰りは23/39時間",
+      "explanation": "23/53 + 23/39 = 1.02"
+    },
+    {
+      "id": 89,
+      "question": "濃度11%の食塩水123gと濃度12%の食塩水248gを混ぜると、濃度何%の食塩水ができますか。",
+      "answer": "11.7%",
+      "unit": "%",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "食塩の量の合計を食塩水の量の合計で割ります",
+      "explanation": "(11×123 + 12×248) / (123+248) = 11.7%"
+    },
+    {
+      "id": 90,
+      "question": "87円の品物と101円の品物を合わせて9個買い、代金が853円でした。それぞれ何個ずつ買いましたか。",
+      "answer": "87円の品物4個、101円の品物5個",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "87円の品物をx個、101円の品物をy個とします",
+      "explanation": "x + y = 9, 87x + 101y = 853 を解きます"
+    },
+    {
+      "id": 91,
+      "question": "2桁の数で、十の位と一の位の和が11、十の位と一の位を入れ替えると元の数より27大きくなります。元の数を求めなさい。",
+      "answer": "47",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "十の位をx、一の位をyとします",
+      "explanation": "x + y = 11, 10y + x = 10x + y + 27"
+    },
+    {
+      "id": 92,
+      "question": "長方形の縦が横より5cm長く、周囲の長さが50cmです。縦と横の長さを求めなさい。",
+      "answer": "縦15cm、横10cm",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "横をxcm、縦をycmとします",
+      "explanation": "y = x + 5, 2(x + y) = 50"
+    },
+    {
+      "id": 93,
+      "question": "兄弟3人の年齢の和が45歳、兄は弟より5歳年上、弟は妹より3歳年上です。兄の年齢は?",
+      "answer": "19歳",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "妹の年齢をx歳とします",
+      "explanation": "x + (x+3) + (x+8) = 45"
+    },
+    {
+      "id": 94,
+      "question": "A, B, Cの3人の所持金で、A+B=2000, A+C=2400, B+C=2200です。Aの所持金は?",
+      "answer": "1100円",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "3式を足してA+B+Cを求めます",
+      "explanation": "2(A+B+C) = 6600, A+B+C = 3300, A = 1100"
+    },
+    {
+      "id": 95,
+      "question": "ある数を3で割って5を加えると、その数を2で割ったものと等しくなります。ある数は?",
+      "answer": "30",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "ある数をxとします",
+      "explanation": "x/3 + 5 = x/2"
+    },
+    {
+      "id": 96,
+      "question": "池の周りを反対方向に歩き、姉は時速5km、妹は時速4kmで20分後に出会いました。池の周りは何km?",
+      "answer": "3km",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "20分 = 1/3時間です",
+      "explanation": "5×1/3 + 4×1/3 = 3km"
+    },
+    {
+      "id": 97,
+      "question": "A町からB町まで、前半を時速50km、後半を時速40kmで走り、全体で2.25時間でした。距離は?",
+      "answer": "100km",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "距離をxkmとします",
+      "explanation": "x/100 + x/80 = 2.25"
+    },
+    {
+      "id": 98,
+      "question": "原価の3割増しで定価をつけ、定価の1割引きで売ると利益が510円でした。原価は?",
+      "answer": "3000円",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "原価をx円とします",
+      "explanation": "1.3x × 0.9 - x = 510"
+    },
+    {
+      "id": 99,
+      "question": "10%の食塩水200gに水を加えて8%にします。水は何g?",
+      "answer": "50g",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "水をxgとします",
+      "explanation": "200×0.1 = (200+x)×0.08"
+    },
+    {
+      "id": 100,
+      "question": "姉妹の年齢の和が32歳、姉は妹の2倍より4歳少ない。姉と妹の年齢は?",
+      "answer": "姉20歳、妹12歳",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "姉をx歳、妹をy歳とします",
+      "explanation": "x + y = 32, x = 2y - 4"
+    }
+  ]
+}

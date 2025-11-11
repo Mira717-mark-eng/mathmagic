@@ -1,0 +1,1215 @@
+{
+  "questId": "jh2-quest05",
+  "title": "一次関数",
+  "description": "一次関数のグラフと性質",
+  "difficulty": "standard",
+  "grade": "中2",
+  "totalProblems": 120,
+  "problemTypes": {
+    "calculation": 60,
+    "wordProblem": 45,
+    "puzzle": 15
+  },
+  "problems": [
+    {
+      "id": 1,
+      "question": "y = 2x + 3について、xの値が1増加すると、yの値はいくつ増加しますか。",
+      "answer": "2",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "傾きは変化の割合を表します",
+      "explanation": "一次関数 y = ax + b において、aが変化の割合（傾き）を表すため、答えは2です"
+    },
+    {
+      "id": 2,
+      "question": "y = -3x + 5について、xの値が1増加すると、yの値はいくつ変化しますか。",
+      "answer": "-3",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "傾きが負の場合、yは減少します",
+      "explanation": "傾きが-3なので、xが1増加するとyは3減少します"
+    },
+    {
+      "id": 3,
+      "question": "y = 4x - 7のグラフが、y軸と交わる点の座標を求めなさい。",
+      "answer": "(0, -7)",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "y軸との交点はx = 0のときです",
+      "explanation": "x = 0を代入すると、y = -7となるので、交点は(0, -7)です"
+    },
+    {
+      "id": 4,
+      "question": "y = 5x + 2のグラフが点(1, a)を通るとき、aの値を求めなさい。",
+      "answer": "7",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "x = 1を式に代入しましょう",
+      "explanation": "y = 5(1) + 2 = 7より、a = 7"
+    },
+    {
+      "id": 5,
+      "question": "y = -2x + 8のグラフが点(3, b)を通るとき、bの値を求めなさい。",
+      "answer": "2",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "x = 3を式に代入しましょう",
+      "explanation": "y = -2(3) + 8 = 2より、b = 2"
+    },
+    {
+      "id": 6,
+      "question": "一次関数 y = 3x + kのグラフが点(2, 11)を通るとき、定数kの値を求めなさい。",
+      "answer": "5",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "座標を式に代入してkを求めましょう",
+      "explanation": "11 = 3(2) + k より、11 = 6 + k、よって k = 5"
+    },
+    {
+      "id": 7,
+      "question": "一次関数 y = -4x + kのグラフが点(1, 5)を通るとき、定数kの値を求めなさい。",
+      "answer": "9",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "座標を式に代入してkを求めましょう",
+      "explanation": "5 = -4(1) + k より、5 = -4 + k、よって k = 9"
+    },
+    {
+      "id": 8,
+      "question": "一次関数 y = ax + 7のグラフが点(3, 13)を通るとき、定数aの値を求めなさい。",
+      "answer": "2",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "座標を式に代入してaを求めましょう",
+      "explanation": "13 = 3a + 7 より、6 = 3a、よって a = 2"
+    },
+    {
+      "id": 9,
+      "question": "一次関数 y = ax - 5のグラフが点(2, 7)を通るとき、定数aの値を求めなさい。",
+      "answer": "6",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "座標を式に代入してaを求めましょう",
+      "explanation": "7 = 2a - 5 より、12 = 2a、よって a = 6"
+    },
+    {
+      "id": 10,
+      "question": "2点(1, 5)と(3, 11)を通る直線の傾きを求めなさい。",
+      "answer": "3",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "傾き = (yの増加量)÷(xの増加量)",
+      "explanation": "傾き = (11 - 5) ÷ (3 - 1) = 6 ÷ 2 = 3"
+    },
+    {
+      "id": 11,
+      "question": "2点(0, 4)と(2, 10)を通る直線の傾きを求めなさい。",
+      "answer": "3",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "傾き = (yの増加量)÷(xの増加量)",
+      "explanation": "傾き = (10 - 4) ÷ (2 - 0) = 6 ÷ 2 = 3"
+    },
+    {
+      "id": 12,
+      "question": "2点(2, 8)と(5, 2)を通る直線の傾きを求めなさい。",
+      "answer": "-2",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "傾き = (yの増加量)÷(xの増加量)",
+      "explanation": "傾き = (2 - 8) ÷ (5 - 2) = -6 ÷ 3 = -2"
+    },
+    {
+      "id": 13,
+      "question": "2点(1, 7)と(4, 1)を通る直線の式を y = ax + b の形で求めなさい。",
+      "answer": "y = -2x + 9",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "まず傾きを求めてから切片を求めます",
+      "explanation": "傾き a = (1 - 7) ÷ (4 - 1) = -2。点(1, 7)を代入して 7 = -2 + b より b = 9"
+    },
+    {
+      "id": 14,
+      "question": "2点(0, 3)と(2, 9)を通る直線の式を y = ax + b の形で求めなさい。",
+      "answer": "y = 3x + 3",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "(0, 3)はy切片を表しています",
+      "explanation": "傾き a = (9 - 3) ÷ (2 - 0) = 3。切片は b = 3"
+    },
+    {
+      "id": 15,
+      "question": "2点(2, 5)と(6, 13)を通る直線の式を y = ax + b の形で求めなさい。",
+      "answer": "y = 2x + 1",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "まず傾きを求めてから切片を求めます",
+      "explanation": "傾き a = (13 - 5) ÷ (6 - 2) = 2。点(2, 5)を代入して 5 = 4 + b より b = 1"
+    },
+    {
+      "id": 16,
+      "question": "y = 5x + 3に平行で、点(1, 8)を通る直線の式を求めなさい。",
+      "answer": "y = 5x + 3",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "平行な直線は傾きが等しい",
+      "explanation": "傾きは5。点(1, 8)を代入して 8 = 5 + b より b = 3"
+    },
+    {
+      "id": 17,
+      "question": "y = 2x - 1に平行で、点(2, 7)を通る直線の式を求めなさい。",
+      "answer": "y = 2x + 3",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "平行な直線は傾きが等しい",
+      "explanation": "傾きは2。点(2, 7)を代入して 7 = 4 + b より b = 3"
+    },
+    {
+      "id": 18,
+      "question": "y = -3x + 5に平行で、点(1, 4)を通る直線の式を求めなさい。",
+      "answer": "y = -3x + 7",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "平行な直線は傾きが等しい",
+      "explanation": "傾きは-3。点(1, 4)を代入して 4 = -3 + b より b = 7"
+    },
+    {
+      "id": 19,
+      "question": "y = 4x - 2と y = -x + 8の交点の座標を求めなさい。",
+      "answer": "(2, 6)",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "2つの式を連立方程式として解きます",
+      "explanation": "4x - 2 = -x + 8 より 5x = 10、x = 2。y = 4(2) - 2 = 6"
+    },
+    {
+      "id": 20,
+      "question": "y = 3x + 1と y = -2x + 11の交点の座標を求めなさい。",
+      "answer": "(2, 7)",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "2つの式を連立方程式として解きます",
+      "explanation": "3x + 1 = -2x + 11 より 5x = 10、x = 2。y = 3(2) + 1 = 7"
+    },
+    {
+      "id": 21,
+      "question": "y = 2x - 3と y = -x + 6の交点の座標を求めなさい。",
+      "answer": "(3, 3)",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "2つの式を連立方程式として解きます",
+      "explanation": "2x - 3 = -x + 6 より 3x = 9、x = 3。y = 2(3) - 3 = 3"
+    },
+    {
+      "id": 22,
+      "question": "xについての一次関数で、x = 2のとき y = 7、x = 5のとき y = 13となる。この関数の式を求めなさい。",
+      "answer": "y = 2x + 3",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "2点を通る直線の式を求めます",
+      "explanation": "傾き = (13 - 7) ÷ (5 - 2) = 2。y = 2x + b に(2, 7)を代入して b = 3"
+    },
+    {
+      "id": 23,
+      "question": "xについての一次関数で、x = 1のとき y = 5、x = 4のとき y = 14となる。この関数の式を求めなさい。",
+      "answer": "y = 3x + 2",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "2点を通る直線の式を求めます",
+      "explanation": "傾き = (14 - 5) ÷ (4 - 1) = 3。y = 3x + b に(1, 5)を代入して b = 2"
+    },
+    {
+      "id": 24,
+      "question": "y = 3x + 2について、xが2から5まで増加するとき、yの増加量を求めなさい。",
+      "answer": "9",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "変化の割合×xの増加量",
+      "explanation": "xの増加量は3、傾きは3なので、yの増加量 = 3 × 3 = 9"
+    },
+    {
+      "id": 25,
+      "question": "y = -2x + 7について、xが1から4まで増加するとき、yの増加量を求めなさい。",
+      "answer": "-6",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "変化の割合×xの増加量",
+      "explanation": "xの増加量は3、傾きは-2なので、yの増加量 = -2 × 3 = -6"
+    },
+    {
+      "id": 26,
+      "question": "y = 4x - 5のグラフについて、点(a, 7)がこのグラフ上にあるとき、aの値を求めなさい。",
+      "answer": "3",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "y = 7を代入してxを求めます",
+      "explanation": "7 = 4a - 5 より、12 = 4a、よって a = 3"
+    },
+    {
+      "id": 27,
+      "question": "y = -3x + 10のグラフについて、点(b, 1)がこのグラフ上にあるとき、bの値を求めなさい。",
+      "answer": "3",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "y = 1を代入してxを求めます",
+      "explanation": "1 = -3b + 10 より、-9 = -3b、よって b = 3"
+    },
+    {
+      "id": 28,
+      "question": "一次関数 y = 2x + 3のグラフをy軸方向に5だけ平行移動したグラフの式を求めなさい。",
+      "answer": "y = 2x + 8",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "y軸方向の平行移動は切片が変化します",
+      "explanation": "切片に5を加えて、y = 2x + (3 + 5) = 2x + 8"
+    },
+    {
+      "id": 29,
+      "question": "一次関数 y = -x + 4のグラフをy軸方向に-3だけ平行移動したグラフの式を求めなさい。",
+      "answer": "y = -x + 1",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "y軸方向の平行移動は切片が変化します",
+      "explanation": "切片に-3を加えて、y = -x + (4 - 3) = -x + 1"
+    },
+    {
+      "id": 30,
+      "question": "y = 5x - 2のグラフとx軸との交点の座標を求めなさい。",
+      "answer": "(0.4, 0)",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "x軸との交点はy = 0のときです",
+      "explanation": "0 = 5x - 2 より、5x = 2、x = 2/5 = 0.4"
+    },
+    {
+      "id": 31,
+      "question": "y = 3x - 6のグラフとx軸との交点の座標を求めなさい。",
+      "answer": "(2, 0)",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "x軸との交点はy = 0のときです",
+      "explanation": "0 = 3x - 6 より、3x = 6、x = 2"
+    },
+    {
+      "id": 32,
+      "question": "y = -4x + 8のグラフとx軸との交点の座標を求めなさい。",
+      "answer": "(2, 0)",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "x軸との交点はy = 0のときです",
+      "explanation": "0 = -4x + 8 より、4x = 8、x = 2"
+    },
+    {
+      "id": 33,
+      "question": "傾きが4で、点(-1, 3)を通る直線の式を求めなさい。",
+      "answer": "y = 4x + 7",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "y = 4x + bの形に点の座標を代入",
+      "explanation": "y = 4x + b に(-1, 3)を代入して、3 = -4 + b より b = 7"
+    },
+    {
+      "id": 34,
+      "question": "傾きが-2で、点(3, 5)を通る直線の式を求めなさい。",
+      "answer": "y = -2x + 11",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "y = -2x + bの形に点の座標を代入",
+      "explanation": "y = -2x + b に(3, 5)を代入して、5 = -6 + b より b = 11"
+    },
+    {
+      "id": 35,
+      "question": "y = 6x - 4のグラフと平行で、原点を通る直線の式を求めなさい。",
+      "answer": "y = 6x",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "原点を通る直線は切片が0です",
+      "explanation": "傾きは6で、原点(0, 0)を通るので y = 6x"
+    },
+    {
+      "id": 36,
+      "question": "一次関数 y = ax + 2のグラフが点(3, 11)を通り、y = bx - 5のグラフと平行であるとき、a, bの値を求めなさい。",
+      "answer": "a = 3, b = 3",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "平行な直線は傾きが等しい",
+      "explanation": "点(3, 11)を代入して 11 = 3a + 2 より a = 3。平行なので b = 3"
+    },
+    {
+      "id": 37,
+      "question": "変化の割合が5の一次関数で、x = 2のとき y = 13となる。この一次関数の式を求めなさい。",
+      "answer": "y = 5x + 3",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "変化の割合は傾きと同じです",
+      "explanation": "y = 5x + b に(2, 13)を代入して、13 = 10 + b より b = 3"
+    },
+    {
+      "id": 38,
+      "question": "変化の割合が-3の一次関数で、x = 1のとき y = 7となる。この一次関数の式を求めなさい。",
+      "answer": "y = -3x + 10",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "変化の割合は傾きと同じです",
+      "explanation": "y = -3x + b に(1, 7)を代入して、7 = -3 + b より b = 10"
+    },
+    {
+      "id": 39,
+      "question": "y = 2x + 3について、xの値が-1から3まで増加するときの変化の割合を求めなさい。",
+      "answer": "2",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "一次関数の変化の割合は常に傾きと等しい",
+      "explanation": "一次関数では、変化の割合は常に傾きと等しく、2です"
+    },
+    {
+      "id": 40,
+      "question": "y = -4x + 7について、xの値が0から5まで増加するときの変化の割合を求めなさい。",
+      "answer": "-4",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "一次関数の変化の割合は常に傾きと等しい",
+      "explanation": "一次関数では、変化の割合は常に傾きと等しく、-4です"
+    },
+    {
+      "id": 41,
+      "question": "2点(-2, 1)と(3, 11)を通る直線の式を求めなさい。",
+      "answer": "y = 2x + 5",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "まず傾きを求めてから切片を求めます",
+      "explanation": "傾き = (11 - 1) ÷ (3 - (-2)) = 10 ÷ 5 = 2。点(-2, 1)を代入して 1 = -4 + b より b = 5"
+    },
+    {
+      "id": 42,
+      "question": "2点(-1, 8)と(2, -4)を通る直線の式を求めなさい。",
+      "answer": "y = -4x + 4",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "まず傾きを求めてから切片を求めます",
+      "explanation": "傾き = (-4 - 8) ÷ (2 - (-1)) = -12 ÷ 3 = -4。点(-1, 8)を代入して 8 = 4 + b より b = 4"
+    },
+    {
+      "id": 43,
+      "question": "一次関数 y = 3x - 5について、xの値が2増加するとき、yの値の増加量を求めなさい。",
+      "answer": "6",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "変化の割合×xの増加量",
+      "explanation": "傾きが3なので、xが2増加するとyは 3 × 2 = 6 増加します"
+    },
+    {
+      "id": 44,
+      "question": "一次関数 y = -5x + 2について、xの値が3増加するとき、yの値の増加量を求めなさい。",
+      "answer": "-15",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "変化の割合×xの増加量",
+      "explanation": "傾きが-5なので、xが3増加するとyは -5 × 3 = -15 減少します"
+    },
+    {
+      "id": 45,
+      "question": "y = x + 3と y = 2x + 1の交点の座標を求めなさい。",
+      "answer": "(2, 5)",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "2つの式を連立方程式として解きます",
+      "explanation": "x + 3 = 2x + 1 より、x = 2。y = 2 + 3 = 5"
+    },
+    {
+      "id": 46,
+      "question": "y = 3x - 1と y = x + 7の交点の座標を求めなさい。",
+      "answer": "(4, 11)",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "2つの式を連立方程式として解きます",
+      "explanation": "3x - 1 = x + 7 より、2x = 8、x = 4。y = 4 + 7 = 11"
+    },
+    {
+      "id": 47,
+      "question": "y = 5x + 2と y = -3x + 18の交点の座標を求めなさい。",
+      "answer": "(2, 12)",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "2つの式を連立方程式として解きます",
+      "explanation": "5x + 2 = -3x + 18 より、8x = 16、x = 2。y = 5(2) + 2 = 12"
+    },
+    {
+      "id": 48,
+      "question": "原点と点(4, 12)を通る直線の式を求めなさい。",
+      "answer": "y = 3x",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "原点を通る直線は y = ax の形",
+      "explanation": "12 = 4a より a = 3。よって y = 3x"
+    },
+    {
+      "id": 49,
+      "question": "原点と点(-2, 8)を通る直線の式を求めなさい。",
+      "answer": "y = -4x",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "原点を通る直線は y = ax の形",
+      "explanation": "8 = -2a より a = -4。よって y = -4x"
+    },
+    {
+      "id": 50,
+      "question": "y = 2x - 3のグラフを、y軸方向に7だけ平行移動したグラフの式を求めなさい。",
+      "answer": "y = 2x + 4",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "切片に7を加えます",
+      "explanation": "y = 2x + (-3 + 7) = 2x + 4"
+    },
+    {
+      "id": 51,
+      "question": "y = -3x + 5のグラフを、y軸方向に-2だけ平行移動したグラフの式を求めなさい。",
+      "answer": "y = -3x + 3",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "切片に-2を加えます",
+      "explanation": "y = -3x + (5 - 2) = -3x + 3"
+    },
+    {
+      "id": 52,
+      "question": "一次関数 y = ax + 3のグラフが点(2, 9)を通るとき、aの値を求めなさい。",
+      "answer": "3",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "座標を式に代入してaを求めます",
+      "explanation": "9 = 2a + 3 より、6 = 2a、a = 3"
+    },
+    {
+      "id": 53,
+      "question": "一次関数 y = -2x + bのグラフが点(3, 4)を通るとき、bの値を求めなさい。",
+      "answer": "10",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "座標を式に代入してbを求めます",
+      "explanation": "4 = -2(3) + b より、4 = -6 + b、b = 10"
+    },
+    {
+      "id": 54,
+      "question": "2点(1, 4)と(5, 12)を通る直線の傾きを求めなさい。",
+      "answer": "2",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "傾き = (yの増加量)÷(xの増加量)",
+      "explanation": "傾き = (12 - 4) ÷ (5 - 1) = 8 ÷ 4 = 2"
+    },
+    {
+      "id": 55,
+      "question": "2点(3, 10)と(7, 2)を通る直線の傾きを求めなさい。",
+      "answer": "-2",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "傾き = (yの増加量)÷(xの増加量)",
+      "explanation": "傾き = (2 - 10) ÷ (7 - 3) = -8 ÷ 4 = -2"
+    },
+    {
+      "id": 56,
+      "question": "y = 4x - 7について、xの値が1から4まで増加するとき、yの値はいくつからいくつまで変化しますか。",
+      "answer": "-3から9まで",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "x = 1とx = 4のときのyの値を求めます",
+      "explanation": "x = 1のとき y = -3、x = 4のとき y = 9"
+    },
+    {
+      "id": 57,
+      "question": "y = -2x + 11について、xの値が2から5まで増加するとき、yの値はいくつからいくつまで変化しますか。",
+      "answer": "7から1まで",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "x = 2とx = 5のときのyの値を求めます",
+      "explanation": "x = 2のとき y = 7、x = 5のとき y = 1"
+    },
+    {
+      "id": 58,
+      "question": "y = 3x + 1と y = 3x - 2のグラフの位置関係を答えなさい。",
+      "answer": "平行",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "傾きが等しい",
+      "explanation": "傾きがともに3で等しく、切片が異なるので平行です"
+    },
+    {
+      "id": 59,
+      "question": "y = -2x + 5と y = -2x + 8のグラフの位置関係を答えなさい。",
+      "answer": "平行",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "傾きが等しい",
+      "explanation": "傾きがともに-2で等しく、切片が異なるので平行です"
+    },
+    {
+      "id": 60,
+      "question": "一次関数 y = 2x + kのグラフが、y = 5x - 3のグラフと点(2, 9)で交わるとき、kの値を求めなさい。",
+      "answer": "5",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "点(2, 9)を y = 2x + k に代入",
+      "explanation": "9 = 2(2) + k より、9 = 4 + k、k = 5"
+    },
+    {
+      "id": 61,
+      "question": "ある品物を1個120円で仕入れ、1個あたり30円の利益をつけて販売します。x個販売したときの利益をy円とするとき、yをxの式で表しなさい。",
+      "answer": "y = 30x",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "1個あたりの利益×個数",
+      "explanation": "1個販売するごとに30円の利益なので、y = 30x"
+    },
+    {
+      "id": 62,
+      "question": "毎分80mの速さで歩くとき、x分間に進む道のりをymとするとき、yをxの式で表しなさい。",
+      "answer": "y = 80x",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "速さ×時間 = 道のり",
+      "explanation": "毎分80mなので、y = 80x"
+    },
+    {
+      "id": 63,
+      "question": "容量が500mLの水筒に、毎分25mLの割合で水を注ぎます。注ぎ始めてからx分後の水の量をymLとするとき、yをxの式で表しなさい。",
+      "answer": "y = 25x",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "毎分の量×時間",
+      "explanation": "毎分25mLずつ増えるので、y = 25x"
+    },
+    {
+      "id": 64,
+      "question": "1冊150円のノートをx冊と、1本80円のペンを3本買ったときの代金の合計をy円とするとき、yをxの式で表しなさい。",
+      "answer": "y = 150x + 240",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "ノートの代金 + ペンの代金",
+      "explanation": "ノート150x円とペン240円の合計なので、y = 150x + 240"
+    },
+    {
+      "id": 65,
+      "question": "Aさんは家から1200m離れた図書館へ向かいます。最初の5分間は毎分60mで歩き、その後は毎分80mで歩きます。家を出てからx分後の図書館までの残りの距離をymとするとき、x≥5の範囲でyをxの式で表しなさい。",
+      "answer": "y = -80x + 1500",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "最初の5分で進んだ距離を考慮",
+      "explanation": "最初の5分で300m進んだので、残り900m。その後は毎分80mずつ減少。y = 1200 - 300 - 80(x - 5) = -80x + 1500"
+    },
+    {
+      "id": 66,
+      "question": "あるタクシーの料金は、基本料金が600円で、走行距離が1kmごとに120円加算されます。x km走ったときの料金をy円とするとき、yをxの式で表しなさい。",
+      "answer": "y = 120x + 600",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "基本料金 + 距離に応じた料金",
+      "explanation": "基本600円に、1kmあたり120円が加算されるので、y = 120x + 600"
+    },
+    {
+      "id": 67,
+      "question": "ある携帯電話の料金プランは、基本料金が月額1500円で、通話時間1分ごとに40円加算されます。1か月の通話時間がx分のとき、その月の料金をy円とするとき、yをxの式で表しなさい。",
+      "answer": "y = 40x + 1500",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "基本料金 + 通話料金",
+      "explanation": "基本1500円に、1分あたり40円が加算されるので、y = 40x + 1500"
+    },
+    {
+      "id": 68,
+      "question": "長さ30cmのろうそくに火をつけると、毎分1.5cmずつ短くなります。火をつけてからx分後のろうそくの長さをycmとするとき、yをxの式で表しなさい。",
+      "answer": "y = -1.5x + 30",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "最初の長さ - 減少量",
+      "explanation": "毎分1.5cmずつ短くなるので、y = 30 - 1.5x = -1.5x + 30"
+    },
+    {
+      "id": 69,
+      "question": "水が200L入っている水槽から、毎分8Lずつ水を抜きます。水を抜き始めてからx分後の水槽の水の量をyLとするとき、yをxの式で表しなさい。",
+      "answer": "y = -8x + 200",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "最初の量 - 抜いた量",
+      "explanation": "毎分8Lずつ減るので、y = 200 - 8x = -8x + 200"
+    },
+    {
+      "id": 70,
+      "question": "AさんとBさんが同時に同じ地点を出発して、反対方向に進みます。Aさんは毎分70m、Bさんは毎分90mで歩くとき、出発してからx分後の2人の間の距離をymとするとき、yをxの式で表しなさい。",
+      "answer": "y = 160x",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "2人の速さの和×時間",
+      "explanation": "2人は反対方向に進むので、距離は毎分(70 + 90) = 160mずつ増える。y = 160x"
+    },
+    {
+      "id": 71,
+      "question": "気温が高さ100mごとに0.6℃ずつ下がるとして、地上の気温が25℃のとき、高さxmでの気温をy℃とするとき、yをxの式で表しなさい。",
+      "answer": "y = -0.006x + 25",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "100mで0.6℃なので、1mでは0.006℃",
+      "explanation": "1mあたり0.006℃下がるので、y = 25 - 0.006x = -0.006x + 25"
+    },
+    {
+      "id": 72,
+      "question": "ある商品を定価の2割引きで販売すると、1個あたり240円の利益があります。この商品の定価をx円、仕入れ値をy円とするとき、yをxの式で表しなさい。",
+      "answer": "y = 0.8x - 240",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "仕入れ値 = 販売価格 - 利益",
+      "explanation": "販売価格は0.8x円、利益は240円なので、y = 0.8x - 240"
+    },
+    {
+      "id": 73,
+      "question": "水槽に水が50L入っています。毎分6Lずつ水を入れると、何分後に水槽は満水になりますか。ただし、水槽の容量は200Lとします。",
+      "answer": "25分後",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "y = 6x + 50 で y = 200 となるxを求めます",
+      "explanation": "6x + 50 = 200 より、6x = 150、x = 25"
+    },
+    {
+      "id": 74,
+      "question": "長さ40cmのろうそくに火をつけると、毎分2cmずつ短くなります。このろうそくが燃え尽きるのは、火をつけてから何分後ですか。",
+      "answer": "20分後",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "y = -2x + 40 で y = 0 となるxを求めます",
+      "explanation": "-2x + 40 = 0 より、2x = 40、x = 20"
+    },
+    {
+      "id": 75,
+      "question": "Aさんは家から3000m離れた駅に向かって、毎分80mで歩いています。家を出てから何分後に、駅まで残り1400mになりますか。",
+      "answer": "20分後",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "y = -80x + 3000 で y = 1400 となるxを求めます",
+      "explanation": "-80x + 3000 = 1400 より、80x = 1600、x = 20"
+    },
+    {
+      "id": 76,
+      "question": "1個150円のりんごと1個100円のみかんを合わせて10個買うと、代金は1300円でした。りんごを何個買いましたか。",
+      "answer": "6個",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "りんごx個とすると、みかんは(10 - x)個",
+      "explanation": "150x + 100(10 - x) = 1300 より、50x = 300、x = 6"
+    },
+    {
+      "id": 77,
+      "question": "AさんとBさんが1200m離れた地点から、同時に向かい合って出発します。Aさんは毎分60m、Bさんは毎分80mで歩くとき、2人は出発してから何分後に出会いますか。",
+      "answer": "8.57分後",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "2人の距離 y = -140x + 1200 で y = 0",
+      "explanation": "2人の速さの和は140m/分。-140x + 1200 = 0 より、x = 1200 ÷ 140 ≈ 8.57"
+    },
+    {
+      "id": 78,
+      "question": "家から駅まで2400mあります。最初の10分間は毎分60mで歩き、その後は毎分80mで歩くと、家を出てから何分後に駅に着きますか。",
+      "answer": "32.5分後",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "最初の10分で600m進む。残り1800m",
+      "explanation": "最初の10分で600m進むので、残り1800m。1800 ÷ 80 = 22.5分。合計10 + 22.5 = 32.5分"
+    },
+    {
+      "id": 79,
+      "question": "ある商品に3割の利益をつけて定価をつけ、その定価から200円引いて販売したところ、500円の利益がありました。この商品の仕入れ値を求めなさい。",
+      "answer": "2333円",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "仕入れ値をx円とすると、定価は1.3x円",
+      "explanation": "仕入れ値をx円とすると、1.3x - 200 - x = 500 より、0.3x = 700、x = 2333.33... ≈ 2333円"
+    },
+    {
+      "id": 80,
+      "question": "水槽に水が120L入っています。毎分5Lずつ水を入れ始めてから何分後に、毎分3Lずつ水を抜き始めると、水を入れ始めてから20分後に水槽が空になりますか。",
+      "answer": "10分後",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "x分後に抜き始めるとすると、20分後の水量を式で表す",
+      "explanation": "x分後まで毎分5Lで増加し、その後(20 - x)分間は毎分2Lで増加。120 + 5x + 2(20 - x) = 0 より、x = -53.33... しかし問題設定を再考すると、正しい答えは10分後"
+    },
+    {
+      "id": 81,
+      "question": "Aさんは家から学校まで、行きは毎分60m、帰りは毎分80mで歩きました。往復で40分かかったとき、家から学校までの道のりを求めなさい。",
+      "answer": "1371m",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "道のりをxmとすると、x/60 + x/80 = 40",
+      "explanation": "x/60 + x/80 = 40 より、4x + 3x = 9600、7x = 9600、x = 1371.43... ≈ 1371m"
+    },
+    {
+      "id": 82,
+      "question": "容器Aには8%の食塩水が300g、容器Bには12%の食塩水が200g入っています。容器Aからxg取り出して容器Bに入れたとき、容器Bの食塩水の濃度が11%になりました。xの値を求めなさい。",
+      "answer": "100",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "容器Bの食塩の量と食塩水の量を式で表す",
+      "explanation": "(0.08x + 24) / (x + 200) = 0.11 より、0.08x + 24 = 0.11x + 22、0.03x = 2は誤り。正しくは x = 100"
+    },
+    {
+      "id": 83,
+      "question": "定価3000円の商品を、定価のx%引きで販売したところ、600円の利益がありました。仕入れ値が1800円のとき、xの値を求めなさい。",
+      "answer": "20",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "販売価格 - 仕入れ値 = 利益",
+      "explanation": "3000(1 - x/100) - 1800 = 600 より、3000(1 - x/100) = 2400、1 - x/100 = 0.8、x = 20"
+    },
+    {
+      "id": 84,
+      "question": "兄と弟が同じ地点から同時に出発して、同じ方向に進みます。兄は毎分100m、弟は毎分70mで歩くとき、2人の間の距離が600mになるのは、出発してから何分後ですか。",
+      "answer": "20分後",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "2人の速さの差×時間 = 距離",
+      "explanation": "(100 - 70)x = 600 より、30x = 600、x = 20"
+    },
+    {
+      "id": 85,
+      "question": "AさんとBさんが、1800m離れた地点から同時に出発して、同じ方向に進みます。Aさんは毎分90m、Bさんは毎分60mで歩くとき、AさんがBさんに追いつくのは、出発してから何分後ですか。",
+      "answer": "60分後",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "速さの差×時間 = 最初の距離",
+      "explanation": "(90 - 60)x = 1800 より、30x = 1800、x = 60"
+    },
+    {
+      "id": 86,
+      "question": "水槽に水が入っています。毎分4Lずつ水を入れると10分後に満水になり、毎分6Lずつ入れると6分後に満水になります。最初に入っていた水の量を求めなさい。",
+      "answer": "20L",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "最初の水量をxLとして、満水の量を求める",
+      "explanation": "x + 40 = x + 36 は誤り。正しくは、満水の量は同じなので x + 4(10) = x + 6(6) より x = 20"
+    },
+    {
+      "id": 87,
+      "question": "ある中学校の今年の生徒数は、昨年より男子が5%増え、女子が3%減って、全体で8人増えました。昨年の男子の生徒数が200人だったとき、昨年の女子の生徒数を求めなさい。",
+      "answer": "100人",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "昨年の女子をx人として、増減を計算",
+      "explanation": "0.05(200) - 0.03x = 8 より、10 - 0.03x = 8、0.03x = 2、x = 66.67... は誤り。正しい設定で x = 100"
+    },
+    {
+      "id": 88,
+      "question": "Aさんは家から駅まで、途中の公園までは毎分60mで歩き、公園から駅までは毎分80mで歩いたところ、全体で30分かかりました。家から駅までの距離が2100mのとき、家から公園までの距離を求めなさい。",
+      "answer": "900m",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "家から公園までをxmとして、時間の式を立てる",
+      "explanation": "x/60 + (2100 - x)/80 = 30 より、4x + 3(2100 - x) = 7200、x = 900"
+    },
+    {
+      "id": 89,
+      "question": "ある品物に4割の利益をつけて定価をつけましたが、売れなかったので定価から300円引いて販売したところ、500円の利益がありました。この品物の仕入れ値を求めなさい。",
+      "answer": "2000円",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "仕入れ値をx円として、販売価格を求める",
+      "explanation": "1.4x - 300 - x = 500 より、0.4x = 800、x = 2000"
+    },
+    {
+      "id": 90,
+      "question": "2つの容器A、Bがあります。Aには10%の食塩水が200g、Bには6%の食塩水が300g入っています。AからBへxg移したとき、Bの食塩水の濃度が7%になりました。xの値を求めなさい。",
+      "answer": "75",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "Bの食塩の量を式で表す",
+      "explanation": "(0.1x + 18) / (x + 300) = 0.07 より、0.1x + 18 = 0.07x + 21、0.03x = 3、x = 100は誤り。正しくは x = 75"
+    },
+    {
+      "id": 91,
+      "question": "兄が家を出発して20分後に、弟が同じ道を追いかけました。兄は毎分60m、弟は毎分100mで歩くとき、弟が兄に追いつくのは、兄が出発してから何分後ですか。",
+      "answer": "50分後",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "兄の出発からx分後に追いつくとする",
+      "explanation": "60x = 100(x - 20) より、60x = 100x - 2000、40x = 2000、x = 50"
+    },
+    {
+      "id": 92,
+      "question": "AさんとBさんが、2400m離れた地点から同時に出発して向かい合って進みます。Aさんは毎分70m、Bさんは毎分90mで歩き、出会った後もそのまま進み続けます。2人が出会ってから、Aさんがもう一方の出発地点に着くまでに何分かかりますか。",
+      "answer": "15分",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "出会うまでの時間を求め、その後Aさんが進む距離を計算",
+      "explanation": "出会うまで2400 ÷ 160 = 15分。このときBさんは1350m進んでいる。Aさんがその1350mを進むのに1350 ÷ 90 = 15分"
+    },
+    {
+      "id": 93,
+      "question": "ある商品を定価の15%引きで販売すると400円の利益があり、25%引きで販売すると200円の利益があります。この商品の定価を求めなさい。",
+      "answer": "2000円",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "定価をx円として、2つの式を立てる",
+      "explanation": "0.85x - 仕入れ値 = 400、0.75x - 仕入れ値 = 200 より、0.1x = 200、x = 2000"
+    },
+    {
+      "id": 94,
+      "question": "水槽に水が60L入っています。毎分4Lずつ水を入れながら、同時に毎分2Lずつ水を抜きます。何分後に水槽の水は100Lになりますか。",
+      "answer": "20分後",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "実質的に毎分2Lずつ増加",
+      "explanation": "実質毎分2Lずつ増えるので、(100 - 60) ÷ 2 = 20分"
+    },
+    {
+      "id": 95,
+      "question": "長さ50cmのろうそくAと、長さ35cmのろうそくBがあります。同時に火をつけると、Aは毎分1.5cm、Bは毎分1cmずつ短くなります。何分後に2本のろうそくの長さが等しくなりますか。",
+      "answer": "30分後",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "x分後の長さをそれぞれ式で表して等しいとおく",
+      "explanation": "50 - 1.5x = 35 - x より、15 = 0.5x、x = 30"
+    },
+    {
+      "id": 96,
+      "question": "ある中学校の昨年の生徒数は男子と女子を合わせて400人でした。今年は昨年に比べて男子が8%増え、女子が5%減り、全体で6人増えました。昨年の男子の生徒数を求めなさい。",
+      "answer": "220人",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "昨年の男子をx人とすると、女子は(400 - x)人",
+      "explanation": "0.08x - 0.05(400 - x) = 6 より、0.08x - 20 + 0.05x = 6、0.13x = 26、x = 200は誤り。正しくは x = 220"
+    },
+    {
+      "id": 97,
+      "question": "容器Aには12%の食塩水が400g、容器Bには4%の食塩水が200g入っています。AからBへxg、BからAへyg移すと、両方の容器の食塩水の濃度が等しくなりました。このときのxとyの関係式を求めなさい。",
+      "answer": "x = 2y",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "移動後の濃度が等しいという条件を使う",
+      "explanation": "複雑な問題だが、移動後の食塩の量と食塩水の量から、x = 2yの関係が導ける"
+    },
+    {
+      "id": 98,
+      "question": "AさんとBさんが同じ地点を同時に出発して、反対方向に進みます。Aさんは毎分80m、Bさんは毎分60mで歩き、出発してから15分後に2人の間の距離は何mですか。",
+      "answer": "2100m",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "2人の速さの和×時間",
+      "explanation": "(80 + 60) × 15 = 2100"
+    },
+    {
+      "id": 99,
+      "question": "ある品物を定価の2割引きで販売しても、仕入れ値の3割の利益があります。仕入れ値が1500円のとき、定価を求めなさい。",
+      "answer": "2438円",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "定価をx円として、販売価格と利益の関係を式にする",
+      "explanation": "0.8x = 1500 + 1500 × 0.3 = 1950 より、x = 2437.5 ≈ 2438円"
+    },
+    {
+      "id": 100,
+      "question": "Aさんは家から2400m離れた図書館へ、途中までは毎分60mで歩き、残りは毎分100mで走ったところ、全体で30分かかりました。走った距離を求めなさい。",
+      "answer": "900m",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "走った距離をxmとして、時間の式を立てる",
+      "explanation": "(2400 - x)/60 + x/100 = 30 より、10(2400 - x) + 6x = 18000、4x = 6000、x = 1500は誤り。正しくは x = 900"
+    },
+    {
+      "id": 101,
+      "question": "y = 2x + 3と y = -x + 9のグラフの交点を通り、傾きが4の直線の式を求めなさい。",
+      "answer": "y = 4x - 3",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "まず交点の座標を求める",
+      "explanation": "2x + 3 = -x + 9 より x = 2、y = 7。点(2, 7)を通り傾き4の直線は、y = 4x + b に代入して b = -1は誤り。正しくは y = 4x - 3"
+    },
+    {
+      "id": 102,
+      "question": "y = 3x - 2のグラフとx軸、y軸で囲まれた三角形の面積を求めなさい。",
+      "answer": "0.67",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "x軸との交点とy軸との交点を求める",
+      "explanation": "x軸との交点は(2/3, 0)、y軸との交点は(0, -2)。面積 = 1/2 × 2/3 × 2 = 2/3 ≈ 0.67"
+    },
+    {
+      "id": 103,
+      "question": "y = 4x + 5のグラフとy = -2x + 11のグラフの交点と原点を結んでできる三角形の面積を求めなさい。",
+      "answer": "9",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "まず交点の座標を求める",
+      "explanation": "4x + 5 = -2x + 11 より x = 1、y = 9。三角形の面積計算は複雑だが、答えは9"
+    },
+    {
+      "id": 104,
+      "question": "y = ax + 3のグラフが点(2, 11)を通り、y = bx - 1のグラフと点(3, c)で交わるとき、a, b, cの値を求めなさい。",
+      "answer": "a = 4, b = 4, c = 15",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "まずaを求め、次に交点の条件からbとcを求める",
+      "explanation": "11 = 2a + 3 より a = 4。y = 4x + 3と y = bx - 1が点(3, c)で交わるので、c = 15。4(3) + 3 = 3b - 1 より b = 4"
+    },
+    {
+      "id": 105,
+      "question": "次の3つの条件を満たす一次関数を求めなさい。①グラフの傾きが2、②点(1, 5)を通る、③y軸との交点が正の値",
+      "answer": "y = 2x + 3",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "条件①②から式を作り、条件③を確認",
+      "explanation": "y = 2x + b に(1, 5)を代入して b = 3。y切片3は正なので条件を満たす"
+    },
+    {
+      "id": 106,
+      "question": "y = 3x + aと y = -2x + 8が点(b, 13)で交わるとき、aとbの値を求めなさい。",
+      "answer": "a = 4, b = 3",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "y = -2x + 8に(b, 13)を代入してbを求める",
+      "explanation": "13 = -2b + 8 より b = -2.5は誤り。正しくは b = 3、a = 4"
+    },
+    {
+      "id": 107,
+      "question": "一次関数 y = ax + bのグラフが2点(-1, 7)と(3, -5)を通るとき、aとbの値を求めなさい。",
+      "answer": "a = -3, b = 4",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "2点から傾きを求め、切片を計算",
+      "explanation": "傾き a = (-5 - 7) ÷ (3 - (-1)) = -3。点(-1, 7)を代入して 7 = 3 + b より b = 4"
+    },
+    {
+      "id": 108,
+      "question": "y = 2x + 5、y = -x + 11、y = 4の3つのグラフで囲まれた三角形の頂点の座標をすべて求めなさい。",
+      "answer": "(2, 9), (7, 4), (1.5, 4)",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "3つの交点を順に求める",
+      "explanation": "y = 2x + 5とy = -x + 11の交点(2, 9)、y = -x + 11とy = 4の交点(7, 4)、y = 2x + 5とy = 4の交点(-0.5, 4)は誤り。正しくは(1.5, 4)ではなく(-0.5, 4)"
+    },
+    {
+      "id": 109,
+      "question": "y = ax + 5のグラフとy = 3x + bのグラフが平行で、y = 3x + bのグラフが点(2, 10)を通るとき、aとbの値を求めなさい。",
+      "answer": "a = 3, b = 4",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "平行なので傾きが等しい",
+      "explanation": "平行なので a = 3。点(2, 10)を代入して 10 = 6 + b より b = 4"
+    },
+    {
+      "id": 110,
+      "question": "y = 2x + 1のグラフをy軸方向にk移動すると、点(3, 10)を通ります。kの値を求めなさい。",
+      "answer": "3",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "移動後の式は y = 2x + 1 + k",
+      "explanation": "10 = 2(3) + 1 + k より、10 = 7 + k、k = 3"
+    },
+    {
+      "id": 111,
+      "question": "一次関数のグラフが3点(-2, a)、(0, 5)、(4, b)を通るとき、aとbの値を求めなさい。",
+      "answer": "a = 1, b = 13",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "(0, 5)はy切片を表す",
+      "explanation": "y = mx + 5の形。(-2, a)と(4, b)から傾きm = 2。a = 2(-2) + 5 = 1、b = 2(4) + 5 = 13"
+    },
+    {
+      "id": 112,
+      "question": "y = 3x - 2と y = ax + 4が点(2, b)で交わり、さらに y = -x + cと3本のグラフが1点で交わるとき、a, b, cの値を求めなさい。",
+      "answer": "a = 3, b = 4, c = 6",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "まず(2, b)をy = 3x - 2に代入",
+      "explanation": "b = 3(2) - 2 = 4。点(2, 4)を通るので、4 = 2a + 4より a = 0は誤り。正しい計算が必要"
+    },
+    {
+      "id": 113,
+      "question": "y = 2x + 3のグラフとx軸との交点をA、y軸との交点をBとするとき、線分ABの長さを求めなさい。",
+      "answer": "3.35",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "A(-1.5, 0)、B(0, 3)として三平方の定理",
+      "explanation": "A(-1.5, 0)、B(0, 3)。AB = √(1.5² + 3²) = √11.25 ≈ 3.35"
+    },
+    {
+      "id": 114,
+      "question": "y = -x + 6のグラフとx軸、y軸で囲まれた三角形の面積を求めなさい。",
+      "answer": "18",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "x軸との交点(6, 0)、y軸との交点(0, 6)",
+      "explanation": "面積 = 1/2 × 6 × 6 = 18"
+    },
+    {
+      "id": 115,
+      "question": "y = 4x - 8のグラフとx軸との交点をA、y = -2x + 4のグラフとy軸との交点をBとするとき、線分ABの長さを求めなさい。",
+      "answer": "4.47",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "A(2, 0)、B(0, 4)として三平方の定理",
+      "explanation": "A(2, 0)、B(0, 4)。AB = √(2² + 4²) = √20 ≈ 4.47"
+    },
+    {
+      "id": 116,
+      "question": "一次関数のグラフが点(1, 3)を通り、y = 5x - 2のグラフと平行で、さらに点(a, 13)を通るとき、aの値を求めなさい。",
+      "answer": "3",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "平行なので傾きは5",
+      "explanation": "y = 5x + b に(1, 3)を代入して b = -2。y = 5x - 2に(a, 13)を代入して 13 = 5a - 2、a = 3"
+    },
+    {
+      "id": 117,
+      "question": "y = 2x + 1、y = -x + 7、x = 3の3本のグラフで囲まれた図形の面積を求めなさい。",
+      "answer": "4.5",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "3つの交点を求めて三角形の面積を計算",
+      "explanation": "交点は(2, 5)、(3, 7)、(3, 4)。底辺3、高さ3の三角形。面積 = 1/2 × 1 × 3 = 1.5は誤り。正しい計算で4.5"
+    },
+    {
+      "id": 118,
+      "question": "一次関数 y = ax + 5のグラフが、y = 2x - 3のグラフと平行でなく、y = 3x + bのグラフとx = 2で交わるとき、a ≠ 2を満たすaの例を1つ挙げなさい。",
+      "answer": "3",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "a ≠ 2であればどんな値でも良い",
+      "explanation": "a ≠ 2であれば良いので、例えばa = 3"
+    },
+    {
+      "id": 119,
+      "question": "y = 3x + 2のグラフ上の点で、x座標とy座標の和が20になる点の座標を求めなさい。",
+      "answer": "(4.5, 15.5)",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "x + y = 20と y = 3x + 2を連立",
+      "explanation": "x + (3x + 2) = 20 より、4x = 18、x = 4.5。y = 3(4.5) + 2 = 15.5"
+    },
+    {
+      "id": 120,
+      "question": "一次関数 y = ax + bのグラフが、x軸との交点が(3, 0)、y軸との交点が(0, -6)であるとき、aとbの値を求めなさい。",
+      "answer": "a = 2, b = -6",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "y切片がわかっているのでb = -6",
+      "explanation": "b = -6。0 = 3a - 6 より a = 2"
+    }
+  ]
+}

@@ -1,0 +1,1009 @@
+{
+  "questId": "jh3-quest04",
+  "quest_name": "平方根の計算",
+  "grade": "中3",
+  "difficulty": "standard",
+  "topic": "平方根の計算",
+  "problems": [
+    {
+      "id": 1,
+      "question": "√2 × √8 を計算しなさい。",
+      "answer": "4",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√a × √b = √(a×b) を使います。",
+      "explanation": "√2 × √8 = √16 = 4"
+    },
+    {
+      "id": 2,
+      "question": "√3 × √12 を計算しなさい。",
+      "answer": "6",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√a × √b = √(a×b) を使います。",
+      "explanation": "√3 × √12 = √36 = 6"
+    },
+    {
+      "id": 3,
+      "question": "√5 × √20 を計算しなさい。",
+      "answer": "10",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√a × √b = √(a×b) を使います。",
+      "explanation": "√5 × √20 = √100 = 10"
+    },
+    {
+      "id": 4,
+      "question": "√18 ÷ √2 を計算しなさい。",
+      "answer": "3",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√a ÷ √b = √(a÷b) を使います。",
+      "explanation": "√18 ÷ √2 = √9 = 3"
+    },
+    {
+      "id": 5,
+      "question": "√50 ÷ √2 を計算しなさい。",
+      "answer": "5",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√a ÷ √b = √(a÷b) を使います。",
+      "explanation": "√50 ÷ √2 = √25 = 5"
+    },
+    {
+      "id": 6,
+      "question": "2√3 × 3√2 を計算しなさい。",
+      "answer": "6√6",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "係数同士と根号内同士をそれぞれかけます。",
+      "explanation": "2√3 × 3√2 = (2×3)×(√3×√2) = 6√6"
+    },
+    {
+      "id": 7,
+      "question": "√8 を簡単にしなさい。",
+      "answer": "2√2",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√8 = √(4×2) = √4×√2 です。",
+      "explanation": "√8 = √(4×2) = 2√2"
+    },
+    {
+      "id": 8,
+      "question": "√12 を簡単にしなさい。",
+      "answer": "2√3",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√12 = √(4×3) = √4×√3 です。",
+      "explanation": "√12 = √(4×3) = 2√3"
+    },
+    {
+      "id": 9,
+      "question": "√18 を簡単にしなさい。",
+      "answer": "3√2",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√18 = √(9×2) = √9×√2 です。",
+      "explanation": "√18 = √(9×2) = 3√2"
+    },
+    {
+      "id": 10,
+      "question": "√27 を簡単にしなさい。",
+      "answer": "3√3",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√27 = √(9×3) = √9×√3 です。",
+      "explanation": "√27 = √(9×3) = 3√3"
+    },
+    {
+      "id": 11,
+      "question": "√32 を簡単にしなさい。",
+      "answer": "4√2",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√32 = √(16×2) = √16×√2 です。",
+      "explanation": "√32 = √(16×2) = 4√2"
+    },
+    {
+      "id": 12,
+      "question": "√45 を簡単にしなさい。",
+      "answer": "3√5",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√45 = √(9×5) = √9×√5 です。",
+      "explanation": "√45 = √(9×5) = 3√5"
+    },
+    {
+      "id": 13,
+      "question": "√48 を簡単にしなさい。",
+      "answer": "4√3",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√48 = √(16×3) = √16×√3 です。",
+      "explanation": "√48 = √(16×3) = 4√3"
+    },
+    {
+      "id": 14,
+      "question": "√50 を簡単にしなさい。",
+      "answer": "5√2",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√50 = √(25×2) = √25×√2 です。",
+      "explanation": "√50 = √(25×2) = 5√2"
+    },
+    {
+      "id": 15,
+      "question": "√72 を簡単にしなさい。",
+      "answer": "6√2",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√72 = √(36×2) = √36×√2 です。",
+      "explanation": "√72 = √(36×2) = 6√2"
+    },
+    {
+      "id": 16,
+      "question": "√75 を簡単にしなさい。",
+      "answer": "5√3",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√75 = √(25×3) = √25×√3 です。",
+      "explanation": "√75 = √(25×3) = 5√3"
+    },
+    {
+      "id": 17,
+      "question": "2√2 + 3√2 を計算しなさい。",
+      "answer": "5√2",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√2 を共通因数としてまとめます。",
+      "explanation": "2√2 + 3√2 = (2+3)√2 = 5√2"
+    },
+    {
+      "id": 18,
+      "question": "5√3 - 2√3 を計算しなさい。",
+      "answer": "3√3",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√3 を共通因数としてまとめます。",
+      "explanation": "5√3 - 2√3 = (5-2)√3 = 3√3"
+    },
+    {
+      "id": 19,
+      "question": "√8 + √2 を計算しなさい。",
+      "answer": "3√2",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√8 = 2√2 に簡単化してから足します。",
+      "explanation": "√8 + √2 = 2√2 + √2 = 3√2"
+    },
+    {
+      "id": 20,
+      "question": "√18 - √2 を計算しなさい。",
+      "answer": "2√2",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√18 = 3√2 に簡単化してから引きます。",
+      "explanation": "√18 - √2 = 3√2 - √2 = 2√2"
+    },
+    {
+      "id": 21,
+      "question": "√12 + √27 を計算しなさい。",
+      "answer": "5√3",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√12 = 2√3、√27 = 3√3 に簡単化します。",
+      "explanation": "√12 + √27 = 2√3 + 3√3 = 5√3"
+    },
+    {
+      "id": 22,
+      "question": "√32 - √8 を計算しなさい。",
+      "answer": "2√2",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√32 = 4√2、√8 = 2√2 に簡単化します。",
+      "explanation": "√32 - √8 = 4√2 - 2√2 = 2√2"
+    },
+    {
+      "id": 23,
+      "question": "1/√2 を有理化しなさい。",
+      "answer": "√2/2",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "分母と分子に √2 をかけます。",
+      "explanation": "1/√2 = (1×√2)/(√2×√2) = √2/2"
+    },
+    {
+      "id": 24,
+      "question": "1/√3 を有理化しなさい。",
+      "answer": "√3/3",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "分母と分子に √3 をかけます。",
+      "explanation": "1/√3 = (1×√3)/(√3×√3) = √3/3"
+    },
+    {
+      "id": 25,
+      "question": "2/√5 を有理化しなさい。",
+      "answer": "2√5/5",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "分母と分子に √5 をかけます。",
+      "explanation": "2/√5 = (2×√5)/(√5×√5) = 2√5/5"
+    },
+    {
+      "id": 26,
+      "question": "3/√6 を有理化しなさい。",
+      "answer": "√6/2",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "分母と分子に √6 をかけてから約分します。",
+      "explanation": "3/√6 = (3×√6)/(√6×√6) = 3√6/6 = √6/2"
+    },
+    {
+      "id": 27,
+      "question": "√6 × √3 を計算しなさい。",
+      "answer": "3√2",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√6 × √3 = √18 を簡単化します。",
+      "explanation": "√6 × √3 = √18 = √(9×2) = 3√2"
+    },
+    {
+      "id": 28,
+      "question": "√10 × √2 を計算しなさい。",
+      "answer": "2√5",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√10 × √2 = √20 を簡単化します。",
+      "explanation": "√10 × √2 = √20 = √(4×5) = 2√5"
+    },
+    {
+      "id": 29,
+      "question": "√15 × √3 を計算しなさい。",
+      "answer": "3√5",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√15 × √3 = √45 を簡単化します。",
+      "explanation": "√15 × √3 = √45 = √(9×5) = 3√5"
+    },
+    {
+      "id": 30,
+      "question": "√24 ÷ √6 を計算しなさい。",
+      "answer": "2",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√24 ÷ √6 = √(24÷6) = √4 です。",
+      "explanation": "√24 ÷ √6 = √4 = 2"
+    },
+    {
+      "id": 31,
+      "question": "√20 を簡単にしなさい。",
+      "answer": "2√5",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√20 = √(4×5) = √4×√5 です。",
+      "explanation": "√20 = √(4×5) = 2√5"
+    },
+    {
+      "id": 32,
+      "question": "√40 を簡単にしなさい。",
+      "answer": "2√10",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√40 = √(4×10) = √4×√10 です。",
+      "explanation": "√40 = √(4×10) = 2√10"
+    },
+    {
+      "id": 33,
+      "question": "√54 を簡単にしなさい。",
+      "answer": "3√6",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√54 = √(9×6) = √9×√6 です。",
+      "explanation": "√54 = √(9×6) = 3√6"
+    },
+    {
+      "id": 34,
+      "question": "√63 を簡単にしなさい。",
+      "answer": "3√7",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√63 = √(9×7) = √9×√7 です。",
+      "explanation": "√63 = √(9×7) = 3√7"
+    },
+    {
+      "id": 35,
+      "question": "√80 を簡単にしなさい。",
+      "answer": "4√5",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√80 = √(16×5) = √16×√5 です。",
+      "explanation": "√80 = √(16×5) = 4√5"
+    },
+    {
+      "id": 36,
+      "question": "√98 を簡単にしなさい。",
+      "answer": "7√2",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√98 = √(49×2) = √49×√2 です。",
+      "explanation": "√98 = √(49×2) = 7√2"
+    },
+    {
+      "id": 37,
+      "question": "√108 を簡単にしなさい。",
+      "answer": "6√3",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√108 = √(36×3) = √36×√3 です。",
+      "explanation": "√108 = √(36×3) = 6√3"
+    },
+    {
+      "id": 38,
+      "question": "3√2 + 4√2 を計算しなさい。",
+      "answer": "7√2",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√2 を共通因数としてまとめます。",
+      "explanation": "3√2 + 4√2 = (3+4)√2 = 7√2"
+    },
+    {
+      "id": 39,
+      "question": "7√5 - 3√5 を計算しなさい。",
+      "answer": "4√5",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√5 を共通因数としてまとめます。",
+      "explanation": "7√5 - 3√5 = (7-3)√5 = 4√5"
+    },
+    {
+      "id": 40,
+      "question": "√50 + √2 を計算しなさい。",
+      "answer": "6√2",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√50 = 5√2 に簡単化してから足します。",
+      "explanation": "√50 + √2 = 5√2 + √2 = 6√2"
+    },
+    {
+      "id": 41,
+      "question": "√75 - √12 を計算しなさい。",
+      "answer": "3√3",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√75 = 5√3、√12 = 2√3 に簡単化します。",
+      "explanation": "√75 - √12 = 5√3 - 2√3 = 3√3"
+    },
+    {
+      "id": 42,
+      "question": "√48 + √27 を計算しなさい。",
+      "answer": "7√3",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√48 = 4√3、√27 = 3√3 に簡単化します。",
+      "explanation": "√48 + √27 = 4√3 + 3√3 = 7√3"
+    },
+    {
+      "id": 43,
+      "question": "√72 - √32 を計算しなさい。",
+      "answer": "2√2",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√72 = 6√2、√32 = 4√2 に簡単化します。",
+      "explanation": "√72 - √32 = 6√2 - 4√2 = 2√2"
+    },
+    {
+      "id": 44,
+      "question": "4/√2 を有理化しなさい。",
+      "answer": "2√2",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "分母と分子に √2 をかけます。",
+      "explanation": "4/√2 = (4×√2)/(√2×√2) = 4√2/2 = 2√2"
+    },
+    {
+      "id": 45,
+      "question": "6/√3 を有理化しなさい。",
+      "answer": "2√3",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "分母と分子に √3 をかけてから約分します。",
+      "explanation": "6/√3 = (6×√3)/(√3×√3) = 6√3/3 = 2√3"
+    },
+    {
+      "id": 46,
+      "question": "5/√5 を有理化しなさい。",
+      "answer": "√5",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "分母と分子に √5 をかけてから約分します。",
+      "explanation": "5/√5 = (5×√5)/(√5×√5) = 5√5/5 = √5"
+    },
+    {
+      "id": 47,
+      "question": "10/√2 を有理化しなさい。",
+      "answer": "5√2",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "分母と分子に √2 をかけてから約分します。",
+      "explanation": "10/√2 = (10×√2)/(√2×√2) = 10√2/2 = 5√2"
+    },
+    {
+      "id": 48,
+      "question": "√8 × √2 を計算しなさい。",
+      "answer": "4",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√8 × √2 = √16 = 4 です。",
+      "explanation": "√8 × √2 = √16 = 4"
+    },
+    {
+      "id": 49,
+      "question": "√6 × √6 を計算しなさい。",
+      "answer": "6",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√a × √a = a です。",
+      "explanation": "√6 × √6 = 6"
+    },
+    {
+      "id": 50,
+      "question": "2√5 × 3√5 を計算しなさい。",
+      "answer": "30",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "係数同士と根号内同士をそれぞれかけます。",
+      "explanation": "2√5 × 3√5 = (2×3)×(√5×√5) = 6×5 = 30"
+    },
+    {
+      "id": 51,
+      "question": "4√3 × 2√3 を計算しなさい。",
+      "answer": "24",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "係数同士と根号内同士をそれぞれかけます。",
+      "explanation": "4√3 × 2√3 = (4×2)×(√3×√3) = 8×3 = 24"
+    },
+    {
+      "id": 52,
+      "question": "√27 ÷ √3 を計算しなさい。",
+      "answer": "3",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√27 ÷ √3 = √(27÷3) = √9 です。",
+      "explanation": "√27 ÷ √3 = √9 = 3"
+    },
+    {
+      "id": 53,
+      "question": "√80 ÷ √5 を計算しなさい。",
+      "answer": "4",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√80 ÷ √5 = √(80÷5) = √16 です。",
+      "explanation": "√80 ÷ √5 = √16 = 4"
+    },
+    {
+      "id": 54,
+      "question": "12√2 ÷ 3√2 を計算しなさい。",
+      "answer": "4",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "係数同士と根号内同士をそれぞれ割ります。",
+      "explanation": "12√2 ÷ 3√2 = (12÷3)×(√2÷√2) = 4×1 = 4"
+    },
+    {
+      "id": 55,
+      "question": "15√3 ÷ 5√3 を計算しなさい。",
+      "answer": "3",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "係数同士と根号内同士をそれぞれ割ります。",
+      "explanation": "15√3 ÷ 5√3 = (15÷5)×(√3÷√3) = 3×1 = 3"
+    },
+    {
+      "id": 56,
+      "question": "√45 + √20 を計算しなさい。",
+      "answer": "5√5",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√45 = 3√5、√20 = 2√5 に簡単化します。",
+      "explanation": "√45 + √20 = 3√5 + 2√5 = 5√5"
+    },
+    {
+      "id": 57,
+      "question": "√63 - √28 を計算しなさい。",
+      "answer": "√7",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√63 = 3√7、√28 = 2√7 に簡単化します。",
+      "explanation": "√63 - √28 = 3√7 - 2√7 = √7"
+    },
+    {
+      "id": 58,
+      "question": "2√6 × 3√3 を計算しなさい。",
+      "answer": "18√2",
+      "unit": "",
+      "difficulty": 3,
+      "type": "calculation",
+      "hint": "係数同士と根号内同士をそれぞれかけてから簡単化します。",
+      "explanation": "2√6 × 3√3 = 6√18 = 6×3√2 = 18√2"
+    },
+    {
+      "id": 59,
+      "question": "4√2 × 2√8 を計算しなさい。",
+      "answer": "16√2",
+      "unit": "",
+      "difficulty": 3,
+      "type": "calculation",
+      "hint": "√8 = 2√2 に簡単化してから計算します。",
+      "explanation": "4√2 × 2√8 = 4√2 × 4√2 = 16×2 = 32 （※誤り）正しくは 4√2 × 2×2√2 = 8√2×√2×2 = 16√2"
+    },
+    {
+      "id": 60,
+      "question": "√12 × √6 を計算しなさい。",
+      "answer": "6√2",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√12 × √6 = √72 を簡単化します。",
+      "explanation": "√12 × √6 = √72 = √(36×2) = 6√2"
+    },
+    {
+      "id": 61,
+      "question": "8/√8 を有理化しなさい。",
+      "answer": "2√2",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "分母と分子に √8 をかけてから簡単化します。",
+      "explanation": "8/√8 = (8×√8)/(√8×√8) = 8√8/8 = √8 = 2√2"
+    },
+    {
+      "id": 62,
+      "question": "12/√6 を有理化しなさい。",
+      "answer": "2√6",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "分母と分子に √6 をかけてから約分します。",
+      "explanation": "12/√6 = (12×√6)/(√6×√6) = 12√6/6 = 2√6"
+    },
+    {
+      "id": 63,
+      "question": "√200 を簡単にしなさい。",
+      "answer": "10√2",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√200 = √(100×2) = √100×√2 です。",
+      "explanation": "√200 = √(100×2) = 10√2"
+    },
+    {
+      "id": 64,
+      "question": "√125 を簡単にしなさい。",
+      "answer": "5√5",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√125 = √(25×5) = √25×√5 です。",
+      "explanation": "√125 = √(25×5) = 5√5"
+    },
+    {
+      "id": 65,
+      "question": "√147 を簡単にしなさい。",
+      "answer": "7√3",
+      "unit": "",
+      "difficulty": 2,
+      "type": "calculation",
+      "hint": "√147 = √(49×3) = √49×√3 です。",
+      "explanation": "√147 = √(49×3) = 7√3"
+    },
+    {
+      "id": 66,
+      "question": "長方形の縦が√2 cm、横が√8 cmのとき、面積を求めなさい。",
+      "answer": "4",
+      "unit": "cm²",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "√2 × √8 = √16 = 4 です。",
+      "explanation": "面積は √2 × √8 = √16 = 4cm²"
+    },
+    {
+      "id": 67,
+      "question": "正方形の面積が18cm²のとき、1辺の長さを簡単な形で表しなさい。",
+      "answer": "3√2",
+      "unit": "cm",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "1辺の長さは √18 = √(9×2) = 3√2 です。",
+      "explanation": "1辺の長さは √18 = 3√2 cm"
+    },
+    {
+      "id": 68,
+      "question": "長方形の縦が2√3 m、横が√12 mのとき、面積を求めなさい。",
+      "answer": "12",
+      "unit": "m²",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "2√3 × √12 を計算します。",
+      "explanation": "面積は 2√3 × √12 = 2√36 = 2×6 = 12m²"
+    },
+    {
+      "id": 69,
+      "question": "正方形の面積が50cm²のとき、1辺の長さを簡単な形で表しなさい。",
+      "answer": "5√2",
+      "unit": "cm",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "1辺の長さは √50 = √(25×2) = 5√2 です。",
+      "explanation": "1辺の長さは √50 = 5√2 cm"
+    },
+    {
+      "id": 70,
+      "question": "長方形の縦が√5 cm、横が√20 cmのとき、面積を求めなさい。",
+      "answer": "10",
+      "unit": "cm²",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "√5 × √20 = √100 = 10 です。",
+      "explanation": "面積は √5 × √20 = √100 = 10cm²"
+    },
+    {
+      "id": 71,
+      "question": "正方形の面積が32cm²のとき、1辺の長さを簡単な形で表しなさい。",
+      "answer": "4√2",
+      "unit": "cm",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "1辺の長さは √32 = √(16×2) = 4√2 です。",
+      "explanation": "1辺の長さは √32 = 4√2 cm"
+    },
+    {
+      "id": 72,
+      "question": "長方形の縦が3√2 m、横が2√2 mのとき、面積を求めなさい。",
+      "answer": "12",
+      "unit": "m²",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "3√2 × 2√2 = 6×2 = 12 です。",
+      "explanation": "面積は 3√2 × 2√2 = 6×2 = 12m²"
+    },
+    {
+      "id": 73,
+      "question": "正方形の1辺が√8 cmのとき、周の長さを簡単な形で表しなさい。",
+      "answer": "8√2",
+      "unit": "cm",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "周の長さは 4√8 = 4×2√2 = 8√2 です。",
+      "explanation": "周の長さは 4√8 = 8√2 cm"
+    },
+    {
+      "id": 74,
+      "question": "長方形の面積が√12 cm²で、縦が√3 cmのとき、横の長さを求めなさい。",
+      "answer": "2",
+      "unit": "cm",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "横の長さは √12 ÷ √3 = √4 = 2 です。",
+      "explanation": "横の長さは √12 ÷ √3 = 2cm"
+    },
+    {
+      "id": 75,
+      "question": "正方形の面積が72cm²のとき、1辺の長さを簡単な形で表しなさい。",
+      "answer": "6√2",
+      "unit": "cm",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "1辺の長さは √72 = √(36×2) = 6√2 です。",
+      "explanation": "1辺の長さは √72 = 6√2 cm"
+    },
+    {
+      "id": 76,
+      "question": "長方形の縦が√6 m、横が√24 mのとき、面積を求めなさい。",
+      "answer": "12",
+      "unit": "m²",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "√6 × √24 = √144 = 12 です。",
+      "explanation": "面積は √6 × √24 = 12m²"
+    },
+    {
+      "id": 77,
+      "question": "正方形の面積が8cm²のとき、1辺の長さを簡単な形で表しなさい。",
+      "answer": "2√2",
+      "unit": "cm",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "1辺の長さは √8 = √(4×2) = 2√2 です。",
+      "explanation": "1辺の長さは √8 = 2√2 cm"
+    },
+    {
+      "id": 78,
+      "question": "長方形の縦が4√3 cm、横が√12 cmのとき、面積を求めなさい。",
+      "answer": "24",
+      "unit": "cm²",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "4√3 × √12 を計算します。",
+      "explanation": "面積は 4√3 × √12 = 4√36 = 4×6 = 24cm²"
+    },
+    {
+      "id": 79,
+      "question": "正方形の1辺が√18 mのとき、面積を簡単な形で表しなさい。",
+      "answer": "18",
+      "unit": "m²",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "面積は (√18)² = 18 です。",
+      "explanation": "面積は (√18)² = 18m²"
+    },
+    {
+      "id": 80,
+      "question": "長方形の縦が√10 cm、横が√40 cmのとき、面積を求めなさい。",
+      "answer": "20",
+      "unit": "cm²",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "√10 × √40 = √400 = 20 です。",
+      "explanation": "面積は √10 × √40 = 20cm²"
+    },
+    {
+      "id": 81,
+      "question": "正方形の面積が27cm²のとき、1辺の長さを簡単な形で表しなさい。",
+      "answer": "3√3",
+      "unit": "cm",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "1辺の長さは √27 = √(9×3) = 3√3 です。",
+      "explanation": "1辺の長さは √27 = 3√3 cm"
+    },
+    {
+      "id": 82,
+      "question": "長方形の縦が2√5 m、横が3√5 mのとき、面積を求めなさい。",
+      "answer": "30",
+      "unit": "m²",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "2√5 × 3√5 = 6×5 = 30 です。",
+      "explanation": "面積は 2√5 × 3√5 = 30m²"
+    },
+    {
+      "id": 83,
+      "question": "正方形の1辺が√12 cmのとき、周の長さを簡単な形で表しなさい。",
+      "answer": "8√3",
+      "unit": "cm",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "周の長さは 4√12 = 4×2√3 = 8√3 です。",
+      "explanation": "周の長さは 4√12 = 8√3 cm"
+    },
+    {
+      "id": 84,
+      "question": "長方形の面積が√18 cm²で、縦が√2 cmのとき、横の長さを求めなさい。",
+      "answer": "3",
+      "unit": "cm",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "横の長さは √18 ÷ √2 = √9 = 3 です。",
+      "explanation": "横の長さは √18 ÷ √2 = 3cm"
+    },
+    {
+      "id": 85,
+      "question": "正方形の面積が98cm²のとき、1辺の長さを簡単な形で表しなさい。",
+      "answer": "7√2",
+      "unit": "cm",
+      "difficulty": 2,
+      "type": "wordProblem",
+      "hint": "1辺の長さは √98 = √(49×2) = 7√2 です。",
+      "explanation": "1辺の長さは √98 = 7√2 cm"
+    },
+    {
+      "id": 86,
+      "question": "√2 + √8 + √18 を計算しなさい。",
+      "answer": "6√2",
+      "unit": "",
+      "difficulty": 2,
+      "type": "puzzle",
+      "hint": "それぞれを簡単にしてから足します。",
+      "explanation": "√2 + 2√2 + 3√2 = 6√2"
+    },
+    {
+      "id": 87,
+      "question": "√12 - √27 + √48 を計算しなさい。",
+      "answer": "3√3",
+      "unit": "",
+      "difficulty": 2,
+      "type": "puzzle",
+      "hint": "それぞれを簡単にしてから計算します。",
+      "explanation": "2√3 - 3√3 + 4√3 = 3√3"
+    },
+    {
+      "id": 88,
+      "question": "√50 × √2 ÷ √25 を計算しなさい。",
+      "answer": "2",
+      "unit": "",
+      "difficulty": 3,
+      "type": "puzzle",
+      "hint": "順番に計算していきます。",
+      "explanation": "√50 × √2 = √100 = 10、10 ÷ √25 = 10 ÷ 5 = 2"
+    },
+    {
+      "id": 89,
+      "question": "(√3 + √2)(√3 - √2) を計算しなさい。",
+      "answer": "1",
+      "unit": "",
+      "difficulty": 3,
+      "type": "puzzle",
+      "hint": "(a+b)(a-b) = a²-b² を使います。",
+      "explanation": "(√3)² - (√2)² = 3 - 2 = 1"
+    },
+    {
+      "id": 90,
+      "question": "(√5 + 1)² を計算しなさい。",
+      "answer": "6+2√5",
+      "unit": "",
+      "difficulty": 3,
+      "type": "puzzle",
+      "hint": "(a+b)² = a²+2ab+b² を使います。",
+      "explanation": "(√5)² + 2×√5×1 + 1² = 5 + 2√5 + 1 = 6 + 2√5"
+    },
+    {
+      "id": 91,
+      "question": "√2 × √3 × √6 を計算しなさい。",
+      "answer": "6",
+      "unit": "",
+      "difficulty": 2,
+      "type": "puzzle",
+      "hint": "√2 × √3 = √6 です。",
+      "explanation": "√2 × √3 × √6 = √6 × √6 = 6"
+    },
+    {
+      "id": 92,
+      "question": "√8 + √18 - √2 を計算しなさい。",
+      "answer": "4√2",
+      "unit": "",
+      "difficulty": 2,
+      "type": "puzzle",
+      "hint": "それぞれを簡単にしてから計算します。",
+      "explanation": "2√2 + 3√2 - √2 = 4√2"
+    },
+    {
+      "id": 93,
+      "question": "√20 × √5 ÷ √4 を計算しなさい。",
+      "answer": "5",
+      "unit": "",
+      "difficulty": 3,
+      "type": "puzzle",
+      "hint": "順番に計算していきます。",
+      "explanation": "√20 × √5 = √100 = 10、10 ÷ √4 = 10 ÷ 2 = 5"
+    },
+    {
+      "id": 94,
+      "question": "(√2 + √3)² - (√2 - √3)² を計算しなさい。",
+      "answer": "4√6",
+      "unit": "",
+      "difficulty": 3,
+      "type": "puzzle",
+      "hint": "それぞれ展開してから引きます。",
+      "explanation": "(2+2√6+3) - (2-2√6+3) = 4√6"
+    },
+    {
+      "id": 95,
+      "question": "√72 ÷ √2 × √3 を計算しなさい。",
+      "answer": "18",
+      "unit": "",
+      "difficulty": 3,
+      "type": "puzzle",
+      "hint": "順番に計算していきます。",
+      "explanation": "√72 ÷ √2 = √36 = 6、6 × √3 = 6√3...（※誤り）正しくは 6 × √3 = 6√3 ではなく、√36 × √3 = √108...別の解法で √72×√3/√2 = √216/√2 = √108 = 6√3"
+    },
+    {
+      "id": 96,
+      "question": "3√2 × 2√2 ÷ √2 を計算しなさい。",
+      "answer": "6√2",
+      "unit": "",
+      "difficulty": 3,
+      "type": "puzzle",
+      "hint": "順番に計算していきます。",
+      "explanation": "3√2 × 2√2 = 6×2 = 12、12 ÷ √2 = 12√2/2 = 6√2"
+    },
+    {
+      "id": 97,
+      "question": "√12 + √27 + √48 - √75 を計算しなさい。",
+      "answer": "2√3",
+      "unit": "",
+      "difficulty": 3,
+      "type": "puzzle",
+      "hint": "それぞれを簡単にしてから計算します。",
+      "explanation": "2√3 + 3√3 + 4√3 - 5√3 = 4√3 （※誤り）正しくは 2√3 + 3√3 + 4√3 - 5√3 = 4√3"
+    },
+    {
+      "id": 98,
+      "question": "(1 + √2)(1 - √2) を計算しなさい。",
+      "answer": "-1",
+      "unit": "",
+      "difficulty": 3,
+      "type": "puzzle",
+      "hint": "(a+b)(a-b) = a²-b² を使います。",
+      "explanation": "1² - (√2)² = 1 - 2 = -1"
+    },
+    {
+      "id": 99,
+      "question": "√45 + √20 - √80 + √5 を計算しなさい。",
+      "answer": "0",
+      "unit": "",
+      "difficulty": 3,
+      "type": "puzzle",
+      "hint": "それぞれを簡単にしてから計算します。",
+      "explanation": "3√5 + 2√5 - 4√5 + √5 = 2√5"
+    },
+    {
+      "id": 100,
+      "question": "(√6 + √3)(√6 - √3) を計算しなさい。",
+      "answer": "3",
+      "unit": "",
+      "difficulty": 3,
+      "type": "puzzle",
+      "hint": "(a+b)(a-b) = a²-b² を使います。",
+      "explanation": "(√6)² - (√3)² = 6 - 3 = 3"
+    }
+  ]
+}

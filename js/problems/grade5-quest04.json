@@ -1,0 +1,910 @@
+{
+  "questId": "grade5-quest04",
+  "worldId": "grade5",
+  "questName": "わり算(2桁÷2桁)",
+  "description": "2桁÷2桁の筆算をマスター",
+  "difficulty": "advanced",
+  "totalProblems": 90,
+  "problems": [
+    {
+      "id": "g5q04-p001",
+      "question": "72÷12を計算しましょう。",
+      "answer": "6",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "12の6倍が72です。",
+      "explanation": "72÷12=6です。"
+    },
+    {
+      "id": "g5q04-p002",
+      "question": "84÷14を計算しましょう。",
+      "answer": "6",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "14の6倍が84です。",
+      "explanation": "84÷14=6です。"
+    },
+    {
+      "id": "g5q04-p003",
+      "question": "96÷16を計算しましょう。",
+      "answer": "6",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "16の6倍が96です。",
+      "explanation": "96÷16=6です。"
+    },
+    {
+      "id": "g5q04-p004",
+      "question": "63÷21を計算しましょう。",
+      "answer": "3",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "21の3倍が63です。",
+      "explanation": "63÷21=3です。"
+    },
+    {
+      "id": "g5q04-p005",
+      "question": "88÷22を計算しましょう。",
+      "answer": "4",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "22の4倍が88です。",
+      "explanation": "88÷22=4です。"
+    },
+    {
+      "id": "g5q04-p006",
+      "question": "60÷15を計算しましょう。",
+      "answer": "4",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "15の4倍が60です。",
+      "explanation": "60÷15=4です。"
+    },
+    {
+      "id": "g5q04-p007",
+      "question": "75÷25を計算しましょう。",
+      "answer": "3",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "25の3倍が75です。",
+      "explanation": "75÷25=3です。"
+    },
+    {
+      "id": "g5q04-p008",
+      "question": "80÷16を計算しましょう。",
+      "answer": "5",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "16の5倍が80です。",
+      "explanation": "80÷16=5です。"
+    },
+    {
+      "id": "g5q04-p009",
+      "question": "90÷18を計算しましょう。",
+      "answer": "5",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "18の5倍が90です。",
+      "explanation": "90÷18=5です。"
+    },
+    {
+      "id": "g5q04-p010",
+      "question": "65÷13を計算しましょう。",
+      "answer": "5",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "13の5倍が65です。",
+      "explanation": "65÷13=5です。"
+    },
+    {
+      "id": "g5q04-p011",
+      "question": "91÷13を計算しましょう。",
+      "answer": "7",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "13の7倍が91です。",
+      "explanation": "91÷13=7です。"
+    },
+    {
+      "id": "g5q04-p012",
+      "question": "78÷13を計算しましょう。",
+      "answer": "6",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "13の6倍が78です。",
+      "explanation": "78÷13=6です。"
+    },
+    {
+      "id": "g5q04-p013",
+      "question": "85÷17を計算しましょう。",
+      "answer": "5",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "17の5倍が85です。",
+      "explanation": "85÷17=5です。"
+    },
+    {
+      "id": "g5q04-p014",
+      "question": "68÷17を計算しましょう。",
+      "answer": "4",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "17の4倍が68です。",
+      "explanation": "68÷17=4です。"
+    },
+    {
+      "id": "g5q04-p015",
+      "question": "95÷19を計算しましょう。",
+      "answer": "5",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "19の5倍が95です。",
+      "explanation": "95÷19=5です。"
+    },
+    {
+      "id": "g5q04-p016",
+      "question": "76÷19を計算しましょう。",
+      "answer": "4",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "19の4倍が76です。",
+      "explanation": "76÷19=4です。"
+    },
+    {
+      "id": "g5q04-p017",
+      "question": "92÷23を計算しましょう。",
+      "answer": "4",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "23の4倍が92です。",
+      "explanation": "92÷23=4です。"
+    },
+    {
+      "id": "g5q04-p018",
+      "question": "69÷23を計算しましょう。",
+      "answer": "3",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "23の3倍が69です。",
+      "explanation": "69÷23=3です。"
+    },
+    {
+      "id": "g5q04-p019",
+      "question": "87÷29を計算しましょう。",
+      "answer": "3",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "29の3倍が87です。",
+      "explanation": "87÷29=3です。"
+    },
+    {
+      "id": "g5q04-p020",
+      "question": "93÷31を計算しましょう。",
+      "answer": "3",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "31の3倍が93です。",
+      "explanation": "93÷31=3です。"
+    },
+    {
+      "id": "g5q04-p021",
+      "question": "112÷14を計算しましょう。",
+      "answer": "8",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "14の8倍が112です。",
+      "explanation": "112÷14=8です。"
+    },
+    {
+      "id": "g5q04-p022",
+      "question": "144÷18を計算しましょう。",
+      "answer": "8",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "18の8倍が144です。",
+      "explanation": "144÷18=8です。"
+    },
+    {
+      "id": "g5q04-p023",
+      "question": "156÷13を計算しましょう。",
+      "answer": "12",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "13の12倍が156です。",
+      "explanation": "156÷13=12です。"
+    },
+    {
+      "id": "g5q04-p024",
+      "question": "168÷14を計算しましょう。",
+      "answer": "12",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "14の12倍が168です。",
+      "explanation": "168÷14=12です。"
+    },
+    {
+      "id": "g5q04-p025",
+      "question": "180÷15を計算しましょう。",
+      "answer": "12",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "15の12倍が180です。",
+      "explanation": "180÷15=12です。"
+    },
+    {
+      "id": "g5q04-p026",
+      "question": "192÷16を計算しましょう。",
+      "answer": "12",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "16の12倍が192です。",
+      "explanation": "192÷16=12です。"
+    },
+    {
+      "id": "g5q04-p027",
+      "question": "204÷17を計算しましょう。",
+      "answer": "12",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "17の12倍が204です。",
+      "explanation": "204÷17=12です。"
+    },
+    {
+      "id": "g5q04-p028",
+      "question": "216÷18を計算しましょう。",
+      "answer": "12",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "18の12倍が216です。",
+      "explanation": "216÷18=12です。"
+    },
+    {
+      "id": "g5q04-p029",
+      "question": "228÷19を計算しましょう。",
+      "answer": "12",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "19の12倍が228です。",
+      "explanation": "228÷19=12です。"
+    },
+    {
+      "id": "g5q04-p030",
+      "question": "240÷20を計算しましょう。",
+      "answer": "12",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "20の12倍が240です。",
+      "explanation": "240÷20=12です。"
+    },
+    {
+      "id": "g5q04-p031",
+      "question": "117÷13を計算しましょう。",
+      "answer": "9",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "13×9を計算して確認します。",
+      "explanation": "117÷13=9です。"
+    },
+    {
+      "id": "g5q04-p032",
+      "question": "126÷14を計算しましょう。",
+      "answer": "9",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "14×9を計算して確認します。",
+      "explanation": "126÷14=9です。"
+    },
+    {
+      "id": "g5q04-p033",
+      "question": "135÷15を計算しましょう。",
+      "answer": "9",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "15×9を計算して確認します。",
+      "explanation": "135÷15=9です。"
+    },
+    {
+      "id": "g5q04-p034",
+      "question": "153÷17を計算しましょう。",
+      "answer": "9",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "17×9を計算して確認します。",
+      "explanation": "153÷17=9です。"
+    },
+    {
+      "id": "g5q04-p035",
+      "question": "171÷19を計算しましょう。",
+      "answer": "9",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "19×9を計算して確認します。",
+      "explanation": "171÷19=9です。"
+    },
+    {
+      "id": "g5q04-p036",
+      "question": "138÷23を計算しましょう。",
+      "answer": "6",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "23×6を計算して確認します。",
+      "explanation": "138÷23=6です。"
+    },
+    {
+      "id": "g5q04-p037",
+      "question": "161÷23を計算しましょう。",
+      "answer": "7",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "23×7を計算して確認します。",
+      "explanation": "161÷23=7です。"
+    },
+    {
+      "id": "g5q04-p038",
+      "question": "174÷29を計算しましょう。",
+      "answer": "6",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "29×6を計算して確認します。",
+      "explanation": "174÷29=6です。"
+    },
+    {
+      "id": "g5q04-p039",
+      "question": "186÷31を計算しましょう。",
+      "answer": "6",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "31×6を計算して確認します。",
+      "explanation": "186÷31=6です。"
+    },
+    {
+      "id": "g5q04-p040",
+      "question": "217÷31を計算しましょう。",
+      "answer": "7",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "31×7を計算して確認します。",
+      "explanation": "217÷31=7です。"
+    },
+    {
+      "id": "g5q04-p041",
+      "question": "252÷21を計算しましょう。",
+      "answer": "12",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "21×12を計算して確認します。",
+      "explanation": "252÷21=12です。"
+    },
+    {
+      "id": "g5q04-p042",
+      "question": "264÷22を計算しましょう。",
+      "answer": "12",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "22×12を計算して確認します。",
+      "explanation": "264÷22=12です。"
+    },
+    {
+      "id": "g5q04-p043",
+      "question": "276÷23を計算しましょう。",
+      "answer": "12",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "23×12を計算して確認します。",
+      "explanation": "276÷23=12です。"
+    },
+    {
+      "id": "g5q04-p044",
+      "question": "288÷24を計算しましょう。",
+      "answer": "12",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "24×12を計算して確認します。",
+      "explanation": "288÷24=12です。"
+    },
+    {
+      "id": "g5q04-p045",
+      "question": "300÷25を計算しましょう。",
+      "answer": "12",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "25×12を計算して確認します。",
+      "explanation": "300÷25=12です。"
+    },
+    {
+      "id": "g5q04-p046",
+      "question": "143÷11を計算しましょう。",
+      "answer": "13",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "11×13を計算して確認します。",
+      "explanation": "143÷11=13です。"
+    },
+    {
+      "id": "g5q04-p047",
+      "question": "169÷13を計算しましょう。",
+      "answer": "13",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "13×13を計算して確認します。",
+      "explanation": "169÷13=13です。"
+    },
+    {
+      "id": "g5q04-p048",
+      "question": "182÷14を計算しましょう。",
+      "answer": "13",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "14×13を計算して確認します。",
+      "explanation": "182÷14=13です。"
+    },
+    {
+      "id": "g5q04-p049",
+      "question": "195÷15を計算しましょう。",
+      "answer": "13",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "15×13を計算して確認します。",
+      "explanation": "195÷15=13です。"
+    },
+    {
+      "id": "g5q04-p050",
+      "question": "208÷16を計算しましょう。",
+      "answer": "13",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "16×13を計算して確認します。",
+      "explanation": "208÷16=13です。"
+    },
+    {
+      "id": "g5q04-p051",
+      "question": "154÷11を計算しましょう。",
+      "answer": "14",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "11×14を計算して確認します。",
+      "explanation": "154÷11=14です。"
+    },
+    {
+      "id": "g5q04-p052",
+      "question": "196÷14を計算しましょう。",
+      "answer": "14",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "14×14を計算して確認します。",
+      "explanation": "196÷14=14です。"
+    },
+    {
+      "id": "g5q04-p053",
+      "question": "210÷15を計算しましょう。",
+      "answer": "14",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "15×14を計算して確認します。",
+      "explanation": "210÷15=14です。"
+    },
+    {
+      "id": "g5q04-p054",
+      "question": "224÷16を計算しましょう。",
+      "answer": "14",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "16×14を計算して確認します。",
+      "explanation": "224÷16=14です。"
+    },
+    {
+      "id": "g5q04-p055",
+      "question": "238÷17を計算しましょう。",
+      "answer": "14",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "17×14を計算して確認します。",
+      "explanation": "238÷17=14です。"
+    },
+    {
+      "id": "g5q04-p056",
+      "question": "96個のりんごを16人で同じ数ずつ分けます。1人分は何個ですか。",
+      "answer": "6",
+      "unit": "個",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "96÷16を計算します。",
+      "explanation": "96÷16=6より、6個です。"
+    },
+    {
+      "id": "g5q04-p057",
+      "question": "84枚の色紙を12人で同じ数ずつ分けます。1人分は何枚ですか。",
+      "answer": "7",
+      "unit": "枚",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "84÷12を計算します。",
+      "explanation": "84÷12=7より、7枚です。"
+    },
+    {
+      "id": "g5q04-p058",
+      "question": "156cmのリボンを13cmずつに切ります。何本できますか。",
+      "answer": "12",
+      "unit": "本",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "156÷13を計算します。",
+      "explanation": "156÷13=12より、12本です。"
+    },
+    {
+      "id": "g5q04-p059",
+      "question": "168cmのテープを14cmずつに切ります。何本できますか。",
+      "answer": "12",
+      "unit": "本",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "168÷14を計算します。",
+      "explanation": "168÷14=12より、12本です。"
+    },
+    {
+      "id": "g5q04-p060",
+      "question": "180個のあめを15人で同じ数ずつ分けます。1人分は何個ですか。",
+      "answer": "12",
+      "unit": "個",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "180÷15を計算します。",
+      "explanation": "180÷15=12より、12個です。"
+    },
+    {
+      "id": "g5q04-p061",
+      "question": "192mのロープを16mずつに切ります。何本できますか。",
+      "answer": "12",
+      "unit": "本",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "192÷16を計算します。",
+      "explanation": "192÷16=12より、12本です。"
+    },
+    {
+      "id": "g5q04-p062",
+      "question": "204kgの砂を17kgずつ袋に入れます。何袋できますか。",
+      "answer": "12",
+      "unit": "袋",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "204÷17を計算します。",
+      "explanation": "204÷17=12より、12袋です。"
+    },
+    {
+      "id": "g5q04-p063",
+      "question": "216個のボールを18個ずつ箱に入れます。何箱できますか。",
+      "answer": "12",
+      "unit": "箱",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "216÷18を計算します。",
+      "explanation": "216÷18=12より、12箱です。"
+    },
+    {
+      "id": "g5q04-p064",
+      "question": "228枚のカードを19枚ずつ束にします。何束できますか。",
+      "answer": "12",
+      "unit": "束",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "228÷19を計算します。",
+      "explanation": "228÷19=12より、12束です。"
+    },
+    {
+      "id": "g5q04-p065",
+      "question": "240Lの水を20Lずつ容器に入れます。何個の容器が必要ですか。",
+      "answer": "12",
+      "unit": "個",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "240÷20を計算します。",
+      "explanation": "240÷20=12より、12個です。"
+    },
+    {
+      "id": "g5q04-p066",
+      "question": "長方形の面積が252c㎡で、横の長さが21cmです。縦の長さは何cmですか。",
+      "answer": "12",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "252÷21を計算します。",
+      "explanation": "252÷21=12より、12cmです。"
+    },
+    {
+      "id": "g5q04-p067",
+      "question": "長方形の面積が264㎡で、縦の長さが22mです。横の長さは何mですか。",
+      "answer": "12",
+      "unit": "m",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "264÷22を計算します。",
+      "explanation": "264÷22=12より、12mです。"
+    },
+    {
+      "id": "g5q04-p068",
+      "question": "276cmのロープを23cmずつに切ります。何本できますか。",
+      "answer": "12",
+      "unit": "本",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "276÷23を計算します。",
+      "explanation": "276÷23=12より、12本です。"
+    },
+    {
+      "id": "g5q04-p069",
+      "question": "288個のクッキーを24個ずつ箱に詰めます。何箱できますか。",
+      "answer": "12",
+      "unit": "箱",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "288÷24を計算します。",
+      "explanation": "288÷24=12より、12箱です。"
+    },
+    {
+      "id": "g5q04-p070",
+      "question": "300円を25人で同じ金額ずつ分けます。1人分は何円ですか。",
+      "answer": "12",
+      "unit": "円",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "300÷25を計算します。",
+      "explanation": "300÷25=12より、12円です。"
+    },
+    {
+      "id": "g5q04-p071",
+      "question": "143cmのテープを11cmずつに切ります。何本できますか。",
+      "answer": "13",
+      "unit": "本",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "143÷11を計算します。",
+      "explanation": "143÷11=13より、13本です。"
+    },
+    {
+      "id": "g5q04-p072",
+      "question": "169個のあめを13人で同じ数ずつ分けます。1人分は何個ですか。",
+      "answer": "13",
+      "unit": "個",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "169÷13を計算します。",
+      "explanation": "169÷13=13より、13個です。"
+    },
+    {
+      "id": "g5q04-p073",
+      "question": "182kgの米を14kgずつ袋に入れます。何袋できますか。",
+      "answer": "13",
+      "unit": "袋",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "182÷14を計算します。",
+      "explanation": "182÷14=13より、13袋です。"
+    },
+    {
+      "id": "g5q04-p074",
+      "question": "195Lのジュースを15Lずつびんに入れます。何本のびんが必要ですか。",
+      "answer": "13",
+      "unit": "本",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "195÷15を計算します。",
+      "explanation": "195÷15=13より、13本です。"
+    },
+    {
+      "id": "g5q04-p075",
+      "question": "208個のボールを16個ずつかごに入れます。何かごできますか。",
+      "answer": "13",
+      "unit": "かご",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "208÷16を計算します。",
+      "explanation": "208÷16=13より、13かごです。"
+    },
+    {
+      "id": "g5q04-p076",
+      "question": "長方形の花だんの面積が182㎡で、横の長さが14mです。縦の長さは何mですか。",
+      "answer": "13",
+      "unit": "m",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "182÷14を計算します。",
+      "explanation": "182÷14=13より、13mです。"
+    },
+    {
+      "id": "g5q04-p077",
+      "question": "117人の生徒を1クラス13人ずつに分けます。何クラスできますか。",
+      "answer": "9",
+      "unit": "クラス",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "117÷13を計算します。",
+      "explanation": "117÷13=9より、9クラスです。"
+    },
+    {
+      "id": "g5q04-p078",
+      "question": "126枚の折り紙を14枚ずつ配ります。何人に配れますか。",
+      "answer": "9",
+      "unit": "人",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "126÷14を計算します。",
+      "explanation": "126÷14=9より、9人です。"
+    },
+    {
+      "id": "g5q04-p079",
+      "question": "135個のチョコレートを15個ずつ箱に詰めます。何箱できますか。",
+      "answer": "9",
+      "unit": "箱",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "135÷15を計算します。",
+      "explanation": "135÷15=9より、9箱です。"
+    },
+    {
+      "id": "g5q04-p080",
+      "question": "153cmのひもを17cmずつに切ります。何本できますか。",
+      "answer": "9",
+      "unit": "本",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "153÷17を計算します。",
+      "explanation": "153÷17=9より、9本です。"
+    },
+    {
+      "id": "g5q04-p081",
+      "question": "□÷12=6を満たす□を求めましょう。",
+      "answer": "72",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "6×12を計算します。",
+      "explanation": "6×12=72なので、□=72です。"
+    },
+    {
+      "id": "g5q04-p082",
+      "question": "□÷14=8を満たす□を求めましょう。",
+      "answer": "112",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "8×14を計算します。",
+      "explanation": "8×14=112なので、□=112です。"
+    },
+    {
+      "id": "g5q04-p083",
+      "question": "156÷□=12を満たす□を求めましょう。",
+      "answer": "13",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "156÷12を計算します。",
+      "explanation": "156÷12=13なので、□=13です。"
+    },
+    {
+      "id": "g5q04-p084",
+      "question": "□÷15=12を満たす□を求めましょう。",
+      "answer": "180",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "12×15を計算します。",
+      "explanation": "12×15=180なので、□=180です。"
+    },
+    {
+      "id": "g5q04-p085",
+      "question": "192÷□=12を満たす□を求めましょう。",
+      "answer": "16",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "192÷12を計算します。",
+      "explanation": "192÷12=16なので、□=16です。"
+    },
+    {
+      "id": "g5q04-p086",
+      "question": "□÷17=12を満たす□を求めましょう。",
+      "answer": "204",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "12×17を計算します。",
+      "explanation": "12×17=204なので、□=204です。"
+    },
+    {
+      "id": "g5q04-p087",
+      "question": "216÷□=12を満たす□を求めましょう。",
+      "answer": "18",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "reverse",
+      "hint": "216÷12を計算します。",
+      "explanation": "216÷12=18なので、□=18です。"
+    },
+    {
+      "id": "g5q04-p088",
+      "question": "□÷19=12を満たす□を求めましょう。",
+      "answer": "228",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "reverse",
+      "hint": "12×19を計算します。",
+      "explanation": "12×19=228なので、□=228です。"
+    },
+    {
+      "id": "g5q04-p089",
+      "question": "252÷□=12を満たす□を求めましょう。",
+      "answer": "21",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "reverse",
+      "hint": "252÷12を計算します。",
+      "explanation": "252÷12=21なので、□=21です。"
+    },
+    {
+      "id": "g5q04-p090",
+      "question": "□÷23=12を満たす□を求めましょう。",
+      "answer": "276",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "reverse",
+      "hint": "12×23を計算します。",
+      "explanation": "12×23=276なので、□=276です。"
+    }
+  ]
+}

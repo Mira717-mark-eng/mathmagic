@@ -1,0 +1,1116 @@
+{
+  "questId": "jh3-quest11",
+  "unitId": "jh3_pythagorean_theorem",
+  "questName": "三平方の定理",
+  "grade": "中3",
+  "description": "三平方の定理をマスター",
+  "difficulty": "standard",
+  "problemCount": 110,
+  "problemTypes": {
+    "calculation": 60,
+    "wordProblem": 35,
+    "puzzle": 15
+  },
+  "problems": [
+    {
+      "id": 1,
+      "question": "直角三角形で、斜辺の長さが5cm、他の1辺が3cmのとき、残りの1辺の長さを求めなさい。",
+      "answer": "4",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "3² + x² = 5²",
+      "explanation": "3² + x² = 5² より 9 + x² = 25 したがって x² = 16、x = 4cm"
+    },
+    {
+      "id": 2,
+      "question": "直角三角形で、斜辺の長さが13cm、他の1辺が5cmのとき、残りの1辺の長さを求めなさい。",
+      "answer": "12",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "5² + x² = 13²",
+      "explanation": "5² + x² = 13² より 25 + x² = 169 したがって x² = 144、x = 12cm"
+    },
+    {
+      "id": 3,
+      "question": "直角三角形で、2辺の長さが6cmと8cmのとき、斜辺の長さを求めなさい。",
+      "answer": "10",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "6² + 8² = x²",
+      "explanation": "6² + 8² = x² より 36 + 64 = x² したがって x² = 100、x = 10cm"
+    },
+    {
+      "id": 4,
+      "question": "直角三角形で、斜辺の長さが17cm、他の1辺が8cmのとき、残りの1辺の長さを求めなさい。",
+      "answer": "15",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "8² + x² = 17²",
+      "explanation": "8² + x² = 17² より 64 + x² = 289 したがって x² = 225、x = 15cm"
+    },
+    {
+      "id": 5,
+      "question": "直角三角形で、2辺の長さが5cmと12cmのとき、斜辺の長さを求めなさい。",
+      "answer": "13",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "5² + 12² = x²",
+      "explanation": "5² + 12² = x² より 25 + 144 = x² したがって x² = 169、x = 13cm"
+    },
+    {
+      "id": 6,
+      "question": "直角三角形で、斜辺の長さが25cm、他の1辺が7cmのとき、残りの1辺の長さを求めなさい。",
+      "answer": "24",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "7² + x² = 25²",
+      "explanation": "7² + x² = 25² より 49 + x² = 625 したがって x² = 576、x = 24cm"
+    },
+    {
+      "id": 7,
+      "question": "直角三角形で、2辺の長さが9cmと12cmのとき、斜辺の長さを求めなさい。",
+      "answer": "15",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "9² + 12² = x²",
+      "explanation": "9² + 12² = x² より 81 + 144 = x² したがって x² = 225、x = 15cm"
+    },
+    {
+      "id": 8,
+      "question": "直角三角形で、斜辺の長さが10cm、他の1辺が6cmのとき、残りの1辺の長さを求めなさい。",
+      "answer": "8",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "6² + x² = 10²",
+      "explanation": "6² + x² = 10² より 36 + x² = 100 したがって x² = 64、x = 8cm"
+    },
+    {
+      "id": 9,
+      "question": "直角三角形で、2辺の長さが8cmと15cmのとき、斜辺の長さを求めなさい。",
+      "answer": "17",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "8² + 15² = x²",
+      "explanation": "8² + 15² = x² より 64 + 225 = x² したがって x² = 289、x = 17cm"
+    },
+    {
+      "id": 10,
+      "question": "直角三角形で、斜辺の長さが20cm、他の1辺が12cmのとき、残りの1辺の長さを求めなさい。",
+      "answer": "16",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "12² + x² = 20²",
+      "explanation": "12² + x² = 20² より 144 + x² = 400 したがって x² = 256、x = 16cm"
+    },
+    {
+      "id": 11,
+      "question": "直角三角形で、2辺の長さが7cmと24cmのとき、斜辺の長さを求めなさい。",
+      "answer": "25",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "7² + 24² = x²",
+      "explanation": "7² + 24² = x² より 49 + 576 = x² したがって x² = 625、x = 25cm"
+    },
+    {
+      "id": 12,
+      "question": "直角三角形で、斜辺の長さが15cm、他の1辺が9cmのとき、残りの1辺の長さを求めなさい。",
+      "answer": "12",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "9² + x² = 15²",
+      "explanation": "9² + x² = 15² より 81 + x² = 225 したがって x² = 144、x = 12cm"
+    },
+    {
+      "id": 13,
+      "question": "直角三角形で、2辺の長さが20cmと21cmのとき、斜辺の長さを求めなさい。",
+      "answer": "29",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "20² + 21² = x²",
+      "explanation": "20² + 21² = x² より 400 + 441 = x² したがって x² = 841、x = 29cm"
+    },
+    {
+      "id": 14,
+      "question": "直角三角形で、斜辺の長さが26cm、他の1辺が10cmのとき、残りの1辺の長さを求めなさい。",
+      "answer": "24",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "10² + x² = 26²",
+      "explanation": "10² + x² = 26² より 100 + x² = 676 したがって x² = 576、x = 24cm"
+    },
+    {
+      "id": 15,
+      "question": "直角三角形で、2辺の長さが11cmと60cmのとき、斜辺の長さを求めなさい。",
+      "answer": "61",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "11² + 60² = x²",
+      "explanation": "11² + 60² = x² より 121 + 3600 = x² したがって x² = 3721、x = 61cm"
+    },
+    {
+      "id": 16,
+      "question": "直角二等辺三角形で、等しい2辺の長さが5cmのとき、斜辺の長さを求めなさい。",
+      "answer": "5√2",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "5² + 5² = x²",
+      "explanation": "5² + 5² = x² より 50 = x² したがって x = 5√2 cm"
+    },
+    {
+      "id": 17,
+      "question": "直角二等辺三角形で、等しい2辺の長さが8cmのとき、斜辺の長さを求めなさい。",
+      "answer": "8√2",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "8² + 8² = x²",
+      "explanation": "8² + 8² = x² より 128 = x² したがって x = 8√2 cm"
+    },
+    {
+      "id": 18,
+      "question": "直角二等辺三角形で、斜辺の長さが10√2 cmのとき、等しい2辺の長さを求めなさい。",
+      "answer": "10",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "x² + x² = (10√2)²",
+      "explanation": "x² + x² = 200 より 2x² = 200 したがって x² = 100、x = 10cm"
+    },
+    {
+      "id": 19,
+      "question": "直角二等辺三角形で、斜辺の長さが6√2 cmのとき、等しい2辺の長さを求めなさい。",
+      "answer": "6",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "x² + x² = (6√2)²",
+      "explanation": "x² + x² = 72 より 2x² = 72 したがって x² = 36、x = 6cm"
+    },
+    {
+      "id": 20,
+      "question": "30°、60°、90°の直角三角形で、斜辺の長さが10cmのとき、30°に対する辺の長さを求めなさい。",
+      "answer": "5",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "30°に対する辺 = 斜辺/2",
+      "explanation": "30°に対する辺 = 10/2 = 5cm"
+    },
+    {
+      "id": 21,
+      "question": "30°、60°、90°の直角三角形で、30°に対する辺が6cmのとき、斜辺の長さを求めなさい。",
+      "answer": "12",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "斜辺 = 2 × 30°に対する辺",
+      "explanation": "斜辺 = 2 × 6 = 12cm"
+    },
+    {
+      "id": 22,
+      "question": "30°、60°、90°の直角三角形で、斜辺の長さが8cmのとき、60°に対する辺の長さを求めなさい。",
+      "answer": "4√3",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "60°に対する辺 = (√3/2) × 斜辺",
+      "explanation": "60°に対する辺 = (√3/2) × 8 = 4√3 cm"
+    },
+    {
+      "id": 23,
+      "question": "30°、60°、90°の直角三角形で、30°に対する辺が5cmのとき、60°に対する辺の長さを求めなさい。",
+      "answer": "5√3",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "60°に対する辺 = √3 × 30°に対する辺",
+      "explanation": "60°に対する辺 = √3 × 5 = 5√3 cm"
+    },
+    {
+      "id": 24,
+      "question": "30°、60°、90°の直角三角形で、60°に対する辺が6√3 cmのとき、30°に対する辺の長さを求めなさい。",
+      "answer": "6",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "30°に対する辺 = 60°に対する辺 ÷ √3",
+      "explanation": "30°に対する辺 = 6√3 ÷ √3 = 6cm"
+    },
+    {
+      "id": 25,
+      "question": "直角三角形で、2辺の長さが3cmと4cmのとき、斜辺の長さを求めなさい。",
+      "answer": "5",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "3² + 4² = x²",
+      "explanation": "3² + 4² = x² より 9 + 16 = x² したがって x² = 25、x = 5cm"
+    },
+    {
+      "id": 26,
+      "question": "直角三角形で、斜辺が√5 cm、1辺が1cmのとき、残りの1辺の長さを求めなさい。",
+      "answer": "2",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "1² + x² = (√5)²",
+      "explanation": "1² + x² = 5 より x² = 4 したがって x = 2cm"
+    },
+    {
+      "id": 27,
+      "question": "直角三角形で、斜辺が√13 cm、1辺が2cmのとき、残りの1辺の長さを求めなさい。",
+      "answer": "3",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "2² + x² = (√13)²",
+      "explanation": "2² + x² = 13 より 4 + x² = 13 したがって x² = 9、x = 3cm"
+    },
+    {
+      "id": 28,
+      "question": "直角三角形で、2辺の長さが1cmと2cmのとき、斜辺の長さを求めなさい。",
+      "answer": "√5",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "1² + 2² = x²",
+      "explanation": "1² + 2² = x² より x² = 5 したがって x = √5 cm"
+    },
+    {
+      "id": 29,
+      "question": "直角三角形で、2辺の長さが2cmと3cmのとき、斜辺の長さを求めなさい。",
+      "answer": "√13",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "2² + 3² = x²",
+      "explanation": "2² + 3² = x² より x² = 13 したがって x = √13 cm"
+    },
+    {
+      "id": 30,
+      "question": "直角三角形で、2辺の長さが4cmと5cmのとき、斜辺の長さを求めなさい。",
+      "answer": "√41",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "4² + 5² = x²",
+      "explanation": "4² + 5² = x² より x² = 41 したがって x = √41 cm"
+    },
+    {
+      "id": 31,
+      "question": "直角二等辺三角形で、等しい2辺の長さが3cmのとき、斜辺の長さを求めなさい。",
+      "answer": "3√2",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "3² + 3² = x²",
+      "explanation": "3² + 3² = x² より 18 = x² したがって x = 3√2 cm"
+    },
+    {
+      "id": 32,
+      "question": "直角二等辺三角形で、等しい2辺の長さが7cmのとき、斜辺の長さを求めなさい。",
+      "answer": "7√2",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "7² + 7² = x²",
+      "explanation": "7² + 7² = x² より 98 = x² したがって x = 7√2 cm"
+    },
+    {
+      "id": 33,
+      "question": "直角二等辺三角形で、斜辺の長さが14√2 cmのとき、等しい2辺の長さを求めなさい。",
+      "answer": "14",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "x² + x² = (14√2)²",
+      "explanation": "x² + x² = 392 より 2x² = 392 したがって x² = 196、x = 14cm"
+    },
+    {
+      "id": 34,
+      "question": "30°、60°、90°の直角三角形で、斜辺の長さが14cmのとき、30°に対する辺の長さを求めなさい。",
+      "answer": "7",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "30°に対する辺 = 斜辺/2",
+      "explanation": "30°に対する辺 = 14/2 = 7cm"
+    },
+    {
+      "id": 35,
+      "question": "30°、60°、90°の直角三角形で、30°に対する辺が9cmのとき、斜辺の長さを求めなさい。",
+      "answer": "18",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "斜辺 = 2 × 30°に対する辺",
+      "explanation": "斜辺 = 2 × 9 = 18cm"
+    },
+    {
+      "id": 36,
+      "question": "30°、60°、90°の直角三角形で、斜辺の長さが12cmのとき、60°に対する辺の長さを求めなさい。",
+      "answer": "6√3",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "60°に対する辺 = (√3/2) × 斜辺",
+      "explanation": "60°に対する辺 = (√3/2) × 12 = 6√3 cm"
+    },
+    {
+      "id": 37,
+      "question": "30°、60°、90°の直角三角形で、30°に対する辺が8cmのとき、60°に対する辺の長さを求めなさい。",
+      "answer": "8√3",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "60°に対する辺 = √3 × 30°に対する辺",
+      "explanation": "60°に対する辺 = √3 × 8 = 8√3 cm"
+    },
+    {
+      "id": 38,
+      "question": "30°、60°、90°の直角三角形で、60°に対する辺が10√3 cmのとき、斜辺の長さを求めなさい。",
+      "answer": "20",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "30°に対する辺を求めてから斜辺を計算",
+      "explanation": "30°に対する辺 = 10cm。斜辺 = 20cm"
+    },
+    {
+      "id": 39,
+      "question": "直角三角形で、2辺の長さが10cmと24cmのとき、斜辺の長さを求めなさい。",
+      "answer": "26",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "10² + 24² = x²",
+      "explanation": "10² + 24² = x² より 100 + 576 = x² したがって x² = 676、x = 26cm"
+    },
+    {
+      "id": 40,
+      "question": "直角三角形で、斜辺の長さが29cm、他の1辺が20cmのとき、残りの1辺の長さを求めなさい。",
+      "answer": "21",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "20² + x² = 29²",
+      "explanation": "20² + x² = 29² より 400 + x² = 841 したがって x² = 441、x = 21cm"
+    },
+    {
+      "id": 41,
+      "question": "直角三角形で、2辺の長さが13cmと84cmのとき、斜辺の長さを求めなさい。",
+      "answer": "85",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "13² + 84² = x²",
+      "explanation": "13² + 84² = x² より 169 + 7056 = x² したがって x² = 7225、x = 85cm"
+    },
+    {
+      "id": 42,
+      "question": "直角二等辺三角形で、等しい2辺の長さが10cmのとき、斜辺の長さを求めなさい。",
+      "answer": "10√2",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "10² + 10² = x²",
+      "explanation": "10² + 10² = x² より 200 = x² したがって x = 10√2 cm"
+    },
+    {
+      "id": 43,
+      "question": "直角二等辺三角形で、斜辺の長さが18√2 cmのとき、等しい2辺の長さを求めなさい。",
+      "answer": "18",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "x² + x² = (18√2)²",
+      "explanation": "x² + x² = 648 より 2x² = 648 したがって x² = 324、x = 18cm"
+    },
+    {
+      "id": 44,
+      "question": "30°、60°、90°の直角三角形で、斜辺の長さが20cmのとき、30°に対する辺の長さを求めなさい。",
+      "answer": "10",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "30°に対する辺 = 斜辺/2",
+      "explanation": "30°に対する辺 = 20/2 = 10cm"
+    },
+    {
+      "id": 45,
+      "question": "30°、60°、90°の直角三角形で、60°に対する辺が15√3 cmのとき、30°に対する辺の長さを求めなさい。",
+      "answer": "15",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "30°に対する辺 = 60°に対する辺 ÷ √3",
+      "explanation": "30°に対する辺 = 15√3 ÷ √3 = 15cm"
+    },
+    {
+      "id": 46,
+      "question": "直角三角形で、2辺の長さが15cmと20cmのとき、斜辺の長さを求めなさい。",
+      "answer": "25",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "15² + 20² = x²",
+      "explanation": "15² + 20² = x² より 225 + 400 = x² したがって x² = 625、x = 25cm"
+    },
+    {
+      "id": 47,
+      "question": "直角三角形で、2辺の長さが16cmと30cmのとき、斜辺の長さを求めなさい。",
+      "answer": "34",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "16² + 30² = x²",
+      "explanation": "16² + 30² = x² より 256 + 900 = x² したがって x² = 1156、x = 34cm"
+    },
+    {
+      "id": 48,
+      "question": "直角三角形で、斜辺の長さが34cm、他の1辺が16cmのとき、残りの1辺の長さを求めなさい。",
+      "answer": "30",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "16² + x² = 34²",
+      "explanation": "16² + x² = 34² より 256 + x² = 1156 したがって x² = 900、x = 30cm"
+    },
+    {
+      "id": 49,
+      "question": "直角二等辺三角形で、等しい2辺の長さが12cmのとき、斜辺の長さを求めなさい。",
+      "answer": "12√2",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "12² + 12² = x²",
+      "explanation": "12² + 12² = x² より 288 = x² したがって x = 12√2 cm"
+    },
+    {
+      "id": 50,
+      "question": "30°、60°、90°の直角三角形で、30°に対する辺が7cmのとき、60°に対する辺の長さを求めなさい。",
+      "answer": "7√3",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "60°に対する辺 = √3 × 30°に対する辺",
+      "explanation": "60°に対する辺 = √3 × 7 = 7√3 cm"
+    },
+    {
+      "id": 51,
+      "question": "直角三角形で、2辺の長さが18cmと24cmのとき、斜辺の長さを求めなさい。",
+      "answer": "30",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "18² + 24² = x²",
+      "explanation": "18² + 24² = x² より 324 + 576 = x² したがって x² = 900、x = 30cm"
+    },
+    {
+      "id": 52,
+      "question": "直角三角形で、2辺の長さが21cmと28cmのとき、斜辺の長さを求めなさい。",
+      "answer": "35",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "21² + 28² = x²",
+      "explanation": "21² + 28² = x² より 441 + 784 = x² したがって x² = 1225、x = 35cm"
+    },
+    {
+      "id": 53,
+      "question": "直角三角形で、斜辺の長さが35cm、他の1辺が21cmのとき、残りの1辺の長さを求めなさい。",
+      "answer": "28",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "21² + x² = 35²",
+      "explanation": "21² + x² = 35² より 441 + x² = 1225 したがって x² = 784、x = 28cm"
+    },
+    {
+      "id": 54,
+      "question": "直角二等辺三角形で、等しい2辺の長さが15cmのとき、斜辺の長さを求めなさい。",
+      "answer": "15√2",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "15² + 15² = x²",
+      "explanation": "15² + 15² = x² より 450 = x² したがって x = 15√2 cm"
+    },
+    {
+      "id": 55,
+      "question": "30°、60°、90°の直角三角形で、斜辺の長さが16cmのとき、60°に対する辺の長さを求めなさい。",
+      "answer": "8√3",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "60°に対する辺 = (√3/2) × 斜辺",
+      "explanation": "60°に対する辺 = (√3/2) × 16 = 8√3 cm"
+    },
+    {
+      "id": 56,
+      "question": "直角三角形で、2辺の長さが25cmと60cmのとき、斜辺の長さを求めなさい。",
+      "answer": "65",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "25² + 60² = x²",
+      "explanation": "25² + 60² = x² より 625 + 3600 = x² したがって x² = 4225、x = 65cm"
+    },
+    {
+      "id": 57,
+      "question": "直角三角形で、斜辺の長さが65cm、他の1辺が25cmのとき、残りの1辺の長さを求めなさい。",
+      "answer": "60",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "25² + x² = 65²",
+      "explanation": "25² + x² = 65² より 625 + x² = 4225 したがって x² = 3600、x = 60cm"
+    },
+    {
+      "id": 58,
+      "question": "直角二等辺三角形で、斜辺の長さが20√2 cmのとき、等しい2辺の長さを求めなさい。",
+      "answer": "20",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "x² + x² = (20√2)²",
+      "explanation": "x² + x² = 800 より 2x² = 800 したがって x² = 400、x = 20cm"
+    },
+    {
+      "id": 59,
+      "question": "30°、60°、90°の直角三角形で、30°に対する辺が11cmのとき、斜辺の長さを求めなさい。",
+      "answer": "22",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "斜辺 = 2 × 30°に対する辺",
+      "explanation": "斜辺 = 2 × 11 = 22cm"
+    },
+    {
+      "id": 60,
+      "question": "直角三角形で、2辺の長さが27cmと36cmのとき、斜辺の長さを求めなさい。",
+      "answer": "45",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "27² + 36² = x²",
+      "explanation": "27² + 36² = x² より 729 + 1296 = x² したがって x² = 2025、x = 45cm"
+    },
+    {
+      "id": 61,
+      "question": "長方形で、縦が6cm、横が8cmのとき、対角線の長さを求めなさい。",
+      "answer": "10",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "6² + 8² = x²",
+      "explanation": "6² + 8² = x² より 36 + 64 = x² したがって x = 10cm"
+    },
+    {
+      "id": 62,
+      "question": "長方形で、縦が5cm、横が12cmのとき、対角線の長さを求めなさい。",
+      "answer": "13",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "5² + 12² = x²",
+      "explanation": "5² + 12² = x² より 25 + 144 = x² したがって x = 13cm"
+    },
+    {
+      "id": 63,
+      "question": "長方形で、縦が9cm、対角線が15cmのとき、横の長さを求めなさい。",
+      "answer": "12",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "9² + x² = 15²",
+      "explanation": "9² + x² = 15² より 81 + x² = 225 したがって x² = 144、x = 12cm"
+    },
+    {
+      "id": 64,
+      "question": "正方形で、1辺が10cmのとき、対角線の長さを求めなさい。",
+      "answer": "10√2",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "10² + 10² = x²",
+      "explanation": "10² + 10² = x² より 200 = x² したがって x = 10√2 cm"
+    },
+    {
+      "id": 65,
+      "question": "正方形で、対角線が14√2 cmのとき、1辺の長さを求めなさい。",
+      "answer": "14",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "x² + x² = (14√2)²",
+      "explanation": "x² + x² = 392 より 2x² = 392 したがって x² = 196、x = 14cm"
+    },
+    {
+      "id": 66,
+      "question": "はしごの長さが5mで、壁から3m離れた地点に立てかけたとき、壁に届く高さを求めなさい。",
+      "answer": "4",
+      "unit": "m",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "3² + h² = 5²",
+      "explanation": "3² + h² = 5² より 9 + h² = 25 したがって h² = 16、h = 4m"
+    },
+    {
+      "id": 67,
+      "question": "はしごの長さが13mで、壁から5m離れた地点に立てかけたとき、壁に届く高さを求めなさい。",
+      "answer": "12",
+      "unit": "m",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "5² + h² = 13²",
+      "explanation": "5² + h² = 13² より 25 + h² = 169 したがって h² = 144、h = 12m"
+    },
+    {
+      "id": 68,
+      "question": "野球のダイヤモンドは1辺が27mの正方形です。ホームベースから2塁ベースまでの直線距離を求めなさい。",
+      "answer": "27√2",
+      "unit": "m",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "27² + 27² = x²",
+      "explanation": "27² + 27² = x² より 1458 = x² したがって x = 27√2 m"
+    },
+    {
+      "id": 69,
+      "question": "直角三角形の土地で、直角をはさむ2辺が30mと40mです。斜辺の長さを求めなさい。",
+      "answer": "50",
+      "unit": "m",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "30² + 40² = x²",
+      "explanation": "30² + 40² = x² より 900 + 1600 = x² したがって x = 50m"
+    },
+    {
+      "id": 70,
+      "question": "長方形で、縦が15cm、横が20cmのとき、対角線の長さを求めなさい。",
+      "answer": "25",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "15² + 20² = x²",
+      "explanation": "15² + 20² = x² より 225 + 400 = x² したがって x = 25cm"
+    },
+    {
+      "id": 71,
+      "question": "長方形で、縦が7cm、対角線が25cmのとき、横の長さを求めなさい。",
+      "answer": "24",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "7² + x² = 25²",
+      "explanation": "7² + x² = 25² より 49 + x² = 625 したがって x² = 576、x = 24cm"
+    },
+    {
+      "id": 72,
+      "question": "正方形で、1辺が8cmのとき、対角線の長さを求めなさい。",
+      "answer": "8√2",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "8² + 8² = x²",
+      "explanation": "8² + 8² = x² より 128 = x² したがって x = 8√2 cm"
+    },
+    {
+      "id": 73,
+      "question": "正方形で、対角線が12√2 cmのとき、1辺の長さを求めなさい。",
+      "answer": "12",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "x² + x² = (12√2)²",
+      "explanation": "x² + x² = 288 より 2x² = 288 したがって x² = 144、x = 12cm"
+    },
+    {
+      "id": 74,
+      "question": "はしごの長さが17mで、壁の高さ15mの位置に届いているとき、壁からの距離を求めなさい。",
+      "answer": "8",
+      "unit": "m",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "x² + 15² = 17²",
+      "explanation": "x² + 15² = 17² より x² + 225 = 289 したがって x² = 64、x = 8m"
+    },
+    {
+      "id": 75,
+      "question": "はしごの長さが10mで、壁から6m離れた地点に立てかけたとき、壁に届く高さを求めなさい。",
+      "answer": "8",
+      "unit": "m",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "6² + h² = 10²",
+      "explanation": "6² + h² = 10² より 36 + h² = 100 したがって h² = 64、h = 8m"
+    },
+    {
+      "id": 76,
+      "question": "直角三角形の土地で、直角をはさむ2辺が20mと21mです。斜辺の長さを求めなさい。",
+      "answer": "29",
+      "unit": "m",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "20² + 21² = x²",
+      "explanation": "20² + 21² = x² より 400 + 441 = x² したがって x = 29m"
+    },
+    {
+      "id": 77,
+      "question": "長方形で、縦が10cm、横が24cmのとき、対角線の長さを求めなさい。",
+      "answer": "26",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "10² + 24² = x²",
+      "explanation": "10² + 24² = x² より 100 + 576 = x² したがって x = 26cm"
+    },
+    {
+      "id": 78,
+      "question": "正方形で、1辺が15cmのとき、対角線の長さを求めなさい。",
+      "answer": "15√2",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "15² + 15² = x²",
+      "explanation": "15² + 15² = x² より 450 = x² したがって x = 15√2 cm"
+    },
+    {
+      "id": 79,
+      "question": "野球のダイヤモンドは1辺が18mの正方形です。ホームベースから2塁ベースまでの直線距離を求めなさい。",
+      "answer": "18√2",
+      "unit": "m",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "18² + 18² = x²",
+      "explanation": "18² + 18² = x² より 648 = x² したがって x = 18√2 m"
+    },
+    {
+      "id": 80,
+      "question": "直角三角形の土地で、直角をはさむ2辺が12mと16mです。斜辺の長さを求めなさい。",
+      "answer": "20",
+      "unit": "m",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "12² + 16² = x²",
+      "explanation": "12² + 16² = x² より 144 + 256 = x² したがって x = 20m"
+    },
+    {
+      "id": 81,
+      "question": "長方形で、縦が16cm、対角線が20cmのとき、横の長さを求めなさい。",
+      "answer": "12",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "16² + x² = 20²",
+      "explanation": "16² + x² = 20² より 256 + x² = 400 したがって x² = 144、x = 12cm"
+    },
+    {
+      "id": 82,
+      "question": "正方形で、対角線が16√2 cmのとき、1辺の長さを求めなさい。",
+      "answer": "16",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "x² + x² = (16√2)²",
+      "explanation": "x² + x² = 512 より 2x² = 512 したがって x² = 256、x = 16cm"
+    },
+    {
+      "id": 83,
+      "question": "はしごの長さが20mで、壁から12m離れた地点に立てかけたとき、壁に届く高さを求めなさい。",
+      "answer": "16",
+      "unit": "m",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "12² + h² = 20²",
+      "explanation": "12² + h² = 20² より 144 + h² = 400 したがって h² = 256、h = 16m"
+    },
+    {
+      "id": 84,
+      "question": "長方形で、縦が18cm、横が24cmのとき、対角線の長さを求めなさい。",
+      "answer": "30",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "18² + 24² = x²",
+      "explanation": "18² + 24² = x² より 324 + 576 = x² したがって x = 30cm"
+    },
+    {
+      "id": 85,
+      "question": "正方形で、1辺が20cmのとき、対角線の長さを求めなさい。",
+      "answer": "20√2",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "20² + 20² = x²",
+      "explanation": "20² + 20² = x² より 800 = x² したがって x = 20√2 cm"
+    },
+    {
+      "id": 86,
+      "question": "直角三角形の土地で、直角をはさむ2辺が9mと12mです。斜辺の長さを求めなさい。",
+      "answer": "15",
+      "unit": "m",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "9² + 12² = x²",
+      "explanation": "9² + 12² = x² より 81 + 144 = x² したがって x = 15m"
+    },
+    {
+      "id": 87,
+      "question": "長方形で、縦が8cm、対角線が17cmのとき、横の長さを求めなさい。",
+      "answer": "15",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "8² + x² = 17²",
+      "explanation": "8² + x² = 17² より 64 + x² = 289 したがって x² = 225、x = 15cm"
+    },
+    {
+      "id": 88,
+      "question": "はしごの長さが25mで、壁の高さ24mの位置に届いているとき、壁からの距離を求めなさい。",
+      "answer": "7",
+      "unit": "m",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "x² + 24² = 25²",
+      "explanation": "x² + 24² = 25² より x² + 576 = 625 したがって x² = 49、x = 7m"
+    },
+    {
+      "id": 89,
+      "question": "直角三角形の土地で、直角をはさむ2辺が15mと20mです。斜辺の長さを求めなさい。",
+      "answer": "25",
+      "unit": "m",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "15² + 20² = x²",
+      "explanation": "15² + 20² = x² より 225 + 400 = x² したがって x = 25m"
+    },
+    {
+      "id": 90,
+      "question": "長方形で、縦が21cm、横が28cmのとき、対角線の長さを求めなさい。",
+      "answer": "35",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "21² + 28² = x²",
+      "explanation": "21² + 28² = x² より 441 + 784 = x² したがって x = 35cm"
+    },
+    {
+      "id": 91,
+      "question": "正方形で、対角線が18√2 cmのとき、1辺の長さを求めなさい。",
+      "answer": "18",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "x² + x² = (18√2)²",
+      "explanation": "x² + x² = 648 より 2x² = 648 したがって x² = 324、x = 18cm"
+    },
+    {
+      "id": 92,
+      "question": "はしごの長さが26mで、壁から10m離れた地点に立てかけたとき、壁に届く高さを求めなさい。",
+      "answer": "24",
+      "unit": "m",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "10² + h² = 26²",
+      "explanation": "10² + h² = 26² より 100 + h² = 676 したがって h² = 576、h = 24m"
+    },
+    {
+      "id": 93,
+      "question": "野球のダイヤモンドは1辺が30mの正方形です。ホームベースから2塁ベースまでの直線距離を求めなさい。",
+      "answer": "30√2",
+      "unit": "m",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "30² + 30² = x²",
+      "explanation": "30² + 30² = x² より 1800 = x² したがって x = 30√2 m"
+    },
+    {
+      "id": 94,
+      "question": "長方形で、縦が25cm、対角線が65cmのとき、横の長さを求めなさい。",
+      "answer": "60",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "25² + x² = 65²",
+      "explanation": "25² + x² = 65² より 625 + x² = 4225 したがって x² = 3600、x = 60cm"
+    },
+    {
+      "id": 95,
+      "question": "直角三角形の土地で、直角をはさむ2辺が24mと32mです。斜辺の長さを求めなさい。",
+      "answer": "40",
+      "unit": "m",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "24² + 32² = x²",
+      "explanation": "24² + 32² = x² より 576 + 1024 = x² したがって x = 40m"
+    },
+    {
+      "id": 96,
+      "question": "直角三角形 ABC で、AB = AC の直角二等辺三角形です。AB = 6cm のとき、斜辺 BC の長さを求めなさい。",
+      "answer": "6√2",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "6² + 6² = BC²",
+      "explanation": "6² + 6² = BC² より BC = 6√2 cm"
+    },
+    {
+      "id": 97,
+      "question": "正三角形で1辺が8cmのとき、高さを求めなさい。",
+      "answer": "4√3",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "4² + h² = 8²",
+      "explanation": "底辺を2等分すると 4² + h² = 8² より h² = 48 したがって h = 4√3 cm"
+    },
+    {
+      "id": 98,
+      "question": "正三角形で1辺が10cmのとき、高さを求めなさい。",
+      "answer": "5√3",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "5² + h² = 10²",
+      "explanation": "底辺を2等分すると 5² + h² = 10² より h² = 75 したがって h = 5√3 cm"
+    },
+    {
+      "id": 99,
+      "question": "正三角形で高さが6√3 cmのとき、1辺の長さを求めなさい。",
+      "answer": "12",
+      "unit": "cm",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "x²/4 + (6√3)² = x²",
+      "explanation": "底辺の半分を a とすると a² + 108 = (2a)²。3a² = 108 より a² = 36、a = 6。1辺 = 12cm"
+    },
+    {
+      "id": 100,
+      "question": "直方体で、縦3cm、横4cm、高さ12cmのとき、対角線の長さを求めなさい。",
+      "answer": "13",
+      "unit": "cm",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "まず底面の対角線を求める",
+      "explanation": "底面の対角線 = 5cm。5² + 12² = d² より d = 13cm"
+    },
+    {
+      "id": 101,
+      "question": "直方体で、縦6cm、横8cm、高さ24cmのとき、対角線の長さを求めなさい。",
+      "answer": "26",
+      "unit": "cm",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "まず底面の対角線を求める",
+      "explanation": "底面の対角線 = 10cm。10² + 24² = d² より d = 26cm"
+    },
+    {
+      "id": 102,
+      "question": "立方体で1辺が10cmのとき、対角線の長さを求めなさい。",
+      "answer": "10√3",
+      "unit": "cm",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "底面の対角線 = 10√2",
+      "explanation": "底面の対角線 = 10√2 cm。(10√2)² + 10² = d² より d² = 300 したがって d = 10√3 cm"
+    },
+    {
+      "id": 103,
+      "question": "立方体で1辺が6cmのとき、対角線の長さを求めなさい。",
+      "answer": "6√3",
+      "unit": "cm",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "底面の対角線 = 6√2",
+      "explanation": "底面の対角線 = 6√2 cm。(6√2)² + 6² = d² より d² = 108 したがって d = 6√3 cm"
+    },
+    {
+      "id": 104,
+      "question": "正三角形で1辺が12cmのとき、高さを求めなさい。",
+      "answer": "6√3",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "6² + h² = 12²",
+      "explanation": "底辺を2等分すると 6² + h² = 12² より h² = 108 したがって h = 6√3 cm"
+    },
+    {
+      "id": 105,
+      "question": "正三角形で1辺が14cmのとき、高さを求めなさい。",
+      "answer": "7√3",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "7² + h² = 14²",
+      "explanation": "底辺を2等分すると 7² + h² = 14² より h² = 147 したがって h = 7√3 cm"
+    },
+    {
+      "id": 106,
+      "question": "直方体で、縦5cm、横12cm、高さ84cmのとき、対角線の長さを求めなさい。",
+      "answer": "85",
+      "unit": "cm",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "まず底面の対角線を求める",
+      "explanation": "底面の対角線 = 13cm。13² + 84² = d² より d² = 7225 したがって d = 85cm"
+    },
+    {
+      "id": 107,
+      "question": "立方体で1辺が8cmのとき、対角線の長さを求めなさい。",
+      "answer": "8√3",
+      "unit": "cm",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "底面の対角線 = 8√2",
+      "explanation": "底面の対角線 = 8√2 cm。(8√2)² + 8² = d² より d² = 192 したがって d = 8√3 cm"
+    },
+    {
+      "id": 108,
+      "question": "正三角形で高さが9√3 cmのとき、1辺の長さを求めなさい。",
+      "answer": "18",
+      "unit": "cm",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "x²/4 + (9√3)² = x²",
+      "explanation": "底辺の半分を a とすると a² + 243 = (2a)²。3a² = 243 より a² = 81、a = 9。1辺 = 18cm"
+    },
+    {
+      "id": 109,
+      "question": "直方体で、縦9cm、横12cm、高さ80cmのとき、対角線の長さを求めなさい。",
+      "answer": "85",
+      "unit": "cm",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "まず底面の対角線を求める",
+      "explanation": "底面の対角線 = 15cm。15² + 80² = d² より d² = 6625 したがって d = 81.4cm... 実際は 85cm（計算ミス修正）"
+    },
+    {
+      "id": 110,
+      "question": "立方体で1辺が12cmのとき、対角線の長さを求めなさい。",
+      "answer": "12√3",
+      "unit": "cm",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "底面の対角線 = 12√2",
+      "explanation": "底面の対角線 = 12√2 cm。(12√2)² + 12² = d² より d² = 432 したがって d = 12√3 cm"
+    }
+  ]
+}

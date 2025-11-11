@@ -1,0 +1,934 @@
+{
+  "questId": "grade4-quest04",
+  "questName": "かけ算(2桁×2桁)",
+  "grade": "小4",
+  "unitId": "elem4_multiplication_2digit_2digit",
+  "totalProblems": 100,
+  "problems": [
+    {
+      "id": 1,
+      "question": "12×11を計算しなさい。",
+      "answer": "132",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "12×11=132です。"
+    },
+    {
+      "id": 2,
+      "question": "13×12を計算しなさい。",
+      "answer": "156",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "13×12=156です。"
+    },
+    {
+      "id": 3,
+      "question": "14×13を計算しなさい。",
+      "answer": "182",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "14×13=182です。"
+    },
+    {
+      "id": 4,
+      "question": "15×14を計算しなさい。",
+      "answer": "210",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "15×14=210です。"
+    },
+    {
+      "id": 5,
+      "question": "16×15を計算しなさい。",
+      "answer": "240",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "16×15=240です。"
+    },
+    {
+      "id": 6,
+      "question": "17×16を計算しなさい。",
+      "answer": "272",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "17×16=272です。"
+    },
+    {
+      "id": 7,
+      "question": "18×17を計算しなさい。",
+      "answer": "306",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "18×17=306です。"
+    },
+    {
+      "id": 8,
+      "question": "19×18を計算しなさい。",
+      "answer": "342",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "19×18=342です。"
+    },
+    {
+      "id": 9,
+      "question": "20×19を計算しなさい。",
+      "answer": "380",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "20×19=380です。"
+    },
+    {
+      "id": 10,
+      "question": "21×20を計算しなさい。",
+      "answer": "420",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "21×20=420です。"
+    },
+    {
+      "id": 11,
+      "question": "23×22を計算しなさい。",
+      "answer": "506",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "23×22=506です。"
+    },
+    {
+      "id": 12,
+      "question": "25×24を計算しなさい。",
+      "answer": "600",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "25×24=600です。"
+    },
+    {
+      "id": 13,
+      "question": "27×26を計算しなさい。",
+      "answer": "702",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "27×26=702です。"
+    },
+    {
+      "id": 14,
+      "question": "29×28を計算しなさい。",
+      "answer": "812",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "29×28=812です。"
+    },
+    {
+      "id": 15,
+      "question": "31×30を計算しなさい。",
+      "answer": "930",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "31×30=930です。"
+    },
+    {
+      "id": 16,
+      "question": "32×31を計算しなさい。",
+      "answer": "992",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "32×31=992です。"
+    },
+    {
+      "id": 17,
+      "question": "34×33を計算しなさい。",
+      "answer": "1122",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "34×33=1122です。"
+    },
+    {
+      "id": 18,
+      "question": "36×35を計算しなさい。",
+      "answer": "1260",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "36×35=1260です。"
+    },
+    {
+      "id": 19,
+      "question": "38×37を計算しなさい。",
+      "answer": "1406",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "38×37=1406です。"
+    },
+    {
+      "id": 20,
+      "question": "40×39を計算しなさい。",
+      "answer": "1560",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "40×39=1560です。"
+    },
+    {
+      "id": 21,
+      "question": "42×41を計算しなさい。",
+      "answer": "1722",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "42×41=1722です。"
+    },
+    {
+      "id": 22,
+      "question": "45×44を計算しなさい。",
+      "answer": "1980",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "45×44=1980です。"
+    },
+    {
+      "id": 23,
+      "question": "47×46を計算しなさい。",
+      "answer": "2162",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "47×46=2162です。"
+    },
+    {
+      "id": 24,
+      "question": "49×48を計算しなさい。",
+      "answer": "2352",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "49×48=2352です。"
+    },
+    {
+      "id": 25,
+      "question": "50×49を計算しなさい。",
+      "answer": "2450",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "50×49=2450です。"
+    },
+    {
+      "id": 26,
+      "question": "52×51を計算しなさい。",
+      "answer": "2652",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "52×51=2652です。"
+    },
+    {
+      "id": 27,
+      "question": "54×53を計算しなさい。",
+      "answer": "2862",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "54×53=2862です。"
+    },
+    {
+      "id": 28,
+      "question": "56×55を計算しなさい。",
+      "answer": "3080",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "56×55=3080です。"
+    },
+    {
+      "id": 29,
+      "question": "58×57を計算しなさい。",
+      "answer": "3306",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "58×57=3306です。"
+    },
+    {
+      "id": 30,
+      "question": "60×59を計算しなさい。",
+      "answer": "3540",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "60×59=3540です。"
+    },
+    {
+      "id": 31,
+      "question": "62×61を計算しなさい。",
+      "answer": "3782",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "62×61=3782です。"
+    },
+    {
+      "id": 32,
+      "question": "64×63を計算しなさい。",
+      "answer": "4032",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "64×63=4032です。"
+    },
+    {
+      "id": 33,
+      "question": "66×65を計算しなさい。",
+      "answer": "4290",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "66×65=4290です。"
+    },
+    {
+      "id": 34,
+      "question": "68×67を計算しなさい。",
+      "answer": "4556",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "68×67=4556です。"
+    },
+    {
+      "id": 35,
+      "question": "70×69を計算しなさい。",
+      "answer": "4830",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "70×69=4830です。"
+    },
+    {
+      "id": 36,
+      "question": "72×71を計算しなさい。",
+      "answer": "5112",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "72×71=5112です。"
+    },
+    {
+      "id": 37,
+      "question": "74×73を計算しなさい。",
+      "answer": "5402",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "74×73=5402です。"
+    },
+    {
+      "id": 38,
+      "question": "76×75を計算しなさい。",
+      "answer": "5700",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "76×75=5700です。"
+    },
+    {
+      "id": 39,
+      "question": "78×77を計算しなさい。",
+      "answer": "6006",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "78×77=6006です。"
+    },
+    {
+      "id": 40,
+      "question": "80×79を計算しなさい。",
+      "answer": "6320",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "80×79=6320です。"
+    },
+    {
+      "id": 41,
+      "question": "82×81を計算しなさい。",
+      "answer": "6642",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "82×81=6642です。"
+    },
+    {
+      "id": 42,
+      "question": "84×83を計算しなさい。",
+      "answer": "6972",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "84×83=6972です。"
+    },
+    {
+      "id": 43,
+      "question": "86×85を計算しなさい。",
+      "answer": "7310",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "86×85=7310です。"
+    },
+    {
+      "id": 44,
+      "question": "88×87を計算しなさい。",
+      "answer": "7656",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "88×87=7656です。"
+    },
+    {
+      "id": 45,
+      "question": "90×89を計算しなさい。",
+      "answer": "8010",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "90×89=8010です。"
+    },
+    {
+      "id": 46,
+      "question": "92×91を計算しなさい。",
+      "answer": "8372",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "92×91=8372です。"
+    },
+    {
+      "id": 47,
+      "question": "94×93を計算しなさい。",
+      "answer": "8742",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "94×93=8742です。"
+    },
+    {
+      "id": 48,
+      "question": "96×95を計算しなさい。",
+      "answer": "9120",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "96×95=9120です。"
+    },
+    {
+      "id": 49,
+      "question": "98×97を計算しなさい。",
+      "answer": "9506",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "98×97=9506です。"
+    },
+    {
+      "id": 50,
+      "question": "99×98を計算しなさい。",
+      "answer": "9702",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "99×98=9702です。"
+    },
+    {
+      "id": 51,
+      "question": "22×15を計算しなさい。",
+      "answer": "330",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "22×15=330です。"
+    },
+    {
+      "id": 52,
+      "question": "35×24を計算しなさい。",
+      "answer": "840",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "35×24=840です。"
+    },
+    {
+      "id": 53,
+      "question": "43×27を計算しなさい。",
+      "answer": "1161",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "43×27=1161です。"
+    },
+    {
+      "id": 54,
+      "question": "51×38を計算しなさい。",
+      "answer": "1938",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "51×38=1938です。"
+    },
+    {
+      "id": 55,
+      "question": "63×42を計算しなさい。",
+      "answer": "2646",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "63×42=2646です。"
+    },
+    {
+      "id": 56,
+      "question": "75×56を計算しなさい。",
+      "answer": "4200",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "75×56=4200です。"
+    },
+    {
+      "id": 57,
+      "question": "81×64を計算しなさい。",
+      "answer": "5184",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "81×64=5184です。"
+    },
+    {
+      "id": 58,
+      "question": "89×72を計算しなさい。",
+      "answer": "6408",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "89×72=6408です。"
+    },
+    {
+      "id": 59,
+      "question": "93×85を計算しなさい。",
+      "answer": "7905",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "93×85=7905です。"
+    },
+    {
+      "id": 60,
+      "question": "97×96を計算しなさい。",
+      "answer": "9312",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "筆算で計算しましょう。",
+      "explanation": "97×96=9312です。"
+    },
+    {
+      "id": 61,
+      "question": "1箱に12個入りのチョコレートが23箱あります。チョコレートは全部で何個ありますか。",
+      "answer": "276",
+      "unit": "個",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "12×23を計算しましょう。",
+      "explanation": "12×23=276個です。"
+    },
+    {
+      "id": 62,
+      "question": "1冊85円のノートを24冊買いました。代金は何円ですか。",
+      "answer": "2040",
+      "unit": "円",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "85×24を計算しましょう。",
+      "explanation": "85×24=2040円です。"
+    },
+    {
+      "id": 63,
+      "question": "1日に36ページずつ読むと、45日で読み終わります。この本は何ページありますか。",
+      "answer": "1620",
+      "unit": "ページ",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "36×45を計算しましょう。",
+      "explanation": "36×45=1620ページです。"
+    },
+    {
+      "id": 64,
+      "question": "1台58円のキャンディーを32台買いました。代金は何円ですか。",
+      "answer": "1856",
+      "unit": "円",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "58×32を計算しましょう。",
+      "explanation": "58×32=1856円です。"
+    },
+    {
+      "id": 65,
+      "question": "長方形の畑があります。たて25m、よこ48mです。この畑の面積は何平方メートルですか。",
+      "answer": "1200",
+      "unit": "平方メートル",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "25×48を計算しましょう。",
+      "explanation": "25×48=1200平方メートルです。"
+    },
+    {
+      "id": 66,
+      "question": "1箱に67個入りのみかんが15箱あります。みかんは全部で何個ありますか。",
+      "answer": "1005",
+      "unit": "個",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "67×15を計算しましょう。",
+      "explanation": "67×15=1005個です。"
+    },
+    {
+      "id": 67,
+      "question": "バスに42人ずつ乗ることができます。このバスが28台あると、全部で何人乗れますか。",
+      "answer": "1176",
+      "unit": "人",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "42×28を計算しましょう。",
+      "explanation": "42×28=1176人です。"
+    },
+    {
+      "id": 68,
+      "question": "1時間に54km走る電車があります。この電車が37時間走ると何km進みますか。",
+      "answer": "1998",
+      "unit": "km",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "54×37を計算しましょう。",
+      "explanation": "54×37=1998kmです。"
+    },
+    {
+      "id": 69,
+      "question": "1つ73円のりんごを46個買いました。代金は何円ですか。",
+      "answer": "3358",
+      "unit": "円",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "73×46を計算しましょう。",
+      "explanation": "73×46=3358円です。"
+    },
+    {
+      "id": 70,
+      "question": "長方形の花だんがあります。たて29m、よこ64mです。この花だんの面積は何平方メートルですか。",
+      "answer": "1856",
+      "unit": "平方メートル",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "29×64を計算しましょう。",
+      "explanation": "29×64=1856平方メートルです。"
+    },
+    {
+      "id": 71,
+      "question": "1日に81ページずつ読むと、52日で読み終わります。この本は何ページありますか。",
+      "answer": "4212",
+      "unit": "ページ",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "81×52を計算しましょう。",
+      "explanation": "81×52=4212ページです。"
+    },
+    {
+      "id": 72,
+      "question": "1箱に38個入りのクッキーが19箱あります。クッキーは全部で何個ありますか。",
+      "answer": "722",
+      "unit": "個",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "38×19を計算しましょう。",
+      "explanation": "38×19=722個です。"
+    },
+    {
+      "id": 73,
+      "question": "1袋に95枚入りのシールが26袋あります。シールは全部で何枚ありますか。",
+      "answer": "2470",
+      "unit": "枚",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "95×26を計算しましょう。",
+      "explanation": "95×26=2470枚です。"
+    },
+    {
+      "id": 74,
+      "question": "1台に63人乗れるバスが17台あります。全部で何人乗れますか。",
+      "answer": "1071",
+      "unit": "人",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "63×17を計算しましょう。",
+      "explanation": "63×17=1071人です。"
+    },
+    {
+      "id": 75,
+      "question": "1個88円のパンを35個買いました。代金は何円ですか。",
+      "answer": "3080",
+      "unit": "円",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "88×35を計算しましょう。",
+      "explanation": "88×35=3080円です。"
+    },
+    {
+      "id": 76,
+      "question": "長方形の運動場があります。たて74m、よこ89mです。この運動場の面積は何平方メートルですか。",
+      "answer": "6586",
+      "unit": "平方メートル",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "74×89を計算しましょう。",
+      "explanation": "74×89=6586平方メートルです。"
+    },
+    {
+      "id": 77,
+      "question": "1時間に76km走る車があります。この車が43時間走ると何km進みますか。",
+      "answer": "3268",
+      "unit": "km",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "76×43を計算しましょう。",
+      "explanation": "76×43=3268kmです。"
+    },
+    {
+      "id": 78,
+      "question": "1箱に52本入りのペンが28箱あります。ペンは全部で何本ありますか。",
+      "answer": "1456",
+      "unit": "本",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "52×28を計算しましょう。",
+      "explanation": "52×28=1456本です。"
+    },
+    {
+      "id": 79,
+      "question": "1つ91円のジュースを47本買いました。代金は何円ですか。",
+      "answer": "4277",
+      "unit": "円",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "91×47を計算しましょう。",
+      "explanation": "91×47=4277円です。"
+    },
+    {
+      "id": 80,
+      "question": "1日に68ページずつ読むと、55日で読み終わります。この本は何ページありますか。",
+      "answer": "3740",
+      "unit": "ページ",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "68×55を計算しましょう。",
+      "explanation": "68×55=3740ページです。"
+    },
+    {
+      "id": 81,
+      "question": "1台の車に45人乗ると、69台で何人になりますか。",
+      "answer": "3105",
+      "unit": "人",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "45×69を計算しましょう。",
+      "explanation": "45×69=3105人です。"
+    },
+    {
+      "id": 82,
+      "question": "1袋に57個入りの飴が34袋あります。飴は全部で何個ありますか。",
+      "answer": "1938",
+      "unit": "個",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "57×34を計算しましょう。",
+      "explanation": "57×34=1938個です。"
+    },
+    {
+      "id": 83,
+      "question": "長方形の土地があります。たて82m、よこ61mです。この土地の面積は何平方メートルですか。",
+      "answer": "5002",
+      "unit": "平方メートル",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "82×61を計算しましょう。",
+      "explanation": "82×61=5002平方メートルです。"
+    },
+    {
+      "id": 84,
+      "question": "1箱に39個入りのボールが78箱あります。ボールは全部で何個ありますか。",
+      "answer": "3042",
+      "unit": "個",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "39×78を計算しましょう。",
+      "explanation": "39×78=3042個です。"
+    },
+    {
+      "id": 85,
+      "question": "1冊94円の折り紙を53冊買いました。代金は何円ですか。",
+      "answer": "4982",
+      "unit": "円",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "94×53を計算しましょう。",
+      "explanation": "94×53=4982円です。"
+    },
+    {
+      "id": 86,
+      "question": "□×23=552のとき、□にあてはまる数を求めなさい。",
+      "answer": "24",
+      "type": "reverse",
+      "difficulty": "standard",
+      "hint": "552÷23を計算しましょう。",
+      "explanation": "552÷23=24です。"
+    },
+    {
+      "id": 87,
+      "question": "35×□=1050のとき、□にあてはまる数を求めなさい。",
+      "answer": "30",
+      "type": "reverse",
+      "difficulty": "standard",
+      "hint": "1050÷35を計算しましょう。",
+      "explanation": "1050÷35=30です。"
+    },
+    {
+      "id": 88,
+      "question": "□×47=1410のとき、□にあてはまる数を求めなさい。",
+      "answer": "30",
+      "type": "reverse",
+      "difficulty": "standard",
+      "hint": "1410÷47を計算しましょう。",
+      "explanation": "1410÷47=30です。"
+    },
+    {
+      "id": 89,
+      "question": "52×□=2080のとき、□にあてはまる数を求めなさい。",
+      "answer": "40",
+      "type": "reverse",
+      "difficulty": "standard",
+      "hint": "2080÷52を計算しましょう。",
+      "explanation": "2080÷52=40です。"
+    },
+    {
+      "id": 90,
+      "question": "□×64=3200のとき、□にあてはまる数を求めなさい。",
+      "answer": "50",
+      "type": "reverse",
+      "difficulty": "standard",
+      "hint": "3200÷64を計算しましょう。",
+      "explanation": "3200÷64=50です。"
+    },
+    {
+      "id": 91,
+      "question": "71×□=4260のとき、□にあてはまる数を求めなさい。",
+      "answer": "60",
+      "type": "reverse",
+      "difficulty": "standard",
+      "hint": "4260÷71を計算しましょう。",
+      "explanation": "4260÷71=60です。"
+    },
+    {
+      "id": 92,
+      "question": "□×83=5810のとき、□にあてはまる数を求めなさい。",
+      "answer": "70",
+      "type": "reverse",
+      "difficulty": "standard",
+      "hint": "5810÷83を計算しましょう。",
+      "explanation": "5810÷83=70です。"
+    },
+    {
+      "id": 93,
+      "question": "92×□=7360のとき、□にあてはまる数を求めなさい。",
+      "answer": "80",
+      "type": "reverse",
+      "difficulty": "standard",
+      "hint": "7360÷92を計算しましょう。",
+      "explanation": "7360÷92=80です。"
+    },
+    {
+      "id": 94,
+      "question": "□×95=8550のとき、□にあてはまる数を求めなさい。",
+      "answer": "90",
+      "type": "reverse",
+      "difficulty": "standard",
+      "hint": "8550÷95を計算しましょう。",
+      "explanation": "8550÷95=90です。"
+    },
+    {
+      "id": 95,
+      "question": "78×□=3120のとき、□にあてはまる数を求めなさい。",
+      "answer": "40",
+      "type": "reverse",
+      "difficulty": "standard",
+      "hint": "3120÷78を計算しましょう。",
+      "explanation": "3120÷78=40です。"
+    },
+    {
+      "id": 96,
+      "question": "2つの数の積は1200です。一方の数が25のとき、もう一方の数はいくつですか。",
+      "answer": "48",
+      "type": "puzzle",
+      "difficulty": "standard",
+      "hint": "1200÷25を計算しましょう。",
+      "explanation": "1200÷25=48です。"
+    },
+    {
+      "id": 97,
+      "question": "2つの数の積は1872です。一方の数が39のとき、もう一方の数はいくつですか。",
+      "answer": "48",
+      "type": "puzzle",
+      "difficulty": "standard",
+      "hint": "1872÷39を計算しましょう。",
+      "explanation": "1872÷39=48です。"
+    },
+    {
+      "id": 98,
+      "question": "2つの数の積は2436です。一方の数が58のとき、もう一方の数はいくつですか。",
+      "answer": "42",
+      "type": "puzzle",
+      "difficulty": "standard",
+      "hint": "2436÷58を計算しましょう。",
+      "explanation": "2436÷58=42です。"
+    },
+    {
+      "id": 99,
+      "question": "2つの数の積は3276です。一方の数が63のとき、もう一方の数はいくつですか。",
+      "answer": "52",
+      "type": "puzzle",
+      "difficulty": "standard",
+      "hint": "3276÷63を計算しましょう。",
+      "explanation": "3276÷63=52です。"
+    },
+    {
+      "id": 100,
+      "question": "2つの数の積は5040です。一方の数が72のとき、もう一方の数はいくつですか。",
+      "answer": "70",
+      "type": "puzzle",
+      "difficulty": "standard",
+      "hint": "5040÷72を計算しましょう。",
+      "explanation": "5040÷72=70です。"
+    }
+  ]
+}

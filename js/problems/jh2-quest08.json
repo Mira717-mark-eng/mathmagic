@@ -1,0 +1,1015 @@
+{
+  "questId": "jh2-quest08",
+  "title": "図形の証明(合同)",
+  "description": "合同の証明をマスター",
+  "difficulty": "advanced",
+  "grade": "中2",
+  "totalProblems": 100,
+  "problemTypes": {
+    "calculation": 10,
+    "wordProblem": 70,
+    "puzzle": 20
+  },
+  "problems": [
+    {
+      "id": 1,
+      "question": "三角形の合同条件を3つすべて答えなさい。",
+      "answer": "①3組の辺がそれぞれ等しい、②2組の辺とその間の角がそれぞれ等しい、③1組の辺とその両端の角がそれぞれ等しい",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "辺と角の組み合わせ",
+      "explanation": "3辺相等、2辺挟角相等、1辺両端角相等の3つです"
+    },
+    {
+      "id": 2,
+      "question": "△ABCと△DEFで、AB = DE、BC = EF、CA = FDのとき、△ABC ≡ △DEFといえますか。その理由も答えなさい。",
+      "answer": "はい、3組の辺がそれぞれ等しい",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "合同条件を確認",
+      "explanation": "3組の辺がそれぞれ等しいので、3辺相等により合同"
+    },
+    {
+      "id": 3,
+      "question": "△ABCと△DEFで、AB = DE、∠A = ∠D、AC = DFのとき、△ABC ≡ △DEFといえますか。その理由も答えなさい。",
+      "answer": "はい、2組の辺とその間の角がそれぞれ等しい",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "合同条件を確認",
+      "explanation": "2組の辺とその間の角がそれぞれ等しいので、2辺挟角相等により合同"
+    },
+    {
+      "id": 4,
+      "question": "△ABCと△DEFで、AB = DE、∠A = ∠D、∠B = ∠Eのとき、△ABC ≡ △DEFといえますか。その理由も答えなさい。",
+      "answer": "はい、1組の辺とその両端の角がそれぞれ等しい",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "合同条件を確認",
+      "explanation": "1組の辺とその両端の角がそれぞれ等しいので、1辺両端角相等により合同"
+    },
+    {
+      "id": 5,
+      "question": "△ABCと△DEFで、AB = DE、AC = DF、∠B = ∠Eのとき、△ABC ≡ △DEFといえますか。",
+      "answer": "いいえ",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "2辺と1角だが、角が辺の間にない",
+      "explanation": "2辺とその間でない角なので、合同条件を満たさない"
+    },
+    {
+      "id": 6,
+      "question": "△ABCと△DEFで、∠A = ∠D、∠B = ∠E、∠C = ∠Fのとき、△ABC ≡ △DEFといえますか。",
+      "answer": "いいえ",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "3組の角が等しいだけ",
+      "explanation": "角だけでは大きさが決まらないので、合同とは限らない"
+    },
+    {
+      "id": 7,
+      "question": "直角三角形の合同条件として、「斜辺と他の1辺がそれぞれ等しい」は使えますか。",
+      "answer": "はい",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "直角三角形の特殊な条件",
+      "explanation": "直角三角形では斜辺と他の1辺で合同が決まります"
+    },
+    {
+      "id": 8,
+      "question": "△ABCと△DEFで、AB = DE = 5cm、BC = EF = 7cm、CA = FD = 8cmのとき、∠A = ∠Dですか。",
+      "answer": "はい",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "合同な三角形の対応する角は等しい",
+      "explanation": "3辺相等で△ABC ≡ △DEFなので、∠A = ∠D"
+    },
+    {
+      "id": 9,
+      "question": "△ABCと△DEFが合同で、AB = 6cm、BC = 8cm、CA = 10cm、DE = 6cmのとき、EFとFDの長さを求めなさい。",
+      "answer": "EF = 8cm、FD = 10cm",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "対応する辺の長さは等しい",
+      "explanation": "AB = DE、BC = EF、CA = FDより、EF = 8cm、FD = 10cm"
+    },
+    {
+      "id": 10,
+      "question": "△ABCと△DEFが合同で、∠A = 50度、∠B = 70度、∠D = 50度のとき、∠Eと∠Fを求めなさい。",
+      "answer": "∠E = 70度、∠F = 60度",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "対応する角は等しい",
+      "explanation": "∠A = ∠D、∠B = ∠Eより、∠E = 70度。∠F = 180 - 50 - 70 = 60度"
+    },
+    {
+      "id": 11,
+      "question": "△ABCで、辺BCの中点をMとします。AM = BMを証明するための仮定として、AB = ACが必要ですか。",
+      "answer": "はい",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "二等辺三角形の性質",
+      "explanation": "二等辺三角形では頂角の二等分線が底辺の中点を通るため、AB = ACが必要"
+    },
+    {
+      "id": 12,
+      "question": "△ABCと△DEFで、AB = DE、∠A = ∠D、BC = EFのとき、△ABC ≡ △DEFを証明できますか。",
+      "answer": "いいえ",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "2辺とその間でない角",
+      "explanation": "2辺とその間でない角なので、合同条件を満たさない"
+    },
+    {
+      "id": 13,
+      "question": "△ABCで、AB = ACの二等辺三角形とします。頂角Aの二等分線と辺BCの交点をDとするとき、△ABD ≡ △ACDを証明しなさい。どの合同条件を使いますか。",
+      "answer": "2辺挟角相等",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "AB = AC、∠BAD = ∠CAD、ADは共通",
+      "explanation": "AB = AC、∠BAD = ∠CAD、ADは共通なので、2辺挟角相等"
+    },
+    {
+      "id": 14,
+      "question": "△ABCで、AB = ACの二等辺三角形とします。頂角Aの二等分線と辺BCの交点をDとするとき、BD = DCを証明するために、どの三角形の合同を示しますか。",
+      "answer": "△ABD ≡ △ACD",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "合同な三角形の対応する辺",
+      "explanation": "△ABD ≡ △ACDより、BD = DC"
+    },
+    {
+      "id": 15,
+      "question": "△ABCで、∠B = ∠Cのとき、AB = ACを証明するために、どのような補助線を引きますか。",
+      "answer": "頂角Aの二等分線",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "二等辺三角形の逆の証明",
+      "explanation": "頂角の二等分線を引いて合同を示します"
+    },
+    {
+      "id": 16,
+      "question": "四角形ABCDで、AB = DC、AD = BCのとき、△ABC ≡ △DCBを証明するために、どの辺が共通であることを使いますか。",
+      "answer": "BC",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "対角線ではなく辺",
+      "explanation": "辺BCは共通なので、3辺相等で証明できます"
+    },
+    {
+      "id": 17,
+      "question": "△ABCで、辺ABの中点をM、辺ACの中点をNとします。MNとBCが平行であることを証明するために、どのような補助線が必要ですか。",
+      "answer": "特に必要ない(中点連結定理)",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "中点連結定理の証明",
+      "explanation": "中点連結定理により、補助線なしで証明可能"
+    },
+    {
+      "id": 18,
+      "question": "△ABCで、∠A = 90度の直角三角形とします。辺BCの中点をMとするとき、AM = BM = CMを証明するために、どのような補助線を引きますか。",
+      "answer": "特に必要ない",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "直角三角形の外心",
+      "explanation": "直角三角形の外心は斜辺の中点なので、補助線は不要"
+    },
+    {
+      "id": 19,
+      "question": "平行四辺形ABCDで、対角線ACとBDの交点をOとします。△ABO ≡ △CDOを証明するために、どの合同条件を使いますか。",
+      "answer": "1辺両端角相等",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "AB = CD、∠BAO = ∠DCO、∠ABO = ∠CDO",
+      "explanation": "AB = CD、∠BAO = ∠DCO、∠ABO = ∠CDOより、1辺両端角相等"
+    },
+    {
+      "id": 20,
+      "question": "△ABCと△DEFで、AB = DE、AC = DF、∠B = ∠Eのとき、△ABC ≡ △DEFといえない理由を説明しなさい。",
+      "answer": "2辺とその間でない角だから",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "角が2辺の間にない",
+      "explanation": "∠Bは辺ABとACの間の角ではないので、合同条件を満たさない"
+    },
+    {
+      "id": 21,
+      "question": "△ABCで、AB = ACの二等辺三角形とします。∠Bと∠Cが等しいことを証明するために、頂角Aの二等分線と辺BCの交点をDとして、△ABD ≡ △ACDを示します。この証明で使う合同条件は何ですか。",
+      "answer": "2辺挟角相等",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "AB = AC、∠BAD = ∠CAD、ADは共通",
+      "explanation": "2組の辺とその間の角がそれぞれ等しいので、2辺挟角相等"
+    },
+    {
+      "id": 22,
+      "question": "△ABCと△DEFで、AB = DE、BC = EF、∠A = ∠Dのとき、△ABC ≡ △DEFといえますか。",
+      "answer": "いいえ",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "2辺とその間でない角",
+      "explanation": "∠Aは辺ABとBCの間の角ではないので、合同条件を満たさない"
+    },
+    {
+      "id": 23,
+      "question": "正方形ABCDで、対角線ACとBDの交点をOとします。△ABO ≡ △BCOを証明するために、どの合同条件を使いますか。",
+      "answer": "3辺相等",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "AB = BC、AO = CO、BO = DOだが、AO = BOではない",
+      "explanation": "正方形の性質より、AB = BC、AO = BO、BOは共通なので3辺相等は誤り。正しくは2辺挟角相等"
+    },
+    {
+      "id": 24,
+      "question": "△ABCで、辺BCの中点をM、辺ACの中点をNとします。BN = CMを証明するために、どの三角形の合同を示しますか。",
+      "answer": "△ABN ≡ △ACM",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "AB = AC、BN = CMを示すための三角形",
+      "explanation": "△ABN ≡ △ACMを示せば、BN = CM"
+    },
+    {
+      "id": 25,
+      "question": "△ABCで、AB = ACの二等辺三角形とします。辺BC上に点Dをとり、∠BAD = ∠CAEとなるように辺AC上に点Eをとります。AD = AEを証明するために、どの三角形の合同を示しますか。",
+      "answer": "△ABD ≡ △ACE",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "AB = AC、∠BAD = ∠CAE",
+      "explanation": "△ABD ≡ △ACEより、AD = AE"
+    },
+    {
+      "id": 26,
+      "question": "四角形ABCDで、AB = DC、AD = BCのとき、∠A = ∠Cを証明するために、どの三角形の合同を示しますか。",
+      "answer": "△ABC ≡ △CDA",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "対角線ACを使う",
+      "explanation": "△ABC ≡ △CDAより、∠BAC = ∠DCA、∠BCA = ∠DAC"
+    },
+    {
+      "id": 27,
+      "question": "△ABCで、∠B = 90度の直角三角形とします。斜辺ACの中点をMとするとき、AM = BM = CMを証明する最初のステップは何ですか。",
+      "answer": "補助線MBを引く",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "直角三角形の性質",
+      "explanation": "MBを引いて、直角三角形の外心の性質を使う"
+    },
+    {
+      "id": 28,
+      "question": "△ABCと△DEFで、∠A = ∠D = 90度、AB = DE、AC = DFのとき、△ABC ≡ △DEFを証明するために使う合同条件は何ですか。",
+      "answer": "2辺挟角相等",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "直角を挟む2辺",
+      "explanation": "2組の辺とその間の角(直角)がそれぞれ等しいので、2辺挟角相等"
+    },
+    {
+      "id": 29,
+      "question": "△ABCと△DEFで、∠A = ∠D = 90度、AB = DE、BC = EFのとき、△ABC ≡ △DEFを証明するために使う合同条件は何ですか。",
+      "answer": "斜辺と他の1辺",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "直角三角形の合同条件",
+      "explanation": "直角三角形で斜辺と他の1辺がそれぞれ等しいので合同"
+    },
+    {
+      "id": 30,
+      "question": "△ABCで、AB = ACの二等辺三角形とします。辺BCの中点をMとするとき、AM⊥BCを証明するために、どの三角形の合同を示しますか。",
+      "answer": "△ABM ≡ △ACM",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "3辺相等で合同を示す",
+      "explanation": "△ABM ≡ △ACMより、∠AMB = ∠AMC = 90度"
+    },
+    {
+      "id": 31,
+      "question": "平行四辺形ABCDで、∠A = ∠Cを証明するために、どの三角形の合同を示しますか。",
+      "answer": "△ABC ≡ △CDA",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "対角線ACを使う",
+      "explanation": "△ABC ≡ △CDAより、∠BAC = ∠DCA、∠BCA = ∠DAC"
+    },
+    {
+      "id": 32,
+      "question": "△ABCで、∠B = ∠Cのとき、AB = ACを証明するために引く補助線は何ですか。",
+      "answer": "頂角Aの二等分線",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "二等辺三角形の逆",
+      "explanation": "頂角の二等分線と辺BCの交点をDとして、△ABD ≡ △ACDを示す"
+    },
+    {
+      "id": 33,
+      "question": "正三角形ABCの各辺の中点をD、E、Fとするとき、△DEFも正三角形であることを証明するために、どの三角形の合同を示しますか。",
+      "answer": "△ADF ≡ △BED ≡ △CFE",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "3つの小さな三角形の合同",
+      "explanation": "3つの三角形が合同なので、DE = EF = FD"
+    },
+    {
+      "id": 34,
+      "question": "四角形ABCDで、AB∥DCのとき、△ABD ≡ △CDBを証明できますか。証明できない理由を説明しなさい。",
+      "answer": "いいえ、AB = DCとは限らないから",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "平行だけでは長さは決まらない",
+      "explanation": "平行だけでは辺の長さが等しいとは限らない"
+    },
+    {
+      "id": 35,
+      "question": "△ABCと△DEFで、AB = DE、∠B = ∠E、∠C = ∠Fのとき、△ABC ≡ △DEFを証明するために使う合同条件は何ですか。",
+      "answer": "1辺両端角相等",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "∠A = ∠Dも成り立つ",
+      "explanation": "1組の辺とその両端の角がそれぞれ等しいので、1辺両端角相等"
+    },
+    {
+      "id": 36,
+      "question": "△ABCで、AB = ACの二等辺三角形とします。点Dを辺BC上にとり、点Eを辺AC上に∠BAD = ∠CAEとなるようにとります。BD = CEを証明するために、どの三角形の合同を示しますか。",
+      "answer": "△ABD ≡ △ACE",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "AB = AC、∠BAD = ∠CAE",
+      "explanation": "△ABD ≡ △ACEより、BD = CE"
+    },
+    {
+      "id": 37,
+      "question": "四角形ABCDで、AB = DC、∠A = ∠C、AD = BCのとき、△ABD ≡ △CDBを証明するために使う合同条件は何ですか。",
+      "answer": "2辺挟角相等",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "AB = DC、∠A = ∠C、AD = BC",
+      "explanation": "AB = CD、AD = CB、∠A = ∠Cより、2辺挟角相等"
+    },
+    {
+      "id": 38,
+      "question": "△ABCで、辺AB、BC、CAの中点をそれぞれL、M、Nとするとき、△LMN ≡ △ABC/4を証明するために、中点連結定理以外に何を使いますか。",
+      "answer": "相似の性質",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "面積比は相似比の2乗",
+      "explanation": "中点連結により相似比1:2なので、面積比は1:4"
+    },
+    {
+      "id": 39,
+      "question": "△ABCと△DEFで、AB = EF、BC = FD、CA = DEのとき、△ABC ≡ △EFDを証明するために使う合同条件は何ですか。",
+      "answer": "3辺相等",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "対応する辺を正しく並べる",
+      "explanation": "AB = EF、BC = FD、CA = DEより、3辺相等"
+    },
+    {
+      "id": 40,
+      "question": "正方形ABCDの辺AB、BC、CD、DAの中点をそれぞれE、F、G、Hとするとき、四角形EFGHも正方形であることを証明する最初のステップは何ですか。",
+      "answer": "△AEH ≡ △BFE ≡ △CGF ≡ △DHGを示す",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "4つの三角形の合同",
+      "explanation": "4つの三角形が合同なので、EF = FG = GH = HE"
+    },
+    {
+      "id": 41,
+      "question": "△ABCで、∠A = 90度、AB = ACの直角二等辺三角形とします。辺BCの中点をMとするとき、AM = BM = CMを証明するために、どのような補助線を引きますか。",
+      "answer": "特に必要ない",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "直角三角形の外心",
+      "explanation": "直角三角形の外心は斜辺の中点なので、AM = BM = CM"
+    },
+    {
+      "id": 42,
+      "question": "△ABCと△DEFで、AB = DE、∠A = ∠D、∠C = ∠Fのとき、△ABC ≡ △DEFを証明するために使う合同条件は何ですか。",
+      "answer": "1辺両端角相等",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "∠B = ∠Eも成り立つ",
+      "explanation": "∠B = 180 - ∠A - ∠C = 180 - ∠D - ∠F = ∠Eより、1辺両端角相等"
+    },
+    {
+      "id": 43,
+      "question": "平行四辺形ABCDで、対角線ACとBDの交点をOとします。AO = CO、BO = DOを証明するために、どの三角形の合同を示しますか。",
+      "answer": "△AOB ≡ △COD",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "1辺両端角相等",
+      "explanation": "AB = CD、∠OAB = ∠OCD、∠OBA = ∠ODCより、△AOB ≡ △COD"
+    },
+    {
+      "id": 44,
+      "question": "△ABCで、辺BCの中点をMとします。AB = AC、AM⊥BCのとき、∠B = ∠Cを証明するために、どの三角形の合同を示しますか。",
+      "answer": "△ABM ≡ △ACM",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "直角を含む合同",
+      "explanation": "AB = AC、AM共通、∠AMB = ∠AMC = 90度より、△ABM ≡ △ACM"
+    },
+    {
+      "id": 45,
+      "question": "四角形ABCDで、AB = DC、AD = BC、∠A = ∠Cのとき、この四角形は平行四辺形であることを証明するために、どの三角形の合同を示しますか。",
+      "answer": "△ABC ≡ △CDA",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "対角線ACを使う",
+      "explanation": "△ABC ≡ △CDAより、∠BAC = ∠DCA、AB∥DC"
+    },
+    {
+      "id": 46,
+      "question": "△ABCで、AB > ACのとき、∠C > ∠Bであることを証明するために、辺AB上に点Dをとり、AD = ACとします。この後、どのような角度の関係を示しますか。",
+      "answer": "∠ACD = ∠ADC、∠BDC > ∠B",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "二等辺三角形と外角の性質",
+      "explanation": "△ACDで∠ACD = ∠ADC、∠ADCは△BDCの外角なので∠ADC > ∠B"
+    },
+    {
+      "id": 47,
+      "question": "△ABCと△DEFで、AB = DE、AC = DF、BC = EFのとき、△ABC ≡ △DEFを証明するために使う合同条件は何ですか。",
+      "answer": "3辺相等",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "3組の辺が等しい",
+      "explanation": "3組の辺がそれぞれ等しいので、3辺相等"
+    },
+    {
+      "id": 48,
+      "question": "△ABCで、∠B = ∠Cのとき、AB = ACを証明するために、頂角Aの二等分線と辺BCの交点をDとします。この後、どの三角形の合同を示しますか。",
+      "answer": "△ABD ≡ △ACD",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "1辺両端角相等",
+      "explanation": "AD共通、∠BAD = ∠CAD、∠B = ∠Cより、△ABD ≡ △ACD"
+    },
+    {
+      "id": 49,
+      "question": "四角形ABCDで、AB∥DC、AB = DCのとき、△ABC ≡ △DCBを証明するために使う合同条件は何ですか。",
+      "answer": "1辺両端角相等",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "BC共通、平行線の錯角",
+      "explanation": "AB = DC、BC共通、∠ABC = ∠DCB(錯角)より、1辺両端角相等は誤り。正しくは2辺挟角相等"
+    },
+    {
+      "id": 50,
+      "question": "△ABCで、AB = ACの二等辺三角形とします。辺BC上に点Pをとり、辺AC上に点Qを∠BAP = ∠CAQとなるようにとります。AP = AQを証明するために、どの三角形の合同を示しますか。",
+      "answer": "△ABP ≡ △ACQ",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "2辺挟角相等",
+      "explanation": "AB = AC、∠BAP = ∠CAQ、∠B = ∠Cより、△ABP ≡ △ACQ"
+    },
+    {
+      "id": 51,
+      "question": "正方形ABCDで、辺AB、BC上にそれぞれ点E、Fをとり、AE = BFとします。DE = CFを証明するために、どの三角形の合同を示しますか。",
+      "answer": "△AED ≡ △BFC",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "直角を挟む2辺",
+      "explanation": "AE = BF、AD = BC、∠A = ∠B = 90度より、△AED ≡ △BFC"
+    },
+    {
+      "id": 52,
+      "question": "△ABCと△DEFで、∠A = ∠D = 90度、AB = DE、∠B = ∠Eのとき、△ABC ≡ △DEFを証明するために使う合同条件は何ですか。",
+      "answer": "1辺両端角相等",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "直角と鋭角を含む",
+      "explanation": "1組の辺とその両端の角がそれぞれ等しいので、1辺両端角相等"
+    },
+    {
+      "id": 53,
+      "question": "△ABCで、辺AB、ACの中点をそれぞれD、Eとします。DE∥BC、DE = BC/2を証明するために、どのような補助線を引きますか。",
+      "answer": "AからBCに平行な直線を引く",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "中点連結定理の証明",
+      "explanation": "補助線を引いて平行四辺形を作る"
+    },
+    {
+      "id": 54,
+      "question": "四角形ABCDで、∠A = ∠C = 90度、AB = CDのとき、AD = BCを証明するために、どの三角形の合同を示しますか。",
+      "answer": "△ABD ≡ △CDB",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "直角を挟む辺と斜辺",
+      "explanation": "∠A = ∠C = 90度、AB = CD、BD共通より、△ABD ≡ △CDB"
+    },
+    {
+      "id": 55,
+      "question": "△ABCで、∠A = 60度、AB = ACの二等辺三角形とします。この三角形は正三角形であることを証明するために、∠B、∠Cを求めなさい。",
+      "answer": "∠B = ∠C = 60度",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "二等辺三角形の底角",
+      "explanation": "∠B = ∠C = (180 - 60) ÷ 2 = 60度なので、正三角形"
+    },
+    {
+      "id": 56,
+      "question": "平行四辺形ABCDで、∠A = 90度のとき、この四角形は長方形であることを証明するために、他の角度を求めなさい。",
+      "answer": "∠B = ∠C = ∠D = 90度",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "平行四辺形の対角、隣り合う角",
+      "explanation": "∠C = ∠A = 90度(対角)、∠B = ∠D = 90度(隣り合う角の和が180度)"
+    },
+    {
+      "id": 57,
+      "question": "△ABCと△DEFで、AB = DF、BC = DE、CA = EFのとき、△ABC ≡ △FDEを証明するために使う合同条件は何ですか。",
+      "answer": "3辺相等",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "対応する辺を正しく並べる",
+      "explanation": "AB = DF、BC = DE、CA = EFより、△ABC ≡ △FDEは誤り。正しい対応を確認"
+    },
+    {
+      "id": 58,
+      "question": "△ABCで、AB = ACの二等辺三角形とします。辺BCの延長線上に点Dをとり、CD = CAとなるようにします。∠BAD = ∠DACを証明するために、どの三角形の合同を示しますか。",
+      "answer": "△ABC ≡ △ADC",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "AC共通",
+      "explanation": "AB = AD、AC共通、BC = DCより、△ABC ≡ △ADCは誤り。正しい証明を確認"
+    },
+    {
+      "id": 59,
+      "question": "四角形ABCDで、対角線ACとBDが交点Oで直交し、AO = CO、BO = DOのとき、この四角形はひし形であることを証明するために、どの三角形の合同を示しますか。",
+      "answer": "△AOB ≡ △COB ≡ △COD ≡ △AOD",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "4つの直角三角形の合同",
+      "explanation": "4つの三角形が合同なので、AB = BC = CD = DA"
+    },
+    {
+      "id": 60,
+      "question": "△ABCで、∠A = 90度の直角三角形とします。辺BCの中点をMとし、AMを延長した直線と、点Bを通りACに平行な直線の交点をDとします。AB = MDを証明するために、どの三角形の合同を示しますか。",
+      "answer": "△ABM ≡ △DMC",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "錯角を使う",
+      "explanation": "BM = MC、∠AMB = ∠DMC(対頂角)、∠BAM = ∠CDM(錯角)より、△ABM ≡ △DMC"
+    },
+    {
+      "id": 61,
+      "question": "合同な図形では、対応する辺の長さと対応する角の大きさがそれぞれ等しい。この性質を何といいますか。",
+      "answer": "合同な図形の性質",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "基本性質",
+      "explanation": "合同な図形の基本的な性質です"
+    },
+    {
+      "id": 62,
+      "question": "△ABCと△DEFが合同で、△ABC ≡ △DEFと表すとき、対応する頂点を正しく書きなさい。",
+      "answer": "A⇔D、B⇔E、C⇔F",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "記号の順序",
+      "explanation": "合同記号の左右で同じ位置の頂点が対応します"
+    },
+    {
+      "id": 63,
+      "question": "△ABCで、AB = AC、∠B = ∠Cのとき、この三角形を何といいますか。",
+      "answer": "二等辺三角形",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "2つの辺が等しい",
+      "explanation": "2つの辺が等しい三角形を二等辺三角形といいます"
+    },
+    {
+      "id": 64,
+      "question": "二等辺三角形で、等しい2つの角を何といいますか。",
+      "answer": "底角",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "二等辺三角形の性質",
+      "explanation": "等しい2つの角を底角といいます"
+    },
+    {
+      "id": 65,
+      "question": "二等辺三角形の2つの底角の和が100度のとき、頂角は何度ですか。",
+      "answer": "80度",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "内角の和は180度",
+      "explanation": "180 - 100 = 80度"
+    },
+    {
+      "id": 66,
+      "question": "△ABCと△DEFで、AB = DE、BC = EF、CA = FDのとき、∠A = ∠Dといえる理由を答えなさい。",
+      "answer": "3辺相等で合同だから",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "合同な三角形の性質",
+      "explanation": "3辺相等で△ABC ≡ △DEFなので、対応する角は等しい"
+    },
+    {
+      "id": 67,
+      "question": "△ABCで、∠B = ∠C = 70度のとき、この三角形は二等辺三角形ですか。",
+      "answer": "はい",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "二等辺三角形の逆",
+      "explanation": "2つの角が等しいので、AB = ACの二等辺三角形"
+    },
+    {
+      "id": 68,
+      "question": "正三角形は二等辺三角形ですか。",
+      "answer": "はい",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "3辺が等しい",
+      "explanation": "3辺が等しいので、2辺も等しい二等辺三角形です"
+    },
+    {
+      "id": 69,
+      "question": "直角三角形で、2つの鋭角の和は何度ですか。",
+      "answer": "90度",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "内角の和は180度",
+      "explanation": "180 - 90 = 90度"
+    },
+    {
+      "id": 70,
+      "question": "△ABCと△DEFで、AB = DE、∠A = ∠D、AC = DFのとき、BC = EFといえますか。",
+      "answer": "はい",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "2辺挟角相等で合同",
+      "explanation": "2辺挟角相等で△ABC ≡ △DEFなので、BC = EF"
+    },
+    {
+      "id": 71,
+      "question": "△ABCで、AB = 5cm、BC = 7cm、CA = 8cm、△DEFで、DE = 5cm、EF = 7cm、FD = 8cmのとき、△ABC ≡ △DEFですか。",
+      "answer": "はい",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "3辺相等",
+      "explanation": "3組の辺がそれぞれ等しいので合同"
+    },
+    {
+      "id": 72,
+      "question": "二等辺三角形の頂角の二等分線は、底辺とどのような関係にありますか。",
+      "answer": "垂直で中点を通る",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "二等辺三角形の性質",
+      "explanation": "頂角の二等分線は底辺に垂直で、底辺の中点を通ります"
+    },
+    {
+      "id": 73,
+      "question": "△ABCで、∠A = 90度、AB = ACのとき、∠B = ∠Cは何度ですか。",
+      "answer": "45度",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "直角二等辺三角形",
+      "explanation": "(180 - 90) ÷ 2 = 45度"
+    },
+    {
+      "id": 74,
+      "question": "△ABCと△DEFが合同で、AB = 6cm、DE = 6cm、BC = 8cmのとき、EFは何cmですか。",
+      "answer": "8cm",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "対応する辺は等しい",
+      "explanation": "AB = DEなので、BCとEFが対応し、EF = 8cm"
+    },
+    {
+      "id": 75,
+      "question": "平行四辺形は、対角線がそれぞれの中点で交わります。この性質を使って、△AOB ≡ △CODを証明できますか。(O:対角線の交点)",
+      "answer": "はい",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "1辺両端角相等",
+      "explanation": "AB = CD、∠OAB = ∠OCD、∠OBA = ∠ODCより合同"
+    },
+    {
+      "id": 76,
+      "question": "△ABCで、AB > ACのとき、∠C > ∠Bといえますか。",
+      "answer": "はい",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "三角形の辺と角の関係",
+      "explanation": "長い辺の対角の方が大きいので、∠C > ∠B"
+    },
+    {
+      "id": 77,
+      "question": "△ABCで、∠A > ∠Bのとき、BC > ACといえますか。",
+      "answer": "はい",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "三角形の辺と角の関係",
+      "explanation": "大きい角の対辺の方が長いので、BC > AC"
+    },
+    {
+      "id": 78,
+      "question": "三角形の2辺の長さが3cm、7cmのとき、残りの1辺の長さの範囲を求めなさい。",
+      "answer": "4cm < x < 10cm",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "三角形の成立条件",
+      "explanation": "7 - 3 < x < 7 + 3より、4 < x < 10"
+    },
+    {
+      "id": 79,
+      "question": "正方形は長方形ですか。",
+      "answer": "はい",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "4つの角が直角",
+      "explanation": "4つの角が直角なので、長方形です"
+    },
+    {
+      "id": 80,
+      "question": "正方形はひし形ですか。",
+      "answer": "はい",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "4つの辺が等しい",
+      "explanation": "4つの辺が等しいので、ひし形です"
+    },
+    {
+      "id": 81,
+      "question": "ひし形は平行四辺形ですか。",
+      "answer": "はい",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "対辺が平行",
+      "explanation": "対辺が平行なので、平行四辺形です"
+    },
+    {
+      "id": 82,
+      "question": "長方形はひし形ですか。",
+      "answer": "いいえ",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "4つの辺が等しいとは限らない",
+      "explanation": "4つの辺が等しいとは限らないので、ひし形とは限りません"
+    },
+    {
+      "id": 83,
+      "question": "平行四辺形で、1つの角が90度のとき、この平行四辺形は長方形ですか。",
+      "answer": "はい",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "平行四辺形の性質",
+      "explanation": "隣り合う角の和が180度なので、すべての角が90度になり長方形"
+    },
+    {
+      "id": 84,
+      "question": "平行四辺形で、対角線が等しいとき、この平行四辺形は長方形ですか。",
+      "answer": "はい",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "長方形の条件",
+      "explanation": "対角線が等しい平行四辺形は長方形です"
+    },
+    {
+      "id": 85,
+      "question": "平行四辺形で、対角線が直交するとき、この平行四辺形はひし形ですか。",
+      "answer": "はい",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "ひし形の条件",
+      "explanation": "対角線が直交する平行四辺形はひし形です"
+    },
+    {
+      "id": 86,
+      "question": "△ABCで、∠A = 60度、∠B = 60度のとき、∠Cは何度ですか。またこの三角形は何三角形ですか。",
+      "answer": "60度、正三角形",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "3つの角が等しい",
+      "explanation": "∠C = 180 - 60 - 60 = 60度。3つの角が等しいので正三角形"
+    },
+    {
+      "id": 87,
+      "question": "△ABCと△DEFで、AB = DF、BC = DE、∠B = ∠Dのとき、△ABC ≡ △FDEを証明するために使う合同条件は何ですか。",
+      "answer": "2辺挟角相等",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "対応を確認",
+      "explanation": "AB = DF、BC = DE、∠B = ∠Dより、2辺挟角相等"
+    },
+    {
+      "id": 88,
+      "question": "直角三角形で、斜辺の長さが10cm、1つの鋭角が30度のとき、30度の角に対する辺の長さは何cmですか。",
+      "answer": "5cm",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "30度の角に対する辺は斜辺の半分",
+      "explanation": "30度の角に対する辺 = 10 ÷ 2 = 5cm"
+    },
+    {
+      "id": 89,
+      "question": "△ABCで、AB = 5cm、AC = 7cmのとき、BCの長さの範囲を求めなさい。",
+      "answer": "2cm < BC < 12cm",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "三角形の成立条件",
+      "explanation": "7 - 5 < BC < 7 + 5より、2 < BC < 12"
+    },
+    {
+      "id": 90,
+      "question": "二等辺三角形の頂角が100度のとき、底角は何度ですか。",
+      "answer": "40度",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "底角は等しい",
+      "explanation": "(180 - 100) ÷ 2 = 40度"
+    },
+    {
+      "id": 91,
+      "question": "△ABCで、∠A:∠B:∠C = 1:2:3のとき、最大の角は何度ですか。",
+      "answer": "90度",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "1 + 2 + 3 = 6で180度を分ける",
+      "explanation": "180 × 3/6 = 90度"
+    },
+    {
+      "id": 92,
+      "question": "三角形の外角は、それと隣り合わない2つの内角の和に等しい。△ABCで、∠A = 50度、∠B = 70度のとき、∠Cの外角は何度ですか。",
+      "answer": "120度",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "外角の性質",
+      "explanation": "50 + 70 = 120度"
+    },
+    {
+      "id": 93,
+      "question": "正三角形の1つの外角は何度ですか。",
+      "answer": "120度",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "内角60度の外角",
+      "explanation": "180 - 60 = 120度"
+    },
+    {
+      "id": 94,
+      "question": "△ABCで、AB = AC、∠A = 40度のとき、∠Bは何度ですか。",
+      "answer": "70度",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "二等辺三角形",
+      "explanation": "(180 - 40) ÷ 2 = 70度"
+    },
+    {
+      "id": 95,
+      "question": "△ABCと△DEFが合同で、∠A = 65度、∠D = 65度、∠B = 45度のとき、∠Fは何度ですか。",
+      "answer": "70度",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "合同な三角形の対応する角",
+      "explanation": "∠C = 180 - 65 - 45 = 70度。∠A = ∠Dなので、∠C = ∠F = 70度"
+    },
+    {
+      "id": 96,
+      "question": "直角三角形の1つの鋭角が35度のとき、もう1つの鋭角は何度ですか。",
+      "answer": "55度",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "2つの鋭角の和は90度",
+      "explanation": "90 - 35 = 55度"
+    },
+    {
+      "id": 97,
+      "question": "二等辺三角形の底角が55度のとき、頂角は何度ですか。",
+      "answer": "70度",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "内角の和は180度",
+      "explanation": "180 - 55 × 2 = 70度"
+    },
+    {
+      "id": 98,
+      "question": "△ABCで、∠A = 90度、∠B = 30度のとき、∠Cは何度ですか。",
+      "answer": "60度",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "内角の和は180度",
+      "explanation": "180 - 90 - 30 = 60度"
+    },
+    {
+      "id": 99,
+      "question": "三角形の3つの角の比が2:3:4のとき、最小の角は何度ですか。",
+      "answer": "40度",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "2 + 3 + 4 = 9で180度を分ける",
+      "explanation": "180 × 2/9 = 40度"
+    },
+    {
+      "id": 100,
+      "question": "△ABCで、AB = 8cm、BC = 6cm、CA = 10cmのとき、最も大きい角はどれですか。",
+      "answer": "∠B",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "最も長い辺の対角",
+      "explanation": "最も長い辺CAの対角∠Bが最も大きい"
+    }
+  ]
+}

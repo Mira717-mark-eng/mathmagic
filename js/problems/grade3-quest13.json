@@ -1,0 +1,549 @@
+{
+  "questId": "grade3-quest13",
+  "questName": "ぼうグラフ",
+  "grade": "小3",
+  "unitId": "elem3_bar_graphs",
+  "totalProblems": 60,
+  "problems": [
+    {
+      "id": 1,
+      "question": "棒グラフで、たてじくに「人数（人）」、よこじくに「曜日」と書いてあります。このグラフは何を表していますか。",
+      "answer": "曜日ごとの人数",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "グラフのめもりと棒の高さから数を読み取りましょう。",
+      "explanation": "よこじくの曜日ごとに、たてじくの人数を表しています。"
+    },
+    {
+      "id": 2,
+      "question": "棒グラフで、月曜日の棒の高さが20のめもりまであります。月曜日の人数は何人ですか。",
+      "answer": "20人",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "グラフのめもりと棒の高さから数を読み取りましょう。",
+      "explanation": "棒の高さが20なので、20人です。"
+    },
+    {
+      "id": 3,
+      "question": "棒グラフで、火曜日の棒の高さが30、水曜日の棒の高さが20です。どちらが何人多いですか。",
+      "answer": "火曜日が10人多い",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "グラフのめもりと棒の高さから数を読み取りましょう。",
+      "explanation": "30人 - 20人 = 10人多いです。"
+    },
+    {
+      "id": 4,
+      "question": "棒グラフで、1めもりが5を表しています。棒の高さが4めもりのときの数はいくつですか。",
+      "answer": "20",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "グラフのめもりと棒の高さから数を読み取りましょう。",
+      "explanation": "5 × 4 = 20です。"
+    },
+    {
+      "id": 5,
+      "question": "棒グラフで、1めもりが2を表しています。棒の高さが6めもりのときの数はいくつですか。",
+      "answer": "12",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "グラフのめもりと棒の高さから数を読み取りましょう。",
+      "explanation": "2 × 6 = 12です。"
+    },
+    {
+      "id": 6,
+      "question": "棒グラフで、1めもりが10を表しています。80を表すには何めもり必要ですか。",
+      "answer": "8めもり",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "グラフのめもりと棒の高さから数を読み取りましょう。",
+      "explanation": "80 ÷ 10 = 8めもりです。"
+    },
+    {
+      "id": 7,
+      "question": "棒グラフで、月曜日が25人、火曜日が30人、水曜日が20人でした。全部で何人ですか。",
+      "answer": "75人",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "グラフのめもりと棒の高さから数を読み取りましょう。",
+      "explanation": "25 + 30 + 20 = 75人です。"
+    },
+    {
+      "id": 8,
+      "question": "棒グラフで、一番高い棒は40、一番低い棒は15です。差は何ですか。",
+      "answer": "25",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "グラフのめもりと棒の高さから数を読み取りましょう。",
+      "explanation": "40 - 15 = 25です。"
+    },
+    {
+      "id": 9,
+      "question": "棒グラフで、りんごが30個、みかんが20個です。りんごはみかんの何倍ですか。",
+      "answer": "1.5倍",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "グラフのめもりと棒の高さから数を読み取りましょう。",
+      "explanation": "30 ÷ 20 = 1.5倍です。"
+    },
+    {
+      "id": 10,
+      "question": "棒グラフで、A組が25人、B組が30人、C組が25人です。平均は何人ですか。",
+      "answer": "約27人",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "グラフのめもりと棒の高さから数を読み取りましょう。",
+      "explanation": "(25 + 30 + 25) ÷ 3 ≒ 27人です。"
+    },
+    {
+      "id": 11,
+      "question": "棒グラフで、1めもりが5を表しています。35を表すには何めもり必要ですか。",
+      "answer": "7めもり",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "グラフのめもりと棒の高さから数を読み取りましょう。",
+      "explanation": "35 ÷ 5 = 7めもりです。"
+    },
+    {
+      "id": 12,
+      "question": "棒グラフで、赤が20、青が35、黄色が25です。一番多いのは何ですか。",
+      "answer": "青",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "グラフのめもりと棒の高さから数を読み取りましょう。",
+      "explanation": "35が一番多いです。"
+    },
+    {
+      "id": 13,
+      "question": "棒グラフで、1めもりが10を表しています。3めもりの数はいくつですか。",
+      "answer": "30",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "グラフのめもりと棒の高さから数を読み取りましょう。",
+      "explanation": "10 × 3 = 30です。"
+    },
+    {
+      "id": 14,
+      "question": "棒グラフで、月曜日が18人、火曜日が24人です。火曜日は月曜日より何人多いですか。",
+      "answer": "6人",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "グラフのめもりと棒の高さから数を読み取りましょう。",
+      "explanation": "24 - 18 = 6人です。"
+    },
+    {
+      "id": 15,
+      "question": "棒グラフで、1めもりが2を表しています。棒の高さが10めもりのときの数はいくつですか。",
+      "answer": "20",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "グラフのめもりと棒の高さから数を読み取りましょう。",
+      "explanation": "2 × 10 = 20です。"
+    },
+    {
+      "id": 16,
+      "question": "棒グラフで、A が30、Bが40、Cが50です。Aは何が一番少ないですか。",
+      "answer": "A",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "グラフのめもりと棒の高さから数を読み取りましょう。",
+      "explanation": "30が一番少ないです。"
+    },
+    {
+      "id": 17,
+      "question": "棒グラフで、1めもりが5を表しています。棒の高さが9めもりのときの数はいくつですか。",
+      "answer": "45",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "グラフのめもりと棒の高さから数を読み取りましょう。",
+      "explanation": "5 × 9 = 45です。"
+    },
+    {
+      "id": 18,
+      "question": "棒グラフで、赤が25、青が20、黄色が35です。黄色は赤より何多いですか。",
+      "answer": "10",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "グラフのめもりと棒の高さから数を読み取りましょう。",
+      "explanation": "35 - 25 = 10です。"
+    },
+    {
+      "id": 19,
+      "question": "棒グラフで、月曜日が15人、火曜日が20人、水曜日が25人です。3日間で何人ですか。",
+      "answer": "60人",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "グラフのめもりと棒の高さから数を読み取りましょう。",
+      "explanation": "15 + 20 + 25 = 60人です。"
+    },
+    {
+      "id": 20,
+      "question": "棒グラフで、1めもりが10を表しています。棒の高さが5めもりのときの数はいくつですか。",
+      "answer": "50",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "グラフのめもりと棒の高さから数を読み取りましょう。",
+      "explanation": "10 × 5 = 50です。"
+    },
+    {
+      "id": 21,
+      "question": "3年1組の好きな果物を調べて棒グラフにしました。りんごが8人、みかんが12人、バナナが10人でした。一番人気があるのは何ですか。",
+      "answer": "みかん",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "グラフから数を読み取って計算しましょう。",
+      "explanation": "12人で一番多いのはみかんです。"
+    },
+    {
+      "id": 22,
+      "question": "図書館で借りた本の冊数を曜日ごとに棒グラフにしました。月曜日が20冊、火曜日が30冊、水曜日が25冊でした。一番多い曜日はいつですか。",
+      "answer": "火曜日",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "グラフから数を読み取って計算しましょう。",
+      "explanation": "30冊で一番多いのは火曜日です。"
+    },
+    {
+      "id": 23,
+      "question": "クラスで飼っている動物を調べて棒グラフにしました。犬が15人、猫が20人、ウサギが10人でした。犬と猫を飼っている人は合わせて何人ですか。",
+      "answer": "35人",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "グラフから数を読み取って計算しましょう。",
+      "explanation": "15 + 20 = 35人です。"
+    },
+    {
+      "id": 24,
+      "question": "公園に来た人の数を時間帯ごとに棒グラフにしました。午前が30人、午後が45人、夕方が25人でした。一日で何人来ましたか。",
+      "answer": "100人",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "グラフから数を読み取って計算しましょう。",
+      "explanation": "30 + 45 + 25 = 100人です。"
+    },
+    {
+      "id": 25,
+      "question": "売れたアイスクリームの個数を棒グラフにしました。バニラが40個、チョコが35個、ストロベリーが25個でした。バニラはストロベリーより何個多いですか。",
+      "answer": "15個",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "グラフから数を読み取って計算しましょう。",
+      "explanation": "40 - 25 = 15個です。"
+    },
+    {
+      "id": 26,
+      "question": "学年ごとの児童数を棒グラフにしました。1年生が80人、2年生が85人、3年生が90人でした。全部で何人ですか。",
+      "answer": "255人",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "グラフから数を読み取って計算しましょう。",
+      "explanation": "80 + 85 + 90 = 255人です。"
+    },
+    {
+      "id": 27,
+      "question": "野菜の収穫量を棒グラフにしました。トマトが120個、キュウリが90個、ナスが110個でした。一番多く収穫できたのは何ですか。",
+      "answer": "トマト",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "グラフから数を読み取って計算しましょう。",
+      "explanation": "120個で一番多いのはトマトです。"
+    },
+    {
+      "id": 28,
+      "question": "月ごとの降水量を棒グラフにしました。6月が200mm、7月が150mm、8月が180mmでした。一番雨が多かった月はいつですか。",
+      "answer": "6月",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "グラフから数を読み取って計算しましょう。",
+      "explanation": "200mmで一番多いのは6月です。"
+    },
+    {
+      "id": 29,
+      "question": "好きなスポーツを調べて棒グラフにしました。サッカーが25人、野球が20人、バスケットボールが15人でした。サッカーと野球を合わせて何人ですか。",
+      "answer": "45人",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "グラフから数を読み取って計算しましょう。",
+      "explanation": "25 + 20 = 45人です。"
+    },
+    {
+      "id": 30,
+      "question": "曜日ごとの来店者数を棒グラフにしました。土曜日が100人、日曜日が120人でした。日曜日は土曜日より何人多いですか。",
+      "answer": "20人",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "グラフから数を読み取って計算しましょう。",
+      "explanation": "120 - 100 = 20人です。"
+    },
+    {
+      "id": 31,
+      "question": "クラスの出席人数を棒グラフにしました。月曜日が32人、火曜日が30人、水曜日が31人でした。3日間で何人出席しましたか。",
+      "answer": "93人",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "グラフから数を読み取って計算しましょう。",
+      "explanation": "32 + 30 + 31 = 93人です。"
+    },
+    {
+      "id": 32,
+      "question": "売れた飲み物の本数を棒グラフにしました。お茶が50本、ジュースが45本、水が40本でした。一番売れたのは何ですか。",
+      "answer": "お茶",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "グラフから数を読み取って計算しましょう。",
+      "explanation": "50本で一番多いのはお茶です。"
+    },
+    {
+      "id": 33,
+      "question": "月ごとの気温を棒グラフにしました。1月が5度、2月が7度、3月が12度でした。一番気温が高い月はいつですか。",
+      "answer": "3月",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "グラフから数を読み取って計算しましょう。",
+      "explanation": "12度で一番高いのは3月です。"
+    },
+    {
+      "id": 34,
+      "question": "好きな色を調べて棒グラフにしました。赤が18人、青が22人、黄色が15人でした。青と黄色の差は何人ですか。",
+      "answer": "7人",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "グラフから数を読み取って計算しましょう。",
+      "explanation": "22 - 15 = 7人です。"
+    },
+    {
+      "id": 35,
+      "question": "1週間の読書時間を棒グラフにしました。平日が合計250分、週末が合計180分でした。1週間で何分読書しましたか。",
+      "answer": "430分",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "グラフから数を読み取って計算しましょう。",
+      "explanation": "250 + 180 = 430分です。"
+    },
+    {
+      "id": 36,
+      "question": "季節ごとの花の種類を棒グラフにしました。春が15種類、夏が12種類、秋が10種類、冬が8種類でした。一番多い季節はいつですか。",
+      "answer": "春",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "グラフから数を読み取って計算しましょう。",
+      "explanation": "15種類で一番多いのは春です。"
+    },
+    {
+      "id": 37,
+      "question": "学校の図書館で借りられた本のジャンルを棒グラフにしました。物語が60冊、図鑑が40冊、まんがが50冊でした。全部で何冊借りられましたか。",
+      "answer": "150冊",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "グラフから数を読み取って計算しましょう。",
+      "explanation": "60 + 40 + 50 = 150冊です。"
+    },
+    {
+      "id": 38,
+      "question": "毎日の歩数を棒グラフにしました。月曜日が8000歩、火曜日が9000歩、水曜日が7000歩でした。一番多い日は何歩ですか。",
+      "answer": "9000歩",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "グラフから数を読み取って計算しましょう。",
+      "explanation": "9000歩で一番多いのは火曜日です。"
+    },
+    {
+      "id": 39,
+      "question": "売れたパンの個数を棒グラフにしました。メロンパンが35個、あんパンが30個、クリームパンが25個でした。メロンパンはクリームパンより何個多いですか。",
+      "answer": "10個",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "グラフから数を読み取って計算しましょう。",
+      "explanation": "35 - 25 = 10個です。"
+    },
+    {
+      "id": 40,
+      "question": "月ごとの電気使用量を棒グラフにしました。1月が200kWh、2月が180kWh、3月が150kWhでした。1月は3月より何kWh多いですか。",
+      "answer": "50kWh",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "グラフから数を読み取って計算しましょう。",
+      "explanation": "200 - 150 = 50kWhです。"
+    },
+    {
+      "id": 41,
+      "question": "好きな給食のメニューを調べて棒グラフにしました。カレーが28人、ラーメンが22人、ハンバーグが25人でした。一番人気があるのは何ですか。",
+      "answer": "カレー",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "グラフから数を読み取って計算しましょう。",
+      "explanation": "28人で一番多いのはカレーです。"
+    },
+    {
+      "id": 42,
+      "question": "クラスの誕生月を調べて棒グラフにしました。4月が5人、5月が7人、6月が4人でした。3か月で何人ですか。",
+      "answer": "16人",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "グラフから数を読み取って計算しましょう。",
+      "explanation": "5 + 7 + 4 = 16人です。"
+    },
+    {
+      "id": 43,
+      "question": "1週間の気温を棒グラフにしました。一番高い日が28度、一番低い日が18度でした。差は何度ですか。",
+      "answer": "10度",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "グラフから数を読み取って計算しましょう。",
+      "explanation": "28 - 18 = 10度です。"
+    },
+    {
+      "id": 44,
+      "question": "売れたお菓子の個数を棒グラフにしました。チョコレートが40個、クッキーが35個、キャンディーが45個でした。全部で何個売れましたか。",
+      "answer": "120個",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "グラフから数を読み取って計算しましょう。",
+      "explanation": "40 + 35 + 45 = 120個です。"
+    },
+    {
+      "id": 45,
+      "question": "公園の遊具で遊んだ人数を棒グラフにしました。ブランコが15人、すべり台が20人、シーソーが10人でした。すべり台はシーソーの何倍ですか。",
+      "answer": "2倍",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "グラフから数を読み取って計算しましょう。",
+      "explanation": "20 ÷ 10 = 2倍です。"
+    },
+    {
+      "id": 46,
+      "question": "棒グラフで、たてじくは何を表しますか。",
+      "answer": "数量",
+      "type": "puzzle",
+      "difficulty": "standard",
+      "hint": "棒グラフの特ちょうを考えましょう。",
+      "explanation": "たてじくは数量（人数、個数など）を表します。"
+    },
+    {
+      "id": 47,
+      "question": "棒グラフで、よこじくは何を表しますか。",
+      "answer": "項目",
+      "type": "puzzle",
+      "difficulty": "standard",
+      "hint": "棒グラフの特ちょうを考えましょう。",
+      "explanation": "よこじくは項目（曜日、種類など）を表します。"
+    },
+    {
+      "id": 48,
+      "question": "棒グラフで、一番高い棒は何を表しますか。",
+      "answer": "一番多い数",
+      "type": "puzzle",
+      "difficulty": "standard",
+      "hint": "棒グラフの特ちょうを考えましょう。",
+      "explanation": "一番高い棒は一番多い数を表します。"
+    },
+    {
+      "id": 49,
+      "question": "棒グラフで、棒の高さが同じとき、何がわかりますか。",
+      "answer": "数が同じ",
+      "type": "puzzle",
+      "difficulty": "standard",
+      "hint": "棒グラフの特ちょうを考えましょう。",
+      "explanation": "棒の高さが同じなら、数が同じことがわかります。"
+    },
+    {
+      "id": 50,
+      "question": "棒グラフのよいところは何ですか。",
+      "answer": "比べやすい",
+      "type": "puzzle",
+      "difficulty": "standard",
+      "hint": "棒グラフの特ちょうを考えましょう。",
+      "explanation": "棒の高さで数の大小が一目でわかり、比べやすいです。"
+    },
+    {
+      "id": 51,
+      "question": "棒グラフで、1めもりを大きくすると、グラフはどうなりますか。",
+      "answer": "低くなる",
+      "type": "puzzle",
+      "difficulty": "standard",
+      "hint": "棒グラフの特ちょうを考えましょう。",
+      "explanation": "1めもりを大きくすると、同じ数でも棒が低くなります。"
+    },
+    {
+      "id": 52,
+      "question": "棒グラフで、1めもりを小さくすると、グラフはどうなりますか。",
+      "answer": "高くなる",
+      "type": "puzzle",
+      "difficulty": "standard",
+      "hint": "棒グラフの特ちょうを考えましょう。",
+      "explanation": "1めもりを小さくすると、同じ数でも棒が高くなります。"
+    },
+    {
+      "id": 53,
+      "question": "棒グラフを見るとき、まず何を確認しますか。",
+      "answer": "めもりの単位",
+      "type": "puzzle",
+      "difficulty": "standard",
+      "hint": "棒グラフの特ちょうを考えましょう。",
+      "explanation": "1めもりが何を表しているか確認します。"
+    },
+    {
+      "id": 54,
+      "question": "棒グラフで、合計を求めるには、どうすればよいですか。",
+      "answer": "すべての棒を足す",
+      "type": "puzzle",
+      "difficulty": "standard",
+      "hint": "棒グラフの特ちょうを考えましょう。",
+      "explanation": "すべての棒の高さを足し合わせます。"
+    },
+    {
+      "id": 55,
+      "question": "棒グラフで、差を求めるには、どうすればよいですか。",
+      "answer": "2つの棒を引く",
+      "type": "puzzle",
+      "difficulty": "standard",
+      "hint": "棒グラフの特ちょうを考えましょう。",
+      "explanation": "2つの棒の高さを引き算します。"
+    },
+    {
+      "id": 56,
+      "question": "棒グラフは何を比べるのに便利ですか。",
+      "answer": "数の大小",
+      "type": "puzzle",
+      "difficulty": "standard",
+      "hint": "棒グラフの特ちょうを考えましょう。",
+      "explanation": "数の大小を比べるのに便利です。"
+    },
+    {
+      "id": 57,
+      "question": "棒グラフで、棒の幅は何を表しますか。",
+      "answer": "何も表さない",
+      "type": "puzzle",
+      "difficulty": "standard",
+      "hint": "棒グラフの特ちょうを考えましょう。",
+      "explanation": "棒の幅は意味を持たず、高さだけが数を表します。"
+    },
+    {
+      "id": 58,
+      "question": "棒グラフで、たてじくの数字が0から始まっていないとき、注意することは何ですか。",
+      "answer": "実際の差に注意",
+      "type": "puzzle",
+      "difficulty": "standard",
+      "hint": "棒グラフの特ちょうを考えましょう。",
+      "explanation": "0から始まっていないと、差が大きく見えることがあります。"
+    },
+    {
+      "id": 59,
+      "question": "棒グラフで、項目が増えたとき、グラフはどうなりますか。",
+      "answer": "棒が増える",
+      "type": "puzzle",
+      "difficulty": "standard",
+      "hint": "棒グラフの特ちょうを考えましょう。",
+      "explanation": "項目が増えると、棒の数が増えます。"
+    },
+    {
+      "id": 60,
+      "question": "棒グラフで、同じ項目の数が変わったとき、グラフはどうなりますか。",
+      "answer": "棒の高さが変わる",
+      "type": "puzzle",
+      "difficulty": "standard",
+      "hint": "棒グラフの特ちょうを考えましょう。",
+      "explanation": "数が変わると、棒の高さが変わります。"
+    }
+  ]
+}

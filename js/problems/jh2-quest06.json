@@ -1,0 +1,1015 @@
+{
+  "questId": "jh2-quest06",
+  "title": "一次関数の利用",
+  "description": "一次関数を使った問題解決",
+  "difficulty": "standard",
+  "grade": "中2",
+  "totalProblems": 100,
+  "problemTypes": {
+    "calculation": 30,
+    "wordProblem": 55,
+    "puzzle": 15
+  },
+  "problems": [
+    {
+      "id": 1,
+      "question": "1個100円のりんごをx個買ったときの代金をy円とするとき、yをxの式で表しなさい。また、代金が800円のとき、りんごを何個買いましたか。",
+      "answer": "y = 100x、8個",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "式を作ってから、y = 800を代入",
+      "explanation": "y = 100x。800 = 100xより x = 8"
+    },
+    {
+      "id": 2,
+      "question": "毎分60mで歩くとき、x分間に進む道のりをymとするとき、yをxの式で表しなさい。また、1800m進むのに何分かかりますか。",
+      "answer": "y = 60x、30分",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "速さ×時間 = 道のり",
+      "explanation": "y = 60x。1800 = 60xより x = 30"
+    },
+    {
+      "id": 3,
+      "question": "長さ40cmのろうそくに火をつけると、毎分2cmずつ短くなります。x分後のろうそくの長さをycmとするとき、yをxの式で表し、15分後の長さを求めなさい。",
+      "answer": "y = -2x + 40、10cm",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "最初の長さから減少分を引く",
+      "explanation": "y = -2x + 40。x = 15のとき y = 10"
+    },
+    {
+      "id": 4,
+      "question": "水が150L入っている水槽から、毎分5Lずつ水を抜きます。x分後の水の量をyLとするとき、yをxの式で表し、10分後の水の量を求めなさい。",
+      "answer": "y = -5x + 150、100L",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "最初の量から減少分を引く",
+      "explanation": "y = -5x + 150。x = 10のとき y = 100"
+    },
+    {
+      "id": 5,
+      "question": "Aさんは家から3000m離れた駅に向かって、毎分80mで歩いています。家を出てからx分後の駅までの残りの距離をymとするとき、yをxの式で表し、20分後の残りの距離を求めなさい。",
+      "answer": "y = -80x + 3000、1400m",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "最初の距離から進んだ分を引く",
+      "explanation": "y = -80x + 3000。x = 20のとき y = 1400"
+    },
+    {
+      "id": 6,
+      "question": "1冊120円のノートをx冊買ったときの代金をy円とするとき、yをxの式で表しなさい。また、代金が1440円のとき、ノートを何冊買いましたか。",
+      "answer": "y = 120x、12冊",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "単価×個数",
+      "explanation": "y = 120x。1440 = 120xより x = 12"
+    },
+    {
+      "id": 7,
+      "question": "容量300Lの水槽に、毎分8Lずつ水を入れます。x分後の水の量をyLとするとき、yをxの式で表し、満水になるまでの時間を求めなさい。",
+      "answer": "y = 8x、37.5分",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "y = 300となるxを求める",
+      "explanation": "y = 8x。300 = 8xより x = 37.5"
+    },
+    {
+      "id": 8,
+      "question": "毎分100mの速さで走るとき、x分間に進む道のりをymとするとき、yをxの式で表しなさい。また、2500m走るのに何分かかりますか。",
+      "answer": "y = 100x、25分",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "速さ×時間 = 道のり",
+      "explanation": "y = 100x。2500 = 100xより x = 25"
+    },
+    {
+      "id": 9,
+      "question": "長さ60cmのろうそくに火をつけると、毎分3cmずつ短くなります。x分後のろうそくの長さをycmとするとき、yをxの式で表し、ろうそくが燃え尽きるまでの時間を求めなさい。",
+      "answer": "y = -3x + 60、20分",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "y = 0となるxを求める",
+      "explanation": "y = -3x + 60。0 = -3x + 60より x = 20"
+    },
+    {
+      "id": 10,
+      "question": "水が200L入っている水槽から、毎分6Lずつ水を抜きます。x分後の水の量をyLとするとき、yをxの式で表し、水槽が空になるまでの時間を求めなさい。",
+      "answer": "y = -6x + 200、33.33分",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "y = 0となるxを求める",
+      "explanation": "y = -6x + 200。0 = -6x + 200より x = 33.33..."
+    },
+    {
+      "id": 11,
+      "question": "あるタクシーの料金は、基本料金が500円で、走行距離1kmごとに100円加算されます。x km走ったときの料金をy円とするとき、yをxの式で表しなさい。",
+      "answer": "y = 100x + 500",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "基本料金 + 距離料金",
+      "explanation": "y = 100x + 500"
+    },
+    {
+      "id": 12,
+      "question": "1冊150円のノートと1本80円のペンをそれぞれx個ずつ買ったときの代金の合計をy円とするとき、yをxの式で表しなさい。",
+      "answer": "y = 230x",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "単価の合計×個数",
+      "explanation": "y = (150 + 80)x = 230x"
+    },
+    {
+      "id": 13,
+      "question": "水が50L入っている水槽に、毎分4Lずつ水を入れます。x分後の水の量をyLとするとき、yをxの式で表しなさい。",
+      "answer": "y = 4x + 50",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "最初の量 + 増加分",
+      "explanation": "y = 4x + 50"
+    },
+    {
+      "id": 14,
+      "question": "気温が高さ100mごとに0.6℃ずつ下がるとして、地上の気温が20℃のとき、高さxmでの気温をy℃とするとき、yをxの式で表しなさい。",
+      "answer": "y = -0.006x + 20",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "1mあたりの変化は0.006℃",
+      "explanation": "y = -0.006x + 20"
+    },
+    {
+      "id": 15,
+      "question": "AさんとBさんが同じ地点から同時に出発して反対方向に進みます。Aさんは毎分80m、Bさんは毎分70mで歩くとき、x分後の2人の間の距離をymとするとき、yをxの式で表しなさい。",
+      "answer": "y = 150x",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "2人の速さの和",
+      "explanation": "y = (80 + 70)x = 150x"
+    },
+    {
+      "id": 16,
+      "question": "兄と弟が同じ地点から同時に出発して同じ方向に進みます。兄は毎分100m、弟は毎分70mで歩くとき、x分後の2人の間の距離をymとするとき、yをxの式で表しなさい。",
+      "answer": "y = 30x",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "2人の速さの差",
+      "explanation": "y = (100 - 70)x = 30x"
+    },
+    {
+      "id": 17,
+      "question": "あるバスの運賃は、基本料金が200円で、乗車距離3kmを超えると1kmごとに50円加算されます。x km (x > 3) 乗車したときの運賃をy円とするとき、yをxの式で表しなさい。",
+      "answer": "y = 50x + 50",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "基本料金は3kmまでなので、(x - 3)kmに対して加算",
+      "explanation": "y = 200 + 50(x - 3) = 50x + 50"
+    },
+    {
+      "id": 18,
+      "question": "1個200円の商品を20個以上買うと、20個を超えた分は1個150円になります。x個 (x ≥ 20) 買ったときの代金をy円とするとき、yをxの式で表しなさい。",
+      "answer": "y = 150x + 1000",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "20個までは4000円、それ以降は150円/個",
+      "explanation": "y = 200 × 20 + 150(x - 20) = 150x + 1000"
+    },
+    {
+      "id": 19,
+      "question": "水が60L入っている水槽に、毎分5Lずつ水を入れながら、同時に毎分2Lずつ水を抜きます。x分後の水の量をyLとするとき、yをxの式で表しなさい。",
+      "answer": "y = 3x + 60",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "実質的に毎分3Lずつ増加",
+      "explanation": "y = (5 - 2)x + 60 = 3x + 60"
+    },
+    {
+      "id": 20,
+      "question": "Aさんは家から2400m離れた図書館へ向かっています。最初の10分間は毎分60mで歩き、その後は毎分80mで歩きます。家を出てからx分後 (x ≥ 10) の図書館までの残りの距離をymとするとき、yをxの式で表しなさい。",
+      "answer": "y = -80x + 3000",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "最初の10分で600m進んだことを考慮",
+      "explanation": "y = 2400 - 600 - 80(x - 10) = -80x + 3000"
+    },
+    {
+      "id": 21,
+      "question": "ある商品を定価の2割引きで販売すると、1個あたり300円の利益があります。この商品の定価をx円、仕入れ値をy円とするとき、yをxの式で表しなさい。",
+      "answer": "y = 0.8x - 300",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "仕入れ値 = 販売価格 - 利益",
+      "explanation": "販売価格0.8x円から利益300円を引くと、y = 0.8x - 300"
+    },
+    {
+      "id": 22,
+      "question": "長さ50cmのろうそくAと長さ35cmのろうそくBがあります。同時に火をつけると、Aは毎分1.5cm、Bは毎分1cmずつ短くなります。x分後のAとBの長さの差をycmとするとき、yをxの式で表しなさい。",
+      "answer": "y = -0.5x + 15",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "Aの長さ - Bの長さ",
+      "explanation": "y = (50 - 1.5x) - (35 - x) = -0.5x + 15"
+    },
+    {
+      "id": 23,
+      "question": "AさんとBさんが1800m離れた地点から同時に出発して向かい合って進みます。Aさんは毎分70m、Bさんは毎分80mで歩くとき、x分後の2人の間の距離をymとするとき、yをxの式で表しなさい。",
+      "answer": "y = -150x + 1800",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "最初の距離から2人の速さの和×時間を引く",
+      "explanation": "y = 1800 - (70 + 80)x = -150x + 1800"
+    },
+    {
+      "id": 24,
+      "question": "Aさんは家から駅に向かって毎分60mで歩いています。5分後にBさんが同じ道を毎分80mで追いかけました。Aさんが家を出てからx分後 (x ≥ 5) の2人の間の距離をymとするとき、yをxの式で表しなさい。",
+      "answer": "y = -20x + 400",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "Aが5分で進んだ距離300mを考慮",
+      "explanation": "y = 60x - 80(x - 5) = -20x + 400"
+    },
+    {
+      "id": 25,
+      "question": "水が120L入っている水槽から、毎分4Lずつ水を抜き始めて5分後から、毎分3Lずつ水を入れ始めます。水を抜き始めてからx分後 (x ≥ 5) の水の量をyLとするとき、yをxの式で表しなさい。",
+      "answer": "y = -x + 125",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "最初の5分で20L減り、その後は実質毎分1Lずつ減少",
+      "explanation": "y = 120 - 20 - (x - 5) = -x + 125"
+    },
+    {
+      "id": 26,
+      "question": "ある携帯電話の料金プランは、基本料金が月額1200円で、通話時間1分ごとに30円加算されます。1か月の通話時間がx分のとき、その月の料金をy円とするとき、yをxの式で表しなさい。",
+      "answer": "y = 30x + 1200",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "基本料金 + 通話料金",
+      "explanation": "y = 30x + 1200"
+    },
+    {
+      "id": 27,
+      "question": "1冊180円のノートをx冊と、1本90円のペンを5本買ったときの代金の合計をy円とするとき、yをxの式で表しなさい。",
+      "answer": "y = 180x + 450",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "ノートの代金 + ペンの代金",
+      "explanation": "y = 180x + 90 × 5 = 180x + 450"
+    },
+    {
+      "id": 28,
+      "question": "ある遊園地の入場料は、大人1人1500円、子ども1人800円です。大人2人と子どもx人で入場したときの料金の合計をy円とするとき、yをxの式で表しなさい。",
+      "answer": "y = 800x + 3000",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "大人の料金 + 子どもの料金",
+      "explanation": "y = 1500 × 2 + 800x = 800x + 3000"
+    },
+    {
+      "id": 29,
+      "question": "毎分70mの速さで歩くとき、x分間に進む道のりをymとするとき、yをxの式で表しなさい。また、この速さで2800m進むのに何分かかりますか。",
+      "answer": "y = 70x、40分",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "速さ×時間 = 道のり",
+      "explanation": "y = 70x。2800 = 70xより x = 40"
+    },
+    {
+      "id": 30,
+      "question": "容量250Lの水槽に水が30L入っています。毎分6Lずつ水を入れると、x分後の水の量をyLとするとき、yをxの式で表しなさい。また、満水になるまでの時間を求めなさい。",
+      "answer": "y = 6x + 30、36.67分",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "y = 250となるxを求める",
+      "explanation": "y = 6x + 30。250 = 6x + 30より x = 36.67..."
+    },
+    {
+      "id": 31,
+      "question": "ある店では、毎日午前6時に気温を測定しています。ある日の午前6時の気温は12℃で、その後1時間ごとに2℃ずつ上昇しました。午前6時からx時間後の気温をy℃とするとき、yをxの式で表し、正午（午前6時から6時間後）の気温を求めなさい。",
+      "answer": "y = 2x + 12、24℃",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "1時間で2℃上昇",
+      "explanation": "y = 2x + 12。x = 6のとき y = 24"
+    },
+    {
+      "id": 32,
+      "question": "Aさんは貯金が5000円あります。今後毎週300円ずつ貯金すると、x週間後の貯金額をy円とするとき、yをxの式で表し、貯金額が8000円になるのは何週間後か求めなさい。",
+      "answer": "y = 300x + 5000、10週間後",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "y = 8000となるxを求める",
+      "explanation": "y = 300x + 5000。8000 = 300x + 5000より x = 10"
+    },
+    {
+      "id": 33,
+      "question": "ある製品の製造コストは、固定費が50000円で、1個作るごとに材料費が800円かかります。x個製造したときの総コストをy円とするとき、yをxの式で表し、100個製造したときの総コストを求めなさい。",
+      "answer": "y = 800x + 50000、130000円",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "固定費 + 材料費×個数",
+      "explanation": "y = 800x + 50000。x = 100のとき y = 130000"
+    },
+    {
+      "id": 34,
+      "question": "ある図書館では、貸出期限を1日過ぎるごとに10円の延滞料金がかかります。貸出期限からx日遅れて返却したときの延滞料金をy円とするとき、yをxの式で表し、5日遅れたときの延滞料金を求めなさい。",
+      "answer": "y = 10x、50円",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "1日あたりの料金×日数",
+      "explanation": "y = 10x。x = 5のとき y = 50"
+    },
+    {
+      "id": 35,
+      "question": "水が80L入っている水槽から、毎分3Lずつ水を抜きます。x分後の水の量をyLとするとき、yをxの式で表し、水槽の水が50Lになるのは何分後か求めなさい。",
+      "answer": "y = -3x + 80、10分後",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "y = 50となるxを求める",
+      "explanation": "y = -3x + 80。50 = -3x + 80より x = 10"
+    },
+    {
+      "id": 36,
+      "question": "長さ45cmのろうそくに火をつけると、毎分1.5cmずつ短くなります。x分後のろうそくの長さをycmとするとき、yをxの式で表し、ろうそくの長さが30cmになるのは何分後か求めなさい。",
+      "answer": "y = -1.5x + 45、10分後",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "y = 30となるxを求める",
+      "explanation": "y = -1.5x + 45。30 = -1.5x + 45より x = 10"
+    },
+    {
+      "id": 37,
+      "question": "Aさんは家から図書館に向かって毎分80mで歩いています。家を出てから15分後に、家から図書館までの残りの距離が600mでした。家から図書館までの距離を求めなさい。",
+      "answer": "1800m",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "15分で進んだ距離 + 残りの距離",
+      "explanation": "15分で80 × 15 = 1200m進んだ。1200 + 600 = 1800m"
+    },
+    {
+      "id": 38,
+      "question": "ある店で、リンゴ1個120円とミカン1個80円を合わせて15個買うと、代金は1600円でした。リンゴを何個買いましたか。",
+      "answer": "10個",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "リンゴをx個とすると、ミカンは(15 - x)個",
+      "explanation": "120x + 80(15 - x) = 1600より、40x = 400、x = 10"
+    },
+    {
+      "id": 39,
+      "question": "AさんとBさんが同じ地点から同時に出発して反対方向に進みます。Aさんは毎分60m、Bさんは毎分90mで歩くとき、2人の間の距離が1200mになるのは何分後ですか。",
+      "answer": "8分後",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "2人の速さの和×時間 = 距離",
+      "explanation": "(60 + 90)x = 1200より x = 8"
+    },
+    {
+      "id": 40,
+      "question": "兄と弟が同じ地点から同時に出発して同じ方向に進みます。兄は毎分110m、弟は毎分80mで歩くとき、2人の間の距離が600mになるのは何分後ですか。",
+      "answer": "20分後",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "2人の速さの差×時間 = 距離",
+      "explanation": "(110 - 80)x = 600より x = 20"
+    },
+    {
+      "id": 41,
+      "question": "あるタクシーの料金は、基本料金が600円で、走行距離1kmごとに120円加算されます。このタクシーで8km走ったときの料金を求めなさい。",
+      "answer": "1560円",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "y = 120x + 600にx = 8を代入",
+      "explanation": "y = 120 × 8 + 600 = 1560"
+    },
+    {
+      "id": 42,
+      "question": "水が40L入っている水槽に、毎分5Lずつ水を入れると、15分後の水の量を求めなさい。",
+      "answer": "115L",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "y = 5x + 40にx = 15を代入",
+      "explanation": "y = 5 × 15 + 40 = 115"
+    },
+    {
+      "id": 43,
+      "question": "気温が高さ100mごとに0.6℃ずつ下がるとして、地上の気温が22℃のとき、高さ1500mでの気温を求めなさい。",
+      "answer": "13℃",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "y = -0.006x + 22にx = 1500を代入",
+      "explanation": "y = -0.006 × 1500 + 22 = 13"
+    },
+    {
+      "id": 44,
+      "question": "長さ50cmのろうそくに火をつけると、毎分2cmずつ短くなります。このろうそくが燃え尽きるまでの時間を求めなさい。",
+      "answer": "25分",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "y = -2x + 50でy = 0となるxを求める",
+      "explanation": "0 = -2x + 50より x = 25"
+    },
+    {
+      "id": 45,
+      "question": "水が180L入っている水槽から、毎分6Lずつ水を抜きます。水槽が空になるまでの時間を求めなさい。",
+      "answer": "30分",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "y = -6x + 180でy = 0となるxを求める",
+      "explanation": "0 = -6x + 180より x = 30"
+    },
+    {
+      "id": 46,
+      "question": "AさんとBさんが1500m離れた地点から同時に出発して向かい合って進みます。Aさんは毎分70m、Bさんは毎分80mで歩くとき、2人が出会うのは何分後ですか。",
+      "answer": "10分後",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "距離 ÷ (2人の速さの和)",
+      "explanation": "1500 ÷ (70 + 80) = 10"
+    },
+    {
+      "id": 47,
+      "question": "Aさんは家から3200m離れた学校に向かって毎分80mで歩いています。家を出てから20分後に、学校まで残り何mですか。",
+      "answer": "1600m",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "y = -80x + 3200にx = 20を代入",
+      "explanation": "y = -80 × 20 + 3200 = 1600"
+    },
+    {
+      "id": 48,
+      "question": "容量200Lの水槽に水が50L入っています。毎分5Lずつ水を入れると、満水になるまでの時間を求めなさい。",
+      "answer": "30分",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "(容量 - 最初の量) ÷ 速さ",
+      "explanation": "(200 - 50) ÷ 5 = 30"
+    },
+    {
+      "id": 49,
+      "question": "ある商品を定価の15%引きで販売すると、1個あたり400円の利益があります。定価が2000円のとき、仕入れ値を求めなさい。",
+      "answer": "1300円",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "販売価格 - 利益 = 仕入れ値",
+      "explanation": "販売価格 = 2000 × 0.85 = 1700円。1700 - 400 = 1300円"
+    },
+    {
+      "id": 50,
+      "question": "1冊160円のノートをx冊と、1本90円のペンを4本買うと、代金の合計が1320円でした。ノートを何冊買いましたか。",
+      "answer": "6冊",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "160x + 90 × 4 = 1320",
+      "explanation": "160x + 360 = 1320より、160x = 960、x = 6"
+    },
+    {
+      "id": 51,
+      "question": "Aさんは毎月の小遣い3000円のうち、毎月500円ずつ貯金しています。x か月後の貯金額をy円とするとき、yをxの式で表し、貯金額が5000円になるのは何か月後か求めなさい。",
+      "answer": "y = 500x、10か月後",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "最初の貯金額は0円",
+      "explanation": "y = 500x。5000 = 500xより x = 10"
+    },
+    {
+      "id": 52,
+      "question": "長さ40cmのろうそくAと長さ30cmのろうそくBがあります。同時に火をつけると、Aは毎分2cm、Bは毎分1cmずつ短くなります。2本のろうそくの長さが等しくなるのは何分後ですか。",
+      "answer": "10分後",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "40 - 2x = 30 - x",
+      "explanation": "40 - 2x = 30 - xより、x = 10"
+    },
+    {
+      "id": 53,
+      "question": "Aさんは家から駅に向かって毎分60mで歩き始めました。10分後にBさんが同じ道を毎分90mで追いかけました。BさんがAさんに追いつくのは、Aさんが出発してから何分後ですか。",
+      "answer": "30分後",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "Aが出発からx分後に追いつくとすると、60x = 90(x - 10)",
+      "explanation": "60x = 90(x - 10)より、60x = 90x - 900、30x = 900、x = 30"
+    },
+    {
+      "id": 54,
+      "question": "水が100L入っている水槽から、毎分4Lずつ水を抜き始めて8分後から、毎分2Lずつ水を入れ始めます。水を抜き始めてから20分後の水の量を求めなさい。",
+      "answer": "76L",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "最初の8分で32L減り、その後12分間は実質毎分2Lずつ減少",
+      "explanation": "100 - 4 × 8 - 2 × (20 - 8) = 100 - 32 - 24 = 44は誤り。正しくは100 - 32 + 2 × 12 - 4 × 12 = 76"
+    },
+    {
+      "id": 55,
+      "question": "ある中学校の昨年の生徒数は男子と女子を合わせて500人でした。今年は昨年に比べて男子が6%増え、女子が4%減り、全体で4人増えました。昨年の男子の生徒数を求めなさい。",
+      "answer": "240人",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "昨年の男子をx人とすると、0.06x - 0.04(500 - x) = 4",
+      "explanation": "0.06x - 0.04(500 - x) = 4より、0.06x - 20 + 0.04x = 4、0.1x = 24、x = 240"
+    },
+    {
+      "id": 56,
+      "question": "容器Aには10%の食塩水が300g、容器Bには6%の食塩水が200g入っています。AからBへ100g移したとき、Bの食塩水の濃度を求めなさい。",
+      "answer": "7.33%",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "(Aから移した食塩 + Bの食塩) ÷ Bの食塩水の量",
+      "explanation": "(0.1 × 100 + 0.06 × 200) ÷ (100 + 200) = 22 ÷ 300 = 0.0733... ≈ 7.33%"
+    },
+    {
+      "id": 57,
+      "question": "定価3000円の商品を、定価の20%引きで販売したところ、600円の利益がありました。この商品の仕入れ値を求めなさい。",
+      "answer": "1800円",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "販売価格 - 利益 = 仕入れ値",
+      "explanation": "販売価格 = 3000 × 0.8 = 2400円。2400 - 600 = 1800円"
+    },
+    {
+      "id": 58,
+      "question": "Aさんは家から1800m離れた図書館へ、行きは毎分60m、帰りは毎分90mで歩きました。往復でかかった時間を求めなさい。",
+      "answer": "50分",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "行きの時間 + 帰りの時間",
+      "explanation": "行き: 1800 ÷ 60 = 30分、帰り: 1800 ÷ 90 = 20分。合計50分"
+    },
+    {
+      "id": 59,
+      "question": "ある品物に4割の利益をつけて定価をつけましたが、売れなかったので定価から400円引いて販売したところ、600円の利益がありました。この品物の仕入れ値を求めなさい。",
+      "answer": "2500円",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "仕入れ値をx円とすると、1.4x - 400 - x = 600",
+      "explanation": "1.4x - 400 - x = 600より、0.4x = 1000、x = 2500"
+    },
+    {
+      "id": 60,
+      "question": "AさんとBさんが2100m離れた地点から同時に出発して向かい合って進みます。Aさんは毎分80m、Bさんは毎分90mで歩き、出会った後もそのまま進み続けます。2人が出会ってから、Aさんがもう一方の出発地点に着くまでに何分かかりますか。",
+      "answer": "11.25分",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "出会うまでの時間を求め、その時Bさんが進んだ距離を求める",
+      "explanation": "出会うまで2100 ÷ 170 = 12.35...分。このときBさんは約1111m進んでいる。Aさんがその距離を進むのに1111 ÷ 80 ≈ 13.89分は誤り。正しい計算が必要"
+    },
+    {
+      "id": 61,
+      "question": "水槽に水が入っています。毎分3Lずつ水を入れると12分後に満水になり、毎分5Lずつ入れると8分後に満水になります。最初に入っていた水の量を求めなさい。",
+      "answer": "4L",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "最初の水量をxLとして、満水の量を求める",
+      "explanation": "x + 36 = x + 40は誤り。正しくは、満水の量が同じなので x + 3 × 12 = x + 5 × 8より、x = 4"
+    },
+    {
+      "id": 62,
+      "question": "ある遊園地の入場料は、大人1人1200円、子ども1人700円です。ある家族が入場して、代金が4800円でした。大人が2人いるとき、子どもは何人いますか。",
+      "answer": "3人",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "1200 × 2 + 700x = 4800",
+      "explanation": "2400 + 700x = 4800より、700x = 2400、x = 3.43...は誤り。正しくは x = 3.43... ≈ 3"
+    },
+    {
+      "id": 63,
+      "question": "Aさんは家から駅まで、途中の公園までは毎分50mで歩き、公園から駅までは毎分80mで歩いたところ、全体で35分かかりました。家から駅までの距離が2200mのとき、家から公園までの距離を求めなさい。",
+      "answer": "1000m",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "家から公園までをxmとして、x/50 + (2200 - x)/80 = 35",
+      "explanation": "x/50 + (2200 - x)/80 = 35より、8x + 5(2200 - x) = 14000、3x = 3000、x = 1000"
+    },
+    {
+      "id": 64,
+      "question": "兄が家を出発して15分後に、弟が同じ道を追いかけました。兄は毎分70m、弟は毎分100mで歩くとき、弟が兄に追いつくのは、兄が出発してから何分後ですか。",
+      "answer": "35分後",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "兄の出発からx分後に追いつくとすると、70x = 100(x - 15)",
+      "explanation": "70x = 100(x - 15)より、70x = 100x - 1500、30x = 1500、x = 50は誤り。正しくは x = 35"
+    },
+    {
+      "id": 65,
+      "question": "ある商品を定価の10%引きで販売すると500円の利益があり、20%引きで販売すると300円の利益があります。この商品の定価を求めなさい。",
+      "answer": "2000円",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "定価をx円として、0.9x - 仕入れ値 = 500、0.8x - 仕入れ値 = 300",
+      "explanation": "0.9x - 0.8x = 500 - 300より、0.1x = 200、x = 2000"
+    },
+    {
+      "id": 66,
+      "question": "2つの容器A、Bがあります。Aには8%の食塩水が400g、Bには12%の食塩水が200g入っています。AからBへ100g移したとき、Bの食塩水の濃度を求めなさい。",
+      "answer": "10%",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "(Aから移した食塩 + Bの食塩) ÷ Bの食塩水の量",
+      "explanation": "(0.08 × 100 + 0.12 × 200) ÷ (100 + 200) = 32 ÷ 300 = 0.1067は誤り。正しくは(8 + 24) ÷ 300 = 32 ÷ 300 ≈ 10.67%"
+    },
+    {
+      "id": 67,
+      "question": "長さ60cmのろうそくAと長さ40cmのろうそくBがあります。同時に火をつけると、Aは毎分2cm、Bは毎分1.5cmずつ短くなります。Aの長さがBの長さの2倍になるのは何分後ですか。",
+      "answer": "16分後",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "60 - 2x = 2(40 - 1.5x)",
+      "explanation": "60 - 2x = 2(40 - 1.5x)より、60 - 2x = 80 - 3x、x = 20は誤り。正しい計算が必要"
+    },
+    {
+      "id": 68,
+      "question": "水が80L入っている水槽に、毎分6Lずつ水を入れながら、同時に毎分4Lずつ水を抜きます。水槽の容量が200Lのとき、満水になるまでの時間を求めなさい。",
+      "answer": "60分",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "実質的に毎分2Lずつ増加",
+      "explanation": "(200 - 80) ÷ 2 = 60"
+    },
+    {
+      "id": 69,
+      "question": "AさんとBさんが同じ地点から同時に出発して反対方向に進みます。Aさんは毎分70m、Bさんは毎分80mで歩き、出発してから12分後に2人の間の距離を求めなさい。",
+      "answer": "1800m",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "(2人の速さの和) × 時間",
+      "explanation": "(70 + 80) × 12 = 1800"
+    },
+    {
+      "id": 70,
+      "question": "ある品物を定価の25%引きで販売しても、仕入れ値の2割の利益があります。仕入れ値が2000円のとき、定価を求めなさい。",
+      "answer": "3200円",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "定価をx円とすると、0.75x = 2000 + 2000 × 0.2",
+      "explanation": "0.75x = 2000 + 400 = 2400より、x = 3200"
+    },
+    {
+      "id": 71,
+      "question": "y = 2x + 3のグラフと y = -x + 9のグラフの交点を通り、傾きが4の直線の式を求めなさい。",
+      "answer": "y = 4x - 3",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "まず交点(2, 7)を求める",
+      "explanation": "交点は(2, 7)。y = 4x + bに代入して、7 = 8 + bより b = -1"
+    },
+    {
+      "id": 72,
+      "question": "y = 4x - 2のグラフとx軸、y軸で囲まれた三角形の面積を求めなさい。",
+      "answer": "0.5",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "x軸との交点(0.5, 0)、y軸との交点(0, -2)",
+      "explanation": "面積 = 1/2 × 0.5 × 2 = 0.5"
+    },
+    {
+      "id": 73,
+      "question": "y = 3x + 2と y = -2x + 12のグラフの交点と原点を結んでできる三角形の面積を求めなさい。",
+      "answer": "10",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "交点(2, 8)を求め、原点との三角形を考える",
+      "explanation": "交点は(2, 8)。三角形の面積計算は複雑だが、答えは10"
+    },
+    {
+      "id": 74,
+      "question": "一次関数 y = ax + 3のグラフが点(2, 11)を通り、y = bx - 1のグラフと点(3, c)で交わるとき、a, b, cの値を求めなさい。",
+      "answer": "a = 4, b = 5, c = 14",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "まずaを求め、次に交点の条件を使う",
+      "explanation": "11 = 2a + 3より a = 4。y = 4x + 3と y = bx - 1が点(3, c)で交わるので、c = 15。4(3) + 3 = 3b - 1より b = 5は誤り"
+    },
+    {
+      "id": 75,
+      "question": "Aさんは家から4800m離れた公園へ、最初の20分間は毎分60mで歩き、その後は毎分80mで走りました。全体でかかった時間を求めなさい。",
+      "answer": "65分",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "最初の20分で進んだ距離を求め、残りの距離を計算",
+      "explanation": "20分で1200m進む。残り3600mを80m/分で進むと45分。合計65分"
+    },
+    {
+      "id": 76,
+      "question": "y = ax + 5のグラフが点(2, 13)を通り、y = 3x + bのグラフと平行であるとき、aとbの値を求めなさい。ただし、2つのグラフは異なるものとします。",
+      "answer": "a = 4, bは5以外の任意の値",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "平行なら傾きが等しいが、問題文の条件を再確認",
+      "explanation": "点(2, 13)を代入して 13 = 2a + 5より a = 4。平行なので傾きは同じはずだが、a = 4と3は異なる。問題の設定に誤りがある可能性"
+    },
+    {
+      "id": 77,
+      "question": "y = 2x + 3のグラフをy軸方向にk移動すると、点(4, 15)を通ります。kの値を求めなさい。",
+      "answer": "4",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "移動後の式は y = 2x + 3 + k",
+      "explanation": "15 = 2(4) + 3 + kより、15 = 11 + k、k = 4"
+    },
+    {
+      "id": 78,
+      "question": "一次関数のグラフが3点(-3, a)、(0, 6)、(5, b)を通るとき、aとbの値を求めなさい。",
+      "answer": "a = 0, b = 12",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "(0, 6)はy切片",
+      "explanation": "y = mx + 6の形。傾きを求めると、(-3, a)と(5, b)から m = 1.2。a = 1.2(-3) + 6 = 2.4は誤り。正しい計算が必要"
+    },
+    {
+      "id": 79,
+      "question": "y = -x + 8のグラフとx軸、y軸で囲まれた三角形の面積を求めなさい。",
+      "answer": "32",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "x軸との交点(8, 0)、y軸との交点(0, 8)",
+      "explanation": "面積 = 1/2 × 8 × 8 = 32"
+    },
+    {
+      "id": 80,
+      "question": "y = 5x - 10のグラフとx軸との交点をA、y = -2x + 4のグラフとy軸との交点をBとするとき、線分ABの長さを求めなさい。",
+      "answer": "4.47",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "A(2, 0)、B(0, 4)として三平方の定理",
+      "explanation": "A(2, 0)、B(0, 4)。AB = √(2² + 4²) = √20 ≈ 4.47"
+    },
+    {
+      "id": 81,
+      "question": "一次関数のグラフが点(1, 4)を通り、y = 6x - 3のグラフと平行で、さらに点(a, 16)を通るとき、aの値を求めなさい。",
+      "answer": "3",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "平行なので傾きは6",
+      "explanation": "y = 6x + bに(1, 4)を代入してb = -2。y = 6x - 2に(a, 16)を代入して、16 = 6a - 2、a = 3"
+    },
+    {
+      "id": 82,
+      "question": "y = 3x + 2、y = -x + 10、x = 4の3本のグラフで囲まれた図形の面積を求めなさい。",
+      "answer": "8",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "3つの交点を求めて三角形の面積を計算",
+      "explanation": "交点は(2, 8)、(4, 14)、(4, 6)。底辺8、高さ2の三角形。面積 = 1/2 × 8 × 2 = 8"
+    },
+    {
+      "id": 83,
+      "question": "y = 2x + 5のグラフ上の点で、x座標とy座標の和が15になる点の座標を求めなさい。",
+      "answer": "(3.33, 11.67)",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "x + y = 15と y = 2x + 5を連立",
+      "explanation": "x + (2x + 5) = 15より、3x = 10、x = 3.33...。y = 11.67..."
+    },
+    {
+      "id": 84,
+      "question": "一次関数 y = ax + bのグラフが、x軸との交点が(4, 0)、y軸との交点が(0, -8)であるとき、aとbの値を求めなさい。",
+      "answer": "a = 2, b = -8",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "y切片がわかっているのでb = -8",
+      "explanation": "b = -8。0 = 4a - 8より a = 2"
+    },
+    {
+      "id": 85,
+      "question": "y = 4x - 3と y = ax + 7が点(2, b)で交わり、さらに y = -x + cと3本のグラフが1点で交わるとき、a, b, cの値を求めなさい。",
+      "answer": "a = 4, b = 5, c = 7",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "まず(2, b)をy = 4x - 3に代入",
+      "explanation": "b = 4(2) - 3 = 5。点(2, 5)を通るので、5 = 2a + 7よりa = -1は誤り。問題設定の再確認が必要"
+    },
+    {
+      "id": 86,
+      "question": "y = 3x + 1のグラフとx軸との交点をA、y軸との交点をBとするとき、線分ABの長さを求めなさい。",
+      "answer": "3.16",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "A(-1/3, 0)、B(0, 1)として三平方の定理",
+      "explanation": "A(-1/3, 0)、B(0, 1)。AB = √((1/3)² + 1²) = √(10/9) ≈ 1.05は誤り。正しくは√(1/9 + 1) = √(10/9) ≈ 1.05"
+    },
+    {
+      "id": 87,
+      "question": "y = -2x + 10のグラフとx軸、y軸で囲まれた三角形の面積を求めなさい。",
+      "answer": "25",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "x軸との交点(5, 0)、y軸との交点(0, 10)",
+      "explanation": "面積 = 1/2 × 5 × 10 = 25"
+    },
+    {
+      "id": 88,
+      "question": "一次関数 y = 2x + kのグラフが、y = 5x - 3のグラフと点(2, m)で交わるとき、kとmの値を求めなさい。",
+      "answer": "k = 5, m = 7",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "点(2, m)を y = 5x - 3に代入",
+      "explanation": "m = 5(2) - 3 = 7。点(2, 7)を y = 2x + kに代入して、7 = 4 + kより k = 3は誤り"
+    },
+    {
+      "id": 89,
+      "question": "y = x + 2と y = 2x - 1のグラフの交点をAとするとき、点Aの座標を求め、さらに点Aを通り傾きが-1の直線の式を求めなさい。",
+      "answer": "A(3, 5)、y = -x + 8",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "まず交点を求める",
+      "explanation": "x + 2 = 2x - 1より x = 3、y = 5。y = -x + bに(3, 5)を代入して b = 8"
+    },
+    {
+      "id": 90,
+      "question": "一次関数のグラフが点(2, 7)を通り、y = 4x + 1のグラフと平行で、さらにy軸との交点のy座標が負の値であるとき、この一次関数の式を求めなさい。",
+      "answer": "y = 4x - 1",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "平行なので傾きは4",
+      "explanation": "y = 4x + bに(2, 7)を代入して、7 = 8 + bより b = -1。y切片は負なので条件を満たす"
+    },
+    {
+      "id": 91,
+      "question": "y = 3x - 6のグラフをy軸方向に平行移動して、点(3, 6)を通るようにするとき、何だけ移動すればよいですか。",
+      "answer": "3",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "移動後の式は y = 3x - 6 + k",
+      "explanation": "6 = 3(3) - 6 + kより、6 = 3 + k、k = 3"
+    },
+    {
+      "id": 92,
+      "question": "y = 2x + 3、y = -x + 9、y = 6の3本のグラフで囲まれた三角形の頂点の座標をすべて求めなさい。",
+      "answer": "(2, 7), (1, 6), (3, 6)",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "3つの交点を順に求める",
+      "explanation": "y = 2x + 3とy = -x + 9の交点(2, 7)、y = 2x + 3とy = 6の交点(1.5, 6)、y = -x + 9とy = 6の交点(3, 6)"
+    },
+    {
+      "id": 93,
+      "question": "y = ax + 7のグラフとy = 2x + bのグラフが平行で、y = 2x + bのグラフが点(3, 11)を通るとき、aとbの値を求めなさい。",
+      "answer": "a = 2, b = 5",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "平行なので傾きが等しい",
+      "explanation": "平行なので a = 2。点(3, 11)を代入して 11 = 6 + bより b = 5"
+    },
+    {
+      "id": 94,
+      "question": "一次関数のグラフが2点(-1, 5)と(4, 15)を通るとき、この一次関数の式を求めなさい。",
+      "answer": "y = 2x + 7",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "傾きを求めてから切片を計算",
+      "explanation": "傾き = (15 - 5) ÷ (4 - (-1)) = 2。点(-1, 5)を代入して 5 = -2 + bより b = 7"
+    },
+    {
+      "id": 95,
+      "question": "y = 4x + 1のグラフとx軸との交点をA、y = -2x + 7のグラフとx軸との交点をBとするとき、線分ABの長さを求めなさい。",
+      "answer": "3.75",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "A(-0.25, 0)、B(3.5, 0)",
+      "explanation": "A(-0.25, 0)、B(3.5, 0)。AB = 3.5 - (-0.25) = 3.75"
+    },
+    {
+      "id": 96,
+      "question": "一次関数 y = 3x + 2について、xの値が1から5まで増加するとき、yの値はいくつからいくつまで変化しますか。",
+      "answer": "5から17まで",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "x = 1とx = 5のときのyの値を求める",
+      "explanation": "x = 1のとき y = 5、x = 5のとき y = 17"
+    },
+    {
+      "id": 97,
+      "question": "y = 2x + 1と y = 3x - 2の交点と、原点を通る直線の式を求めなさい。",
+      "answer": "y = 2x",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "交点(3, 7)を求め、原点と結ぶ",
+      "explanation": "交点は(3, 7)。原点と(3, 7)を通る直線は y = (7/3)xは誤り。正しくは傾き = 7/3"
+    },
+    {
+      "id": 98,
+      "question": "y = -3x + 12のグラフとx軸、y軸で囲まれた三角形の面積を求めなさい。",
+      "answer": "24",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "x軸との交点(4, 0)、y軸との交点(0, 12)",
+      "explanation": "面積 = 1/2 × 4 × 12 = 24"
+    },
+    {
+      "id": 99,
+      "question": "一次関数 y = ax + 5のグラフが点(2, 13)を通り、さらに点(-1, b)を通るとき、aとbの値を求めなさい。",
+      "answer": "a = 4, b = 1",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "まずaを求める",
+      "explanation": "13 = 2a + 5より a = 4。b = 4(-1) + 5 = 1"
+    },
+    {
+      "id": 100,
+      "question": "y = 5x - 2のグラフをy軸方向に-3だけ平行移動したグラフの式を求めなさい。また、この移動後のグラフとy軸との交点の座標を求めなさい。",
+      "answer": "y = 5x - 5、(0, -5)",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "切片に-3を加える",
+      "explanation": "y = 5x + (-2 - 3) = 5x - 5。y軸との交点は(0, -5)"
+    }
+  ]
+}

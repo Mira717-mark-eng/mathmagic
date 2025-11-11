@@ -1,0 +1,1016 @@
+{
+  "questId": "jh3-quest13",
+  "unitId": "jh3_circles_properties",
+  "questName": "円の性質",
+  "grade": "中3",
+  "description": "円周角の定理をマスター",
+  "difficulty": "standard",
+  "problemCount": 100,
+  "problemTypes": {
+    "calculation": 50,
+    "wordProblem": 35,
+    "puzzle": 15
+  },
+  "problems": [
+    {
+      "id": 1,
+      "question": "円で、中心角が60°のとき、対応する円周角の大きさを求めなさい。",
+      "answer": "30",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "円周角 = 中心角 ÷ 2",
+      "explanation": "円周角 = 60 ÷ 2 = 30°"
+    },
+    {
+      "id": 2,
+      "question": "円で、中心角が80°のとき、対応する円周角の大きさを求めなさい。",
+      "answer": "40",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "円周角 = 中心角 ÷ 2",
+      "explanation": "円周角 = 80 ÷ 2 = 40°"
+    },
+    {
+      "id": 3,
+      "question": "円で、円周角が35°のとき、対応する中心角の大きさを求めなさい。",
+      "answer": "70",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "中心角 = 円周角 × 2",
+      "explanation": "中心角 = 35 × 2 = 70°"
+    },
+    {
+      "id": 4,
+      "question": "円で、中心角が100°のとき、対応する円周角の大きさを求めなさい。",
+      "answer": "50",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "円周角 = 中心角 ÷ 2",
+      "explanation": "円周角 = 100 ÷ 2 = 50°"
+    },
+    {
+      "id": 5,
+      "question": "円で、円周角が45°のとき、対応する中心角の大きさを求めなさい。",
+      "answer": "90",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "中心角 = 円周角 × 2",
+      "explanation": "中心角 = 45 × 2 = 90°"
+    },
+    {
+      "id": 6,
+      "question": "円で、中心角が120°のとき、対応する円周角の大きさを求めなさい。",
+      "answer": "60",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "円周角 = 中心角 ÷ 2",
+      "explanation": "円周角 = 120 ÷ 2 = 60°"
+    },
+    {
+      "id": 7,
+      "question": "円で、円周角が55°のとき、対応する中心角の大きさを求めなさい。",
+      "answer": "110",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "中心角 = 円周角 × 2",
+      "explanation": "中心角 = 55 × 2 = 110°"
+    },
+    {
+      "id": 8,
+      "question": "円で、中心角が140°のとき、対応する円周角の大きさを求めなさい。",
+      "answer": "70",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "円周角 = 中心角 ÷ 2",
+      "explanation": "円周角 = 140 ÷ 2 = 70°"
+    },
+    {
+      "id": 9,
+      "question": "円で、円周角が25°のとき、対応する中心角の大きさを求めなさい。",
+      "answer": "50",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "中心角 = 円周角 × 2",
+      "explanation": "中心角 = 25 × 2 = 50°"
+    },
+    {
+      "id": 10,
+      "question": "円で、中心角が90°のとき、対応する円周角の大きさを求めなさい。",
+      "answer": "45",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "円周角 = 中心角 ÷ 2",
+      "explanation": "円周角 = 90 ÷ 2 = 45°"
+    },
+    {
+      "id": 11,
+      "question": "円で、直径に対する円周角の大きさを求めなさい。",
+      "answer": "90",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "直径に対する円周角は直角",
+      "explanation": "直径に対する円周角 = 90°"
+    },
+    {
+      "id": 12,
+      "question": "円で、中心角が180°のとき、対応する円周角の大きさを求めなさい。",
+      "answer": "90",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "円周角 = 中心角 ÷ 2",
+      "explanation": "円周角 = 180 ÷ 2 = 90°"
+    },
+    {
+      "id": 13,
+      "question": "円で、中心角が150°のとき、対応する円周角の大きさを求めなさい。",
+      "answer": "75",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "円周角 = 中心角 ÷ 2",
+      "explanation": "円周角 = 150 ÷ 2 = 75°"
+    },
+    {
+      "id": 14,
+      "question": "円で、円周角が65°のとき、対応する中心角の大きさを求めなさい。",
+      "answer": "130",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "中心角 = 円周角 × 2",
+      "explanation": "中心角 = 65 × 2 = 130°"
+    },
+    {
+      "id": 15,
+      "question": "円で、中心角が70°のとき、対応する円周角の大きさを求めなさい。",
+      "answer": "35",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "円周角 = 中心角 ÷ 2",
+      "explanation": "円周角 = 70 ÷ 2 = 35°"
+    },
+    {
+      "id": 16,
+      "question": "円で、円周角が75°のとき、対応する中心角の大きさを求めなさい。",
+      "answer": "150",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "中心角 = 円周角 × 2",
+      "explanation": "中心角 = 75 × 2 = 150°"
+    },
+    {
+      "id": 17,
+      "question": "円で、中心角が110°のとき、対応する円周角の大きさを求めなさい。",
+      "answer": "55",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "円周角 = 中心角 ÷ 2",
+      "explanation": "円周角 = 110 ÷ 2 = 55°"
+    },
+    {
+      "id": 18,
+      "question": "円で、円周角が40°のとき、対応する中心角の大きさを求めなさい。",
+      "answer": "80",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "中心角 = 円周角 × 2",
+      "explanation": "中心角 = 40 × 2 = 80°"
+    },
+    {
+      "id": 19,
+      "question": "円で、中心角が160°のとき、対応する円周角の大きさを求めなさい。",
+      "answer": "80",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "円周角 = 中心角 ÷ 2",
+      "explanation": "円周角 = 160 ÷ 2 = 80°"
+    },
+    {
+      "id": 20,
+      "question": "円で、円周角が60°のとき、対応する中心角の大きさを求めなさい。",
+      "answer": "120",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "中心角 = 円周角 × 2",
+      "explanation": "中心角 = 60 × 2 = 120°"
+    },
+    {
+      "id": 21,
+      "question": "円で、中心角が200°のとき、対応する円周角の大きさを求めなさい。",
+      "answer": "100",
+      "unit": "°",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "円周角 = 中心角 ÷ 2",
+      "explanation": "円周角 = 200 ÷ 2 = 100°"
+    },
+    {
+      "id": 22,
+      "question": "円で、円周角が85°のとき、対応する中心角の大きさを求めなさい。",
+      "answer": "170",
+      "unit": "°",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "中心角 = 円周角 × 2",
+      "explanation": "中心角 = 85 × 2 = 170°"
+    },
+    {
+      "id": 23,
+      "question": "円で、中心角が130°のとき、対応する円周角の大きさを求めなさい。",
+      "answer": "65",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "円周角 = 中心角 ÷ 2",
+      "explanation": "円周角 = 130 ÷ 2 = 65°"
+    },
+    {
+      "id": 24,
+      "question": "円で、円周角が70°のとき、対応する中心角の大きさを求めなさい。",
+      "answer": "140",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "中心角 = 円周角 × 2",
+      "explanation": "中心角 = 70 × 2 = 140°"
+    },
+    {
+      "id": 25,
+      "question": "円で、中心角が240°のとき、対応する円周角の大きさを求めなさい。",
+      "answer": "120",
+      "unit": "°",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "円周角 = 中心角 ÷ 2",
+      "explanation": "円周角 = 240 ÷ 2 = 120°"
+    },
+    {
+      "id": 26,
+      "question": "円の弦 AB に対する円周角∠ACB が30°のとき、中心角∠AOB の大きさを求めなさい。",
+      "answer": "60",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "中心角 = 円周角 × 2",
+      "explanation": "中心角 = 30 × 2 = 60°"
+    },
+    {
+      "id": 27,
+      "question": "円の弦 AB に対する中心角∠AOB が100°のとき、円周角∠ACB の大きさを求めなさい。",
+      "answer": "50",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "円周角 = 中心角 ÷ 2",
+      "explanation": "円周角 = 100 ÷ 2 = 50°"
+    },
+    {
+      "id": 28,
+      "question": "円の直径 AB に対する円周角∠ACB の大きさを求めなさい。",
+      "answer": "90",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "直径に対する円周角は直角",
+      "explanation": "直径に対する円周角 = 90°"
+    },
+    {
+      "id": 29,
+      "question": "円で、同じ弧に対する2つの円周角は等しいです。弧 AB に対する円周角∠ACB が42°のとき、同じ弧に対する円周角∠ADB の大きさを求めなさい。",
+      "answer": "42",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "同じ弧に対する円周角は等しい",
+      "explanation": "∠ADB = 42°"
+    },
+    {
+      "id": 30,
+      "question": "円の弦 AB に対する円周角∠ACB が38°のとき、中心角∠AOB の大きさを求めなさい。",
+      "answer": "76",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "中心角 = 円周角 × 2",
+      "explanation": "中心角 = 38 × 2 = 76°"
+    },
+    {
+      "id": 31,
+      "question": "円の弦 AB に対する中心角∠AOB が124°のとき、円周角∠ACB の大きさを求めなさい。",
+      "answer": "62",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "円周角 = 中心角 ÷ 2",
+      "explanation": "円周角 = 124 ÷ 2 = 62°"
+    },
+    {
+      "id": 32,
+      "question": "円で、同じ弧に対する円周角∠ACB が56°のとき、同じ弧に対する円周角∠ADB の大きさを求めなさい。",
+      "answer": "56",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "同じ弧に対する円周角は等しい",
+      "explanation": "∠ADB = 56°"
+    },
+    {
+      "id": 33,
+      "question": "円に内接する四角形 ABCD で、∠A = 80°のとき、∠C の大きさを求めなさい。",
+      "answer": "100",
+      "unit": "°",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "対角の和 = 180°",
+      "explanation": "∠C = 180 - 80 = 100°"
+    },
+    {
+      "id": 34,
+      "question": "円に内接する四角形 ABCD で、∠B = 75°のとき、∠D の大きさを求めなさい。",
+      "answer": "105",
+      "unit": "°",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "対角の和 = 180°",
+      "explanation": "∠D = 180 - 75 = 105°"
+    },
+    {
+      "id": 35,
+      "question": "円に内接する四角形 ABCD で、∠A = 95°のとき、∠C の大きさを求めなさい。",
+      "answer": "85",
+      "unit": "°",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "対角の和 = 180°",
+      "explanation": "∠C = 180 - 95 = 85°"
+    },
+    {
+      "id": 36,
+      "question": "円に内接する四角形 ABCD で、∠B = 110°のとき、∠D の大きさを求めなさい。",
+      "answer": "70",
+      "unit": "°",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "対角の和 = 180°",
+      "explanation": "∠D = 180 - 110 = 70°"
+    },
+    {
+      "id": 37,
+      "question": "円に内接する四角形 ABCD で、∠A = 65°のとき、∠C の大きさを求めなさい。",
+      "answer": "115",
+      "unit": "°",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "対角の和 = 180°",
+      "explanation": "∠C = 180 - 65 = 115°"
+    },
+    {
+      "id": 38,
+      "question": "円に内接する四角形 ABCD で、∠B = 85°のとき、∠D の大きさを求めなさい。",
+      "answer": "95",
+      "unit": "°",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "対角の和 = 180°",
+      "explanation": "∠D = 180 - 85 = 95°"
+    },
+    {
+      "id": 39,
+      "question": "円に内接する四角形 ABCD で、∠A = 70°、∠B = 90°のとき、∠C の大きさを求めなさい。",
+      "answer": "110",
+      "unit": "°",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "対角の和 = 180°",
+      "explanation": "∠C = 180 - 70 = 110°"
+    },
+    {
+      "id": 40,
+      "question": "円に内接する四角形 ABCD で、∠A = 105°、∠B = 80°のとき、∠D の大きさを求めなさい。",
+      "answer": "100",
+      "unit": "°",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "対角の和 = 180°",
+      "explanation": "∠D = 180 - 80 = 100°"
+    },
+    {
+      "id": 41,
+      "question": "円の弦 AB に対する円周角∠ACB が48°のとき、中心角∠AOB の大きさを求めなさい。",
+      "answer": "96",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "中心角 = 円周角 × 2",
+      "explanation": "中心角 = 48 × 2 = 96°"
+    },
+    {
+      "id": 42,
+      "question": "円の弦 AB に対する中心角∠AOB が156°のとき、円周角∠ACB の大きさを求めなさい。",
+      "answer": "78",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "円周角 = 中心角 ÷ 2",
+      "explanation": "円周角 = 156 ÷ 2 = 78°"
+    },
+    {
+      "id": 43,
+      "question": "円で、同じ弧に対する円周角∠ACB が67°のとき、同じ弧に対する円周角∠ADB の大きさを求めなさい。",
+      "answer": "67",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "同じ弧に対する円周角は等しい",
+      "explanation": "∠ADB = 67°"
+    },
+    {
+      "id": 44,
+      "question": "円に内接する四角形 ABCD で、∠A = 88°のとき、∠C の大きさを求めなさい。",
+      "answer": "92",
+      "unit": "°",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "対角の和 = 180°",
+      "explanation": "∠C = 180 - 88 = 92°"
+    },
+    {
+      "id": 45,
+      "question": "円に内接する四角形 ABCD で、∠B = 102°のとき、∠D の大きさを求めなさい。",
+      "answer": "78",
+      "unit": "°",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "対角の和 = 180°",
+      "explanation": "∠D = 180 - 102 = 78°"
+    },
+    {
+      "id": 46,
+      "question": "円の弦 AB に対する円周角∠ACB が52°のとき、中心角∠AOB の大きさを求めなさい。",
+      "answer": "104",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "中心角 = 円周角 × 2",
+      "explanation": "中心角 = 52 × 2 = 104°"
+    },
+    {
+      "id": 47,
+      "question": "円の弦 AB に対する中心角∠AOB が144°のとき、円周角∠ACB の大きさを求めなさい。",
+      "answer": "72",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "円周角 = 中心角 ÷ 2",
+      "explanation": "円周角 = 144 ÷ 2 = 72°"
+    },
+    {
+      "id": 48,
+      "question": "円に内接する四角形 ABCD で、∠A = 120°のとき、∠C の大きさを求めなさい。",
+      "answer": "60",
+      "unit": "°",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "対角の和 = 180°",
+      "explanation": "∠C = 180 - 120 = 60°"
+    },
+    {
+      "id": 49,
+      "question": "円に内接する四角形 ABCD で、∠B = 55°のとき、∠D の大きさを求めなさい。",
+      "answer": "125",
+      "unit": "°",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "対角の和 = 180°",
+      "explanation": "∠D = 180 - 55 = 125°"
+    },
+    {
+      "id": 50,
+      "question": "円の弦 AB に対する円周角∠ACB が33°のとき、中心角∠AOB の大きさを求めなさい。",
+      "answer": "66",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "calculation",
+      "hint": "中心角 = 円周角 × 2",
+      "explanation": "中心角 = 33 × 2 = 66°"
+    },
+    {
+      "id": 51,
+      "question": "円周上に4点A、B、C、Dがあり、弧ABに対する円周角∠ACBが35°です。同じ弧に対する円周角∠ADBの大きさを求めなさい。",
+      "answer": "35",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "同じ弧に対する円周角は等しい",
+      "explanation": "∠ADB = 35°"
+    },
+    {
+      "id": 52,
+      "question": "円の直径をABとし、円周上に点Cをとります。∠ACBの大きさを求めなさい。",
+      "answer": "90",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "直径に対する円周角は直角",
+      "explanation": "∠ACB = 90°"
+    },
+    {
+      "id": 53,
+      "question": "円に内接する四角形ABCDで、∠Aが72°のとき、∠Cの大きさを求めなさい。",
+      "answer": "108",
+      "unit": "°",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "対角の和 = 180°",
+      "explanation": "∠C = 180 - 72 = 108°"
+    },
+    {
+      "id": 54,
+      "question": "円の弦ABに対する中心角∠AOBが84°のとき、円周角∠ACBの大きさを求めなさい。",
+      "answer": "42",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "円周角 = 中心角 ÷ 2",
+      "explanation": "円周角 = 84 ÷ 2 = 42°"
+    },
+    {
+      "id": 55,
+      "question": "円周上に3点A、B、Cがあり、∠ACBが41°です。弧ABに対する中心角∠AOBの大きさを求めなさい。",
+      "answer": "82",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "中心角 = 円周角 × 2",
+      "explanation": "中心角 = 41 × 2 = 82°"
+    },
+    {
+      "id": 56,
+      "question": "円に内接する四角形ABCDで、∠Bが98°のとき、∠Dの大きさを求めなさい。",
+      "answer": "82",
+      "unit": "°",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "対角の和 = 180°",
+      "explanation": "∠D = 180 - 98 = 82°"
+    },
+    {
+      "id": 57,
+      "question": "円の直径ABに対して、円周上の点Cから見た∠ACBの大きさを求めなさい。",
+      "answer": "90",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "直径に対する円周角は直角",
+      "explanation": "∠ACB = 90°"
+    },
+    {
+      "id": 58,
+      "question": "円周上に4点A、B、C、Dがあり、弧CDに対する円周角∠CADが63°です。同じ弧に対する円周角∠CBDの大きさを求めなさい。",
+      "answer": "63",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "同じ弧に対する円周角は等しい",
+      "explanation": "∠CBD = 63°"
+    },
+    {
+      "id": 59,
+      "question": "円の弦ABに対する中心角∠AOBが116°のとき、円周角∠ACBの大きさを求めなさい。",
+      "answer": "58",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "円周角 = 中心角 ÷ 2",
+      "explanation": "円周角 = 116 ÷ 2 = 58°"
+    },
+    {
+      "id": 60,
+      "question": "円に内接する四角形ABCDで、∠Aが115°のとき、∠Cの大きさを求めなさい。",
+      "answer": "65",
+      "unit": "°",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "対角の和 = 180°",
+      "explanation": "∠C = 180 - 115 = 65°"
+    },
+    {
+      "id": 61,
+      "question": "円周上に3点A、B、Cがあり、∠ACBが47°です。弧ABに対する中心角∠AOBの大きさを求めなさい。",
+      "answer": "94",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "中心角 = 円周角 × 2",
+      "explanation": "中心角 = 47 × 2 = 94°"
+    },
+    {
+      "id": 62,
+      "question": "円に内接する四角形ABCDで、∠Bが67°のとき、∠Dの大きさを求めなさい。",
+      "answer": "113",
+      "unit": "°",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "対角の和 = 180°",
+      "explanation": "∠D = 180 - 67 = 113°"
+    },
+    {
+      "id": 63,
+      "question": "円の弦ABに対する中心角∠AOBが168°のとき、円周角∠ACBの大きさを求めなさい。",
+      "answer": "84",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "円周角 = 中心角 ÷ 2",
+      "explanation": "円周角 = 168 ÷ 2 = 84°"
+    },
+    {
+      "id": 64,
+      "question": "円周上に4点A、B、C、Dがあり、弧ABに対する円周角∠ACBが29°です。同じ弧に対する円周角∠ADBの大きさを求めなさい。",
+      "answer": "29",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "同じ弧に対する円周角は等しい",
+      "explanation": "∠ADB = 29°"
+    },
+    {
+      "id": 65,
+      "question": "円に内接する四角形ABCDで、∠Aが83°のとき、∠Cの大きさを求めなさい。",
+      "answer": "97",
+      "unit": "°",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "対角の和 = 180°",
+      "explanation": "∠C = 180 - 83 = 97°"
+    },
+    {
+      "id": 66,
+      "question": "円周上に3点A、B、Cがあり、∠ACBが54°です。弧ABに対する中心角∠AOBの大きさを求めなさい。",
+      "answer": "108",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "中心角 = 円周角 × 2",
+      "explanation": "中心角 = 54 × 2 = 108°"
+    },
+    {
+      "id": 67,
+      "question": "円の弦ABに対する中心角∠AOBが104°のとき、円周角∠ACBの大きさを求めなさい。",
+      "answer": "52",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "円周角 = 中心角 ÷ 2",
+      "explanation": "円周角 = 104 ÷ 2 = 52°"
+    },
+    {
+      "id": 68,
+      "question": "円に内接する四角形ABCDで、∠Bが91°のとき、∠Dの大きさを求めなさい。",
+      "answer": "89",
+      "unit": "°",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "対角の和 = 180°",
+      "explanation": "∠D = 180 - 91 = 89°"
+    },
+    {
+      "id": 69,
+      "question": "円周上に4点A、B、C、Dがあり、弧CDに対する円周角∠CADが76°です。同じ弧に対する円周角∠CBDの大きさを求めなさい。",
+      "answer": "76",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "同じ弧に対する円周角は等しい",
+      "explanation": "∠CBD = 76°"
+    },
+    {
+      "id": 70,
+      "question": "円に内接する四角形ABCDで、∠Aが125°のとき、∠Cの大きさを求めなさい。",
+      "answer": "55",
+      "unit": "°",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "対角の和 = 180°",
+      "explanation": "∠C = 180 - 125 = 55°"
+    },
+    {
+      "id": 71,
+      "question": "円の弦ABに対する中心角∠AOBが132°のとき、円周角∠ACBの大きさを求めなさい。",
+      "answer": "66",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "円周角 = 中心角 ÷ 2",
+      "explanation": "円周角 = 132 ÷ 2 = 66°"
+    },
+    {
+      "id": 72,
+      "question": "円周上に3点A、B、Cがあり、∠ACBが37°です。弧ABに対する中心角∠AOBの大きさを求めなさい。",
+      "answer": "74",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "中心角 = 円周角 × 2",
+      "explanation": "中心角 = 37 × 2 = 74°"
+    },
+    {
+      "id": 73,
+      "question": "円に内接する四角形ABCDで、∠Bが108°のとき、∠Dの大きさを求めなさい。",
+      "answer": "72",
+      "unit": "°",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "対角の和 = 180°",
+      "explanation": "∠D = 180 - 108 = 72°"
+    },
+    {
+      "id": 74,
+      "question": "円周上に4点A、B、C、Dがあり、弧ABに対する円周角∠ACBが81°です。同じ弧に対する円周角∠ADBの大きさを求めなさい。",
+      "answer": "81",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "同じ弧に対する円周角は等しい",
+      "explanation": "∠ADB = 81°"
+    },
+    {
+      "id": 75,
+      "question": "円の弦ABに対する中心角∠AOBが148°のとき、円周角∠ACBの大きさを求めなさい。",
+      "answer": "74",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "円周角 = 中心角 ÷ 2",
+      "explanation": "円周角 = 148 ÷ 2 = 74°"
+    },
+    {
+      "id": 76,
+      "question": "円に内接する四角形ABCDで、∠Aが77°のとき、∠Cの大きさを求めなさい。",
+      "answer": "103",
+      "unit": "°",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "対角の和 = 180°",
+      "explanation": "∠C = 180 - 77 = 103°"
+    },
+    {
+      "id": 77,
+      "question": "円周上に3点A、B、Cがあり、∠ACBが68°です。弧ABに対する中心角∠AOBの大きさを求めなさい。",
+      "answer": "136",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "中心角 = 円周角 × 2",
+      "explanation": "中心角 = 68 × 2 = 136°"
+    },
+    {
+      "id": 78,
+      "question": "円に内接する四角形ABCDで、∠Bが104°のとき、∠Dの大きさを求めなさい。",
+      "answer": "76",
+      "unit": "°",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "対角の和 = 180°",
+      "explanation": "∠D = 180 - 104 = 76°"
+    },
+    {
+      "id": 79,
+      "question": "円の弦ABに対する中心角∠AOBが172°のとき、円周角∠ACBの大きさを求めなさい。",
+      "answer": "86",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "円周角 = 中心角 ÷ 2",
+      "explanation": "円周角 = 172 ÷ 2 = 86°"
+    },
+    {
+      "id": 80,
+      "question": "円周上に4点A、B、C、Dがあり、弧CDに対する円周角∠CADが49°です。同じ弧に対する円周角∠CBDの大きさを求めなさい。",
+      "answer": "49",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "同じ弧に対する円周角は等しい",
+      "explanation": "∠CBD = 49°"
+    },
+    {
+      "id": 81,
+      "question": "円に内接する四角形ABCDで、∠A = 70°、∠B = 95°のとき、∠C + ∠D の大きさを求めなさい。",
+      "answer": "195",
+      "unit": "°",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "四角形の内角の和は360°",
+      "explanation": "∠C + ∠D = 360 - 70 - 95 = 195°"
+    },
+    {
+      "id": 82,
+      "question": "円に内接する四角形ABCDで、∠A = 85°、∠C = 95°のとき、∠B + ∠D の大きさを求めなさい。",
+      "answer": "180",
+      "unit": "°",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "対角の和は180°",
+      "explanation": "∠B + ∠D = 180°（∠A + ∠C = 180°も確認）"
+    },
+    {
+      "id": 83,
+      "question": "円周上に点A、B、C、Dがこの順にあり、弧ABに対する円周角∠ACBと∠ADBがともに35°です。四角形ABCDは円に内接していますか。",
+      "answer": "はい",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "同じ弧に対する円周角が等しい",
+      "explanation": "同じ弧に対する円周角が等しいので、4点は同一円周上にあり、内接しています"
+    },
+    {
+      "id": 84,
+      "question": "円の中心Oから弦ABに垂線OHを下ろすと、AH = BHとなります。AB = 16cmのとき、AHの長さを求めなさい。",
+      "answer": "8",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "中心から弦への垂線は弦を2等分",
+      "explanation": "AH = 16 ÷ 2 = 8cm"
+    },
+    {
+      "id": 85,
+      "question": "円に内接する四角形ABCDで、∠A = 2x°、∠C = (x + 30)° のとき、xの値を求めなさい。",
+      "answer": "50",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "∠A + ∠C = 180°",
+      "explanation": "2x + x + 30 = 180 より 3x = 150 したがって x = 50"
+    },
+    {
+      "id": 86,
+      "question": "円周上に点A、B、Cがあり、∠ACBが直角です。ABは何ですか。",
+      "answer": "直径",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "直径に対する円周角は直角",
+      "explanation": "ABは直径"
+    },
+    {
+      "id": 87,
+      "question": "円に内接する四角形ABCDで、∠A = 3x°、∠C = (2x - 30)° のとき、xの値を求めなさい。",
+      "answer": "42",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "∠A + ∠C = 180°",
+      "explanation": "3x + 2x - 30 = 180 より 5x = 210 したがって x = 42"
+    },
+    {
+      "id": 88,
+      "question": "円の中心Oから弦ABに垂線OHを下ろすと、AH = BHとなります。AB = 24cmのとき、AHの長さを求めなさい。",
+      "answer": "12",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "中心から弦への垂線は弦を2等分",
+      "explanation": "AH = 24 ÷ 2 = 12cm"
+    },
+    {
+      "id": 89,
+      "question": "円に内接する四角形ABCDで、∠B = (x + 20)°、∠D = (2x - 40)° のとき、xの値を求めなさい。",
+      "answer": "66.67",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "∠B + ∠D = 180°",
+      "explanation": "x + 20 + 2x - 40 = 180 より 3x = 200 したがって x ≈ 66.67"
+    },
+    {
+      "id": 90,
+      "question": "円周上の3点A、B、Cで、∠ACBが直角のとき、線分ABと円の中心Oの関係を答えなさい。",
+      "answer": "ABは直径",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "直径に対する円周角は直角",
+      "explanation": "ABは円の直径で、OはAB上にある"
+    },
+    {
+      "id": 91,
+      "question": "円に内接する四角形ABCDで、∠A : ∠C = 2 : 3 のとき、∠Aの大きさを求めなさい。",
+      "answer": "72",
+      "unit": "°",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "∠A + ∠C = 180°、2x + 3x = 180",
+      "explanation": "2x + 3x = 180 より x = 36。∠A = 2 × 36 = 72°"
+    },
+    {
+      "id": 92,
+      "question": "円の中心Oから弦ABに垂線OHを下ろすと、AH = BHとなります。AB = 30cmのとき、AHの長さを求めなさい。",
+      "answer": "15",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "中心から弦への垂線は弦を2等分",
+      "explanation": "AH = 30 ÷ 2 = 15cm"
+    },
+    {
+      "id": 93,
+      "question": "円に内接する四角形ABCDで、∠A = (4x - 10)°、∠C = (3x + 20)° のとき、xの値を求めなさい。",
+      "answer": "24.29",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "∠A + ∠C = 180°",
+      "explanation": "4x - 10 + 3x + 20 = 180 より 7x = 170 したがって x ≈ 24.29"
+    },
+    {
+      "id": 94,
+      "question": "円周上の点A、B、Cで、ABが直径のとき、∠ACBの大きさを求めなさい。",
+      "answer": "90",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "直径に対する円周角は直角",
+      "explanation": "∠ACB = 90°"
+    },
+    {
+      "id": 95,
+      "question": "円に内接する四角形ABCDで、∠B : ∠D = 3 : 2 のとき、∠Bの大きさを求めなさい。",
+      "answer": "108",
+      "unit": "°",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "∠B + ∠D = 180°、3x + 2x = 180",
+      "explanation": "3x + 2x = 180 より x = 36。∠B = 3 × 36 = 108°"
+    },
+    {
+      "id": 96,
+      "question": "円の中心Oから弦ABに垂線OHを下ろすと、AH = BHとなります。AB = 18cmのとき、AHの長さを求めなさい。",
+      "answer": "9",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "中心から弦への垂線は弦を2等分",
+      "explanation": "AH = 18 ÷ 2 = 9cm"
+    },
+    {
+      "id": 97,
+      "question": "円に内接する四角形ABCDで、∠A = 100°、∠B = 70°のとき、∠Cの大きさを求めなさい。",
+      "answer": "80",
+      "unit": "°",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "∠A + ∠C = 180°",
+      "explanation": "∠C = 180 - 100 = 80°"
+    },
+    {
+      "id": 98,
+      "question": "円周上の3点A、B、Cで、∠ACBが90°のとき、三角形ABCは何三角形ですか。",
+      "answer": "直角三角形",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "∠ACB = 90°",
+      "explanation": "直角三角形"
+    },
+    {
+      "id": 99,
+      "question": "円に内接する四角形ABCDで、∠A : ∠C = 4 : 5 のとき、∠Cの大きさを求めなさい。",
+      "answer": "100",
+      "unit": "°",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "∠A + ∠C = 180°、4x + 5x = 180",
+      "explanation": "4x + 5x = 180 より x = 20。∠C = 5 × 20 = 100°"
+    },
+    {
+      "id": 100,
+      "question": "円の中心Oから弦ABに垂線OHを下ろすと、AH = BHとなります。AB = 40cmのとき、AHの長さを求めなさい。",
+      "answer": "20",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "中心から弦への垂線は弦を2等分",
+      "explanation": "AH = 40 ÷ 2 = 20cm"
+    }
+  ]
+}

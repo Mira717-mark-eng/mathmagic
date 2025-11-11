@@ -1,0 +1,659 @@
+{
+  "questId": "grade4-quest03",
+  "questName": "ひき算(大きい数)",
+  "grade": "小4",
+  "unitId": "elem4_subtraction_large",
+  "totalProblems": 70,
+  "problems": [
+    {
+      "id": 1,
+      "question": "8億-3億を計算しなさい。",
+      "answer": "5億",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "億の位同士を引きましょう。",
+      "explanation": "8億-3億=5億です。"
+    },
+    {
+      "id": 2,
+      "question": "9億-4億を計算しなさい。",
+      "answer": "5億",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "億の位同士を引きましょう。",
+      "explanation": "9億-4億=5億です。"
+    },
+    {
+      "id": 3,
+      "question": "13億-6億を計算しなさい。",
+      "answer": "7億",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "億の位同士を引きましょう。",
+      "explanation": "13億-6億=7億です。"
+    },
+    {
+      "id": 4,
+      "question": "17億-8億を計算しなさい。",
+      "answer": "9億",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "億の位同士を引きましょう。",
+      "explanation": "17億-8億=9億です。"
+    },
+    {
+      "id": 5,
+      "question": "59億-25億を計算しなさい。",
+      "answer": "34億",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "位をそろえて計算しましょう。",
+      "explanation": "59億-25億=34億です。"
+    },
+    {
+      "id": 6,
+      "question": "75億-47億を計算しなさい。",
+      "answer": "28億",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "位をそろえて計算しましょう。",
+      "explanation": "75億-47億=28億です。"
+    },
+    {
+      "id": 7,
+      "question": "123億-56億を計算しなさい。",
+      "answer": "67億",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "繰り下がりに注意しましょう。",
+      "explanation": "123億-56億=67億です。"
+    },
+    {
+      "id": 8,
+      "question": "134億-89億を計算しなさい。",
+      "answer": "45億",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "繰り下がりに注意しましょう。",
+      "explanation": "134億-89億=45億です。"
+    },
+    {
+      "id": 9,
+      "question": "7兆-3兆を計算しなさい。",
+      "answer": "4兆",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "兆の位同士を引きましょう。",
+      "explanation": "7兆-3兆=4兆です。"
+    },
+    {
+      "id": 10,
+      "question": "9兆-5兆を計算しなさい。",
+      "answer": "4兆",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "兆の位同士を引きましょう。",
+      "explanation": "9兆-5兆=4兆です。"
+    },
+    {
+      "id": 11,
+      "question": "15兆-7兆を計算しなさい。",
+      "answer": "8兆",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "兆の位同士を引きましょう。",
+      "explanation": "15兆-7兆=8兆です。"
+    },
+    {
+      "id": 12,
+      "question": "35兆-12兆を計算しなさい。",
+      "answer": "23兆",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "位をそろえて計算しましょう。",
+      "explanation": "35兆-12兆=23兆です。"
+    },
+    {
+      "id": 13,
+      "question": "46億8000万-12億3000万を計算しなさい。",
+      "answer": "34億5000万",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "位をそろえて計算しましょう。",
+      "explanation": "46億8000万-12億3000万=34億5000万です。"
+    },
+    {
+      "id": 14,
+      "question": "89億4000万-67億8000万を計算しなさい。",
+      "answer": "21億6000万",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "位をそろえて計算しましょう。",
+      "explanation": "89億4000万-67億8000万=21億6000万です。"
+    },
+    {
+      "id": 15,
+      "question": "84億2000万-45億7000万を計算しなさい。",
+      "answer": "38億5000万",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "繰り下がりに注意しましょう。",
+      "explanation": "84億2000万-45億7000万=38億5000万です。"
+    },
+    {
+      "id": 16,
+      "question": "104億2000万-56億9000万を計算しなさい。",
+      "answer": "47億3000万",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "繰り下がりに注意しましょう。",
+      "explanation": "104億2000万-56億9000万=47億3000万です。"
+    },
+    {
+      "id": 17,
+      "question": "579億-123億を計算しなさい。",
+      "answer": "456億",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "位をそろえて計算しましょう。",
+      "explanation": "579億-123億=456億です。"
+    },
+    {
+      "id": 18,
+      "question": "801億-234億を計算しなさい。",
+      "answer": "567億",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "繰り下がりに注意しましょう。",
+      "explanation": "801億-234億=567億です。"
+    },
+    {
+      "id": 19,
+      "question": "1023億-678億を計算しなさい。",
+      "answer": "345億",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "繰り下がりに注意しましょう。",
+      "explanation": "1023億-678億=345億です。"
+    },
+    {
+      "id": 20,
+      "question": "1245億-789億を計算しなさい。",
+      "answer": "456億",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "繰り下がりに注意しましょう。",
+      "explanation": "1245億-789億=456億です。"
+    },
+    {
+      "id": 21,
+      "question": "4兆6000億-1兆2000億を計算しなさい。",
+      "answer": "3兆4000億",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "位をそろえて計算しましょう。",
+      "explanation": "4兆6000億-1兆2000億=3兆4000億です。"
+    },
+    {
+      "id": 22,
+      "question": "4兆3000億-2兆5000億を計算しなさい。",
+      "answer": "1兆8000億",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "繰り下がりに注意しましょう。",
+      "explanation": "4兆3000億-2兆5000億=1兆8000億です。"
+    },
+    {
+      "id": 23,
+      "question": "6兆6000億-3兆7000億を計算しなさい。",
+      "answer": "2兆9000億",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "繰り下がりに注意しましょう。",
+      "explanation": "6兆6000億-3兆7000億=2兆9000億です。"
+    },
+    {
+      "id": 24,
+      "question": "10兆4000億-4兆8000億を計算しなさい。",
+      "answer": "5兆6000億",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "繰り下がりに注意しましょう。",
+      "explanation": "10兆4000億-4兆8000億=5兆6000億です。"
+    },
+    {
+      "id": 25,
+      "question": "39億3000万-25億6000万を計算しなさい。",
+      "answer": "13億7000万",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "繰り下がりに注意しましょう。",
+      "explanation": "39億3000万-25億6000万=13億7000万です。"
+    },
+    {
+      "id": 26,
+      "question": "65億2000万-38億4000万を計算しなさい。",
+      "answer": "26億8000万",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "繰り下がりに注意しましょう。",
+      "explanation": "65億2000万-38億4000万=26億8000万です。"
+    },
+    {
+      "id": 27,
+      "question": "390億-156億を計算しなさい。",
+      "answer": "234億",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "位をそろえて計算しましょう。",
+      "explanation": "390億-156億=234億です。"
+    },
+    {
+      "id": 28,
+      "question": "623億-278億を計算しなさい。",
+      "answer": "345億",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "繰り下がりに注意しましょう。",
+      "explanation": "623億-278億=345億です。"
+    },
+    {
+      "id": 29,
+      "question": "1056億-467億を計算しなさい。",
+      "answer": "589億",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "繰り下がりに注意しましょう。",
+      "explanation": "1056億-467億=589億です。"
+    },
+    {
+      "id": 30,
+      "question": "8兆-5兆3000億を計算しなさい。",
+      "answer": "2兆7000億",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "8兆=7兆10000億と考えましょう。",
+      "explanation": "8兆-5兆3000億=2兆7000億です。"
+    },
+    {
+      "id": 31,
+      "question": "10兆3000億-6兆4000億を計算しなさい。",
+      "answer": "3兆9000億",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "繰り下がりに注意しましょう。",
+      "explanation": "10兆3000億-6兆4000億=3兆9000億です。"
+    },
+    {
+      "id": 32,
+      "question": "12兆3000億-7兆5000億を計算しなさい。",
+      "answer": "4兆8000億",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "繰り下がりに注意しましょう。",
+      "explanation": "12兆3000億-7兆5000億=4兆8000億です。"
+    },
+    {
+      "id": 33,
+      "question": "57億9000万-12億3000万を計算しなさい。",
+      "answer": "45億6000万",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "位をそろえて計算しましょう。",
+      "explanation": "57億9000万-12億3000万=45億6000万です。"
+    },
+    {
+      "id": 34,
+      "question": "63億6000万-34億7000万を計算しなさい。",
+      "answer": "28億9000万",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "繰り下がりに注意しましょう。",
+      "explanation": "63億6000万-34億7000万=28億9000万です。"
+    },
+    {
+      "id": 35,
+      "question": "104億3000万-56億8000万を計算しなさい。",
+      "answer": "47億5000万",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "繰り下がりに注意しましょう。",
+      "explanation": "104億3000万-56億8000万=47億5000万です。"
+    },
+    {
+      "id": 36,
+      "question": "10兆7000億-9兆2000億を計算しなさい。",
+      "answer": "1兆5000億",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "位をそろえて計算しましょう。",
+      "explanation": "10兆7000億-9兆2000億=1兆5000億です。"
+    },
+    {
+      "id": 37,
+      "question": "1023億-345億を計算しなさい。",
+      "answer": "678億",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "繰り下がりに注意しましょう。",
+      "explanation": "1023億-345億=678億です。"
+    },
+    {
+      "id": 38,
+      "question": "1245億-456億を計算しなさい。",
+      "answer": "789億",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "繰り下がりに注意しましょう。",
+      "explanation": "1245億-456億=789億です。"
+    },
+    {
+      "id": 39,
+      "question": "16兆5000億-8兆6000億を計算しなさい。",
+      "answer": "7兆9000億",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "繰り下がりに注意しましょう。",
+      "explanation": "16兆5000億-8兆6000億=7兆9000億です。"
+    },
+    {
+      "id": 40,
+      "question": "80億1000万-23億4000万を計算しなさい。",
+      "answer": "56億7000万",
+      "type": "calculation",
+      "difficulty": "standard",
+      "hint": "繰り下がりに注意しましょう。",
+      "explanation": "80億1000万-23億4000万=56億7000万です。"
+    },
+    {
+      "id": 41,
+      "question": "2つの国の人口の合計は7億7000万人です。一方の国の人口が3億2000万人のとき、もう一方の国の人口は何人ですか。",
+      "answer": "4億5000万",
+      "unit": "人",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "合計から一方の国の人口を引きましょう。",
+      "explanation": "7億7000万-3億2000万=4億5000万人です。"
+    },
+    {
+      "id": 42,
+      "question": "2つの市の面積の合計は363億平方メートルです。A市の面積が125億平方メートルのとき、B市の面積は何平方メートルですか。",
+      "answer": "238億",
+      "unit": "平方メートル",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "合計からA市の面積を引きましょう。",
+      "explanation": "363億-125億=238億平方メートルです。"
+    },
+    {
+      "id": 43,
+      "question": "ある会社の来年の売上は4兆1000億円の見込みです。今年の売上は2兆3000億円でした。来年は今年より何円増える見込みですか。",
+      "answer": "1兆8000億",
+      "unit": "円",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "来年の売上から今年の売上を引きましょう。",
+      "explanation": "4兆1000億-2兆3000億=1兆8000億円です。"
+    },
+    {
+      "id": 44,
+      "question": "地球から火星までの距離は2億kmです。地球から太陽までの距離は1億5000万kmです。火星は太陽より何km遠いですか。",
+      "answer": "5000万",
+      "unit": "km",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "火星までの距離から太陽までの距離を引きましょう。",
+      "explanation": "2億-1億5000万=5000万kmです。"
+    },
+    {
+      "id": 45,
+      "question": "ある国の予算は、教育費と医療費の合計で6兆1000億円です。教育費が3兆4000億円のとき、医療費は何円ですか。",
+      "answer": "2兆7000億",
+      "unit": "円",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "合計から教育費を引きましょう。",
+      "explanation": "6兆1000億-3兆4000億=2兆7000億円です。"
+    },
+    {
+      "id": 46,
+      "question": "2つの星の半径の合計は124億5000万mです。一方の星の半径が45億6000万mのとき、もう一方の星の半径は何mですか。",
+      "answer": "78億9000万",
+      "unit": "m",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "合計から一方の星の半径を引きましょう。",
+      "explanation": "124億5000万-45億6000万=78億9000万mです。"
+    },
+    {
+      "id": 47,
+      "question": "図書館には小説と漫画で合計80億1000万冊あります。小説が23億4000万冊のとき、漫画は何冊ありますか。",
+      "answer": "56億7000万",
+      "unit": "冊",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "合計から小説の冊数を引きましょう。",
+      "explanation": "80億1000万-23億4000万=56億7000万冊です。"
+    },
+    {
+      "id": 48,
+      "question": "2つの国の森林面積の合計は801億平方メートルです。一方の国の森林面積が234億平方メートルのとき、もう一方の国の森林面積は何平方メートルですか。",
+      "answer": "567億",
+      "unit": "平方メートル",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "合計から一方の国の面積を引きましょう。",
+      "explanation": "801億-234億=567億平方メートルです。"
+    },
+    {
+      "id": 49,
+      "question": "2つの銀行の預金総額の合計は10兆3000億円です。A銀行の預金総額が5兆6000億円のとき、B銀行の預金総額は何円ですか。",
+      "answer": "4兆7000億",
+      "unit": "円",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "合計からA銀行の預金総額を引きましょう。",
+      "explanation": "10兆3000億-5兆6000億=4兆7000億円です。"
+    },
+    {
+      "id": 50,
+      "question": "2つの家の財産の合計は46億8000万円です。太郎さんの家の財産が12億3000万円のとき、花子さんの家の財産は何円ですか。",
+      "answer": "34億5000万",
+      "unit": "円",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "合計から太郎さんの家の財産を引きましょう。",
+      "explanation": "46億8000万-12億3000万=34億5000万円です。"
+    },
+    {
+      "id": 51,
+      "question": "ある国の輸出額と輸入額の合計は1023億円です。輸出額が678億円のとき、輸入額は何円ですか。",
+      "answer": "345億",
+      "unit": "円",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "合計から輸出額を引きましょう。",
+      "explanation": "1023億-678億=345億円です。"
+    },
+    {
+      "id": 52,
+      "question": "2つの星の質量の合計は16兆5000億kgです。一方の星の質量が8兆6000億kgのとき、もう一方の星の質量は何kgですか。",
+      "answer": "7兆9000億",
+      "unit": "kg",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "合計から一方の星の質量を引きましょう。",
+      "explanation": "16兆5000億-8兆6000億=7兆9000億kgです。"
+    },
+    {
+      "id": 53,
+      "question": "ある国の鉄道と道路の総延長の合計は89億4000万mです。鉄道の総延長が67億8000万mのとき、道路の総延長は何mですか。",
+      "answer": "21億6000万",
+      "unit": "m",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "合計から鉄道の総延長を引きましょう。",
+      "explanation": "89億4000万-67億8000万=21億6000万mです。"
+    },
+    {
+      "id": 54,
+      "question": "2つの会社の資産の合計は6兆6000億円です。A社の資産が3兆7000億円のとき、B社の資産は何円ですか。",
+      "answer": "2兆9000億",
+      "unit": "円",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "合計からA社の資産を引きましょう。",
+      "explanation": "6兆6000億-3兆7000億=2兆9000億円です。"
+    },
+    {
+      "id": 55,
+      "question": "ある国の農地と牧草地の面積の合計は390億平方メートルです。農地面積が156億平方メートルのとき、牧草地面積は何平方メートルですか。",
+      "answer": "234億",
+      "unit": "平方メートル",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "合計から農地面積を引きましょう。",
+      "explanation": "390億-156億=234億平方メートルです。"
+    },
+    {
+      "id": 56,
+      "question": "ある国の翌年の降水量は39億3000万トンでした。1年目の降水量は25億6000万トンでした。翌年は1年目より何トン増えましたか。",
+      "answer": "13億7000万",
+      "unit": "トン",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "翌年の降水量から1年目の降水量を引きましょう。",
+      "explanation": "39億3000万-25億6000万=13億7000万トンです。"
+    },
+    {
+      "id": 57,
+      "question": "太陽と木星の表面積の合計は8兆平方kmです。太陽の表面積が6兆平方kmのとき、木星の表面積は何平方kmですか。",
+      "answer": "2兆",
+      "unit": "平方km",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "合計から太陽の表面積を引きましょう。",
+      "explanation": "8兆-6兆=2兆平方kmです。"
+    },
+    {
+      "id": 58,
+      "question": "ある国の石油と天然ガスの埋蔵量の合計は10兆4000億です。石油の埋蔵量が4兆8000億バレルのとき、天然ガスの埋蔵量は何立方メートルですか。",
+      "answer": "5兆6000億",
+      "unit": "立方メートル",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "合計から石油の埋蔵量を引きましょう。",
+      "explanation": "10兆4000億-4兆8000億=5兆6000億立方メートルです。"
+    },
+    {
+      "id": 59,
+      "question": "ある会社の国内売上と海外売上の合計は623億円です。国内売上が278億円のとき、海外売上は何円ですか。",
+      "answer": "345億",
+      "unit": "円",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "合計から国内売上を引きましょう。",
+      "explanation": "623億-278億=345億円です。"
+    },
+    {
+      "id": 60,
+      "question": "ある国の砂漠と草原の面積の合計は1056億平方メートルです。砂漠の面積が467億平方メートルのとき、草原の面積は何平方メートルですか。",
+      "answer": "589億",
+      "unit": "平方メートル",
+      "type": "wordProblem",
+      "difficulty": "standard",
+      "hint": "合計から砂漠の面積を引きましょう。",
+      "explanation": "1056億-467億=589億平方メートルです。"
+    },
+    {
+      "id": 61,
+      "question": "8億-□億=5億のとき、□にあてはまる数を求めなさい。",
+      "answer": "3億",
+      "type": "reverse",
+      "difficulty": "standard",
+      "hint": "8億から5億を引きましょう。",
+      "explanation": "8億-5億=3億です。"
+    },
+    {
+      "id": 62,
+      "question": "11億-□億=4億のとき、□にあてはまる数を求めなさい。",
+      "answer": "7億",
+      "type": "reverse",
+      "difficulty": "standard",
+      "hint": "11億から4億を引きましょう。",
+      "explanation": "11億-4億=7億です。"
+    },
+    {
+      "id": 63,
+      "question": "67億-□億=25億のとき、□にあてはまる数を求めなさい。",
+      "answer": "42億",
+      "type": "reverse",
+      "difficulty": "standard",
+      "hint": "67億から25億を引きましょう。",
+      "explanation": "67億-25億=42億です。"
+    },
+    {
+      "id": 64,
+      "question": "89億-□億=34億のとき、□にあてはまる数を求めなさい。",
+      "answer": "55億",
+      "type": "reverse",
+      "difficulty": "standard",
+      "hint": "89億から34億を引きましょう。",
+      "explanation": "89億-34億=55億です。"
+    },
+    {
+      "id": 65,
+      "question": "7兆-□兆=2兆のとき、□にあてはまる数を求めなさい。",
+      "answer": "5兆",
+      "type": "reverse",
+      "difficulty": "standard",
+      "hint": "7兆から2兆を引きましょう。",
+      "explanation": "7兆-2兆=5兆です。"
+    },
+    {
+      "id": 66,
+      "question": "10兆-□兆=3兆のとき、□にあてはまる数を求めなさい。",
+      "answer": "7兆",
+      "type": "reverse",
+      "difficulty": "standard",
+      "hint": "10兆から3兆を引きましょう。",
+      "explanation": "10兆-3兆=7兆です。"
+    },
+    {
+      "id": 67,
+      "question": "5億8000万-□億3000万=2億5000万のとき、□にあてはまる数を求めなさい。",
+      "answer": "3",
+      "type": "reverse",
+      "difficulty": "standard",
+      "hint": "5億8000万から2億5000万を引きましょう。",
+      "explanation": "5億8000万-2億5000万=3億3000万なので、□=3です。"
+    },
+    {
+      "id": 68,
+      "question": "4兆7000億-□兆3000億=1兆4000億のとき、□にあてはまる数を求めなさい。",
+      "answer": "3",
+      "type": "reverse",
+      "difficulty": "standard",
+      "hint": "4兆7000億から1兆4000億を引きましょう。",
+      "explanation": "4兆7000億-1兆4000億=3兆3000億なので、□=3です。"
+    },
+    {
+      "id": 69,
+      "question": "789億-□億=456億のとき、□にあてはまる数を求めなさい。",
+      "answer": "333億",
+      "type": "reverse",
+      "difficulty": "standard",
+      "hint": "789億から456億を引きましょう。",
+      "explanation": "789億-456億=333億です。"
+    },
+    {
+      "id": 70,
+      "question": "9兆4000億-□兆2000億=5兆2000億のとき、□にあてはまる数を求めなさい。",
+      "answer": "4",
+      "type": "reverse",
+      "difficulty": "standard",
+      "hint": "9兆4000億から5兆2000億を引きましょう。",
+      "explanation": "9兆4000億-5兆2000億=4兆2000億なので、□=4です。"
+    }
+  ]
+}

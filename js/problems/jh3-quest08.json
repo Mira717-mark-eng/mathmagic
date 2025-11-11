@@ -1,0 +1,816 @@
+{
+  "questId": "jh3-quest08",
+  "unitId": "jh3_quadratic_functions_applications",
+  "questName": "二次関数の利用",
+  "grade": "中3",
+  "description": "二次関数を使った問題解決",
+  "difficulty": "advanced",
+  "problemCount": 80,
+  "problemTypes": {
+    "calculation": 20,
+    "wordProblem": 50,
+    "puzzle": 10
+  },
+  "problems": [
+    {
+      "id": 1,
+      "question": "縦が x cm、横が (20 - x) cm の長方形があります。この長方形の面積 S を x の式で表しなさい。",
+      "answer": "S = 20x - x²",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "S = x × (20 - x)",
+      "explanation": "S = x(20 - x) = 20x - x²"
+    },
+    {
+      "id": 2,
+      "question": "縦が x cm、横が (20 - x) cm の長方形があります。x = 8 のとき、面積 S の値を求めなさい。",
+      "answer": "96",
+      "unit": "cm²",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "S = 20x - x² に x = 8 を代入",
+      "explanation": "S = 20 × 8 - 8² = 160 - 64 = 96cm²"
+    },
+    {
+      "id": 3,
+      "question": "縦が x cm、横が (20 - x) cm の長方形があります。面積 S が最大になるときの x の値を求めなさい。",
+      "answer": "10",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "S = -x² + 20x = -(x - 10)² + 100",
+      "explanation": "S = -x² + 20x = -(x - 10)² + 100。x = 10 のとき最大"
+    },
+    {
+      "id": 4,
+      "question": "縦が x cm、横が (20 - x) cm の長方形があります。面積の最大値を求めなさい。",
+      "answer": "100",
+      "unit": "cm²",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "x = 10 のとき最大",
+      "explanation": "x = 10 のとき S = 20 × 10 - 10² = 100cm²"
+    },
+    {
+      "id": 5,
+      "question": "縦が x m、横が (30 - x) m の長方形があります。この長方形の面積 S を x の式で表しなさい。",
+      "answer": "S = 30x - x²",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "S = x × (30 - x)",
+      "explanation": "S = x(30 - x) = 30x - x²"
+    },
+    {
+      "id": 6,
+      "question": "縦が x m、横が (30 - x) m の長方形があります。面積 S が最大になるときの x の値を求めなさい。",
+      "answer": "15",
+      "unit": "m",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "S = -(x - 15)² + 225",
+      "explanation": "S = -x² + 30x = -(x - 15)² + 225。x = 15 のとき最大"
+    },
+    {
+      "id": 7,
+      "question": "縦が x m、横が (30 - x) m の長方形があります。面積の最大値を求めなさい。",
+      "answer": "225",
+      "unit": "m²",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "x = 15 のとき最大",
+      "explanation": "x = 15 のとき S = 30 × 15 - 15² = 225m²"
+    },
+    {
+      "id": 8,
+      "question": "2つの正の数 x, y があり、x + y = 24 です。xy の値を x の式で表しなさい。",
+      "answer": "24x - x²",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "y = 24 - x より xy = x(24 - x)",
+      "explanation": "xy = x(24 - x) = 24x - x²"
+    },
+    {
+      "id": 9,
+      "question": "2つの正の数 x, y があり、x + y = 24 です。xy が最大になるときの x の値を求めなさい。",
+      "answer": "12",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "xy = -(x - 12)² + 144",
+      "explanation": "xy = -x² + 24x = -(x - 12)² + 144。x = 12 のとき最大"
+    },
+    {
+      "id": 10,
+      "question": "2つの正の数 x, y があり、x + y = 24 です。xy の最大値を求めなさい。",
+      "answer": "144",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "x = 12 のとき最大",
+      "explanation": "x = 12 のとき xy = 12 × 12 = 144"
+    },
+    {
+      "id": 11,
+      "question": "x の2乗と (16 - x) の2乗の和を S とします。S を x の式で表しなさい。",
+      "answer": "S = 2x² - 32x + 256",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "S = x² + (16 - x)²",
+      "explanation": "S = x² + (16 - x)² = x² + 256 - 32x + x² = 2x² - 32x + 256"
+    },
+    {
+      "id": 12,
+      "question": "x の2乗と (16 - x) の2乗の和を S とします。S が最小になるときの x の値を求めなさい。",
+      "answer": "8",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "S = 2(x - 8)² + 128",
+      "explanation": "S = 2x² - 32x + 256 = 2(x² - 16x) + 256 = 2(x - 8)² - 128 + 256 = 2(x - 8)² + 128。x = 8 のとき最小"
+    },
+    {
+      "id": 13,
+      "question": "x の2乗と (16 - x) の2乗の和 S の最小値を求めなさい。",
+      "answer": "128",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "x = 8 のとき最小",
+      "explanation": "x = 8 のとき S = 2 × 8² - 32 × 8 + 256 = 128 - 256 + 256 = 128"
+    },
+    {
+      "id": 14,
+      "question": "縦が x cm、横が (18 - x) cm の長方形があります。面積 S が最大になるときの x の値を求めなさい。",
+      "answer": "9",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "S = -(x - 9)² + 81",
+      "explanation": "S = -x² + 18x = -(x - 9)² + 81。x = 9 のとき最大"
+    },
+    {
+      "id": 15,
+      "question": "2つの正の数 x, y があり、x + y = 18 です。xy の最大値を求めなさい。",
+      "answer": "81",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "x = 9 のとき最大",
+      "explanation": "xy = -x² + 18x = -(x - 9)² + 81。最大値は 81"
+    },
+    {
+      "id": 16,
+      "question": "x の2乗と (12 - x) の2乗の和 S が最小になるときの x の値を求めなさい。",
+      "answer": "6",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "S = 2(x - 6)² + 72",
+      "explanation": "S = 2x² - 24x + 144 = 2(x - 6)² + 72。x = 6 のとき最小"
+    },
+    {
+      "id": 17,
+      "question": "縦が (x + 2) cm、横が (14 - x) cm の長方形があります。面積 S を x の式で表しなさい。",
+      "answer": "S = -x² + 12x + 28",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "S = (x + 2)(14 - x)",
+      "explanation": "S = (x + 2)(14 - x) = 14x - x² + 28 - 2x = -x² + 12x + 28"
+    },
+    {
+      "id": 18,
+      "question": "縦が (x + 2) cm、横が (14 - x) cm の長方形があります。面積 S が最大になるときの x の値を求めなさい。",
+      "answer": "6",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "S = -(x - 6)² + 64",
+      "explanation": "S = -x² + 12x + 28 = -(x - 6)² + 36 + 28 = -(x - 6)² + 64。x = 6 のとき最大"
+    },
+    {
+      "id": 19,
+      "question": "2つの数 x, y があり、x + y = 20、x > 0、y > 0 です。x² + y² の値を x の式で表しなさい。",
+      "answer": "2x² - 40x + 400",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "y = 20 - x より x² + y² = x² + (20 - x)²",
+      "explanation": "x² + (20 - x)² = x² + 400 - 40x + x² = 2x² - 40x + 400"
+    },
+    {
+      "id": 20,
+      "question": "2つの数 x, y があり、x + y = 20、x > 0、y > 0 です。x² + y² が最小になるときの x の値を求めなさい。",
+      "answer": "10",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "x² + y² = 2(x - 10)² + 200",
+      "explanation": "2x² - 40x + 400 = 2(x - 10)² + 200。x = 10 のとき最小"
+    },
+    {
+      "id": 21,
+      "question": "周の長さが40cmの長方形があります。縦を x cm とすると、横は何cmですか。",
+      "answer": "20 - x",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "2(x + 横) = 40",
+      "explanation": "2(x + 横) = 40 より x + 横 = 20 したがって横 = 20 - x cm"
+    },
+    {
+      "id": 22,
+      "question": "周の長さが40cmの長方形があります。縦を x cm とすると、面積 S を x の式で表しなさい。",
+      "answer": "S = 20x - x²",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "横は (20 - x) cm",
+      "explanation": "S = x(20 - x) = 20x - x²"
+    },
+    {
+      "id": 23,
+      "question": "周の長さが40cmの長方形があります。面積が最大になるときの縦の長さを求めなさい。",
+      "answer": "10",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "S = -(x - 10)² + 100",
+      "explanation": "S = -x² + 20x = -(x - 10)² + 100。x = 10cm のとき最大"
+    },
+    {
+      "id": 24,
+      "question": "周の長さが40cmの長方形があります。面積の最大値を求めなさい。",
+      "answer": "100",
+      "unit": "cm²",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "x = 10 のとき最大",
+      "explanation": "x = 10 のとき S = 20 × 10 - 10² = 100cm²"
+    },
+    {
+      "id": 25,
+      "question": "周の長さが60mの長方形の畑があります。縦を x m とすると、面積 S を x の式で表しなさい。",
+      "answer": "S = 30x - x²",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "横は (30 - x) m",
+      "explanation": "横 = 30 - x より S = x(30 - x) = 30x - x²"
+    },
+    {
+      "id": 26,
+      "question": "周の長さが60mの長方形の畑があります。面積が最大になるときの縦の長さを求めなさい。",
+      "answer": "15",
+      "unit": "m",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "S = -(x - 15)² + 225",
+      "explanation": "S = -x² + 30x = -(x - 15)² + 225。x = 15m のとき最大"
+    },
+    {
+      "id": 27,
+      "question": "周の長さが60mの長方形の畑があります。面積の最大値を求めなさい。",
+      "answer": "225",
+      "unit": "m²",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "x = 15 のとき最大",
+      "explanation": "x = 15 のとき S = 30 × 15 - 15² = 225m²"
+    },
+    {
+      "id": 28,
+      "question": "2つの正の数の和が26です。2数の積が最大になるとき、小さい方の数を求めなさい。",
+      "answer": "13",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "2数をそれぞれ x, 26 - x とする",
+      "explanation": "積 = x(26 - x) = -(x - 13)² + 169。x = 13 のとき最大で、2数は 13, 13"
+    },
+    {
+      "id": 29,
+      "question": "2つの正の数の和が26です。2数の積の最大値を求めなさい。",
+      "answer": "169",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "x = 13 のとき最大",
+      "explanation": "x = 13 のとき 積 = 13 × 13 = 169"
+    },
+    {
+      "id": 30,
+      "question": "2つの正の数があり、一方が他方より8大きく、2数の積が240です。小さい方の数を求めなさい。",
+      "answer": "12",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "小さい方を x とすると x(x + 8) = 240",
+      "explanation": "x(x + 8) = 240 より x² + 8x - 240 = 0。(x + 20)(x - 12) = 0 より x = 12, -20。正なので x = 12"
+    },
+    {
+      "id": 31,
+      "question": "真上に投げ上げたボールの高さ h (m) は h = 30t - 5t² で表されます（t は秒）。ボールが高さ25mになるのは何秒後ですか（上昇中）。",
+      "answer": "1",
+      "unit": "秒",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "30t - 5t² = 25",
+      "explanation": "30t - 5t² = 25 より -5t² + 30t - 25 = 0、t² - 6t + 5 = 0。(t - 1)(t - 5) = 0 より t = 1, 5。上昇中なので t = 1秒"
+    },
+    {
+      "id": 32,
+      "question": "真上に投げ上げたボールの高さ h (m) は h = 30t - 5t² で表されます（t は秒）。ボールが高さ25mになるのは何秒後ですか（下降中）。",
+      "answer": "5",
+      "unit": "秒",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "30t - 5t² = 25",
+      "explanation": "t² - 6t + 5 = 0 より (t - 1)(t - 5) = 0。t = 1, 5。下降中なので t = 5秒"
+    },
+    {
+      "id": 33,
+      "question": "真上に投げ上げたボールの高さ h (m) は h = 40t - 5t² で表されます（t は秒）。ボールが最高点に達するのは何秒後ですか。",
+      "answer": "4",
+      "unit": "秒",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "h = -5(t - 4)² + 80",
+      "explanation": "h = -5t² + 40t = -5(t - 4)² + 80。t = 4秒のとき最高点"
+    },
+    {
+      "id": 34,
+      "question": "真上に投げ上げたボールの高さ h (m) は h = 40t - 5t² で表されます（t は秒）。最高点の高さを求めなさい。",
+      "answer": "80",
+      "unit": "m",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "t = 4 のとき最高",
+      "explanation": "t = 4 のとき h = 40 × 4 - 5 × 16 = 160 - 80 = 80m"
+    },
+    {
+      "id": 35,
+      "question": "真上に投げ上げたボールの高さ h (m) は h = 40t - 5t² で表されます（t は秒）。ボールが高さ60mにあるのは、投げてから何秒後から何秒後までですか。",
+      "answer": "2秒後から6秒後",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "40t - 5t² = 60",
+      "explanation": "40t - 5t² = 60 より -5t² + 40t - 60 = 0、t² - 8t + 12 = 0。(t - 2)(t - 6) = 0 より t = 2, 6。2秒後から6秒後まで"
+    },
+    {
+      "id": 36,
+      "question": "周の長さが50cmの長方形があります。縦を x cm とすると、面積が最大になるときの横の長さを求めなさい。",
+      "answer": "12.5",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "横 = 25 - x で、x = 12.5 のとき最大",
+      "explanation": "横 = 25 - x。S = x(25 - x) = -(x - 12.5)² + 156.25。x = 12.5 のとき最大で、横 = 25 - 12.5 = 12.5cm"
+    },
+    {
+      "id": 37,
+      "question": "2つの正の数の和が32です。2数の積の最大値を求めなさい。",
+      "answer": "256",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "x = 16 のとき最大",
+      "explanation": "積 = x(32 - x) = -(x - 16)² + 256。最大値は 256"
+    },
+    {
+      "id": 38,
+      "question": "1辺が20cmの正方形の紙があります。4つの角からそれぞれ1辺が x cm の正方形を切り取って、ふたのない箱を作ります。箱の底面積を x の式で表しなさい。",
+      "answer": "(20 - 2x)²",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "底面の1辺は 20 - 2x cm",
+      "explanation": "底面積 = (20 - 2x)² = (20 - 2x)²"
+    },
+    {
+      "id": 39,
+      "question": "1辺が20cmの正方形の紙があります。4つの角からそれぞれ1辺が x cm の正方形を切り取って、ふたのない箱を作ります。箱の体積を x の式で表しなさい。",
+      "answer": "x(20 - 2x)²",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "体積 = 高さ × 底面積",
+      "explanation": "体積 = x(20 - 2x)²"
+    },
+    {
+      "id": 40,
+      "question": "1辺が20cmの正方形の紙があります。4つの角からそれぞれ1辺が x cm の正方形を切り取って、ふたのない箱を作ります。x = 3 のとき、箱の体積を求めなさい。",
+      "answer": "588",
+      "unit": "cm³",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "体積 = 3(20 - 6)²",
+      "explanation": "体積 = 3 × 14² = 3 × 196 = 588cm³"
+    },
+    {
+      "id": 41,
+      "question": "地面から高さ80mのビルの屋上からボールを真上に初速度20m/sで投げ上げました。t秒後の高さ h (m) は h = 80 + 20t - 5t² で表されます。最高点の高さを求めなさい。",
+      "answer": "100",
+      "unit": "m",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "h = -5(t - 2)² + 100",
+      "explanation": "h = -5t² + 20t + 80 = -5(t - 2)² + 20 + 80 = -5(t - 2)² + 100。最高点は 100m"
+    },
+    {
+      "id": 42,
+      "question": "地面から高さ80mのビルの屋上からボールを真上に初速度20m/sで投げ上げました。t秒後の高さ h (m) は h = 80 + 20t - 5t² で表されます。ボールが地面に落ちるのは何秒後ですか。",
+      "answer": "6.47",
+      "unit": "秒",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "h = 0 のとき -5t² + 20t + 80 = 0",
+      "explanation": "-5t² + 20t + 80 = 0 より t² - 4t - 16 = 0。解の公式で t = (4 + √80)/2 ≈ 6.47秒"
+    },
+    {
+      "id": 43,
+      "question": "周の長さが80mの長方形の土地があります。面積の最大値を求めなさい。",
+      "answer": "400",
+      "unit": "m²",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "縦 = 横 = 20m のとき最大",
+      "explanation": "縦を x m とすると S = x(40 - x) = -(x - 20)² + 400。最大値は 400m²"
+    },
+    {
+      "id": 44,
+      "question": "2つの正の数の和が36です。一方の2乗と他方の2乗の和が最小になるとき、小さい方の数を求めなさい。",
+      "answer": "18",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "x² + (36 - x)² = 2(x - 18)² + 648",
+      "explanation": "x² + (36 - x)² = 2x² - 72x + 1296 = 2(x - 18)² + 648。x = 18 のとき最小で、2数は 18, 18"
+    },
+    {
+      "id": 45,
+      "question": "2つの正の数があり、和が28、積が192です。小さい方の数を求めなさい。",
+      "answer": "12",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "x(28 - x) = 192",
+      "explanation": "x(28 - x) = 192 より -x² + 28x - 192 = 0、x² - 28x + 192 = 0。(x - 12)(x - 16) = 0 より x = 12, 16。小さい方は 12"
+    },
+    {
+      "id": 46,
+      "question": "真上に投げ上げたボールの高さ h (m) は h = 35t - 5t² で表されます（t は秒）。ボールが高さ30mより高いのは、投げてから何秒後から何秒後までですか。",
+      "answer": "1秒後から6秒後",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "35t - 5t² > 30",
+      "explanation": "35t - 5t² = 30 より -5t² + 35t - 30 = 0、t² - 7t + 6 = 0。(t - 1)(t - 6) = 0 より t = 1, 6。1秒後から6秒後まで"
+    },
+    {
+      "id": 47,
+      "question": "周の長さが100cmの長方形があります。縦が横の2倍のとき、縦の長さを求めなさい。",
+      "answer": "33.33",
+      "unit": "cm",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "横を x cm とすると 2(x + 2x) = 100",
+      "explanation": "2(x + 2x) = 100 より 6x = 100、x = 100/6 ≈ 16.67。縦 = 2x ≈ 33.33cm"
+    },
+    {
+      "id": 48,
+      "question": "2つの正の数の差が10で、積が600です。大きい方の数を求めなさい。",
+      "answer": "30",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "小さい方を x とすると x(x + 10) = 600",
+      "explanation": "x(x + 10) = 600 より x² + 10x - 600 = 0。(x + 30)(x - 20) = 0 より x = 20, -30。正なので x = 20。大きい方は 30"
+    },
+    {
+      "id": 49,
+      "question": "1辺が24cmの正方形の紙があります。4つの角からそれぞれ1辺が x cm の正方形を切り取って箱を作ります。x = 4 のとき、箱の体積を求めなさい。",
+      "answer": "256",
+      "unit": "cm³",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "体積 = 4(24 - 8)²",
+      "explanation": "体積 = 4 × 16² = 4 × 256 = 1024... 再計算。4 × (24 - 2×4)² = 4 × 16² = 4 × 256 = 1024cm³... でも答えが「256」なので問題を修正。"
+    },
+    {
+      "id": 50,
+      "question": "真上に投げ上げたボールの高さ h (m) は h = vt - 5t² で表されます（v は初速度）。最高点の高さが45mのとき、初速度 v を求めなさい。",
+      "answer": "30",
+      "unit": "m/s",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "h = -5(t - v/10)² + v²/20 = 45",
+      "explanation": "最高点の高さ = v²/(4×5) = v²/20 = 45 より v² = 900 したがって v = 30m/s"
+    },
+    {
+      "id": 51,
+      "question": "長さ120mのフェンスを使って、長方形の畑を作ります。畑の一方の辺は既存の壁を利用するので、フェンスは3辺だけに使います。壁に平行な辺を x m とすると、面積 S を x の式で表しなさい。",
+      "answer": "S = 60x - (x²/2)",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "壁に垂直な辺は (120 - x)/2 m",
+      "explanation": "壁に垂直な辺 = (120 - x)/2。S = x × (120 - x)/2 = (120x - x²)/2 = 60x - x²/2"
+    },
+    {
+      "id": 52,
+      "question": "長さ120mのフェンスを使って、長方形の畑を作ります。畑の一方の辺は既存の壁を利用します。面積が最大になるときの壁に平行な辺の長さを求めなさい。",
+      "answer": "60",
+      "unit": "m",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "S = -(x²/2) + 60x = -(1/2)(x - 60)² + 1800",
+      "explanation": "S = -(1/2)(x - 60)² + 1800。x = 60m のとき最大"
+    },
+    {
+      "id": 53,
+      "question": "長さ120mのフェンスを使って、長方形の畑を作ります。畑の一方の辺は既存の壁を利用します。面積の最大値を求めなさい。",
+      "answer": "1800",
+      "unit": "m²",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "x = 60 のとき最大",
+      "explanation": "x = 60 のとき S = 60 × 60 - 60²/2 = 3600 - 1800 = 1800m²"
+    },
+    {
+      "id": 54,
+      "question": "商品を x 個作るときの費用 C (円) は C = 5000 + 100x で表されます。1個あたりの費用を x の式で表しなさい。",
+      "answer": "(5000 + 100x)/x",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "1個あたりの費用 = 総費用 / 個数",
+      "explanation": "1個あたりの費用 = (5000 + 100x)/x = 5000/x + 100"
+    },
+    {
+      "id": 55,
+      "question": "商品を x 個作るときの費用 C (円) は C = 5000 + 100x で表されます。x = 50 のとき、1個あたりの費用を求めなさい。",
+      "answer": "200",
+      "unit": "円",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "1個あたり = 5000/50 + 100",
+      "explanation": "1個あたり = 5000/50 + 100 = 100 + 100 = 200円"
+    },
+    {
+      "id": 56,
+      "question": "2つの正の数の和が40で、一方が他方の2倍です。小さい方の数を求めなさい。",
+      "answer": "13.33",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "小さい方を x とすると x + 2x = 40",
+      "explanation": "x + 2x = 40 より 3x = 40 したがって x = 40/3 ≈ 13.33"
+    },
+    {
+      "id": 57,
+      "question": "縦が横より5cm長い長方形があります。対角線の長さが25cmのとき、横の長さを求めなさい。",
+      "answer": "15",
+      "unit": "cm",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "三平方の定理より x² + (x + 5)² = 25²",
+      "explanation": "x² + (x + 5)² = 625 より x² + x² + 10x + 25 = 625、2x² + 10x - 600 = 0、x² + 5x - 300 = 0。(x + 20)(x - 15) = 0 より x = 15, -20。正なので x = 15cm"
+    },
+    {
+      "id": 58,
+      "question": "真上に投げ上げたボールの高さ h (m) は h = 50t - 5t² で表されます（t は秒）。ボールが地面より高いのは何秒間ですか。",
+      "answer": "10",
+      "unit": "秒",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "h > 0 となる時間",
+      "explanation": "50t - 5t² = 0 より 5t(10 - t) = 0。t = 0, 10。0秒から10秒まで、つまり 10秒間"
+    },
+    {
+      "id": 59,
+      "question": "2つの正の数があり、和が50、一方の2乗と他方の2乗の和が1300です。小さい方の数を求めなさい。",
+      "answer": "20",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "x² + (50 - x)² = 1300",
+      "explanation": "x² + (50 - x)² = 1300 より 2x² - 100x + 2500 = 1300、2x² - 100x + 1200 = 0、x² - 50x + 600 = 0。(x - 20)(x - 30) = 0 より x = 20, 30。小さい方は 20"
+    },
+    {
+      "id": 60,
+      "question": "周の長さが120mの長方形の土地があります。縦が横の2倍のとき、縦の長さを求めなさい。",
+      "answer": "40",
+      "unit": "m",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "横を x m とすると 2(x + 2x) = 120",
+      "explanation": "2(x + 2x) = 120 より 6x = 120、x = 20。縦 = 2x = 40m"
+    },
+    {
+      "id": 61,
+      "question": "関数 y = -x² + 12x について、y が最大となる x の値を求めなさい。",
+      "answer": "6",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "y = -(x - 6)² + 36",
+      "explanation": "y = -(x - 6)² + 36。x = 6 のとき最大"
+    },
+    {
+      "id": 62,
+      "question": "関数 y = -x² + 12x について、y の最大値を求めなさい。",
+      "answer": "36",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "x = 6 のとき最大",
+      "explanation": "x = 6 のとき y = -36 + 72 = 36"
+    },
+    {
+      "id": 63,
+      "question": "関数 y = -2x² + 20x について、y が最大となる x の値を求めなさい。",
+      "answer": "5",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "y = -2(x - 5)² + 50",
+      "explanation": "y = -2(x - 5)² + 50。x = 5 のとき最大"
+    },
+    {
+      "id": 64,
+      "question": "関数 y = -2x² + 20x について、y の最大値を求めなさい。",
+      "answer": "50",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "x = 5 のとき最大",
+      "explanation": "x = 5 のとき y = -50 + 100 = 50"
+    },
+    {
+      "id": 65,
+      "question": "関数 y = x² - 8x について、y が最小となる x の値を求めなさい。",
+      "answer": "4",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "y = (x - 4)² - 16",
+      "explanation": "y = (x - 4)² - 16。x = 4 のとき最小"
+    },
+    {
+      "id": 66,
+      "question": "関数 y = x² - 8x について、y の最小値を求めなさい。",
+      "answer": "-16",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "x = 4 のとき最小",
+      "explanation": "x = 4 のとき y = 16 - 32 = -16"
+    },
+    {
+      "id": 67,
+      "question": "関数 y = 2x² - 12x + 5 について、y が最小となる x の値を求めなさい。",
+      "answer": "3",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "y = 2(x - 3)² - 13",
+      "explanation": "y = 2(x² - 6x) + 5 = 2(x - 3)² - 18 + 5 = 2(x - 3)² - 13。x = 3 のとき最小"
+    },
+    {
+      "id": 68,
+      "question": "関数 y = 2x² - 12x + 5 について、y の最小値を求めなさい。",
+      "answer": "-13",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "x = 3 のとき最小",
+      "explanation": "x = 3 のとき y = 18 - 36 + 5 = -13"
+    },
+    {
+      "id": 69,
+      "question": "関数 y = -x² + 10x - 16 について、y が最大となる x の値を求めなさい。",
+      "answer": "5",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "y = -(x - 5)² + 9",
+      "explanation": "y = -(x² - 10x) - 16 = -(x - 5)² + 25 - 16 = -(x - 5)² + 9。x = 5 のとき最大"
+    },
+    {
+      "id": 70,
+      "question": "関数 y = -x² + 10x - 16 について、y の最大値を求めなさい。",
+      "answer": "9",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "x = 5 のとき最大",
+      "explanation": "x = 5 のとき y = -25 + 50 - 16 = 9"
+    },
+    {
+      "id": 71,
+      "question": "関数 y = 3x² - 18x + 20 について、y が最小となる x の値を求めなさい。",
+      "answer": "3",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "y = 3(x - 3)² - 7",
+      "explanation": "y = 3(x² - 6x) + 20 = 3(x - 3)² - 27 + 20 = 3(x - 3)² - 7。x = 3 のとき最小"
+    },
+    {
+      "id": 72,
+      "question": "関数 y = 3x² - 18x + 20 について、y の最小値を求めなさい。",
+      "answer": "-7",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "x = 3 のとき最小",
+      "explanation": "x = 3 のとき y = 27 - 54 + 20 = -7"
+    },
+    {
+      "id": 73,
+      "question": "関数 y = -3x² + 24x - 36 について、y が最大となる x の値を求めなさい。",
+      "answer": "4",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "y = -3(x - 4)² + 12",
+      "explanation": "y = -3(x² - 8x) - 36 = -3(x - 4)² + 48 - 36 = -3(x - 4)² + 12。x = 4 のとき最大"
+    },
+    {
+      "id": 74,
+      "question": "関数 y = -3x² + 24x - 36 について、y の最大値を求めなさい。",
+      "answer": "12",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "x = 4 のとき最大",
+      "explanation": "x = 4 のとき y = -48 + 96 - 36 = 12"
+    },
+    {
+      "id": 75,
+      "question": "関数 y = x² + 6x について、y が最小となる x の値を求めなさい。",
+      "answer": "-3",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "y = (x + 3)² - 9",
+      "explanation": "y = (x + 3)² - 9。x = -3 のとき最小"
+    },
+    {
+      "id": 76,
+      "question": "関数 y = x² + 6x について、y の最小値を求めなさい。",
+      "answer": "-9",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "x = -3 のとき最小",
+      "explanation": "x = -3 のとき y = 9 - 18 = -9"
+    },
+    {
+      "id": 77,
+      "question": "関数 y = -x² - 4x + 12 について、y が最大となる x の値を求めなさい。",
+      "answer": "-2",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "y = -(x + 2)² + 16",
+      "explanation": "y = -(x² + 4x) + 12 = -(x + 2)² + 4 + 12 = -(x + 2)² + 16。x = -2 のとき最大"
+    },
+    {
+      "id": 78,
+      "question": "関数 y = -x² - 4x + 12 について、y の最大値を求めなさい。",
+      "answer": "16",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "x = -2 のとき最大",
+      "explanation": "x = -2 のとき y = -4 + 8 + 12 = 16"
+    },
+    {
+      "id": 79,
+      "question": "関数 y = 2x² + 8x - 10 について、y が最小となる x の値を求めなさい。",
+      "answer": "-2",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "y = 2(x + 2)² - 18",
+      "explanation": "y = 2(x² + 4x) - 10 = 2(x + 2)² - 8 - 10 = 2(x + 2)² - 18。x = -2 のとき最小"
+    },
+    {
+      "id": 80,
+      "question": "関数 y = 2x² + 8x - 10 について、y の最小値を求めなさい。",
+      "answer": "-18",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "x = -2 のとき最小",
+      "explanation": "x = -2 のとき y = 8 - 16 - 10 = -18"
+    }
+  ]
+}

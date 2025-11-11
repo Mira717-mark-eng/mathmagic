@@ -1,0 +1,459 @@
+{
+  "questId": "grade3-quest12",
+  "questName": "円と球",
+  "grade": "小3",
+  "unitId": "elem3_circles",
+  "totalProblems": 50,
+  "problems": [
+    {
+      "id": 1,
+      "question": "円の中心から円のふちまでの長さを何といいますか。",
+      "answer": "半径",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "円の性質を思い出しましょう。",
+      "explanation": "円の中心から円のふちまでの長さを半径といいます。"
+    },
+    {
+      "id": 2,
+      "question": "円のふちを通って中心を通る直線の長さを何といいますか。",
+      "answer": "直径",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "円の性質を思い出しましょう。",
+      "explanation": "円のふちを通って中心を通る直線の長さを直径といいます。"
+    },
+    {
+      "id": 3,
+      "question": "半径が3cmの円の直径は何cmですか。",
+      "answer": "6cm",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "円の性質を思い出しましょう。",
+      "explanation": "直径 = 半径 × 2なので、3cm × 2 = 6cmです。"
+    },
+    {
+      "id": 4,
+      "question": "半径が5cmの円の直径は何cmですか。",
+      "answer": "10cm",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "円の性質を思い出しましょう。",
+      "explanation": "直径 = 半径 × 2なので、5cm × 2 = 10cmです。"
+    },
+    {
+      "id": 5,
+      "question": "直径が8cmの円の半径は何cmですか。",
+      "answer": "4cm",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "円の性質を思い出しましょう。",
+      "explanation": "半径 = 直径 ÷ 2なので、8cm ÷ 2 = 4cmです。"
+    },
+    {
+      "id": 6,
+      "question": "直径が12cmの円の半径は何cmですか。",
+      "answer": "6cm",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "円の性質を思い出しましょう。",
+      "explanation": "半径 = 直径 ÷ 2なので、12cm ÷ 2 = 6cmです。"
+    },
+    {
+      "id": 7,
+      "question": "半径が4cmの円の直径は何cmですか。",
+      "answer": "8cm",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "円の性質を思い出しましょう。",
+      "explanation": "直径 = 半径 × 2なので、4cm × 2 = 8cmです。"
+    },
+    {
+      "id": 8,
+      "question": "直径が10cmの円の半径は何cmですか。",
+      "answer": "5cm",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "円の性質を思い出しましょう。",
+      "explanation": "半径 = 直径 ÷ 2なので、10cm ÷ 2 = 5cmです。"
+    },
+    {
+      "id": 9,
+      "question": "半径が2cmの円の直径は何cmですか。",
+      "answer": "4cm",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "円の性質を思い出しましょう。",
+      "explanation": "直径 = 半径 × 2なので、2cm × 2 = 4cmです。"
+    },
+    {
+      "id": 10,
+      "question": "直径が14cmの円の半径は何cmですか。",
+      "answer": "7cm",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "円の性質を思い出しましょう。",
+      "explanation": "半径 = 直径 ÷ 2なので、14cm ÷ 2 = 7cmです。"
+    },
+    {
+      "id": 11,
+      "question": "半径が6cmの円の直径は何cmですか。",
+      "answer": "12cm",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "円の性質を思い出しましょう。",
+      "explanation": "直径 = 半径 × 2なので、6cm × 2 = 12cmです。"
+    },
+    {
+      "id": 12,
+      "question": "直径が18cmの円の半径は何cmですか。",
+      "answer": "9cm",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "円の性質を思い出しましょう。",
+      "explanation": "半径 = 直径 ÷ 2なので、18cm ÷ 2 = 9cmです。"
+    },
+    {
+      "id": 13,
+      "question": "半径が7cmの円の直径は何cmですか。",
+      "answer": "14cm",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "円の性質を思い出しましょう。",
+      "explanation": "直径 = 半径 × 2なので、7cm × 2 = 14cmです。"
+    },
+    {
+      "id": 14,
+      "question": "直径が16cmの円の半径は何cmですか。",
+      "answer": "8cm",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "円の性質を思い出しましょう。",
+      "explanation": "半径 = 直径 ÷ 2なので、16cm ÷ 2 = 8cmです。"
+    },
+    {
+      "id": 15,
+      "question": "半径が8cmの円の直径は何cmですか。",
+      "answer": "16cm",
+      "type": "calculation",
+      "difficulty": "basic",
+      "hint": "円の性質を思い出しましょう。",
+      "explanation": "直径 = 半径 × 2なので、8cm × 2 = 16cmです。"
+    },
+    {
+      "id": 16,
+      "question": "コンパスで半径3cmの円をかきます。針と鉛筆の間を何cmにすればよいですか。",
+      "answer": "3cm",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "半径と直径の関係を使って考えましょう。",
+      "explanation": "コンパスの針と鉛筆の間を半径の長さにします。3cmです。"
+    },
+    {
+      "id": 17,
+      "question": "直径が8cmの円をコンパスでかきます。針と鉛筆の間を何cmにすればよいですか。",
+      "answer": "4cm",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "半径と直径の関係を使って考えましょう。",
+      "explanation": "半径 = 直径 ÷ 2なので、8cm ÷ 2 = 4cmです。"
+    },
+    {
+      "id": 18,
+      "question": "半径が5cmの円の直径は何cmですか。",
+      "answer": "10cm",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "半径と直径の関係を使って考えましょう。",
+      "explanation": "直径 = 半径 × 2なので、5cm × 2 = 10cmです。"
+    },
+    {
+      "id": 19,
+      "question": "円のふちから中心までの長さが4cmです。この円の直径は何cmですか。",
+      "answer": "8cm",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "半径と直径の関係を使って考えましょう。",
+      "explanation": "半径が4cmなので、直径は4cm × 2 = 8cmです。"
+    },
+    {
+      "id": 20,
+      "question": "円の直径が12cmです。半径は何cmですか。",
+      "answer": "6cm",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "半径と直径の関係を使って考えましょう。",
+      "explanation": "半径 = 直径 ÷ 2なので、12cm ÷ 2 = 6cmです。"
+    },
+    {
+      "id": 21,
+      "question": "コンパスで円をかきました。針と鉛筆の間は6cmです。この円の直径は何cmですか。",
+      "answer": "12cm",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "半径と直径の関係を使って考えましょう。",
+      "explanation": "半径が6cmなので、直径は6cm × 2 = 12cmです。"
+    },
+    {
+      "id": 22,
+      "question": "大きな円の半径は8cm、小さな円の半径は3cmです。大きな円の半径は小さな円の半径の何倍ですか。",
+      "answer": "約2.7倍",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "半径と直径の関係を使って考えましょう。",
+      "explanation": "8cm ÷ 3cm ≒ 2.7倍です。"
+    },
+    {
+      "id": 23,
+      "question": "円Aの直径は10cm、円Bの直径は5cmです。円Aの直径は円Bの直径の何倍ですか。",
+      "answer": "2倍",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "半径と直径の関係を使って考えましょう。",
+      "explanation": "10cm ÷ 5cm = 2倍です。"
+    },
+    {
+      "id": 24,
+      "question": "半径が7cmの円の直径は何cmですか。",
+      "answer": "14cm",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "半径と直径の関係を使って考えましょう。",
+      "explanation": "直径 = 半径 × 2なので、7cm × 2 = 14cmです。"
+    },
+    {
+      "id": 25,
+      "question": "直径が20cmの円の半径は何cmですか。",
+      "answer": "10cm",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "半径と直径の関係を使って考えましょう。",
+      "explanation": "半径 = 直径 ÷ 2なので、20cm ÷ 2 = 10cmです。"
+    },
+    {
+      "id": 26,
+      "question": "球の中心から表面までの長さを何といいますか。",
+      "answer": "半径",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "半径と直径の関係を使って考えましょう。",
+      "explanation": "球の中心から表面までの長さを半径といいます。"
+    },
+    {
+      "id": 27,
+      "question": "球を真ん中で切ったときの切り口は何の形ですか。",
+      "answer": "円",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "半径と直径の関係を使って考えましょう。",
+      "explanation": "球を真ん中で切ると、切り口は円になります。"
+    },
+    {
+      "id": 28,
+      "question": "半径3cmの球を真ん中で切りました。切り口の円の半径は何cmですか。",
+      "answer": "3cm",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "半径と直径の関係を使って考えましょう。",
+      "explanation": "球の半径と同じ3cmです。"
+    },
+    {
+      "id": 29,
+      "question": "ボールの半径は10cmです。このボールを真ん中で切ったときの切り口の円の直径は何cmですか。",
+      "answer": "20cm",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "半径と直径の関係を使って考えましょう。",
+      "explanation": "半径が10cmなので、直径は10cm × 2 = 20cmです。"
+    },
+    {
+      "id": 30,
+      "question": "直径が6cmの球があります。この球の半径は何cmですか。",
+      "answer": "3cm",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "半径と直径の関係を使って考えましょう。",
+      "explanation": "半径 = 直径 ÷ 2なので、6cm ÷ 2 = 3cmです。"
+    },
+    {
+      "id": 31,
+      "question": "半径が4cmの円をかきました。この円と同じ大きさの円をかくには、コンパスの針と鉛筆の間を何cmにすればよいですか。",
+      "answer": "4cm",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "半径と直径の関係を使って考えましょう。",
+      "explanation": "半径と同じ4cmにします。"
+    },
+    {
+      "id": 32,
+      "question": "円の中心から5cm離れた点は、円のふちにあります。この円の直径は何cmですか。",
+      "answer": "10cm",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "半径と直径の関係を使って考えましょう。",
+      "explanation": "半径が5cmなので、直径は5cm × 2 = 10cmです。"
+    },
+    {
+      "id": 33,
+      "question": "直径が24cmの円があります。この円の半径は何cmですか。",
+      "answer": "12cm",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "半径と直径の関係を使って考えましょう。",
+      "explanation": "半径 = 直径 ÷ 2なので、24cm ÷ 2 = 12cmです。"
+    },
+    {
+      "id": 34,
+      "question": "半径が9cmの円の直径は何cmですか。",
+      "answer": "18cm",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "半径と直径の関係を使って考えましょう。",
+      "explanation": "直径 = 半径 × 2なので、9cm × 2 = 18cmです。"
+    },
+    {
+      "id": 35,
+      "question": "球の直径が8cmです。この球の半径は何cmですか。",
+      "answer": "4cm",
+      "type": "wordProblem",
+      "difficulty": "basic",
+      "hint": "半径と直径の関係を使って考えましょう。",
+      "explanation": "半径 = 直径 ÷ 2なので、8cm ÷ 2 = 4cmです。"
+    },
+    {
+      "id": 36,
+      "question": "円の半径は直径の何分のいくつですか。",
+      "answer": "2分の1",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "円と球の性質を考えましょう。",
+      "explanation": "半径は直径の2分の1です。"
+    },
+    {
+      "id": 37,
+      "question": "円の直径は半径の何倍ですか。",
+      "answer": "2倍",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "円と球の性質を考えましょう。",
+      "explanation": "直径は半径の2倍です。"
+    },
+    {
+      "id": 38,
+      "question": "円には中心がいくつありますか。",
+      "answer": "1つ",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "円と球の性質を考えましょう。",
+      "explanation": "円の中心は1つだけです。"
+    },
+    {
+      "id": 39,
+      "question": "半径が同じ円は同じ大きさですか。",
+      "answer": "はい",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "円と球の性質を考えましょう。",
+      "explanation": "半径が同じなら、円の大きさも同じです。"
+    },
+    {
+      "id": 40,
+      "question": "直径が同じ円は同じ大きさですか。",
+      "answer": "はい",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "円と球の性質を考えましょう。",
+      "explanation": "直径が同じなら、円の大きさも同じです。"
+    },
+    {
+      "id": 41,
+      "question": "円の中心を通る直線は、円を何等分しますか。",
+      "answer": "2等分",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "円と球の性質を考えましょう。",
+      "explanation": "円の中心を通る直線は、円を2等分します。"
+    },
+    {
+      "id": 42,
+      "question": "球を真ん中で切ると、切り口は何の形ですか。",
+      "answer": "円",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "円と球の性質を考えましょう。",
+      "explanation": "球を真ん中で切ると、切り口は円になります。"
+    },
+    {
+      "id": 43,
+      "question": "円の半径が2倍になると、直径は何倍になりますか。",
+      "answer": "2倍",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "円と球の性質を考えましょう。",
+      "explanation": "半径が2倍なら、直径も2倍になります。"
+    },
+    {
+      "id": 44,
+      "question": "コンパスで円をかくとき、針を刺す場所はどこですか。",
+      "answer": "円の中心",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "円と球の性質を考えましょう。",
+      "explanation": "コンパスの針は円の中心に刺します。"
+    },
+    {
+      "id": 45,
+      "question": "コンパスで円をかくとき、針と鉛筆の間の長さは何ですか。",
+      "answer": "半径",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "円と球の性質を考えましょう。",
+      "explanation": "針と鉛筆の間の長さは半径です。"
+    },
+    {
+      "id": 46,
+      "question": "円のふちの1点から中心までの長さはどこも同じですか。",
+      "answer": "はい",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "円と球の性質を考えましょう。",
+      "explanation": "円のふちのどの点から中心までの長さも同じです（半径）。"
+    },
+    {
+      "id": 47,
+      "question": "球の中心から表面のどの点までの長さも同じですか。",
+      "answer": "はい",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "円と球の性質を考えましょう。",
+      "explanation": "球の中心から表面のどの点までの長さも同じです（半径）。"
+    },
+    {
+      "id": 48,
+      "question": "円Aの半径は3cm、円Bの半径は6cmです。円Bの半径は円Aの半径の何倍ですか。",
+      "answer": "2倍",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "円と球の性質を考えましょう。",
+      "explanation": "6cm ÷ 3cm = 2倍です。"
+    },
+    {
+      "id": 49,
+      "question": "直径が半径の2倍であることを使って、半径が10cmの円の直径を求めましょう。",
+      "answer": "20cm",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "円と球の性質を考えましょう。",
+      "explanation": "10cm × 2 = 20cmです。"
+    },
+    {
+      "id": 50,
+      "question": "半径が直径の半分であることを使って、直径が30cmの円の半径を求めましょう。",
+      "answer": "15cm",
+      "type": "puzzle",
+      "difficulty": "basic",
+      "hint": "円と球の性質を考えましょう。",
+      "explanation": "30cm ÷ 2 = 15cmです。"
+    }
+  ]
+}
