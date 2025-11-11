@@ -1,0 +1,516 @@
+{
+  "questId": "grade2-quest08",
+  "unitId": "elem2_shapes_properties",
+  "questName": "三角形と四角形",
+  "grade": "小2",
+  "description": "図形の性質を学ぼう",
+  "difficulty": "basic",
+  "problemCount": 50,
+  "problemTypes": {
+    "calculation": 0,
+    "wordProblem": 25,
+    "puzzle": 25
+  },
+  "problems": [
+    {
+      "id": 1,
+      "question": "三角形には、ちょう点が何こありますか。",
+      "answer": "3",
+      "unit": "こ",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "かどのかずです",
+      "explanation": "三角形のちょう点（かど）は3こです"
+    },
+    {
+      "id": 2,
+      "question": "三角形には、へんが何本ありますか。",
+      "answer": "3",
+      "unit": "本",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "まっすぐなせんのかずです",
+      "explanation": "三角形のへん（まっすぐなせん）は3本です"
+    },
+    {
+      "id": 3,
+      "question": "四角形には、ちょう点が何こありますか。",
+      "answer": "4",
+      "unit": "こ",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "かどのかずです",
+      "explanation": "四角形のちょう点（かど）は4こです"
+    },
+    {
+      "id": 4,
+      "question": "四角形には、へんが何本ありますか。",
+      "answer": "4",
+      "unit": "本",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "まっすぐなせんのかずです",
+      "explanation": "四角形のへん（まっすぐなせん）は4本です"
+    },
+    {
+      "id": 5,
+      "question": "正方形には、ちょう点が何こありますか。",
+      "answer": "4",
+      "unit": "こ",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "正方形は四角形のなかまです",
+      "explanation": "正方形のちょう点は4こです"
+    },
+    {
+      "id": 6,
+      "question": "長方形には、へんが何本ありますか。",
+      "answer": "4",
+      "unit": "本",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "長方形は四角形のなかまです",
+      "explanation": "長方形のへんは4本です"
+    },
+    {
+      "id": 7,
+      "question": "正方形の4つのへんの長さは、どうなっていますか。",
+      "answer": "ぜんぶおなじ",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "正方形のとくちょうです",
+      "explanation": "正方形の4つのへんの長さはぜんぶおなじです"
+    },
+    {
+      "id": 8,
+      "question": "長方形の向かいあうへんの長さは、どうなっていますか。",
+      "answer": "おなじ",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "長方形のとくちょうです",
+      "explanation": "長方形の向かいあうへんの長さはおなじです"
+    },
+    {
+      "id": 9,
+      "question": "正方形の4つのかどの大きさは、どうなっていますか。",
+      "answer": "ぜんぶちょっかく",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "正方形はきれいな四角形です",
+      "explanation": "正方形の4つのかどはぜんぶちょっかく（直角）です"
+    },
+    {
+      "id": 10,
+      "question": "長方形の4つのかどの大きさは、どうなっていますか。",
+      "answer": "ぜんぶちょっかく",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "長方形もきれいな四角形です",
+      "explanation": "長方形の4つのかどはぜんぶちょっかく（直角）です"
+    },
+    {
+      "id": 11,
+      "question": "正方形で、1つのへんが5cmのとき、4つのへんの長さの合計は何cmですか。",
+      "answer": "20",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "5 + 5 + 5 + 5",
+      "explanation": "5 × 4 = 20cm"
+    },
+    {
+      "id": 12,
+      "question": "長方形で、たての長さが3cm、よこの長さが7cmのとき、4つのへんの長さの合計は何cmですか。",
+      "answer": "20",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "3 + 7 + 3 + 7",
+      "explanation": "(3 + 7) × 2 = 20cm"
+    },
+    {
+      "id": 13,
+      "question": "正方形で、1つのへんが8cmのとき、4つのへんの長さの合計は何cmですか。",
+      "answer": "32",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "8 + 8 + 8 + 8",
+      "explanation": "8 × 4 = 32cm"
+    },
+    {
+      "id": 14,
+      "question": "長方形で、たての長さが4cm、よこの長さが9cmのとき、4つのへんの長さの合計は何cmですか。",
+      "answer": "26",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "4 + 9 + 4 + 9",
+      "explanation": "(4 + 9) × 2 = 26cm"
+    },
+    {
+      "id": 15,
+      "question": "正方形で、1つのへんが6cmのとき、4つのへんの長さの合計は何cmですか。",
+      "answer": "24",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "6 + 6 + 6 + 6",
+      "explanation": "6 × 4 = 24cm"
+    },
+    {
+      "id": 16,
+      "question": "長方形で、たての長さが5cm、よこの長さが6cmのとき、4つのへんの長さの合計は何cmですか。",
+      "answer": "22",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "5 + 6 + 5 + 6",
+      "explanation": "(5 + 6) × 2 = 22cm"
+    },
+    {
+      "id": 17,
+      "question": "正方形で、4つのへんの長さの合計が28cmのとき、1つのへんの長さは何cmですか。",
+      "answer": "7",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "28 ÷ 4",
+      "explanation": "28 ÷ 4 = 7cm"
+    },
+    {
+      "id": 18,
+      "question": "長方形で、たての長さが2cm、4つのへんの長さの合計が12cmのとき、よこの長さは何cmですか。",
+      "answer": "4",
+      "unit": "cm",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "12 - 2 - 2 = 8、8 ÷ 2",
+      "explanation": "(12 - 2 × 2) ÷ 2 = 4cm"
+    },
+    {
+      "id": 19,
+      "question": "正方形で、4つのへんの長さの合計が36cmのとき、1つのへんの長さは何cmですか。",
+      "answer": "9",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "36 ÷ 4",
+      "explanation": "36 ÷ 4 = 9cm"
+    },
+    {
+      "id": 20,
+      "question": "長方形で、たての長さが3cm、4つのへんの長さの合計が18cmのとき、よこの長さは何cmですか。",
+      "answer": "6",
+      "unit": "cm",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "18 - 3 - 3 = 12、12 ÷ 2",
+      "explanation": "(18 - 3 × 2) ÷ 2 = 6cm"
+    },
+    {
+      "id": 21,
+      "question": "正方形で、1つのへんが10cmのとき、4つのへんの長さの合計は何cmですか。",
+      "answer": "40",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "10 × 4",
+      "explanation": "10 × 4 = 40cm"
+    },
+    {
+      "id": 22,
+      "question": "長方形で、たての長さが5cm、よこの長さが8cmのとき、4つのへんの長さの合計は何cmですか。",
+      "answer": "26",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "5 + 8 + 5 + 8",
+      "explanation": "(5 + 8) × 2 = 26cm"
+    },
+    {
+      "id": 23,
+      "question": "正方形で、4つのへんの長さの合計が20cmのとき、1つのへんの長さは何cmですか。",
+      "answer": "5",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "20 ÷ 4",
+      "explanation": "20 ÷ 4 = 5cm"
+    },
+    {
+      "id": 24,
+      "question": "長方形で、たての長さが6cm、4つのへんの長さの合計が24cmのとき、よこの長さは何cmですか。",
+      "answer": "6",
+      "unit": "cm",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "24 - 6 - 6 = 12、12 ÷ 2",
+      "explanation": "(24 - 6 × 2) ÷ 2 = 6cm"
+    },
+    {
+      "id": 25,
+      "question": "三角形のかたちをしたものを、えらびなさい。おにぎり、ピザ、ボール、ほん",
+      "answer": "おにぎり",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "さんかくのかたち",
+      "explanation": "おにぎりは三角形のかたちをしています"
+    },
+    {
+      "id": 26,
+      "question": "ちょう点が3こある図形は何ですか。",
+      "answer": "三角形",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "さんかく",
+      "explanation": "ちょう点が3この図形は三角形です"
+    },
+    {
+      "id": 27,
+      "question": "ちょう点が4こある図形は何ですか。",
+      "answer": "四角形",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "しかく",
+      "explanation": "ちょう点が4この図形は四角形です"
+    },
+    {
+      "id": 28,
+      "question": "へんが3本ある図形は何ですか。",
+      "answer": "三角形",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "さんかく",
+      "explanation": "へんが3本ある図形は三角形です"
+    },
+    {
+      "id": 29,
+      "question": "へんが4本ある図形は何ですか。",
+      "answer": "四角形",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "しかく",
+      "explanation": "へんが4本ある図形は四角形です"
+    },
+    {
+      "id": 30,
+      "question": "4つのへんがぜんぶおなじ長さの四角形は何ですか。",
+      "answer": "正方形",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "せいほうけい",
+      "explanation": "4つのへんがぜんぶおなじ長さの四角形は正方形です"
+    },
+    {
+      "id": 31,
+      "question": "4つのかどがぜんぶちょっかくで、向かいあうへんの長さがおなじ四角形は何ですか。",
+      "answer": "長方形",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "ちょうほうけい",
+      "explanation": "長方形です（正方形も長方形のなかまですが、ここでは長方形）"
+    },
+    {
+      "id": 32,
+      "question": "三角形をあつめて四角形をつくることができますか。",
+      "answer": "はい",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "2つの三角形をくみあわせます",
+      "explanation": "2つの三角形をくみあわせると四角形ができます"
+    },
+    {
+      "id": 33,
+      "question": "正方形のかたちをしたものを、えらびなさい。ハンカチ、さんかくじょうぎ、ボール、えんぴつ",
+      "answer": "ハンカチ",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "しかくのかたち",
+      "explanation": "ハンカチは正方形のかたちをしています"
+    },
+    {
+      "id": 34,
+      "question": "長方形のかたちをしたものを、えらびなさい。ノート、ボール、さんかくじょうぎ、えんぴつ",
+      "answer": "ノート",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "よこながのしかく",
+      "explanation": "ノートは長方形のかたちをしています"
+    },
+    {
+      "id": 35,
+      "question": "ちょう点の数が、三角形より1こおおい図形は何ですか。",
+      "answer": "四角形",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "3 + 1 = 4",
+      "explanation": "三角形は3こ、四角形は4こです"
+    },
+    {
+      "id": 36,
+      "question": "へんの数が、三角形より1本おおい図形は何ですか。",
+      "answer": "四角形",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "3 + 1 = 4",
+      "explanation": "三角形は3本、四角形は4本です"
+    },
+    {
+      "id": 37,
+      "question": "三角形を2つくみあわせると、何ができますか。",
+      "answer": "四角形",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "三角形をくっつけます",
+      "explanation": "三角形を2つくみあわせると四角形ができます"
+    },
+    {
+      "id": 38,
+      "question": "正方形の1つのへんが4cmです。4つのへんの長さの合計は何cmですか。",
+      "answer": "16",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "4 × 4",
+      "explanation": "4 × 4 = 16cm"
+    },
+    {
+      "id": 39,
+      "question": "長方形のたてが2cm、よこが5cmです。4つのへんの長さの合計は何cmですか。",
+      "answer": "14",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "2 + 5 + 2 + 5",
+      "explanation": "(2 + 5) × 2 = 14cm"
+    },
+    {
+      "id": 40,
+      "question": "正方形の4つのへんの長さの合計が16cmです。1つのへんの長さは何cmですか。",
+      "answer": "4",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "16 ÷ 4",
+      "explanation": "16 ÷ 4 = 4cm"
+    },
+    {
+      "id": 41,
+      "question": "三角形は、まっすぐなせんで囲まれた図形です。せんは何本ひつようですか。",
+      "answer": "3",
+      "unit": "本",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "三角形のへんのかず",
+      "explanation": "三角形をつくるには3本のせんがひつようです"
+    },
+    {
+      "id": 42,
+      "question": "四角形は、まっすぐなせんで囲まれた図形です。せんは何本ひつようですか。",
+      "answer": "4",
+      "unit": "本",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "四角形のへんのかず",
+      "explanation": "四角形をつくるには4本のせんがひつようです"
+    },
+    {
+      "id": 43,
+      "question": "正方形の1つのへんが7cmです。4つのへんの長さの合計は何cmですか。",
+      "answer": "28",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "7 × 4",
+      "explanation": "7 × 4 = 28cm"
+    },
+    {
+      "id": 44,
+      "question": "長方形のたてが3cm、よこが8cmです。4つのへんの長さの合計は何cmですか。",
+      "answer": "22",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "3 + 8 + 3 + 8",
+      "explanation": "(3 + 8) × 2 = 22cm"
+    },
+    {
+      "id": 45,
+      "question": "正方形の4つのへんの長さの合計が24cmです。1つのへんの長さは何cmですか。",
+      "answer": "6",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "24 ÷ 4",
+      "explanation": "24 ÷ 4 = 6cm"
+    },
+    {
+      "id": 46,
+      "question": "四角形をたて1本のせんで2つにわけると、どんな図形が2つできますか。",
+      "answer": "三角形",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "かどからかどへせんをひきます",
+      "explanation": "四角形をななめにせんでわけると三角形が2つできます"
+    },
+    {
+      "id": 47,
+      "question": "正方形の1つのへんが9cmです。4つのへんの長さの合計は何cmですか。",
+      "answer": "36",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "9 × 4",
+      "explanation": "9 × 4 = 36cm"
+    },
+    {
+      "id": 48,
+      "question": "長方形のたてが4cm、よこが6cmです。4つのへんの長さの合計は何cmですか。",
+      "answer": "20",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "4 + 6 + 4 + 6",
+      "explanation": "(4 + 6) × 2 = 20cm"
+    },
+    {
+      "id": 49,
+      "question": "正方形の4つのへんの長さの合計が32cmです。1つのへんの長さは何cmですか。",
+      "answer": "8",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "32 ÷ 4",
+      "explanation": "32 ÷ 4 = 8cm"
+    },
+    {
+      "id": 50,
+      "question": "長方形のたてが5cm、4つのへんの長さの合計が22cmです。よこの長さは何cmですか。",
+      "answer": "6",
+      "unit": "cm",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "22 - 5 - 5 = 12、12 ÷ 2",
+      "explanation": "(22 - 5 × 2) ÷ 2 = 6cm"
+    }
+  ]
+}

@@ -1,0 +1,416 @@
+{
+  "questId": "grade1-quest10",
+  "unitId": "elem1_comparison",
+  "questName": "おおきさくらべ",
+  "grade": "小1",
+  "description": "長さ、広さ、かさを比べよう",
+  "difficulty": "basic",
+  "problemCount": 40,
+  "problemTypes": {
+    "calculation": 0,
+    "wordProblem": 20,
+    "puzzle": 20
+  },
+  "problems": [
+    {
+      "id": 1,
+      "question": "えんぴつAは10cm、えんぴつBは7cmです。どちらがながいですか。",
+      "answer": "えんぴつA",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "おおきいかずのほうがながい",
+      "explanation": "10は7よりおおきいので、えんぴつAがながいです"
+    },
+    {
+      "id": 2,
+      "question": "テープAは15cm、テープBは20cmです。どちらがながいですか。",
+      "answer": "テープB",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "おおきいかずのほうがながい",
+      "explanation": "20は15よりおおきいので、テープBがながいです"
+    },
+    {
+      "id": 3,
+      "question": "みずがコップに8はいっています。バケツには10はいっています。どちらにおおくはいっていますか。",
+      "answer": "バケツ",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "おおきいかずのほうがおおい",
+      "explanation": "10は8よりおおきいので、バケツにおおくはいっています"
+    },
+    {
+      "id": 4,
+      "question": "ノートAは12ページ、ノートBは9ページです。どちらがあついですか。",
+      "answer": "ノートA",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "ページがおおいほうがあつい",
+      "explanation": "12は9よりおおきいので、ノートAがあついです"
+    },
+    {
+      "id": 5,
+      "question": "りんごが5こ、みかんが8こあります。どちらがおおいですか。",
+      "answer": "みかん",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "おおきいかずのほうがおおい",
+      "explanation": "8は5よりおおきいので、みかんがおおいです"
+    },
+    {
+      "id": 6,
+      "question": "えんぴつAは8cm、えんぴつBは12cmです。どちらがみじかいですか。",
+      "answer": "えんぴつA",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "ちいさいかずのほうがみじかい",
+      "explanation": "8は12よりちいさいので、えんぴつAがみじかいです"
+    },
+    {
+      "id": 7,
+      "question": "ほんAは6ページ、ほんBは15ページです。どちらがうすいですか。",
+      "answer": "ほんA",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "ページがすくないほうがうすい",
+      "explanation": "6は15よりちいさいので、ほんAがうすいです"
+    },
+    {
+      "id": 8,
+      "question": "コップAには7はいっています。コップBには4はいっています。どちらにすくなくはいっていますか。",
+      "answer": "コップB",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "ちいさいかずのほうがすくない",
+      "explanation": "4は7よりちいさいので、コップBにすくなくはいっています"
+    },
+    {
+      "id": 9,
+      "question": "つくえAのたかさは50cm、つくえBのたかさは60cmです。どちらがたかいですか。",
+      "answer": "つくえB",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "おおきいかずのほうがたかい",
+      "explanation": "60は50よりおおきいので、つくえBがたかいです"
+    },
+    {
+      "id": 10,
+      "question": "いすAのたかさは30cm、いすBのたかさは40cmです。どちらがひくいですか。",
+      "answer": "いすA",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "ちいさいかずのほうがひくい",
+      "explanation": "30は40よりちいさいので、いすAがひくいです"
+    },
+    {
+      "id": 11,
+      "question": "はこAのひろさは10、はこBのひろさは14です。どちらがひろいですか。",
+      "answer": "はこB",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "おおきいかずのほうがひろい",
+      "explanation": "14は10よりおおきいので、はこBがひろいです"
+    },
+    {
+      "id": 12,
+      "question": "にわAのひろさは20、にわBのひろさは16です。どちらがせまいですか。",
+      "answer": "にわB",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "ちいさいかずのほうがせまい",
+      "explanation": "16は20よりちいさいので、にわBがせまいです"
+    },
+    {
+      "id": 13,
+      "question": "リボンAは18cm、リボンBは13cmです。どちらがながいですか。",
+      "answer": "リボンA",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "おおきいかずのほうがながい",
+      "explanation": "18は13よりおおきいので、リボンAがながいです"
+    },
+    {
+      "id": 14,
+      "question": "ひもAは9cm、ひもBは11cmです。どちらがみじかいですか。",
+      "answer": "ひもA",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "ちいさいかずのほうがみじかい",
+      "explanation": "9は11よりちいさいので、ひもAがみじかいです"
+    },
+    {
+      "id": 15,
+      "question": "ペットボトルAには12はいっています。ペットボトルBには8はいっています。どちらにおおくはいっていますか。",
+      "answer": "ペットボトルA",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "おおきいかずのほうがおおい",
+      "explanation": "12は8よりおおきいので、ペットボトルAにおおくはいっています"
+    },
+    {
+      "id": 16,
+      "question": "かみAのながさは17cm、かみBのながさは19cmです。どちらがみじかいですか。",
+      "answer": "かみA",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "ちいさいかずのほうがみじかい",
+      "explanation": "17は19よりちいさいので、かみAがみじかいです"
+    },
+    {
+      "id": 17,
+      "question": "えAのたかさは11cm、えBのたかさは14cmです。どちらがたかいですか。",
+      "answer": "えB",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "おおきいかずのほうがたかい",
+      "explanation": "14は11よりおおきいので、えBがたかいです"
+    },
+    {
+      "id": 18,
+      "question": "はしAのながさは15cm、はしBのながさは20cmです。どちらがながいですか。",
+      "answer": "はしB",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "おおきいかずのほうがながい",
+      "explanation": "20は15よりおおきいので、はしBがながいです"
+    },
+    {
+      "id": 19,
+      "question": "ふくろAには6こ、ふくろBには10こはいっています。どちらにすくなくはいっていますか。",
+      "answer": "ふくろA",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "ちいさいかずのほうがすくない",
+      "explanation": "6は10よりちいさいので、ふくろAにすくなくはいっています"
+    },
+    {
+      "id": 20,
+      "question": "きAのたかさは16、きBのたかさは13です。どちらがひくいですか。",
+      "answer": "きB",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "ちいさいかずのほうがひくい",
+      "explanation": "13は16よりちいさいので、きBがひくいです"
+    },
+    {
+      "id": 21,
+      "question": "3ほんのえんぴつがあります。どれがいちばんながいですか。A:10cm、B:8cm、C:12cm",
+      "answer": "C",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "いちばんおおきいかずをさがす",
+      "explanation": "12がいちばんおおきいので、Cがいちばんながいです"
+    },
+    {
+      "id": 22,
+      "question": "3つのコップにみずがはいっています。どれがいちばんおおいですか。A:7、B:9、C:5",
+      "answer": "B",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "いちばんおおきいかずをさがす",
+      "explanation": "9がいちばんおおきいので、Bがいちばんおおいです"
+    },
+    {
+      "id": 23,
+      "question": "3つのはこがあります。どれがいちばんひろいですか。A:15、B:11、C:18",
+      "answer": "C",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "いちばんおおきいかずをさがす",
+      "explanation": "18がいちばんおおきいので、Cがいちばんひろいです"
+    },
+    {
+      "id": 24,
+      "question": "3ぼんのテープがあります。どれがいちばんみじかいですか。A:14cm、B:9cm、C:16cm",
+      "answer": "B",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "いちばんちいさいかずをさがす",
+      "explanation": "9がいちばんちいさいので、Bがいちばんみじかいです"
+    },
+    {
+      "id": 25,
+      "question": "3さつのほんがあります。どれがいちばんうすいですか。A:10ページ、B:15ページ、C:8ページ",
+      "answer": "C",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "ページがいちばんすくないものをさがす",
+      "explanation": "8ページがいちばんすくないので、Cがいちばんうすいです"
+    },
+    {
+      "id": 26,
+      "question": "3つのいすがあります。どれがいちばんたかいですか。A:35cm、B:40cm、C:30cm",
+      "answer": "B",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "いちばんおおきいかずをさがす",
+      "explanation": "40がいちばんおおきいので、Bがいちばんたかいです"
+    },
+    {
+      "id": 27,
+      "question": "3つのふくろにおかしがはいっています。どれがいちばんすくないですか。A:12こ、B:7こ、C:10こ",
+      "answer": "B",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "いちばんちいさいかずをさがす",
+      "explanation": "7がいちばんちいさいので、Bがいちばんすくないです"
+    },
+    {
+      "id": 28,
+      "question": "4ほんのえんぴつがあります。どれがいちばんながいですか。A:9cm、B:13cm、C:11cm、D:15cm",
+      "answer": "D",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "いちばんおおきいかずをさがす",
+      "explanation": "15がいちばんおおきいので、Dがいちばんながいです"
+    },
+    {
+      "id": 29,
+      "question": "4つのペットボトルにみずがはいっています。どれがいちばんすくないですか。A:6、B:10、C:4、D:8",
+      "answer": "C",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "いちばんちいさいかずをさがす",
+      "explanation": "4がいちばんちいさいので、Cがいちばんすくないです"
+    },
+    {
+      "id": 30,
+      "question": "3つのはこがあります。どれがいちばんせまいですか。A:17、B:13、C:19",
+      "answer": "B",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "いちばんちいさいかずをさがす",
+      "explanation": "13がいちばんちいさいので、Bがいちばんせまいです"
+    },
+    {
+      "id": 31,
+      "question": "3ぽんのひもがあります。どれがいちばんながいですか。A:11cm、B:16cm、C:14cm",
+      "answer": "B",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "いちばんおおきいかずをさがす",
+      "explanation": "16がいちばんおおきいので、Bがいちばんながいです"
+    },
+    {
+      "id": 32,
+      "question": "4つのつくえがあります。どれがいちばんひくいですか。A:50cm、B:45cm、C:55cm、D:48cm",
+      "answer": "B",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "いちばんちいさいかずをさがす",
+      "explanation": "45がいちばんちいさいので、Bがいちばんひくいです"
+    },
+    {
+      "id": 33,
+      "question": "3さつのノートがあります。どれがいちばんあついですか。A:18ページ、B:12ページ、C:20ページ",
+      "answer": "C",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "ページがいちばんおおいものをさがす",
+      "explanation": "20ページがいちばんおおいので、Cがいちばんあついです"
+    },
+    {
+      "id": 34,
+      "question": "4つのコップにジュースがはいっています。どれがいちばんおおいですか。A:9、B:11、C:7、D:13",
+      "answer": "D",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "いちばんおおきいかずをさがす",
+      "explanation": "13がいちばんおおきいので、Dがいちばんおおいです"
+    },
+    {
+      "id": 35,
+      "question": "5ほんのえんぴつがあります。どれがいちばんみじかいですか。A:10cm、B:8cm、C:12cm、D:9cm、E:11cm",
+      "answer": "B",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "いちばんちいさいかずをさがす",
+      "explanation": "8がいちばんちいさいので、Bがいちばんみじかいです"
+    },
+    {
+      "id": 36,
+      "question": "3つのにわがあります。どれがいちばんひろいですか。A:14、B:20、C:16",
+      "answer": "B",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "いちばんおおきいかずをさがす",
+      "explanation": "20がいちばんおおきいので、Bがいちばんひろいです"
+    },
+    {
+      "id": 37,
+      "question": "4ぽんのテープがあります。どれがいちばんながいですか。A:15cm、B:19cm、C:17cm、D:13cm",
+      "answer": "B",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "いちばんおおきいかずをさがす",
+      "explanation": "19がいちばんおおきいので、Bがいちばんながいです"
+    },
+    {
+      "id": 38,
+      "question": "5つのはこがあります。どれがいちばんせまいですか。A:18、B:14、C:16、D:12、E:15",
+      "answer": "D",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "いちばんちいさいかずをさがす",
+      "explanation": "12がいちばんちいさいので、Dがいちばんせまいです"
+    },
+    {
+      "id": 39,
+      "question": "3つのきがあります。どれがいちばんたかいですか。A:15、B:19、C:17",
+      "answer": "B",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "いちばんおおきいかずをさがす",
+      "explanation": "19がいちばんおおきいので、Bがいちばんたかいです"
+    },
+    {
+      "id": 40,
+      "question": "4つのバケツにみずがはいっています。どれがいちばんすくないですか。A:11、B:9、C:13、D:10",
+      "answer": "B",
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "いちばんちいさいかずをさがす",
+      "explanation": "9がいちばんちいさいので、Bがいちばんすくないです"
+    }
+  ]
+}
