@@ -12,6 +12,8 @@ let questSession = null;
 let currentProblem = null;
 let problemsData = null; // 読み込んだ問題データ
 let attemptCount = 0; // 試行回数
+let currentStory = null; // ストーリーデータ
+let storyIntroShown = false; // ストーリーイントロ表示済みフラグ
 
 /**
  * 問題ファイルを読み込み
@@ -68,6 +70,11 @@ async function initQuestSession() {
     questSession = session;
     currentProblemIndex = session.currentIndex || 0;
 
+    // results配列が存在しない場合は初期化
+    if (!questSession.results) {
+        questSession.results = [];
+    }
+
     if (session.startTime) {
         startTime = new Date(session.startTime);
     } else {
@@ -77,6 +84,13 @@ async function initQuestSession() {
     // 問題ファイルを読み込み
     try {
         problemsData = await loadProblemsForQuest(session.questId);
+
+        // GeometryGeneratorが利用可能な場合、図形問題を自動生成して追加
+        if (window.GeometryGenerator && problemsData.useGeometryGenerator) {
+            console.log('🎨 図形問題を動的生成中...');
+            problemsData.problems = enrichProblemsWithGeometry(problemsData.problems);
+            console.log('✅ 図形問題生成完了');
+        }
 
         // 問題数をセッションの totalProblems と照合
         if (problemsData.problems.length < session.totalProblems) {
@@ -102,6 +116,141 @@ async function initQuestSession() {
         BattleSystem.init(session.questId, difficulty);
         console.log('⚔️ バトルシステム初期化完了');
     }
+
+    // ストーリーシステムを初期化
+    await initStorySystem(session.questId);
+}
+
+/**
+ * ストーリーシステムを初期化
+ */
+async function initStorySystem(questId) {
+    if (!window.StorySystem) {
+        console.log('⚠️ ストーリーシステムが読み込まれていません');
+        return;
+    }
+
+    try {
+        // questIdから学年を抽出 (例: grade1-quest01 -> grade1, jh1-quest01 -> jh1)
+        const gradeId = questId.split('-')[0];
+
+        console.log(`📖 ストーリーを読み込み中: ${gradeId}`);
+        currentStory = await StorySystem.loadStoryForGrade(gradeId);
+
+        if (currentStory) {
+            console.log('✅ ストーリー読み込み完了:', currentStory.storyTitle);
+        }
+    } catch (error) {
+        console.log('ℹ️ ストーリーファイルが見つかりません:', error.message);
+        // ストーリーがない場合は通常通り進行
+        currentStory = null;
+    }
+}
+
+/**
+ * ストーリーイントロを表示
+ */
+function showStoryIntro() {
+    if (!currentStory || !window.StorySystem) {
+        return false;
+    }
+
+    const questId = questSession.questId;
+    const storyData = StorySystem.getQuestStory(questId);
+
+    if (!storyData || !storyData.before) {
+        return false;
+    }
+
+    // ストーリーコンテナを作成
+    const storyContainer = document.createElement('div');
+    storyContainer.id = 'story-intro-overlay';
+    storyContainer.style.cssText = `
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.95);
+        z-index: 10000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow-y: auto;
+    `;
+
+    // ストーリー内容を表示
+    StorySystem.showQuestIntro(questId, storyContainer);
+
+    // ページに追加
+    document.body.appendChild(storyContainer);
+
+    // 「クエスト開始」ボタンにイベントを設定
+    setTimeout(() => {
+        const startBtn = storyContainer.querySelector('.story-start-btn');
+        if (startBtn) {
+            startBtn.addEventListener('click', () => {
+                storyContainer.remove();
+                storyIntroShown = true;
+                displayProblem(); // 問題表示を開始
+            });
+        }
+    }, 100);
+
+    return true;
+}
+
+/**
+ * ストーリーアウトロを表示
+ */
+function showStoryOutro(clearStatus) {
+    if (!currentStory || !window.StorySystem) {
+        return false;
+    }
+
+    const questId = questSession.questId;
+    const storyData = StorySystem.getQuestStory(questId);
+
+    if (!storyData || !storyData.after) {
+        return false;
+    }
+
+    // ストーリーコンテナを作成
+    const storyContainer = document.createElement('div');
+    storyContainer.id = 'story-outro-overlay';
+    storyContainer.style.cssText = `
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.95);
+        z-index: 10000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow-y: auto;
+    `;
+
+    // ストーリー内容を表示
+    StorySystem.showQuestOutro(questId, storyContainer, clearStatus);
+
+    // ページに追加
+    document.body.appendChild(storyContainer);
+
+    // 「次へ」ボタンにイベントを設定
+    setTimeout(() => {
+        const nextBtn = storyContainer.querySelector('.story-next-btn');
+        if (nextBtn) {
+            nextBtn.addEventListener('click', () => {
+                storyContainer.remove();
+                // ワールドマップに戻る
+                window.location.href = 'world-map.html';
+            });
+        }
+    }, 100);
+
+    return true;
 }
 
 /**
@@ -171,6 +320,17 @@ async function getCurrentProblem() {
 async function displayProblem() {
     console.log('🎯 問題を表示中...');
 
+    // 最初の問題でストーリーイントロを表示
+    if (currentProblemIndex === 0 && !storyIntroShown) {
+        const storyShown = showStoryIntro();
+        if (storyShown) {
+            // ストーリーイントロを表示した場合は、ここで中断
+            // ストーリーの「クエスト開始」ボタンから displayProblem() が再度呼ばれる
+            return;
+        }
+        storyIntroShown = true;
+    }
+
     const problem = await getCurrentProblem();
 
     if (!problem) {
@@ -190,10 +350,27 @@ async function displayProblem() {
         questionElement.textContent = problem.question;
     }
 
+    // ストーリーテキストを表示（図形問題用）
+    const storyElement = document.getElementById('story-text');
+    if (storyElement && problem.story) {
+        storyElement.textContent = problem.story;
+    }
+
     // 単位を表示
-    const unitElement = document.getElementById('answer-unit');
+    const unitElement = document.getElementById('unit-text');
     if (unitElement) {
         unitElement.textContent = problem.unit || '';
+    }
+
+    // 図形ビジュアライゼーションを表示
+    if (problem.visualizationType && problem.visualData) {
+        displayGeometryVisualization(problem);
+    } else {
+        // 図形がない場合は非表示
+        const figureContainer = document.getElementById('figure-container');
+        if (figureContainer) {
+            figureContainer.classList.add('hidden');
+        }
     }
 
     // 回答欄をクリア
@@ -269,6 +446,35 @@ function stopTimer() {
 /**
  * 回答を送信
  */
+/**
+ * 回答を正規化（全角→半角、カタカナ→ひらがな）
+ */
+function normalizeAnswer(answer) {
+    if (typeof answer !== 'string') {
+        return answer;
+    }
+
+    // 全角数字・記号を半角に変換
+    let normalized = answer.replace(/[０-９]/g, (s) => String.fromCharCode(s.charCodeAt(0) - 0xFEE0));
+    normalized = normalized.replace(/[Ａ-Ｚａ-ｚ]/g, (s) => String.fromCharCode(s.charCodeAt(0) - 0xFEE0));
+
+    // 全角記号を半角に
+    normalized = normalized.replace(/π/g, 'π'); // 既に半角
+    normalized = normalized.replace(/[×・]/g, '*');
+    normalized = normalized.replace(/[÷]/g, '/');
+
+    // カタカナをひらがなに変換
+    normalized = normalized.replace(/[\u30A1-\u30F6]/g, (s) => String.fromCharCode(s.charCodeAt(0) - 0x60));
+
+    // 空白を削除
+    normalized = normalized.replace(/\s+/g, '');
+
+    return normalized;
+}
+
+/**
+ * 回答を送信
+ */
 function submitAnswer() {
     console.log('📝 回答送信');
 
@@ -278,17 +484,34 @@ function submitAnswer() {
         return;
     }
 
-    const userAnswer = parseInt(answerInput.value.trim());
+    let userAnswer = answerInput.value.trim();
 
-    if (isNaN(userAnswer)) {
-        MathMagic.showMessage('数字を入力してください', 'warning');
+    if (!userAnswer) {
+        MathMagic.showMessage('答えを入力してください', 'warning');
         return;
     }
 
     attemptCount++;
 
     const problem = currentProblem;
-    const isCorrect = userAnswer === problem.answer;
+
+    // 回答を正規化
+    const normalizedUserAnswer = normalizeAnswer(userAnswer);
+    const normalizedCorrectAnswer = normalizeAnswer(String(problem.answer));
+
+    // 数値として比較できる場合は数値比較
+    const userNum = parseFloat(normalizedUserAnswer);
+    const correctNum = parseFloat(normalizedCorrectAnswer);
+
+    let isCorrect = false;
+
+    if (!isNaN(userNum) && !isNaN(correctNum)) {
+        // 数値比較（小数点の誤差を考慮）
+        isCorrect = Math.abs(userNum - correctNum) < 0.001;
+    } else {
+        // 文字列比較（大文字小文字を区別しない）
+        isCorrect = normalizedUserAnswer.toLowerCase() === normalizedCorrectAnswer.toLowerCase();
+    }
 
     console.log('ユーザーの回答:', userAnswer, '正解:', problem.answer, '結果:', isCorrect ? '正解' : '不正解');
 
@@ -324,12 +547,19 @@ function submitAnswer() {
         correctAnswer: problem.answer
     });
 
+    // 結果メッセージを表示
+    if (isCorrect) {
+        MathMagic.showMessage('正解！ +' + result.xpGained + ' XP', 'success');
+    } else {
+        MathMagic.showMessage(`不正解... 正解は ${problem.answer} です`, 'error');
+    }
+
     // バトルシステムの処理
     if (window.BattleSystem) {
         if (isCorrect) {
-            BattleSystem.playerAttack();
+            BattleSystem.onCorrectAnswer();
         } else {
-            BattleSystem.monsterAttack();
+            BattleSystem.onWrongAnswer();
         }
     }
 
@@ -338,10 +568,31 @@ function submitAnswer() {
         SoundSystem.playSound(isCorrect ? 'correct' : 'wrong');
     }
 
-    // 結果画面へ遷移
+    // 回答欄をクリア
+    answerInput.value = '';
+    answerInput.disabled = true;
+
+    // 次の問題へ進むか終了
     setTimeout(() => {
-        window.location.href = 'result.html';
-    }, 500);
+        answerInput.disabled = false;
+        answerInput.focus();
+
+        if (currentProblemIndex + 1 >= (questSession.totalProblems || problemsData.problems.length)) {
+            // 全問題完了
+            finishQuest();
+        } else {
+            // 次の問題へ
+            currentProblemIndex++;
+            attemptCount = 0;
+
+            // ヒントシステムをリセット
+            if (window.HintSystem) {
+                HintSystem.init(null);
+            }
+
+            displayProblem();
+        }
+    }, 1500);
 }
 
 /**
@@ -411,17 +662,27 @@ function finishQuest() {
 
     console.log(`正解数: ${correctCount}/${totalCount} (${accuracy}%)`);
 
+    // クリアステータスを判定
+    const clearStatus = accuracy >= 80 ? 'perfect' : accuracy >= 50 ? 'clear' : 'failed';
+
+    // ストーリーアウトロを表示
+    const storyShown = showStoryOutro(clearStatus);
+
     // セッションをクリア
     MathMagic.removeItem('questSession');
     MathMagic.removeItem('lastResult');
 
-    // 完了メッセージ
-    MathMagic.showMessage(`クエスト完了！\n正解率: ${accuracy}%`, 'success');
+    // ストーリーが表示されない場合は、通常の完了フロー
+    if (!storyShown) {
+        // 完了メッセージ
+        MathMagic.showMessage(`クエスト完了！\n正解率: ${accuracy}%`, 'success');
 
-    // ワールドマップに戻る
-    setTimeout(() => {
-        window.location.href = 'world-map.html';
-    }, 2000);
+        // ワールドマップに戻る
+        setTimeout(() => {
+            window.location.href = 'world-map.html';
+        }, 2000);
+    }
+    // ストーリーが表示される場合は、ストーリーの「次へ」ボタンからワールドマップに戻る
 }
 
 /**
@@ -431,6 +692,52 @@ function backToWorldMap() {
     if (confirm('クエストを中断してワールドマップに戻りますか？\n進行状況は保存されます。')) {
         stopTimer();
         window.location.href = 'world-map.html';
+    }
+}
+
+/**
+ * 図形ビジュアライゼーションを表示
+ */
+function displayGeometryVisualization(problem) {
+    console.log('🎨 displayGeometryVisualization 開始');
+    console.log('問題データ:', problem);
+    console.log('visualizationType:', problem.visualizationType);
+    console.log('visualData:', problem.visualData);
+
+    const figureContainer = document.getElementById('figure-container');
+    if (!figureContainer) {
+        console.error('❌ figure-container が見つかりません');
+        return;
+    }
+
+    // コンテナを表示
+    figureContainer.classList.remove('hidden');
+    console.log('✓ figure-container を表示しました');
+
+    // Canvas要素を確認
+    const canvas = document.getElementById('geometry-canvas');
+    console.log('Canvas要素:', canvas);
+    if (canvas) {
+        console.log('Canvas サイズ:', canvas.width, 'x', canvas.height);
+    }
+
+    // GeometryVisualizerを初期化
+    if (window.GeometryVisualizer) {
+        console.log('✓ GeometryVisualizer が存在します');
+        const initialized = GeometryVisualizer.init('geometry-canvas');
+        console.log('初期化結果:', initialized);
+
+        if (initialized) {
+            // ビジュアライゼーションを描画
+            console.log('描画開始:', problem.visualizationType, problem.visualData);
+            GeometryVisualizer.render(problem.visualizationType, problem.visualData);
+            console.log('✅ 図形を表示:', problem.visualizationType);
+        } else {
+            console.error('❌ GeometryVisualizer の初期化に失敗');
+        }
+    } else {
+        console.error('❌ GeometryVisualizer が読み込まれていません');
+        console.log('window.GeometryVisualizer:', window.GeometryVisualizer);
     }
 }
 
@@ -450,7 +757,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         await displayProblem();
 
         // イベントリスナーを設定
-        const submitBtn = document.getElementById('submit-answer-btn');
+        const submitBtn = document.getElementById('submit-btn');
         if (submitBtn) {
             submitBtn.addEventListener('click', submitAnswer);
         }
@@ -486,5 +793,66 @@ document.addEventListener('DOMContentLoaded', async () => {
         window.location.href = 'world-map.html';
     }
 });
+
+/**
+ * 問題に図形ビジュアライゼーションを追加
+ */
+function enrichProblemsWithGeometry(problems) {
+    return problems.map((problem, index) => {
+        // 既に visualizationType が設定されている場合はスキップ
+        if (problem.visualizationType) {
+            return problem;
+        }
+
+        // 問題タイプに基づいて図形を生成
+        if (problem.geometryType) {
+            try {
+                let generatedProblem = null;
+
+                // GeometryGeneratorのメソッドを呼び出し
+                switch (problem.geometryType) {
+                    case 'vertical-angles':
+                        if (GeometryGenerator.angleUnderstanding) {
+                            generatedProblem = GeometryGenerator.angleUnderstanding.verticalAngles();
+                        }
+                        break;
+                    case 'supplementary-angles':
+                        if (GeometryGenerator.angleUnderstanding) {
+                            generatedProblem = GeometryGenerator.angleUnderstanding.supplementaryAngles();
+                        }
+                        break;
+                    case 'triangle-angles':
+                        if (GeometryGenerator.triangleAngles) {
+                            generatedProblem = GeometryGenerator.triangleAngles.generate();
+                        }
+                        break;
+                    case 'area-comparison':
+                        if (GeometryGenerator.areaProblems) {
+                            generatedProblem = GeometryGenerator.areaProblems.comparison();
+                        }
+                        break;
+                }
+
+                // 生成された問題データを元の問題にマージ
+                if (generatedProblem) {
+                    problem.visualizationType = generatedProblem.visualizationType;
+                    problem.visualData = generatedProblem.visualData;
+
+                    // 問題文が空の場合は生成された問題文を使用
+                    if (!problem.question && generatedProblem.questions && generatedProblem.questions[0]) {
+                        problem.question = generatedProblem.questions[0].text;
+                        problem.answer = generatedProblem.questions[0].answer;
+                    }
+
+                    console.log(`✨ 図形追加: 問題${index + 1} - ${problem.geometryType}`);
+                }
+            } catch (error) {
+                console.error(`⚠️ 図形生成エラー (問題${index + 1}):`, error);
+            }
+        }
+
+        return problem;
+    });
+}
 
 console.log('✅ quest.js ロード完了');

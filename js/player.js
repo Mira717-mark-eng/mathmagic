@@ -19,13 +19,33 @@ const PlayerManager = {
     },
 
     /**
+     * 学年番号を文字列形式に変換
+     */
+    convertGradeToString: function(grade) {
+        const gradeNum = parseInt(grade);
+        const gradeMap = {
+            1: '小1',
+            2: '小2',
+            3: '小3',
+            4: '小4',
+            5: '小5',
+            6: '小6',
+            7: '中1',
+            8: '中2',
+            9: '中3'
+        };
+        return gradeMap[gradeNum] || `${gradeNum}年生`;
+    },
+
+    /**
      * プレイヤーを作成
      */
     createPlayer: function(name, grade, characterType) {
+        const gradeString = this.convertGradeToString(grade);
         const player = {
             id: 'player-' + Date.now(),
             name: name,
-            grade: parseInt(grade),
+            grade: gradeString,
             characterType: characterType,
             level: 1,
             exp: 0,
@@ -50,7 +70,7 @@ const PlayerManager = {
             },
             gradeHistory: [
                 {
-                    grade: parseInt(grade),
+                    grade: gradeString,
                     promotedAt: new Date().toISOString(),
                     reason: 'initial'
                 }

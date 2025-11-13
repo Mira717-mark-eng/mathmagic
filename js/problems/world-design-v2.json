@@ -3,7 +3,7 @@
   "description": "学年ベース・単元ベースのワールド設計。各単元（クエスト）の問題数は性質に応じて最適化。",
   "totalWorlds": 9,
   "totalQuests": 180,
-  "estimatedTotalProblems": 10550,
+  "estimatedTotalProblems": 14665,
   "worlds": [
     {
       "worldId": "grade1",
@@ -11,8 +11,8 @@
       "grade": "小1",
       "icon": "🌱",
       "description": "数の基礎とたし算・ひき算の世界へようこそ！",
-      "totalQuests": 10,
-      "estimatedProblems": 640,
+      "totalQuests": 20,
+      "estimatedProblems": 1100,
       "quests": [
         {
           "questId": "grade1-quest01",
@@ -157,6 +157,146 @@
             "puzzle": 20
           },
           "reasoning": "比較の概念理解。視覚的な問題で直感を養う"
+        },
+        {
+          "questId": "grade1-quest11",
+          "unitId": "elem1_addition_advanced",
+          "questName": "100までのたし算（応用）",
+          "description": "100までのたし算（応用）の問題",
+          "difficulty": "standard",
+          "problemCount": 50,
+          "problemTypes": {
+            "calculation": 17,
+            "puzzle": 17,
+            "wordProblem": 16
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "grade1-quest12",
+          "unitId": "elem1_subtraction_advanced",
+          "questName": "100までのひき算（応用）",
+          "description": "100までのひき算（応用）の問題",
+          "difficulty": "standard",
+          "problemCount": 50,
+          "problemTypes": {
+            "calculation": 17,
+            "puzzle": 17,
+            "wordProblem": 16
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "grade1-quest13",
+          "unitId": "elem1_word_problems",
+          "questName": "たし算とひき算の文章題",
+          "description": "たし算とひき算の文章題の問題",
+          "difficulty": "standard",
+          "problemCount": 50,
+          "problemTypes": {
+            "calculation": 17,
+            "puzzle": 17,
+            "wordProblem": 16
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "grade1-quest14",
+          "unitId": "elem1_number_puzzles",
+          "questName": "数のパズル",
+          "description": "数のパズルの問題",
+          "difficulty": "standard",
+          "problemCount": 40,
+          "problemTypes": {
+            "calculation": 14,
+            "puzzle": 13,
+            "wordProblem": 13
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "grade1-quest15",
+          "unitId": "elem1_clock_advanced",
+          "questName": "時計の読み方（応用）",
+          "description": "時計の読み方（応用）の問題",
+          "difficulty": "standard",
+          "problemCount": 50,
+          "problemTypes": {
+            "calculation": 17,
+            "puzzle": 17,
+            "wordProblem": 16
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "grade1-quest16",
+          "unitId": "elem1_shape_play",
+          "questName": "形あそび",
+          "description": "形あそびの問題",
+          "difficulty": "standard",
+          "problemCount": 40,
+          "problemTypes": {
+            "calculation": 14,
+            "puzzle": 13,
+            "wordProblem": 13
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "grade1-quest17",
+          "unitId": "elem1_length_comparison",
+          "questName": "長さくらべ（応用）",
+          "description": "長さくらべ（応用）の問題",
+          "difficulty": "standard",
+          "problemCount": 40,
+          "problemTypes": {
+            "calculation": 14,
+            "puzzle": 13,
+            "wordProblem": 13
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "grade1-quest18",
+          "unitId": "elem1_area_comparison",
+          "questName": "ひろさくらべ（応用）",
+          "description": "ひろさくらべ（応用）の問題",
+          "difficulty": "standard",
+          "problemCount": 40,
+          "problemTypes": {
+            "calculation": 14,
+            "puzzle": 13,
+            "wordProblem": 13
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "grade1-quest19",
+          "unitId": "elem1_capacity_comparison",
+          "questName": "かさくらべ（応用）",
+          "description": "かさくらべ（応用）の問題",
+          "difficulty": "standard",
+          "problemCount": 40,
+          "problemTypes": {
+            "calculation": 14,
+            "puzzle": 13,
+            "wordProblem": 13
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "grade1-quest20",
+          "unitId": "elem1_comprehensive_review",
+          "questName": "1年生のまとめ",
+          "description": "1年生のまとめの問題",
+          "difficulty": "standard",
+          "problemCount": 60,
+          "problemTypes": {
+            "calculation": 20,
+            "puzzle": 20,
+            "wordProblem": 20
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
         }
       ]
     },
@@ -166,8 +306,8 @@
       "grade": "小2",
       "icon": "🌳",
       "description": "九九と大きい数の世界！計算力を高めよう",
-      "totalQuests": 10,
-      "estimatedProblems": 800,
+      "totalQuests": 20,
+      "estimatedProblems": 1430,
       "quests": [
         {
           "questId": "grade2-quest01",
@@ -311,6 +451,146 @@
             "puzzle": 25
           },
           "reasoning": "立体図形の入門。観察と構成の問題"
+        },
+        {
+          "questId": "grade2-quest11",
+          "unitId": "elem2_numbers_to1000_advanced",
+          "questName": "1000までの数の応用",
+          "description": "1000までの数の応用の問題",
+          "difficulty": "standard",
+          "problemCount": 60,
+          "problemTypes": {
+            "calculation": 20,
+            "puzzle": 20,
+            "wordProblem": 20
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "grade2-quest12",
+          "unitId": "elem2_3digit_operations",
+          "questName": "3桁のたし算・ひき算",
+          "description": "3桁のたし算・ひき算の問題",
+          "difficulty": "standard",
+          "problemCount": 80,
+          "problemTypes": {
+            "calculation": 27,
+            "puzzle": 27,
+            "wordProblem": 26
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "grade2-quest13",
+          "unitId": "elem2_multiplication_advanced",
+          "questName": "九九の応用",
+          "description": "九九の応用の問題",
+          "difficulty": "standard",
+          "problemCount": 100,
+          "problemTypes": {
+            "calculation": 34,
+            "puzzle": 33,
+            "wordProblem": 33
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "grade2-quest14",
+          "unitId": "elem2_time_advanced",
+          "questName": "時刻と時間の応用",
+          "description": "時刻と時間の応用の問題",
+          "difficulty": "standard",
+          "problemCount": 70,
+          "problemTypes": {
+            "calculation": 24,
+            "puzzle": 23,
+            "wordProblem": 23
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "grade2-quest15",
+          "unitId": "elem2_units_advanced",
+          "questName": "長さ・かさ・重さの応用",
+          "description": "長さ・かさ・重さの応用の問題",
+          "difficulty": "standard",
+          "problemCount": 70,
+          "problemTypes": {
+            "calculation": 24,
+            "puzzle": 23,
+            "wordProblem": 23
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "grade2-quest16",
+          "unitId": "elem2_shapes_advanced",
+          "questName": "図形の性質（応用）",
+          "description": "図形の性質（応用）の問題",
+          "difficulty": "standard",
+          "problemCount": 60,
+          "problemTypes": {
+            "calculation": 20,
+            "puzzle": 20,
+            "wordProblem": 20
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "grade2-quest17",
+          "unitId": "elem2_data_organization",
+          "questName": "データの整理",
+          "description": "データの整理の問題",
+          "difficulty": "standard",
+          "problemCount": 60,
+          "problemTypes": {
+            "calculation": 20,
+            "puzzle": 20,
+            "wordProblem": 20
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "grade2-quest18",
+          "unitId": "elem2_word_problems",
+          "questName": "文章題の練習",
+          "description": "文章題の練習の問題",
+          "difficulty": "standard",
+          "problemCount": 70,
+          "problemTypes": {
+            "calculation": 24,
+            "puzzle": 23,
+            "wordProblem": 23
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "grade2-quest19",
+          "unitId": "elem2_calculation_strategies",
+          "questName": "計算の工夫",
+          "description": "計算の工夫の問題",
+          "difficulty": "standard",
+          "problemCount": 60,
+          "problemTypes": {
+            "calculation": 20,
+            "puzzle": 20,
+            "wordProblem": 20
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "grade2-quest20",
+          "unitId": "elem2_comprehensive_review",
+          "questName": "2年生のまとめ",
+          "description": "2年生のまとめの問題",
+          "difficulty": "standard",
+          "problemCount": 80,
+          "problemTypes": {
+            "calculation": 27,
+            "puzzle": 27,
+            "wordProblem": 26
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
         }
       ]
     },
@@ -320,8 +600,8 @@
       "grade": "小3",
       "icon": "🏔️",
       "description": "わり算と分数・小数の世界へ！",
-      "totalQuests": 13,
-      "estimatedProblems": 990,
+      "totalQuests": 20,
+      "estimatedProblems": 1415,
       "quests": [
         {
           "questId": "grade3-quest01",
@@ -506,6 +786,106 @@
             "puzzle": 15
           },
           "reasoning": "グラフの読み取りと作成。データ分析の基礎"
+        },
+        {
+          "questId": "grade3-quest14",
+          "unitId": "elem3_multiplication_2digit_2digit",
+          "questName": "2けたのかけ算（2桁×2桁）",
+          "description": "2けたのかけ算（2桁×2桁）の問題",
+          "difficulty": "standard",
+          "problemCount": 80,
+          "problemTypes": {
+            "calculation": 51,
+            "wordProblem": 22,
+            "reverse": 6,
+            "puzzle": 1
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "grade3-quest15",
+          "unitId": "elem3_box_shapes_advanced",
+          "questName": "箱の形（立体図形の基礎）",
+          "description": "箱の形（立体図形の基礎）の問題",
+          "difficulty": "standard",
+          "problemCount": 60,
+          "problemTypes": {
+            "puzzle": 36,
+            "wordProblem": 2,
+            "calculation": 22
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "grade3-quest16",
+          "unitId": "elem3_large_numbers_operations",
+          "questName": "大きな数のたし算・ひき算",
+          "description": "大きな数のたし算・ひき算の問題",
+          "difficulty": "standard",
+          "problemCount": 70,
+          "problemTypes": {
+            "calculation": 43,
+            "wordProblem": 23,
+            "reverse": 4
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "grade3-quest17",
+          "unitId": "elem3_units_review",
+          "questName": "単位の応用（長さ・重さ・かさ）",
+          "description": "単位の応用（長さ・重さ・かさ）の問題",
+          "difficulty": "standard",
+          "problemCount": 65,
+          "problemTypes": {
+            "puzzle": 8,
+            "calculation": 42,
+            "wordProblem": 15
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "grade3-quest18",
+          "unitId": "elem3_time_calculation",
+          "questName": "時刻と時間の計算",
+          "description": "時刻と時間の計算の問題",
+          "difficulty": "standard",
+          "problemCount": 70,
+          "problemTypes": {
+            "calculation": 32,
+            "wordProblem": 23,
+            "puzzle": 15
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "grade3-quest19",
+          "unitId": "elem3_decimals_fractions_review",
+          "questName": "小数と分数の復習",
+          "description": "小数と分数の復習の問題",
+          "difficulty": "standard",
+          "problemCount": 60,
+          "problemTypes": {
+            "puzzle": 26,
+            "calculation": 26,
+            "wordProblem": 8
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "grade3-quest20",
+          "unitId": "elem3_comprehensive_review",
+          "questName": "3年生のまとめ",
+          "description": "3年生のまとめの問題",
+          "difficulty": "standard",
+          "problemCount": 80,
+          "problemTypes": {
+            "calculation": 35,
+            "wordProblem": 13,
+            "puzzle": 28,
+            "reverse": 4
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
         }
       ]
     },
@@ -515,8 +895,8 @@
       "grade": "小4",
       "icon": "🏰",
       "description": "大きい数と図形の世界へ！",
-      "totalQuests": 14,
-      "estimatedProblems": 1060,
+      "totalQuests": 20,
+      "estimatedProblems": 1520,
       "quests": [
         {
           "questId": "grade4-quest01",
@@ -715,6 +1095,90 @@
             "puzzle": 10
           },
           "reasoning": "単位変換の総まとめ。体系的な理解"
+        },
+        {
+          "questId": "grade4-quest15",
+          "unitId": "elem4_order_of_operations",
+          "questName": "計算の順序（四則混合）",
+          "description": "計算の順序（四則混合）の問題",
+          "difficulty": "standard",
+          "problemCount": 80,
+          "problemTypes": {
+            "calculation": 27,
+            "puzzle": 27,
+            "wordProblem": 26
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "grade4-quest16",
+          "unitId": "elem4_decimal_mult_div",
+          "questName": "小数のかけ算・わり算",
+          "description": "小数のかけ算・わり算の問題",
+          "difficulty": "standard",
+          "problemCount": 90,
+          "problemTypes": {
+            "calculation": 30,
+            "puzzle": 30,
+            "wordProblem": 30
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "grade4-quest17",
+          "unitId": "elem4_fractions_advanced",
+          "questName": "分数の応用",
+          "description": "分数の応用の問題",
+          "difficulty": "standard",
+          "problemCount": 80,
+          "problemTypes": {
+            "calculation": 27,
+            "puzzle": 27,
+            "wordProblem": 26
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "grade4-quest18",
+          "unitId": "elem4_various_shapes",
+          "questName": "いろいろな図形",
+          "description": "いろいろな図形の問題",
+          "difficulty": "standard",
+          "problemCount": 70,
+          "problemTypes": {
+            "calculation": 24,
+            "puzzle": 23,
+            "wordProblem": 23
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "grade4-quest19",
+          "unitId": "elem4_data_utilization",
+          "questName": "データの活用",
+          "description": "データの活用の問題",
+          "difficulty": "standard",
+          "problemCount": 70,
+          "problemTypes": {
+            "calculation": 24,
+            "puzzle": 23,
+            "wordProblem": 23
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "grade4-quest20",
+          "unitId": "elem4_comprehensive_review",
+          "questName": "4年生のまとめ",
+          "description": "4年生のまとめの問題",
+          "difficulty": "standard",
+          "problemCount": 90,
+          "problemTypes": {
+            "calculation": 30,
+            "puzzle": 30,
+            "wordProblem": 30
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
         }
       ]
     },
@@ -724,8 +1188,8 @@
       "grade": "小5",
       "icon": "⭐",
       "description": "小数・分数の完成と割合の世界！",
-      "totalQuests": 12,
-      "estimatedProblems": 1150,
+      "totalQuests": 20,
+      "estimatedProblems": 1730,
       "quests": [
         {
           "questId": "grade5-quest01",
@@ -898,6 +1362,118 @@
             "puzzle": 10
           },
           "reasoning": "割合の応用。実生活との結びつけ"
+        },
+        {
+          "questId": "grade5-quest13",
+          "unitId": "elem5_fraction_mult_div_intro",
+          "questName": "分数のかけ算・わり算（入門）",
+          "description": "分数のかけ算・わり算（入門）の問題",
+          "difficulty": "standard",
+          "problemCount": 90,
+          "problemTypes": {
+            "calculation": 30,
+            "puzzle": 30,
+            "wordProblem": 30
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "grade5-quest14",
+          "unitId": "elem5_trapezoid_rhombus_area",
+          "questName": "台形・ひし形の面積",
+          "description": "台形・ひし形の面積の問題",
+          "difficulty": "standard",
+          "problemCount": 80,
+          "problemTypes": {
+            "calculation": 27,
+            "puzzle": 27,
+            "wordProblem": 26
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "grade5-quest15",
+          "unitId": "elem5_prism_cylinder_volume",
+          "questName": "角柱・円柱の体積",
+          "description": "角柱・円柱の体積の問題",
+          "difficulty": "standard",
+          "problemCount": 90,
+          "problemTypes": {
+            "calculation": 30,
+            "puzzle": 30,
+            "wordProblem": 30
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "grade5-quest16",
+          "unitId": "elem5_ratio_advanced",
+          "questName": "割合の応用",
+          "description": "割合の応用の問題",
+          "difficulty": "standard",
+          "problemCount": 90,
+          "problemTypes": {
+            "calculation": 30,
+            "puzzle": 30,
+            "wordProblem": 30
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "grade5-quest17",
+          "unitId": "elem5_speed_advanced",
+          "questName": "速さの応用",
+          "description": "速さの応用の問題",
+          "difficulty": "standard",
+          "problemCount": 90,
+          "problemTypes": {
+            "calculation": 30,
+            "puzzle": 30,
+            "wordProblem": 30
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "grade5-quest18",
+          "unitId": "elem5_variables_intro",
+          "questName": "文字と式（入門）",
+          "description": "文字と式（入門）の問題",
+          "difficulty": "standard",
+          "problemCount": 70,
+          "problemTypes": {
+            "calculation": 24,
+            "puzzle": 23,
+            "wordProblem": 23
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "grade5-quest19",
+          "unitId": "elem5_data_analysis",
+          "questName": "データの分析",
+          "description": "データの分析の問題",
+          "difficulty": "standard",
+          "problemCount": 70,
+          "problemTypes": {
+            "calculation": 24,
+            "puzzle": 23,
+            "wordProblem": 23
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "grade5-quest20",
+          "unitId": "elem5_comprehensive_review",
+          "questName": "5年生のまとめ",
+          "description": "5年生のまとめの問題",
+          "difficulty": "standard",
+          "problemCount": 100,
+          "problemTypes": {
+            "calculation": 34,
+            "puzzle": 33,
+            "wordProblem": 33
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
         }
       ]
     },
@@ -907,8 +1483,8 @@
       "grade": "小6",
       "icon": "🎓",
       "description": "小学算数の完成！中学への準備",
-      "totalQuests": 11,
-      "estimatedProblems": 1010,
+      "totalQuests": 20,
+      "estimatedProblems": 1680,
       "quests": [
         {
           "questId": "grade6-quest01",
@@ -1065,6 +1641,132 @@
             "puzzle": 10
           },
           "reasoning": "按分などの応用。実践的な問題"
+        },
+        {
+          "questId": "grade6-quest12",
+          "unitId": "elem6_fractions_comprehensive",
+          "questName": "分数の計算（まとめ）",
+          "description": "分数の計算（まとめ）の問題",
+          "difficulty": "standard",
+          "problemCount": 100,
+          "problemTypes": {
+            "calculation": 34,
+            "puzzle": 33,
+            "wordProblem": 33
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "grade6-quest13",
+          "unitId": "elem6_ratio_applications_advanced",
+          "questName": "比の応用（発展）",
+          "description": "比の応用（発展）の問題",
+          "difficulty": "standard",
+          "problemCount": 90,
+          "problemTypes": {
+            "calculation": 30,
+            "puzzle": 30,
+            "wordProblem": 30
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "grade6-quest14",
+          "unitId": "elem6_enlargement_reduction",
+          "questName": "図形の拡大と縮小",
+          "description": "図形の拡大と縮小の問題",
+          "difficulty": "standard",
+          "problemCount": 80,
+          "problemTypes": {
+            "calculation": 27,
+            "puzzle": 27,
+            "wordProblem": 26
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "grade6-quest15",
+          "unitId": "elem6_solid_volume_surface",
+          "questName": "立体の体積と表面積",
+          "description": "立体の体積と表面積の問題",
+          "difficulty": "standard",
+          "problemCount": 90,
+          "problemTypes": {
+            "calculation": 30,
+            "puzzle": 30,
+            "wordProblem": 30
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "grade6-quest16",
+          "unitId": "elem6_speed_distance_advanced",
+          "questName": "速さと道のり（応用）",
+          "description": "速さと道のり（応用）の問題",
+          "difficulty": "standard",
+          "problemCount": 80,
+          "problemTypes": {
+            "calculation": 27,
+            "puzzle": 27,
+            "wordProblem": 26
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "grade6-quest17",
+          "unitId": "elem6_data_investigation",
+          "questName": "資料の調べ方",
+          "description": "資料の調べ方の問題",
+          "difficulty": "standard",
+          "problemCount": 70,
+          "problemTypes": {
+            "calculation": 24,
+            "puzzle": 23,
+            "wordProblem": 23
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "grade6-quest18",
+          "unitId": "elem6_counting_methods",
+          "questName": "場合の数",
+          "description": "場合の数の問題",
+          "difficulty": "standard",
+          "problemCount": 80,
+          "problemTypes": {
+            "calculation": 27,
+            "puzzle": 27,
+            "wordProblem": 26
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "grade6-quest19",
+          "unitId": "elem6_junior_high_prep",
+          "questName": "中学への準備",
+          "description": "中学への準備の問題",
+          "difficulty": "standard",
+          "problemCount": 80,
+          "problemTypes": {
+            "calculation": 27,
+            "puzzle": 27,
+            "wordProblem": 26
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "grade6-quest20",
+          "unitId": "elem6_comprehensive_review",
+          "questName": "6年生のまとめ",
+          "description": "6年生のまとめの問題",
+          "difficulty": "standard",
+          "problemCount": 100,
+          "problemTypes": {
+            "calculation": 34,
+            "puzzle": 33,
+            "wordProblem": 33
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
         }
       ]
     },
@@ -1074,8 +1776,8 @@
       "grade": "中1",
       "icon": "🔥",
       "description": "負の数と方程式の世界へ！",
-      "totalQuests": 8,
-      "estimatedProblems": 900,
+      "totalQuests": 20,
+      "estimatedProblems": 1880,
       "quests": [
         {
           "questId": "jh1-quest01",
@@ -1189,6 +1891,174 @@
             "puzzle": 15
           },
           "reasoning": "データの整理と分析。基本統計"
+        },
+        {
+          "questId": "jh1-quest09",
+          "unitId": "jh1_positive_negative_advanced",
+          "questName": "正負の数の応用",
+          "description": "正負の数の応用の問題",
+          "difficulty": "standard",
+          "problemCount": 100,
+          "problemTypes": {
+            "calculation": 34,
+            "puzzle": 33,
+            "wordProblem": 33
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "jh1-quest10",
+          "unitId": "jh1_literal_expressions_advanced",
+          "questName": "文字式の計算（応用）",
+          "description": "文字式の計算（応用）の問題",
+          "difficulty": "standard",
+          "problemCount": 90,
+          "problemTypes": {
+            "calculation": 30,
+            "puzzle": 30,
+            "wordProblem": 30
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "jh1-quest11",
+          "unitId": "jh1_equations_advanced",
+          "questName": "一元一次方程式（応用）",
+          "description": "一元一次方程式（応用）の問題",
+          "difficulty": "standard",
+          "problemCount": 100,
+          "problemTypes": {
+            "calculation": 34,
+            "puzzle": 33,
+            "wordProblem": 33
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "jh1-quest12",
+          "unitId": "jh1_inequalities",
+          "questName": "不等式",
+          "description": "不等式の問題",
+          "difficulty": "standard",
+          "problemCount": 80,
+          "problemTypes": {
+            "calculation": 27,
+            "puzzle": 27,
+            "wordProblem": 26
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "jh1-quest13",
+          "unitId": "jh1_proportions_advanced",
+          "questName": "比例・反比例（応用）",
+          "description": "比例・反比例（応用）の問題",
+          "difficulty": "standard",
+          "problemCount": 90,
+          "problemTypes": {
+            "calculation": 30,
+            "puzzle": 30,
+            "wordProblem": 30
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "jh1-quest14",
+          "unitId": "jh1_plane_figures_advanced",
+          "questName": "平面図形（応用）",
+          "description": "平面図形（応用）の問題",
+          "difficulty": "standard",
+          "problemCount": 90,
+          "problemTypes": {
+            "calculation": 30,
+            "puzzle": 30,
+            "wordProblem": 30
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "jh1-quest15",
+          "unitId": "jh1_space_figures_advanced",
+          "questName": "空間図形（応用）",
+          "description": "空間図形（応用）の問題",
+          "difficulty": "standard",
+          "problemCount": 90,
+          "problemTypes": {
+            "calculation": 30,
+            "puzzle": 30,
+            "wordProblem": 30
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "jh1-quest16",
+          "unitId": "jh1_data_advanced",
+          "questName": "データの活用（応用）",
+          "description": "データの活用（応用）の問題",
+          "difficulty": "standard",
+          "problemCount": 80,
+          "problemTypes": {
+            "calculation": 27,
+            "puzzle": 27,
+            "wordProblem": 26
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "jh1-quest17",
+          "unitId": "jh1_proof_introduction",
+          "questName": "図形の証明入門",
+          "description": "図形の証明入門の問題",
+          "difficulty": "standard",
+          "problemCount": 70,
+          "problemTypes": {
+            "calculation": 24,
+            "puzzle": 23,
+            "wordProblem": 23
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "jh1-quest18",
+          "unitId": "jh1_functions_basics",
+          "questName": "関数の基礎",
+          "description": "関数の基礎の問題",
+          "difficulty": "standard",
+          "problemCount": 80,
+          "problemTypes": {
+            "calculation": 27,
+            "puzzle": 27,
+            "wordProblem": 26
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "jh1-quest19",
+          "unitId": "jh1_comprehensive_problems",
+          "questName": "総合問題",
+          "description": "総合問題の問題",
+          "difficulty": "standard",
+          "problemCount": 90,
+          "problemTypes": {
+            "calculation": 30,
+            "puzzle": 30,
+            "wordProblem": 30
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "jh1-quest20",
+          "unitId": "jh1_comprehensive_review",
+          "questName": "1年生のまとめ",
+          "description": "1年生のまとめの問題",
+          "difficulty": "standard",
+          "problemCount": 100,
+          "problemTypes": {
+            "calculation": 34,
+            "puzzle": 33,
+            "wordProblem": 33
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
         }
       ]
     },
@@ -1198,8 +2068,8 @@
       "grade": "中2",
       "icon": "⚡",
       "description": "連立方程式と図形証明の世界！",
-      "totalQuests": 10,
-      "estimatedProblems": 1100,
+      "totalQuests": 20,
+      "estimatedProblems": 1930,
       "quests": [
         {
           "questId": "jh2-quest01",
@@ -1341,6 +2211,146 @@
             "puzzle": 10
           },
           "reasoning": "場合の数と確率。樹形図の利用"
+        },
+        {
+          "questId": "jh2-quest11",
+          "unitId": "jh2_expressions_advanced",
+          "questName": "文字式の応用",
+          "description": "文字式の応用の問題",
+          "difficulty": "standard",
+          "problemCount": 90,
+          "problemTypes": {
+            "calculation": 30,
+            "puzzle": 30,
+            "wordProblem": 30
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "jh2-quest12",
+          "unitId": "jh2_simultaneous_advanced",
+          "questName": "連立方程式（応用）",
+          "description": "連立方程式（応用）の問題",
+          "difficulty": "standard",
+          "problemCount": 100,
+          "problemTypes": {
+            "calculation": 34,
+            "puzzle": 33,
+            "wordProblem": 33
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "jh2-quest13",
+          "unitId": "jh2_linear_functions_advanced",
+          "questName": "一次関数（応用）",
+          "description": "一次関数（応用）の問題",
+          "difficulty": "standard",
+          "problemCount": 100,
+          "problemTypes": {
+            "calculation": 34,
+            "puzzle": 33,
+            "wordProblem": 33
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "jh2-quest14",
+          "unitId": "jh2_geometry_comprehensive",
+          "questName": "図形の性質（まとめ）",
+          "description": "図形の性質（まとめ）の問題",
+          "difficulty": "standard",
+          "problemCount": 90,
+          "problemTypes": {
+            "calculation": 30,
+            "puzzle": 30,
+            "wordProblem": 30
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "jh2-quest15",
+          "unitId": "jh2_proof_advanced",
+          "questName": "図形の証明（応用）",
+          "description": "図形の証明（応用）の問題",
+          "difficulty": "standard",
+          "problemCount": 100,
+          "problemTypes": {
+            "calculation": 34,
+            "puzzle": 33,
+            "wordProblem": 33
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "jh2-quest16",
+          "unitId": "jh2_probability_advanced",
+          "questName": "確率（応用）",
+          "description": "確率（応用）の問題",
+          "difficulty": "standard",
+          "problemCount": 90,
+          "problemTypes": {
+            "calculation": 30,
+            "puzzle": 30,
+            "wordProblem": 30
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "jh2-quest17",
+          "unitId": "jh2_data_analysis",
+          "questName": "データの分析",
+          "description": "データの分析の問題",
+          "difficulty": "standard",
+          "problemCount": 80,
+          "problemTypes": {
+            "calculation": 27,
+            "puzzle": 27,
+            "wordProblem": 26
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "jh2-quest18",
+          "unitId": "jh2_algebra_comprehensive",
+          "questName": "総合問題（代数）",
+          "description": "総合問題（代数）の問題",
+          "difficulty": "standard",
+          "problemCount": 90,
+          "problemTypes": {
+            "calculation": 30,
+            "puzzle": 30,
+            "wordProblem": 30
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "jh2-quest19",
+          "unitId": "jh2_geometry_comprehensive",
+          "questName": "総合問題（幾何）",
+          "description": "総合問題（幾何）の問題",
+          "difficulty": "standard",
+          "problemCount": 90,
+          "problemTypes": {
+            "calculation": 30,
+            "puzzle": 30,
+            "wordProblem": 30
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "jh2-quest20",
+          "unitId": "jh2_comprehensive_review",
+          "questName": "2年生のまとめ",
+          "description": "2年生のまとめの問題",
+          "difficulty": "standard",
+          "problemCount": 100,
+          "problemTypes": {
+            "calculation": 34,
+            "puzzle": 33,
+            "wordProblem": 33
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
         }
       ]
     },
@@ -1350,8 +2360,8 @@
       "grade": "中3",
       "icon": "👑",
       "description": "中学数学の完成！高校への準備",
-      "totalQuests": 15,
-      "estimatedProblems": 1500,
+      "totalQuests": 20,
+      "estimatedProblems": 1980,
       "quests": [
         {
           "questId": "jh3-quest01",
@@ -1563,6 +2573,76 @@
             "puzzle": 10
           },
           "reasoning": "統計の基礎。母集団の推定"
+        },
+        {
+          "questId": "jh3-quest16",
+          "unitId": "jh3_expressions_comprehensive",
+          "questName": "総合問題（式の計算）",
+          "description": "総合問題（式の計算）の問題",
+          "difficulty": "standard",
+          "problemCount": 100,
+          "problemTypes": {
+            "calculation": 34,
+            "puzzle": 33,
+            "wordProblem": 33
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "jh3-quest17",
+          "unitId": "jh3_functions_comprehensive",
+          "questName": "総合問題（関数）",
+          "description": "総合問題（関数）の問題",
+          "difficulty": "standard",
+          "problemCount": 100,
+          "problemTypes": {
+            "calculation": 34,
+            "puzzle": 33,
+            "wordProblem": 33
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "jh3-quest18",
+          "unitId": "jh3_geometry_comprehensive",
+          "questName": "総合問題（図形）",
+          "description": "総合問題（図形）の問題",
+          "difficulty": "standard",
+          "problemCount": 100,
+          "problemTypes": {
+            "calculation": 34,
+            "puzzle": 33,
+            "wordProblem": 33
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "jh3-quest19",
+          "unitId": "jh3_entrance_exam_prep",
+          "questName": "入試対策問題",
+          "description": "入試対策問題の問題",
+          "difficulty": "standard",
+          "problemCount": 100,
+          "problemTypes": {
+            "calculation": 34,
+            "puzzle": 33,
+            "wordProblem": 33
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
+        },
+        {
+          "questId": "jh3-quest20",
+          "unitId": "jh3_comprehensive_review",
+          "questName": "3年生のまとめ",
+          "description": "3年生のまとめの問題",
+          "difficulty": "standard",
+          "problemCount": 120,
+          "problemTypes": {
+            "calculation": 40,
+            "puzzle": 40,
+            "wordProblem": 40
+          },
+          "reasoning": "学習内容の定着と応用力の育成"
         }
       ]
     }

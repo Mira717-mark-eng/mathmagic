@@ -36,7 +36,9 @@ const BattleItems = {
         }
 
         modal.classList.remove('hidden');
-        SoundSystem.playSound('open');
+        if (window.SoundSystem) {
+            SoundSystem.playSound('open');
+        }
     },
 
     /**
@@ -45,7 +47,9 @@ const BattleItems = {
     closeItemMenu: function() {
         const modal = document.getElementById('item-modal');
         modal.classList.add('hidden');
-        SoundSystem.playSound('close');
+        if (window.SoundSystem) {
+            SoundSystem.playSound('close');
+        }
     },
 
     /**
@@ -121,7 +125,9 @@ const BattleItems = {
         this.closeItemMenu();
 
         // 効果音
-        SoundSystem.playSound('correct');
+        if (window.SoundSystem) {
+            SoundSystem.playSound('correct');
+        }
     },
 
     /**

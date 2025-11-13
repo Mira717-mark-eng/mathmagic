@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeometryVisualizer Loading Test</title>
+</head>
+<body>
+    <h1>GeometryVisualizer Loading Test</h1>
+    <div id="console-output"></div>
+
+    <script>
+        // Override console.log to display on page
+        const outputDiv = document.getElementById('console-output');
+        const originalLog = console.log;
+        const originalError = console.error;
+
+        console.log = function(...args) {
+            originalLog.apply(console, args);
+            const p = document.createElement('p');
+            p.textContent = args.join(' ');
+            p.style.color = 'green';
+            outputDiv.appendChild(p);
+        };
+
+        console.error = function(...args) {
+            originalError.apply(console, args);
+            const p = document.createElement('p');
+            p.textContent = 'ERROR: ' + args.join(' ');
+            p.style.color = 'red';
+            outputDiv.appendChild(p);
+        };
+
+        console.log('🚀 Starting test...');
+        console.log('Before loading scripts, window.GeometryVisualizer:', typeof window.GeometryVisualizer);
+    </script>
+
+    <!-- Load geometry scripts with version parameters -->
+    <script src="js/geometry-generator.js?v=1.0"></script>
+    <script src="js/geometry-visualizer.js?v=1.0"></script>
+
+    <script>
+        console.log('After loading scripts, window.GeometryVisualizer:', typeof window.GeometryVisualizer);
+        console.log('window.GeometryVisualizer:', window.GeometryVisualizer);
+
+        if (window.GeometryVisualizer) {
+            console.log('✅ GeometryVisualizer is defined!');
+            console.log('GeometryVisualizer.init:', typeof GeometryVisualizer.init);
+            console.log('GeometryVisualizer.render:', typeof GeometryVisualizer.render);
+        } else {
+            console.error('❌ GeometryVisualizer is NOT defined!');
+        }
+
+        if (window.GeometryGenerator) {
+            console.log('✅ GeometryGenerator is defined!');
+        } else {
+            console.error('❌ GeometryGenerator is NOT defined!');
+        }
+    </script>
+</body>
+</html>

@@ -3,7 +3,7 @@
  * PWA対応のためのService Worker
  */
 
-const CACHE_NAME = 'mathmagic-v1';
+const CACHE_NAME = 'mathmagic-v7-geometry-labels';
 const ASSETS_TO_CACHE = [
     '/',
     '/index.html',
@@ -22,6 +22,8 @@ const ASSETS_TO_CACHE = [
     '/js/figure-drawer.js',
     '/js/hint-system.js',
     '/js/parent-stats.js',
+    '/js/geometry-visualizer.js',
+    '/js/geometry-generator.js',
     '/manifest.json'
 ];
 

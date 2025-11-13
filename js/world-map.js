@@ -49,10 +49,29 @@ const WorldMap = {
         document.getElementById('player-name').textContent = player.name;
         document.getElementById('player-level').textContent = player.level;
 
-        // 学年表示
+        // 学年表示（既存プレイヤーの学年を変換）
+        let displayGrade = player.grade;
+
+        // 数値や「X年生」形式の場合、「小X」「中X」形式に変換
+        if (typeof player.grade === 'number' || player.grade.match(/^\d+年生$/)) {
+            const gradeNum = typeof player.grade === 'number' ? player.grade : parseInt(player.grade);
+            const gradeMap = {
+                1: '小1', 2: '小2', 3: '小3', 4: '小4', 5: '小5', 6: '小6',
+                7: '中1', 8: '中2', 9: '中3'
+            };
+            displayGrade = gradeMap[gradeNum] || player.grade;
+
+            // プレイヤーデータも更新
+            if (player.grade !== displayGrade) {
+                player.grade = displayGrade;
+                PlayerManager.updatePlayer(player);
+                console.log(`学年表記を更新しました: ${displayGrade}`);
+            }
+        }
+
         const gradeElement = document.getElementById('player-grade');
         if (gradeElement) {
-            gradeElement.textContent = player.grade;
+            gradeElement.textContent = displayGrade;
         }
 
         // 経験値バー
@@ -90,7 +109,7 @@ const WorldMap = {
         }
 
         // プレイヤーの学年に合ったワールドを取得
-        // 学年は「小1」「小2」...「小6」「中1」「中2」「中3」の形式
+        // 学年は「小1」「小2」...「小6」「中1」「中2」「中3」または「1年生」〜「9年生」の形式
         const gradeMap = {
             '小1': 'grade1',
             '小2': 'grade2',
@@ -100,7 +119,16 @@ const WorldMap = {
             '小6': 'grade6',
             '中1': 'junior-high1',
             '中2': 'junior-high2',
-            '中3': 'junior-high3'
+            '中3': 'junior-high3',
+            '1年生': 'grade1',
+            '2年生': 'grade2',
+            '3年生': 'grade3',
+            '4年生': 'grade4',
+            '5年生': 'grade5',
+            '6年生': 'grade6',
+            '7年生': 'junior-high1',
+            '8年生': 'junior-high2',
+            '9年生': 'junior-high3'
         };
 
         const worldId = gradeMap[player.grade];
@@ -143,37 +171,35 @@ const WorldMap = {
             // 進捗状況を取得（未実装の場合は0%）
             const progress = this.getQuestProgress(player, quest.questId);
             const isCompleted = progress >= 100;
-            const isLocked = index > 0 && this.getQuestProgress(player, world.quests[index-1].questId) < 100;
+            const isLocked = false; // ロックシステムを無効化
 
             return `
-                <div class="bg-white/10 backdrop-blur-md rounded-xl p-4 hover:bg-white/20 transition ${isLocked ? 'opacity-50' : 'cursor-pointer'}"
+                <div class="quest-card bg-white/5 backdrop-blur-sm rounded-xl p-4 hover:bg-white/15 transition cursor-pointer hover:shadow-xl hover:scale-[1.02]"
                      data-quest-id="${quest.questId}"
                      data-world-id="${world.worldId}">
-                    <div class="flex items-center justify-between">
-                        <div class="flex items-center space-x-3">
-                            <div class="text-3xl">${isCompleted ? '✅' : isLocked ? '🔒' : '📝'}</div>
-                            <div>
-                                <h4 class="text-lg font-bold text-white">${quest.questName}</h4>
-                                <p class="text-white/70 text-sm">${quest.description}</p>
-                                <div class="flex items-center space-x-2 mt-1">
-                                    <span class="text-xs text-white/60">問題数: ${quest.problemCount}問</span>
-                                    <span class="text-xs text-white/60">•</span>
-                                    <span class="text-xs text-white/60">難易度: ${quest.difficulty === 'basic' ? '基礎' : quest.difficulty === 'standard' ? '標準' : '応用'}</span>
-                                </div>
+                    <div class="flex flex-col h-full space-y-3">
+                        <div class="flex items-start space-x-3">
+                            <div class="text-3xl flex-shrink-0">${isCompleted ? '✅' : '📝'}</div>
+                            <div class="flex-1 min-w-0">
+                                <h4 class="text-base font-bold text-white mb-1 leading-tight">${quest.questName}</h4>
+                                <p class="text-white/70 text-xs leading-snug">${quest.description}</p>
                             </div>
                         </div>
-                        <div class="text-right">
-                            ${isLocked ? `
-                                <div class="text-white/70 text-sm">前のクエストをクリア</div>
-                            ` : `
-                                <button class="start-quest-btn bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-bold px-6 py-2 rounded-full shadow-lg transition transform hover:scale-105">
-                                    ${isCompleted ? '再挑戦' : '開始'}
-                                </button>
-                            `}
-                            <div class="mt-2 bg-white/20 rounded-full h-2 w-32">
-                                <div class="bg-green-400 h-full rounded-full" style="width: ${progress}%"></div>
+
+                        <div class="flex items-center flex-wrap gap-2 text-xs text-white/60">
+                            <span>📝 ${quest.problemCount}問</span>
+                            <span>•</span>
+                            <span>${quest.difficulty === 'basic' ? '⭐ 基礎' : quest.difficulty === 'standard' ? '⭐⭐ 標準' : '⭐⭐⭐ 応用'}</span>
+                        </div>
+
+                        <div class="mt-auto pt-2">
+                            <div class="text-white font-bold text-sm text-center py-2">
+                                ${isCompleted ? '再挑戦 ▶' : '開始 ▶'}
                             </div>
-                            <div class="text-white/70 text-xs mt-1">${progress}%</div>
+                            <div class="bg-white/20 rounded-full h-2 w-full">
+                                <div class="bg-green-400 h-full rounded-full transition-all" style="width: ${progress}%"></div>
+                            </div>
+                            <div class="text-white/70 text-xs text-center mt-1">${progress}%</div>
                         </div>
                     </div>
                 </div>
@@ -181,32 +207,30 @@ const WorldMap = {
         }).join('');
 
         card.innerHTML = `
-            <div class="bg-gradient-to-br from-purple-600 to-pink-600 rounded-2xl p-8 shadow-2xl">
+            <div class="bg-gradient-to-br from-purple-600 to-pink-600 rounded-2xl p-6 shadow-2xl">
                 <div class="text-center mb-6">
-                    <div class="text-8xl mb-4">${world.icon}</div>
-                    <h2 class="text-4xl font-bold text-white mb-2">${world.worldName}</h2>
-                    <p class="text-white/90 text-lg">${world.description}</p>
-                    <div class="flex items-center justify-center space-x-4 mt-4">
-                        <span class="bg-white/20 text-white px-4 py-2 rounded-full text-sm">
+                    <div class="text-6xl mb-3">${world.icon}</div>
+                    <h2 class="text-3xl font-bold text-white mb-2">${world.worldName}</h2>
+                    <p class="text-white/90">${world.description}</p>
+                    <div class="flex items-center justify-center space-x-4 mt-3">
+                        <span class="bg-white/20 text-white px-3 py-1 rounded-full text-sm">
                             📚 ${world.totalQuests}クエスト
                         </span>
-                        <span class="bg-white/20 text-white px-4 py-2 rounded-full text-sm">
+                        <span class="bg-white/20 text-white px-3 py-1 rounded-full text-sm">
                             📝 約${world.estimatedProblems}問
                         </span>
                     </div>
                 </div>
 
-                <div class="space-y-3">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
                     ${questsHtml}
                 </div>
             </div>
         `;
 
-        // クエスト開始ボタンにイベントリスナーを追加
-        card.querySelectorAll('.start-quest-btn').forEach(btn => {
-            btn.addEventListener('click', (e) => {
-                e.stopPropagation();
-                const questCard = btn.closest('[data-quest-id]');
+        // クエストカード全体にクリックイベントを追加
+        card.querySelectorAll('.quest-card').forEach(questCard => {
+            questCard.addEventListener('click', (e) => {
                 const questId = questCard.getAttribute('data-quest-id');
                 const worldId = questCard.getAttribute('data-world-id');
                 this.startQuest(worldId, questId);

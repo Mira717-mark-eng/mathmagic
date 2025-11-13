@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ストーリーシステムテスト - マスマジ！</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+
+        h1 {
+            color: #667eea;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .test-section {
+            margin: 20px 0;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+        }
+
+        h2 {
+            color: #764ba2;
+            margin-top: 0;
+        }
+
+        .test-buttons {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin: 15px 0;
+        }
+
+        button {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        button:active {
+            transform: translateY(0);
+        }
+
+        .result {
+            margin-top: 15px;
+            padding: 15px;
+            background: white;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            min-height: 50px;
+        }
+
+        .success {
+            color: #28a745;
+            font-weight: bold;
+        }
+
+        .error {
+            color: #dc3545;
+            font-weight: bold;
+        }
+
+        .info {
+            color: #007bff;
+            font-weight: bold;
+        }
+
+        pre {
+            background: #282c34;
+            color: #61dafb;
+            padding: 15px;
+            border-radius: 8px;
+            overflow-x: auto;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .story-preview {
+            margin-top: 20px;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            border: 2px solid #667eea;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📖 ストーリーシステムテスト</h1>
+
+        <div class="test-section">
+            <h2>1. ストーリーファイル読み込みテスト</h2>
+            <p>各学年のストーリーファイルが正しく読み込めるかテストします。</p>
+            <div class="test-buttons">
+                <button onclick="testLoadStory('grade1')">小学1年</button>
+                <button onclick="testLoadStory('grade2')">小学2年 ✅</button>
+                <button onclick="testLoadStory('grade3')">小学3年</button>
+                <button onclick="testLoadStory('grade4')">小学4年 ✅</button>
+                <button onclick="testLoadStory('grade5')">小学5年</button>
+                <button onclick="testLoadStory('grade6')">小学6年</button>
+                <button onclick="testLoadStory('jh1')">中学1年 ✅</button>
+                <button onclick="testLoadStory('jh2')">中学2年</button>
+                <button onclick="testLoadStory('jh3')">中学3年</button>
+            </div>
+            <div id="loadResult" class="result">ボタンをクリックしてテストを開始</div>
+        </div>
+
+        <div class="test-section">
+            <h2>2. クエストストーリー取得テスト</h2>
+            <p>特定のクエストのストーリーデータを取得します。</p>
+            <div class="test-buttons">
+                <button onclick="testGetQuestStory('grade2', 'grade2-quest01')">小2 クエスト1</button>
+                <button onclick="testGetQuestStory('grade4', 'grade4-quest01')">小4 クエスト1</button>
+                <button onclick="testGetQuestStory('jh1', 'jh1-quest01')">中1 クエスト1</button>
+            </div>
+            <div id="questResult" class="result">ボタンをクリックしてテストを開始</div>
+        </div>
+
+        <div class="test-section">
+            <h2>3. ストーリーイントロ表示テスト</h2>
+            <p>クエスト開始前のストーリーを実際に表示します。</p>
+            <div class="test-buttons">
+                <button onclick="testShowIntro('grade2', 'grade2-quest01')">小2 クエスト1</button>
+                <button onclick="testShowIntro('grade4', 'grade4-quest01')">小4 クエスト1</button>
+                <button onclick="testShowIntro('jh1', 'jh1-quest01')">中1 クエスト1</button>
+            </div>
+            <div id="introResult" class="result">ボタンをクリックしてテストを開始</div>
+        </div>
+
+        <div class="test-section">
+            <h2>4. ストーリーアウトロ表示テスト</h2>
+            <p>クエスト完了後のストーリーを実際に表示します。</p>
+            <div class="test-buttons">
+                <button onclick="testShowOutro('grade2', 'grade2-quest01', 'perfect')">小2 パーフェクト</button>
+                <button onclick="testShowOutro('grade4', 'grade4-quest01', 'clear')">小4 クリア</button>
+                <button onclick="testShowOutro('jh1', 'jh1-quest01', 'failed')">中1 失敗</button>
+            </div>
+            <div id="outroResult" class="result">ボタンをクリックしてテストを開始</div>
+        </div>
+
+        <div class="story-preview" id="storyPreview" style="display: none;">
+            <h3>📖 ストーリープレビュー</h3>
+            <div id="previewContent"></div>
+        </div>
+    </div>
+
+    <!-- 依存ファイル読み込み -->
+    <script src="js/core.js"></script>
+    <script src="js/player-manager.js"></script>
+    <script src="js/story-system.js"></script>
+
+    <script>
+        // テスト用のダミープレイヤーデータを作成
+        if (!MathMagic.getCurrentPlayer()) {
+            const dummyPlayer = {
+                name: "テストプレイヤー",
+                characterType: "wizard",
+                icon: "🧙",
+                level: 10,
+                storyProgress: {}
+            };
+            MathMagic.setItem('currentPlayer', dummyPlayer);
+        }
+
+        // 1. ストーリーファイル読み込みテスト
+        async function testLoadStory(gradeId) {
+            const resultDiv = document.getElementById('loadResult');
+            resultDiv.innerHTML = `<span class="info">読み込み中...</span>`;
+
+            try {
+                const story = await StorySystem.loadStoryForGrade(gradeId);
+
+                if (story) {
+                    resultDiv.innerHTML = `
+                        <span class="success">✅ ${gradeId} のストーリーを読み込みました！</span><br><br>
+                        <strong>タイトル:</strong> ${story.storyTitle}<br>
+                        <strong>説明:</strong> ${story.description}<br>
+                        <strong>章数:</strong> ${story.chapters.length}章<br>
+                        <strong>テーマ:</strong> ${story.mainTheme}
+                    `;
+                } else {
+                    resultDiv.innerHTML = `<span class="error">❌ ストーリーを読み込めませんでした</span>`;
+                }
+            } catch (error) {
+                resultDiv.innerHTML = `
+                    <span class="error">❌ エラーが発生しました</span><br>
+                    <small>${error.message}</small><br><br>
+                    <span class="info">ℹ️ このストーリーファイルはまだ作成されていません</span>
+                `;
+            }
+        }
+
+        // 2. クエストストーリー取得テスト
+        async function testGetQuestStory(gradeId, questId) {
+            const resultDiv = document.getElementById('questResult');
+            resultDiv.innerHTML = `<span class="info">取得中...</span>`;
+
+            try {
+                await StorySystem.loadStoryForGrade(gradeId);
+                const questStory = StorySystem.getQuestStory(questId);
+
+                if (questStory) {
+                    resultDiv.innerHTML = `
+                        <span class="success">✅ ${questId} のストーリーを取得しました！</span><br><br>
+                        <strong>イントロ:</strong><br>
+                        <div style="background: #f8f9fa; padding: 10px; border-radius: 5px; margin: 10px 0;">
+                            ${questStory.before.substring(0, 150)}...
+                        </div>
+                        <strong>NPC:</strong> ${questStory.npcDialogue}
+                    `;
+                } else {
+                    resultDiv.innerHTML = `<span class="error">❌ クエストストーリーが見つかりません</span>`;
+                }
+            } catch (error) {
+                resultDiv.innerHTML = `
+                    <span class="error">❌ エラー: ${error.message}</span>
+                `;
+            }
+        }
+
+        // 3. ストーリーイントロ表示テスト
+        async function testShowIntro(gradeId, questId) {
+            const resultDiv = document.getElementById('introResult');
+            const previewDiv = document.getElementById('storyPreview');
+            const previewContent = document.getElementById('previewContent');
+
+            resultDiv.innerHTML = `<span class="info">表示中...</span>`;
+
+            try {
+                await StorySystem.loadStoryForGrade(gradeId);
+
+                // プレビューコンテナを作成
+                previewContent.innerHTML = '';
+                StorySystem.showQuestIntro(questId, previewContent);
+
+                previewDiv.style.display = 'block';
+                resultDiv.innerHTML = `<span class="success">✅ ストーリーイントロを表示しました（下にスクロール）</span>`;
+
+                // ボタンのイベントリスナーを再設定
+                setTimeout(() => {
+                    const startBtn = previewContent.querySelector('.story-start-btn');
+                    if (startBtn) {
+                        startBtn.addEventListener('click', () => {
+                            resultDiv.innerHTML += `<br><span class="success">✅ 「クエスト開始」ボタンがクリックされました</span>`;
+                            previewDiv.style.display = 'none';
+                        });
+                    }
+                }, 100);
+
+                // プレビューまでスクロール
+                setTimeout(() => {
+                    previewDiv.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }, 200);
+
+            } catch (error) {
+                resultDiv.innerHTML = `<span class="error">❌ エラー: ${error.message}</span>`;
+            }
+        }
+
+        // 4. ストーリーアウトロ表示テスト
+        async function testShowOutro(gradeId, questId, clearStatus) {
+            const resultDiv = document.getElementById('outroResult');
+            const previewDiv = document.getElementById('storyPreview');
+            const previewContent = document.getElementById('previewContent');
+
+            resultDiv.innerHTML = `<span class="info">表示中...</span>`;
+
+            try {
+                await StorySystem.loadStoryForGrade(gradeId);
+
+                // プレビューコンテナを作成
+                previewContent.innerHTML = '';
+                StorySystem.showQuestOutro(questId, previewContent, clearStatus);
+
+                previewDiv.style.display = 'block';
+                resultDiv.innerHTML = `<span class="success">✅ ストーリーアウトロを表示しました（下にスクロール）</span>`;
+
+                // ボタンのイベントリスナーを再設定
+                setTimeout(() => {
+                    const nextBtn = previewContent.querySelector('.story-next-btn');
+                    if (nextBtn) {
+                        nextBtn.addEventListener('click', () => {
+                            resultDiv.innerHTML += `<br><span class="success">✅ 「次へ」ボタンがクリックされました</span>`;
+                            previewDiv.style.display = 'none';
+                        });
+                    }
+                }, 100);
+
+                // プレビューまでスクロール
+                setTimeout(() => {
+                    previewDiv.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }, 200);
+
+            } catch (error) {
+                resultDiv.innerHTML = `<span class="error">❌ エラー: ${error.message}</span>`;
+            }
+        }
+
+        console.log('✅ ストーリーシステムテストページ準備完了');
+    </script>
+</body>
+</html>

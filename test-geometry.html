@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>図形システムテスト - マスマジ！</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+    </style>
+</head>
+<body class="min-h-screen p-8">
+
+    <div class="max-w-4xl mx-auto">
+        <!-- ヘッダー -->
+        <div class="bg-white rounded-2xl shadow-2xl p-6 mb-6">
+            <h1 class="text-3xl font-bold text-gray-800 mb-2">
+                <i class="fas fa-shapes text-purple-600 mr-3"></i>
+                図形システムテスト
+            </h1>
+            <p class="text-gray-600">6つの問題タイプと動的生成をテスト</p>
+        </div>
+
+        <!-- コントロールパネル -->
+        <div class="bg-white rounded-2xl shadow-2xl p-6 mb-6">
+            <h2 class="text-xl font-bold text-gray-800 mb-4">
+                <i class="fas fa-sliders-h text-blue-600 mr-2"></i>
+                問題生成
+            </h2>
+
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-3 mb-4">
+                <button onclick="showProblem('angleUnderstanding', 'verticalAngles')"
+                        class="bg-gradient-to-r from-red-500 to-pink-500 hover:from-red-600 hover:to-pink-600 text-white font-bold py-3 px-4 rounded-lg transition transform hover:scale-105">
+                    📐 対頂角
+                </button>
+                <button onclick="showProblem('angleUnderstanding', 'supplementaryAngles')"
+                        class="bg-gradient-to-r from-orange-500 to-yellow-500 hover:from-orange-600 hover:to-yellow-600 text-white font-bold py-3 px-4 rounded-lg transition transform hover:scale-105">
+                    🚪 補角
+                </button>
+                <button onclick="showProblem('triangleRealLife', 'triangleAngles')"
+                        class="bg-gradient-to-r from-green-500 to-teal-500 hover:from-green-600 hover:to-teal-600 text-white font-bold py-3 px-4 rounded-lg transition transform hover:scale-105">
+                    🔺 三角形の角
+                </button>
+                <button onclick="showProblem('triangleRealLife', 'triangleTypes')"
+                        class="bg-gradient-to-r from-blue-500 to-indigo-500 hover:from-blue-600 hover:to-indigo-600 text-white font-bold py-3 px-4 rounded-lg transition transform hover:scale-105">
+                    🔍 三角形探偵
+                </button>
+                <button onclick="showProblem('areaLogic', 'compareAreas')"
+                        class="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white font-bold py-3 px-4 rounded-lg transition transform hover:scale-105">
+                    🎯 面積比較
+                </button>
+                <button onclick="showProblem('areaLogic', 'triangleArea')"
+                        class="bg-gradient-to-r from-pink-500 to-red-500 hover:from-pink-600 hover:to-red-600 text-white font-bold py-3 px-4 rounded-lg transition transform hover:scale-105">
+                    🌻 三角形面積
+                </button>
+                <button onclick="showProblem('geometryErrors', 'findMistake')"
+                        class="bg-gradient-to-r from-yellow-500 to-orange-500 hover:from-yellow-600 hover:to-orange-600 text-white font-bold py-3 px-4 rounded-lg transition transform hover:scale-105">
+                    ❌ 間違い探し
+                </button>
+                <button onclick="showProblem('geometryStructure', 'decomposeShape')"
+                        class="bg-gradient-to-r from-teal-500 to-green-500 hover:from-teal-600 hover:to-green-600 text-white font-bold py-3 px-4 rounded-lg transition transform hover:scale-105">
+                    ✂️ 図形分解
+                </button>
+                <button onclick="showProblem('geometryStructure', 'triangleInRectangle')"
+                        class="bg-gradient-to-r from-indigo-500 to-purple-500 hover:from-indigo-600 hover:to-purple-600 text-white font-bold py-3 px-4 rounded-lg transition transform hover:scale-105">
+                    📐 長方形の中
+                </button>
+            </div>
+
+            <div class="flex gap-3">
+                <button onclick="generateRandomProblem()"
+                        class="flex-1 bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white font-bold py-3 px-6 rounded-lg transition transform hover:scale-105">
+                    <i class="fas fa-random mr-2"></i>
+                    ランダムに生成
+                </button>
+                <button onclick="generateBalancedSet()"
+                        class="flex-1 bg-gradient-to-r from-green-600 to-teal-600 hover:from-green-700 hover:to-teal-700 text-white font-bold py-3 px-6 rounded-lg transition transform hover:scale-105">
+                    <i class="fas fa-list mr-2"></i>
+                    バランス型15問生成
+                </button>
+            </div>
+        </div>
+
+        <!-- 問題表示エリア -->
+        <div class="bg-white rounded-2xl shadow-2xl p-6 mb-6">
+            <h2 class="text-xl font-bold text-gray-800 mb-4">
+                <i class="fas fa-book text-green-600 mr-2"></i>
+                問題
+            </h2>
+
+            <div id="problem-display" class="mb-6">
+                <div class="text-center text-gray-400 py-12">
+                    <i class="fas fa-arrow-up text-6xl mb-4"></i>
+                    <p class="text-xl">上のボタンから問題を選んでね！</p>
+                </div>
+            </div>
+
+            <!-- 図形表示エリア -->
+            <div id="geometry-container" class="hidden">
+                <div class="bg-gradient-to-br from-blue-50 to-purple-50 rounded-xl p-4 mb-4">
+                    <canvas id="geometry-canvas" width="600" height="400" class="mx-auto border-2 border-gray-300 rounded-lg bg-white"></canvas>
+                </div>
+            </div>
+
+            <!-- 回答エリア -->
+            <div id="answer-area" class="hidden">
+                <div class="bg-gray-50 rounded-xl p-4">
+                    <div class="flex items-center justify-center space-x-3 mb-3">
+                        <input
+                            type="text"
+                            id="answer-input"
+                            class="text-2xl font-bold text-center w-48 px-4 py-3 border-4 border-purple-300 rounded-xl focus:border-purple-500 focus:outline-none focus:ring-4 focus:ring-purple-200"
+                            placeholder="答えを入力"
+                        >
+                        <span id="unit-display" class="text-xl font-bold text-gray-600"></span>
+                    </div>
+                    <div class="text-center">
+                        <button onclick="checkAnswer()" class="bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white text-lg font-bold px-8 py-3 rounded-full shadow-lg transition transform hover:scale-105">
+                            <i class="fas fa-check-circle mr-2"></i>
+                            答える
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 結果表示エリア -->
+            <div id="result-area" class="hidden mt-4">
+                <!-- 結果はJavaScriptで動的生成 -->
+            </div>
+        </div>
+
+        <!-- 問題セット表示 -->
+        <div id="problem-set-display" class="hidden bg-white rounded-2xl shadow-2xl p-6">
+            <h2 class="text-xl font-bold text-gray-800 mb-4">
+                <i class="fas fa-clipboard-list text-orange-600 mr-2"></i>
+                生成された問題セット
+            </h2>
+            <div id="problem-set-list" class="space-y-2 max-h-96 overflow-y-auto">
+                <!-- 問題リストはJavaScriptで動的生成 -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/geometry-generator.js"></script>
+    <script src="js/geometry-visualizer.js"></script>
+    <script>
+        let currentProblem = null;
+        let currentQuestions = [];
+        let currentQuestionIndex = 0;
+
+        // GeometryVisualizerを初期化
+        GeometryVisualizer.init('geometry-canvas');
+
+        /**
+         * 特定の問題を表示
+         */
+        function showProblem(typeName, methodName) {
+            console.log('問題生成:', typeName, methodName);
+
+            const typeObj = GeometryGenerator[typeName];
+            if (!typeObj || typeof typeObj[methodName] !== 'function') {
+                console.error('問題タイプが見つかりません:', typeName, methodName);
+                return;
+            }
+
+            currentProblem = typeObj[methodName]();
+            currentQuestions = currentProblem.questions || [];
+            currentQuestionIndex = 0;
+
+            displayProblem(currentProblem);
+        }
+
+        /**
+         * ランダムな問題を生成
+         */
+        function generateRandomProblem() {
+            const types = ['angleUnderstanding', 'triangleRealLife', 'areaLogic', 'geometryErrors', 'geometryStructure'];
+            const type = types[Math.floor(Math.random() * types.length)];
+            const typeObj = GeometryGenerator[type];
+            const methods = Object.keys(typeObj).filter(key => typeof typeObj[key] === 'function');
+            const method = methods[Math.floor(Math.random() * methods.length)];
+
+            showProblem(type, method);
+        }
+
+        /**
+         * バランス型問題セットを生成
+         */
+        function generateBalancedSet() {
+            const problems = GeometryGenerator.generateBalancedSet(15);
+            console.log('バランス型問題セット生成:', problems.length, '問');
+
+            displayProblemSet(problems);
+        }
+
+        /**
+         * 問題を表示
+         */
+        function displayProblem(problem) {
+            const displayDiv = document.getElementById('problem-display');
+            const geometryContainer = document.getElementById('geometry-container');
+            const answerArea = document.getElementById('answer-area');
+            const resultArea = document.getElementById('result-area');
+            const problemSetDisplay = document.getElementById('problem-set-display');
+
+            // 問題セット表示を隠す
+            problemSetDisplay.classList.add('hidden');
+
+            // 問題情報を表示
+            displayDiv.innerHTML = `
+                <div class="mb-4">
+                    <div class="inline-block bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-bold mb-2">
+                        ${problem.category}
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-2">${problem.title}</h3>
+                    <p class="text-lg text-gray-600 mb-4">${problem.story}</p>
+                    <div class="bg-blue-50 border-l-4 border-blue-500 p-4 mb-2">
+                        <p class="text-lg font-semibold text-blue-900">
+                            <i class="fas fa-question-circle mr-2"></i>
+                            ${currentQuestions[currentQuestionIndex]?.text || '問題がありません'}
+                        </p>
+                    </div>
+                    ${problem.learningPoint ? `
+                    <div class="bg-green-50 border-l-4 border-green-500 p-3 mt-3">
+                        <p class="text-sm font-semibold text-green-900">
+                            <i class="fas fa-lightbulb mr-2"></i>
+                            学習ポイント: ${problem.learningPoint}
+                        </p>
+                    </div>
+                    ` : ''}
+                </div>
+            `;
+
+            // 図形を表示
+            if (problem.visualizationType && problem.visualData) {
+                geometryContainer.classList.remove('hidden');
+                GeometryVisualizer.render(problem.visualizationType, problem.visualData);
+            } else {
+                geometryContainer.classList.add('hidden');
+            }
+
+            // 回答エリアを表示
+            answerArea.classList.remove('hidden');
+            document.getElementById('answer-input').value = '';
+            document.getElementById('unit-display').textContent = '';
+
+            // 結果エリアをクリア
+            resultArea.classList.add('hidden');
+            resultArea.innerHTML = '';
+        }
+
+        /**
+         * 回答をチェック
+         */
+        function checkAnswer() {
+            const input = document.getElementById('answer-input').value.trim();
+            const resultArea = document.getElementById('result-area');
+
+            if (!input) {
+                alert('答えを入力してください');
+                return;
+            }
+
+            const currentQuestion = currentQuestions[currentQuestionIndex];
+            const userAnswer = input.toLowerCase().replace(/\s/g, '');
+            const correctAnswer = String(currentQuestion.answer).toLowerCase().replace(/\s/g, '');
+
+            const isCorrect = userAnswer === correctAnswer;
+
+            // 結果を表示
+            resultArea.classList.remove('hidden');
+            resultArea.innerHTML = `
+                <div class="bg-gradient-to-r ${isCorrect ? 'from-green-100 to-emerald-100 border-green-500' : 'from-red-100 to-pink-100 border-red-500'} border-l-4 p-4 rounded-lg">
+                    <div class="flex items-center mb-2">
+                        <i class="fas fa-${isCorrect ? 'check-circle text-green-600' : 'times-circle text-red-600'} text-2xl mr-3"></i>
+                        <span class="text-xl font-bold ${isCorrect ? 'text-green-800' : 'text-red-800'}">
+                            ${isCorrect ? '正解！' : '不正解...'}
+                        </span>
+                    </div>
+                    ${!isCorrect ? `
+                    <p class="text-gray-700 mb-2">
+                        正解: <strong class="text-lg">${currentQuestion.answer}</strong>
+                    </p>
+                    ` : ''}
+                    ${currentQuestion.explanation ? `
+                    <p class="text-gray-700 text-sm">
+                        <i class="fas fa-info-circle mr-1"></i>
+                        ${currentQuestion.explanation}
+                    </p>
+                    ` : ''}
+                    ${currentQuestionIndex < currentQuestions.length - 1 ? `
+                    <button onclick="nextQuestion()" class="mt-3 bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg transition">
+                        <i class="fas fa-arrow-right mr-2"></i>次の質問へ
+                    </button>
+                    ` : ''}
+                </div>
+            `;
+        }
+
+        /**
+         * 次の質問へ
+         */
+        function nextQuestion() {
+            currentQuestionIndex++;
+            if (currentQuestionIndex < currentQuestions.length) {
+                displayProblem(currentProblem);
+            }
+        }
+
+        /**
+         * 問題セットを表示
+         */
+        function displayProblemSet(problems) {
+            const problemSetDisplay = document.getElementById('problem-set-display');
+            const problemSetList = document.getElementById('problem-set-list');
+
+            problemSetDisplay.classList.remove('hidden');
+
+            problemSetList.innerHTML = problems.map((problem, index) => `
+                <div class="bg-gradient-to-r from-purple-50 to-blue-50 rounded-lg p-4 border-2 border-purple-200 hover:border-purple-400 transition cursor-pointer" onclick="showGeneratedProblem(${index})">
+                    <div class="flex items-center justify-between">
+                        <div class="flex-1">
+                            <div class="flex items-center mb-1">
+                                <span class="bg-purple-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm mr-3">
+                                    ${index + 1}
+                                </span>
+                                <span class="font-bold text-gray-800">${problem.title}</span>
+                            </div>
+                            <p class="text-sm text-gray-600 ml-11">${problem.story}</p>
+                        </div>
+                        <div class="bg-purple-100 text-purple-700 px-3 py-1 rounded-full text-xs font-bold">
+                            ${problem.category}
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+
+            // 生成された問題を保存
+            window.generatedProblems = problems;
+        }
+
+        /**
+         * 生成された問題を表示
+         */
+        function showGeneratedProblem(index) {
+            if (window.generatedProblems && window.generatedProblems[index]) {
+                currentProblem = window.generatedProblems[index];
+                currentQuestions = currentProblem.questions || [];
+                currentQuestionIndex = 0;
+                displayProblem(currentProblem);
+
+                // 問題セット表示を隠す
+                document.getElementById('problem-set-display').classList.add('hidden');
+            }
+        }
+
+        // 初期表示
+        console.log('✅ 図形システムテストページ準備完了');
+        console.log('GeometryGenerator:', GeometryGenerator);
+        console.log('GeometryVisualizer:', GeometryVisualizer);
+    </script>
+
+</body>
+</html>

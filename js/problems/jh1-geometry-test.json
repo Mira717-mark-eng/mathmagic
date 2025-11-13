@@ -1,0 +1,386 @@
+{
+    "questId": "jh1-geometry-test",
+    "questName": "図形の冒険 - 角度と三角形",
+    "description": "図形の不思議な世界を体験しよう！",
+    "difficulty": "standard",
+    "totalProblems": 20,
+    "problems": [
+        {
+            "id": 1,
+            "type": "geometry-understanding",
+            "category": "angles",
+            "title": "📐 角度の不思議を発見しよう（その1）",
+            "story": "2本の直線が交わったとき、角①②③④ができるよ。図を見てみよう！",
+            "question": "角②は130度だね。角①と角②を足すと180度になるよ（直線だから）。じゃあ、角①は何度？",
+            "answer": 50,
+            "unit": "度",
+            "difficulty": "standard",
+            "hint": "180度 - 130度 を計算してみよう",
+            "visualizationType": "intersecting-lines",
+            "visualData": {
+                "angle1": 50,
+                "angle2": 130,
+                "showLabels": true,
+                "showAngles": [false, true, false, true],
+                "interactive": true
+            }
+        },
+        {
+            "id": 2,
+            "type": "geometry-understanding",
+            "category": "angles",
+            "title": "📐 角度の不思議を発見しよう（その2）",
+            "story": "さっきの続きだよ。角①は50度だったね！",
+            "question": "次は下の角を考えよう。角④は130度だね。じゃあ、角③は何度？",
+            "answer": 50,
+            "unit": "度",
+            "difficulty": "standard",
+            "hint": "180度 - 130度 だよ",
+            "visualizationType": "intersecting-lines",
+            "visualData": {
+                "angle1": 50,
+                "angle2": 130,
+                "showLabels": true,
+                "showAngles": [false, true, false, true],
+                "interactive": true
+            }
+        },
+        {
+            "id": 3,
+            "type": "geometry-understanding",
+            "category": "angles",
+            "title": "📐 角度の不思議を発見しよう（その3）",
+            "story": "ここまでで角①=50度、角③=50度だったね。気づいた？",
+            "question": "角①と角③を比べてみて。向かい合っている角（対頂角）は同じ？違う？",
+            "answer": "おなじ",
+            "unit": "",
+            "difficulty": "standard",
+            "hint": "角①=50度、角③=50度だよ",
+            "visualizationType": "intersecting-lines",
+            "visualData": {
+                "angle1": 50,
+                "angle2": 130,
+                "showLabels": true,
+                "showAngles": [true, false, true, false],
+                "interactive": true
+            }
+        },
+        {
+            "id": 4,
+            "type": "geometry-understanding",
+            "category": "angles",
+            "title": "🚪 補角の秘密（その1）",
+            "story": "教室のドアを開けると、角度ができるよ。",
+            "question": "角Aと角Bを足すと何度になる？（図を見てみよう）",
+            "answer": 180,
+            "unit": "度",
+            "difficulty": "standard",
+            "hint": "まっすぐな線だから180度だよ",
+            "visualizationType": "supplementary-angles",
+            "visualData": {
+                "angle1": 70,
+                "angle2": 110,
+                "location": "教室",
+                "showAngleValues": false
+            }
+        },
+        {
+            "id": 5,
+            "type": "geometry-understanding",
+            "category": "angles",
+            "title": "🚪 補角の秘密（その2）",
+            "story": "角Aは70度だったよ。",
+            "question": "角Aと合わせて180度になる角Bは何度？",
+            "answer": 110,
+            "unit": "度",
+            "difficulty": "standard",
+            "hint": "180度 - 70度 を計算してみよう",
+            "visualizationType": "supplementary-angles",
+            "visualData": {
+                "angle1": 70,
+                "angle2": 110,
+                "location": "教室",
+                "showAngleValues": false
+            }
+        },
+        {
+            "id": 6,
+            "type": "geometry-real-life",
+            "category": "triangles",
+            "title": "🏠 三角形の屋根の角度（その1）",
+            "story": "屋根の角度を測ってみよう！",
+            "question": "まず、角Aと角Bと角Cを全部足すと何度になると思う？",
+            "answer": 180,
+            "unit": "度",
+            "difficulty": "standard",
+            "hint": "三角形の内角の和は180度だよ",
+            "visualizationType": "triangle-angles",
+            "visualData": {
+                "angle1": 60,
+                "angle2": 70,
+                "angle3": 50,
+                "scenario": "三角形の屋根",
+                "showAngles": [true, true, false]
+            }
+        },
+        {
+            "id": 7,
+            "type": "geometry-real-life",
+            "category": "triangles",
+            "title": "🏠 三角形の屋根の角度（その2）",
+            "story": "角Aは60度、角Bは70度だね。",
+            "question": "じゃあ、角Cは何度かな？（全部で180度になるはずだよ）",
+            "answer": 50,
+            "unit": "度",
+            "difficulty": "standard",
+            "hint": "180度 - 60度 - 70度 を計算してみよう",
+            "visualizationType": "triangle-angles",
+            "visualData": {
+                "angle1": 60,
+                "angle2": 70,
+                "angle3": 50,
+                "scenario": "三角形の屋根",
+                "showAngles": [true, true, false]
+            }
+        },
+        {
+            "id": 8,
+            "type": "geometry-real-life",
+            "category": "triangles",
+            "title": "🏠 三角形の屋根の角度（その3）",
+            "story": "確認してみよう！",
+            "question": "60度 + 70度 + 50度 = ？",
+            "answer": 180,
+            "unit": "度",
+            "difficulty": "standard",
+            "hint": "足し算してみよう",
+            "visualizationType": "triangle-angles",
+            "visualData": {
+                "angle1": 60,
+                "angle2": 70,
+                "angle3": 50,
+                "scenario": "三角形の屋根",
+                "showAngles": [true, true, true]
+            }
+        },
+        {
+            "id": 9,
+            "type": "geometry-real-life",
+            "category": "triangles",
+            "title": "📐 三角形探偵",
+            "story": "三角形の種類を見抜こう！",
+            "question": "この三角形は何という名前？（ひらがなで答えてね）",
+            "answer": "ちょっかくさんかくけい",
+            "unit": "",
+            "difficulty": "standard",
+            "hint": "90度の角が1つあるよ",
+            "visualizationType": "triangle-angles",
+            "visualData": {
+                "angle1": 90,
+                "angle2": 45,
+                "angle3": 45,
+                "showAngles": [true, true, true]
+            }
+        },
+        {
+            "id": 10,
+            "type": "geometry-logic",
+            "category": "area",
+            "title": "🎯 面積バトル（その1）",
+            "story": "2つのお菓子箱があります。まずはそれぞれの面積を計算しよう！",
+            "question": "お菓子箱Aは底辺6cm×高さ8cm。面積は何cm²？",
+            "answer": 48,
+            "unit": "cm²",
+            "difficulty": "standard",
+            "hint": "長方形の面積は 底辺×高さ だよ",
+            "visualizationType": "area-comparison",
+            "visualData": {
+                "shape1": { "base": 6, "height": 8, "name": "お菓子箱A" },
+                "shape2": { "base": 7, "height": 7, "name": "お菓子箱B" },
+                "showAreas": false
+            }
+        },
+        {
+            "id": 11,
+            "type": "geometry-logic",
+            "category": "area",
+            "title": "🎯 面積バトル（その2）",
+            "story": "次はお菓子箱Bの面積を計算しよう！",
+            "question": "お菓子箱Bは底辺7cm×高さ7cm。面積は何cm²？",
+            "answer": 49,
+            "unit": "cm²",
+            "difficulty": "standard",
+            "hint": "7 × 7 を計算してみよう",
+            "visualizationType": "area-comparison",
+            "visualData": {
+                "shape1": { "base": 6, "height": 8, "name": "お菓子箱A" },
+                "shape2": { "base": 7, "height": 7, "name": "お菓子箱B" },
+                "showAreas": false
+            }
+        },
+        {
+            "id": 12,
+            "type": "geometry-logic",
+            "category": "area",
+            "title": "🎯 面積バトル（その3）",
+            "story": "さあ、どっちが大きいかな？",
+            "question": "AとB、どっちのお菓子箱が広い？（AかBで答えてね）",
+            "answer": "B",
+            "unit": "",
+            "difficulty": "standard",
+            "hint": "Aは48cm²、Bは49cm²だったね",
+            "visualizationType": "area-comparison",
+            "visualData": {
+                "shape1": { "base": 6, "height": 8, "name": "お菓子箱A" },
+                "shape2": { "base": 7, "height": 7, "name": "お菓子箱B" },
+                "showAreas": false
+            }
+        },
+        {
+            "id": 13,
+            "type": "geometry-logic",
+            "category": "triangle-area",
+            "title": "🌻 三角形の花壇（その1）",
+            "story": "底辺8cm、高さ6cmの三角形の花壇があるよ。",
+            "question": "もしこれが長方形だったら、面積は何cm²？",
+            "answer": 48,
+            "unit": "cm²",
+            "difficulty": "standard",
+            "hint": "8cm × 6cm を計算してみよう",
+            "visualizationType": "triangle-area",
+            "visualData": {
+                "base": 8,
+                "height": 6,
+                "scenario": "三角形の花壇",
+                "showFormula": false
+            }
+        },
+        {
+            "id": 14,
+            "type": "geometry-logic",
+            "category": "triangle-area",
+            "title": "🌻 三角形の花壇（その2）",
+            "story": "三角形は長方形の半分の大きさだね。",
+            "question": "じゃあ、三角形の花壇の面積は？",
+            "answer": 24,
+            "unit": "cm²",
+            "difficulty": "standard",
+            "hint": "48cm² ÷ 2 だよ",
+            "visualizationType": "triangle-area",
+            "visualData": {
+                "base": 8,
+                "height": 6,
+                "scenario": "三角形の花壇",
+                "showFormula": false
+            }
+        },
+        {
+            "id": 15,
+            "type": "geometry-structure",
+            "category": "decomposition",
+            "title": "✂️ 図形を分けてみよう（その1）",
+            "story": "長方形（10cm × 6cm）を縦に切るよ。左側は4cm、右側は6cmだね。",
+            "question": "まず、全体の面積は何cm²？",
+            "answer": 60,
+            "unit": "cm²",
+            "difficulty": "standard",
+            "hint": "10cm × 6cm を計算してみよう",
+            "visualizationType": "shape-decomposition",
+            "visualData": {
+                "shape": "rectangle",
+                "width": 10,
+                "height": 6,
+                "cutPosition": 4,
+                "showCut": true
+            }
+        },
+        {
+            "id": 16,
+            "type": "geometry-structure",
+            "category": "decomposition",
+            "title": "✂️ 図形を分けてみよう（その2）",
+            "story": "左側の長方形は、幅4cm × 高さ6cmだね。",
+            "question": "左側の面積は？",
+            "answer": 24,
+            "unit": "cm²",
+            "difficulty": "standard",
+            "hint": "4cm × 6cm を計算してみよう",
+            "visualizationType": "shape-decomposition",
+            "visualData": {
+                "shape": "rectangle",
+                "width": 10,
+                "height": 6,
+                "cutPosition": 4,
+                "showCut": true
+            }
+        },
+        {
+            "id": 17,
+            "type": "geometry-structure",
+            "category": "decomposition",
+            "title": "✂️ 図形を分けてみよう（その3）",
+            "story": "右側の長方形は、幅6cm × 高さ6cmだね。",
+            "question": "右側の面積は？",
+            "answer": 36,
+            "unit": "cm²",
+            "difficulty": "standard",
+            "hint": "6cm × 6cm を計算してみよう",
+            "visualizationType": "shape-decomposition",
+            "visualData": {
+                "shape": "rectangle",
+                "width": 10,
+                "height": 6,
+                "cutPosition": 4,
+                "showCut": true
+            }
+        },
+        {
+            "id": 18,
+            "type": "geometry-structure",
+            "category": "structure",
+            "title": "🔺 対角線で半分に切った長方形（その1）",
+            "story": "長方形（8cm × 5cm）を対角線で半分に切るよ。",
+            "question": "まず、長方形全体の面積は何cm²？",
+            "answer": 40,
+            "unit": "cm²",
+            "difficulty": "standard",
+            "hint": "8cm × 5cm を計算してみよう",
+            "visualizationType": "triangle-in-rectangle",
+            "visualData": {
+                "width": 8,
+                "height": 5,
+                "showDiagonal": true
+            }
+        },
+        {
+            "id": 19,
+            "type": "geometry-structure",
+            "category": "structure",
+            "title": "🔺 対角線で半分に切った長方形（その2）",
+            "story": "対角線で半分に切ると、三角形が2つできるね。",
+            "question": "半分に切った三角形1つの面積は何cm²？",
+            "answer": 20,
+            "unit": "cm²",
+            "difficulty": "standard",
+            "hint": "長方形の面積 ÷ 2 を計算してみよう",
+            "visualizationType": "triangle-in-rectangle",
+            "visualData": {
+                "width": 8,
+                "height": 5,
+                "showDiagonal": true
+            }
+        },
+        {
+            "id": 20,
+            "type": "geometry-error",
+            "category": "error-finding",
+            "title": "🔍 間違い探し探偵",
+            "story": "友達のノートに間違いがあるよ！",
+            "question": "友達が「三角形の内角の和は90° + 60° + 40° = 190°」と書いてたよ。正しい内角の和は？",
+            "answer": 180,
+            "unit": "度",
+            "difficulty": "standard",
+            "hint": "三角形の内角の和は180度だよ"
+        }
+    ]
+}

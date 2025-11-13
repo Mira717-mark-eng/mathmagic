@@ -1,0 +1,816 @@
+{
+  "questId": "jh3-quest14",
+  "unitId": "jh3_circles_applications",
+  "questName": "円の性質の利用",
+  "grade": "中3",
+  "description": "円を使った証明と計算",
+  "difficulty": "advanced",
+  "problemCount": 80,
+  "problemTypes": {
+    "calculation": 25,
+    "wordProblem": 45,
+    "puzzle": 10
+  },
+  "problems": [
+    {
+      "id": 1,
+      "question": "円の接線は、接点を通る半径に垂直です。円の中心Oから接点Aに半径OAを引くと、OA = 5cmでした。接線上の点Bで、AB = 12cmのとき、OBの長さを求めなさい。",
+      "answer": "13",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "三平方の定理を使う",
+      "explanation": "OA ⊥ AB より、5² + 12² = OB²。OB = 13cm"
+    },
+    {
+      "id": 2,
+      "question": "円の中心Oから接点Aに半径OAを引くと、OA = 8cmでした。接線上の点Bで、AB = 15cmのとき、OBの長さを求めなさい。",
+      "answer": "17",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "三平方の定理",
+      "explanation": "8² + 15² = OB²。OB = 17cm"
+    },
+    {
+      "id": 3,
+      "question": "円の中心Oから接点Aに半径OAを引くと、OA = 6cmでした。接線上の点Bで、OB = 10cmのとき、ABの長さを求めなさい。",
+      "answer": "8",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "6² + AB² = 10²",
+      "explanation": "6² + AB² = 10² より AB² = 64。AB = 8cm"
+    },
+    {
+      "id": 4,
+      "question": "円の中心Oから接点Aに半径OAを引くと、OA = 9cmでした。接線上の点Bで、AB = 40cmのとき、OBの長さを求めなさい。",
+      "answer": "41",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "三平方の定理",
+      "explanation": "9² + 40² = OB²。OB = 41cm"
+    },
+    {
+      "id": 5,
+      "question": "円の中心Oから接点Aに半径OAを引くと、OA = 12cmでした。接線上の点Bで、OB = 13cmのとき、ABの長さを求めなさい。",
+      "answer": "5",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "12² + AB² = 13²",
+      "explanation": "12² + AB² = 13² より AB² = 25。AB = 5cm"
+    },
+    {
+      "id": 6,
+      "question": "円の中心Oから接点Aに半径OAを引くと、OA = 7cmでした。接線上の点Bで、AB = 24cmのとき、OBの長さを求めなさい。",
+      "answer": "25",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "三平方の定理",
+      "explanation": "7² + 24² = OB²。OB = 25cm"
+    },
+    {
+      "id": 7,
+      "question": "円の中心Oから接点Aに半径OAを引くと、OA = 15cmでした。接線上の点Bで、OB = 17cmのとき、ABの長さを求めなさい。",
+      "answer": "8",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "15² + AB² = 17²",
+      "explanation": "15² + AB² = 17² より AB² = 64。AB = 8cm"
+    },
+    {
+      "id": 8,
+      "question": "円の中心Oから接点Aに半径OAを引くと、OA = 20cmでした。接線上の点Bで、AB = 21cmのとき、OBの長さを求めなさい。",
+      "answer": "29",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "三平方の定理",
+      "explanation": "20² + 21² = OB²。OB = 29cm"
+    },
+    {
+      "id": 9,
+      "question": "円の中心Oから接点Aに半径OAを引くと、OA = 11cmでした。接線上の点Bで、AB = 60cmのとき、OBの長さを求めなさい。",
+      "answer": "61",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "三平方の定理",
+      "explanation": "11² + 60² = OB²。OB = 61cm"
+    },
+    {
+      "id": 10,
+      "question": "円の中心Oから接点Aに半径OAを引くと、OA = 24cmでした。接線上の点Bで、OB = 26cmのとき、ABの長さを求めなさい。",
+      "answer": "10",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "24² + AB² = 26²",
+      "explanation": "24² + AB² = 26² より AB² = 100。AB = 10cm"
+    },
+    {
+      "id": 11,
+      "question": "円外の点Pから円に引いた2本の接線の接点をA、Bとします。PA = 12cm、半径が5cmのとき、中心Oから点Pまでの距離OPを求めなさい。",
+      "answer": "13",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "PA = PB、三平方の定理",
+      "explanation": "5² + 12² = OP²。OP = 13cm"
+    },
+    {
+      "id": 12,
+      "question": "円外の点Pから円に引いた2本の接線の接点をA、Bとします。PA = 15cm、半径が8cmのとき、中心Oから点Pまでの距離OPを求めなさい。",
+      "answer": "17",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "三平方の定理",
+      "explanation": "8² + 15² = OP²。OP = 17cm"
+    },
+    {
+      "id": 13,
+      "question": "円外の点Pから円に引いた2本の接線の接点をA、Bとします。OP = 10cm、半径が6cmのとき、接線の長さPAを求めなさい。",
+      "answer": "8",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "6² + PA² = 10²",
+      "explanation": "6² + PA² = 10² より PA² = 64。PA = 8cm"
+    },
+    {
+      "id": 14,
+      "question": "円外の点Pから円に引いた2本の接線の接点をA、Bとします。PA = 40cm、半径が9cmのとき、OPを求めなさい。",
+      "answer": "41",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "三平方の定理",
+      "explanation": "9² + 40² = OP²。OP = 41cm"
+    },
+    {
+      "id": 15,
+      "question": "円外の点Pから円に引いた2本の接線の接点をA、Bとします。OP = 13cm、半径が12cmのとき、PAを求めなさい。",
+      "answer": "5",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "12² + PA² = 13²",
+      "explanation": "12² + PA² = 13² より PA² = 25。PA = 5cm"
+    },
+    {
+      "id": 16,
+      "question": "円外の点Pから円に引いた2本の接線の接点をA、Bとします。PA = 24cm、半径が7cmのとき、OPを求めなさい。",
+      "answer": "25",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "三平方の定理",
+      "explanation": "7² + 24² = OP²。OP = 25cm"
+    },
+    {
+      "id": 17,
+      "question": "円外の点Pから円に引いた2本の接線の接点をA、Bとします。OP = 17cm、半径が15cmのとき、PAを求めなさい。",
+      "answer": "8",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "15² + PA² = 17²",
+      "explanation": "15² + PA² = 17² より PA² = 64。PA = 8cm"
+    },
+    {
+      "id": 18,
+      "question": "円外の点Pから円に引いた2本の接線の接点をA、Bとします。PA = 21cm、半径が20cmのとき、OPを求めなさい。",
+      "answer": "29",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "三平方の定理",
+      "explanation": "20² + 21² = OP²。OP = 29cm"
+    },
+    {
+      "id": 19,
+      "question": "円外の点Pから円に引いた2本の接線の接点をA、Bとします。PA = 60cm、半径が11cmのとき、OPを求めなさい。",
+      "answer": "61",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "三平方の定理",
+      "explanation": "11² + 60² = OP²。OP = 61cm"
+    },
+    {
+      "id": 20,
+      "question": "円外の点Pから円に引いた2本の接線の接点をA、Bとします。OP = 26cm、半径が24cmのとき、PAを求めなさい。",
+      "answer": "10",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "24² + PA² = 26²",
+      "explanation": "24² + PA² = 26² より PA² = 100。PA = 10cm"
+    },
+    {
+      "id": 21,
+      "question": "円外の点Pから円に引いた2本の接線の接点をA、Bとします。∠APBが60°のとき、∠AOBの大きさを求めなさい。",
+      "answer": "120",
+      "unit": "°",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "四角形OAPBで、∠OAP = ∠OBP = 90°",
+      "explanation": "四角形の内角の和より、∠AOB = 360 - 90 - 60 - 90 = 120°"
+    },
+    {
+      "id": 22,
+      "question": "円外の点Pから円に引いた2本の接線の接点をA、Bとします。∠APBが80°のとき、∠AOBの大きさを求めなさい。",
+      "answer": "100",
+      "unit": "°",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "四角形OAPBで計算",
+      "explanation": "∠AOB = 360 - 90 - 80 - 90 = 100°"
+    },
+    {
+      "id": 23,
+      "question": "円外の点Pから円に引いた2本の接線の接点をA、Bとします。∠AOBが140°のとき、∠APBの大きさを求めなさい。",
+      "answer": "40",
+      "unit": "°",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "四角形の内角の和",
+      "explanation": "∠APB = 360 - 90 - 140 - 90 = 40°"
+    },
+    {
+      "id": 24,
+      "question": "円外の点Pから円に引いた2本の接線の接点をA、Bとします。PA = PB = 16cm、半径が12cmのとき、ABの長さを求めなさい。",
+      "answer": "19.2",
+      "unit": "cm",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "OP = 20cm、三角形OABで計算",
+      "explanation": "OP = √(12² + 16²) = 20cm。複雑な計算が必要"
+    },
+    {
+      "id": 25,
+      "question": "円外の点Pから円に引いた2本の接線の接点をA、Bとします。∠APBが50°のとき、∠AOBの大きさを求めなさい。",
+      "answer": "130",
+      "unit": "°",
+      "difficulty": "advanced",
+      "type": "calculation",
+      "hint": "四角形OAPBで計算",
+      "explanation": "∠AOB = 360 - 90 - 50 - 90 = 130°"
+    },
+    {
+      "id": 26,
+      "question": "半径5cmの円に、外部の点Pから接線を引きます。接点をAとし、PA = 12cmのとき、中心Oと点Pの距離を求めなさい。",
+      "answer": "13",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "接線は半径に垂直",
+      "explanation": "5² + 12² = OP²。OP = 13cm"
+    },
+    {
+      "id": 27,
+      "question": "半径8cmの円に、外部の点Pから接線を引きます。接点をAとし、PA = 15cmのとき、中心Oと点Pの距離を求めなさい。",
+      "answer": "17",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "三平方の定理",
+      "explanation": "8² + 15² = OP²。OP = 17cm"
+    },
+    {
+      "id": 28,
+      "question": "半径6cmの円に、外部の点Pから接線を引きます。中心Oと点Pの距離が10cmのとき、接線の長さPAを求めなさい。",
+      "answer": "8",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "6² + PA² = 10²",
+      "explanation": "6² + PA² = 10² より PA = 8cm"
+    },
+    {
+      "id": 29,
+      "question": "半径9cmの円に、外部の点Pから接線を引きます。接点をAとし、PA = 40cmのとき、OPを求めなさい。",
+      "answer": "41",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "三平方の定理",
+      "explanation": "9² + 40² = OP²。OP = 41cm"
+    },
+    {
+      "id": 30,
+      "question": "半径12cmの円に、外部の点Pから接線を引きます。OPが13cmのとき、接線の長さPAを求めなさい。",
+      "answer": "5",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "12² + PA² = 13²",
+      "explanation": "12² + PA² = 13² より PA = 5cm"
+    },
+    {
+      "id": 31,
+      "question": "円外の点から円に2本の接線を引くと、2つの接線の長さは等しくなります。点Pから円に引いた接線の接点をA、Bとし、PA = 20cmのとき、PBの長さを求めなさい。",
+      "answer": "20",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "PA = PB",
+      "explanation": "PA = PB = 20cm"
+    },
+    {
+      "id": 32,
+      "question": "半径7cmの円に、外部の点Pから接線を引きます。接点をAとし、PA = 24cmのとき、OPを求めなさい。",
+      "answer": "25",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "三平方の定理",
+      "explanation": "7² + 24² = OP²。OP = 25cm"
+    },
+    {
+      "id": 33,
+      "question": "半径15cmの円に、外部の点Pから接線を引きます。OPが17cmのとき、PAを求めなさい。",
+      "answer": "8",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "15² + PA² = 17²",
+      "explanation": "15² + PA² = 17² より PA = 8cm"
+    },
+    {
+      "id": 34,
+      "question": "半径20cmの円に、外部の点Pから接線を引きます。PAが21cmのとき、OPを求めなさい。",
+      "answer": "29",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "三平方の定理",
+      "explanation": "20² + 21² = OP²。OP = 29cm"
+    },
+    {
+      "id": 35,
+      "question": "点Pから円に引いた2本の接線の接点をA、Bとします。PA = PB = 15cm、円の半径が8cmのとき、OPを求めなさい。",
+      "answer": "17",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "三平方の定理",
+      "explanation": "8² + 15² = OP²。OP = 17cm"
+    },
+    {
+      "id": 36,
+      "question": "半径11cmの円に、外部の点Pから接線を引きます。PAが60cmのとき、OPを求めなさい。",
+      "answer": "61",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "三平方の定理",
+      "explanation": "11² + 60² = OP²。OP = 61cm"
+    },
+    {
+      "id": 37,
+      "question": "半径24cmの円に、外部の点Pから接線を引きます。OPが26cmのとき、PAを求めなさい。",
+      "answer": "10",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "24² + PA² = 26²",
+      "explanation": "24² + PA² = 26² より PA = 10cm"
+    },
+    {
+      "id": 38,
+      "question": "点Pから円に引いた2本の接線の接点をA、Bとします。∠APB = 70°のとき、四角形OAPBで∠AOBを求めなさい。",
+      "answer": "110",
+      "unit": "°",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "∠OAP = ∠OBP = 90°",
+      "explanation": "∠AOB = 360 - 90 - 70 - 90 = 110°"
+    },
+    {
+      "id": 39,
+      "question": "点Pから円に引いた2本の接線の接点をA、Bとします。∠AOB = 150°のとき、∠APBを求めなさい。",
+      "answer": "30",
+      "unit": "°",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "四角形の内角の和",
+      "explanation": "∠APB = 360 - 90 - 150 - 90 = 30°"
+    },
+    {
+      "id": 40,
+      "question": "円の接線と半径が垂直であることを利用して、半径10cmの円に外部の点Pから接線を引き、PA = 24cmのとき、OPを求めなさい。",
+      "answer": "26",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "三平方の定理",
+      "explanation": "10² + 24² = OP²。OP = 26cm"
+    },
+    {
+      "id": 41,
+      "question": "円に内接する三角形ABCで、∠A = 50°のとき、弧BCに対する中心角∠BOCを求めなさい。",
+      "answer": "100",
+      "unit": "°",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "中心角 = 円周角 × 2",
+      "explanation": "∠BOC = 50 × 2 = 100°"
+    },
+    {
+      "id": 42,
+      "question": "円に内接する三角形ABCで、弧BCに対する中心角∠BOCが140°のとき、∠Aを求めなさい。",
+      "answer": "70",
+      "unit": "°",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "円周角 = 中心角 ÷ 2",
+      "explanation": "∠A = 140 ÷ 2 = 70°"
+    },
+    {
+      "id": 43,
+      "question": "円の接線PAと弦ABがなす角∠PABは、弧ABに対する円周角に等しいです。∠PAB = 35°のとき、弧ABに対する円周角∠ACBを求めなさい（Cは弧AB上の点）。",
+      "answer": "35",
+      "unit": "°",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "接弦定理",
+      "explanation": "接弦定理より ∠ACB = 35°"
+    },
+    {
+      "id": 44,
+      "question": "円の接線PAと弦ABがなす角∠PAB = 48°です。弧ABに対する中心角∠AOBを求めなさい。",
+      "answer": "96",
+      "unit": "°",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "接弦定理と円周角の定理",
+      "explanation": "円周角 = 48°より、中心角 = 96°"
+    },
+    {
+      "id": 45,
+      "question": "半径13cmの円に、外部の点Pから接線を引きます。OPが85cmのとき、接線の長さPAを求めなさい。",
+      "answer": "84",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "13² + PA² = 85²",
+      "explanation": "13² + PA² = 85² より PA² = 7056。PA = 84cm"
+    },
+    {
+      "id": 46,
+      "question": "点Pから円に引いた2本の接線の接点をA、Bとします。∠APB = 90°のとき、∠AOBを求めなさい。",
+      "answer": "90",
+      "unit": "°",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "四角形OAPBは正方形",
+      "explanation": "∠AOB = 360 - 90 - 90 - 90 = 90°"
+    },
+    {
+      "id": 47,
+      "question": "円に内接する四角形ABCDで、∠A = 75°、∠B = 105°のとき、∠Cを求めなさい。",
+      "answer": "105",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "対角の和 = 180°",
+      "explanation": "∠C = 180 - 75 = 105°"
+    },
+    {
+      "id": 48,
+      "question": "半径16cmの円に、外部の点Pから接線を引きます。PAが30cmのとき、OPを求めなさい。",
+      "answer": "34",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "三平方の定理",
+      "explanation": "16² + 30² = OP²。OP = 34cm"
+    },
+    {
+      "id": 49,
+      "question": "点Pから円に引いた2本の接線の接点をA、Bとします。PA = 36cm、半径が15cmのとき、OPを求めなさい。",
+      "answer": "39",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "三平方の定理",
+      "explanation": "15² + 36² = OP²。OP = 39cm"
+    },
+    {
+      "id": 50,
+      "question": "円の接線と弦がなす角が40°のとき、その弦に対する円周角を求めなさい。",
+      "answer": "40",
+      "unit": "°",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "接弦定理",
+      "explanation": "接弦定理より 40°"
+    },
+    {
+      "id": 51,
+      "question": "半径25cmの円に、外部の点Pから接線を引きます。PAが60cmのとき、OPを求めなさい。",
+      "answer": "65",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "三平方の定理",
+      "explanation": "25² + 60² = OP²。OP = 65cm"
+    },
+    {
+      "id": 52,
+      "question": "点Pから円に引いた2本の接線の接点をA、Bとします。∠APB = 45°のとき、∠AOBを求めなさい。",
+      "answer": "135",
+      "unit": "°",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "四角形の内角の和",
+      "explanation": "∠AOB = 360 - 90 - 45 - 90 = 135°"
+    },
+    {
+      "id": 53,
+      "question": "円に内接する三角形ABCで、ABが直径のとき、∠Cの大きさを求めなさい。",
+      "answer": "90",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "直径に対する円周角",
+      "explanation": "直径に対する円周角 = 90°"
+    },
+    {
+      "id": 54,
+      "question": "半径14cmの円に、外部の点Pから接線を引きます。OPが50cmのとき、PAを求めなさい。",
+      "answer": "48",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "14² + PA² = 50²",
+      "explanation": "14² + PA² = 50² より PA² = 2304。PA = 48cm"
+    },
+    {
+      "id": 55,
+      "question": "点Pから円に引いた2本の接線の接点をA、Bとします。∠AOB = 160°のとき、∠APBを求めなさい。",
+      "answer": "20",
+      "unit": "°",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "四角形の内角の和",
+      "explanation": "∠APB = 360 - 90 - 160 - 90 = 20°"
+    },
+    {
+      "id": 56,
+      "question": "円の接線PAと弦ABがなす角∠PAB = 52°です。弧ABに対する円周角∠ACBを求めなさい。",
+      "answer": "52",
+      "unit": "°",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "接弦定理",
+      "explanation": "接弦定理より ∠ACB = 52°"
+    },
+    {
+      "id": 57,
+      "question": "半径21cmの円に、外部の点Pから接線を引きます。PAが72cmのとき、OPを求めなさい。",
+      "answer": "75",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "三平方の定理",
+      "explanation": "21² + 72² = OP²。OP = 75cm"
+    },
+    {
+      "id": 58,
+      "question": "点Pから円に引いた2本の接線が円に接する点をA、Bとします。PA = PB = 45cm、半径が28cmのとき、OPを求めなさい。",
+      "answer": "53",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "三平方の定理",
+      "explanation": "28² + 45² = OP²。OP = 53cm"
+    },
+    {
+      "id": 59,
+      "question": "円に内接する四角形ABCDで、∠A : ∠C = 3 : 2 のとき、∠Aを求めなさい。",
+      "answer": "108",
+      "unit": "°",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "∠A + ∠C = 180°、3x + 2x = 180",
+      "explanation": "3x + 2x = 180 より x = 36。∠A = 108°"
+    },
+    {
+      "id": 60,
+      "question": "半径35cmの円に、外部の点Pから接線を引きます。OPが37cmのとき、PAを求めなさい。",
+      "answer": "12",
+      "unit": "cm",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "35² + PA² = 37²",
+      "explanation": "35² + PA² = 37² より PA² = 144。PA = 12cm"
+    },
+    {
+      "id": 61,
+      "question": "点Pから円に引いた2本の接線の接点をA、Bとします。∠APB = 30°のとき、∠AOBを求めなさい。",
+      "answer": "150",
+      "unit": "°",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "四角形の内角の和",
+      "explanation": "∠AOB = 360 - 90 - 30 - 90 = 150°"
+    },
+    {
+      "id": 62,
+      "question": "円の接線PAと弦ABがなす角∠PAB = 63°です。弧ABに対する中心角を求めなさい。",
+      "answer": "126",
+      "unit": "°",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "円周角 = 63°より中心角 = 126°",
+      "explanation": "中心角 = 63 × 2 = 126°"
+    },
+    {
+      "id": 63,
+      "question": "半径40cmの円に、外部の点Pから接線を引きます。PAが42cmのとき、OPを求めなさい。",
+      "answer": "58",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "三平方の定理",
+      "explanation": "40² + 42² = OP²。OP = 58cm"
+    },
+    {
+      "id": 64,
+      "question": "点Pから円に引いた2本の接線の接点をA、Bとします。∠AOB = 100°のとき、∠APBを求めなさい。",
+      "answer": "80",
+      "unit": "°",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "四角形の内角の和",
+      "explanation": "∠APB = 360 - 90 - 100 - 90 = 80°"
+    },
+    {
+      "id": 65,
+      "question": "円に内接する四角形ABCDで、∠B : ∠D = 5 : 4 のとき、∠Bを求めなさい。",
+      "answer": "100",
+      "unit": "°",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "∠B + ∠D = 180°、5x + 4x = 180",
+      "explanation": "5x + 4x = 180 より x = 20。∠B = 100°"
+    },
+    {
+      "id": 66,
+      "question": "半径17cmの円に、外部の点Pから接線を引きます。OPが145cmのとき、PAを求めなさい。",
+      "answer": "144",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "17² + PA² = 145²",
+      "explanation": "17² + PA² = 145² より PA² = 20736。PA = 144cm"
+    },
+    {
+      "id": 67,
+      "question": "円の接線PAと弦ABがなす角∠PAB = 27°です。弧ABに対する円周角を求めなさい。",
+      "answer": "27",
+      "unit": "°",
+      "difficulty": "advanced",
+      "type": "wordProblem",
+      "hint": "接弦定理",
+      "explanation": "接弦定理より 27°"
+    },
+    {
+      "id": 68,
+      "question": "半径36cmの円に、外部の点Pから接線を引きます。PAが77cmのとき、OPを求めなさい。",
+      "answer": "85",
+      "unit": "cm",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "三平方の定理",
+      "explanation": "36² + 77² = OP²。OP = 85cm"
+    },
+    {
+      "id": 69,
+      "question": "点Pから円に引いた2本の接線の接点をA、Bとします。∠APB = 55°のとき、∠AOBを求めなさい。",
+      "answer": "125",
+      "unit": "°",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "四角形の内角の和",
+      "explanation": "∠AOB = 360 - 90 - 55 - 90 = 125°"
+    },
+    {
+      "id": 70,
+      "question": "円に内接する三角形ABCで、弧BCに対する中心角が110°のとき、∠Aを求めなさい。",
+      "answer": "55",
+      "unit": "°",
+      "difficulty": "basic",
+      "type": "wordProblem",
+      "hint": "円周角 = 中心角 ÷ 2",
+      "explanation": "∠A = 110 ÷ 2 = 55°"
+    },
+    {
+      "id": 71,
+      "question": "円外の点Pから円に2本の接線PA、PBを引きます。PA = PB であることを証明するために使う性質は何ですか。",
+      "answer": "接線の長さ",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "円外の1点から引いた2本の接線の長さは等しい",
+      "explanation": "円外の1点から引いた2本の接線の長さは等しい"
+    },
+    {
+      "id": 72,
+      "question": "円の接線が接点を通る半径に垂直であることを利用して、三平方の定理で計算します。この性質を何といいますか。",
+      "answer": "接線の性質",
+      "unit": "",
+      "difficulty": "basic",
+      "type": "puzzle",
+      "hint": "接線 ⊥ 半径",
+      "explanation": "接線と半径の垂直性"
+    },
+    {
+      "id": 73,
+      "question": "円の接線と弦がなす角は、その弦に対する円周角に等しいです。この定理を何といいますか。",
+      "answer": "接弦定理",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "接線と弦の角 = 円周角",
+      "explanation": "接弦定理"
+    },
+    {
+      "id": 74,
+      "question": "点Pから円に引いた2本の接線の接点をA、Bとします。PA = PB = x cm、OP = 13cm、半径が5cmのとき、xを求めなさい。",
+      "answer": "12",
+      "unit": "cm",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "5² + x² = 13²",
+      "explanation": "5² + x² = 13² より x = 12cm"
+    },
+    {
+      "id": 75,
+      "question": "円に内接する四角形ABCDで、∠A = 3x°、∠C = (2x + 30)° のとき、xの値を求めなさい。",
+      "answer": "30",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "∠A + ∠C = 180°",
+      "explanation": "3x + 2x + 30 = 180 より 5x = 150。x = 30"
+    },
+    {
+      "id": 76,
+      "question": "円外の点Pから円に引いた2本の接線の接点をA、Bとします。四角形OAPBで、∠OAP = ∠OBP = 90°であることを使って、∠APB + ∠AOB の値を求めなさい。",
+      "answer": "180",
+      "unit": "°",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "四角形の内角の和 = 360°",
+      "explanation": "90 + ∠APB + 90 + ∠AOB = 360 より ∠APB + ∠AOB = 180°"
+    },
+    {
+      "id": 77,
+      "question": "半径r cmの円に、外部の点Pから接線を引きます。PA = 3r cm、OPを r を使って表しなさい。",
+      "answer": "√10r",
+      "unit": "cm",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "r² + (3r)² = OP²",
+      "explanation": "r² + 9r² = OP² より OP = √10r cm"
+    },
+    {
+      "id": 78,
+      "question": "円に内接する四角形ABCDで、∠A : ∠B : ∠C : ∠D = 2 : 3 : 4 : 3 のとき、∠Aを求めなさい。",
+      "answer": "60",
+      "unit": "°",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "2x + 3x + 4x + 3x = 360",
+      "explanation": "12x = 360 より x = 30。∠A = 60°"
+    },
+    {
+      "id": 79,
+      "question": "点Pから円に引いた2本の接線の接点をA、Bとします。∠APB = x°、∠AOB = (180 - x)° のとき、四角形OAPBはどんな四角形ですか。",
+      "answer": "対角の和が180°",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "∠APB + ∠AOB = 180°",
+      "explanation": "対角の和が180°になる四角形"
+    },
+    {
+      "id": 80,
+      "question": "円の接線PAと弦ABがなす角∠PAB = x°、弧ABに対する円周角∠ACB = x° です。この関係を示す定理は何ですか。",
+      "answer": "接弦定理",
+      "unit": "",
+      "difficulty": "advanced",
+      "type": "puzzle",
+      "hint": "接線と弦の角 = 円周角",
+      "explanation": "接弦定理"
+    }
+  ]
+}

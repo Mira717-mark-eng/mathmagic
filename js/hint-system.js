@@ -22,7 +22,12 @@ const HintSystem = {
     /**
      * ヒントを表示
      */
-    showHint: async function() {
+    showHint: async function(problem, player) {
+        // 問題が渡された場合は currentProblem を更新
+        if (problem) {
+            this.currentProblem = problem;
+        }
+
         if (this.currentHintLevel >= this.maxHints) {
             MathMagic.showMessage('これ以上ヒントはありません', 'info');
             return;
@@ -77,8 +82,8 @@ const HintSystem = {
      * ヒントを取得
      */
     getHint: async function(hintLevel) {
-        // ヒント1は常に式を表示
-        if (hintLevel === 1 && this.currentProblem.formulaForHint) {
+        // ヒント1は常に式を表示（formulaForHintがある場合）
+        if (hintLevel === 1 && this.currentProblem && this.currentProblem.formulaForHint) {
             return `計算式：${this.currentProblem.formulaForHint}`;
         }
 

@@ -16,6 +16,9 @@
     
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- 開発モード: Service Worker 無効化 -->
+    <script src="disable-sw.js"></script>
 </head>
 <body class="min-h-screen battle-bg">
     
@@ -53,27 +56,57 @@
     <main class="container mx-auto px-4 py-2">
         <div class="max-w-7xl mx-auto">
             <!-- 2カラムレイアウト -->
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-3">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 items-start">
 
-                <!-- 左カラム: バトルエリア -->
-                <div id="battle-arena" class="animate-fade-in relative">
-                    <div class="bg-gradient-to-br from-purple-900/30 to-indigo-900/30 rounded-xl shadow-2xl p-3 border-2 border-purple-400/50 relative overflow-hidden backdrop-blur-sm min-h-[500px]">
+                <!-- 左カラム: 問題と図形エリア -->
+                <div class="flex flex-col gap-3">
+                    <!-- ストーリーカード -->
+                    <div class="quest-card animate-fade-in">
+                        <div class="bg-white/60 backdrop-blur-sm rounded-lg shadow-lg p-4 border border-gray-300/60 h-[300px] overflow-y-auto">
+                            <!-- ストーリーテキスト -->
+                            <div class="mb-3">
+                                <div class="flex items-center mb-2">
+                                    <i class="fas fa-scroll text-amber-600 mr-2"></i>
+                                    <h2 class="text-sm font-bold text-gray-900">クエストの巻物</h2>
+                                </div>
+                                <p id="story-text" class="text-base text-gray-900 leading-relaxed font-semibold">
+                                    森の魔法使いが言った：「3匹のドラゴンがいて、それぞれ4つの宝石を持っている。全部で何個の宝石があるかな？」
+                                </p>
+                            </div>
+
+                            <!-- 問題文 -->
+                            <div class="bg-gray-400/30  rounded-lg p-3 border border-gray-400/30">
+                                <div class="text-center">
+                                    <div class="text-gray-800 text-xs font-bold mb-1 drop-shadow">🎯 問題 - 初めは式も考えてみよう！</div>
+                                    <p id="question-text" class="text-2xl font-bold text-gray-900 mb-0 drop-shadow">3 × 4 = ?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 図形表示エリア（独立カード） -->
+                    <div id="figure-container" class="hidden animate-fade-in">
+                        <div class="bg-white/60 backdrop-blur-sm rounded-lg shadow-lg p-4 border border-gray-300/60 h-[450px] flex justify-center items-center">
+                            <canvas id="geometry-canvas" width="675" height="450" class="max-w-full"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 右カラム: バトルエリアと回答エリア -->
+                <div class="flex flex-col gap-3">
+                    <!-- バトルエリア -->
+                    <div id="battle-arena" class="animate-fade-in relative">
+                        <div class="bg-white/60 backdrop-blur-sm rounded-xl shadow-2xl p-4 border border-gray-300/60 relative overflow-hidden h-[450px]">
                         <!-- 背景エフェクト -->
                         <div class="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent"></div>
 
-                        <!-- モンスター表示エリア -->
-                        <div class="relative z-10 text-center mb-2">
-                            <div id="monster-container" class="inline-block">
-                                <!-- モンスタースプライト -->
-                                <div id="monster-sprite" class="text-8xl mb-2 monster-idle" style="filter: drop-shadow(0 10px 20px rgba(0,0,0,0.5));">
-                                    🐉
+                        <!-- モンスター名とHPバー（上部） -->
+                        <div class="relative z-10 mb-4">
+                            <div class="flex flex-col items-center w-full px-4">
+                                <div class="bg-black/30 rounded-lg px-3 py-1 border-2 border-purple-300/50 mb-2">
+                                    <h3 id="monster-name" class="text-lg font-bold text-white drop-shadow-lg whitespace-nowrap">森の守護者</h3>
                                 </div>
-                                <!-- モンスター名 -->
-                                <div class="bg-black/30 rounded-lg px-3 py-1 inline-block backdrop-blur-sm border-2 border-purple-300/50 mb-2">
-                                    <h3 id="monster-name" class="text-lg font-bold text-white drop-shadow-lg">ドラゴン</h3>
-                                </div>
-                                <!-- HPバー（モンスター） - モンスター名の下 -->
-                                <div class="w-64 mx-auto">
+                                <div class="w-full max-w-lg">
                                     <div class="flex justify-between items-center mb-1">
                                         <div class="text-white font-bold text-xs">HP</div>
                                         <div class="text-white font-bold text-xs">
@@ -84,6 +117,38 @@
                                         <div id="monster-hp-bar" class="bg-gradient-to-r from-red-400 to-red-600 h-full transition-all duration-500 ease-out" style="width: 100%">
                                             <div class="h-full bg-gradient-to-b from-white/30 to-transparent"></div>
                                         </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- モンスタースプライト（中央） -->
+                        <div class="relative z-10 flex justify-center items-center flex-1" style="height: calc(100% - 140px);">
+                            <div id="monster-container" class="inline-block">
+                                <div id="monster-sprite" class="text-9xl monster-idle" style="filter: drop-shadow(0 10px 20px rgba(0,0,0,0.5));">
+                                    🐉
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- プレイヤー情報（下部） -->
+                        <div class="absolute bottom-3 left-0 right-0 z-10 px-4">
+                            <div class="bg-black/40 rounded-lg px-4 py-2 border-2 border-green-400/50 max-w-2xl mx-auto">
+                                <div class="flex items-center gap-2 mb-1">
+                                    <span class="text-lg">⚔️</span>
+                                    <span class="text-white font-bold text-sm" id="player-name-battle">勇者</span>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <div class="text-white font-bold text-xs whitespace-nowrap">HP</div>
+                                    <div class="flex-1 min-w-0">
+                                        <div class="bg-gray-700 rounded-full h-3 overflow-hidden border-2 border-white shadow-lg">
+                                            <div id="player-hp-bar" class="bg-gradient-to-r from-green-400 to-green-600 h-full transition-all duration-500 ease-out" style="width: 100%">
+                                                <div class="h-full bg-gradient-to-b from-white/30 to-transparent"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text-white font-bold text-xs whitespace-nowrap">
+                                        <span id="player-hp-value">100</span> / 100
                                     </div>
                                 </div>
                             </div>
@@ -101,138 +166,64 @@
                             </div>
                         </div>
 
-                        <!-- プレイヤー情報（右下） -->
-                        <div class="absolute bottom-3 right-3 z-10 bg-black/40 rounded-lg px-3 py-2 backdrop-blur-sm border-2 border-green-400/50">
-                            <div class="flex items-center space-x-2 mb-1">
-                                <span class="text-lg">⚔️</span>
-                                <span class="text-white font-bold text-sm" id="player-name-battle">勇者</span>
-                            </div>
-                            <div class="w-48">
-                                <div class="flex justify-between items-center mb-1">
-                                    <div class="text-white font-bold text-xs">HP</div>
-                                    <div class="text-white font-bold text-xs">
-                                        <span id="player-hp-value">100</span> / 100
-                                    </div>
-                                </div>
-                                <div class="bg-gray-700 rounded-full h-3 overflow-hidden border-2 border-white shadow-lg">
-                                    <div id="player-hp-bar" class="bg-gradient-to-r from-green-400 to-green-600 h-full transition-all duration-500 ease-out" style="width: 100%">
-                                        <div class="h-full bg-gradient-to-b from-white/30 to-transparent"></div>
+                        <!-- 結果通知エリア -->
+                        <div id="result-notification" class="hidden absolute top-1/2 left-1/2 z-30 max-w-xs" style="transform: translate(-50%, -50%);">
+                            <div class="bg-gradient-to-r from-green-400/90 to-emerald-500/90 rounded-lg p-3 shadow-xl backdrop-blur-md border-2 border-green-300/50 animate-bounce-in">
+                                <div class="flex items-center justify-center">
+                                    <i class="fas fa-check-circle text-white text-2xl mr-2"></i>
+                                    <div class="text-white font-bold">
+                                        <div id="result-title" class="text-lg">正解！</div>
+                                        <div id="result-message" class="text-sm opacity-90">モンスターに10ダメージ！</div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
-                        <!-- アイテムボタン（左下） -->
-                        <div class="absolute bottom-3 left-3 z-10">
-                            <button id="item-menu-btn" class="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white font-bold px-4 py-2 rounded-full shadow-lg transition transform hover:scale-105 border-2 border-white/50">
-                                <i class="fas fa-magic mr-2"></i>アイテム
-                            </button>
-                        </div>
-                    </div>
-
-                    <!-- 結果通知エリア -->
-                    <div id="result-notification" class="hidden mt-3">
-                        <div class="bg-gradient-to-r from-green-400/90 to-emerald-500/90 rounded-lg p-3 shadow-xl backdrop-blur-md border-2 border-green-300/50 animate-bounce-in">
-                            <div class="flex items-center justify-center">
-                                <i class="fas fa-check-circle text-white text-2xl mr-2"></i>
-                                <div class="text-white font-bold">
-                                    <div id="result-title" class="text-lg">正解！</div>
-                                    <div id="result-message" class="text-sm opacity-90">モンスターに10ダメージ！</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- 右カラム: 問題と回答エリア -->
-                <div class="space-y-3">
-                    <!-- ストーリーカード -->
-                    <div class="quest-card animate-fade-in">
-                        <div class="bg-gradient-to-br from-amber-100/40 to-amber-200/40 rounded-xl shadow-2xl p-3 border-2 border-amber-500/60 relative overflow-hidden backdrop-blur-md">
-                            <!-- 装飾 -->
-                            <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-amber-500/80 via-yellow-400/80 to-amber-500/80"></div>
-                            <div class="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-amber-500/80 via-yellow-400/80 to-amber-500/80"></div>
-
-                            <!-- ストーリーヘッダー -->
-                            <div class="flex items-center mb-2">
-                                <div class="bg-amber-600 rounded-full p-1.5 mr-2">
-                                    <i class="fas fa-scroll text-white text-sm"></i>
-                                </div>
-                                <h2 class="text-lg font-bold text-amber-900">クエストの巻物</h2>
-                            </div>
-
-                            <!-- ストーリーテキスト -->
-                            <div class="bg-white/30 rounded-lg p-2.5 mb-2 border-2 border-amber-300">
-                                <p id="story-text" class="text-base text-gray-800 leading-relaxed font-semibold">
-                                    森の魔法使いが言った：「3匹のドラゴンがいて、それぞれ4つの宝石を持っている。全部で何個の宝石があるかな？」
-                                </p>
-                            </div>
-
-                            <!-- 図形表示エリア -->
-                            <div id="figure-container" class="hidden mb-2">
-                                <div class="bg-white rounded-lg p-2 shadow-lg border-2 border-purple-300">
-                                    <h3 class="text-xs font-bold text-gray-800 mb-1 text-center">
-                                        <i class="fas fa-image text-purple-600 mr-1"></i>
-                                        図
-                                    </h3>
-                                    <div class="flex justify-center">
-                                        <canvas id="figure-canvas" class="border-2 border-gray-200 rounded-lg"></canvas>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- 問題文 -->
-                            <div class="bg-gradient-to-br from-purple-500/40 to-pink-500/40 rounded-lg p-3 shadow-lg backdrop-blur-md border-2 border-purple-300/50">
-                                <div class="text-center">
-                                    <div class="text-white text-xs font-bold mb-1 drop-shadow-lg">🎯 問題 - 初めは式も考えてみよう！</div>
-                                    <p id="question-text" class="text-2xl font-bold text-white mb-0 drop-shadow-lg">3 × 4 = ?</p>
-                                </div>
-                            </div>
                         </div>
                     </div>
 
                     <!-- 回答入力エリア -->
                     <div class="answer-card animate-bounce-in">
-                        <div class="bg-white/50 rounded-xl shadow-2xl p-3 backdrop-blur-md border-2 border-white/50">
-                            <h3 class="text-base font-bold text-gray-800 mb-2 text-center drop-shadow-sm">
-                                <i class="fas fa-edit text-purple-600 mr-2"></i>
-                                答えを入力してね！
-                            </h3>
+                        <div class="bg-white/60 backdrop-blur-sm rounded-lg shadow-lg p-4 border border-gray-300/60 h-[300px] flex flex-col justify-center">
+                            <div>
+                                <h3 class="text-base font-bold text-gray-900 text-center drop-shadow-sm mb-6">
+                                    <i class="fas fa-edit text-purple-600 mr-2"></i>
+                                    答えを入力してね！
+                                </h3>
 
-                            <div class="flex items-center justify-center space-x-3 mb-3">
-                                <input
-                                    type="number"
-                                    id="answer-input"
-                                    class="answer-input text-3xl font-bold text-center w-40 px-3 py-2 border-4 border-purple-300 rounded-xl focus:border-purple-500 focus:outline-none focus:ring-4 focus:ring-purple-200 transition"
-                                    placeholder="?"
-                                    autofocus
-                                >
-                                <span id="unit-text" class="text-xl font-bold text-gray-600">個</span>
-                            </div>
+                                <div class="flex items-center justify-center space-x-3 mb-4">
+                                    <input
+                                        type="text"
+                                        id="answer-input"
+                                        class="answer-input text-2xl font-bold text-center w-96 px-4 py-3 border-2 border-transparent rounded-xl focus:border-purple-500 focus:outline-none focus:ring-4 focus:ring-purple-200 transition"
+                                        placeholder="?"
+                                        autofocus
+                                    >
+                                    <span id="unit-text" class="text-xl font-bold text-gray-600">個</span>
+                                </div>
+                                <!-- ボタングループ -->
+                                <div class="flex items-center justify-center gap-3 flex-wrap">
+                                    <button id="submit-btn" class="bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white text-lg font-bold px-8 py-3 rounded-full shadow-xl transition transform hover:scale-105 active:scale-95">
+                                        <i class="fas fa-check-circle mr-2"></i>
+                                        答える！
+                                    </button>
+                                    <button id="hint-btn" class="bg-yellow-400 hover:bg-yellow-500 text-yellow-900 font-bold px-5 py-3 rounded-full transition transform hover:scale-105 shadow-lg">
+                                        <i class="fas fa-lightbulb mr-2"></i>
+                                        ヒントを見る (0/3)
+                                    </button>
+                                    <button id="item-menu-btn" class="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white font-bold px-5 py-3 rounded-full shadow-lg transition transform hover:scale-105 border-2 border-white/50">
+                                        <i class="fas fa-magic mr-2"></i>アイテム
+                                    </button>
+                                </div>
 
-                            <div class="text-center">
-                                <button id="submit-btn" class="bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white text-lg font-bold px-6 py-2 rounded-full shadow-xl transition transform hover:scale-105 active:scale-95">
-                                    <i class="fas fa-check-circle mr-2"></i>
-                                    答える！
-                                </button>
-                            </div>
+                                <!-- ヒント表示エリア -->
+                                <div id="hint-container" class="mt-2 hidden">
+                                    <!-- ヒントカードはJavaScriptで動的生成されます -->
+                                </div>
 
-                            <!-- ヒントボタン -->
-                            <div class="text-center mt-3">
-                                <button id="hint-btn" class="bg-yellow-400 hover:bg-yellow-500 text-yellow-900 font-bold px-3 py-1.5 rounded-full transition transform hover:scale-105 text-xs">
-                                    <i class="fas fa-lightbulb mr-1"></i>
-                                    ヒントを見る (0/3)
-                                </button>
-                            </div>
-
-                            <!-- ヒント表示エリア -->
-                            <div id="hint-container" class="mt-2 hidden">
-                                <!-- ヒントカードはJavaScriptで動的生成されます -->
-                            </div>
-
-                            <!-- エラーメッセージ表示エリア -->
-                            <div id="error-container" class="mt-2">
-                                <!-- エラーメッセージはJavaScriptで動的生成されます -->
+                                <!-- エラーメッセージ表示エリア -->
+                                <div id="error-container" class="mt-2">
+                                    <!-- エラーメッセージはJavaScriptで動的生成されます -->
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -242,7 +233,7 @@
     </main>
     
     <!-- アイテムメニューモーダル -->
-    <div id="item-modal" class="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-50 hidden">
+    <div id="item-modal" class="fixed inset-0 bg-black/70  flex items-center justify-center z-50 hidden">
         <div class="bg-gradient-to-br from-purple-100 to-pink-100 rounded-2xl p-6 shadow-2xl max-w-md w-full mx-4 border-4 border-purple-300">
             <div class="flex justify-between items-center mb-4">
                 <h2 class="text-2xl font-bold text-purple-900">
@@ -265,7 +256,7 @@
     </div>
 
     <!-- ローディング -->
-    <div id="loading" class="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center z-50 hidden">
+    <div id="loading" class="fixed inset-0 bg-black/50  flex items-center justify-center z-50 hidden">
         <div class="bg-white rounded-2xl p-8 shadow-2xl text-center">
             <div class="animate-spin text-6xl text-purple-600 mb-4">
                 <i class="fas fa-spinner"></i>
@@ -335,11 +326,15 @@
     <script src="js/battle-system.js"></script>
     <script src="js/inventory-system.js"></script>
     <script src="js/figure-drawer.js"></script>
-    <script src="js/hint-system.js"></script>
+    <script src="js/hint-system.js?v=1.1"></script>
+    <script src="js/story-system.js"></script>
     <script src="js/progress-tracker.js"></script>
     <script src="js/adaptive-learning.js"></script>
-    <script src="js/quest.js"></script>
-    <script src="js/battle-items.js"></script>
+    <!-- 図形システム -->
+    <script src="js/geometry-generator.js?v=2.0"></script>
+    <script src="js/geometry-visualizer.js?v=2.1"></script>
+    <script src="js/quest.js?v=2.2"></script>
+    <script src="js/battle-items.js?v=1.1"></script>
 
 </body>
 </html>

@@ -1,0 +1,509 @@
+{
+  "questId": "grade1-quest15",
+  "questName": "時計の読み方（応用）",
+  "grade": "小1",
+  "unitId": "elem1_clock_advanced",
+  "totalProblems": 50,
+  "problems": [
+    {
+      "id": 1,
+      "question": "計算問題1",
+      "answer": 1,
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "落ち着いて計算しよう",
+      "explanation": "解説1"
+    },
+    {
+      "id": 2,
+      "question": "考える問題2",
+      "answer": 2,
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "じっくり考えてみよう",
+      "explanation": "解説2"
+    },
+    {
+      "id": 3,
+      "question": "時計の読み方（応用）に関する問題3です。",
+      "answer": 3,
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "問題文をよく読んで考えよう",
+      "explanation": "解説3"
+    },
+    {
+      "id": 4,
+      "question": "計算問題4",
+      "answer": 4,
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "落ち着いて計算しよう",
+      "explanation": "解説4"
+    },
+    {
+      "id": 5,
+      "question": "考える問題5",
+      "answer": 5,
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "じっくり考えてみよう",
+      "explanation": "解説5"
+    },
+    {
+      "id": 6,
+      "question": "時計の読み方（応用）に関する問題6です。",
+      "answer": 6,
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "問題文をよく読んで考えよう",
+      "explanation": "解説6"
+    },
+    {
+      "id": 7,
+      "question": "計算問題7",
+      "answer": 7,
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "落ち着いて計算しよう",
+      "explanation": "解説7"
+    },
+    {
+      "id": 8,
+      "question": "考える問題8",
+      "answer": 8,
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "じっくり考えてみよう",
+      "explanation": "解説8"
+    },
+    {
+      "id": 9,
+      "question": "時計の読み方（応用）に関する問題9です。",
+      "answer": 9,
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "問題文をよく読んで考えよう",
+      "explanation": "解説9"
+    },
+    {
+      "id": 10,
+      "question": "計算問題10",
+      "answer": 10,
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "落ち着いて計算しよう",
+      "explanation": "解説10"
+    },
+    {
+      "id": 11,
+      "question": "考える問題11",
+      "answer": 11,
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "じっくり考えてみよう",
+      "explanation": "解説11"
+    },
+    {
+      "id": 12,
+      "question": "時計の読み方（応用）に関する問題12です。",
+      "answer": 12,
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "問題文をよく読んで考えよう",
+      "explanation": "解説12"
+    },
+    {
+      "id": 13,
+      "question": "計算問題13",
+      "answer": 13,
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "落ち着いて計算しよう",
+      "explanation": "解説13"
+    },
+    {
+      "id": 14,
+      "question": "考える問題14",
+      "answer": 14,
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "じっくり考えてみよう",
+      "explanation": "解説14"
+    },
+    {
+      "id": 15,
+      "question": "時計の読み方（応用）に関する問題15です。",
+      "answer": 15,
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "問題文をよく読んで考えよう",
+      "explanation": "解説15"
+    },
+    {
+      "id": 16,
+      "question": "計算問題16",
+      "answer": 16,
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "落ち着いて計算しよう",
+      "explanation": "解説16"
+    },
+    {
+      "id": 17,
+      "question": "考える問題17",
+      "answer": 17,
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "じっくり考えてみよう",
+      "explanation": "解説17"
+    },
+    {
+      "id": 18,
+      "question": "時計の読み方（応用）に関する問題18です。",
+      "answer": 18,
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "問題文をよく読んで考えよう",
+      "explanation": "解説18"
+    },
+    {
+      "id": 19,
+      "question": "計算問題19",
+      "answer": 19,
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "落ち着いて計算しよう",
+      "explanation": "解説19"
+    },
+    {
+      "id": 20,
+      "question": "考える問題20",
+      "answer": 20,
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "じっくり考えてみよう",
+      "explanation": "解説20"
+    },
+    {
+      "id": 21,
+      "question": "時計の読み方（応用）に関する問題21です。",
+      "answer": 21,
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "問題文をよく読んで考えよう",
+      "explanation": "解説21"
+    },
+    {
+      "id": 22,
+      "question": "計算問題22",
+      "answer": 22,
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "落ち着いて計算しよう",
+      "explanation": "解説22"
+    },
+    {
+      "id": 23,
+      "question": "考える問題23",
+      "answer": 23,
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "じっくり考えてみよう",
+      "explanation": "解説23"
+    },
+    {
+      "id": 24,
+      "question": "時計の読み方（応用）に関する問題24です。",
+      "answer": 24,
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "問題文をよく読んで考えよう",
+      "explanation": "解説24"
+    },
+    {
+      "id": 25,
+      "question": "計算問題25",
+      "answer": 25,
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "落ち着いて計算しよう",
+      "explanation": "解説25"
+    },
+    {
+      "id": 26,
+      "question": "考える問題26",
+      "answer": 26,
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "じっくり考えてみよう",
+      "explanation": "解説26"
+    },
+    {
+      "id": 27,
+      "question": "時計の読み方（応用）に関する問題27です。",
+      "answer": 27,
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "問題文をよく読んで考えよう",
+      "explanation": "解説27"
+    },
+    {
+      "id": 28,
+      "question": "計算問題28",
+      "answer": 28,
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "落ち着いて計算しよう",
+      "explanation": "解説28"
+    },
+    {
+      "id": 29,
+      "question": "考える問題29",
+      "answer": 29,
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "じっくり考えてみよう",
+      "explanation": "解説29"
+    },
+    {
+      "id": 30,
+      "question": "時計の読み方（応用）に関する問題30です。",
+      "answer": 30,
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "問題文をよく読んで考えよう",
+      "explanation": "解説30"
+    },
+    {
+      "id": 31,
+      "question": "計算問題31",
+      "answer": 31,
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "落ち着いて計算しよう",
+      "explanation": "解説31"
+    },
+    {
+      "id": 32,
+      "question": "考える問題32",
+      "answer": 32,
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "じっくり考えてみよう",
+      "explanation": "解説32"
+    },
+    {
+      "id": 33,
+      "question": "時計の読み方（応用）に関する問題33です。",
+      "answer": 33,
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "問題文をよく読んで考えよう",
+      "explanation": "解説33"
+    },
+    {
+      "id": 34,
+      "question": "計算問題34",
+      "answer": 34,
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "落ち着いて計算しよう",
+      "explanation": "解説34"
+    },
+    {
+      "id": 35,
+      "question": "考える問題35",
+      "answer": 35,
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "じっくり考えてみよう",
+      "explanation": "解説35"
+    },
+    {
+      "id": 36,
+      "question": "時計の読み方（応用）に関する問題36です。",
+      "answer": 36,
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "問題文をよく読んで考えよう",
+      "explanation": "解説36"
+    },
+    {
+      "id": 37,
+      "question": "計算問題37",
+      "answer": 37,
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "落ち着いて計算しよう",
+      "explanation": "解説37"
+    },
+    {
+      "id": 38,
+      "question": "考える問題38",
+      "answer": 38,
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "じっくり考えてみよう",
+      "explanation": "解説38"
+    },
+    {
+      "id": 39,
+      "question": "時計の読み方（応用）に関する問題39です。",
+      "answer": 39,
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "問題文をよく読んで考えよう",
+      "explanation": "解説39"
+    },
+    {
+      "id": 40,
+      "question": "計算問題40",
+      "answer": 40,
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "落ち着いて計算しよう",
+      "explanation": "解説40"
+    },
+    {
+      "id": 41,
+      "question": "考える問題41",
+      "answer": 41,
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "じっくり考えてみよう",
+      "explanation": "解説41"
+    },
+    {
+      "id": 42,
+      "question": "時計の読み方（応用）に関する問題42です。",
+      "answer": 42,
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "問題文をよく読んで考えよう",
+      "explanation": "解説42"
+    },
+    {
+      "id": 43,
+      "question": "計算問題43",
+      "answer": 43,
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "落ち着いて計算しよう",
+      "explanation": "解説43"
+    },
+    {
+      "id": 44,
+      "question": "考える問題44",
+      "answer": 44,
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "じっくり考えてみよう",
+      "explanation": "解説44"
+    },
+    {
+      "id": 45,
+      "question": "時計の読み方（応用）に関する問題45です。",
+      "answer": 45,
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "問題文をよく読んで考えよう",
+      "explanation": "解説45"
+    },
+    {
+      "id": 46,
+      "question": "計算問題46",
+      "answer": 46,
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "落ち着いて計算しよう",
+      "explanation": "解説46"
+    },
+    {
+      "id": 47,
+      "question": "考える問題47",
+      "answer": 47,
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "じっくり考えてみよう",
+      "explanation": "解説47"
+    },
+    {
+      "id": 48,
+      "question": "時計の読み方（応用）に関する問題48です。",
+      "answer": 48,
+      "unit": "",
+      "difficulty": "standard",
+      "type": "wordProblem",
+      "hint": "問題文をよく読んで考えよう",
+      "explanation": "解説48"
+    },
+    {
+      "id": 49,
+      "question": "計算問題49",
+      "answer": 49,
+      "unit": "",
+      "difficulty": "standard",
+      "type": "calculation",
+      "hint": "落ち着いて計算しよう",
+      "explanation": "解説49"
+    },
+    {
+      "id": 50,
+      "question": "考える問題50",
+      "answer": 50,
+      "unit": "",
+      "difficulty": "standard",
+      "type": "puzzle",
+      "hint": "じっくり考えてみよう",
+      "explanation": "解説50"
+    }
+  ]
+}

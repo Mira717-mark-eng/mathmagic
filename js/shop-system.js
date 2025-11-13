@@ -90,7 +90,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function displayGold(player) {
     const gold = ShopSystem.getGold(player);
-    document.getElementById('player-gold').textContent = gold.toLocaleString();
+    const goldElement = document.getElementById('player-gold');
+    if (goldElement) {
+        goldElement.textContent = gold.toLocaleString();
+    }
 }
 
 function displayShopItems(player) {
