@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.tailwindcss.com; style-src 'self' 'unsafe-inline' https://cdn.tailwindcss.com;">
+    <title>キャッシュクリア - マスマジ！</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900 flex items-center justify-center p-4">
+    <div class="max-w-2xl w-full bg-white/10 backdrop-blur-sm rounded-lg p-8 text-white">
+        <h1 class="text-3xl font-bold mb-6 text-center">🔄 キャッシュクリアツール</h1>
+
+        <div class="space-y-6">
+            <!-- 説明 -->
+            <div class="bg-blue-500/20 rounded-lg p-4">
+                <h2 class="font-bold mb-2">📌 このツールについて</h2>
+                <p class="text-sm">
+                    ブラウザに保存された古いファイルを削除して、最新版のアプリを読み込みます。
+                </p>
+            </div>
+
+            <!-- ステータス -->
+            <div class="bg-gray-800/50 rounded-lg p-4">
+                <h2 class="font-bold mb-3">📊 ステータス</h2>
+                <div id="status" class="space-y-2">
+                    <div class="flex items-center gap-2">
+                        <div class="w-3 h-3 bg-yellow-500 rounded-full animate-pulse"></div>
+                        <span>準備中...</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- アクションボタン -->
+            <div class="space-y-3">
+                <button id="clearCacheBtn" class="w-full bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white font-bold py-4 px-6 rounded-lg transition transform hover:scale-105 active:scale-95 shadow-lg">
+                    🗑️ キャッシュを完全にクリア
+                </button>
+
+                <button id="reloadBtn" class="w-full bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white font-bold py-4 px-6 rounded-lg transition transform hover:scale-105 active:scale-95 shadow-lg">
+                    🔄 強制リロード
+                </button>
+
+                <button onclick="window.location.href='index.html'" class="w-full bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white font-bold py-4 px-6 rounded-lg transition transform hover:scale-105 active:scale-95 shadow-lg">
+                    🏠 トップページへ
+                </button>
+            </div>
+
+            <!-- 手動手順 -->
+            <div class="bg-yellow-500/20 rounded-lg p-4">
+                <h2 class="font-bold mb-2">💡 手動でのキャッシュクリア方法</h2>
+                <div class="text-sm space-y-2">
+                    <p><strong>Windows (Chrome/Edge):</strong></p>
+                    <ul class="list-disc list-inside ml-2">
+                        <li><kbd class="bg-gray-700 px-2 py-1 rounded">Ctrl</kbd> + <kbd class="bg-gray-700 px-2 py-1 rounded">Shift</kbd> + <kbd class="bg-gray-700 px-2 py-1 rounded">Delete</kbd></li>
+                        <li>または <kbd class="bg-gray-700 px-2 py-1 rounded">Ctrl</kbd> + <kbd class="bg-gray-700 px-2 py-1 rounded">Shift</kbd> + <kbd class="bg-gray-700 px-2 py-1 rounded">R</kbd> (強制リロード)</li>
+                    </ul>
+                    <p class="mt-2"><strong>Mac (Chrome/Safari):</strong></p>
+                    <ul class="list-disc list-inside ml-2">
+                        <li><kbd class="bg-gray-700 px-2 py-1 rounded">Cmd</kbd> + <kbd class="bg-gray-700 px-2 py-1 rounded">Shift</kbd> + <kbd class="bg-gray-700 px-2 py-1 rounded">Delete</kbd></li>
+                        <li>または <kbd class="bg-gray-700 px-2 py-1 rounded">Cmd</kbd> + <kbd class="bg-gray-700 px-2 py-1 rounded">Shift</kbd> + <kbd class="bg-gray-700 px-2 py-1 rounded">R</kbd> (強制リロード)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const statusDiv = document.getElementById('status');
+
+        function updateStatus(message, type = 'info') {
+            const colors = {
+                info: 'bg-blue-500',
+                success: 'bg-green-500',
+                warning: 'bg-yellow-500',
+                error: 'bg-red-500'
+            };
+
+            const statusItem = document.createElement('div');
+            statusItem.className = 'flex items-center gap-2';
+            statusItem.innerHTML = `
+                <div class="w-3 h-3 ${colors[type]} rounded-full"></div>
+                <span>${message}</span>
+            `;
+            statusDiv.appendChild(statusItem);
+        }
+
+        // ページ読み込み時の初期化
+        window.addEventListener('load', () => {
+            statusDiv.innerHTML = '';
+            updateStatus('キャッシュクリアツールの準備完了', 'success');
+
+            // Service Workerチェック
+            if ('serviceWorker' in navigator) {
+                navigator.serviceWorker.getRegistrations().then(registrations => {
+                    if (registrations.length > 0) {
+                        updateStatus(`${registrations.length}個のService Workerを検出`, 'info');
+                    } else {
+                        updateStatus('Service Worker未登録', 'info');
+                    }
+                });
+            }
+
+            // キャッシュストレージチェック
+            if ('caches' in window) {
+                caches.keys().then(keys => {
+                    if (keys.length > 0) {
+                        updateStatus(`${keys.length}個のキャッシュストレージを検出`, 'info');
+                    } else {
+                        updateStatus('キャッシュストレージなし', 'info');
+                    }
+                });
+            }
+        });
+
+        // キャッシュクリアボタン
+        document.getElementById('clearCacheBtn').addEventListener('click', async () => {
+            statusDiv.innerHTML = '';
+            updateStatus('キャッシュクリア開始...', 'info');
+
+            try {
+                // Service Worker削除
+                if ('serviceWorker' in navigator) {
+                    const registrations = await navigator.serviceWorker.getRegistrations();
+                    for (const registration of registrations) {
+                        await registration.unregister();
+                    }
+                    updateStatus(`${registrations.length}個のService Workerを削除`, 'success');
+                }
+
+                // キャッシュストレージ削除
+                if ('caches' in window) {
+                    const cacheNames = await caches.keys();
+                    for (const cacheName of cacheNames) {
+                        await caches.delete(cacheName);
+                    }
+                    updateStatus(`${cacheNames.length}個のキャッシュストレージを削除`, 'success');
+                }
+
+                // LocalStorage警告（ゲームデータ含む）
+                updateStatus('⚠️ LocalStorageは保持されます（ゲームデータ保護）', 'warning');
+
+                updateStatus('✅ キャッシュクリア完了！', 'success');
+                updateStatus('💡 ページをリロードしてください', 'info');
+
+                // 3秒後に自動リロード
+                setTimeout(() => {
+                    window.location.reload(true);
+                }, 3000);
+
+            } catch (error) {
+                updateStatus(`❌ エラー: ${error.message}`, 'error');
+            }
+        });
+
+        // 強制リロードボタン
+        document.getElementById('reloadBtn').addEventListener('click', () => {
+            updateStatus('強制リロード中...', 'info');
+            // キャッシュを無視してリロード
+            window.location.reload(true);
+        });
+    </script>
+</body>
+</html>

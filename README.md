@@ -149,6 +149,48 @@ test-dependencies.html をブラウザで開く
 - 📚 問題ファイル103/103個配置（100%完成）✅
 - 🔧 問題ファイル互換性対応（totalProblems/problemCount/quest_name）
 
+## 🔧 トラブルシューティング
+
+### エラーが表示される場合
+
+#### CSPエラーや404エラーが出る場合
+1. **ブラウザのキャッシュをクリア**
+   - Windows: `Ctrl` + `Shift` + `Delete`
+   - Mac: `Cmd` + `Shift` + `Delete`
+
+2. **強制リロード**
+   - Windows: `Ctrl` + `Shift` + `R`
+   - Mac: `Cmd` + `Shift` + `R`
+
+3. **キャッシュクリアツールを使用**
+   ```
+   clear-cache.html を開く
+   ```
+
+#### character-select.html が見つからないエラー
+このファイルは削除されています。キャッシュをクリアすることで解決します。
+
+#### Service Worker や Manifest のエラー
+最新版ではパスが修正されています。ブラウザのキャッシュをクリアしてください。
+
+### GitHub Pagesでの動作確認
+
+アプリURL: `https://[username].github.io/mathmagic/`
+
+数分待ってからアクセスしてください（GitHubの反映に時間がかかる場合があります）。
+
+### ローカルでのテスト
+
+```bash
+# Pythonの場合
+python -m http.server 8000
+
+# Node.jsの場合
+npx http-server
+```
+
+その後、`http://localhost:8000` でアクセス
+
 ---
 
 **楽しく学んで、強くなろう！ 🎮📚**
