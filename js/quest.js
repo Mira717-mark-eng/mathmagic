@@ -55,13 +55,16 @@ async function loadProblemsForQuest(questId) {
  */
 async function initQuestSession() {
     console.log('📋 クエストセッション初期化を開始');
+    console.log('🔍 デバッグ: MathMagic =', typeof MathMagic);
 
     // セッションデータを取得
     const session = MathMagic.getItem('questSession');
-    console.log('セッションデータ:', session);
+    console.log('🔍 デバッグ: セッションデータ =', JSON.stringify(session));
+    console.log('🔍 デバッグ: questId =', session?.questId);
 
     if (!session || !session.questId) {
         console.error('❌ セッションデータが不正です');
+        console.error('🔍 デバッグ: session =', session);
         alert('クエストセッションが見つかりません。\nワールドマップに戻ります。');
         window.location.href = 'world-map.html';
         return;
@@ -83,7 +86,9 @@ async function initQuestSession() {
 
     // 問題ファイルを読み込み
     try {
+        console.log('🔍 デバッグ: 問題ファイル読み込み開始 questId =', session.questId);
         problemsData = await loadProblemsForQuest(session.questId);
+        console.log('🔍 デバッグ: 問題データ取得完了 =', problemsData);
 
         // GeometryGeneratorが利用可能な場合、図形問題を自動生成して追加
         if (window.GeometryGenerator && problemsData.useGeometryGenerator) {
