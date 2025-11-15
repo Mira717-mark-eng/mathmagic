@@ -9,7 +9,7 @@
     <title>マスマジ！～魔法数学冒険記～</title>
     
     <!-- PWA Manifest -->
-    <link rel="manifest" href="./manifest.json">
+    <link rel="manifest" href="manifest.json">
 
     <!-- Apple PWA Support -->
     <meta name="mobile-web-app-capable" content="yes">
@@ -220,7 +220,7 @@
     <script>
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
-                navigator.serviceWorker.register('./service-worker.js')
+                navigator.serviceWorker.register('service-worker.js')
                     .then((registration) => {
                         console.log('✅ Service Worker登録成功:', registration.scope);
                         
