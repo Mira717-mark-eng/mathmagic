@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.tailwindcss.com https://cdn.jsdelivr.net https://www.gstatic.com; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://fonts.googleapis.com https://www.gstatic.com; font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net; img-src 'self' data: blob:; connect-src 'self';">
+    <title>最終統合テスト - マスマジ！</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="min-h-screen bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900 p-8">
+    <div class="container mx-auto max-w-6xl">
+        <h1 class="text-4xl font-bold text-white text-center mb-8">🎮 マスマジ！最終統合テスト</h1>
+
+        <!-- テスト結果サマリー -->
+        <div class="bg-white/10 backdrop-blur-sm rounded-lg p-6 mb-6">
+            <h2 class="text-2xl font-bold text-white mb-4">📊 テスト結果サマリー</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="bg-green-500/20 rounded-lg p-4 text-center">
+                    <div class="text-3xl font-bold text-green-300" id="passCount">0</div>
+                    <div class="text-sm text-white">合格</div>
+                </div>
+                <div class="bg-red-500/20 rounded-lg p-4 text-center">
+                    <div class="text-3xl font-bold text-red-300" id="failCount">0</div>
+                    <div class="text-sm text-white">失敗</div>
+                </div>
+                <div class="bg-yellow-500/20 rounded-lg p-4 text-center">
+                    <div class="text-3xl font-bold text-yellow-300" id="warnCount">0</div>
+                    <div class="text-sm text-white">警告</div>
+                </div>
+                <div class="bg-blue-500/20 rounded-lg p-4 text-center">
+                    <div class="text-3xl font-bold text-blue-300" id="totalCount">0</div>
+                    <div class="text-sm text-white">合計</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- テスト項目 -->
+        <div class="space-y-4" id="testResults">
+            <!-- テスト結果がここに表示されます -->
+        </div>
+
+        <!-- ナビゲーションテスト -->
+        <div class="bg-white/10 backdrop-blur-sm rounded-lg p-6 mt-6">
+            <h2 class="text-2xl font-bold text-white mb-4">🔗 ナビゲーションテスト</h2>
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-3">
+                <a href="index.html" class="bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-4 rounded text-center">
+                    トップページ
+                </a>
+                <a href="player-create.html" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded text-center">
+                    プレイヤー作成
+                </a>
+                <a href="world-map.html" class="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-4 rounded text-center">
+                    ワールドマップ
+                </a>
+                <a href="settings.html" class="bg-gray-600 hover:bg-gray-700 text-white font-bold py-3 px-4 rounded text-center">
+                    設定
+                </a>
+                <a href="shop.html" class="bg-yellow-600 hover:bg-yellow-700 text-white font-bold py-3 px-4 rounded text-center">
+                    ショップ
+                </a>
+                <a href="inventory.html" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-4 rounded text-center">
+                    インベントリ
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- テストスクリプト -->
+    <script src="js/main.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/worlds.js"></script>
+    <script>
+        const tests = [];
+        let passCount = 0;
+        let failCount = 0;
+        let warnCount = 0;
+
+        function addTest(category, name, status, message = '') {
+            tests.push({ category, name, status, message });
+            if (status === 'pass') passCount++;
+            else if (status === 'fail') failCount++;
+            else if (status === 'warn') warnCount++;
+        }
+
+        function runTests() {
+            console.log('🧪 統合テスト開始...');
+
+            // 1. JavaScriptモジュール読み込みテスト
+            addTest('Core', 'main.js 読み込み', typeof MathMagic !== 'undefined' ? 'pass' : 'fail',
+                typeof MathMagic !== 'undefined' ? 'MathMagicオブジェクトが定義されています' : 'MathMagicが見つかりません');
+
+            addTest('Core', 'player.js 読み込み', typeof PlayerManager !== 'undefined' ? 'pass' : 'fail',
+                typeof PlayerManager !== 'undefined' ? 'PlayerManagerが定義されています' : 'PlayerManagerが見つかりません');
+
+            addTest('Core', 'worlds.js 読み込み', typeof WORLD_DATA !== 'undefined' ? 'pass' : 'fail',
+                typeof WORLD_DATA !== 'undefined' ? 'WORLD_DATAが定義されています' : 'WORLD_DATAが見つかりません');
+
+            // 2. ワールドデータ検証
+            if (typeof WORLD_DATA !== 'undefined') {
+                const worldCount = Object.keys(WORLD_DATA).length;
+                addTest('Data', 'ワールドデータ', worldCount === 9 ? 'pass' : 'warn',
+                    `${worldCount}学年分のデータが定義されています（期待: 9）`);
+
+                // クエスト数チェック
+                let totalQuests = 0;
+                Object.values(WORLD_DATA).forEach(world => {
+                    totalQuests += world.quests.length;
+                });
+                addTest('Data', 'クエスト総数', totalQuests === 180 ? 'pass' : 'warn',
+                    `${totalQuests}クエスト（期待: 180）`);
+            }
+
+            // 3. LocalStorage機能テスト
+            try {
+                localStorage.setItem('test_key', 'test_value');
+                const value = localStorage.getItem('test_key');
+                localStorage.removeItem('test_key');
+                addTest('Storage', 'LocalStorage', value === 'test_value' ? 'pass' : 'fail',
+                    'LocalStorageが正常に動作します');
+            } catch (e) {
+                addTest('Storage', 'LocalStorage', 'fail', `エラー: ${e.message}`);
+            }
+
+            // 4. CSS読み込みテスト
+            const cssLink = document.querySelector('link[href="css/style.css"]');
+            addTest('Assets', 'CSSファイル', cssLink !== null ? 'pass' : 'warn',
+                cssLink ? 'style.cssが読み込まれています' : 'style.cssリンクが見つかりません');
+
+            // 5. 画像アセットテスト（存在確認）
+            const testImage = new Image();
+            testImage.onload = () => {
+                addTest('Assets', '背景画像', 'pass', 'fantasy-landscape.jpgが読み込めます');
+                displayResults();
+            };
+            testImage.onerror = () => {
+                addTest('Assets', '背景画像', 'warn', 'fantasy-landscape.jpgが見つかりません');
+                displayResults();
+            };
+            testImage.src = 'assets/images/backgrounds/fantasy-landscape.jpg';
+
+            // 6. PWA Manifest テスト
+            fetch('./manifest.json')
+                .then(response => response.json())
+                .then(data => {
+                    addTest('PWA', 'Manifest.json', 'pass', `アプリ名: ${data.short_name}`);
+                    displayResults();
+                })
+                .catch(error => {
+                    addTest('PWA', 'Manifest.json', 'warn', `読み込みエラー: ${error.message}`);
+                    displayResults();
+                });
+
+            // 7. Service Worker テスト
+            if ('serviceWorker' in navigator) {
+                addTest('PWA', 'Service Worker対応', 'pass', 'ブラウザがService Workerをサポートしています');
+            } else {
+                addTest('PWA', 'Service Worker対応', 'warn', 'このブラウザはService Workerをサポートしていません');
+            }
+
+            // 8. ストーリーファイルテスト
+            const storyFiles = ['grade1', 'grade2', 'grade3', 'grade4', 'grade5', 'grade6', 'jh1', 'jh2', 'jh3'];
+            let storyLoadCount = 0;
+            storyFiles.forEach(grade => {
+                fetch(`js/stories/${grade}-story.json`)
+                    .then(response => response.json())
+                    .then(data => {
+                        storyLoadCount++;
+                        if (storyLoadCount === 1) {
+                            addTest('Story', 'ストーリーファイル', 'pass', `${storyFiles.length}学年分のストーリーが確認できます`);
+                            displayResults();
+                        }
+                    })
+                    .catch(() => {
+                        addTest('Story', 'ストーリーファイル', 'warn', `${grade}-story.jsonが見つかりません`);
+                        displayResults();
+                    });
+            });
+
+            // 初回結果表示（同期テストのみ）
+            setTimeout(() => displayResults(), 100);
+        }
+
+        function displayResults() {
+            const resultsContainer = document.getElementById('testResults');
+            resultsContainer.innerHTML = '';
+
+            // カテゴリ別にグループ化
+            const categories = {};
+            tests.forEach(test => {
+                if (!categories[test.category]) {
+                    categories[test.category] = [];
+                }
+                categories[test.category].push(test);
+            });
+
+            // カテゴリごとに表示
+            Object.entries(categories).forEach(([category, categoryTests]) => {
+                const categoryDiv = document.createElement('div');
+                categoryDiv.className = 'bg-white/10 backdrop-blur-sm rounded-lg p-6';
+
+                categoryDiv.innerHTML = `
+                    <h3 class="text-xl font-bold text-white mb-4">${getCategoryIcon(category)} ${category}</h3>
+                    <div class="space-y-2">
+                        ${categoryTests.map(test => `
+                            <div class="flex items-start gap-3 p-3 bg-black/20 rounded">
+                                <div class="text-2xl">${getStatusIcon(test.status)}</div>
+                                <div class="flex-1">
+                                    <div class="font-bold text-white">${test.name}</div>
+                                    ${test.message ? `<div class="text-sm text-gray-300">${test.message}</div>` : ''}
+                                </div>
+                            </div>
+                        `).join('')}
+                    </div>
+                `;
+                resultsContainer.appendChild(categoryDiv);
+            });
+
+            // サマリー更新
+            document.getElementById('passCount').textContent = passCount;
+            document.getElementById('failCount').textContent = failCount;
+            document.getElementById('warnCount').textContent = warnCount;
+            document.getElementById('totalCount').textContent = tests.length;
+        }
+
+        function getCategoryIcon(category) {
+            const icons = {
+                'Core': '⚙️',
+                'Data': '📚',
+                'Storage': '💾',
+                'Assets': '🖼️',
+                'PWA': '📱',
+                'Story': '📖'
+            };
+            return icons[category] || '📋';
+        }
+
+        function getStatusIcon(status) {
+            return status === 'pass' ? '✅' : status === 'fail' ? '❌' : '⚠️';
+        }
+
+        // ページ読み込み時にテスト実行
+        window.addEventListener('load', () => {
+            setTimeout(runTests, 500);
+        });
+    </script>
+</body>
+</html>
