@@ -183,7 +183,7 @@
 
                     <!-- 回答入力エリア -->
                     <div class="answer-card animate-bounce-in">
-                        <div class="bg-white/60 backdrop-blur-sm rounded-lg shadow-lg p-4 border border-gray-300/60 h-[300px] flex flex-col justify-center">
+                        <div class="bg-white/60 backdrop-blur-sm rounded-lg shadow-lg p-4 border border-gray-300/60 min-h-[300px] flex flex-col justify-center">
                             <div>
                                 <h3 class="text-base font-bold text-gray-900 text-center drop-shadow-sm mb-6">
                                     <i class="fas fa-edit text-purple-600 mr-2"></i>
@@ -201,7 +201,7 @@
                                     <span id="unit-text" class="text-xl font-bold text-gray-600">個</span>
                                 </div>
                                 <!-- ボタングループ -->
-                                <div class="flex items-center justify-center gap-3 flex-wrap">
+                                <div class="flex items-center justify-center gap-3 flex-wrap mb-4">
                                     <button id="submit-btn" class="bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white text-lg font-bold px-8 py-3 rounded-full shadow-xl transition transform hover:scale-105 active:scale-95">
                                         <i class="fas fa-check-circle mr-2"></i>
                                         答える！
@@ -215,8 +215,8 @@
                                     </button>
                                 </div>
 
-                                <!-- ヒント表示エリア -->
-                                <div id="hint-container" class="mt-2 hidden">
+                                <!-- ヒント表示エリア（最大高さ制限＋スクロール） -->
+                                <div id="hint-container" class="max-h-64 overflow-y-auto hidden">
                                     <!-- ヒントカードはJavaScriptで動的生成されます -->
                                 </div>
 
